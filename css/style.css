@@ -1360,7 +1360,7 @@ max-width: var(--cadres-max-width);
    ================================================== */
 @media (max-width: 768px) {
     :root {
-        --font-scale: 0.5;
+        --font-scale: 3;
     }
     .episode-image-zone {
         width: 330px !important;
