@@ -11,43 +11,10 @@
     <link rel=" stylesheet" href="css/style.css">
 </head>
 
-<body>
-
+<body data-active-menu="accueil">
     <div class="app">
-        <header class="topbar">
-            <div class="brand brand-logo">
-                <div class="brand-icon">
-                    <span>🎬</span>
-                </div>
-                <span class="brand-title">Médiathèque</span>
-            </div>
-            <nav class="main-nav">
-                <a class="nav-button active" data-page="home" href="index.html">Accueil</a>
-                <a class="nav-button" data-page="collections" href="collections.html"
-                    onclick="event.preventDefault(); openCollectionContext();">Collections</a>
-                <a class="nav-button" data-page="films" href="films.html"
-                    onclick="setActiveFilmsContext();">Films</a>
-                <a class="nav-button" data-page="series" href="series.html">Séries</a>
-            </nav>
-            <div class="top-actions">
-                <button class="icon-button refresh-button linux-hidden mediaserver-only" 
-                        onclick="reloadCatalog('all')">
-                    <span class="refresh-icon">↻</span>
-                    <span>Scan des disques</span>
-                </button>
-                <span class="user-separator"></span>
-
-                <span id="userGreeting" class="user-greeting hidden">
-                    Bonjour
-                </span>
-                <button
-                    id="userButton"
-                    class="user-button"
-                    onclick="showUserPrompt()">
-                    ?
-                </button>
-            </div>
-        </header>
+        <!-- Topbar mutualisée -->
+        <div id="topbarContainer"></div>
 
         <main>
             <section id="page-home" class="page active">
@@ -58,7 +25,8 @@
                 </div>
 
                 <div class="home-cards">
-                    <article class="home-card home-card-films" onclick="setActiveFilmsContext(); window.location.href='films.html'">
+                    <article class="home-card home-card-films" 
+                                onclick="setActiveFilmsContext(); window.location.href='films.html'">
                         <div class="home-card-image film-hero"></div>
                         <div class="home-card-icon">🎬</div>
                         <h2>Films</h2>
@@ -69,7 +37,8 @@
                         </button>
                     </article>
 
-                    <article class="home-card home-card-series" onclick="window.location.href='series.html'">
+                    <article class="home-card home-card-series" 
+                                onclick="window.location.href='series.html'">
                         <div class="home-card-image serie-hero"></div>
                         <div class="home-card-icon purple">📺</div>
                         <h2>Séries</h2>
@@ -109,6 +78,15 @@
             </div>
         </div>
     </div>
+
+    <!-- Charger top bar -->
+    <script>
+        fetch("common/topbar.html")
+            .then(response => response.text())
+            .then(html => {
+                document.getElementById("topbarContainer").innerHTML = html;
+            });
+    </script>
 
     <script src="config/constants.js"></script>
     <script src="js/calculContext.js"></script>

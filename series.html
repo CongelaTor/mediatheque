@@ -10,39 +10,10 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 
-<body>
+<body data-active-menu="series">
     <div class="app">
-        <header class="topbar">
-            <div class="brand">
-                <div class="brand-icon sidebar-toggle hamburger-icon" id="sidebarToggle"><span>☰</span></div>
-                <span class="brand-title">Médiathèque</span>
-            </div>
-            <nav class="main-nav">
-                <a class="nav-button" data-page="home" href="index.html">Accueil</a>
-                <a class="nav-button" data-page="collections" href="collections.html">Collections</a>
-                <a class="nav-button" data-page="films" href="films.html">Films</a>
-                <a class="nav-button active" data-page="series" href="series.html">Séries</a>
-            </nav>
-            <div class="top-actions">
-                <button
-                    class="icon-button refresh-button linux-hidden mediaserver-only"
-                    onclick="reloadCatalog('series')">
-                    <span class="refresh-icon">↻</span>
-                    <span>Scan des séries</span>
-                </button>
-                <span class="user-separator"></span>
-
-                <span id="userGreeting" class="user-greeting hidden">
-                    Bonjour
-                </span>
-                <button
-                    id="userButton"
-                    class="user-button"
-                    onclick="showUserPrompt()">
-                    ?
-                </button>
-            </div>
-        </header>
+        <!-- Topbar mutualisée -->
+        <div id="topbarContainer"></div>
         <main>
             <section id="page-series" class="page active">
                 <div class="layout">
@@ -137,6 +108,15 @@
             </div>
         </div>
     </div>
+
+    <!-- Charger top bar -->
+    <script>
+        fetch("common/topbar.html")
+            .then(response => response.text())
+            .then(html => {
+                document.getElementById("topbarContainer").innerHTML = html;
+            });
+    </script>
 
     <script src="config/constants.js"></script>
     <script src="js/state.js"></script>

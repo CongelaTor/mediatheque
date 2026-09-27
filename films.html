@@ -10,48 +10,11 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 
-<body>
+<body data-active-menu="">
     <div class="app">
-        <header class="topbar">
-            <div class="brand">
-                <div class="brand-icon sidebar-toggle hamburger-icon" id="sidebarToggle"><span>☰</span></div>
-                <span class="brand-title">Médiathèque</span>
-            </div>
-            <nav class="main-nav">
-                <a class="nav-button" data-page="home" href="index.html">Accueil</a>
-                <a class="nav-button" data-page="collections" href="collections.html"
-                    onclick="event.preventDefault(); openCollectionContext();">Collections</a>
-                <a class="nav-button active" data-page="films" href="films.html"
-                    onclick="setActiveFilmsContext();">Films</a>
-                <a class="nav-button mediaserver-only" data-page="tools" href="tools.html">Tools</a>
-                <a class="nav-button" data-page="series" href="series.html">Séries</a>
-            </nav>
-            <div class="top-actions">
-                <button
-                    id="scanFilmsButton"
-                    class="icon-button refresh-button linux-hidden mediaserver-only"
-                    onclick="reloadCatalog('films')">
-                    <span class="refresh-icon">↻</span>
-                    <span>Scan des films</span>
-                </button>
-                <button
-                    class="icon-button refresh-button hidden"
-                    onclick="showDetectionPopup()">
-                    <span>Détection</span>
-                </button>
-                <span class="user-separator"></span>
-            
-                <span id="userGreeting" class="user-greeting hidden">
-                    Bonjour
-                </span>
-                <button
-                    id="userButton"
-                    class="user-button"
-                    onclick="showUserPrompt()">
-                    ?
-                </button>
-            </div>
-        </header>
+        <!-- Topbar mutualisée -->
+        <div id="topbarContainer"></div>
+        
         <main>
             <section id="page-films" class="page active">
                 <div class="layout">
@@ -150,6 +113,15 @@
             </div>
         </div>
     </div>
+
+    <!-- Charger top bar -->
+    <script>
+        fetch("common/topbar.html")
+            .then(response => response.text())
+            .then(html => {
+                document.getElementById("topbarContainer").innerHTML = html;
+            });
+    </script>
 
     <script src="config/constants.js"></script>
     <script src="js/state.js"></script>

@@ -27,15 +27,20 @@ const filmsViewStateKey = "filmsViewState";
 const toolsButtonsStateKey = "toolsButtonsState";
 
 function setActiveFilmsContext() {
-  if (isCollectionContextActive()) {
-    const currentUrl =
-      window.location.pathname.split("/").pop() + window.location.search;
+  const currentFile = window.location.pathname.split("/").pop();
+  if (
+    isCollectionContextActive() &&
+    (currentFile === "films.html" || currentFile === "film-detail.html")
+  ) {
+    const currentUrl = currentFile + window.location.search;
+    console.log("currentFile =", currentFile);
     sessionStorage.setItem("collectionReturnUrl", currentUrl);
   }
   sessionStorage.setItem("activeFilmsContext", "films");
 }
 
 function setActiveCollectionContext() {
+  console.log("setActiveCollectionContext >>>>> = collection");
   sessionStorage.setItem("activeFilmsContext", "collection");
 }
 
@@ -43,6 +48,17 @@ function openCollectionContext() {
   setActiveCollectionContext();
   const collectionReturnUrl = sessionStorage.getItem("collectionReturnUrl");
   const selectedCollectionId = sessionStorage.getItem("selectedCollectionId");
+
+  console.log(
+    "collectionReturnUrl =",
+    sessionStorage.getItem("collectionReturnUrl"),
+  );
+
+  console.log(
+    "selectedCollectionId =",
+    sessionStorage.getItem("selectedCollectionId"),
+  );
+
   if (selectedCollectionId && collectionReturnUrl) {
     window.location.href = collectionReturnUrl;
     return;
@@ -88,8 +104,6 @@ function saveSearchText() {
 function loadSearchText() {
   const key = getSearchTextKey();
   if (!key) {
-
-    
     return "";
   }
   return localStorage.getItem(key) ?? "";

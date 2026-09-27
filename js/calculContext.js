@@ -34,14 +34,15 @@
 
     const isDevPc = isLocalUrl && mediaServerAvailable;
 
-    console.log("[calculContext][Environment]");
-    console.log("  platform             :", platform);
-    console.log("  hostname             :", hostname);
-    console.log("  isGitUrl             :", isGitUrl);
-    console.log("  isLocalUrl           :", isLocalUrl);
-    console.log("  mediaServerAvailable :", mediaServerAvailable);
-    console.log("  isBrowser            :", isBrowser);
-    console.log("  isDevPc              :", isDevPc);
+    //TODO console.log("[calculContext][Environment]");
+    //console.log("[calculContext][Environment]");
+    //console.log("  platform             :", platform);
+    //console.log("  hostname             :", hostname);
+    //console.log("  isGitUrl             :", isGitUrl);
+    //console.log("  isLocalUrl           :", isLocalUrl);
+    //console.log("  mediaServerAvailable :", mediaServerAvailable);
+    //console.log("  isBrowser            :", isBrowser);
+    //console.log("  isDevPc              :", isDevPc);
 
     return {
       isBrowser,
@@ -71,15 +72,16 @@
       canRequest: environment.isGitUrl && !environment.isDevPc,
     };
 
-    console.log("[calculContext][Permissions]");
-    console.log("  canPlay          :", result.canPlay);
-    console.log("  canResume        :", result.canResume);
-    console.log("  canSynchronize   :", result.canSynchronize);
-    console.log("  canScan          :", result.canScan);
-    console.log("  canAssociateTmdb :", result.canAssociateTmdb);
-    console.log("  canUseGreyButtons:", result.canUseGreyButtons);
-    console.log("  canPublishCatalog:", result.canPublishCatalog);
-    console.log("  canRequest       :", result.canRequest);
+    //TO DO console.log("[calculContext][Permissions]");
+    //console.log("[calculContext][Permissions]");
+    //console.log("  canPlay          :", result.canPlay);
+    //console.log("  canResume        :", result.canResume);
+    //console.log("  canSynchronize   :", result.canSynchronize);
+    //console.log("  canScan          :", result.canScan);
+    //console.log("  canAssociateTmdb :", result.canAssociateTmdb);
+    //console.log("  canUseGreyButtons:", result.canUseGreyButtons);
+    //console.log("  canPublishCatalog:", result.canPublishCatalog);
+    //console.log("  canRequest       :", result.canRequest);
 
     return result;
   }

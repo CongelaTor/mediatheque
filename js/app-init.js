@@ -1,8 +1,36 @@
-// ------------------------------------
-// Projet créé le 15/08/2026
-// ------------------------------------
-const savedFontScale = localStorage.getItem("fontScale");
+// Menu actif
+function initActiveMenu() {
+  let activeMenu = document.body.dataset.activeMenu;
+  console.log("activeMenu = ", activeMenu);
+  if (!activeMenu) {
+    activeMenu = isCollectionContextActive() ? "collections" : "films";
+  }
+  console.log("activeMenu2 = ", activeMenu);
+  document.querySelectorAll(".nav-button.active").forEach((button) => {
+    button.classList.remove("active");
+  });
+  document
+    .querySelector(`.nav-button[data-page="${activeMenu}"]`)
+    ?.classList.add("active");
+}
 
+// Navigation menu actif
+const topbarContainer = document.getElementById("topbarContainer");
+if (topbarContainer) {
+  const topbarObserver = new MutationObserver(() => {
+    if (topbarContainer.querySelector(".nav-button")) {
+      topbarObserver.disconnect();
+      initActiveMenu();
+    }
+  });
+  topbarObserver.observe(topbarContainer, {
+    childList: true,
+    subtree: true,
+  });
+}
+
+// Taille de la police dans l'application
+const savedFontScale = localStorage.getItem("fontScale");
 if (savedFontScale) {
   document.documentElement.style.setProperty("--font-scale", savedFontScale);
 }

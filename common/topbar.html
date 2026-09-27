@@ -1,0 +1,45 @@
+<header class="topbar">
+    <div class="brand">
+        <div class="brand-icon sidebar-toggle hamburger-icon" id="sidebarToggle"><span>☰</span></div>
+        <span class="brand-title">Médiathèque</span>
+    </div>
+    <nav class="main-nav">
+        <a class="nav-button" data-page="index" href="index.html">Accueil</a>
+        <a class="nav-button" data-page="collections" href="collections.html">Collections</a>
+        <a class="nav-button" data-page="films" href="films.html" 
+            onclick=" setActiveFilmsContext(); ">Films</a>
+        <a class="nav-button" data-page="series" href="series.html">Séries</a>
+    </nav>
+    <div class="top-actions">
+        <button
+            class="icon-button refresh-button linux-hidden mediaserver-only"
+            onclick="reloadCatalog('films')">
+            <span class="refresh-icon">↻</span>
+            <span>Scan des films</span>
+        </button>
+        <button
+            class="icon-button refresh-button hidden"
+            onclick="showDetectionPopup()">
+            <span>Détection</span>
+        </button>
+        <span class="user-separator"></span>
+        
+        <span id="userGreeting" class="user-greeting hidden">
+            Bonjour
+        </span>
+        <button
+            id="userButton"
+            class="user-button"
+            onclick="showUserPrompt()">
+            ?
+        </button>
+
+        <button
+            id="fontZoomButton"
+            class="font-zoom-button"
+            title="Zoom texte">
+            ↕A
+        </button>
+
+    </div>
+</header>
