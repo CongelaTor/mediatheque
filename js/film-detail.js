@@ -389,12 +389,13 @@ function requestFilmDownload(film) {
   }
   const demandeur = encodeURIComponent(demandeurValue);
   const titre = encodeURIComponent(film.titreTmdb || film.titre);
-  const fichier = encodeURIComponent(film.fichier.replaceAll("/", "\\"));
-  const url =
+  const pathFichier = encodeURIComponent(film.fichier.replaceAll("/", "\\"));
+  const urlFilm = encodeURIComponent(film.fichier.replaceAll("/", "\\"));
+  const urlGoogleForm =
     `https://docs.google.com/forms/d/e/1FAIpQLSc4bsOBKlNGPC5pVSz-TMDYFLoSCyUJ6bUxCchSQXsHcl5aWg/viewform` +
     `?usp=pp_url` +
     `&entry.989827274=${demandeur}` +
     `&entry.75537578=${titre}` +
-    `&entry.287740096=${fichier}`;
-  window.open(url, "_blank");
+    `&entry.287740096=${pathFichier}`;
+  window.open(urlGoogleForm, "_blank");
 }
