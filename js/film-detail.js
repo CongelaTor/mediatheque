@@ -392,10 +392,22 @@ function requestFilmDownload(film) {
   const pathFichier = encodeURIComponent(film.fichier.replaceAll("/", "\\"));
   const urlFilm = encodeURIComponent(film.fichier.replaceAll("/", "\\"));
   const urlGoogleForm =
-    `https://docs.google.com/forms/d/e/1FAIpQLSc4bsOBKlNGPC5pVSz-TMDYFLoSCyUJ6bUxCchSQXsHcl5aWg/viewform` +
-    `?usp=pp_url` +
-    `&entry.989827274=${demandeur}` +
-    `&entry.75537578=${titre}` +
-    `&entry.287740096=${pathFichier}`;
+    `https://docs.google.com/forms/d/e/` +
+    `1FAIpQLSe3uzQeDPyxNPscC1cBXq9_x6KWc_q0U9xojAakoUp8Imp_tA` +
+    `/viewform?usp=pp_url` +
+    `&entry.802088561=${demandeur}` +
+    `&entry.257324969=${titre}` +
+    `&entry.1329036869=${pathFichier}`;
+  // https://docs.google.com/forms/d/e//viewform?usp=pp_url&entry.802088561=alain
+  // &entry.1740534205=comment
+  // &entry.257324969=titre
+  // &entry.1329036869=chemin
+  
+  // Forms V1
+  // `https://docs.google.com/forms/d/e/1FAIpQLSc4bsOBKlNGPC5pVSz-TMDYFLoSCyUJ6bUxCchSQXsHcl5aWg/viewform` +
+  // `?usp=pp_url` +
+  // `&entry.989827274=${demandeur}` +
+  // `&entry.75537578=${titre}` +
+  // `&entry.287740096=${pathFichier}`;
   window.open(urlGoogleForm, "_blank");
 }
