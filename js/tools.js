@@ -7,7 +7,6 @@ let applyToAll = false;
 async function initToolsPage() {
   currentPage = "tools";
 
-  initSidebarToggle();
   updateUserGreeting();
   await isMediaServerAvailable();
   await loadCatalog();

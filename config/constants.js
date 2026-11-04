@@ -105,8 +105,7 @@ function updateSidebarTitle(elementId, label, value) {
   if (!element) {
     return;
   }
-  const displayValue = value === "all" ? "Tous" : value;
-  element.textContent = `${label} (${displayValue})`;
+  element.textContent = value === "all" ? label : `${label} (${value})`;
 }
 
 function initFiltersSidebar(ecran) {
