@@ -23,7 +23,6 @@ async function initFilmsPage() {
   // SET SIDE FILTERS
   //------------------------------
   const state = loadSidebarFiltersState();
-  currentAjouts = state.ajouts ?? "all";
   currentGenre = state.genre ?? "all";
   currentType = state.type ?? "all";
   currentStudio = state.studio ?? "all";
@@ -83,12 +82,10 @@ function renderFilms() {
   const grid = document.getElementById("filmsGrid");
   grid.innerHTML = "";
   const groupedFilms = new Map();
-
   for (const film of catalog.films) {
     const groupKey = film.tmdbId
       ? `tmdb:${film.tmdbId}`
       : `title:${film.titre}|${film.annee || ""}`;
-
     if (!groupedFilms.has(groupKey)) {
       groupedFilms.set(groupKey, {
         film,
@@ -96,16 +93,12 @@ function renderFilms() {
         hasExactDuplicate: false,
       });
     }
-
     const group = groupedFilms.get(groupKey);
-
     group.files.push(film);
-
     if (film.doublonExact) {
       group.hasExactDuplicate = true;
     }
   }
-
   let films = [...groupedFilms.values()]
     .map((group) => {
       group.film.fileCount = group.files.length;
@@ -127,7 +120,6 @@ function renderFilms() {
     .filter((film) =>
       matchesSearch(film.titreTmdb ? film.titreTmdb : film.titre),
     );
-
   if (currentAjouts === "Récents") {
     films = films.sort(
       (a, b) =>
@@ -149,7 +141,6 @@ function renderFilms() {
       (a.titreTmdb || a.titre).localeCompare(b.titreTmdb || b.titre, "fr"),
     );
   }
-
   const collectionName = isCollectionContextActive()
     ? sessionStorage.getItem("selectedCollectionName")
     : null;
@@ -159,11 +150,33 @@ function renderFilms() {
       "filmsSubtitle",
       `${films.length} film${films.length > 1 ? "s" : ""}`,
     );
+    const collection = (catalog.collections || []).find(
+      (item) => String(item.collectionId) === window.selectedCollectionId,
+    );
+    const collectionInfoCard = document.getElementById("collectionInfoCard");
+    if (collection && collectionInfoCard) {
+      const imageContainer =
+        collectionInfoCard.querySelector(".serie-info-image");
+      imageContainer.innerHTML = "";
+      if (collection.collectionImage) {
+        imageContainer.appendChild(
+          createPosterContent(
+            `https://image.tmdb.org/t/p/w500${collection.collectionImage}`,
+            collection.collectionNom,
+            collection.collectionId,
+          ),
+        );
+      }
+      setText(
+        "collectionInfoDescription",
+        collection.collectionDescription || "",
+      );
+      collectionInfoCard.classList.remove("hidden");
+    }
   } else {
     setText("filmsCount", `${films.length} film${films.length > 1 ? "s" : ""}`);
     setText("filmsSubtitle", "Hors collections");
   }
-
   for (const film of films) {
     grid.appendChild(createFilmCard(film));
   }

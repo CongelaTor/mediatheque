@@ -53,16 +53,22 @@
                                 autocomplete="off"
                                 placeholder="Filtrer..."
                                 oninput="handleSearch()">
-                        <button id="backToCollectionsButton" 
-                            class="tmdb-associate-button hidden">
-                            ← Retour
-                        </button>
+                            <button id="backToCollectionsButton" 
+                                class="tmdb-associate-button hidden">
+                                ← Retour
+                            </button>
                         </div>
-                        <button id="resumeFilmButton" 
-                                class="resume-button hidden" 
-                                onclick="resumeFilm()">
-                            ▶ Reprendre :
-                            <span id="resumeFilmText"></span>
+
+                        <div id="collectionInfoCard" class="film-detail-card serie-info-card hidden">
+                            <div class="serie-info-image"></div>
+                            <div id="collectionInfoDescription" class="tmdb-result-description"></div>
+                        </div>
+
+                        <button id="resumeFilmButton"   
+                                class="resume-button hidden"   
+                                onclick="resumeFilm()">  
+                            ▶ Reprendre :  
+                            <span id="resumeFilmText"></span>  
                         </button>
 
                         <div id="languageFilters" class="language-filters">

@@ -1,6 +1,827 @@
 {
     "version": 1,
     "dateDernierScan": "2026-09-21T11:55:42.843Z",
+    "collections": [
+        {
+            "collectionId": 9485,
+            "collectionNom": "Fast and Furious - Saga",
+            "collectionImage": "/8iLbX1Bc7r7fpbBe92ZMCKn1UZr.jpg",
+            "collectionDescription": "Fast and Furious est une série de films d'action avec comme toile de fond les courses de rue illégales et des braquages.",
+            "collectionFilmCount": 12
+        },
+        {
+            "collectionId": 221622,
+            "collectionNom": "12 Rounds - Saga",
+            "collectionImage": "/5ra91krahJv3CKklkxb01Yo74r5.jpg",
+            "collectionDescription": "12 Rounds est un film d'action américain de 2009 réalisé par Renny Harlin et produit par WWE Studios. Le casting est dirigé par John Cena, aux côtés d'Aidan Gillen, Steve Harris, Gonzalo Menendez, Brian J. White, Ashley Scott et Taylor Cole. Le film est sorti le 27 mars 2009 dans les salles américaines. Randy Orton joue dans une suite autonome intitulée 12 Rounds 2: Reloaded. La suite est sortie en 2013. Il a été annoncé en 2014 que Dean Ambrose allait jouer dans le troisième film de la franchise intitulé 12 Rounds 3 : Lockdown.",
+            "collectionFilmCount": 3
+        },
+        {
+            "collectionId": 86311,
+            "collectionNom": "Avengers - Saga",
+            "collectionImage": "/qvWDDPlo2MT7YCU4NSVxCgStxqu.jpg",
+            "collectionDescription": "Une série de films de super-héros produite par Marvel Studios qui se base sur l'équipe de super-héros issue de l'univers de Marvel Comics. La série met en scène des super-héros unissant leurs forces pour aider l'organisation de maintien de la paix SHIELD dirigée par Nick Fury.",
+            "collectionFilmCount": 6
+        },
+        {
+            "collectionId": 529892,
+            "collectionNom": "Black Panther - Saga",
+            "collectionImage": "/1bVrlIR6snwTglKtl5umYmGpnsb.jpg",
+            "collectionDescription": "Le Wakanda et sa métropole, dominée par des gratte-ciel modernes, est une nation africaine techniquement avancée qui est coupée du monde extérieur et se fait passer pour un pays pauvre du tiers-monde. Grâce à l'impact d'une météorite et à la source de matière première qui en résulte, le seul métal local, le vibranium, le pays africain peut se rendre invisible au reste du monde sous un immense dispositif de camouflage. Aussi, parce que la source de progrès pourrait faire des ravages entre de mauvaises mains, les premiers dirigeants du Wakanda ont opté pour l'isolement, qui perdure encore aujourd'hui.",
+            "collectionFilmCount": 3
+        },
+        {
+            "collectionId": 623911,
+            "collectionNom": "Captain Marvel - Saga",
+            "collectionImage": "/pHnZAJlnO2GwHZScT2ouX7wyIyH.jpg",
+            "collectionDescription": "Captain Marvel est une série de films de super-héros américains de 2019 à 2022 basée sur le personnage de Marvel Comics avec Carol Danvers. Les films sont produits par Marvel Studios et distribués par Walt Disney Studios Motion Pictures.",
+            "collectionFilmCount": 2
+        },
+        {
+            "collectionId": 131295,
+            "collectionNom": "Captain America - Saga",
+            "collectionImage": "/1nefddmvyXD8N2R5o6qU9U7Ty3w.jpg",
+            "collectionDescription": "Steven « Steve » Rogers, alias Captain America est un super-héros évoluant dans l'univers Marvel de la maison d'édition Marvel Comics. Créé par scénariste Joe Simon et le dessinateur Jack Kirby, le personnage de fiction apparaît pour la première fois dans le comic book Captain America Comics #1 en décembre 1940",
+            "collectionFilmCount": 4
+        },
+        {
+            "collectionId": 284433,
+            "collectionNom": "Les Gardiens de la Galaxie - Saga",
+            "collectionImage": "/hQrNZnlIqB9ccaPoaU5rNoTgZJp.jpg",
+            "collectionDescription": "Une série de films de super-héros produite par Marvel Studios qui se base sur l'équipe des Gardiens de la Galaxie issue de l'univers de Marvel Comics. La série met en scène une bande d'anciens bandits unissant leurs forces pour protéger la galaxie des menaces planétaires.",
+            "collectionFilmCount": 3
+        },
+        {
+            "collectionId": 131292,
+            "collectionNom": "Iron Man - Saga",
+            "collectionImage": "/bQGciwYBe0aG1UNHuIiFkey4pqX.jpg",
+            "collectionDescription": "Collection des films Iron Man (littéralement l'Homme de Fer), super-héros de comics créé en 1963 par Stan Lee pour Marvel Comics.",
+            "collectionFilmCount": 3
+        },
+        {
+            "collectionId": 131296,
+            "collectionNom": "Thor - Saga",
+            "collectionImage": "/i464FnkIvidmW7h7fw3upIDvaGo.jpg",
+            "collectionDescription": "Une série de films basée sur Thor, le personnage de bande dessinée publié par Marvel Comics.",
+            "collectionFilmCount": 4
+        },
+        {
+            "collectionId": 454520,
+            "collectionNom": "Albator - Saga",
+            "collectionImage": "/z0NsZNauyNM1ZKj3FCfJvZoSwSA.jpg",
+            "collectionDescription": "Collection de films sur le capitaine Harlock",
+            "collectionFilmCount": 2
+        },
+        {
+            "collectionId": 573693,
+            "collectionNom": "Aquaman - Saga",
+            "collectionImage": "/2k754gEz4uL3j1GhjitTOJ6Rcbm.jpg",
+            "collectionDescription": "Série de films centrée sur le personnage d'Aquaman de DC Comics.",
+            "collectionFilmCount": 2
+        },
+        {
+            "collectionId": 85817,
+            "collectionNom": "Arthur et les Minimoys - Saga",
+            "collectionImage": "/gPZyaRcmkfABVIFM1GdVNcL2UDj.jpg",
+            "collectionDescription": "La saga Arthur et les Minimoys.",
+            "collectionFilmCount": 3
+        },
+        {
+            "collectionId": 2396,
+            "collectionNom": "Astérix & Obélix - Saga",
+            "collectionImage": "/lF0VfeCBPWbulAFW0KcISgPquuJ.jpg",
+            "collectionDescription": "L’univers d’Astérix prend vie sur grand écran ! Adaptations fidèles et pleines d’humour, les live action réunissent des acteurs talentueux, des décors spectaculaires et des aventures inoubliables. Entre batailles épiques contre les Romains et quêtes hilarantes, plongez dans l’énergie et la magie des aventures gauloises comme vous ne les avez jamais vues !",
+            "collectionFilmCount": 6
+        },
+        {
+            "collectionId": 124881,
+            "collectionNom": "Au bout de la nuit - Saga",
+            "collectionImage": "/scwFenIwHJVKIxu0GGQkO9hGb2Y.jpg",
+            "collectionDescription": "Street Kings est un film d'action et policier de 2008 réalisé par David Ayer, avec Keanu Reeves, Forest Whitaker, Hugh Laurie, Chris Evans, Common et The Game. Street Kings: Motor City est un film d'action et policier sorti directement en DVD en 2011, réalisé par Chris Fisher et avec Ray Liotta. Il s'agit d'une suite du film Street Kings de 2008. Ce n'est une suite que de nom, car l'action se déroule à Detroit et non à Los Angeles, et seul Clifton Powell reprend son rôle du premier film, cette fois-ci dans le rôle de Tyrone Fowler au lieu du sergent Green. Cependant, il aborde des thèmes similaires à ceux du premier film, comme la corruption policière et les enquêtes des affaires internes.",
+            "collectionFilmCount": 2
+        },
+        {
+            "collectionId": 87096,
+            "collectionNom": "Avatar - Saga",
+            "collectionImage": "/uO2yU3QiGHvVp0L5e5IatTVRkYk.jpg",
+            "collectionDescription": "La saga Avatar raconte l'histoire du monde de Pandora, habité par les Na'vi, une race humanoïde indigène. Le protagoniste principal, Jake Sully, est envoyé sur Pandora en tant qu'avatar, un hybride entre un humain et un Na'vi. Au cours de sa mission, Jake découvre la beauté et la complexité du monde des Na'vi et tisse des liens profonds avec les habitants de la planète. La saga se concentre sur le conflit entre les humains et les Na'vi et la lutte pour sauver le monde de Pandora.",
+            "collectionFilmCount": 5
+        },
+        {
+            "collectionId": 422834,
+            "collectionNom": "Ant-Man - Saga",
+            "collectionImage": "/3PTRzkZHsiIfnHdNFvJn0poyPvn.jpg",
+            "collectionDescription": "Une série de films de super-héros basée sur le personnage de Marvel Comics Ant-Man, et faisant partie de la série Marvel Cinematic Universe (MCU). La série est centrée sur Scott Lang, un ancien détenu qui a volé un costume qui lui permet de changer de taille. Hank Pym, l'homme-fourmi original, a découvert les particules subatomiques qui rendent la transformation possible. Hank conseille Scott pour qu'il reprenne le pseudonyme de super-héros.",
+            "collectionFilmCount": 3
+        },
+        {
+            "collectionId": 618529,
+            "collectionNom": "Doctor Strange - Saga",
+            "collectionImage": "/jGyjFboipgcBwvnrORWjZqoxOeR.jpg",
+            "collectionDescription": "Cette série raconte l'histoire du neurochirurgien Stephen Strange qui, après avoir perdu la capacité d'utiliser ses mains après un accident de voiture, demande l'aide de \"L'ancien\" pour devenir un maître des arts mystiques connu sous le nom de Doctor Strange.",
+            "collectionFilmCount": 2
+        },
+        {
+            "collectionId": 531241,
+            "collectionNom": "Spider-Man (MCU) - Saga",
+            "collectionImage": "/3BVng0lmJyYIUqm5dxLS2eZ2625.jpg",
+            "collectionDescription": "Cette saga nous dépeint la vie de Peter Parker, partagé entre se vie de lycéen lambda et ses aspirations de justicier, tout d'abord à l'échelle de son quartier et plus tard à une échelle planétaire au sein de la prestigieuse équipe des Avengers, chaperonné par Iron-Man, alias Tony Stark...",
+            "collectionFilmCount": 4
+        },
+        {
+            "collectionId": 1719057,
+            "collectionNom": "Ballerina Collection",
+            "collectionImage": "/8qduXO1GOxr8Z6Cvl29sbYZk6dl.jpg",
+            "collectionDescription": "",
+            "collectionFilmCount": 2
+        },
+        {
+            "collectionId": 85946,
+            "collectionNom": "Banlieue 13 - Saga",
+            "collectionImage": "/aA7RT9iKMNLTRwH3jKNV9iEKSOp.jpg",
+            "collectionDescription": "Saga des films Banlieue 13.",
+            "collectionFilmCount": 2
+        },
+        {
+            "collectionId": 263,
+            "collectionNom": "The Dark Knight - Saga",
+            "collectionImage": "/ee1TdZpvSJ2O1fda2orJvLiJ74R.jpg",
+            "collectionDescription": "La trilogie très acclamée « The Dark Knight » de Christopher Nolan se compose de BATMAN BEGINS, THE DARK KNIGHT et THE DARK KNIGHT RISES. BATMAN BEGINS explore les origines de la légende de Batman et l’émergence du Dark Knight comme puissance au service du bien. Dans THE DARK KNIGHT, Batman s’efforce de démanteler les dernières organisations criminelles qui sévissent à Gotham, mais se retrouve rapidement au centre d’un chaos total orchestré par un nouveau génie du crime, le Joker. Dans THE DARK KNIGHT RISES, Batman a disparu dans la nuit. Le héros est devenu fugitif après avoir été rendu responsable de la mort de Harvey Dent. L’émergence de Bane, un terroriste masqué qui a préparé un plan diabolique pour Gotham, le force à sortir de son exil volontaire. Mais même s’il porte à nouveau le costume, Batman n’est peut être pas de taille face à cette nouvelle menace.",
+            "collectionFilmCount": 3
+        },
+        {
+            "collectionId": 353721,
+            "collectionNom": "Street Dancers - Saga",
+            "collectionImage": "/zQWOUTWPUR0XGgqiQG5zY8lZq2l.jpg",
+            "collectionDescription": "",
+            "collectionFilmCount": 2
+        },
+        {
+            "collectionId": 97460,
+            "collectionNom": "La Belle et le Clochard - Saga",
+            "collectionImage": "/mLBI9VvulKdNwc9hmNr30FJBJE2.jpg",
+            "collectionDescription": "La saga des films de la belle et du clochard de Disney",
+            "collectionFilmCount": 2
+        },
+        {
+            "collectionId": 52984,
+            "collectionNom": "Benjamin Gates - Saga",
+            "collectionImage": "/okX0bg4nZ6jcoig66hghxketUcH.jpg",
+            "collectionDescription": "Les aventures de Benjamin Gates, chasseur de trésors historiques.",
+            "collectionFilmCount": 3
+        },
+        {
+            "collectionId": 1530834,
+            "collectionNom": "Les Ch'tits - Saga",
+            "collectionImage": "/7faV6GjZzACZz452n0EEVNlBTDC.jpg",
+            "collectionDescription": "Les mésaventures humoristiques de personnages confrontés aux chocs culturels et aux préjugés régionaux entre le Nord de la France et d'autres horizons. À travers des quiproquos tendres et des amitiés inattendues, elle explore avec dérision les traditions, l'accent et la chaleur humaine des gens du Nord.",
+            "collectionFilmCount": 2
+        },
+        {
+            "collectionId": 645,
+            "collectionNom": "James Bond 007 - Saga",
+            "collectionImage": "/ammkAiFPUQhqrWAdzNZSXR8VMpy.jpg",
+            "collectionDescription": "James Bond, agent 007, autorisé à tuer, est le héros de la plus longue saga cinématographique de tous les temps, au succès sans égal. Armé de son Walther PPK, accompagné des plus jolies filles de la terre et opposé aux plus cyniques des méchants, il a poursuivi le mal aux quatre coins du monde, survécu à la guerre froide et à la chute du mur de Berlin.",
+            "collectionFilmCount": 27
+        },
+        {
+            "collectionId": 31562,
+            "collectionNom": "Jason Bourne - Saga",
+            "collectionImage": "/AgyElzl57k8dCNSH9FU3gpZP9tP.jpg",
+            "collectionDescription": "Jason Bourne est le personnage de fiction, héros éponyme de la série littéraire créée par Robert Ludlum, poursuivie par Eric Van Lustbader et incarné par Matt Damon dans les adaptations cinématographiques (La Mémoire dans la peau, La Mort dans la peau, La Vengeance dans la peau) et ensuite par Jeremy Renner dans L'Héritage. Un cinquième opus sorti en 2016, avec de nouveau  Matt Damon, vient conclure l'histoire.",
+            "collectionFilmCount": 5
+        },
+        {
+            "collectionId": 52097,
+            "collectionNom": "Camping - Saga",
+            "collectionImage": "/nxrwmnMcTtf0euhFf7QgJ45vnsM.jpg",
+            "collectionDescription": "Le message de la saga Camping ? Ne vous moquez pas des beaufs car vous ne savez jamais quand vous aurez besoin d'un service ! La saga rendue célèbre par les performances de Franck Dubosc, de Mathilde Seigner et de Gérard Lanvin évoque les vacances d'été dans un camping, une situation que beaucoup d'entre nous connaît ! C'est un peu débile et manque de vraie qualité. Mais, pour vous détendre il n'y a pas mieux.",
+            "collectionFilmCount": 3
+        },
+        {
+            "collectionId": 87118,
+            "collectionNom": "Cars - Saga",
+            "collectionImage": "/uq3N2SFj1Y06zA6LzCQPkmBdaaE.jpg",
+            "collectionDescription": "Les aventures de Flash McQueen, une voiture de course promise au succès, qui découvre que dans la vie, ce n'est pas de franchir la ligne d'arrivée qui compte, mais le parcours que l'on a suivi.",
+            "collectionFilmCount": 3
+        },
+        {
+            "collectionId": 55419,
+            "collectionNom": "Cendrillon - Saga",
+            "collectionImage": "/p7YbAHc0WnAQIp6yJtXPPaGYWPD.jpg",
+            "collectionDescription": "Il était une fois...",
+            "collectionFilmCount": 3
+        },
+        {
+            "collectionId": 86029,
+            "collectionNom": "Charlie et ses drôles de dames - Saga",
+            "collectionImage": "/5h35DPHuLg6PRDjzRGiwVbjn9Pq.jpg",
+            "collectionDescription": "Lorsque les témoins protégés par le programme gouvernemental commencent à tomber comme des mouches, c'est que quelqu'un a mis la main sur deux anneaux qui, une fois rassemblés, révèlent la liste cryptée de ceux qui ont contribué à faire arrêter les plus grands criminels. Pour les récupérer, Charlie envoie ses trois armes secrètes.  Tous les talents et le charme des trois demoiselles ne suffiront pas à percer le mystère. Elles vont devoir affronter une personne qui fut jadis dans leur camp. Et de son côté, Dylan va devoir faire face à un terrible secret qui met en péril la vie de ses deux amies...",
+            "collectionFilmCount": 2
+        },
+        {
+            "collectionId": 315595,
+            "collectionNom": "Fée Clochette - Saga",
+            "collectionImage": "/mEbblIsTckiyDcBXk72jPFmOrXz.jpg",
+            "collectionDescription": "Après son périple au Pays imaginaire aux côtés de Peter Pan dans le long-métrage éponyme, « Peter Pan » des Walt Disney Animation Studios, sorti en 1953, et dans sa suite, « Peter Pan 2 : Retour au Pays imaginaire » des DisneyToon Studios, sorti en 2002, la petite fée a su dès 2008 se renouveler via une nouvelle franchise créée par les DisneyToon Studios.",
+            "collectionFilmCount": 6
+        },
+        {
+            "collectionId": 1451578,
+            "collectionNom": "Coco - Saga",
+            "collectionImage": "/mzXleaxlzzxd8ViBNIxgsuJQC8T.jpg",
+            "collectionDescription": "",
+            "collectionFilmCount": 2
+        },
+        {
+            "collectionId": 246839,
+            "collectionNom": "Danse ta vie - Saga",
+            "collectionImage": "/atvhBKVMU4CCDvlGJgSXsPtNALF.jpg",
+            "collectionDescription": "L'histoire des élèves d'une prestigieuse école de danse...",
+            "collectionFilmCount": 3
+        },
+        {
+            "collectionId": 1570,
+            "collectionNom": "Die Hard - Saga",
+            "collectionImage": "/bFZRGXeLLUjnp3F8zzwkvrvPHWD.jpg",
+            "collectionDescription": "Une série de films d'action centrés autour du personnage de John McClane, un détective de police de New York City qui se retrouve en lutte contre un groupe de terroristes dans chaque film.",
+            "collectionFilmCount": 5
+        },
+        {
+            "collectionId": 89137,
+            "collectionNom": "Dragons - Saga",
+            "collectionImage": "/g0QWtZgN7zPwcEAtUJpXGFyWdHr.jpg",
+            "collectionDescription": "Dragons (How To Train Your Dragon) est un film américain d’animation en 3D , réalisé par Dean DeBlois et Chris Sanders, sorti en 2010. Une suite nommée Dragons 2 est sortie le 2 juillet 2014.  Il est inspiré du roman pour enfant de Cressida Cowell publié en 2003 et traduit en français en 2005 sous le titre Dragons, bien que l’histoire diffère beaucoup de l'originale.",
+            "collectionFilmCount": 3
+        },
+        {
+            "collectionId": 759368,
+            "collectionNom": "Dragons: Rescue Riders Collection",
+            "collectionImage": "/Ah7UOvKNyXGScCi05drKzP5GXYc.jpg",
+            "collectionDescription": "",
+            "collectionFilmCount": 3
+        },
+        {
+            "collectionId": 1687362,
+            "collectionNom": "Franck Dubosc",
+            "collectionImage": "/uZg9dAoTlDttejl6fSLD39e74d5.jpg",
+            "collectionDescription": "Les spectacles de Franck Dubosc",
+            "collectionFilmCount": 7
+        },
+        {
+            "collectionId": 726871,
+            "collectionNom": "Dune - Saga",
+            "collectionImage": "/m7xCDl5PTG9A5LH7XLuBjGhgLuO.jpg",
+            "collectionDescription": "La saga en 3 volets de Paul Atréides, et son ascension au pouvoir sur la planète mortelle Arrakis",
+            "collectionFilmCount": 3
+        },
+        {
+            "collectionId": 1451277,
+            "collectionNom": "Encanto - Saga",
+            "collectionImage": "/uzmIfgHJSCNs3C0GCY98C7ZRqrY.jpg",
+            "collectionDescription": "",
+            "collectionFilmCount": 2
+        },
+        {
+            "collectionId": 989657,
+            "collectionNom": "Ernest & Célestine - Saga",
+            "collectionImage": "/jmAErbJ777sNlEiFpdd6oglsBhg.jpg",
+            "collectionDescription": "",
+            "collectionFilmCount": 4
+        },
+        {
+            "collectionId": 9744,
+            "collectionNom": "Les 4 Fantastiques - Saga",
+            "collectionImage": "/elBBDmc8mVLtgmfsI6UMzOEAyIC.jpg",
+            "collectionDescription": "Encore une très bonne adaptation des Comics Marvel au cinéma. Mr Fantastique, La Femme Invisible, La Torche Humaine et La Chose vont lutter contre les forces extra-terrestres qui menacent notre belle planète, tout un programme !",
+            "collectionFilmCount": 2
+        },
+        {
+            "collectionId": 96472,
+            "collectionNom": "Frère des ours - Saga",
+            "collectionImage": "/rHEZvf7rhCtNimsCWRDOZ9WZqoY.jpg",
+            "collectionDescription": "Saga des films Frère des ours.",
+            "collectionFilmCount": 2
+        },
+        {
+            "collectionId": 135468,
+            "collectionNom": "G.I. Joe - Saga",
+            "collectionImage": "/pzmXn5sVi6byTPsTr65xnUOqo7p.jpg",
+            "collectionDescription": "Une série de films d'action de science-fiction basée sur la franchise de jouets G.I. Joe, inspirée de la bande dessinée et de la série de dessins animés.",
+            "collectionFilmCount": 2
+        },
+        {
+            "collectionId": 493668,
+            "collectionNom": "Gnomeo & Juliet - Saga",
+            "collectionImage": "/wi7GqaMzxaCcbFMcZ0ZepsMYXrW.jpg",
+            "collectionDescription": "Gnomeo & Juliet est une comédie romantique en 3D animée par ordinateur en 2011, basée sur la pièce de William Shakespeare Romeo and Juliet et un scénario original de John R. Smith et Rob Sprackling. Financé par Disney et sorti sous la bannière Touchstone Pictures, le film a été produit indépendamment par Rocket Pictures et animé par Starz Animation. Une suite intitulée Sherlock Gnomes est sortie en 2018, Paramount Pictures et Metro-Goldwyn-Mayer remplaçant Touchstone, et a été une déception critique et commerciale contrairement au film original.",
+            "collectionFilmCount": 2
+        },
+        {
+            "collectionId": 110177,
+            "collectionNom": "Goal! - Saga",
+            "collectionImage": "/v3HCGVQJ5xmZ37oRKUpsEf4zKQq.jpg",
+            "collectionDescription": "La trilogie Goal ! suit le parcours du footballeur Santiago, qui a fui le Mexique avec sa famille lorsqu'il était enfant, a joué au football professionnel de haut niveau en Europe et a finalement représenté son pays sur la plus grande scène du monde : la Coupe du monde.",
+            "collectionFilmCount": 3
+        },
+        {
+            "collectionId": 836546,
+            "collectionNom": "White Snake - Saga",
+            "collectionImage": "/xFkrdui47i95gSXjkbDaKWI2ChN.jpg",
+            "collectionDescription": "À la fin de la dynastie Tang, le maître d'État a lancé une chasse massive aux serpents. Un jeune homme du village de l'attrapeur de serpent sauve le serpent blanc qui a accidentellement perdu la mémoire et va le tuer. Pour aider la jeune fille à retrouver la mémoire, ils se lancent dans l'aventure. Mais l'identité de la jeune fille, un démon serpent, est peu à peu révélée. D'autre part, l'inévitable bataille entre le maître et la tribu des serpents est sur le point d'avoir lieu, et leur amour sera mis à rude épreuve.",
+            "collectionFilmCount": 3
+        },
+        {
+            "collectionId": 1241,
+            "collectionNom": "Harry Potter - Saga",
+            "collectionImage": "/iK5s34WRr3OoSKgWPfEsp3ZAsMK.jpg",
+            "collectionDescription": "La saga Harry Potter raconte les aventures de l'apprenti sorcier Harry Potter et de ses amis Ron Weasley et Hermione Granger à l'école de sorcellerie Poudlard, dirigée par Albus Dumbledore.",
+            "collectionFilmCount": 8
+        },
+        {
+            "collectionId": 17235,
+            "collectionNom": "Hellboy - Saga",
+            "collectionImage": "/7zzD8uQ5fyC4slZF1ATMS6gtyHS.jpg",
+            "collectionDescription": "Les aventures du démon Hellboy, né dans les flammes de l'enfer mais oeuvrant pour le bien sur Terre.",
+            "collectionFilmCount": 2
+        },
+        {
+            "collectionId": 978459,
+            "collectionNom": "Hercules (Disney) - Saga",
+            "collectionImage": "/kII56bP4ySFFjkK0mSFGxmJi6iI.jpg",
+            "collectionDescription": "Les aventures du fils de Zeus : Hercules",
+            "collectionFilmCount": 2
+        },
+        {
+            "collectionId": 8050,
+            "collectionNom": "Highlander - Saga",
+            "collectionImage": "/izlRVWl7oPWtTWjQcI0QtvlE194.jpg",
+            "collectionDescription": "Il suit les exploits de deux immortels écossais, Conner et Duncan Macleod. Nés à des époques différentes, ils se battent à travers les siècles pour obtenir le prix mystique. Entre amitié historique, relations dévastatrices et batailles légendaires, chaque immortel apprend que sa vie apparemment sans fin est plus une malédiction qu'un cadeau. Mais pour le bien de l'humanité, ils doivent continuer à se battre pour survivre jusqu'à ce qu'il n'en reste qu'un seul.",
+            "collectionFilmCount": 5
+        },
+        {
+            "collectionId": 144689,
+            "collectionNom": "Honey - Saga",
+            "collectionImage": "/jnMYWzVz4Tflsog6Ik6Mop17LSV.jpg",
+            "collectionDescription": "",
+            "collectionFilmCount": 4
+        },
+        {
+            "collectionId": 468222,
+            "collectionNom": "Les Indestructibles - Saga",
+            "collectionImage": "/aPgZIiQCnjfyBKK3b8A2vha8sp.jpg",
+            "collectionDescription": "Les Indestructibles Collection est une série de films d'animation américains produite par Disney et créée par Pixar Animation Studios.",
+            "collectionFilmCount": 3
+        },
+        {
+            "collectionId": 70068,
+            "collectionNom": "Ip Man - Saga",
+            "collectionImage": "/d5025iuay2UTeviFdu5zKKurfg4.jpg",
+            "collectionDescription": "Ip-Man est une série de films réalisé par le Hongkongais Wilson Yip mettant en scène Donnie Yen. Ce dernier interprète le célèbre maître chinois de wing chun \"Yip Man\" qui a notamment été le maître du mythique Bruce Lee !  Avec un premier film sorti en 2008 Ip Man avait tout simplement relancé le film d'art Martiaux made in Hongkong. Produit pour un peu moins de 12 millions de dollars le premier films avait tout simplement fait trembler les chiffres du Box Office. En 2019 la sortie de Ip Man 4 est attendu par les fans du monde entier et réunit plus de 180 millions de dollars de recette mondiale ! Pour ma part les deux premiers films sortent vraiment du lot. Malgré la présence de Mike Tyson Ip Man 3 manque, au final, un peu d'originalité scénaristique... Coté critique, Ip Man 4 a, apparemment, mis tout le monde d'accord....",
+            "collectionFilmCount": 4
+        },
+        {
+            "collectionId": 86117,
+            "collectionNom": "Johnny English - Saga",
+            "collectionImage": "/4ICdnU5ieFquD2kIs9Mwt4NGZcR.jpg",
+            "collectionDescription": "Johnny English est une série de films de comédie d'action britanniques parodiant le genre des agents secrets de James Bond. Il présente Rowan Atkinson comme personnage principal, basé sur le scénario écrit par Neal Purvis, Robert Wade et William Davies. La série comprend trois films. La série est imprégnée de comédie similaire à Mr. Bean, et a rapporté 477,8 millions de dollars dans le monde.",
+            "collectionFilmCount": 4
+        },
+        {
+            "collectionId": 338416,
+            "collectionNom": "Kirikou - Saga",
+            "collectionImage": "/o5RIzRQWFuuObq3cOFoGt0IsGAE.jpg",
+            "collectionDescription": "Kirikou est un petit garçon d'un village ouest-africain, il veut savoir pourquoi la méchante fée Karaba frappe son village d'une affreuse malédiction.",
+            "collectionFilmCount": 3
+        },
+        {
+            "collectionId": 77816,
+            "collectionNom": "Kung Fu Panda - Saga",
+            "collectionImage": "/3L8wOe5R1WyzaHMpyfjdWpHhcjN.jpg",
+            "collectionDescription": "Les aventures de Po et des Cinq Cyclones : Tigresse, Grue, Mante, Vipère, et Singe, sous les ordres du maître Shifu.",
+            "collectionFilmCount": 4
+        },
+        {
+            "collectionId": 178117,
+            "collectionNom": "Kuzco - Saga",
+            "collectionImage": "/v30RnJ8BAu8LwbEVTWgXSZ64pa1.jpg",
+            "collectionDescription": "Faut pas bousiller le groove de l'empereur !",
+            "collectionFilmCount": 2
+        },
+        {
+            "collectionId": 8354,
+            "collectionNom": "L'Âge de glace - Saga",
+            "collectionImage": "/96IENpa4Ss7gdBeXPwNZ513bm2R.jpg",
+            "collectionDescription": "Les aventures d’un trio composé d’un mammouth, d’un paresseux et d’un tigre à dents de sabre... Bienvenue dans le monde de l’Âge de Glace.",
+            "collectionFilmCount": 7
+        },
+        {
+            "collectionId": 945,
+            "collectionNom": "L'Arme Fatale - Saga",
+            "collectionImage": "/cIfobGg5oDbc1Tk5uRwBYW4L3BO.jpg",
+            "collectionDescription": "De leur première rencontre à leur dernière aventure 10 ans plus tard, Riggs et Murtaugh ont accumulé une somme incroyable de catastrophes, de coups de gueule, de balles perdues et de bons gros fous rires…",
+            "collectionFilmCount": 5
+        },
+        {
+            "collectionId": 100693,
+            "collectionNom": "Les 101 Dalmatiens (Animation) - Saga",
+            "collectionImage": "/7jO80eingxlYROa5HbZh82kClzP.jpg",
+            "collectionDescription": "La saga Disney d'animation des 101 Dalmatiens",
+            "collectionFilmCount": 2
+        },
+        {
+            "collectionId": 1231053,
+            "collectionNom": "Les Bad Guys - Saga",
+            "collectionImage": "/OADNVTiVWT9lcuOSapQ9KlTX1D.jpg",
+            "collectionDescription": "Collection de films d'animation des Bad Guys",
+            "collectionFilmCount": 2
+        },
+        {
+            "collectionId": 107471,
+            "collectionNom": "Yamakasi - Saga",
+            "collectionImage": "/mjqpOI0kbvpTLQNyrcdzyn33xUo.jpg",
+            "collectionDescription": "Les Yamakasi sont sept jeunes de banlieue qui ont créé leur propre discipline : l'art du déplacement (ADD).",
+            "collectionFilmCount": 2
+        },
+        {
+            "collectionId": 629597,
+            "collectionNom": "Les Petits Mouchoirs - Saga",
+            "collectionImage": "/hwfFCnG0vzajqVt93hlqahXZmk6.jpg",
+            "collectionDescription": "Retrouver Max et sa bande de potes au travers des films de Guillaume Canet.",
+            "collectionFilmCount": 2
+        },
+        {
+            "collectionId": 238448,
+            "collectionNom": "Les Ripoux - Saga",
+            "collectionImage": "/ke1p1REI3PYBvoD0waoCOQBhkGa.jpg",
+            "collectionDescription": "Les aventures de René, vieux briscard de la police officiant à Barbès, et François, frais émoulu de l'école et plein de certitudes.",
+            "collectionFilmCount": 3
+        },
+        {
+            "collectionId": 436295,
+            "collectionNom": "Les Rois de la glisse - Saga",
+            "collectionImage": "/uXTwdo6W7kgpioC8uuKkO1xgXj3.jpg",
+            "collectionDescription": "Les rois de la glisse est un film d'animation qui s'intéresse aux coulisses du monde dynamique de la compétition de surf chez les pingouins. Le film brosse le portrait de Cody Maverick, un surfer de talent qui s'engage dans sa première compétition professionnelle. S'inspirant de son héros, le légendaire chevaucheur de vague Big Z, Cody quitte sa famille et la ville de Shiverpool, dans l'Antarctique, et se rend sur l'Ile de Pen Gu pour la compétition Big Z Memorial Surf Off. Cody croit qu'une victoire lui apportera l'admiration et le respect qu'il recherche. Mais sa rencontre avec un vieux surfer surnommé The Geek lui permet de comprendre que le plus grand champion n'est pas toujours celui qui arrive premier.",
+            "collectionFilmCount": 2
+        },
+        {
+            "collectionId": 134897,
+            "collectionNom": "Les Schtroumpfs - Saga",
+            "collectionImage": "/n6t01TAguqsz2HUiG7VRCOfM2wc.jpg",
+            "collectionDescription": "Une série de films américains en images de synthèse/live-action basée sur la série de bandes dessinées Les Schtroumpfs créée par le dessinateur belge Peyo et la série télévisée d'animation des années 1980.",
+            "collectionFilmCount": 2
+        },
+        {
+            "collectionId": 97461,
+            "collectionNom": "Lilo et Stitch - Saga",
+            "collectionImage": "/m27i1YY5N0f93mL8VV8Covf09Po.jpg",
+            "collectionDescription": "Collection des films Lilo & Stitch de Disney.",
+            "collectionFilmCount": 4
+        },
+        {
+            "collectionId": 97459,
+            "collectionNom": "Le Livre de la Jungle - Saga",
+            "collectionImage": "/yGURCBw6GR9CvtumTQrHz28cjfJ.jpg",
+            "collectionDescription": "Collection de films d'animation du livre de la jungle par Disney.",
+            "collectionFilmCount": 2
+        },
+        {
+            "collectionId": 1245317,
+            "collectionNom": "Lord of War - Saga",
+            "collectionImage": "/ir4Vz6oqHu2geL2CZzWGgkeewUo.jpg",
+            "collectionDescription": "",
+            "collectionFilmCount": 2
+        },
+        {
+            "collectionId": 14740,
+            "collectionNom": "Madagascar - Saga",
+            "collectionImage": "/UXIxsUbwMpv4v8xXRdT7LX58z9.jpg",
+            "collectionDescription": "Les aventures de quatre animaux du zoo de Central Park à New York ayant passé leur vie en captivité et qui se retrouvent de manière inattendue expédiés en Afrique.",
+            "collectionFilmCount": 3
+        },
+        {
+            "collectionId": 556,
+            "collectionNom": "Spider-Man - Saga",
+            "collectionImage": "/mW2jg5bQjfY4oTzmdUNpqrY9GGB.jpg",
+            "collectionDescription": "Série de films réalisée par Sam Raimi et librement inspirée par les aventures du personnage de bande dessinée de Marvel, Spider-Man.",
+            "collectionFilmCount": 3
+        },
+        {
+            "collectionId": 573436,
+            "collectionNom": "Spider-Man : New Generation - Saga",
+            "collectionImage": "/6BiByOXRrMqB3yFVyuPFNZnJlPj.jpg",
+            "collectionDescription": "Une collection animée qui explore les différentes versions de Spider-Man dans de multiples univers en suivant les premiers pas de Miles Morales...",
+            "collectionFilmCount": 3
+        },
+        {
+            "collectionId": 527439,
+            "collectionNom": "Mary Poppins - Saga",
+            "collectionImage": "/zhRdMHwitG9vOuRjrzZA4KdLEix.jpg",
+            "collectionDescription": "Mary Poppins est un film américain de fantaisie musicale réalisé en 1964 par Robert Stevenson et produit par Walt Disney, avec des chansons écrites et composées par les frères Sherman. Une suite, Mary Poppins Returns, est sortie en 2018, ce qui en fait l'un des plus longs écarts entre les suites de films de l'histoire du cinéma, avec 54 ans.",
+            "collectionFilmCount": 2
+        },
+        {
+            "collectionId": 86055,
+            "collectionNom": "Men in Black - Saga",
+            "collectionImage": "/qB1LRV2RjBy1bfNRwmVN3fW5sQl.jpg",
+            "collectionDescription": "Les M.I.B (Men In Black) sont des agents ultra-secrets qui travaillent pour le gouvernement. Leur tâche, très, très spéciale consiste à contrôler l'immigration extraterrestre sur la Terre, à surveiller les ressortissants, et préserver l'entente avec les autres planètes, dans la plus grande discrétion.",
+            "collectionFilmCount": 3
+        },
+        {
+            "collectionId": 1727431,
+            "collectionNom": "Mickey's… Upon a Christmas Collection",
+            "collectionImage": "/PtfMu9gDzbzZrwwpF5g8aSluCV.jpg",
+            "collectionDescription": "",
+            "collectionFilmCount": 2
+        },
+        {
+            "collectionId": 87359,
+            "collectionNom": "Mission : Impossible - Saga",
+            "collectionImage": "/5nUgyjBem5QctwzQoDyJ3kuE7xh.jpg",
+            "collectionDescription": "Les aventures de l'agent secret Ethan Hunt pour le compte de l'unité IMF (Impossible Missions Force).",
+            "collectionFilmCount": 8
+        },
+        {
+            "collectionId": 1241984,
+            "collectionNom": "Vaiana - Saga",
+            "collectionImage": "/pQDIFEwpXuMNegV4Ki1vklzJYBO.jpg",
+            "collectionDescription": "La collection originale de Disney se déroule dans l'ancienne Polynésie et raconte l'histoire de Vaiana, la fille déterminée du chef d'un village côtier, choisie par l'océan lui-même pour réunir une relique mystique avec la déesse Te Fiti.",
+            "collectionFilmCount": 3
+        },
+        {
+            "collectionId": 137697,
+            "collectionNom": "Le Monde de Nemo - Saga",
+            "collectionImage": "/qyYi7IWDiBP4HCogDEZiL24JlTs.jpg",
+            "collectionDescription": "Le Monde de Nemo est un film d'aventure américain de 2003 produit par Pixar Animation Studios et réalisé par Walt Disney Pictures. Écrit et réalisé par Andrew Stanton.  Le film met en vedette les voix d'Albert Brooks, Ellen DeGeneres, Alexander Gould et Willem Dafoe. Une suite, Le Monde de Dory, est sortie le 22 juin 2016.",
+            "collectionFilmCount": 2
+        },
+        {
+            "collectionId": 382685,
+            "collectionNom": "Insaisissables - Saga",
+            "collectionImage": "/JAzLUXjXJEGp9IKR7jEY4L2VSL.jpg",
+            "collectionDescription": "Insaisissables est un thriller américain de 2013 réalisé par Louis Leterrier. Le film met en vedette un groupe composé de Jesse Eisenberg, Mark Ruffalo, Woody Harrelson, Mélanie Laurent, Isla Fisher, Dave Franco, Michael Caine et Morgan Freeman.  L'intrigue suit un agent du FBI et un détective d'Interpol traquants une équipe d'illusionnistes qui se livrent à des braquages de banques pendant leurs performances et récompensent leur public avec l'argent. Une suite a été publiée le 10 juin 2016 et s'intitulait Insaisissables 2. Un troisième volet est prévu.",
+            "collectionFilmCount": 4
+        },
+        {
+            "collectionId": 66761,
+            "collectionNom": "Les Rebelles de la forêt - Saga",
+            "collectionImage": "/yYs5rBE3dFteqcEKL1hBK47ZN6T.jpg",
+            "collectionDescription": "Les Rebelles de le Forêt (Open Season) est un film comique américain d'animation par ordinateur de 2006, écrit par Steve Bencich et Ron J. Friedman, réalisé par Jill Culton et Roger Allers, et coréalisé par Anthony Stacchi.  Il a été suivi de trois suites vidéo directes: Les Rebelles de le Forêt 2 (2009), Les Rebelles de le Forêt 3 (2011) et Les Rebelles de le Forêt 4: Scared Silly (2016).",
+            "collectionFilmCount": 4
+        },
+        {
+            "collectionId": 1413999,
+            "collectionNom": "OSS 117 - Saga",
+            "collectionImage": "/9l1yr1SBTTFC4nGdGqfQskvpsnD.jpg",
+            "collectionDescription": "OSS 117 est une série de films sur Hubert Bonisseur de la Bath, l'agent OSS 117 du SDECE envoyé dans diverses missions à travers le globe.",
+            "collectionFilmCount": 3
+        },
+        {
+            "collectionId": 55422,
+            "collectionNom": "Peter Pan - Saga",
+            "collectionImage": "/2rgdZjMVJUWXpZ6pBRLFL7crN5j.jpg",
+            "collectionDescription": "Peter Pan et ses aventures continuent.",
+            "collectionFilmCount": 2
+        },
+        {
+            "collectionId": 33085,
+            "collectionNom": "La Petite Sirène - Saga",
+            "collectionImage": "/hjsEPnLcphCfsgrqPK7uw4YMyon.jpg",
+            "collectionDescription": "La Petite Sirène est un film d'animation musical fantastique américain de 1989 produit par Walt Disney Feature Animation et sorti chez Walt Disney Pictures. Basé sur le conte de fées danois du même nom de Hans Christian Andersen, The Little Mermaid II : Return to the Sea est une suite directe en vidéo du premier film. Il est sorti en VHS aux États-Unis le 19 septembre 2000 par Walt Disney Studios Home Entertainment. La petite sirène : Ariel's Beginning est une préquelle directe en vidéo du premier film. Le film est sorti en DVD de la région 1 aux États-Unis le 26 août 2008 et en DVD de la région 2 en Europe le 22 septembre 2008.",
+            "collectionFilmCount": 3
+        },
+        {
+            "collectionId": 136214,
+            "collectionNom": "Pocahontas - Saga",
+            "collectionImage": "/1YPlD1sQjaGLRMEy4T7ko2aqlj9.jpg",
+            "collectionDescription": "Une série de films d'animation de Walt Disney basée sur l'histoire connue ainsi que sur le folklore et la légende entourant la femme amérindienne Pocahontas, et présentant un récit fictif de sa rencontre avec l'Anglais John Smith et les pionniers la compagnie de Virginie.",
+            "collectionFilmCount": 2
+        },
+        {
+            "collectionId": 1268789,
+            "collectionNom": "Raiponce - Saga",
+            "collectionImage": "/wzeJHAFlJHmHWiYm4zQBtQcgA02.jpg",
+            "collectionDescription": "\"Raiponce\" est une collection de films Disney captivante, remplie de personnages charmants, d'une animation magnifique et de chansons mémorables. Elle suit le voyage aventureux de Raiponce, une princesse pleine de vie aux cheveux magiques, et de son improbable compagnon, Flynn Rider.",
+            "collectionFilmCount": 2
+        },
+        {
+            "collectionId": 386382,
+            "collectionNom": "La Reine des neiges - Saga",
+            "collectionImage": "/6vaecz7bMEr3UaVI83NusHCjfcx.jpg",
+            "collectionDescription": "« La Reine des neiges » met en scène l'amour fraternel entre l'optimiste sans peur Anna, sa mystérieuse sœur Elsa et le bonhomme de neige Olaf.",
+            "collectionFilmCount": 4
+        },
+        {
+            "collectionId": 264,
+            "collectionNom": "Retour vers le futur - Saga",
+            "collectionImage": "/nykumUbCw1o43fHGkRqj9hO2c2h.jpg",
+            "collectionDescription": "Retour vers le futur est une trilogie cinématographique écrite par Bob Gale et Robert Zemeckis, réalisée par ce dernier et dont les différents volets sont sortis respectivement en 1985, 1989 et 1990. Elle raconte les aventures d'un lycéen, Marty McFly (Michael J. Fox) et d'un scientifique, le Dr Emmett Brown (Christopher Lloyd) qui voyagent à travers le temps à l'aide d'une DeLorean DMC-12 modifiée à cet effet.",
+            "collectionFilmCount": 3
+        },
+        {
+            "collectionId": 94032,
+            "collectionNom": "Le Roi lion - Saga",
+            "collectionImage": "/f1snopqELT0z2mocc9KipMUD7sv.jpg",
+            "collectionDescription": "L'intégrale des aventures du Roi lion, de Mufasa à Kiara en passant par Simba et Nala, sans oublier les inséparables Timon et Pumba...",
+            "collectionFilmCount": 3
+        },
+        {
+            "collectionId": 100970,
+            "collectionNom": "Rox et Rouky - Saga",
+            "collectionImage": "/fk5VJKZxOAolnn2UGdOhcoxbJPP.jpg",
+            "collectionDescription": "Rox, un renardeau orphelin, est recueilli par une brave fermière, la veuve Tartine. Il se fait rapidement de nouveaux amis parmi les animaux vivant aux abords de la ferme, tels que la chouette Big Mama, le moineau Dinky et le pivert Piqueur. Il se lie également d'amitié avec Rouky, le plus jeune chien de chasse du voisin, Amos Slade. Mais avec l'âge adulte, la Nature reprend ses droits.",
+            "collectionFilmCount": 2
+        },
+        {
+            "collectionId": 2980,
+            "collectionNom": "S.O.S. Fantômes - Saga",
+            "collectionImage": "/3WbSiHyxa1Y6M0JTdWmVydQZmzm.jpg",
+            "collectionDescription": "Les aventures de Peter, Raymond et Egon qui, virés par le Doyen de la faculté où ils travaillent, décident de fonder une société destinée à chasser les revenants. Son nom : S.O.S. Fantômes.",
+            "collectionFilmCount": 4
+        },
+        {
+            "collectionId": 86092,
+            "collectionNom": "Sexy Dance - Saga",
+            "collectionImage": "/syG4B7AnF9W8Cd0QEebl50YyN7M.jpg",
+            "collectionDescription": "Les films \"Step Up\" sont une série de films de danse/romance-drame créés par Duane Adler.",
+            "collectionFilmCount": 5
+        },
+        {
+            "collectionId": 102322,
+            "collectionNom": "Sherlock Holmes - Saga",
+            "collectionImage": "/8CrcjCU9y1pjNwFnyEY9iz23cNV.jpg",
+            "collectionDescription": "Robert Downey Jr. interprète le rôle principal du loufoque mais brillant détective, tandis que  Jude Law celui du Dr. Watson, dans ces nouvelles aventures de Sherlock Holmes.",
+            "collectionFilmCount": 3
+        },
+        {
+            "collectionId": 103573,
+            "collectionNom": "Sister Act - Saga",
+            "collectionImage": "/q5HkOoYsfNvE2QJZunrpi8RrP3t.jpg",
+            "collectionDescription": "Sister Act est un film de comédie américaine sorti en 1992 par Touchstone Pictures. Réalisé par Emile Ardolino, il met en scène des arrangements musicaux de Marc Shaiman et met en vedette Whoopi Goldberg en tant que chanteuse lounge de Reno qui a été placée sous protection dans un couvent de San Francisco et qui doit prétendre être nonne lorsqu'un patron de la mafia la place sur sa liste de cibles.  Maggie Smith, Kathy Najimy, Wendy Makkena, Mary Wickes et Harvey Keitel font également partie des acteurs. Le film a été suivi d'une suite en 1993, Sister Act : Acte 2",
+            "collectionFilmCount": 3
+        },
+        {
+            "collectionId": 43064,
+            "collectionNom": "Speed - Saga",
+            "collectionImage": "/o0eZDtoeMSxQbT3hjPtF0qSDJU0.jpg",
+            "collectionDescription": "Speed, est un film d'action américain de 1994 réalisé par Jan de Bont. Jack Traven, officier du LAPD, devient le centre d'intérêt d'Howard Payne, un bombardier et extorqueur, sergent à la retraite de l'équipe de déminage d'Atlanta. Le film se déroule à Los Angeles en 1993. En 1997, une suite, Speed 2 : Cruise Control, sort. Sandra Bullock accepte de jouer à nouveau le rôle d'Annie, pour obtenir un soutien financier pour un autre projet, mais Keanu Reeves décline l'offre de revenir dans le rôle de Jack. En conséquence, Jason Patric a été intégré à l'histoire en tant qu'Alex Shaw, le nouveau petit ami d'Annie, qui a rompu avec Jack parce qu'elle s'inquiétait du mode de vie dangereux de ce dernier. Willem Dafoe joue le rôle du méchant John Geiger, et Glenn Plummer (qui joue la victime du carjacking de Reeves) est également un caméléon dans le rôle d'un conducteur de bateau. Le film est considéré comme l'une des pires suites de tous les temps.",
+            "collectionFilmCount": 2
+        },
+        {
+            "collectionId": 115575,
+            "collectionNom": "Star Trek - Saga",
+            "collectionImage": "/A8Y0BFIXpKv3AxbueUNnK6CdNCu.jpg",
+            "collectionDescription": "Saga cinématographique Star Trek, troisième du nom.",
+            "collectionFilmCount": 3
+        },
+        {
+            "collectionId": 160727,
+            "collectionNom": "Steppin' - Saga",
+            "collectionImage": "/2qAqDHlxVS4wOf1Z8mBGpTgp7PB.jpg",
+            "collectionDescription": "DJ, un incroyable danseur de rue underground, n’est pas allé à l’université depuis le jour  où il est fasciné par la charmante April. Travaillant comme jardinier pour payer les factures, DJ ne s’intègre pas aux étudiants les plus riches du campus, mais une chose attire son attention : les compétitions de fraternité rivales connues sous le nom de « stepping ». Avec l’aide d’April, DJ découvre l’héritage des fraternités et décide de les rejoindre. Faisant désormais partie d’un groupe de step officiel, DJ doit concilier les répétitions, le travail et l’école, tout en gagnant le cœur de la fille de ses rêves.",
+            "collectionFilmCount": 2
+        },
+        {
+            "collectionId": 135483,
+            "collectionNom": "Taken - Saga",
+            "collectionImage": "/dObT7wPx4V4ZZ3hwBJws0EHuDlX.jpg",
+            "collectionDescription": "Les aventures d'un ancien agent des services secrets américains, Bryan Mills, qui devra user de tout son talent pour s'extirper des périls le menaçant lui et sa famille.",
+            "collectionFilmCount": 3
+        },
+        {
+            "collectionId": 211721,
+            "collectionNom": "Taxi - Saga",
+            "collectionImage": "/eEBD8TVN6caaUZpn093kDbR4li1.jpg",
+            "collectionDescription": "En ce qui concerne les entrées au guichet, la série \"Taxi\" est l’une des franchises françaises les plus titrées de tous les temps, avec un total rapporté de 200 millions de dollars dans le monde et de 23 millions d’entrées en France.",
+            "collectionFilmCount": 5
+        },
+        {
+            "collectionId": 125574,
+            "collectionNom": "The Amazing Spider-Man - Saga",
+            "collectionImage": "/60aoW1EVSXLACkHn0lqeKlW6LhS.jpg",
+            "collectionDescription": "Série de films de super-héros basée sur le personnage de Marvel Comics Spider-Man. Il s'agit d'un redémarrage de la franchise de films Spider-Man. La première trilogie a eu lieu de 2002 à 2007.",
+            "collectionFilmCount": 2
+        },
+        {
+            "collectionId": 608101,
+            "collectionNom": "Hitman & Bodyguard - Saga",
+            "collectionImage": "/iWBjbmMe7kVzJ0mDpPJ9YErnYaf.jpg",
+            "collectionDescription": "La collection de films Hitman & Bodyguard est une duologie d’action-comédie explosive et décalée, centrée sur l’alliance improbable entre un garde du corps ultra-strict et un tueur à gages incontrôlable. Portée par le duo Ryan Reynolds et Samuel L. Jackson, la saga combine fusillades, courses-poursuites, humour trash et insultes à gogo.",
+            "collectionFilmCount": 2
+        },
+        {
+            "collectionId": 8580,
+            "collectionNom": "Karate Kid - Saga",
+            "collectionImage": "/pexxR6j3i72n9frn7Y1UyCyabnd.jpg",
+            "collectionDescription": "Les trois premiers films de la série suivent Daniel LaRusso, qui apprend à maîtriser le karaté pour de bon grâce au mentorat excentrique d'un concierge nommé M. Miyagi. Dans le quatrième et dernier film de la série originale, M. Miyagi devient le gardien de la petite-fille de son ami pour tenter de l'éloigner des ennuis.",
+            "collectionFilmCount": 6
+        },
+        {
+            "collectionId": 2344,
+            "collectionNom": "Matrix - Saga",
+            "collectionImage": "/alQ1yfJR9cxAPOx0WsTYj37HawI.jpg",
+            "collectionDescription": "La collection Matrix représente une histoire de science-fiction complexe intégrant de nombreux éléments philosophiques. Écrit et réalisé par les sœurs Wachowski et produit par Joel Silver.",
+            "collectionFilmCount": 4
+        },
+        {
+            "collectionId": 427084,
+            "collectionNom": "Comme des bêtes - Saga",
+            "collectionImage": "/n07ABL55QSlAknhWmIFiSmILXqK.jpg",
+            "collectionDescription": "Découverte de la vie secrète que mènent nos animaux domestiques dans Manhattan.",
+            "collectionFilmCount": 3
+        },
+        {
+            "collectionId": 374930,
+            "collectionNom": "Snow Queen - Saga",
+            "collectionImage": "/r2ONwf2TcKULpPAEpqfOAK2bgXi.jpg",
+            "collectionDescription": "La Reine des Neiges (russe: королева Снежная, Snezhnaya koroleva) est une collection de film d’animation russe sortie en 2012. Ce film animé en image de synthèse et en 3D a été écrit par Vadim Sveshnikov et réalisé par Vladlen Barbe et Maxim Sveshnikov. Il a été produit par le studio Wizart Animation à Voronezh et est basé sur le conte d’Hans Christian Andersen du même. Une suite intitulée The Snow Queen 2 a été publié en 2014. Un troisième opus intitulé The Snow Queen 3: Fire and Ice a reçu le feu vert, après le succès des deux précédents films et il est prévu pour une sortie 2016.",
+            "collectionFilmCount": 5
+        },
+        {
+            "collectionId": 2467,
+            "collectionNom": "Lara Croft - Saga",
+            "collectionImage": "/sgaP4WtVlKzz8FIcjbkevOycJiq.jpg",
+            "collectionDescription": "Tomb Raider est une série de films d'action-aventure, centrés sur les aventures de l'archéologue britannique fictive Lara Croft.",
+            "collectionFilmCount": 2
+        },
+        {
+            "collectionId": 10194,
+            "collectionNom": "Toy Story - Saga",
+            "collectionImage": "/eRs7ClNYvgbvBoZFQeeJqwFGSiY.jpg",
+            "collectionDescription": "Toy Story est une franchise de médias animés CGI créée par Pixar et distribuée par Walt Disney Pictures. La franchise est basée sur le concept anthropomorphique selon lequel tous les jouets, inconnus des humains, sont secrètement vivants, et les films se concentrent sur un groupe diversifié de jouets mettant en vedette un cow-boy classique nommé Sheriff Woody et un astronaute moderne nommé Buzz L'éclair. Le groupe se lance de manière inattendue dans des aventures qui les défient et les changent.",
+            "collectionFilmCount": 5
+        },
+        {
+            "collectionId": 8650,
+            "collectionNom": "Transformers - Saga",
+            "collectionImage": "/aAeLLhwnlU5U4EjYWSGyEoxB9h2.jpg",
+            "collectionDescription": "Une guerre sans merci oppose depuis des temps immémoriaux deux races de robots extraterrestres : les Autobots et les cruels Decepticons. Son enjeu : la maîtrise de l'univers...",
+            "collectionFilmCount": 5
+        },
+        {
+            "collectionId": 9518,
+            "collectionNom": "Le Transporteur - Saga",
+            "collectionImage": "/8hRJlzbK0KYPCEmIPvQoKctIAwc.jpg",
+            "collectionDescription": "Suivez les exploits de Frank Martin, un coursier freelance professionnel qui livre des colis sans poser de questions.",
+            "collectionFilmCount": 3
+        },
+        {
+            "collectionId": 115840,
+            "collectionNom": "La Vérité si je mens ! - Saga",
+            "collectionImage": "/cXPiFI9nu1wYIKVvjw8v2iltKkF.jpg",
+            "collectionDescription": "La Vérité si je mens ! est une série de films français qui a débuté à partir de 1997 en France. Elle montre les aventures d'Édouard « Eddie » Vuibert et de ses amis Juifs séfarades dans le monde du commerce de textile face à un commerçant rival, un patron de grandes surfaces sans scrupules ou un redoutable mafieux.",
+            "collectionFilmCount": 4
+        },
+        {
+            "collectionId": 86119,
+            "collectionNom": "Very Bad Trip - Saga",
+            "collectionImage": "/kKNFx9dmneDQz9uJw7Zuxig91Pr.jpg",
+            "collectionDescription": "La saga Very Bad Trip raconte les déboires d'une bande d'amis au lendemain d'un enterrement de vie de garçon.",
+            "collectionFilmCount": 3
+        },
+        {
+            "collectionId": 1431054,
+            "collectionNom": "Violet Evergarden Collection",
+            "collectionImage": "/i1GeUWI9CfBVnpl3avGI4lfTCpS.jpg",
+            "collectionDescription": "La guerre opposant Leidenschaftreich à l'Empire Gardarik a finalement pris fin après quatre longues années de conflit.\r Violet, une jeune fille formée dans le seul but de décimer les lignes ennemies, est hospitalisée suite à une violente opération. Après avoir tout perdu, elle se raccroche aux derniers mots du Major, son supérieur hiérarchique, mais sans comprendre leur signification.\r Se remettant de ses blessures, Violet est adoptée par la famille Evergarden mais ne se sentant pas à l'aise dans sa famille d'adoption, elle décide de commencer une nouvelle vie à CH Postal, une entreprise postale.\r Un jour, elle assiste par pur hasard au travail d'une «poupée de souvenirs automatiques», une personne qui retranscrit les pensées et les sentiments d'autrui dans des lettres. Intéressée, Violet commence à travailler en tant que poupée de souvenirs automatiques, un métier qui va lui permettre d'aider ses clients et de comprendre les derniers mots de celui qu'elle aimait.",
+            "collectionFilmCount": 3
+        },
+        {
+            "collectionId": 151263,
+            "collectionNom": "WarGames - Saga",
+            "collectionImage": "/tPvDCajdnC6RpuKQqRI9G62IJ7f.jpg",
+            "collectionDescription": "WarGames est un film de science-fiction américain de 1983 sur la guerre froide, écrit par Lawrence Lasker et Walter F. Parkes et réalisé par John Badham. Le film met en vedette Matthew Broderick, Dabney Coleman, John Wood et Ally Sheedy. Le film raconte l'histoire de David Lightman (Broderick), un jeune hacker qui accède involontairement à War Operation Plan Response (WOPR), un superordinateur de l'armée américaine programmé à l'origine pour prédire les résultats possibles d'une guerre nucléaire. Lightman fait exécuter à WOPR une simulation de guerre nucléaire, croyant qu'il s'agit d'un jeu informatique. L'ordinateur, désormais relié au système de contrôle des armes nucléaires et incapable de faire la différence entre la simulation et la réalité, tente de déclencher la Troisième Guerre mondiale. Une suite, WarGames : The Dead Code, est sorti directement en vidéo en 2008.",
+            "collectionFilmCount": 2
+        },
+        {
+            "collectionId": 468552,
+            "collectionNom": "Wonder Woman - Saga",
+            "collectionImage": "/l2QTGuHsuLEA04QFiQrkkCgdmMR.jpg",
+            "collectionDescription": "Une série de films basée sur le super-héros Wonder Woman de DC Comics.",
+            "collectionFilmCount": 2
+        },
+        {
+            "collectionId": 748,
+            "collectionNom": "X-Men - Saga",
+            "collectionImage": "/9Z4fKVUqAJ2WEP6pQFTtYPuoknd.jpg",
+            "collectionDescription": "X-Men est une saga cinématographique de super-héros américaine.",
+            "collectionFilmCount": 7
+        },
+        {
+            "collectionId": 453993,
+            "collectionNom": "Wolverine - Saga",
+            "collectionImage": "/oyKAIOQAK65LlEBKZaX4UkvU5wA.jpg",
+            "collectionDescription": "La saga basée sur l'histoire de Wolverine, le super-héros Marvel.",
+            "collectionFilmCount": 3
+        },
+        {
+            "collectionId": 52785,
+            "collectionNom": "xXx - Saga",
+            "collectionImage": "/wca7mxkpJwfJNOoHllonrSqePsq.jpg",
+            "collectionDescription": "Vin Diesel interprète xXx, un agent secret rebelle travaillant pour l'administration américaine. xXx doit d'abord démanteler un reseau de criminels caché dans les montagnes pour rendre service à la patrie.",
+            "collectionFilmCount": 3
+        }
+    ],
     "films": [
         {
             "id": "08bthe_2017",

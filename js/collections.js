@@ -273,6 +273,9 @@ async function migrateCollections() {
       const collectionDetails = await response.json();
       collections.push({
         collectionId: collectionId,
+        collectionNom: collectionDetails.name || "",
+        collectionImage: collectionDetails.poster_path || null,
+        collectionDescription: collectionDetails.overview || "",
         collectionFilmCount: collectionDetails.parts?.length || 0,
       });
     }

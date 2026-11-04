@@ -33,6 +33,7 @@ const existingSerieByKey = buildExistingSerieByKey(existingCatalog);
 const syncedCatalog = {
   version: existingCatalog.version || 1,
   dateDernierScan: null,
+  collections: [...(existingCatalog.collections || [])],
   films: scanType === "series" ? [...(existingCatalog.films || [])] : [],
   series: scanType === "films" ? [...(existingCatalog.series || [])] : [],
 };
