@@ -201,3 +201,57 @@ function renderCollections() {
     grid.appendChild(card);
   }
 }
+async function migrateCollections() {
+  const button = document.getElementById("migrateCollectionsButton");
+  const collectionIds = [
+    ...new Set(
+      catalog.films
+        .map((film) => film.collectionId)
+        .filter((collectionId) => collectionId),
+    ),
+  ];
+  if (collectionIds.length === 0) {
+    alert("Aucune collection à mettre à jour.");
+    return;
+  }
+  button.disabled = true;
+  button.textContent = `Mise à jour 0/${collectionIds.length}`;
+  try {
+    const collections = [];
+    for (let index = 0; index < collectionIds.length; index += 1) {
+      const collectionId = collectionIds[index];
+      button.textContent = `Mise à jour ${index + 1}/${collectionIds.length}`;
+      const response = await fetch(
+        `https://api.themoviedb.org/3/collection/${collectionId}?api_key=${appConstants.tmdbApiKey}&language=fr-FR`,
+      );
+      if (!response.ok) {
+        throw new Error(`Collection TMDB ${collectionId} inaccessible`);
+      }
+      const collectionDetails = await response.json();
+      collections.push({
+        collectionId: collectionId,
+        collectionFilmCount: collectionDetails.parts?.length || 0,
+      });
+    }
+    const response = await fetch("http://localhost:9876/migrate-collections", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({
+        collections: collections,
+      }),
+    });
+    if (!response.ok) {
+      throw new Error(await response.text());
+    }
+    const result = await response.json();
+    alert(`${result.updatedCollections} collections mises à jour.`);
+    button.textContent = "Migration terminée";
+  } catch (error) {
+    console.error(error);
+    alert(`Échec de la migration : ${error.message}`);
+    button.disabled = false;
+    button.textContent = "Mettre à jour les collections";
+  }
+}
