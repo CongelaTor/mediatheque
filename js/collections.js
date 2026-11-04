@@ -93,6 +93,35 @@ function renderCollections() {
     }
   }
   console.log("collections.size =", collections.size);
+  let collectionsToCompleteCount = 0;
+  for (const collection of collections.values()) {
+    const uniqueFilms = new Set();
+    for (const film of collection.films) {
+      const key = film.tmdbId
+        ? `tmdb:${film.tmdbId}`
+        : `title:${film.titre}|${film.annee || ""}`;
+      uniqueFilms.add(key);
+    }
+    const collectionFilmCount = collection.films.find((film) =>
+      Number.isFinite(Number(film.collectionFilmCount)),
+    )?.collectionFilmCount;
+    if (
+      Number.isFinite(Number(collectionFilmCount)) &&
+      uniqueFilms.size < Number(collectionFilmCount)
+    ) {
+      collectionsToCompleteCount++;
+    }
+  }
+  const toCompleteButton = document.querySelector(
+    '.sidebar-link[data-ajouts="À compléter"]',
+  );
+  if (toCompleteButton) {
+    toCompleteButton.textContent =
+      collectionsToCompleteCount === 0
+        ? "Aucune à compléter"
+        : `${collectionsToCompleteCount} à compléter`;
+  }
+
   const collectionList = [...collections.values()]
     .filter((collection) => matchesSearch(collection.nom))
     .filter((collection) => {
@@ -104,7 +133,13 @@ function renderCollections() {
         uniqueFilms.add(key);
       }
       if (currentAjouts === "À compléter") {
-        return uniqueFilms.size === 1;
+        const collectionFilmCount = collection.films.find((film) =>
+          Number.isFinite(Number(film.collectionFilmCount)),
+        )?.collectionFilmCount;
+        return (
+          Number.isFinite(Number(collectionFilmCount)) &&
+          uniqueFilms.size < Number(collectionFilmCount)
+        );
       }
       return uniqueFilms.size >= 1;
     })
@@ -180,23 +215,31 @@ function renderCollections() {
       setActiveCollectionContext();
       window.location.href = "films.html";
     };
-    const uniqueFilms = new Set();
 
+    const uniqueFilms = new Set();
     for (const film of collection.films) {
       const key = film.tmdbId
         ? `tmdb:${film.tmdbId}`
         : `title:${film.titre}|${film.annee || ""}`;
-
       uniqueFilms.add(key);
     }
-
+    const collectionFilmCount = collection.films.find((film) =>
+      Number.isFinite(Number(film.collectionFilmCount)),
+    )?.collectionFilmCount;
     const badge = document.createElement("button");
-
     badge.className = "play-button";
-    badge.textContent = uniqueFilms.size;
-
+    if (
+      currentAjouts === "À compléter" &&
+      Number.isFinite(Number(collectionFilmCount)) &&
+      uniqueFilms.size < Number(collectionFilmCount)
+    ) {
+      badge.classList.add("collection-incomplete");
+    }
+    badge.textContent =
+      currentAjouts === "À compléter"
+        ? Number(collectionFilmCount) - uniqueFilms.size
+        : uniqueFilms.size;
     posterZone.appendChild(badge);
-
     card.appendChild(posterZone);
     grid.appendChild(card);
   }

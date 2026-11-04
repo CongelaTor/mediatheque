@@ -522,9 +522,15 @@ gap: 26px;
     cursor: pointer;
     z-index: 10;
 }
+.play-button.collection-incomplete {
+    background: #ff8c00;
+    color: #070b14;
+}
+
 .duplicate-badge {
 background: #f97316;
 }
+
 .play-button:hover {
     background: #1683ff;
 }
