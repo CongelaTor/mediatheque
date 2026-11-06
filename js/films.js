@@ -398,7 +398,7 @@ function renderFilmSearchButtons(container) {
       const searchText = `${title} ${year}`.trim();
       const separator = site.separateur || "%20";
       const cleanSearchText = searchText
-        .replace(/[:;,.'"!?/\\()[\]{}]/g, " ")
+        .replace(/[-:;,.'"!?/\\()\[\]{}]/g, " ")
         .replace(/\s+/g, " ")
         .trim();
       const encodedSearchText = encodeURIComponent(cleanSearchText).replaceAll(

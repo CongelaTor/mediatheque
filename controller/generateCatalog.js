@@ -435,17 +435,11 @@ function syncFilm(catalog, analyse) {
   if (existing) {
     catalog.films.push({
       ...existing,
-      id: existing.id || analyse.id,
-      titre: analyse.titre,
-      annee: existing.annee ?? analyse.annee,
-      langue: analyse.langue,
-      taille: analyse.taille,
-      image: existing.image || analyse.image,
       fichier: analyse.fichier,
-      nomFichier: analyse.nomFichier,
     });
     return "kept";
   }
+  
   catalog.films.push({
     id: analyse.id,
     titre: analyse.titre,

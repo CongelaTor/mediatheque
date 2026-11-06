@@ -1106,6 +1106,7 @@ max-width: var(--cadres-max-width);
 }
 #filmSearchModal .tmdb-search-tokens {
     padding: 0;
+    justify-content: center;
 }
 #filmSearchModal .tmdb-result-title .tmdb-search-token {
     padding: 6px 12px;
