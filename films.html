@@ -105,6 +105,31 @@
         </div>
     </div>
 
+    <div id="filmSearchModal" class="tmdb-modal hidden">
+        <div class="tmdb-modal-panel">
+            <div class="tmdb-modal-header">
+                <h2>Rechercher le film</h2>
+                <button class="tmdb-modal-close" onclick="closeFilmSearchModal()">×</button>
+            </div>
+            <div class="tmdb-results">
+               <div>
+                    <div class="tmdb-result-title">
+                        <span id="filmSearchOriginalTitle"></span>
+                        <button id="filmSearchOriginalYear" class="tmdb-search-token"></button>
+                    </div>
+                    <div id="filmSearchOriginalButtons" class="tmdb-search-tokens"></div>
+                </div>
+                <div>
+                    <div class="tmdb-result-title">
+                        <span id="filmSearchFrenchTitle"></span>
+                        <button id="filmSearchFrenchYear" class="tmdb-search-token"></button>
+                    </div>
+                    <div id="filmSearchFrenchButtons" class="tmdb-search-tokens"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
     <div id="scanModal" class="tmdb-modal hidden linux-hidden">
         <div class="tmdb-modal-panel">
             <div class="tmdb-modal-header">
@@ -121,11 +146,13 @@
     </div>
 
     <!-- Charger top bar -->
-    <script>
+   <script>
         fetch("common/topbar.html")
             .then(response => response.text())
             .then(html => {
                 document.getElementById("topbarContainer").innerHTML = html;
+                document.getElementById("topbarScanText").textContent = "Scan des films";
+                document.getElementById("topbarScanButton").onclick = () => reloadCatalog("films");
             });
     </script>
 

@@ -89,6 +89,14 @@ function updateStats() {
   });
 
   const collectionsCount = collectionList.length;
+  const collectionFiles = catalog.films.filter(
+    (film) => film.collectionId && film.fichier,
+  );
+  const collectionFilesCount = collectionFiles.length;
+  const collectionsSize = collectionFiles.reduce(
+    (total, film) => total + (Number(film.taille) || 0),
+    0,
+  );
   const groupedFilms = new Set();
   for (const film of catalog.films) {
     const groupKey = film.tmdbId
@@ -101,6 +109,7 @@ function updateStats() {
     (total, film) => total + (Number(film.taille) || 0),
     0,
   );
+
   const nouveautesCount = catalog.films.filter((film) => !film.tmdbId).length;
   const seriesCount = catalog.series.length;
   const episodesCount = countEpisodes();
@@ -115,9 +124,12 @@ function updateStats() {
   }
   setText(
     "homeFilmsStats",
-    `${filmsCount} films • ${collectionsCount} collections • ${formatMediaSize(filmsSize)}`,
+    `${filmsCount} films • ${formatMediaSize(filmsSize)}`,
   );
-
+  setText(
+    "homeCollectionsStats",
+    `${collectionsCount} collections • ${collectionFilesCount} fichiers • ${formatMediaSize(collectionsSize)}`,
+  );
   setText("sideCollections", collectionsCount);
   setText("statFilms", filmsCount);
   setText("statNouveautes", nouveautesCount);

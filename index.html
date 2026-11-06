@@ -24,31 +24,38 @@
                     </div>
                 </div>
 
-                <div class="home-cards">
-                    <article class="home-card home-card-films" 
-                                onclick="setActiveFilmsContext(); window.location.href='films.html'">
-                        <div class="home-card-image film-hero"></div>
-                        <div class="home-card-icon">🎬</div>
-                        <h2>Films</h2>
-                        <p><span id="homeFilmsStats" class="home-stats"></span></p>
-                        <button id="resumeFilmButton" class="resume-button hidden" 
-                                onclick="event.stopPropagation(); resumeFilm()">
-                            ▶&nbsp;&nbsp;&nbsp;<span id="resumeFilmText"></span>
-                        </button>
-                    </article>
-
-                    <article class="home-card home-card-series" 
-                                onclick="window.location.href='series.html'">
-                        <div class="home-card-image serie-hero"></div>
-                        <div class="home-card-icon purple">📺</div>
-                        <h2>Séries</h2>
-                        <p><span id="homeSeriesStats" class="home-stats"></span></p>
-                        <button id="resumeSerieButton" class="resume-button hidden"
-                                onclick="event.stopPropagation(); resumeSerie()">
-                            ▶&nbsp;&nbsp;&nbsp;<span id="resumeSerieText"></span>
-                        </button>
-                    </article>
-                </div>
+              <div class="home-cards">
+                <article class="home-card home-card-collections"
+                            onclick="setActiveCollectionContext(); window.location.href='collections.html'">
+                    <div class="home-card-image collection-hero"></div>
+                    <div class="home-card-icon green">🎞️</div>
+                    <h2>Collections</h2>
+                    <p><span id="homeCollectionsStats" class="home-stats"></span></p>
+                </article>
+                <article class="home-card home-card-films"
+                            onclick="setActiveFilmsContext(); window.location.href='films.html'">
+                    <div class="home-card-image film-hero"></div>
+                    <div class="home-card-icon">🎬</div>
+                    <h2>Films</h2>
+                    <p><span id="homeFilmsStats" class="home-stats"></span></p>
+                   <button id="resumeFilmButton" class="resume-button hidden"
+                        onclick="event.stopPropagation(); resumeFilm()">
+                    <span class="home-resume-play">▶</span>
+                    <span id="resumeFilmText"></span>
+                </button>
+                </article>
+                <article class="home-card home-card-series"
+                            onclick="window.location.href='series.html'">
+                    <div class="home-card-image serie-hero"></div>
+                    <div class="home-card-icon purple">📺</div>
+                    <h2>Séries</h2>
+                    <p><span id="homeSeriesStats" class="home-stats"></span></p>
+                    <button id="resumeSerieButton" class="resume-button hidden"
+                            onclick="event.stopPropagation(); resumeSerie()">
+                        ▶&nbsp;&nbsp;&nbsp;<span id="resumeSerieText"></span>
+                    </button>
+                </article>
+            </div>
             </section>
         </main>
     </div>
@@ -85,8 +92,10 @@
             .then(response => response.text())
             .then(html => {
                 document.getElementById("topbarContainer").innerHTML = html;
+                document.getElementById("topbarScanButton").style.display = "none";
             });
     </script>
+
 
     <script src="config/constants.js"></script>
     <script src="js/calculContext.js"></script>

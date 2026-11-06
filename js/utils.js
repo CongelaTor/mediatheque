@@ -138,17 +138,18 @@ function updateUserGreeting() {
   const demandeur = localStorage.getItem("demandeur");
   const greeting = document.getElementById("userGreeting");
   const button = document.getElementById("userButton");
-
   if (!greeting || !button) {
     return;
   }
-
   if (demandeur) {
-    greeting.textContent = `Bonjour ${demandeur}`;
-    greeting.classList.remove("hidden");
     button.textContent = demandeur.charAt(0).toUpperCase();
   } else {
-    greeting.classList.add("hidden");
     button.textContent = "?";
+  }
+  if (demandeur && document.body.dataset.activeMenu === "accueil") {
+    greeting.textContent = `Bonjour ${demandeur}`;
+    greeting.classList.remove("hidden");
+  } else {
+    greeting.classList.add("hidden");
   }
 }

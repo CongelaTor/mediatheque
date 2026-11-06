@@ -11,12 +11,12 @@
         <a class="nav-button" data-page="series" href="series.html">Séries</a>
     </nav>
     <div class="top-actions">
-        <button
-            class="icon-button refresh-button linux-hidden mediaserver-only"
-            onclick="reloadCatalog('films')">
-            <span class="refresh-icon">↻</span>
-            <span>Scan des films</span>
-        </button>
+    <button
+        id="topbarScanButton"
+        class="icon-button refresh-button linux-hidden mediaserver-only">
+        <span class="refresh-icon">↻</span>
+        <span id="topbarScanText">Scan des films</span>
+    </button>
         <button
             class="icon-button refresh-button hidden"
             onclick="showDetectionPopup()">

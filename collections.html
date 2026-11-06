@@ -45,12 +45,6 @@
                                 <h1 id="collectionsCount">0 collection</h1>
                                 <p id="collectionsFilmsCount">0 film</p>
                             </div>
-                            <button
-                                id="migrateCollectionsButton"
-                                class="secondary-button"
-                                onclick="migrateCollections()">
-                                Mettre à jour les collections
-                            </button>
                             <input id="searchInput"
                                 class="search-input"
                                 type="text"
@@ -86,7 +80,7 @@
     <div id="scanModal" class="tmdb-modal hidden linux-hidden">
         <div class="tmdb-modal-panel">
             <div class="tmdb-modal-header">
-                <h2 id="scanTitle">Scan des films</h2>
+                <h2 id="scanTitle">Scan des collecions</h2>
             </div>
             <div id="scanLog" class="tmdb-results"></div>
             <div id="detectionLog" class="tmdb-results hidden"></div>
@@ -103,6 +97,8 @@
             .then(response => response.text())
             .then(html => {
                 document.getElementById("topbarContainer").innerHTML = html;
+                document.getElementById("topbarScanText").textContent = "Scan des collections";
+                document.getElementById("topbarScanButton").onclick = scanCollectionsTmdb;
             });
     </script>
 

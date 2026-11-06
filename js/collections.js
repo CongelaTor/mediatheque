@@ -53,6 +53,15 @@ async function initCollectionsPage() {
   renderCollections();
 }
 
+window.addEventListener("pageshow", async (event) => {
+  if (!event.persisted) {
+    return;
+  }
+  await loadCatalog();
+  updateStats();
+  renderCollections();
+});
+
 function renderCollections() {
   const grid = document.getElementById("collectionsGrid");
 
@@ -93,22 +102,31 @@ function renderCollections() {
     }
   }
   console.log("collections.size =", collections.size);
+
+  const currentYear = new Date().getFullYear();
   let collectionsToCompleteCount = 0;
   for (const collection of collections.values()) {
-    const uniqueFilms = new Set();
+    const eligibleFilms = new Set();
+    const ownedFilms = new Set();
     for (const film of collection.films) {
       const key = film.tmdbId
         ? `tmdb:${film.tmdbId}`
         : `title:${film.titre}|${film.annee || ""}`;
-      uniqueFilms.add(key);
+      const isFutureFilm =
+        film.anneeTmdb !== null &&
+        film.anneeTmdb !== undefined &&
+        Number(film.anneeTmdb) >= currentYear;
+      if (!isFutureFilm && !film.ignoreInCollection) {
+        eligibleFilms.add(key);
+      }
+      if (film.nomFichier) {
+        ownedFilms.add(key);
+      }
     }
-    const collectionFilmCount = collection.films.find((film) =>
-      Number.isFinite(Number(film.collectionFilmCount)),
-    )?.collectionFilmCount;
-    if (
-      Number.isFinite(Number(collectionFilmCount)) &&
-      uniqueFilms.size < Number(collectionFilmCount)
-    ) {
+    const hasMissingFilm = [...eligibleFilms].some(
+      (key) => !ownedFilms.has(key),
+    );
+    if (hasMissingFilm) {
       collectionsToCompleteCount++;
     }
   }
@@ -126,20 +144,26 @@ function renderCollections() {
     .filter((collection) => matchesSearch(collection.nom))
     .filter((collection) => {
       const uniqueFilms = new Set();
+      const eligibleFilms = new Set();
+      const ownedFilms = new Set();
       for (const film of collection.films) {
         const key = film.tmdbId
           ? `tmdb:${film.tmdbId}`
           : `title:${film.titre}|${film.annee || ""}`;
+        const isFutureFilm =
+          film.anneeTmdb !== null &&
+          film.anneeTmdb !== undefined &&
+          Number(film.anneeTmdb) >= currentYear;
         uniqueFilms.add(key);
+        if (!isFutureFilm && !film.ignoreInCollection) {
+          eligibleFilms.add(key);
+        }
+        if (film.nomFichier) {
+          ownedFilms.add(key);
+        }
       }
       if (currentAjouts === "À compléter") {
-        const collectionFilmCount = collection.films.find((film) =>
-          Number.isFinite(Number(film.collectionFilmCount)),
-        )?.collectionFilmCount;
-        return (
-          Number.isFinite(Number(collectionFilmCount)) &&
-          uniqueFilms.size < Number(collectionFilmCount)
-        );
+        return [...eligibleFilms].some((key) => !ownedFilms.has(key));
       }
       return uniqueFilms.size >= 1;
     })
@@ -149,15 +173,6 @@ function renderCollections() {
           Number(a.anneeTmdb || a.annee || 9999) -
           Number(b.anneeTmdb || b.annee || 9999),
       )[0];
-
-      console.log(
-        collection.nom,
-        firstFilm?.titreTmdb || firstFilm?.titre,
-        matchesGenre(firstFilm),
-        matchesType(firstFilm),
-        matchesStudio(firstFilm),
-      );
-
       return (
         matchesGenre(firstFilm) &&
         matchesType(firstFilm) &&
@@ -165,7 +180,7 @@ function renderCollections() {
       );
     })
     .sort((a, b) => a.nom.localeCompare(b.nom, "fr"));
-
+  console.log("collectionList.length =", collectionList.length);
   setText("sideCollections", collectionList.length);
   const groupedFilms = new Set();
   for (const film of catalog.films) {
@@ -223,29 +238,42 @@ function renderCollections() {
         : `title:${film.titre}|${film.annee || ""}`;
       uniqueFilms.add(key);
     }
-    const collectionFilmCount = collection.films.find((film) =>
-      Number.isFinite(Number(film.collectionFilmCount)),
-    )?.collectionFilmCount;
+    const eligibleFilms = new Set();
+    const ownedFilms = new Set();
+    for (const film of collection.films) {
+      const key = film.tmdbId
+        ? `tmdb:${film.tmdbId}`
+        : `title:${film.titre}|${film.annee || ""}`;
+      const isFutureFilm =
+        film.anneeTmdb !== null &&
+        film.anneeTmdb !== undefined &&
+        Number(film.anneeTmdb) >= currentYear;
+      if (!isFutureFilm && !film.ignoreInCollection) {
+        eligibleFilms.add(key);
+      }
+      if (film.nomFichier) {
+        ownedFilms.add(key);
+      }
+    }
+    const missingFilmsCount = [...eligibleFilms].filter(
+      (key) => !ownedFilms.has(key),
+    ).length;
     const badge = document.createElement("button");
     badge.className = "play-button";
-    if (
-      currentAjouts === "À compléter" &&
-      Number.isFinite(Number(collectionFilmCount)) &&
-      uniqueFilms.size < Number(collectionFilmCount)
-    ) {
+    if (currentAjouts === "À compléter" && missingFilmsCount > 0) {
       badge.classList.add("collection-incomplete");
     }
     badge.textContent =
-      currentAjouts === "À compléter"
-        ? Number(collectionFilmCount) - uniqueFilms.size
-        : uniqueFilms.size;
+      currentAjouts === "À compléter" ? missingFilmsCount : uniqueFilms.size;
     posterZone.appendChild(badge);
     card.appendChild(posterZone);
     grid.appendChild(card);
   }
 }
-async function migrateCollections() {
-  const button = document.getElementById("migrateCollectionsButton");
+
+async function scanCollectionsTmdb() {
+  const button = document.getElementById("topbarScanButton");
+  const buttonText = document.getElementById("topbarScanText");
   const collectionIds = [
     ...new Set(
       catalog.films
@@ -258,12 +286,12 @@ async function migrateCollections() {
     return;
   }
   button.disabled = true;
-  button.textContent = `Mise à jour 0/${collectionIds.length}`;
+  buttonText.textContent = `Scan 0/${collectionIds.length}`;
   try {
     const collections = [];
     for (let index = 0; index < collectionIds.length; index += 1) {
       const collectionId = collectionIds[index];
-      button.textContent = `Mise à jour ${index + 1}/${collectionIds.length}`;
+      buttonText.textContent = `Scan ${index + 1}/${collectionIds.length}`;
       const response = await fetch(
         `https://api.themoviedb.org/3/collection/${collectionId}?api_key=${appConstants.tmdbApiKey}&language=fr-FR`,
       );
@@ -277,6 +305,19 @@ async function migrateCollections() {
         collectionImage: collectionDetails.poster_path || null,
         collectionDescription: collectionDetails.overview || "",
         collectionFilmCount: collectionDetails.parts?.length || 0,
+        films: (collectionDetails.parts || []).map((film) => ({
+          tmdbId: film.id,
+          tmdbUrl: `https://www.themoviedb.org/movie/${film.id}`,
+          titreTmdb: film.title || film.original_title || "",
+          titreOriginal: film.original_title || film.title || "",
+          anneeTmdb: film.release_date
+            ? Number(film.release_date.substring(0, 4))
+            : 2100,
+          image: film.poster_path
+            ? `https://image.tmdb.org/t/p/w342${film.poster_path}`
+            : null,
+          descriptionTmdb: film.overview || "",
+        })),
       });
     }
     const response = await fetch("http://localhost:9876/migrate-collections", {
@@ -292,12 +333,15 @@ async function migrateCollections() {
       throw new Error(await response.text());
     }
     const result = await response.json();
-    alert(`${result.updatedCollections} collections mises à jour.`);
-    button.textContent = "Migration terminée";
+    alert(
+      `${result.updatedCollections} collections mises à jour.\n${result.addedFilms} films manquants ajoutés.`,
+    );
+    buttonText.textContent = "Scan terminé";
   } catch (error) {
     console.error(error);
-    alert(`Échec de la migration : ${error.message}`);
+    alert(`Échec du scan : ${error.message}`);
+  } finally {
     button.disabled = false;
-    button.textContent = "Mettre à jour les collections";
+    buttonText.textContent = "Scan des collections";
   }
 }

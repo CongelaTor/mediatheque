@@ -1,0 +1,24 @@
+{
+"sites": [
+    {
+    "nom": "TMDB",
+    "url": "https://www.themoviedb.org/search?query=",
+    "separateur": "%20"
+    },
+    {
+    "nom": "Google",
+    "url": "https://www.google.com/search?q=",
+    "separateur": "+"
+    },
+    {
+    "nom": "1337x",
+    "url": "https://1337x.pro/search/?q=",
+    "separateur": "%20"
+    },
+    {
+    "nom": "Torrent9",
+    "url": "https://www.torrent9.ws/recherche/",
+    "separateur": "%20"
+    }
+]
+}

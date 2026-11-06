@@ -104,6 +104,8 @@
             .then(response => response.text())
             .then(html => {
                 document.getElementById("topbarContainer").innerHTML = html;
+                document.getElementById("topbarScanText").textContent = "Scan des films";
+                document.getElementById("topbarScanButton").onclick = () => reloadCatalog("films");
             });
     </script>
 

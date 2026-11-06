@@ -217,7 +217,7 @@ input {
     margin: 0 auto;
     padding: 0 24px;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(3, 1fr);
     gap: 26px;
 }
 
@@ -234,7 +234,7 @@ input {
 }
 
 .home-card-image {
-    height: 213px;
+    height: 145px;
     background-size: cover;
     background-position: center;
 }
@@ -244,19 +244,21 @@ input {
     border-color: var(--blue);
 }
 
+.collection-hero {
+    background:
+        radial-gradient(circle at 20% 55%, rgba(22, 130, 100, 0.55), transparent 15%),
+        linear-gradient(135deg, #0d2d29, #0b2330);
+}
 .film-hero {
     background:
-        linear-gradient(135deg, rgba(5, 12, 25, 0.2), rgba(12, 49, 95, 0.35)),
-        radial-gradient(circle at 30% 40%, #3e73b6, transparent 30%),
-        linear-gradient(135deg, #0c1b31, #1f385d);
+        radial-gradient(circle at 55% 40%, rgba(40, 120, 199, 0.75), transparent 22%),
+        linear-gradient(135deg, #102440, #162f52);
 }
-
 .serie-hero {
     background:
-        radial-gradient(circle at 70% 45%, rgba(141, 69, 246, 0.75), transparent 20%),
+        radial-gradient(circle at 80% 45%, rgba(141, 69, 246, 0.75), transparent 20%),
         linear-gradient(135deg, #271046, #061427);
 }
-
 .home-card-icon {
     width: 72px;
     height: 72px;
@@ -270,6 +272,9 @@ input {
     border: 5px solid #111c2d;
 }
 
+.home-card-icon.green {
+    background: #10634f;
+}
 .home-card-icon.purple {
     background: var(--purple);
 }
@@ -304,14 +309,26 @@ font-size: calc(15px * var(--font-scale));
 }
 .home-card .resume-button {
 width: calc(100% - 48px);
-height: 42px;
+min-height: 42px;
+height: auto;
 margin: 0 24px 24px 24px;
+display: grid;
+grid-template-columns: 24px 1fr 24px;
+align-items: center;
+text-align: center;
+padding: 8px 10px;
+line-height: 1.25;
+}
+.home-resume-play {
 display: flex;
 align-items: center;
 justify-content: center;
-text-align: center;
-padding: 0 24px;
 }
+#resumeFilmText {
+grid-column: 2;
+overflow-wrap: anywhere;
+}
+
 .home-card button.purple-button {
     background: var(--purple);
 }
@@ -526,16 +543,32 @@ gap: 26px;
     background: #ff8c00;
     color: #070b14;
 }
-
+.play-button.film-missing-in-collection {
+    width: 20px;
+    height: 20px;
+    background: #f97316;
+    box-shadow: 0 0 12px rgba(249, 115, 22, 0.45);
+}
+.play-button.film-ignore-in-collection {
+    width: 20px;
+    height: 20px;
+    padding: 0;
+    border: none;
+    background: transparent;
+    color: #7b8494;
+    font-size: 22px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.play-button.film-ignore-in-collection:hover {
+    background: transparent;
+    color: #9aa2b1;
+}
 .duplicate-badge {
 background: #f97316;
 }
-
-.play-button:hover {
-    background: #1683ff;
-}
-
-
 
 .missing-poster {
 
@@ -1049,8 +1082,25 @@ max-width: var(--cadres-max-width);
     color: #222222;
 }
 
-.tmdb-search-token:hover {
-    transform: translateY(-1px);
+.tmdb-search-token:hover {  
+    transform: translateY(-1px);  
+}
+#filmSearchModal .tmdb-results {
+    white-space: normal;
+    gap: 28px;
+    padding: 28px 38px;
+}
+#filmSearchModal .tmdb-result-title {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 12px;
+}
+#filmSearchModal .tmdb-search-tokens {
+    padding: 0;
+}
+#filmSearchModal .tmdb-result-title .tmdb-search-token {
+    padding: 6px 12px;
 }
 
 .tmdb-search-token-pin {

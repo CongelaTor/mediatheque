@@ -188,11 +188,11 @@ function updateResumeButtons() {
     })
     .then((resumeData) => {
       if (resumeFilmButton && resumeData.film?.catalogPath) {
-        const position = new Date(
-          (Number(resumeData.film.positionSeconds) || 0) * 1000,
-        )
-          .toISOString()
-          .substring(11, 19);
+        // const position = new Date(
+        //   (Number(resumeData.film.positionSeconds) || 0) * 1000,
+        // )
+        //   .toISOString()
+        //   .substring(11, 19);
         const film = catalog.films.find(
           (item) => item.fichier === resumeData.film.catalogPath,
         );
@@ -202,10 +202,7 @@ function updateResumeButtons() {
           delete resumeFilmButton.dataset.tmdbId;
         }
         resumeFilmButton.classList.remove("hidden");
-        setText(
-          "resumeFilmText",
-          `${film?.titreTmdb || film?.titre || resumeData.film.catalogPath.split("/").pop() || "Film"} (${position})`,
-        );
+        setText("resumeFilmText", film?.titreTmdb || film?.titre || "Film");
       }
       if (resumeSerieButton && resumeData.serie?.catalogPath && resumeSerie) {
         const position = new Date(
@@ -214,9 +211,14 @@ function updateResumeButtons() {
           .toISOString()
           .substring(11, 19);
         resumeSerieButton.classList.remove("hidden");
+        const resumeFilm = getResumeFilm();
         setText(
-          "resumeSerieText",
-          `${resumeSerie.titre} S${formatNumber(resumeSerie.saison)}E${formatNumber(resumeSerie.episode)} (${position})`,
+          "resumeFilmText",
+          film?.titreTmdb ||
+            film?.titre ||
+            resumeFilm?.titre ||
+            resumeData.film.catalogPath.split("/").pop() ||
+            "Film",
         );
       }
     })

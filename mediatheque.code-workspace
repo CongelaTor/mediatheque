@@ -1,12 +1,15 @@
 {
 	"folders": [
 		{
+			"name": "mediatheque",
 			"path": "."
 		},
 		{
+			"name": "git_vscodeconfig",
 			"path": "../git_vscodeconfig"
 		},
 		{
+			"name": "01_mediaServer",
 			"path": "Z:/01_mediaServer"
 		}
 	],

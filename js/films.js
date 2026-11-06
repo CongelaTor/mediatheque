@@ -1,3 +1,4 @@
+let filmSearchSites = [];
 async function initFilmsPage() {
   currentPage = "films";
 
@@ -5,6 +6,7 @@ async function initFilmsPage() {
   updateUserGreeting();
   await isMediaServerAvailable();
   await loadCatalog();
+  await loadFilmSearchConfig();
 
   initFiltersSidebar();
   initLanguageFilters();
@@ -94,7 +96,9 @@ function renderFilms() {
       });
     }
     const group = groupedFilms.get(groupKey);
-    group.files.push(film);
+    if (film.fichier || film.nomFichier) {
+      group.files.push(film);
+    }
     if (film.doublonExact) {
       group.hasExactDuplicate = true;
     }
@@ -108,7 +112,9 @@ function renderFilms() {
     })
     .filter((film) => {
       if (!window.selectedCollectionId) {
-        return !film.collectionId || !film.collectionNom;
+        return (
+          (!film.collectionId || !film.collectionNom) && film.fileCount > 0
+        );
       }
       return String(film.collectionId) === window.selectedCollectionId;
     })
@@ -166,6 +172,23 @@ function renderFilms() {
             collection.collectionId,
           ),
         );
+        const tmdbBadge = document.createElement("button");
+        tmdbBadge.className = "play-button";
+        tmdbBadge.style.right = "6px";
+        tmdbBadge.style.bottom = "6px";
+        tmdbBadge.style.width = "32px";
+        tmdbBadge.style.height = "32px";
+        tmdbBadge.style.fontSize = "14px";
+        tmdbBadge.innerHTML = "🔍";
+        tmdbBadge.onclick = (event) => {
+          event.stopPropagation();
+          window.location.href = `https://www.themoviedb.org/collection/${collection.collectionId}`;
+        };
+        imageContainer.appendChild(tmdbBadge);
+        imageContainer.style.cursor = "pointer";
+        imageContainer.onclick = () => {
+          window.location.href = `https://www.themoviedb.org/collection/${collection.collectionId}`;
+        };
       }
       setText(
         "collectionInfoDescription",
@@ -215,10 +238,13 @@ function filmMatchesLanguage(film) {
 function createFilmCard(film) {
   const card = document.createElement("article");
   card.className = "media-card";
-
   const posterZone = document.createElement("div");
   posterZone.className = "poster-zone";
   posterZone.onclick = () => {
+    if (film.fileCount === 0) {
+      showFilmSearchModal(film);
+      return;
+    }
     if (film.titreTmdb) {
       window.location.href = `film-detail.html?tmdbId=${film.tmdbId}`;
       return;
@@ -230,16 +256,140 @@ function createFilmCard(film) {
     showTmdbFilmSearch(film);
   };
   posterZone.appendChild(createPosterContent(film.image, film.titre, film.id));
-
-  if (film.fileCount > 1) {
+  if (film.fileCount === 0 || film.fileCount > 1) {
     const badge = document.createElement("button");
-    badge.className = film.hasExactDuplicate
-      ? "play-button duplicate-badge"
-      : "play-button";
-    badge.textContent = film.fileCount;
+    badge.className =
+      film.fileCount === 0
+        ? film.ignoreInCollection
+          ? "play-button film-ignore-in-collection"
+          : "play-button film-missing-in-collection"
+        : film.hasExactDuplicate
+          ? "play-button duplicate-badge"
+          : "play-button";
+    badge.textContent =
+      film.fileCount === 0
+        ? film.ignoreInCollection
+          ? "⊘"
+          : ""
+        : film.fileCount;
+    if (film.fileCount === 0) {
+      badge.title = film.ignoreInCollection
+        ? "Réintégrer ce film dans le calcul de la collection"
+        : "Ignorer ce film dans le calcul de la collection";
+      badge.onclick = async (event) => {
+        event.preventDefault();
+        event.stopPropagation();
+        if (!mediaServerAvailable) {
+          showToast("MediaServer indisponible");
+          return;
+        }
+        const ignoreInCollection = !Boolean(film.ignoreInCollection);
+        try {
+          const response = await fetch(
+            "http://localhost:9876/set-film-ignore-in-collection",
+            {
+              method: "POST",
+              headers: {
+                "Content-Type": "application/json",
+              },
+              body: JSON.stringify({
+                tmdbId: film.tmdbId,
+                ignoreInCollection,
+              }),
+            },
+          );
+          if (!response.ok) {
+            throw new Error(await response.text());
+          }
+          film.ignoreInCollection = ignoreInCollection;
+          badge.className = ignoreInCollection
+            ? "play-button film-ignore-in-collection"
+            : "play-button film-missing-in-collection";
+          badge.textContent = ignoreInCollection ? "⊘" : "";
+          badge.title = ignoreInCollection
+            ? "Réintégrer ce film dans le calcul de la collection"
+            : "Ignorer ce film dans le calcul de la collection";
+        } catch (error) {
+          console.error(error);
+          showToast("Impossible d’enregistrer le film ignoré");
+        }
+      };
+    }
     posterZone.appendChild(badge);
   }
-
   card.appendChild(posterZone);
   return card;
+}
+
+async function loadFilmSearchConfig() {
+  try {
+    const response = await fetch("config/searchConfig.json");
+    if (!response.ok) {
+      throw new Error(`HTTP ${response.status}`);
+    }
+    const config = await response.json();
+    filmSearchSites = Array.isArray(config.sites) ? config.sites : [];
+  } catch (error) {
+    console.error("Erreur de chargement de searchConfig.json :", error);
+    filmSearchSites = [];
+  }
+}
+
+function showFilmSearchModal(film) {
+  const frenchTitle = film.titreTmdb || film.titre || "";
+  const originalTitle = film.titreOriginal || frenchTitle;
+  const year = film.anneeTmdb || film.annee || "";
+  document.getElementById("filmSearchFrenchTitle").textContent = frenchTitle;
+  document.getElementById("filmSearchOriginalTitle").textContent =
+    originalTitle;
+  setupFilmSearchYear(
+    document.getElementById("filmSearchFrenchYear"),
+    document.getElementById("filmSearchFrenchButtons"),
+    frenchTitle,
+    year,
+  );
+  setupFilmSearchYear(
+    document.getElementById("filmSearchOriginalYear"),
+    document.getElementById("filmSearchOriginalButtons"),
+    originalTitle,
+    year,
+  );
+  document.getElementById("filmSearchModal").classList.remove("hidden");
+}
+
+function setupFilmSearchYear(yearButton, buttonsContainer, title, year) {
+  yearButton.textContent = year;
+  yearButton.classList.remove("active");
+  yearButton.style.display = year ? "" : "none";
+  renderFilmSearchButtons(buttonsContainer, title, year, false);
+  yearButton.onclick = () => {
+    const active = yearButton.classList.toggle("active");
+    renderFilmSearchButtons(buttonsContainer, title, year, active);
+  };
+}
+
+function renderFilmSearchButtons(container, title) {
+  container.innerHTML = "";
+  for (const site of filmSearchSites) {
+    const button = document.createElement("button");
+    button.className = "tmdb-search-token active";
+    button.textContent = site.nom;
+    button.onclick = () => {
+      const separator = site.separateur || "%20";
+      const cleanTitle = title
+        .replace(/[:;,.'"!?/\\()[\]{}]/g, " ")
+        .replace(/\s+/g, " ")
+        .trim();
+      const encodedTitle = encodeURIComponent(cleanTitle).replaceAll(
+        "%20",
+        separator,
+      );
+      window.open(`${site.url}${encodedTitle}`, "_blank", "noopener");
+    };
+    container.appendChild(button);
+  }
+}
+
+function closeFilmSearchModal() {
+  document.getElementById("filmSearchModal").classList.add("hidden");
 }
