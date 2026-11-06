@@ -851,7 +851,8 @@
             "collectionId": 9485,
             "collectionNom": "Fast and Furious - Saga",
             "type": "Film",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "12_rounds_2009",
@@ -881,7 +882,8 @@
             "collectionId": 221622,
             "collectionNom": "12 Rounds - Saga",
             "type": "Film",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "12_rounds_2009",
@@ -942,7 +944,8 @@
             "collectionId": 9485,
             "collectionNom": "Fast and Furious - Saga",
             "type": "Film",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "a_avengers_age_of_ultron_2015",
@@ -975,7 +978,8 @@
             "collectionImage": "https://image.tmdb.org/t/p/w500/qvWDDPlo2MT7YCU4NSVxCgStxqu.jpg",
             "collectionTmdbUrl": "https://www.themoviedb.org/collection/86311",
             "type": "Film",
-            "studio": "Marvel"
+            "studio": "Marvel",
+            "ignoreInCollection": false
         },
         {
             "id": "a_avengers_age_of_ultron_2015",
@@ -1041,7 +1045,8 @@
             "collectionImage": "https://image.tmdb.org/t/p/w500/1bVrlIR6snwTglKtl5umYmGpnsb.jpg",
             "collectionTmdbUrl": "https://www.themoviedb.org/collection/529892",
             "type": "Film",
-            "studio": "Marvel"
+            "studio": "Marvel",
+            "ignoreInCollection": false
         },
         {
             "id": "a_black_panther_2018",
@@ -1109,7 +1114,8 @@
             "collectionImage": "https://image.tmdb.org/t/p/w500/pHnZAJlnO2GwHZScT2ouX7wyIyH.jpg",
             "collectionTmdbUrl": "https://www.themoviedb.org/collection/623911",
             "type": "Film",
-            "studio": "Marvel"
+            "studio": "Marvel",
+            "ignoreInCollection": false
         },
         {
             "id": "a_captain_america_civil_war_2016",
@@ -1142,7 +1148,8 @@
             "collectionImage": "https://image.tmdb.org/t/p/w500/1nefddmvyXD8N2R5o6qU9U7Ty3w.jpg",
             "collectionTmdbUrl": "https://www.themoviedb.org/collection/131295",
             "type": "Film",
-            "studio": "Marvel"
+            "studio": "Marvel",
+            "ignoreInCollection": false
         },
         {
             "id": "a_captain_america_civil_war_2016",
@@ -1208,7 +1215,8 @@
             "collectionImage": "https://image.tmdb.org/t/p/w500/1nefddmvyXD8N2R5o6qU9U7Ty3w.jpg",
             "collectionTmdbUrl": "https://www.themoviedb.org/collection/131295",
             "type": "Film",
-            "studio": "Marvel"
+            "studio": "Marvel",
+            "ignoreInCollection": false
         },
         {
             "id": "a_funny_thing_happened_on_the_way_to_thor_s_hammer_2011",
@@ -1274,7 +1282,8 @@
             "collectionImage": "https://image.tmdb.org/t/p/w500/tLPOphMdoULccLiBq5PkOZhfdMI.jpg",
             "collectionTmdbUrl": "https://www.themoviedb.org/collection/284433",
             "type": "Film",
-            "studio": "Marvel"
+            "studio": "Marvel",
+            "ignoreInCollection": false
         },
         {
             "id": "a_iron_man_1_2008",
@@ -1307,7 +1316,8 @@
             "collectionImage": "https://image.tmdb.org/t/p/w500/bQGciwYBe0aG1UNHuIiFkey4pqX.jpg",
             "collectionTmdbUrl": "https://www.themoviedb.org/collection/131292",
             "type": "Film",
-            "studio": "Marvel"
+            "studio": "Marvel",
+            "ignoreInCollection": false
         },
         {
             "id": "a_iron_man_3_2013",
@@ -1340,7 +1350,8 @@
             "collectionImage": "https://image.tmdb.org/t/p/w500/bQGciwYBe0aG1UNHuIiFkey4pqX.jpg",
             "collectionTmdbUrl": "https://www.themoviedb.org/collection/131292",
             "type": "Film",
-            "studio": "Marvel"
+            "studio": "Marvel",
+            "ignoreInCollection": false
         },
         {
             "id": "a_thor_2011",
@@ -1374,7 +1385,8 @@
             "collectionImage": "https://image.tmdb.org/t/p/w500/cClJllWY3gPmoBvdbhO9MG14Q7P.jpg",
             "collectionTmdbUrl": "https://www.themoviedb.org/collection/131296",
             "type": "Film",
-            "studio": "Marvel"
+            "studio": "Marvel",
+            "ignoreInCollection": false
         },
         {
             "id": "abominable_2019",
@@ -1467,7 +1479,8 @@
             "collectionImage": "https://image.tmdb.org/t/p/w500/z0NsZNauyNM1ZKj3FCfJvZoSwSA.jpg",
             "collectionTmdbUrl": "https://www.themoviedb.org/collection/454520",
             "type": "Animation",
-            "studio": "Marvel"
+            "studio": "Marvel",
+            "ignoreInCollection": false
         },
         {
             "id": "alfie",
@@ -1713,7 +1726,8 @@
             "collectionImage": "https://image.tmdb.org/t/p/w500/2k754gEz4uL3j1GhjitTOJ6Rcbm.jpg",
             "collectionTmdbUrl": "https://www.themoviedb.org/collection/573693",
             "type": "Film",
-            "studio": "Marvel"
+            "studio": "Marvel",
+            "ignoreInCollection": false
         },
         {
             "id": "armageddon",
@@ -1803,7 +1817,8 @@
             "collectionId": 85817,
             "collectionNom": "Arthur et les Minimoys - Saga",
             "type": "Film",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "asterix_aux_jeux_olympiques",
@@ -1833,7 +1848,8 @@
             "collectionId": 2396,
             "collectionNom": "Astérix & Obélix - Saga",
             "type": "Film",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "au_bout_de_la_nuit",
@@ -1863,7 +1879,8 @@
             "collectionId": 124881,
             "collectionNom": "Au bout de la nuit - Saga",
             "type": "Film",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "avant_onward_2020",
@@ -1923,7 +1940,8 @@
             "collectionId": 87096,
             "collectionNom": "Avatar - Saga",
             "type": "Film",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "avatar_ece_bitloks_2009",
@@ -2016,7 +2034,8 @@
             "collectionImage": "https://image.tmdb.org/t/p/w500/kr6ljsWH6Bkk5BfmmmLj6z2NZMC.jpg",
             "collectionTmdbUrl": "https://www.themoviedb.org/collection/422834",
             "type": "Film",
-            "studio": "Marvel"
+            "studio": "Marvel",
+            "ignoreInCollection": false
         },
         {
             "id": "b_ant_man_2015",
@@ -2115,7 +2134,8 @@
             "collectionImage": "https://image.tmdb.org/t/p/w500/qvWDDPlo2MT7YCU4NSVxCgStxqu.jpg",
             "collectionTmdbUrl": "https://www.themoviedb.org/collection/86311",
             "type": "Film",
-            "studio": "Marvel"
+            "studio": "Marvel",
+            "ignoreInCollection": false
         },
         {
             "id": "b_avengers_infinity_war_2018",
@@ -2148,7 +2168,8 @@
             "collectionImage": "https://image.tmdb.org/t/p/w500/qvWDDPlo2MT7YCU4NSVxCgStxqu.jpg",
             "collectionTmdbUrl": "https://www.themoviedb.org/collection/86311",
             "type": "Film",
-            "studio": "Marvel"
+            "studio": "Marvel",
+            "ignoreInCollection": false
         },
         {
             "id": "b_avengers_infinity_war_2018",
@@ -2215,7 +2236,8 @@
             "collectionImage": "https://image.tmdb.org/t/p/w500/jGyjFboipgcBwvnrORWjZqoxOeR.jpg",
             "collectionTmdbUrl": "https://www.themoviedb.org/collection/618529",
             "type": "Film",
-            "studio": "Marvel"
+            "studio": "Marvel",
+            "ignoreInCollection": false
         },
         {
             "id": "b_doctor_strange_2016",
@@ -2311,7 +2333,8 @@
             "collectionImage": "https://image.tmdb.org/t/p/w500/tLPOphMdoULccLiBq5PkOZhfdMI.jpg",
             "collectionTmdbUrl": "https://www.themoviedb.org/collection/284433",
             "type": "Film",
-            "studio": "Marvel"
+            "studio": "Marvel",
+            "ignoreInCollection": false
         },
         {
             "id": "b_spiderman_home_coming_2017",
@@ -2344,7 +2367,8 @@
             "collectionImage": "https://image.tmdb.org/t/p/w500/3BVng0lmJyYIUqm5dxLS2eZ2625.jpg",
             "collectionTmdbUrl": "https://www.themoviedb.org/collection/531241",
             "type": "Film",
-            "studio": "Marvel"
+            "studio": "Marvel",
+            "ignoreInCollection": false
         },
         {
             "id": "b_thor_the_dark_world_2013",
@@ -2377,7 +2401,8 @@
             "collectionImage": "https://image.tmdb.org/t/p/w500/cClJllWY3gPmoBvdbhO9MG14Q7P.jpg",
             "collectionTmdbUrl": "https://www.themoviedb.org/collection/131296",
             "type": "Film",
-            "studio": "Marvel"
+            "studio": "Marvel",
+            "ignoreInCollection": false
         },
         {
             "id": "b_thor_the_dark_world_s_v_2013",
@@ -2440,7 +2465,8 @@
             "collectionId": 1719057,
             "collectionNom": "Ballerina Collection",
             "type": "Animation",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "banlieue_13",
@@ -2470,7 +2496,8 @@
             "collectionId": 85946,
             "collectionNom": "Banlieue 13 - Saga",
             "type": "Film",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "banlieue_13_ultimatum",
@@ -2500,7 +2527,8 @@
             "collectionId": 85946,
             "collectionNom": "Banlieue 13 - Saga",
             "type": "Film",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "basic",
@@ -2563,7 +2591,8 @@
             "collectionImage": "https://image.tmdb.org/t/p/w500/ee1TdZpvSJ2O1fda2orJvLiJ74R.jpg",
             "collectionTmdbUrl": "https://www.themoviedb.org/collection/263",
             "type": "Film",
-            "studio": "Marvel"
+            "studio": "Marvel",
+            "ignoreInCollection": false
         },
         {
             "id": "batman_begins",
@@ -2686,7 +2715,8 @@
             "collectionId": 353721,
             "collectionNom": "Street Dancers - Saga",
             "type": "Film",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "la_belle_au_bois_dormant",
@@ -2746,7 +2776,8 @@
             "collectionId": 97460,
             "collectionNom": "La Belle et le Clochard - Saga",
             "type": "Animation",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "la_belle_et_le_clochard_2",
@@ -2776,7 +2807,8 @@
             "collectionId": 97460,
             "collectionNom": "La Belle et le Clochard - Saga",
             "type": "Animation",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "benjamin_button",
@@ -2836,7 +2868,8 @@
             "collectionId": 52984,
             "collectionNom": "Benjamin Gates - Saga",
             "type": "Film",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "benjamin_gates_et_le_tresor_des_templiers",
@@ -2866,7 +2899,8 @@
             "collectionId": 52984,
             "collectionNom": "Benjamin Gates - Saga",
             "type": "Film",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "bienvenue_chez_les_chtis",
@@ -2896,7 +2930,8 @@
             "collectionId": 1530834,
             "collectionNom": "Les Ch'tits - Saga",
             "type": "Film",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "big_hero_6_2014",
@@ -2959,7 +2994,8 @@
             "collectionImage": "https://image.tmdb.org/t/p/w500/1bVrlIR6snwTglKtl5umYmGpnsb.jpg",
             "collectionTmdbUrl": "https://www.themoviedb.org/collection/529892",
             "type": "Film",
-            "studio": "Marvel"
+            "studio": "Marvel",
+            "ignoreInCollection": false
         },
         {
             "id": "black_widow_2021",
@@ -3115,7 +3151,8 @@
             "collectionId": 645,
             "collectionNom": "James Bond 007 - Saga",
             "type": "Film",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "bond_2_quantum_solace_gks_by_yatta69",
@@ -3145,7 +3182,8 @@
             "collectionId": 645,
             "collectionNom": "James Bond 007 - Saga",
             "type": "Film",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "bond_2_quantum_solace_proper_putch",
@@ -3205,7 +3243,8 @@
             "collectionId": 645,
             "collectionNom": "James Bond 007 - Saga",
             "type": "Film",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "bond_3_skyfall_cd2",
@@ -3265,7 +3304,8 @@
             "collectionId": 31562,
             "collectionNom": "Jason Bourne - Saga",
             "type": "Film",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "bourne_la_memoire_dans_la_peau_1",
@@ -3295,7 +3335,8 @@
             "collectionId": 31562,
             "collectionNom": "Jason Bourne - Saga",
             "type": "Film",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "bourne_la_vengeance_dans_la_peau",
@@ -3325,7 +3366,8 @@
             "collectionId": 31562,
             "collectionNom": "Jason Bourne - Saga",
             "type": "Film",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "braquage_a_l_italienne",
@@ -3418,7 +3460,8 @@
             "collectionImage": "https://image.tmdb.org/t/p/w500/kr6ljsWH6Bkk5BfmmmLj6z2NZMC.jpg",
             "collectionTmdbUrl": "https://www.themoviedb.org/collection/422834",
             "type": "Film",
-            "studio": "Marvel"
+            "studio": "Marvel",
+            "ignoreInCollection": false
         },
         {
             "id": "c_spider_man_far_from_home_2019",
@@ -3451,7 +3494,8 @@
             "collectionImage": "https://image.tmdb.org/t/p/w500/3BVng0lmJyYIUqm5dxLS2eZ2625.jpg",
             "collectionTmdbUrl": "https://www.themoviedb.org/collection/531241",
             "type": "Film",
-            "studio": "Marvel"
+            "studio": "Marvel",
+            "ignoreInCollection": false
         },
         {
             "id": "c_spiderman_far_from_home_2019",
@@ -3517,7 +3561,8 @@
             "collectionImage": "https://image.tmdb.org/t/p/w500/cClJllWY3gPmoBvdbhO9MG14Q7P.jpg",
             "collectionTmdbUrl": "https://www.themoviedb.org/collection/131296",
             "type": "Film",
-            "studio": "Marvel"
+            "studio": "Marvel",
+            "ignoreInCollection": false
         },
         {
             "id": "c_thor_ragnarok_2017",
@@ -3580,7 +3625,8 @@
             "collectionId": 52097,
             "collectionNom": "Camping - Saga",
             "type": "Film",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "cars_cd1",
@@ -3610,7 +3656,8 @@
             "collectionId": 87118,
             "collectionNom": "Cars - Saga",
             "type": "Animation",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "cars_cd2",
@@ -3700,7 +3747,8 @@
             "collectionId": 87118,
             "collectionNom": "Cars - Saga",
             "type": "Animation",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "le_carton",
@@ -3853,7 +3901,8 @@
             "collectionId": 55419,
             "collectionNom": "Cendrillon - Saga",
             "type": "Animation",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "cendrillon_2_une_vie_de_princesse_disney_n_75",
@@ -3883,7 +3932,8 @@
             "collectionId": 55419,
             "collectionNom": "Cendrillon - Saga",
             "type": "Animation",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "cendrillon_3_le_sortilege_de_cendrillon_disney_n_89",
@@ -3913,7 +3963,8 @@
             "collectionId": 55419,
             "collectionNom": "Cendrillon - Saga",
             "type": "Animation",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "charlies_angels_2000",
@@ -3943,7 +3994,8 @@
             "collectionId": 86029,
             "collectionNom": "Charlie et ses drôles de dames - Saga",
             "type": "Film",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "charlies_angels_2000",
@@ -4003,7 +4055,8 @@
             "collectionId": 86029,
             "collectionNom": "Charlie et ses drôles de dames - Saga",
             "type": "Film",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "chasseurs_de_dragons_vnr_2008",
@@ -4153,7 +4206,8 @@
             "collectionId": 315595,
             "collectionNom": "Fée Clochette - Saga",
             "type": "Animation",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "coco_2017",
@@ -4184,7 +4238,8 @@
             "collectionId": 1451578,
             "collectionNom": "Coco - Saga",
             "type": "Animation",
-            "studio": "Disney"
+            "studio": "Disney",
+            "ignoreInCollection": false
         },
         {
             "id": "coluche_ses_plus_grands_sketches_cd2",
@@ -4394,7 +4449,8 @@
             "collectionId": 353721,
             "collectionNom": "Street Dancers - Saga",
             "type": "Film",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "dance_with_me",
@@ -4514,7 +4570,8 @@
             "collectionId": 246839,
             "collectionNom": "Danse ta vie - Saga",
             "type": "Film",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "danse_ta_vie_2_center_stage_turn_it_up",
@@ -4544,7 +4601,8 @@
             "collectionId": 246839,
             "collectionNom": "Danse ta vie - Saga",
             "type": "Film",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "dany_boon_style_2011",
@@ -4697,7 +4755,8 @@
             "collectionId": 645,
             "collectionNom": "James Bond 007 - Saga",
             "type": "Film",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "demain_ne_meurt_jamais_cd2",
@@ -4787,7 +4846,8 @@
             "collectionId": 1570,
             "collectionNom": "Die Hard - Saga",
             "type": "Film",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "die_hard_4_bitloks_2007",
@@ -4817,7 +4877,8 @@
             "collectionId": 1570,
             "collectionNom": "Die Hard - Saga",
             "type": "Film",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "doctor_strange_hd_cpg_2016",
@@ -4880,7 +4941,8 @@
             "collectionImage": "https://image.tmdb.org/t/p/w500/jGyjFboipgcBwvnrORWjZqoxOeR.jpg",
             "collectionTmdbUrl": "https://www.themoviedb.org/collection/618529",
             "type": "Film",
-            "studio": "Marvel"
+            "studio": "Marvel",
+            "ignoreInCollection": false
         },
         {
             "id": "doctor_strange_2_2022",
@@ -5237,7 +5299,8 @@
             "collectionId": 89137,
             "collectionNom": "Dragons - Saga",
             "type": "Animation",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "dragons_2010",
@@ -5267,7 +5330,8 @@
             "collectionId": 89137,
             "collectionNom": "Dragons - Saga",
             "type": "Animation",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "dragons_2",
@@ -5297,7 +5361,8 @@
             "collectionId": 89137,
             "collectionNom": "Dragons - Saga",
             "type": "Animation",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "dragons_rescue_riders_2020",
@@ -5328,7 +5393,8 @@
             "collectionId": 759368,
             "collectionNom": "Dragons: Rescue Riders Collection",
             "type": "Animation",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "dubai_seven_2015",
@@ -5359,7 +5425,8 @@
             "collectionId": 9485,
             "collectionNom": "Fast and Furious - Saga",
             "type": "Film",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "dubosc_romantique",
@@ -5389,7 +5456,8 @@
             "collectionId": 1687362,
             "collectionNom": "Franck Dubosc",
             "type": "Spectacle",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "dumbo",
@@ -5453,7 +5521,8 @@
             "collectionImage": "https://image.tmdb.org/t/p/w500/m7xCDl5PTG9A5LH7XLuBjGhgLuO.jpg",
             "collectionTmdbUrl": "https://www.themoviedb.org/collection/726871",
             "type": "Film",
-            "studio": "Marvel"
+            "studio": "Marvel",
+            "ignoreInCollection": false
         },
         {
             "id": "dune_1_2021",
@@ -5700,7 +5769,8 @@
             "collectionId": 1451277,
             "collectionNom": "Encanto - Saga",
             "type": "Animation",
-            "studio": "Disney"
+            "studio": "Disney",
+            "ignoreInCollection": false
         },
         {
             "id": "enemy_state_1998",
@@ -5760,7 +5830,8 @@
             "collectionId": 989657,
             "collectionNom": "Ernest & Célestine - Saga",
             "type": "Animation",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "eternals_1_2021",
@@ -6054,7 +6125,8 @@
             "collectionId": 9485,
             "collectionNom": "Fast and Furious - Saga",
             "type": "Film",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "f9_fast_saga_2021",
@@ -6238,7 +6310,8 @@
             "collectionImage": "https://image.tmdb.org/t/p/w500/elBBDmc8mVLtgmfsI6UMzOEAyIC.jpg",
             "collectionTmdbUrl": "https://www.themoviedb.org/collection/9744",
             "type": "Film",
-            "studio": "Marvel"
+            "studio": "Marvel",
+            "ignoreInCollection": false
         },
         {
             "id": "fantastic_four_rise_of_the_silver_surfer_2007",
@@ -6271,7 +6344,8 @@
             "collectionImage": "https://image.tmdb.org/t/p/w500/elBBDmc8mVLtgmfsI6UMzOEAyIC.jpg",
             "collectionTmdbUrl": "https://www.themoviedb.org/collection/9744",
             "type": "Film",
-            "studio": "Marvel"
+            "studio": "Marvel",
+            "ignoreInCollection": false
         },
         {
             "id": "fast_and_2001",
@@ -6302,7 +6376,8 @@
             "collectionId": 9485,
             "collectionNom": "Fast and Furious - Saga",
             "type": "Film",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "fast_and_1",
@@ -6392,7 +6467,8 @@
             "collectionId": 9485,
             "collectionNom": "Fast and Furious - Saga",
             "type": "Film",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "fast_and_4",
@@ -6422,7 +6498,8 @@
             "collectionId": 9485,
             "collectionNom": "Fast and Furious - Saga",
             "type": "Film",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "fast_and_furious_4",
@@ -6482,7 +6559,8 @@
             "collectionId": 9485,
             "collectionNom": "Fast and Furious - Saga",
             "type": "Film",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "fast_and_furious_7",
@@ -6604,7 +6682,8 @@
             "collectionId": 9485,
             "collectionNom": "Fast and Furious - Saga",
             "type": "Film",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "fast_and_6_londres_shaw_2013",
@@ -6635,7 +6714,8 @@
             "collectionId": 9485,
             "collectionNom": "Fast and Furious - Saga",
             "type": "Film",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "fast_furious_presents_hobbs_shaw_2019",
@@ -6695,7 +6775,8 @@
             "collectionId": 9485,
             "collectionNom": "Fast and Furious - Saga",
             "type": "Film",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "la_ferme_folie",
@@ -6935,7 +7016,8 @@
             "collectionId": 1687362,
             "collectionNom": "Franck Dubosc",
             "type": "Spectacle",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "free_guy_2021",
@@ -7028,7 +7110,8 @@
             "collectionId": 96472,
             "collectionNom": "Frère des ours - Saga",
             "type": "Animation",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "frere_des_ours_2_disney_n",
@@ -7118,7 +7201,8 @@
             "collectionId": 135468,
             "collectionNom": "G.I. Joe - Saga",
             "type": "Film",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "g_i_joe_retaliation_2013",
@@ -7178,7 +7262,8 @@
             "collectionId": 135468,
             "collectionNom": "G.I. Joe - Saga",
             "type": "Film",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "gad_elmaleh_decalages_divx",
@@ -7478,7 +7563,8 @@
             "collectionId": 493668,
             "collectionNom": "Gnomeo & Juliet - Saga",
             "type": "Animation",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "go_fast",
@@ -7568,7 +7654,8 @@
             "collectionId": 110177,
             "collectionNom": "Goal! - Saga",
             "type": "Film",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "gone_in_60_seconds_2000",
@@ -7784,7 +7871,8 @@
             "collectionId": 836546,
             "collectionNom": "White Snake - Saga",
             "type": "Anime",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "guardians_of_the_galaxy_2014",
@@ -7907,7 +7995,8 @@
             "collectionId": 1241,
             "collectionNom": "Harry Potter - Saga",
             "type": "Film",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "harry_potter_2_la_chambre_des_secrets",
@@ -7937,7 +8026,8 @@
             "collectionId": 1241,
             "collectionNom": "Harry Potter - Saga",
             "type": "Film",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "harry_potter_3_le_prisonnier_d_azkaban",
@@ -7967,7 +8057,8 @@
             "collectionId": 1241,
             "collectionNom": "Harry Potter - Saga",
             "type": "Film",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "hell_boy_1divx",
@@ -7997,7 +8088,8 @@
             "collectionId": 17235,
             "collectionNom": "Hellboy - Saga",
             "type": "Film",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "hercules_mhd_5_1_sel_1997",
@@ -8028,7 +8120,8 @@
             "collectionId": 978459,
             "collectionNom": "Hercules (Disney) - Saga",
             "type": "Animation",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "hidden_figures_2016",
@@ -8091,7 +8184,8 @@
             "collectionId": 8050,
             "collectionNom": "Highlander - Saga",
             "type": "Film",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "home_run_2013",
@@ -8151,7 +8245,8 @@
             "collectionId": 144689,
             "collectionNom": "Honey - Saga",
             "type": "Film",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "honey_2_ta_2011",
@@ -8211,7 +8306,8 @@
             "collectionId": 144689,
             "collectionNom": "Honey - Saga",
             "type": "Film",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "honey_rise_up_and_dance_fgtvf_2018",
@@ -8241,7 +8337,8 @@
             "collectionId": 144689,
             "collectionNom": "Honey - Saga",
             "type": "Film",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "how_to_train_your_dragon_1_2010",
@@ -8515,7 +8612,8 @@
             "collectionId": 468222,
             "collectionNom": "Les Indestructibles - Saga",
             "type": "Animation",
-            "studio": "Pixar"
+            "studio": "Pixar",
+            "ignoreInCollection": false
         },
         {
             "id": "intouchables_2011",
@@ -8635,7 +8733,8 @@
             "collectionId": 70068,
             "collectionNom": "Ip Man - Saga",
             "type": "Film",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "iron_man_2008",
@@ -8701,7 +8800,8 @@
             "collectionImage": "https://image.tmdb.org/t/p/w500/bQGciwYBe0aG1UNHuIiFkey4pqX.jpg",
             "collectionTmdbUrl": "https://www.themoviedb.org/collection/131292",
             "type": "Film",
-            "studio": "Marvel"
+            "studio": "Marvel",
+            "ignoreInCollection": false
         },
         {
             "id": "jack_et_la_mecanique_du_coeur",
@@ -8791,7 +8891,8 @@
             "collectionId": 31562,
             "collectionNom": "Jason Bourne - Saga",
             "type": "Film",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "jason_bourne_www_2016",
@@ -8881,7 +8982,8 @@
             "collectionId": 31562,
             "collectionNom": "Jason Bourne - Saga",
             "type": "Film",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "jason_bourne_la_memoire_dans_la_peau_2002",
@@ -9031,7 +9133,8 @@
             "collectionId": 86117,
             "collectionNom": "Johnny English - Saga",
             "type": "Film",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "johnny_264_2003",
@@ -9072,7 +9175,7 @@
             ],
             "taille": 683242333,
             "genre": [
-                "Comédie"
+                "Action"
             ],
             "image": "https://image.tmdb.org/t/p/w342/bRMdfPlHNbnpifEUIOEajxl8BcX.jpg",
             "fichier": "/Box_Films/Check Films/Johnny English Reborn (2011)/Johnny.English.Reborn.2011.720p.BrRip.x264.mp4",
@@ -9091,7 +9194,8 @@
             "collectionId": 86117,
             "collectionNom": "Johnny English - Saga",
             "type": "Film",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "le_jour_d_apres",
@@ -9280,7 +9384,8 @@
             "collectionId": 338416,
             "collectionNom": "Kirikou - Saga",
             "type": "Animation",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "kirikou_et_la_sorciere",
@@ -9310,7 +9415,8 @@
             "collectionId": 338416,
             "collectionNom": "Kirikou - Saga",
             "type": "Animation",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "klaus_2019",
@@ -9400,7 +9506,8 @@
             "collectionId": 77816,
             "collectionNom": "Kung Fu Panda - Saga",
             "type": "Animation",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "kung_fu_panda",
@@ -9520,7 +9627,8 @@
             "collectionId": 178117,
             "collectionNom": "Kuzco - Saga",
             "type": "Animation",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "l_age_de_glace",
@@ -9550,7 +9658,8 @@
             "collectionId": 8354,
             "collectionNom": "L'Âge de glace - Saga",
             "type": "Animation",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "l_age_de_glace",
@@ -9610,7 +9719,8 @@
             "collectionId": 8354,
             "collectionNom": "L'Âge de glace - Saga",
             "type": "Animation",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "l_age_de_glace_4",
@@ -9640,7 +9750,8 @@
             "collectionId": 8354,
             "collectionNom": "L'Âge de glace - Saga",
             "type": "Animation",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "l_age_de_raison",
@@ -9760,7 +9871,8 @@
             "collectionId": 945,
             "collectionNom": "L'Arme Fatale - Saga",
             "type": "Film",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "l_arme_fatale_2",
@@ -9790,7 +9902,8 @@
             "collectionId": 945,
             "collectionNom": "L'Arme Fatale - Saga",
             "type": "Film",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "l_arme_fatale_3",
@@ -9820,7 +9933,8 @@
             "collectionId": 945,
             "collectionNom": "L'Arme Fatale - Saga",
             "type": "Film",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "l_assaut",
@@ -10120,7 +10234,8 @@
             "collectionId": 100693,
             "collectionNom": "Les 101 Dalmatiens (Animation) - Saga",
             "type": "Animation",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "les_101_dalmatiens_2",
@@ -10150,7 +10265,8 @@
             "collectionId": 100693,
             "collectionNom": "Les 101 Dalmatiens (Animation) - Saga",
             "type": "Animation",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "les_4_fantastiques",
@@ -10429,7 +10545,8 @@
             "collectionId": 1231053,
             "collectionNom": "Les Bad Guys - Saga",
             "type": "Animation",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "les_confessions_de_stephane_rousseau_utt_2011",
@@ -10519,7 +10636,8 @@
             "collectionId": 107471,
             "collectionNom": "Yamakasi - Saga",
             "type": "Film",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "les_incorruptibles_the_untouchables",
@@ -10669,7 +10787,8 @@
             "collectionId": 629597,
             "collectionNom": "Les Petits Mouchoirs - Saga",
             "type": "Film",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "les_ripoux_1",
@@ -10699,7 +10818,8 @@
             "collectionId": 238448,
             "collectionNom": "Les Ripoux - Saga",
             "type": "Film",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "les_rois_de_la_glisse_surf_s_up_ok",
@@ -10729,7 +10849,8 @@
             "collectionId": 436295,
             "collectionNom": "Les Rois de la glisse - Saga",
             "type": "Animation",
-            "studio": "Disney"
+            "studio": "Disney",
+            "ignoreInCollection": false
         },
         {
             "id": "les_schtroumpfs",
@@ -10759,7 +10880,8 @@
             "collectionId": 134897,
             "collectionNom": "Les Schtroumpfs - Saga",
             "type": "Animation",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "les_tontons_flingueurs",
@@ -10849,7 +10971,8 @@
             "collectionId": 97461,
             "collectionNom": "Lilo et Stitch - Saga",
             "type": "Animation",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "lilo_et_stitch_3_stich_le_film",
@@ -10882,7 +11005,8 @@
             "collectionImage": "https://image.tmdb.org/t/p/w500/m27i1YY5N0f93mL8VV8Covf09Po.jpg",
             "collectionTmdbUrl": "https://www.themoviedb.org/collection/97461",
             "type": "Animation",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "le_livre_de_la_jungle",
@@ -10912,7 +11036,8 @@
             "collectionId": 97459,
             "collectionNom": "Le Livre de la Jungle - Saga",
             "type": "Animation",
-            "studio": "Disney Classic"
+            "studio": "Disney Classic",
+            "ignoreInCollection": false
         },
         {
             "id": "le_livre_de_la_jungle_2",
@@ -10942,7 +11067,8 @@
             "collectionId": 97459,
             "collectionNom": "Le Livre de la Jungle - Saga",
             "type": "Animation",
-            "studio": "Disney Classic"
+            "studio": "Disney Classic",
+            "ignoreInCollection": false
         },
         {
             "id": "le_livre_de_la_jungle2",
@@ -11033,7 +11159,8 @@
             "collectionId": 1245317,
             "collectionNom": "Lord of War - Saga",
             "type": "Film",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "luck_2022",
@@ -11093,7 +11220,8 @@
             "collectionId": 14740,
             "collectionNom": "Madagascar - Saga",
             "type": "Animation",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "madagascar_2",
@@ -11123,7 +11251,8 @@
             "collectionId": 14740,
             "collectionNom": "Madagascar - Saga",
             "type": "Animation",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "spider_man_1",
@@ -11156,7 +11285,8 @@
             "collectionImage": "https://image.tmdb.org/t/p/w500/mW2jg5bQjfY4oTzmdUNpqrY9GGB.jpg",
             "collectionTmdbUrl": "https://www.themoviedb.org/collection/556",
             "type": "Film",
-            "studio": "Marvel"
+            "studio": "Marvel",
+            "ignoreInCollection": false
         },
         {
             "id": "spider_man_2",
@@ -11189,7 +11319,8 @@
             "collectionImage": "https://image.tmdb.org/t/p/w500/mW2jg5bQjfY4oTzmdUNpqrY9GGB.jpg",
             "collectionTmdbUrl": "https://www.themoviedb.org/collection/556",
             "type": "Film",
-            "studio": "Marvel"
+            "studio": "Marvel",
+            "ignoreInCollection": false
         },
         {
             "id": "spider_man_2",
@@ -11255,7 +11386,8 @@
             "collectionImage": "https://image.tmdb.org/t/p/w500/zIpnyk3DVX2gX6spZiRX75bGkkg.jpg",
             "collectionTmdbUrl": "https://www.themoviedb.org/collection/573436",
             "type": "Film",
-            "studio": "Marvel"
+            "studio": "Marvel",
+            "ignoreInCollection": false
         },
         {
             "id": "spider_man_new_generation_spider_man_into_the_spider_verse_ulhd_2018",
@@ -11288,7 +11420,8 @@
             "collectionImage": "https://image.tmdb.org/t/p/w500/zIpnyk3DVX2gX6spZiRX75bGkkg.jpg",
             "collectionTmdbUrl": "https://www.themoviedb.org/collection/573436",
             "type": "Film",
-            "studio": "Marvel"
+            "studio": "Marvel",
+            "ignoreInCollection": false
         },
         {
             "id": "spider_man_no_way_home_2021",
@@ -11321,7 +11454,8 @@
             "collectionImage": "https://image.tmdb.org/t/p/w500/3BVng0lmJyYIUqm5dxLS2eZ2625.jpg",
             "collectionTmdbUrl": "https://www.themoviedb.org/collection/531241",
             "type": "Film",
-            "studio": "Marvel"
+            "studio": "Marvel",
+            "ignoreInCollection": false
         },
         {
             "id": "manipulation",
@@ -11411,7 +11545,8 @@
             "collectionId": 527439,
             "collectionNom": "Mary Poppins - Saga",
             "type": "Animation",
-            "studio": "Disney Classic"
+            "studio": "Disney Classic",
+            "ignoreInCollection": false
         },
         {
             "id": "maverick_1994",
@@ -11504,7 +11639,8 @@
             "collectionId": 86055,
             "collectionNom": "Men in Black - Saga",
             "type": "Film",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "men_in_black_1",
@@ -11564,7 +11700,8 @@
             "collectionId": 86055,
             "collectionNom": "Men in Black - Saga",
             "type": "Film",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "men_in_black_ii_2002",
@@ -11594,7 +11731,8 @@
             "collectionId": 86055,
             "collectionNom": "Men in Black - Saga",
             "type": "Film",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "merlin_l_enchanteur",
@@ -11684,7 +11822,8 @@
             "collectionId": 1727431,
             "collectionNom": "Mickey's… Upon a Christmas Collection",
             "type": "Animation",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "milk",
@@ -11804,7 +11943,8 @@
             "collectionId": 87359,
             "collectionNom": "Mission : Impossible - Saga",
             "type": "Film",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "mission_impossible_2_2000",
@@ -11834,7 +11974,8 @@
             "collectionId": 87359,
             "collectionNom": "Mission : Impossible - Saga",
             "type": "Film",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "mission_impossible_3_2006",
@@ -11864,7 +12005,8 @@
             "collectionId": 87359,
             "collectionNom": "Mission : Impossible - Saga",
             "type": "Film",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "mission_impossible_3",
@@ -11954,7 +12096,8 @@
             "collectionId": 87359,
             "collectionNom": "Mission : Impossible - Saga",
             "type": "Film",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "mission_impossible_4_ghost_protocol_2011",
@@ -12014,7 +12157,8 @@
             "collectionId": 87359,
             "collectionNom": "Mission : Impossible - Saga",
             "type": "Film",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "mission_impossible_5_rogue_nation_2015",
@@ -12074,7 +12218,8 @@
             "collectionId": 87359,
             "collectionNom": "Mission : Impossible - Saga",
             "type": "Film",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "mission_impossible_7_dead_reckoning_part_one_2023",
@@ -12104,7 +12249,8 @@
             "collectionId": 87359,
             "collectionNom": "Mission : Impossible - Saga",
             "type": "Film",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "moana_2016",
@@ -12134,7 +12280,8 @@
             "collectionId": 1241984,
             "collectionNom": "Vaiana - Saga",
             "type": "Animation",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "la_mome",
@@ -12224,7 +12371,8 @@
             "collectionId": 137697,
             "collectionNom": "Le Monde de Nemo - Saga",
             "type": "Animation",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "le_monde_de_nemo",
@@ -12638,7 +12786,8 @@
             "collectionImage": "https://image.tmdb.org/t/p/w500/JAzLUXjXJEGp9IKR7jEY4L2VSL.jpg",
             "collectionTmdbUrl": "https://www.themoviedb.org/collection/382685",
             "type": "Film",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "now_you_see_me_2_2016",
@@ -12671,7 +12820,8 @@
             "collectionImage": "https://image.tmdb.org/t/p/w500/JAzLUXjXJEGp9IKR7jEY4L2VSL.jpg",
             "collectionTmdbUrl": "https://www.themoviedb.org/collection/382685",
             "type": "Film",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "now_you_see_me_2_2016",
@@ -12770,7 +12920,8 @@
             "collectionImage": "https://image.tmdb.org/t/p/w500/yYs5rBE3dFteqcEKL1hBK47ZN6T.jpg",
             "collectionTmdbUrl": "https://www.themoviedb.org/collection/66761",
             "type": "Animation",
-            "studio": "Disney"
+            "studio": "Disney",
+            "ignoreInCollection": false
         },
         {
             "id": "ordinary_decent_criminal",
@@ -12836,7 +12987,8 @@
             "collectionImage": "https://image.tmdb.org/t/p/w500/9l1yr1SBTTFC4nGdGqfQskvpsnD.jpg",
             "collectionTmdbUrl": "https://www.themoviedb.org/collection/1413999",
             "type": "Film",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "oss_117_le_caire_nid_d_espions",
@@ -12869,7 +13021,8 @@
             "collectionImage": "https://image.tmdb.org/t/p/w500/9l1yr1SBTTFC4nGdGqfQskvpsnD.jpg",
             "collectionTmdbUrl": "https://www.themoviedb.org/collection/1413999",
             "type": "Film",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "patriots_day_2016",
@@ -13067,7 +13220,8 @@
             "collectionImage": "https://image.tmdb.org/t/p/w500/2rgdZjMVJUWXpZ6pBRLFL7crN5j.jpg",
             "collectionTmdbUrl": "https://www.themoviedb.org/collection/55422",
             "type": "Animation",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "la_petite",
@@ -13097,7 +13251,8 @@
             "collectionId": 33085,
             "collectionNom": "La Petite Sirène - Saga",
             "type": "Animation",
-            "studio": "Disney"
+            "studio": "Disney",
+            "ignoreInCollection": false
         },
         {
             "id": "la_petite_sirene_1_the_little_mermaid_disney_n_36",
@@ -13157,7 +13312,8 @@
             "collectionId": 33085,
             "collectionNom": "La Petite Sirène - Saga",
             "type": "Animation",
-            "studio": "Disney"
+            "studio": "Disney",
+            "ignoreInCollection": false
         },
         {
             "id": "petits_meurtres_a_l_anglaise",
@@ -13313,7 +13469,8 @@
             "collectionImage": "https://image.tmdb.org/t/p/w500/1YPlD1sQjaGLRMEy4T7ko2aqlj9.jpg",
             "collectionTmdbUrl": "https://www.themoviedb.org/collection/136214",
             "type": "Animation",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "pocahontas_2",
@@ -13346,7 +13503,8 @@
             "collectionImage": "https://image.tmdb.org/t/p/w500/1YPlD1sQjaGLRMEy4T7ko2aqlj9.jpg",
             "collectionTmdbUrl": "https://www.themoviedb.org/collection/136214",
             "type": "Animation",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "le_prestige",
@@ -13571,7 +13729,8 @@
             "collectionImage": "https://image.tmdb.org/t/p/w500/wzeJHAFlJHmHWiYm4zQBtQcgA02.jpg",
             "collectionTmdbUrl": "https://www.themoviedb.org/collection/1268789",
             "type": "Animation",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "rasta_rockett",
@@ -13832,7 +13991,8 @@
             "collectionId": 386382,
             "collectionNom": "La Reine des neiges - Saga",
             "type": "Animation",
-            "studio": "Disney"
+            "studio": "Disney",
+            "ignoreInCollection": false
         },
         {
             "id": "remo_williams_adventure_begins_1985",
@@ -13898,7 +14058,8 @@
             "collectionImage": "https://image.tmdb.org/t/p/w500/nykumUbCw1o43fHGkRqj9hO2c2h.jpg",
             "collectionTmdbUrl": "https://www.themoviedb.org/collection/264",
             "type": "Film",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "rio_fast_five_2011",
@@ -13962,7 +14123,8 @@
             "collectionImage": "https://image.tmdb.org/t/p/w500/ke1p1REI3PYBvoD0waoCOQBhkGa.jpg",
             "collectionTmdbUrl": "https://www.themoviedb.org/collection/238448",
             "type": "Film",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "robes",
@@ -14091,7 +14253,8 @@
             "collectionId": 94032,
             "collectionNom": "Le Roi lion - Saga",
             "type": "Animation",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "le_roi_lion_1",
@@ -14151,7 +14314,8 @@
             "collectionId": 94032,
             "collectionNom": "Le Roi lion - Saga",
             "type": "Animation",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "le_roi_lion_3",
@@ -14181,7 +14345,8 @@
             "collectionId": 94032,
             "collectionNom": "Le Roi lion - Saga",
             "type": "Animation",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "romeo_must_die",
@@ -14247,7 +14412,8 @@
             "collectionImage": "https://image.tmdb.org/t/p/w500/fk5VJKZxOAolnn2UGdOhcoxbJPP.jpg",
             "collectionTmdbUrl": "https://www.themoviedb.org/collection/100970",
             "type": "Animation",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "s_o_s_fantomes_1_ghostbusters",
@@ -14280,7 +14446,8 @@
             "collectionImage": "https://image.tmdb.org/t/p/w500/3WbSiHyxa1Y6M0JTdWmVydQZmzm.jpg",
             "collectionTmdbUrl": "https://www.themoviedb.org/collection/2980",
             "type": "Film",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "salt",
@@ -14478,7 +14645,8 @@
             "collectionImage": "https://image.tmdb.org/t/p/w500/syG4B7AnF9W8Cd0QEebl50YyN7M.jpg",
             "collectionTmdbUrl": "https://www.themoviedb.org/collection/86092",
             "type": "Film",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "sexy_dance_3_up",
@@ -14511,7 +14679,8 @@
             "collectionImage": "https://image.tmdb.org/t/p/w500/syG4B7AnF9W8Cd0QEebl50YyN7M.jpg",
             "collectionTmdbUrl": "https://www.themoviedb.org/collection/86092",
             "type": "Film",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "sherlock_holmes_cd1",
@@ -14544,7 +14713,8 @@
             "collectionImage": "https://image.tmdb.org/t/p/w500/8CrcjCU9y1pjNwFnyEY9iz23cNV.jpg",
             "collectionTmdbUrl": "https://www.themoviedb.org/collection/102322",
             "type": "Film",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "sherlock_holmes_cd2",
@@ -14610,7 +14780,8 @@
             "collectionImage": "https://image.tmdb.org/t/p/w500/8CrcjCU9y1pjNwFnyEY9iz23cNV.jpg",
             "collectionTmdbUrl": "https://www.themoviedb.org/collection/102322",
             "type": "Film",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "shoes_and_seven_dwarfs_2019",
@@ -14742,7 +14913,8 @@
             "collectionImage": "https://image.tmdb.org/t/p/w500/q5HkOoYsfNvE2QJZunrpi8RrP3t.jpg",
             "collectionTmdbUrl": "https://www.themoviedb.org/collection/103573",
             "type": "Film",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "sleepless_2017",
@@ -15006,7 +15178,8 @@
             "collectionImage": "https://image.tmdb.org/t/p/w500/ammkAiFPUQhqrWAdzNZSXR8VMpy.jpg",
             "collectionTmdbUrl": "https://www.themoviedb.org/collection/645",
             "type": "Film",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "speed",
@@ -15039,7 +15212,8 @@
             "collectionImage": "https://image.tmdb.org/t/p/w500/o0eZDtoeMSxQbT3hjPtF0qSDJU0.jpg",
             "collectionTmdbUrl": "https://www.themoviedb.org/collection/43064",
             "type": "Film",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "speed_1994",
@@ -15105,7 +15279,8 @@
             "collectionImage": "https://image.tmdb.org/t/p/w500/mW2jg5bQjfY4oTzmdUNpqrY9GGB.jpg",
             "collectionTmdbUrl": "https://www.themoviedb.org/collection/556",
             "type": "Film",
-            "studio": "Marvel"
+            "studio": "Marvel",
+            "ignoreInCollection": false
         },
         {
             "id": "spooks_2015",
@@ -15171,7 +15346,8 @@
             "collectionImage": "https://image.tmdb.org/t/p/w500/A8Y0BFIXpKv3AxbueUNnK6CdNCu.jpg",
             "collectionTmdbUrl": "https://www.themoviedb.org/collection/115575",
             "type": "Film",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "star_trek_into_darkness_2013",
@@ -15204,7 +15380,8 @@
             "collectionImage": "https://image.tmdb.org/t/p/w500/A8Y0BFIXpKv3AxbueUNnK6CdNCu.jpg",
             "collectionTmdbUrl": "https://www.themoviedb.org/collection/115575",
             "type": "Film",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "star_trek_beyond_2016",
@@ -15336,7 +15513,8 @@
             "collectionImage": "https://image.tmdb.org/t/p/w500/2qAqDHlxVS4wOf1Z8mBGpTgp7PB.jpg",
             "collectionTmdbUrl": "https://www.themoviedb.org/collection/160727",
             "type": "Film",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "steppin_2",
@@ -15369,7 +15547,8 @@
             "collectionImage": "https://image.tmdb.org/t/p/w500/2qAqDHlxVS4wOf1Z8mBGpTgp7PB.jpg",
             "collectionTmdbUrl": "https://www.themoviedb.org/collection/160727",
             "type": "Film",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "stepupallin",
@@ -15402,7 +15581,8 @@
             "collectionImage": "https://image.tmdb.org/t/p/w500/syG4B7AnF9W8Cd0QEebl50YyN7M.jpg",
             "collectionTmdbUrl": "https://www.themoviedb.org/collection/86092",
             "type": "Film",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "storks_les_cigognes_2016",
@@ -15534,7 +15714,8 @@
             "collectionImage": "https://image.tmdb.org/t/p/w500/dObT7wPx4V4ZZ3hwBJws0EHuDlX.jpg",
             "collectionTmdbUrl": "https://www.themoviedb.org/collection/135483",
             "type": "Film",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "taken_2_artefac_2012",
@@ -15567,7 +15748,8 @@
             "collectionImage": "https://image.tmdb.org/t/p/w500/dObT7wPx4V4ZZ3hwBJws0EHuDlX.jpg",
             "collectionTmdbUrl": "https://www.themoviedb.org/collection/135483",
             "type": "Film",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "taxi_1_by_naceraz",
@@ -15600,7 +15782,8 @@
             "collectionImage": "https://image.tmdb.org/t/p/w500/eEBD8TVN6caaUZpn093kDbR4li1.jpg",
             "collectionTmdbUrl": "https://www.themoviedb.org/collection/211721",
             "type": "Film",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "taxi_2_by_naceraz",
@@ -15633,7 +15816,8 @@
             "collectionImage": "https://image.tmdb.org/t/p/w500/eEBD8TVN6caaUZpn093kDbR4li1.jpg",
             "collectionTmdbUrl": "https://www.themoviedb.org/collection/211721",
             "type": "Film",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "taxi_3_by_naceraz",
@@ -15666,7 +15850,8 @@
             "collectionImage": "https://image.tmdb.org/t/p/w500/eEBD8TVN6caaUZpn093kDbR4li1.jpg",
             "collectionTmdbUrl": "https://www.themoviedb.org/collection/211721",
             "type": "Film",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "taxi_4_by_naceraz",
@@ -15699,7 +15884,8 @@
             "collectionImage": "https://image.tmdb.org/t/p/w500/eEBD8TVN6caaUZpn093kDbR4li1.jpg",
             "collectionTmdbUrl": "https://www.themoviedb.org/collection/211721",
             "type": "Film",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "a_team_2010",
@@ -15792,7 +15978,8 @@
             "collectionImage": "https://image.tmdb.org/t/p/w500/60aoW1EVSXLACkHn0lqeKlW6LhS.jpg",
             "collectionTmdbUrl": "https://www.themoviedb.org/collection/125574",
             "type": "Film",
-            "studio": "Marvel"
+            "studio": "Marvel",
+            "ignoreInCollection": false
         },
         {
             "id": "the_amazing_spider_man_2_2014",
@@ -15825,7 +16012,8 @@
             "collectionImage": "https://image.tmdb.org/t/p/w500/60aoW1EVSXLACkHn0lqeKlW6LhS.jpg",
             "collectionTmdbUrl": "https://www.themoviedb.org/collection/125574",
             "type": "Film",
-            "studio": "Marvel"
+            "studio": "Marvel",
+            "ignoreInCollection": false
         },
         {
             "id": "the_avengers_s_v_2012",
@@ -15858,7 +16046,8 @@
             "collectionImage": "https://image.tmdb.org/t/p/w500/qvWDDPlo2MT7YCU4NSVxCgStxqu.jpg",
             "collectionTmdbUrl": "https://www.themoviedb.org/collection/86311",
             "type": "Film",
-            "studio": "Marvel"
+            "studio": "Marvel",
+            "ignoreInCollection": false
         },
         {
             "id": "bang_bang_club",
@@ -16108,7 +16297,8 @@
             "collectionImage": "https://image.tmdb.org/t/p/w500/iWBjbmMe7kVzJ0mDpPJ9YErnYaf.jpg",
             "collectionTmdbUrl": "https://www.themoviedb.org/collection/608101",
             "type": "Film",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "holidays",
@@ -16207,7 +16397,8 @@
             "collectionImage": "https://image.tmdb.org/t/p/w500/pexxR6j3i72n9frn7Y1UyCyabnd.jpg",
             "collectionTmdbUrl": "https://www.themoviedb.org/collection/8580",
             "type": "Film",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "karate_kid",
@@ -16306,7 +16497,8 @@
             "collectionImage": "https://image.tmdb.org/t/p/w500/pHnZAJlnO2GwHZScT2ouX7wyIyH.jpg",
             "collectionTmdbUrl": "https://www.themoviedb.org/collection/623911",
             "type": "Film",
-            "studio": "Marvel"
+            "studio": "Marvel",
+            "ignoreInCollection": false
         },
         {
             "id": "matrix_4_resurrections_2021",
@@ -16339,7 +16531,8 @@
             "collectionImage": "https://image.tmdb.org/t/p/w500/alQ1yfJR9cxAPOx0WsTYj37HawI.jpg",
             "collectionTmdbUrl": "https://www.themoviedb.org/collection/2344",
             "type": "Film",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "november_man_s_v_2014",
@@ -16504,7 +16697,8 @@
             "collectionImage": "https://image.tmdb.org/t/p/w500/n07ABL55QSlAknhWmIFiSmILXqK.jpg",
             "collectionTmdbUrl": "https://www.themoviedb.org/collection/427084",
             "type": "Animation",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "smurfs_2_2013",
@@ -16537,7 +16731,8 @@
             "collectionImage": "https://image.tmdb.org/t/p/w500/n6t01TAguqsz2HUiG7VRCOfM2wc.jpg",
             "collectionTmdbUrl": "https://www.themoviedb.org/collection/134897",
             "type": "Animation",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "snow_queen_3_norris_2018",
@@ -16570,7 +16765,8 @@
             "collectionImage": "https://image.tmdb.org/t/p/w500/r2ONwf2TcKULpPAEpqfOAK2bgXi.jpg",
             "collectionTmdbUrl": "https://www.themoviedb.org/collection/374930",
             "type": "Animation",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "into_the_wild",
@@ -16696,7 +16892,8 @@
             "collectionImage": "https://image.tmdb.org/t/p/w500/cClJllWY3gPmoBvdbhO9MG14Q7P.jpg",
             "collectionTmdbUrl": "https://www.themoviedb.org/collection/131296",
             "type": "Film",
-            "studio": "Marvel"
+            "studio": "Marvel",
+            "ignoreInCollection": false
         },
         {
             "id": "thor_love_and_thunder_1_2022",
@@ -16762,7 +16959,8 @@
             "collectionImage": "https://image.tmdb.org/t/p/w500/mEbblIsTckiyDcBXk72jPFmOrXz.jpg",
             "collectionTmdbUrl": "https://www.themoviedb.org/collection/315595",
             "type": "Animation",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "tokyo_fast_and_tokyo_drift_2006",
@@ -16892,7 +17090,8 @@
             "collectionImage": "https://image.tmdb.org/t/p/w500/sgaP4WtVlKzz8FIcjbkevOycJiq.jpg",
             "collectionTmdbUrl": "https://www.themoviedb.org/collection/2467",
             "type": "Film",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "tomb_raider_2018",
@@ -17123,7 +17322,8 @@
             "collectionImage": "https://image.tmdb.org/t/p/w500/eRs7ClNYvgbvBoZFQeeJqwFGSiY.jpg",
             "collectionTmdbUrl": "https://www.themoviedb.org/collection/10194",
             "type": "Animation",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "toy_story_2",
@@ -17156,7 +17356,8 @@
             "collectionImage": "https://image.tmdb.org/t/p/w500/eRs7ClNYvgbvBoZFQeeJqwFGSiY.jpg",
             "collectionTmdbUrl": "https://www.themoviedb.org/collection/10194",
             "type": "Animation",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "transformers",
@@ -17189,7 +17390,8 @@
             "collectionImage": "https://image.tmdb.org/t/p/w500/aAeLLhwnlU5U4EjYWSGyEoxB9h2.jpg",
             "collectionTmdbUrl": "https://www.themoviedb.org/collection/8650",
             "type": "Film",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "le_transporteur",
@@ -17219,7 +17421,8 @@
             "collectionId": 9518,
             "collectionNom": "Le Transporteur - Saga",
             "type": "Film",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "tres_tres_haut_debit_bloodymary_2012",
@@ -17417,7 +17620,8 @@
             "collectionImage": "https://image.tmdb.org/t/p/w500/syG4B7AnF9W8Cd0QEebl50YyN7M.jpg",
             "collectionTmdbUrl": "https://www.themoviedb.org/collection/86092",
             "type": "Film",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "valerian_and_the_city_of_a_thousand_planets_2017",
@@ -17480,7 +17684,8 @@
             "collectionId": 115840,
             "collectionNom": "La Vérité si je mens ! - Saga",
             "type": "Film",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "very_bad_dvdscr_ld_mzisys",
@@ -17513,7 +17718,8 @@
             "collectionImage": "https://image.tmdb.org/t/p/w500/kKNFx9dmneDQz9uJw7Zuxig91Pr.jpg",
             "collectionTmdbUrl": "https://www.themoviedb.org/collection/86119",
             "type": "Film",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "violet_evergarden_2019",
@@ -17546,7 +17752,8 @@
             "collectionImage": "https://image.tmdb.org/t/p/w500/i1GeUWI9CfBVnpl3avGI4lfTCpS.jpg",
             "collectionTmdbUrl": "https://www.themoviedb.org/collection/1431054",
             "type": "Anime",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "vivo_2021",
@@ -17678,7 +17885,8 @@
             "collectionImage": "https://image.tmdb.org/t/p/w500/tPvDCajdnC6RpuKQqRI9G62IJ7f.jpg",
             "collectionTmdbUrl": "https://www.themoviedb.org/collection/151263",
             "type": "Film",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "white_house_down_2013",
@@ -17810,7 +18018,8 @@
             "collectionImage": "https://image.tmdb.org/t/p/w500/l2QTGuHsuLEA04QFiQrkkCgdmMR.jpg",
             "collectionTmdbUrl": "https://www.themoviedb.org/collection/468552",
             "type": "Film",
-            "studio": "Marvel"
+            "studio": "Marvel",
+            "ignoreInCollection": false
         },
         {
             "id": "x_men",
@@ -17843,7 +18052,8 @@
             "collectionImage": "https://image.tmdb.org/t/p/w500/cTFXJxm054ViQEf0eaLWWN1gdiL.jpg",
             "collectionTmdbUrl": "https://www.themoviedb.org/collection/748",
             "type": "Film",
-            "studio": "Marvel"
+            "studio": "Marvel",
+            "ignoreInCollection": false
         },
         {
             "id": "x_men_1",
@@ -17909,7 +18119,8 @@
             "collectionImage": "https://image.tmdb.org/t/p/w500/cTFXJxm054ViQEf0eaLWWN1gdiL.jpg",
             "collectionTmdbUrl": "https://www.themoviedb.org/collection/748",
             "type": "Film",
-            "studio": "Marvel"
+            "studio": "Marvel",
+            "ignoreInCollection": false
         },
         {
             "id": "x_men_2_1",
@@ -18008,7 +18219,8 @@
             "collectionImage": "https://image.tmdb.org/t/p/w500/cTFXJxm054ViQEf0eaLWWN1gdiL.jpg",
             "collectionTmdbUrl": "https://www.themoviedb.org/collection/748",
             "type": "Film",
-            "studio": "Marvel"
+            "studio": "Marvel",
+            "ignoreInCollection": false
         },
         {
             "id": "x_men_apocalypse",
@@ -18041,7 +18253,8 @@
             "collectionImage": "https://image.tmdb.org/t/p/w500/cTFXJxm054ViQEf0eaLWWN1gdiL.jpg",
             "collectionTmdbUrl": "https://www.themoviedb.org/collection/748",
             "type": "Film",
-            "studio": "Marvel"
+            "studio": "Marvel",
+            "ignoreInCollection": false
         },
         {
             "id": "x_men_commencement",
@@ -18074,7 +18287,8 @@
             "collectionImage": "https://image.tmdb.org/t/p/w500/cTFXJxm054ViQEf0eaLWWN1gdiL.jpg",
             "collectionTmdbUrl": "https://www.themoviedb.org/collection/748",
             "type": "Film",
-            "studio": "Marvel"
+            "studio": "Marvel",
+            "ignoreInCollection": false
         },
         {
             "id": "x_men_dark_phoenix_english_2019",
@@ -18107,7 +18321,8 @@
             "collectionImage": "https://image.tmdb.org/t/p/w500/cTFXJxm054ViQEf0eaLWWN1gdiL.jpg",
             "collectionTmdbUrl": "https://www.themoviedb.org/collection/748",
             "type": "Film",
-            "studio": "Marvel"
+            "studio": "Marvel",
+            "ignoreInCollection": false
         },
         {
             "id": "x_men_first_class_2011",
@@ -18173,7 +18388,8 @@
             "collectionImage": "https://image.tmdb.org/t/p/w500/oyKAIOQAK65LlEBKZaX4UkvU5wA.jpg",
             "collectionTmdbUrl": "https://www.themoviedb.org/collection/453993",
             "type": "Film",
-            "studio": "Marvel"
+            "studio": "Marvel",
+            "ignoreInCollection": false
         },
         {
             "id": "xxx_2_next_level",
@@ -18206,7 +18422,8 @@
             "collectionImage": "https://image.tmdb.org/t/p/w500/wca7mxkpJwfJNOoHllonrSqePsq.jpg",
             "collectionTmdbUrl": "https://www.themoviedb.org/collection/52785",
             "type": "Film",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "xxx_return_xander_cage_newcine_2017",
@@ -18239,7 +18456,8 @@
             "collectionImage": "https://image.tmdb.org/t/p/w500/wca7mxkpJwfJNOoHllonrSqePsq.jpg",
             "collectionTmdbUrl": "https://www.themoviedb.org/collection/52785",
             "type": "Film",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "xxx_return_xander_cage_2017",
@@ -18367,7 +18585,8 @@
             "collectionId": 9485,
             "collectionNom": "Fast and Furious - Saga",
             "type": "Film",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "tmdb_195269",
@@ -18456,7 +18675,8 @@
             "collectionId": 86311,
             "collectionNom": "Avengers - Saga",
             "type": "Film",
-            "studio": "Marvel"
+            "studio": "Marvel",
+            "ignoreInCollection": false
         },
         {
             "id": "tmdb_1003598",
@@ -18485,7 +18705,8 @@
             "collectionId": 86311,
             "collectionNom": "Avengers - Saga",
             "type": "Film",
-            "studio": "Marvel"
+            "studio": "Marvel",
+            "ignoreInCollection": false
         },
         {
             "id": "tmdb_1386618",
@@ -18514,7 +18735,8 @@
             "collectionId": 529892,
             "collectionNom": "Black Panther - Saga",
             "type": "Film",
-            "studio": "Marvel"
+            "studio": "Marvel",
+            "ignoreInCollection": false
         },
         {
             "id": "tmdb_1771",
@@ -18543,7 +18765,8 @@
             "collectionId": 131295,
             "collectionNom": "Captain America - Saga",
             "type": "Film",
-            "studio": "Marvel"
+            "studio": "Marvel",
+            "ignoreInCollection": false
         },
         {
             "id": "tmdb_822119",
@@ -18572,7 +18795,8 @@
             "collectionId": 131295,
             "collectionNom": "Captain America - Saga",
             "type": "Film",
-            "studio": "Marvel"
+            "studio": "Marvel",
+            "ignoreInCollection": false
         },
         {
             "id": "tmdb_447365",
@@ -18601,7 +18825,8 @@
             "collectionId": 284433,
             "collectionNom": "Les Gardiens de la Galaxie - Saga",
             "type": "Film",
-            "studio": "Marvel"
+            "studio": "Marvel",
+            "ignoreInCollection": false
         },
         {
             "id": "tmdb_394253",
@@ -18630,7 +18855,8 @@
             "collectionId": 454520,
             "collectionNom": "Albator - Saga",
             "type": "Animation",
-            "studio": "Marvel"
+            "studio": "Marvel",
+            "ignoreInCollection": false
         },
         {
             "id": "tmdb_572802",
@@ -18659,7 +18885,8 @@
             "collectionId": 573693,
             "collectionNom": "Aquaman - Saga",
             "type": "Film",
-            "studio": "Marvel"
+            "studio": "Marvel",
+            "ignoreInCollection": false
         },
         {
             "id": "tmdb_26505",
@@ -18688,7 +18915,8 @@
             "collectionId": 85817,
             "collectionNom": "Arthur et les Minimoys - Saga",
             "type": "Film",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "tmdb_42949",
@@ -18717,7 +18945,8 @@
             "collectionId": 85817,
             "collectionNom": "Arthur et les Minimoys - Saga",
             "type": "Film",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "tmdb_9564",
@@ -18746,7 +18975,8 @@
             "collectionId": 2396,
             "collectionNom": "Astérix & Obélix - Saga",
             "type": "Film",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": true
         },
         {
             "id": "tmdb_2899",
@@ -18775,7 +19005,8 @@
             "collectionId": 2396,
             "collectionNom": "Astérix & Obélix - Saga",
             "type": "Film",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "tmdb_99770",
@@ -18804,7 +19035,8 @@
             "collectionId": 2396,
             "collectionNom": "Astérix & Obélix - Saga",
             "type": "Film",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": true
         },
         {
             "id": "tmdb_643215",
@@ -18833,7 +19065,8 @@
             "collectionId": 2396,
             "collectionNom": "Astérix & Obélix - Saga",
             "type": "Film",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": true
         },
         {
             "id": "tmdb_1282171",
@@ -18862,7 +19095,8 @@
             "collectionId": 2396,
             "collectionNom": "Astérix & Obélix - Saga",
             "type": "Film",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": true
         },
         {
             "id": "tmdb_58625",
@@ -18891,7 +19125,8 @@
             "collectionId": 124881,
             "collectionNom": "Au bout de la nuit - Saga",
             "type": "Film",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "tmdb_83533",
@@ -18920,7 +19155,8 @@
             "collectionId": 87096,
             "collectionNom": "Avatar - Saga",
             "type": "Film",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "tmdb_76600",
@@ -18949,7 +19185,8 @@
             "collectionId": 87096,
             "collectionNom": "Avatar - Saga",
             "type": "Film",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "tmdb_216527",
@@ -18978,7 +19215,8 @@
             "collectionId": 87096,
             "collectionNom": "Avatar - Saga",
             "type": "Film",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "tmdb_393209",
@@ -19007,7 +19245,8 @@
             "collectionId": 87096,
             "collectionNom": "Avatar - Saga",
             "type": "Film",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "tmdb_640146",
@@ -19036,7 +19275,8 @@
             "collectionId": 422834,
             "collectionNom": "Ant-Man - Saga",
             "type": "Film",
-            "studio": "Marvel"
+            "studio": "Marvel",
+            "ignoreInCollection": false
         },
         {
             "id": "tmdb_969681",
@@ -19065,7 +19305,8 @@
             "collectionId": 531241,
             "collectionNom": "Spider-Man (MCU) - Saga",
             "type": "Film",
-            "studio": "Marvel"
+            "studio": "Marvel",
+            "ignoreInCollection": false
         },
         {
             "id": "tmdb_1719056",
@@ -19094,7 +19335,8 @@
             "collectionId": 1719057,
             "collectionNom": "Ballerina Collection",
             "type": "Animation",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "tmdb_155",
@@ -19123,7 +19365,8 @@
             "collectionId": 263,
             "collectionNom": "The Dark Knight - Saga",
             "type": "Film",
-            "studio": "Marvel"
+            "studio": "Marvel",
+            "ignoreInCollection": false
         },
         {
             "id": "tmdb_49026",
@@ -19152,7 +19395,8 @@
             "collectionId": 263,
             "collectionNom": "The Dark Knight - Saga",
             "type": "Film",
-            "studio": "Marvel"
+            "studio": "Marvel",
+            "ignoreInCollection": false
         },
         {
             "id": "tmdb_1646437",
@@ -19181,7 +19425,8 @@
             "collectionId": 52984,
             "collectionNom": "Benjamin Gates - Saga",
             "type": "Film",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "tmdb_456165",
@@ -19210,7 +19455,8 @@
             "collectionId": 1530834,
             "collectionNom": "Les Ch'tits - Saga",
             "type": "Film",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "tmdb_253",
@@ -19239,7 +19485,8 @@
             "collectionId": 645,
             "collectionNom": "James Bond 007 - Saga",
             "type": "Film",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "tmdb_646",
@@ -19268,7 +19515,8 @@
             "collectionId": 645,
             "collectionNom": "James Bond 007 - Saga",
             "type": "Film",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "tmdb_657",
@@ -19297,7 +19545,8 @@
             "collectionId": 645,
             "collectionNom": "James Bond 007 - Saga",
             "type": "Film",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "tmdb_658",
@@ -19326,7 +19575,8 @@
             "collectionId": 645,
             "collectionNom": "James Bond 007 - Saga",
             "type": "Film",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "tmdb_660",
@@ -19355,7 +19605,8 @@
             "collectionId": 645,
             "collectionNom": "James Bond 007 - Saga",
             "type": "Film",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "tmdb_667",
@@ -19384,7 +19635,8 @@
             "collectionId": 645,
             "collectionNom": "James Bond 007 - Saga",
             "type": "Film",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "tmdb_668",
@@ -19413,7 +19665,8 @@
             "collectionId": 645,
             "collectionNom": "James Bond 007 - Saga",
             "type": "Film",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "tmdb_681",
@@ -19442,7 +19695,8 @@
             "collectionId": 645,
             "collectionNom": "James Bond 007 - Saga",
             "type": "Film",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "tmdb_682",
@@ -19471,7 +19725,8 @@
             "collectionId": 645,
             "collectionNom": "James Bond 007 - Saga",
             "type": "Film",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "tmdb_691",
@@ -19500,7 +19755,8 @@
             "collectionId": 645,
             "collectionNom": "James Bond 007 - Saga",
             "type": "Film",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "tmdb_698",
@@ -19529,7 +19785,8 @@
             "collectionId": 645,
             "collectionNom": "James Bond 007 - Saga",
             "type": "Film",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "tmdb_699",
@@ -19558,7 +19815,8 @@
             "collectionId": 645,
             "collectionNom": "James Bond 007 - Saga",
             "type": "Film",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "tmdb_700",
@@ -19587,7 +19845,8 @@
             "collectionId": 645,
             "collectionNom": "James Bond 007 - Saga",
             "type": "Film",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "tmdb_707",
@@ -19616,7 +19875,8 @@
             "collectionId": 645,
             "collectionNom": "James Bond 007 - Saga",
             "type": "Film",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "tmdb_709",
@@ -19645,7 +19905,8 @@
             "collectionId": 645,
             "collectionNom": "James Bond 007 - Saga",
             "type": "Film",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "tmdb_710",
@@ -19674,7 +19935,8 @@
             "collectionId": 645,
             "collectionNom": "James Bond 007 - Saga",
             "type": "Film",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "tmdb_36643",
@@ -19703,7 +19965,8 @@
             "collectionId": 645,
             "collectionNom": "James Bond 007 - Saga",
             "type": "Film",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "tmdb_36669",
@@ -19732,7 +19995,8 @@
             "collectionId": 645,
             "collectionNom": "James Bond 007 - Saga",
             "type": "Film",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "tmdb_708",
@@ -19761,7 +20025,8 @@
             "collectionId": 645,
             "collectionNom": "James Bond 007 - Saga",
             "type": "Film",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "tmdb_370172",
@@ -19790,7 +20055,8 @@
             "collectionId": 645,
             "collectionNom": "James Bond 007 - Saga",
             "type": "Film",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "tmdb_36670",
@@ -19819,7 +20085,8 @@
             "collectionId": 645,
             "collectionNom": "James Bond 007 - Saga",
             "type": "Film",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "tmdb_1184696",
@@ -19848,7 +20115,8 @@
             "collectionId": 645,
             "collectionNom": "James Bond 007 - Saga",
             "type": "Film",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "tmdb_38277",
@@ -19877,7 +20145,8 @@
             "collectionId": 52097,
             "collectionNom": "Camping - Saga",
             "type": "Film",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "tmdb_375804",
@@ -19906,7 +20175,8 @@
             "collectionId": 52097,
             "collectionNom": "Camping - Saga",
             "type": "Film",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "tmdb_260514",
@@ -19935,7 +20205,8 @@
             "collectionId": 87118,
             "collectionNom": "Cars - Saga",
             "type": "Animation",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "tmdb_175112",
@@ -19964,7 +20235,8 @@
             "collectionId": 315595,
             "collectionNom": "Fée Clochette - Saga",
             "type": "Animation",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "tmdb_297270",
@@ -19993,7 +20265,8 @@
             "collectionId": 315595,
             "collectionNom": "Fée Clochette - Saga",
             "type": "Animation",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "tmdb_44683",
@@ -20022,7 +20295,8 @@
             "collectionId": 315595,
             "collectionNom": "Fée Clochette - Saga",
             "type": "Animation",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "tmdb_25475",
@@ -20051,7 +20325,8 @@
             "collectionId": 315595,
             "collectionNom": "Fée Clochette - Saga",
             "type": "Animation",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "tmdb_1451567",
@@ -20080,7 +20355,8 @@
             "collectionId": 1451578,
             "collectionNom": "Coco - Saga",
             "type": "Animation",
-            "studio": "Disney"
+            "studio": "Disney",
+            "ignoreInCollection": false
         },
         {
             "id": "tmdb_402543",
@@ -20109,7 +20385,8 @@
             "collectionId": 246839,
             "collectionNom": "Danse ta vie - Saga",
             "type": "Film",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "tmdb_562",
@@ -20138,7 +20415,8 @@
             "collectionId": 1570,
             "collectionNom": "Die Hard - Saga",
             "type": "Film",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "tmdb_1573",
@@ -20197,7 +20475,8 @@
             "collectionId": 1570,
             "collectionNom": "Die Hard - Saga",
             "type": "Film",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "tmdb_723895",
@@ -20226,7 +20505,8 @@
             "collectionId": 759368,
             "collectionNom": "Dragons: Rescue Riders Collection",
             "type": "Animation",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "tmdb_768076",
@@ -20255,7 +20535,8 @@
             "collectionId": 759368,
             "collectionNom": "Dragons: Rescue Riders Collection",
             "type": "Animation",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "tmdb_664411",
@@ -20284,7 +20565,8 @@
             "collectionId": 1687362,
             "collectionNom": "Franck Dubosc",
             "type": "Spectacle",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "tmdb_87653",
@@ -20313,7 +20595,8 @@
             "collectionId": 1687362,
             "collectionNom": "Franck Dubosc",
             "type": "Spectacle",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "tmdb_81609",
@@ -20342,7 +20625,8 @@
             "collectionId": 1687362,
             "collectionNom": "Franck Dubosc",
             "type": "Spectacle",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "tmdb_72233",
@@ -20371,7 +20655,8 @@
             "collectionId": 1687362,
             "collectionNom": "Franck Dubosc",
             "type": "Spectacle",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "tmdb_76888",
@@ -20400,7 +20685,8 @@
             "collectionId": 1687362,
             "collectionNom": "Franck Dubosc",
             "type": "Spectacle",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "tmdb_693134",
@@ -20430,7 +20716,8 @@
             "collectionId": 726871,
             "collectionNom": "Dune - Saga",
             "type": "Film",
-            "studio": "Marvel"
+            "studio": "Marvel",
+            "ignoreInCollection": false
         },
         {
             "id": "tmdb_1170608",
@@ -20460,7 +20747,8 @@
             "collectionId": 726871,
             "collectionNom": "Dune - Saga",
             "type": "Film",
-            "studio": "Marvel"
+            "studio": "Marvel",
+            "ignoreInCollection": false
         },
         {
             "id": "tmdb_1451244",
@@ -20489,7 +20777,8 @@
             "collectionId": 1451277,
             "collectionNom": "Encanto - Saga",
             "type": "Animation",
-            "studio": "Disney"
+            "studio": "Disney",
+            "ignoreInCollection": false
         },
         {
             "id": "tmdb_947219",
@@ -20518,7 +20807,8 @@
             "collectionId": 989657,
             "collectionNom": "Ernest & Célestine - Saga",
             "type": "Animation",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "tmdb_681985",
@@ -20547,7 +20837,8 @@
             "collectionId": 989657,
             "collectionNom": "Ernest & Célestine - Saga",
             "type": "Animation",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "tmdb_1452197",
@@ -20576,7 +20867,8 @@
             "collectionId": 989657,
             "collectionNom": "Ernest & Célestine - Saga",
             "type": "Animation",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "tmdb_10009",
@@ -20605,7 +20897,8 @@
             "collectionId": 96472,
             "collectionNom": "Frère des ours - Saga",
             "type": "Animation",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "tmdb_370567",
@@ -20634,7 +20927,8 @@
             "collectionId": 493668,
             "collectionNom": "Gnomeo & Juliet - Saga",
             "type": "Animation",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "tmdb_9815",
@@ -20663,7 +20957,8 @@
             "collectionId": 110177,
             "collectionNom": "Goal! - Saga",
             "type": "Film",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "tmdb_19139",
@@ -20692,7 +20987,8 @@
             "collectionId": 110177,
             "collectionNom": "Goal! - Saga",
             "type": "Film",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "tmdb_573699",
@@ -20721,7 +21017,8 @@
             "collectionId": 836546,
             "collectionNom": "White Snake - Saga",
             "type": "Anime",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "tmdb_1207123",
@@ -20750,7 +21047,8 @@
             "collectionId": 836546,
             "collectionNom": "White Snake - Saga",
             "type": "Anime",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "tmdb_674",
@@ -20779,7 +21077,8 @@
             "collectionId": 1241,
             "collectionNom": "Harry Potter - Saga",
             "type": "Film",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "tmdb_767",
@@ -20808,7 +21107,8 @@
             "collectionId": 1241,
             "collectionNom": "Harry Potter - Saga",
             "type": "Film",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "tmdb_675",
@@ -20837,7 +21137,8 @@
             "collectionId": 1241,
             "collectionNom": "Harry Potter - Saga",
             "type": "Film",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "tmdb_12444",
@@ -20866,7 +21167,8 @@
             "collectionId": 1241,
             "collectionNom": "Harry Potter - Saga",
             "type": "Film",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "tmdb_12445",
@@ -20895,7 +21197,8 @@
             "collectionId": 1241,
             "collectionNom": "Harry Potter - Saga",
             "type": "Film",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "tmdb_11253",
@@ -20924,7 +21227,8 @@
             "collectionId": 17235,
             "collectionNom": "Hellboy - Saga",
             "type": "Film",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": true
         },
         {
             "id": "tmdb_153609",
@@ -20953,7 +21257,8 @@
             "collectionId": 978459,
             "collectionNom": "Hercules (Disney) - Saga",
             "type": "Animation",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "tmdb_8010",
@@ -20982,7 +21287,8 @@
             "collectionId": 8050,
             "collectionNom": "Highlander - Saga",
             "type": "Film",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "tmdb_8011",
@@ -21011,7 +21317,8 @@
             "collectionId": 8050,
             "collectionNom": "Highlander - Saga",
             "type": "Film",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "tmdb_12211",
@@ -21040,7 +21347,8 @@
             "collectionId": 8050,
             "collectionNom": "Highlander - Saga",
             "type": "Film",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "tmdb_13360",
@@ -21069,7 +21377,8 @@
             "collectionId": 8050,
             "collectionNom": "Highlander - Saga",
             "type": "Film",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "tmdb_10028",
@@ -21098,7 +21407,8 @@
             "collectionId": 144689,
             "collectionNom": "Honey - Saga",
             "type": "Film",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "tmdb_260513",
@@ -21127,7 +21437,8 @@
             "collectionId": 468222,
             "collectionNom": "Les Indestructibles - Saga",
             "type": "Animation",
-            "studio": "Pixar"
+            "studio": "Pixar",
+            "ignoreInCollection": false
         },
         {
             "id": "tmdb_1327821",
@@ -21156,7 +21467,8 @@
             "collectionId": 468222,
             "collectionNom": "Les Indestructibles - Saga",
             "type": "Animation",
-            "studio": "Pixar"
+            "studio": "Pixar",
+            "ignoreInCollection": false
         },
         {
             "id": "tmdb_14756",
@@ -21185,7 +21497,8 @@
             "collectionId": 70068,
             "collectionNom": "Ip Man - Saga",
             "type": "Film",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "tmdb_37472",
@@ -21214,7 +21527,8 @@
             "collectionId": 70068,
             "collectionNom": "Ip Man - Saga",
             "type": "Film",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "tmdb_449924",
@@ -21243,7 +21557,8 @@
             "collectionId": 70068,
             "collectionNom": "Ip Man - Saga",
             "type": "Film",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "tmdb_463272",
@@ -21332,7 +21647,8 @@
             "collectionId": 338416,
             "collectionNom": "Kirikou - Saga",
             "type": "Animation",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "tmdb_49444",
@@ -21361,7 +21677,8 @@
             "collectionId": 77816,
             "collectionNom": "Kung Fu Panda - Saga",
             "type": "Animation",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "tmdb_140300",
@@ -21390,7 +21707,8 @@
             "collectionId": 77816,
             "collectionNom": "Kung Fu Panda - Saga",
             "type": "Animation",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "tmdb_1011985",
@@ -21419,7 +21737,8 @@
             "collectionId": 77816,
             "collectionNom": "Kung Fu Panda - Saga",
             "type": "Animation",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "tmdb_13417",
@@ -21448,7 +21767,8 @@
             "collectionId": 178117,
             "collectionNom": "Kuzco - Saga",
             "type": "Animation",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "tmdb_8355",
@@ -21477,7 +21797,8 @@
             "collectionId": 8354,
             "collectionNom": "L'Âge de glace - Saga",
             "type": "Animation",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "tmdb_278154",
@@ -21506,7 +21827,8 @@
             "collectionId": 8354,
             "collectionNom": "L'Âge de glace - Saga",
             "type": "Animation",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "tmdb_774825",
@@ -21535,7 +21857,8 @@
             "collectionId": 8354,
             "collectionNom": "L'Âge de glace - Saga",
             "type": "Animation",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "tmdb_1384758",
@@ -21564,7 +21887,8 @@
             "collectionId": 8354,
             "collectionNom": "L'Âge de glace - Saga",
             "type": "Animation",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "tmdb_944",
@@ -21653,7 +21977,8 @@
             "collectionId": 1231053,
             "collectionNom": "Les Bad Guys - Saga",
             "type": "Animation",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "tmdb_6935",
@@ -21682,7 +22007,8 @@
             "collectionId": 107471,
             "collectionNom": "Yamakasi - Saga",
             "type": "Film",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "tmdb_542830",
@@ -21711,7 +22037,8 @@
             "collectionId": 629597,
             "collectionNom": "Les Petits Mouchoirs - Saga",
             "type": "Film",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "tmdb_22623",
@@ -21740,7 +22067,8 @@
             "collectionId": 238448,
             "collectionNom": "Les Ripoux - Saga",
             "type": "Film",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "tmdb_411840",
@@ -21769,7 +22097,8 @@
             "collectionId": 436295,
             "collectionNom": "Les Rois de la glisse - Saga",
             "type": "Animation",
-            "studio": "Disney"
+            "studio": "Disney",
+            "ignoreInCollection": false
         },
         {
             "id": "tmdb_15567",
@@ -21798,7 +22127,8 @@
             "collectionId": 97461,
             "collectionNom": "Lilo et Stitch - Saga",
             "type": "Animation",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "tmdb_11544",
@@ -21827,7 +22157,8 @@
             "collectionId": 97461,
             "collectionNom": "Lilo et Stitch - Saga",
             "type": "Animation",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "tmdb_1124006",
@@ -21840,7 +22171,7 @@
             "genre": [
                 "Drame"
             ],
-            "image": "https://image.tmdb.org/t/p/w342/w1nNmvd5nYcoN8kvO55OcCUmE2Z.jpg",
+            "image": "https://image.tmdb.org/t/p/w342/66mWiwl4sbg0mV0sxdR7XV5oUOw.jpg",
             "fichier": null,
             "nomFichier": null,
             "tmdbId": 1124006,
@@ -21856,7 +22187,8 @@
             "collectionId": 1245317,
             "collectionNom": "Lord of War - Saga",
             "type": "Film",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "tmdb_80321",
@@ -21885,7 +22217,8 @@
             "collectionId": 14740,
             "collectionNom": "Madagascar - Saga",
             "type": "Animation",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "tmdb_911916",
@@ -21914,7 +22247,8 @@
             "collectionId": 573436,
             "collectionNom": "Spider-Man : New Generation - Saga",
             "type": "Film",
-            "studio": "Marvel"
+            "studio": "Marvel",
+            "ignoreInCollection": false
         },
         {
             "id": "tmdb_400650",
@@ -21943,7 +22277,8 @@
             "collectionId": 527439,
             "collectionNom": "Mary Poppins - Saga",
             "type": "Animation",
-            "studio": "Disney Classic"
+            "studio": "Disney Classic",
+            "ignoreInCollection": false
         },
         {
             "id": "tmdb_13378",
@@ -21972,7 +22307,8 @@
             "collectionId": 1727431,
             "collectionNom": "Mickey's… Upon a Christmas Collection",
             "type": "Animation",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "tmdb_575265",
@@ -22001,7 +22337,8 @@
             "collectionId": 87359,
             "collectionNom": "Mission : Impossible - Saga",
             "type": "Film",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "tmdb_1241982",
@@ -22030,7 +22367,8 @@
             "collectionId": 1241984,
             "collectionNom": "Vaiana - Saga",
             "type": "Animation",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "tmdb_1647287",
@@ -22059,7 +22397,8 @@
             "collectionId": 1241984,
             "collectionNom": "Vaiana - Saga",
             "type": "Animation",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "tmdb_127380",
@@ -22088,7 +22427,8 @@
             "collectionId": 137697,
             "collectionNom": "Le Monde de Nemo - Saga",
             "type": "Animation",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "tmdb_425274",
@@ -22117,11 +22457,12 @@
             "collectionId": 382685,
             "collectionNom": "Insaisissables - Saga",
             "type": "Film",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "tmdb_1457735",
-            "titre": "Untitled Now You See Me 4",
+            "titre": "Untitled Fourth Now You See Me Film",
             "annee": 2100,
             "langue": [
                 "TBD"
@@ -22139,14 +22480,15 @@
             "doublonProbable": false,
             "groupeDoublon": null,
             "dateAjout": null,
-            "titreTmdb": "Untitled Now You See Me 4",
-            "titreOriginal": "Untitled Now You See Me 4",
+            "titreTmdb": "Untitled Fourth Now You See Me Film",
+            "titreOriginal": "Untitled Fourth Now You See Me Film",
             "anneeTmdb": 2100,
             "descriptionTmdb": "",
             "collectionId": 382685,
             "collectionNom": "Insaisissables - Saga",
             "type": "Film",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "tmdb_13690",
@@ -22175,7 +22517,8 @@
             "collectionId": 66761,
             "collectionNom": "Les Rebelles de la forêt - Saga",
             "type": "Animation",
-            "studio": "Disney"
+            "studio": "Disney",
+            "ignoreInCollection": false
         },
         {
             "id": "tmdb_51170",
@@ -22204,7 +22547,8 @@
             "collectionId": 66761,
             "collectionNom": "Les Rebelles de la forêt - Saga",
             "type": "Animation",
-            "studio": "Disney"
+            "studio": "Disney",
+            "ignoreInCollection": false
         },
         {
             "id": "tmdb_382517",
@@ -22233,7 +22577,8 @@
             "collectionId": 66761,
             "collectionNom": "Les Rebelles de la forêt - Saga",
             "type": "Animation",
-            "studio": "Disney"
+            "studio": "Disney",
+            "ignoreInCollection": false
         },
         {
             "id": "tmdb_604563",
@@ -22262,7 +22607,8 @@
             "collectionId": 1413999,
             "collectionNom": "OSS 117 - Saga",
             "type": "Film",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "tmdb_16690",
@@ -22291,7 +22637,8 @@
             "collectionId": 55422,
             "collectionNom": "Peter Pan - Saga",
             "type": "Animation",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "tmdb_13676",
@@ -22320,7 +22667,8 @@
             "collectionId": 33085,
             "collectionNom": "La Petite Sirène - Saga",
             "type": "Animation",
-            "studio": "Disney"
+            "studio": "Disney",
+            "ignoreInCollection": false
         },
         {
             "id": "tmdb_438747",
@@ -22349,7 +22697,8 @@
             "collectionId": 1268789,
             "collectionNom": "Raiponce - Saga",
             "type": "Animation",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "tmdb_330457",
@@ -22378,7 +22727,8 @@
             "collectionId": 386382,
             "collectionNom": "La Reine des neiges - Saga",
             "type": "Animation",
-            "studio": "Disney"
+            "studio": "Disney",
+            "ignoreInCollection": false
         },
         {
             "id": "tmdb_1024604",
@@ -22407,7 +22757,8 @@
             "collectionId": 386382,
             "collectionNom": "La Reine des neiges - Saga",
             "type": "Animation",
-            "studio": "Disney"
+            "studio": "Disney",
+            "ignoreInCollection": false
         },
         {
             "id": "tmdb_1205983",
@@ -22436,7 +22787,8 @@
             "collectionId": 386382,
             "collectionNom": "La Reine des neiges - Saga",
             "type": "Animation",
-            "studio": "Disney"
+            "studio": "Disney",
+            "ignoreInCollection": false
         },
         {
             "id": "tmdb_105",
@@ -22465,7 +22817,8 @@
             "collectionId": 264,
             "collectionNom": "Retour vers le futur - Saga",
             "type": "Film",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "tmdb_196",
@@ -22494,7 +22847,8 @@
             "collectionId": 264,
             "collectionNom": "Retour vers le futur - Saga",
             "type": "Film",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "tmdb_9948",
@@ -22523,7 +22877,8 @@
             "collectionId": 100970,
             "collectionNom": "Rox et Rouky - Saga",
             "type": "Animation",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "tmdb_2978",
@@ -22552,7 +22907,8 @@
             "collectionId": 2980,
             "collectionNom": "S.O.S. Fantômes - Saga",
             "type": "Film",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "tmdb_425909",
@@ -22581,7 +22937,8 @@
             "collectionId": 2980,
             "collectionNom": "S.O.S. Fantômes - Saga",
             "type": "Film",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "tmdb_967847",
@@ -22610,7 +22967,8 @@
             "collectionId": 2980,
             "collectionNom": "S.O.S. Fantômes - Saga",
             "type": "Film",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "tmdb_9762",
@@ -22639,7 +22997,8 @@
             "collectionId": 86092,
             "collectionNom": "Sexy Dance - Saga",
             "type": "Film",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "tmdb_1804411",
@@ -22668,7 +23027,8 @@
             "collectionId": 102322,
             "collectionNom": "Sherlock Holmes - Saga",
             "type": "Film",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "tmdb_6279",
@@ -22697,7 +23057,8 @@
             "collectionId": 103573,
             "collectionNom": "Sister Act - Saga",
             "type": "Film",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "tmdb_1563146",
@@ -22726,7 +23087,8 @@
             "collectionId": 103573,
             "collectionNom": "Sister Act - Saga",
             "type": "Film",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "tmdb_1639",
@@ -22755,7 +23117,8 @@
             "collectionId": 43064,
             "collectionNom": "Speed - Saga",
             "type": "Film",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "tmdb_13475",
@@ -22784,7 +23147,8 @@
             "collectionId": 115575,
             "collectionNom": "Star Trek - Saga",
             "type": "Film",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "tmdb_260346",
@@ -22813,7 +23177,8 @@
             "collectionId": 135483,
             "collectionNom": "Taken - Saga",
             "type": "Film",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "tmdb_434355",
@@ -22902,7 +23267,8 @@
             "collectionId": 8580,
             "collectionNom": "Karate Kid - Saga",
             "type": "Film",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "tmdb_8856",
@@ -23051,7 +23417,8 @@
             "collectionId": 2344,
             "collectionNom": "Matrix - Saga",
             "type": "Film",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "tmdb_604",
@@ -23080,7 +23447,8 @@
             "collectionId": 2344,
             "collectionNom": "Matrix - Saga",
             "type": "Film",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "tmdb_605",
@@ -23109,7 +23477,8 @@
             "collectionId": 2344,
             "collectionNom": "Matrix - Saga",
             "type": "Film",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "tmdb_412117",
@@ -23138,7 +23507,8 @@
             "collectionId": 427084,
             "collectionNom": "Comme des bêtes - Saga",
             "type": "Animation",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "tmdb_1109206",
@@ -23167,7 +23537,8 @@
             "collectionId": 427084,
             "collectionNom": "Comme des bêtes - Saga",
             "type": "Animation",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "tmdb_164372",
@@ -23196,7 +23567,8 @@
             "collectionId": 374930,
             "collectionNom": "Snow Queen - Saga",
             "type": "Animation",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "tmdb_292014",
@@ -23225,7 +23597,8 @@
             "collectionId": 374930,
             "collectionNom": "Snow Queen - Saga",
             "type": "Animation",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "tmdb_564145",
@@ -23254,7 +23627,8 @@
             "collectionId": 374930,
             "collectionNom": "Snow Queen - Saga",
             "type": "Animation",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "tmdb_898230",
@@ -23283,7 +23657,8 @@
             "collectionId": 374930,
             "collectionNom": "Snow Queen - Saga",
             "type": "Animation",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "tmdb_1996",
@@ -23312,7 +23687,8 @@
             "collectionId": 2467,
             "collectionNom": "Lara Croft - Saga",
             "type": "Film",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "tmdb_10193",
@@ -23341,7 +23717,8 @@
             "collectionId": 10194,
             "collectionNom": "Toy Story - Saga",
             "type": "Animation",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "tmdb_301528",
@@ -23370,7 +23747,8 @@
             "collectionId": 10194,
             "collectionNom": "Toy Story - Saga",
             "type": "Animation",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "tmdb_1084244",
@@ -23399,7 +23777,8 @@
             "collectionId": 10194,
             "collectionNom": "Toy Story - Saga",
             "type": "Animation",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "tmdb_8373",
@@ -23428,7 +23807,8 @@
             "collectionId": 8650,
             "collectionNom": "Transformers - Saga",
             "type": "Film",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "tmdb_38356",
@@ -23457,7 +23837,8 @@
             "collectionId": 8650,
             "collectionNom": "Transformers - Saga",
             "type": "Film",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "tmdb_91314",
@@ -23486,7 +23867,8 @@
             "collectionId": 8650,
             "collectionNom": "Transformers - Saga",
             "type": "Film",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "tmdb_335988",
@@ -23515,7 +23897,8 @@
             "collectionId": 8650,
             "collectionNom": "Transformers - Saga",
             "type": "Film",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "tmdb_13387",
@@ -23604,7 +23987,8 @@
             "collectionId": 115840,
             "collectionNom": "La Vérité si je mens ! - Saga",
             "type": "Film",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "tmdb_31359",
@@ -23633,7 +24017,8 @@
             "collectionId": 115840,
             "collectionNom": "La Vérité si je mens ! - Saga",
             "type": "Film",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "tmdb_589980",
@@ -23662,7 +24047,8 @@
             "collectionId": 115840,
             "collectionNom": "La Vérité si je mens ! - Saga",
             "type": "Film",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "tmdb_109439",
@@ -23691,7 +24077,8 @@
             "collectionId": 86119,
             "collectionNom": "Very Bad Trip - Saga",
             "type": "Film",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "tmdb_45243",
@@ -23720,7 +24107,8 @@
             "collectionId": 86119,
             "collectionNom": "Very Bad Trip - Saga",
             "type": "Film",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "tmdb_1052946",
@@ -23749,7 +24137,8 @@
             "collectionId": 1431054,
             "collectionNom": "Violet Evergarden Collection",
             "type": "Anime",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "tmdb_533514",
@@ -23778,7 +24167,8 @@
             "collectionId": 1431054,
             "collectionNom": "Violet Evergarden Collection",
             "type": "Anime",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "tmdb_14154",
@@ -23807,7 +24197,8 @@
             "collectionId": 151263,
             "collectionNom": "WarGames - Saga",
             "type": "Film",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "tmdb_464052",
@@ -23836,7 +24227,8 @@
             "collectionId": 468552,
             "collectionNom": "Wonder Woman - Saga",
             "type": "Film",
-            "studio": "Marvel"
+            "studio": "Marvel",
+            "ignoreInCollection": false
         },
         {
             "id": "tmdb_127585",
@@ -23865,7 +24257,8 @@
             "collectionId": 748,
             "collectionNom": "X-Men - Saga",
             "type": "Film",
-            "studio": "Marvel"
+            "studio": "Marvel",
+            "ignoreInCollection": false
         },
         {
             "id": "tmdb_76170",
@@ -23894,7 +24287,8 @@
             "collectionId": 453993,
             "collectionNom": "Wolverine - Saga",
             "type": "Film",
-            "studio": "Marvel"
+            "studio": "Marvel",
+            "ignoreInCollection": false
         },
         {
             "id": "tmdb_263115",
@@ -23923,7 +24317,8 @@
             "collectionId": 453993,
             "collectionNom": "Wolverine - Saga",
             "type": "Film",
-            "studio": "Marvel"
+            "studio": "Marvel",
+            "ignoreInCollection": false
         },
         {
             "id": "tmdb_7451",
@@ -23952,7 +24347,8 @@
             "collectionId": 52785,
             "collectionNom": "xXx - Saga",
             "type": "Film",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         }
     ],
     "series": [
@@ -29886,7 +30282,8 @@
                             "doublonProbable": false,
                             "dateAjout": "2026-09-06T18:10:38.716Z"
                         }
-                    ]
+                    ],
+                    "hasMissingEpisodes": false
                 },
                 {
                     "numero": 2,
@@ -30047,7 +30444,8 @@
                             "doublonProbable": false,
                             "dateAjout": "2026-09-06T18:10:38.723Z"
                         }
-                    ]
+                    ],
+                    "hasMissingEpisodes": false
                 }
             ]
         },

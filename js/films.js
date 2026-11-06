@@ -39,6 +39,9 @@ async function initFilmsPage() {
       .querySelector('.nav-button[data-page="collections"]')
       ?.classList.add("active");
   }
+  document
+    .getElementById("sideCollectionsRow")
+    ?.classList.toggle("hidden", !isCollectionContextActive());
   updateSidebarTitle("ajoutsTitle", "AJOUTS", currentAjouts);
   updateSidebarTitle("genreTitle", "GENRE", currentGenre);
   updateSidebarTitle("typeTitle", "TYPE", currentType);
@@ -334,62 +337,86 @@ async function loadFilmSearchConfig() {
     filmSearchSites = [];
   }
 }
-
 function showFilmSearchModal(film) {
   const frenchTitle = film.titreTmdb || film.titre || "";
   const originalTitle = film.titreOriginal || frenchTitle;
   const year = film.anneeTmdb || film.annee || "";
-  document.getElementById("filmSearchFrenchTitle").textContent = frenchTitle;
-  document.getElementById("filmSearchOriginalTitle").textContent =
-    originalTitle;
-  setupFilmSearchYear(
-    document.getElementById("filmSearchFrenchYear"),
-    document.getElementById("filmSearchFrenchButtons"),
-    frenchTitle,
-    year,
+  const originalTitleButton = document.getElementById(
+    "filmSearchOriginalTitle",
   );
-  setupFilmSearchYear(
-    document.getElementById("filmSearchOriginalYear"),
-    document.getElementById("filmSearchOriginalButtons"),
-    originalTitle,
-    year,
-  );
+  const frenchTitleButton = document.getElementById("filmSearchFrenchTitle");
+  const yearButton = document.getElementById("filmSearchYear");
+  const buttonsContainer = document.getElementById("filmSearchButtons");
+  const sameTitle =
+    originalTitle.localeCompare(frenchTitle, "fr", {
+      sensitivity: "base",
+    }) === 0;
+  originalTitleButton.textContent = originalTitle;
+  originalTitleButton.dataset.title = originalTitle;
+  originalTitleButton.classList.add("active");
+  frenchTitleButton.textContent = frenchTitle;
+  frenchTitleButton.dataset.title = frenchTitle;
+  frenchTitleButton.classList.remove("active");
+  frenchTitleButton.style.display = sameTitle ? "none" : "";
+
+  const hasValidYear = year && String(year) !== "2100";
+  yearButton.textContent = hasValidYear ? year : "";
+  yearButton.dataset.year = hasValidYear ? year : "";
+  yearButton.classList.toggle("active", Boolean(hasValidYear));
+  yearButton.style.display = hasValidYear ? "" : "none";
+
+  originalTitleButton.onclick = () => {
+    originalTitleButton.classList.add("active");
+    frenchTitleButton.classList.remove("active");
+  };
+  frenchTitleButton.onclick = () => {
+    frenchTitleButton.classList.add("active");
+    originalTitleButton.classList.remove("active");
+  };
+  yearButton.onclick = () => {
+    yearButton.classList.toggle("active");
+  };
+  renderFilmSearchButtons(buttonsContainer);
   document.getElementById("filmSearchModal").classList.remove("hidden");
 }
-
-function setupFilmSearchYear(yearButton, buttonsContainer, title, year) {
-  yearButton.textContent = year;
-  yearButton.classList.remove("active");
-  yearButton.style.display = year ? "" : "none";
-  renderFilmSearchButtons(buttonsContainer, title, year, false);
-  yearButton.onclick = () => {
-    const active = yearButton.classList.toggle("active");
-    renderFilmSearchButtons(buttonsContainer, title, year, active);
-  };
-}
-
-function renderFilmSearchButtons(container, title) {
+function renderFilmSearchButtons(container) {
   container.innerHTML = "";
   for (const site of filmSearchSites) {
     const button = document.createElement("button");
     button.className = "tmdb-search-token active";
     button.textContent = site.nom;
     button.onclick = () => {
+      const activeTitleButton = document.querySelector(
+        "#filmSearchTitleButtons button[data-title].active",
+      );
+      const yearButton = document.getElementById("filmSearchYear");
+      const title = activeTitleButton?.dataset.title || "";
+      const year =
+        yearButton.classList.contains("active") && yearButton.dataset.year
+          ? yearButton.dataset.year
+          : "";
+      const searchText = `${title} ${year}`.trim();
       const separator = site.separateur || "%20";
-      const cleanTitle = title
+      const cleanSearchText = searchText
         .replace(/[:;,.'"!?/\\()[\]{}]/g, " ")
         .replace(/\s+/g, " ")
         .trim();
-      const encodedTitle = encodeURIComponent(cleanTitle).replaceAll(
+      const encodedSearchText = encodeURIComponent(cleanSearchText).replaceAll(
         "%20",
         separator,
       );
-      window.open(`${site.url}${encodedTitle}`, "_blank", "noopener");
+      window.open(`${site.url}${encodedSearchText}`, "_blank", "noopener");
     };
     container.appendChild(button);
   }
 }
-
 function closeFilmSearchModal() {
   document.getElementById("filmSearchModal").classList.add("hidden");
 }
+document
+  .getElementById("filmSearchModal")
+  .addEventListener("click", (event) => {
+    if (event.target === event.currentTarget) {
+      closeFilmSearchModal();
+    }
+  });

@@ -13,6 +13,9 @@ async function initFilmDetailPage() {
       .querySelector('.nav-button[data-page="collections"]')
       ?.classList.add("active");
   }
+  document
+    .getElementById("sideCollectionsRow")
+    ?.classList.toggle("hidden", !isCollectionContextActive());
 
   const params = new URLSearchParams(window.location.search);
   const tmdbId = Number(params.get("tmdbId"));
@@ -402,7 +405,7 @@ function requestFilmDownload(film) {
   // &entry.1740534205=comment
   // &entry.257324969=titre
   // &entry.1329036869=chemin
-  
+
   // Forms V1
   // `https://docs.google.com/forms/d/e/1FAIpQLSc4bsOBKlNGPC5pVSz-TMDYFLoSCyUJ6bUxCchSQXsHcl5aWg/viewform` +
   // `?usp=pp_url` +

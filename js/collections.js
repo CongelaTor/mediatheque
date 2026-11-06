@@ -180,17 +180,18 @@ function renderCollections() {
       );
     })
     .sort((a, b) => a.nom.localeCompare(b.nom, "fr"));
-  console.log("collectionList.length =", collectionList.length);
-  setText("sideCollections", collectionList.length);
+  setText("sideCollections", collections.size);
   const groupedFilms = new Set();
   for (const film of catalog.films) {
+    if (!film.collectionId || !film.collectionNom || !film.fichier) {
+      continue;
+    }
     const key = film.tmdbId
       ? `tmdb:${film.tmdbId}`
       : `title:${film.titre}|${film.annee || ""}`;
     groupedFilms.add(key);
   }
   setText("sideFilms", groupedFilms.size);
-
   const uniqueFilms = new Set();
   for (const collection of collectionList) {
     for (const film of collection.films) {

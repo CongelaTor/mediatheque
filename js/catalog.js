@@ -92,20 +92,32 @@ function updateStats() {
   const collectionFiles = catalog.films.filter(
     (film) => film.collectionId && film.fichier,
   );
-  const collectionFilesCount = collectionFiles.length;
+
+  const collectionFilms = new Set();
+  for (const film of collectionFiles) {
+    const key = film.tmdbId
+      ? `tmdb:${film.tmdbId}`
+      : `title:${film.titre}|${film.annee || ""}`;
+    collectionFilms.add(key);
+  }
+  const collectionFilmsCount = collectionFilms.size;
   const collectionsSize = collectionFiles.reduce(
     (total, film) => total + (Number(film.taille) || 0),
     0,
   );
+
   const groupedFilms = new Set();
-  for (const film of catalog.films) {
+  const filmsOutsideCollections = catalog.films.filter(
+    (film) => (!film.collectionId || !film.collectionNom) && film.fichier,
+  );
+  for (const film of filmsOutsideCollections) {
     const groupKey = film.tmdbId
       ? `tmdb:${film.tmdbId}`
       : `title:${film.titre}|${film.annee || ""}`;
     groupedFilms.add(groupKey);
   }
   const filmsCount = groupedFilms.size;
-  const filmsSize = catalog.films.reduce(
+  const filmsSize = filmsOutsideCollections.reduce(
     (total, film) => total + (Number(film.taille) || 0),
     0,
   );
@@ -128,7 +140,7 @@ function updateStats() {
   );
   setText(
     "homeCollectionsStats",
-    `${collectionsCount} collections • ${collectionFilesCount} fichiers • ${formatMediaSize(collectionsSize)}`,
+    `${collectionsCount} collections • ${collectionFilmsCount} films • ${formatMediaSize(collectionsSize)}`,
   );
   setText("sideCollections", collectionsCount);
   setText("statFilms", filmsCount);

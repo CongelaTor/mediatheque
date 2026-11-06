@@ -1070,6 +1070,14 @@ max-width: var(--cadres-max-width);
     background: linear-gradient(135deg, #243d5a 0%, #294668 45%, #2c4a6e 100%);
     color: white;
 }
+#filmSearchTitleButtons .tmdb-search-token {
+    background: linear-gradient(135deg, #243d5a 0%, #294668 45%, #2c4a6e 100%);
+    color: white;
+    outline: 2px solid transparent;
+}
+#filmSearchTitleButtons .tmdb-search-token.active {
+    outline: 2px solid var(--blue);
+}
 
 .tmdb-search-token.inactive,
 .tmdb-search-token.pinned {

@@ -24,6 +24,7 @@ normalizeIgnoreWordsConfig(ignoreWordsConfig);
 writeJson(ignoreWordsPath, ignoreWordsConfig);
 
 const existingFilmByPath = buildExistingFilmByPath(existingCatalog);
+const existingFilmsByName = buildExistingFilmsByName(existingCatalog);
 const existingEpisodeByPath = buildExistingEpisodeByPath(existingCatalog);
 const existingSerieByKey = buildExistingSerieByKey(existingCatalog);
 
@@ -34,7 +35,10 @@ const syncedCatalog = {
   version: existingCatalog.version || 1,
   dateDernierScan: null,
   collections: [...(existingCatalog.collections || [])],
-  films: scanType === "series" ? [...(existingCatalog.films || [])] : [],
+  films:
+    scanType === "series"
+      ? [...(existingCatalog.films || [])]
+      : (existingCatalog.films || []).filter((film) => !film.fichier),
   series: scanType === "films" ? [...(existingCatalog.series || [])] : [],
 };
 
@@ -153,6 +157,7 @@ function normalizeList(list) {
     ),
   ].sort();
 }
+
 function buildExistingFilmByPath(catalog) {
   const map = new Map();
   for (const film of catalog.films || []) {
@@ -162,6 +167,22 @@ function buildExistingFilmByPath(catalog) {
   }
   return map;
 }
+
+function buildExistingFilmsByName(catalog) {
+  const map = new Map();
+  for (const film of catalog.films || []) {
+    if (!film.nomFichier || !film.fichier) {
+      continue;
+    }
+    const key = film.nomFichier.toLowerCase();
+    if (!map.has(key)) {
+      map.set(key, []);
+    }
+    map.get(key).push(film);
+  }
+  return map;
+}
+
 function buildExistingEpisodeByPath(catalog) {
   const map = new Map();
   for (const serie of catalog.series || []) {
@@ -398,22 +419,26 @@ function findAssociatedImage(videoPath) {
   return null;
 }
 function syncFilm(catalog, analyse) {
-  // console.log("catalog =", existingCatalog.films[0].fichier);
-  // console.log("scan    =", analyse.fichier);
-  const existing = existingFilmByPath.get(
+  let existing = existingFilmByPath.get(
     pathKey(analyse.fichier.replace(/^[A-Z]:/i, "")),
   );
+  if (!existing && analyse.nomFichier) {
+    const sameNameFilms =
+      existingFilmsByName.get(analyse.nomFichier.toLowerCase()) || [];
+    const sameFile = sameNameFilms.find(
+      (film) => Number(film.taille) === Number(analyse.taille),
+    );
+    if (sameFile) {
+      existing = sameFile;
+    }
+  }
   if (existing) {
     catalog.films.push({
       ...existing,
       id: existing.id || analyse.id,
       titre: analyse.titre,
-      // titre: existing.titre || analyse.titre,
       annee: existing.annee ?? analyse.annee,
-
       langue: analyse.langue,
-      // langue: existing.langue ?? analyse.langue,
-
       taille: analyse.taille,
       image: existing.image || analyse.image,
       fichier: analyse.fichier,
