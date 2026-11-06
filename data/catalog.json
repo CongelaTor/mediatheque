@@ -1,6 +1,6 @@
 {
     "version": 1,
-    "dateDernierScan": "2026-11-06T17:56:51.278Z",
+    "dateDernierScan": "2026-11-06T22:28:39.863Z",
     "collections": [
         {
             "collectionId": 9485,
@@ -1340,6 +1340,38 @@
             "collectionTmdbUrl": null,
             "type": "Film",
             "studio": "Marvel"
+        },
+        {
+            "id": "a_good_day_to_die_hard_bruce_willis_action_2013",
+            "titre": "A Good Day To Die Hard Bruce Willis Action",
+            "annee": 2013,
+            "langue": [
+                "TBD"
+            ],
+            "taille": 1778253068,
+            "genre": [
+                "Action",
+                "Thriller"
+            ],
+            "image": "https://image.tmdb.org/t/p/w342/aBo2EsfKCdcZelx1uFoTg6l0fA2.jpg",
+            "fichier": "/03_Films/05 A Good Day To Die Hard Extended - Bruce Willis Action 2013 Eng Subs 1080p .mp4",
+            "nomFichier": "05 A Good Day To Die Hard Extended - Bruce Willis Action 2013 Eng Subs 1080p .mp4",
+            "imdbId": null,
+            "tmdbId": 47964,
+            "tmdbUrl": "https://www.themoviedb.org/movie/47964",
+            "doublonExact": false,
+            "doublonProbable": false,
+            "groupeDoublon": null,
+            "dateAjout": "2026-11-06T19:39:20.774Z",
+            "titreTmdb": "Die Hard : Belle journée pour mourir",
+            "anneeTmdb": "2013",
+            "dureeTmdb": 96,
+            "descriptionTmdb": "John McClane, le flic sans état d’âme, est vraiment au mauvais endroit au mauvais moment, à Moscou, pour aider son fils Jack qu’il ne voit plus. Entre la mafia russe qui veut leur faire la peau et leur combat pour éviter le déclenchement d’une guerre, les McClane découvrent que leurs méthodes pourtant bien différentes font d’eux des héros que rien ne peut arrêter.",
+            "collectionId": 1570,
+            "collectionNom": "Die Hard - Saga",
+            "collectionDescription": "Une série de films d'action centrés autour du personnage de John McClane, un détective de police de New York City qui se retrouve en lutte contre un groupe de terroristes dans chaque film.",
+            "collectionImage": "https://image.tmdb.org/t/p/w500/bFZRGXeLLUjnp3F8zzwkvrvPHWD.jpg",
+            "collectionTmdbUrl": "https://www.themoviedb.org/collection/1570"
         },
         {
             "id": "a_guardians_of_the_galaxy_2_2017",
@@ -4867,6 +4899,39 @@
             "ignoreInCollection": false
         },
         {
+            "id": "center_stage_on_pointe_2016",
+            "titre": "Center Stage On Pointe",
+            "annee": 2016,
+            "langue": [
+                "TBD"
+            ],
+            "taille": 927600736,
+            "genre": [
+                "Musique",
+                "Téléfilm",
+                "Drame"
+            ],
+            "image": "https://image.tmdb.org/t/p/w342/ukaNSLrmzfP3ZHqLcaWCl7ogH0o.jpg",
+            "fichier": "/03_Films/Center.Stage.On.Pointe.2016.DVDRip.XviD-EVO.avi",
+            "nomFichier": "Center.Stage.On.Pointe.2016.DVDRip.XviD-EVO.avi",
+            "imdbId": null,
+            "tmdbId": 402543,
+            "tmdbUrl": "https://www.themoviedb.org/movie/402543",
+            "doublonExact": false,
+            "doublonProbable": false,
+            "groupeDoublon": null,
+            "dateAjout": "2026-11-06T19:39:20.774Z",
+            "titreTmdb": "Danse ta vie : L'Affrontement",
+            "anneeTmdb": "2016",
+            "dureeTmdb": 92,
+            "descriptionTmdb": "Dans Center Stage: On Pointe, Jonathan Reeves (Gallagher) doit apporter du style contemporain et moderne dans l'académie américaine de ballet ...",
+            "collectionId": 246839,
+            "collectionNom": "Danse ta vie - Saga",
+            "collectionDescription": "L'histoire des élèves d'une prestigieuse école de danse...",
+            "collectionImage": "https://image.tmdb.org/t/p/w500/atvhBKVMU4CCDvlGJgSXsPtNALF.jpg",
+            "collectionTmdbUrl": "https://www.themoviedb.org/collection/246839"
+        },
+        {
             "id": "charlies_angels_2000",
             "titre": "Charlies Angels",
             "annee": 2000,
@@ -4957,6 +5022,38 @@
             "type": "Film",
             "studio": null,
             "ignoreInCollection": false
+        },
+        {
+            "id": "chasing_trane_the_john_coltrane_documentary_2016",
+            "titre": "Chasing Trane The John Coltrane Documentary",
+            "annee": 2016,
+            "langue": [
+                "TBD"
+            ],
+            "taille": 1620427041,
+            "genre": [
+                "Documentaire",
+                "Musique"
+            ],
+            "image": "https://image.tmdb.org/t/p/w342/pb09v5koCU7GrxCJNfRnliPRIKD.jpg",
+            "fichier": "/03_Films/Chasing.Trane.The.John.Coltrane.Documentary.2016.1080p.BluRay.x264-.mp4",
+            "nomFichier": "Chasing.Trane.The.John.Coltrane.Documentary.2016.1080p.BluRay.x264-.mp4",
+            "imdbId": null,
+            "tmdbId": 411012,
+            "tmdbUrl": "https://www.themoviedb.org/movie/411012",
+            "doublonExact": false,
+            "doublonProbable": false,
+            "groupeDoublon": null,
+            "dateAjout": "2026-11-06T19:39:20.775Z",
+            "titreTmdb": "Chasing Trane",
+            "anneeTmdb": "2017",
+            "dureeTmdb": 99,
+            "descriptionTmdb": "Ayant pour toile de fond le paysage social, politique et culturel de son époque, « Chasing Trane » dépeint John Coltrane dans toute son humanité, nous conviant à sa rencontre en tant qu'homme et en tant qu'artiste. Écrit et réalisé par John Scheinfeld et narré par Denzel Washington, le film a été produit avec le consentement absolu de la famille Coltrane en plus du soutien de toutes les maisons de disque avec lesquelles Coltrane a enregistré et collaboré.",
+            "collectionId": null,
+            "collectionNom": null,
+            "collectionDescription": null,
+            "collectionImage": null,
+            "collectionTmdbUrl": null
         },
         {
             "id": "chasseurs_de_dragons_vnr_2008",
@@ -6024,6 +6121,38 @@
             "ignoreInCollection": false
         },
         {
+            "id": "die_hard_2_die_harder_bruce_willis_action_1990",
+            "titre": "Die Hard 2 Die Harder Bruce Willis Action",
+            "annee": 1990,
+            "langue": [
+                "TBD"
+            ],
+            "taille": 2168278501,
+            "genre": [
+                "Action",
+                "Thriller"
+            ],
+            "image": "https://image.tmdb.org/t/p/w342/1gphGfZKKnxEVJRLYT9VyyDaOaV.jpg",
+            "fichier": "/03_Films/02 Die Hard 2 Die Harder - Bruce Willis Action 1990 Eng Subs 1080p .mp4",
+            "nomFichier": "02 Die Hard 2 Die Harder - Bruce Willis Action 1990 Eng Subs 1080p .mp4",
+            "imdbId": null,
+            "tmdbId": 1573,
+            "tmdbUrl": "https://www.themoviedb.org/movie/1573",
+            "doublonExact": false,
+            "doublonProbable": false,
+            "groupeDoublon": null,
+            "dateAjout": "2026-11-06T19:39:20.771Z",
+            "titreTmdb": "58 minutes pour vivre",
+            "anneeTmdb": "1990",
+            "dureeTmdb": 123,
+            "descriptionTmdb": "John McClane tente d'éviter le désastre alors que des agents secrets militaires dévoyés prennent le contrôle de l'Aéroport International de Dulles à Washington, D.C.",
+            "collectionId": 1570,
+            "collectionNom": "Die Hard - Saga",
+            "collectionDescription": "Une série de films d'action centrés autour du personnage de John McClane, un détective de police de New York City qui se retrouve en lutte contre un groupe de terroristes dans chaque film.",
+            "collectionImage": "https://image.tmdb.org/t/p/w500/bFZRGXeLLUjnp3F8zzwkvrvPHWD.jpg",
+            "collectionTmdbUrl": "https://www.themoviedb.org/collection/1570"
+        },
+        {
             "id": "die_hard_3_bitloks_1995",
             "titre": "Die Hard 3",
             "annee": 1995,
@@ -6055,6 +6184,38 @@
             "ignoreInCollection": false
         },
         {
+            "id": "die_hard_3_die_hard_with_a_vengeance_bruce_willis_action_1995",
+            "titre": "Die Hard 3 Die Hard With A Vengeance Bruce Willis Action",
+            "annee": 1995,
+            "langue": [
+                "TBD"
+            ],
+            "taille": 2258297421,
+            "genre": [
+                "Action",
+                "Thriller"
+            ],
+            "image": "https://image.tmdb.org/t/p/w342/5AObtYoyodZluhmJVcidvzzKfiv.jpg",
+            "fichier": "/03_Films/03 Die Hard 3 Die Hard With A Vengeance - Bruce Willis Action 1995 1080p English.mp4",
+            "nomFichier": "03 Die Hard 3 Die Hard With A Vengeance - Bruce Willis Action 1995 1080p English.mp4",
+            "imdbId": null,
+            "tmdbId": 1572,
+            "tmdbUrl": "https://www.themoviedb.org/movie/1572",
+            "doublonExact": false,
+            "doublonProbable": false,
+            "groupeDoublon": null,
+            "dateAjout": "2026-11-06T19:39:20.772Z",
+            "titreTmdb": "Une Journée en enfer",
+            "anneeTmdb": "1995",
+            "dureeTmdb": 128,
+            "descriptionTmdb": "Décidément, John McLane ne peut jamais avoir la paix ! Après avoir libéré un building des mains d’un terroriste, après avoir sauvé sa femme d’un avion en perdition, le voilà aux prises avec un psychopathe qui le fait jouer à un « Jacques a dit » meurtrier. Les règles sont simples, si il ne résout pas les énigmes posées, une bombe explose dans un lieu public.",
+            "collectionId": 1570,
+            "collectionNom": "Die Hard - Saga",
+            "collectionDescription": "Une série de films d'action centrés autour du personnage de John McClane, un détective de police de New York City qui se retrouve en lutte contre un groupe de terroristes dans chaque film.",
+            "collectionImage": "https://image.tmdb.org/t/p/w500/bFZRGXeLLUjnp3F8zzwkvrvPHWD.jpg",
+            "collectionTmdbUrl": "https://www.themoviedb.org/collection/1570"
+        },
+        {
             "id": "die_hard_4_bitloks_2007",
             "titre": "Die Hard 4",
             "annee": 2007,
@@ -6084,6 +6245,90 @@
             "type": "Film",
             "studio": null,
             "ignoreInCollection": false
+        },
+        {
+            "id": "die_hard_4_0_live_free_or_die_hard_bruce_willis_action_2007",
+            "titre": "Die Hard 4 0 Live Free Or Die Hard Bruce Willis Action",
+            "annee": 2007,
+            "langue": [
+                "TBD"
+            ],
+            "taille": 2262044061,
+            "genre": [
+                "Action",
+                "Thriller"
+            ],
+            "image": "https://image.tmdb.org/t/p/w342/mn8bwgfQgNV8bqKnazHAW6C6e0D.jpg",
+            "fichier": "/03_Films/04 Die Hard 4.0 Live Free Or Die Hard - Bruce Willis Action 2007 Eng Subs 1080p .mp4",
+            "nomFichier": "04 Die Hard 4.0 Live Free Or Die Hard - Bruce Willis Action 2007 Eng Subs 1080p .mp4",
+            "imdbId": null,
+            "tmdbId": 1571,
+            "tmdbUrl": "https://www.themoviedb.org/movie/1571",
+            "doublonExact": false,
+            "doublonProbable": false,
+            "groupeDoublon": null,
+            "dateAjout": "2026-11-06T19:39:20.773Z",
+            "titreTmdb": "Die Hard 4 : Retour en enfer",
+            "anneeTmdb": "2007",
+            "dureeTmdb": 128,
+            "descriptionTmdb": "Pour sa quatrième aventure, l’inspecteur John McClane se trouve confronté à un nouveau genre de terrorisme. Le réseau informatique national qui contrôle absolument toutes les communications, les transports et l’énergie des États‐Unis, est détruit de façon systématique, plongeant le pays dans le chaos. Le cerveau qui est derrière le complot a tout calculé à la perfection. Ou presque… Il n’avait pas prévu McClane, un flic de la vieille école qui connaît deux ou trois trucs efficaces pour déjouer les attaques terroristes.",
+            "collectionId": 1570,
+            "collectionNom": "Die Hard - Saga",
+            "collectionDescription": "Une série de films d'action centrés autour du personnage de John McClane, un détective de police de New York City qui se retrouve en lutte contre un groupe de terroristes dans chaque film.",
+            "collectionImage": "https://image.tmdb.org/t/p/w500/bFZRGXeLLUjnp3F8zzwkvrvPHWD.jpg",
+            "collectionTmdbUrl": "https://www.themoviedb.org/collection/1570"
+        },
+        {
+            "id": "die_hard_bruce_willis_action_1988",
+            "titre": "Die Hard Bruce Willis Action",
+            "annee": 1988,
+            "langue": [
+                "TBD"
+            ],
+            "taille": 2322978228,
+            "genre": [
+                "Action",
+                "Thriller"
+            ],
+            "image": "https://image.tmdb.org/t/p/w342/1nOVVjbf8ucbeLmIlK5D2kCQQST.jpg",
+            "fichier": "/03_Films/01 Die Hard - Bruce Willis Action 1988 Eng Subs 1080p .mp4",
+            "nomFichier": "01 Die Hard - Bruce Willis Action 1988 Eng Subs 1080p .mp4",
+            "imdbId": null,
+            "tmdbId": 562,
+            "tmdbUrl": "https://www.themoviedb.org/movie/562",
+            "doublonExact": false,
+            "doublonProbable": false,
+            "groupeDoublon": null,
+            "dateAjout": "2026-11-06T19:39:20.769Z",
+            "titreTmdb": "Piège de cristal",
+            "anneeTmdb": "1988",
+            "dureeTmdb": 132,
+            "descriptionTmdb": "John McClane, un policier de New York, tente de sauver sa femme Holly Gennaro et un groupe d'autres personnes prises en otage par le terroriste allemand Hans Gruber lors d'une fête de Noël au Nakatomi Plaza de Los Angeles.",
+            "collectionId": 1570,
+            "collectionNom": "Die Hard - Saga",
+            "collectionDescription": "Une série de films d'action centrés autour du personnage de John McClane, un détective de police de New York City qui se retrouve en lutte contre un groupe de terroristes dans chaque film.",
+            "collectionImage": "https://image.tmdb.org/t/p/w500/bFZRGXeLLUjnp3F8zzwkvrvPHWD.jpg",
+            "collectionTmdbUrl": "https://www.themoviedb.org/collection/1570"
+        },
+        {
+            "id": "die_hard_nezu_1988",
+            "titre": "die hard nezu",
+            "annee": 1988,
+            "langue": [
+                "TBD"
+            ],
+            "taille": 1319343530,
+            "genre": null,
+            "image": null,
+            "fichier": "/03_Films/die.hard.1988.720p.bluray.x264-nezu.mkv",
+            "nomFichier": "die.hard.1988.720p.bluray.x264-nezu.mkv",
+            "imdbId": null,
+            "tmdbId": null,
+            "tmdbUrl": null,
+            "doublonExact": false,
+            "doublonProbable": false,
+            "groupeDoublon": null,
+            "dateAjout": "2026-11-06T19:39:20.775Z"
         },
         {
             "id": "doctor_strange_hd_cpg_2016",
@@ -7347,6 +7592,74 @@
             "ignoreInCollection": false
         },
         {
+            "id": "ernest_et_celestine_voyage_charabie_ulysse_2022",
+            "titre": "ernest et celestine voyage charabie ulysse",
+            "annee": 2022,
+            "langue": [
+                "VF"
+            ],
+            "taille": 438458425,
+            "genre": [
+                "Animation",
+                "Familial",
+                "Musique",
+                "Aventure"
+            ],
+            "image": "https://image.tmdb.org/t/p/w342/e2C0ElYfdvuGylhyCHbY2VzqFHY.jpg",
+            "fichier": "/03_Films/ernest.et.celestine.le.voyage.en.charabie.2022.french.bdrip.x264-ulysse.mkv",
+            "nomFichier": "ernest.et.celestine.le.voyage.en.charabie.2022.french.bdrip.x264-ulysse.mkv",
+            "imdbId": null,
+            "tmdbId": 947219,
+            "tmdbUrl": "https://www.themoviedb.org/movie/947219",
+            "doublonExact": false,
+            "doublonProbable": true,
+            "groupeDoublon": "ernest_et_celestine_voyage_charabie_ulysse",
+            "dateAjout": "2026-11-06T19:39:20.776Z",
+            "titreTmdb": "Ernest et Célestine : Le Voyage en Charabie",
+            "anneeTmdb": "2022",
+            "dureeTmdb": 80,
+            "descriptionTmdb": "Ernest et Célestine retournent au pays d’Ernest, la Charabie, pour faire réparer son précieux violon cassé. Ils découvrent alors que la musique est bannie dans tout le pays depuis plusieurs années. Pour nos deux héros, il est impensable de vivre sans musique ! Accompagnés de complices, dont un mystérieux justicier masqué, Ernest et Célestine vont tenter de réparer cette injustice afin de ramener la joie au pays des ours.",
+            "collectionId": 989657,
+            "collectionNom": "Ernest & Célestine - Saga",
+            "collectionDescription": null,
+            "collectionImage": "https://image.tmdb.org/t/p/w500/jmAErbJ777sNlEiFpdd6oglsBhg.jpg",
+            "collectionTmdbUrl": "https://www.themoviedb.org/collection/989657"
+        },
+        {
+            "id": "ernest_et_celestine_voyage_charabie_ulysse_2022",
+            "titre": "Ernest et Celestine Voyage Charabie Ulysse",
+            "annee": 2022,
+            "langue": [
+                "VF"
+            ],
+            "taille": 4329720787,
+            "genre": [
+                "Animation",
+                "Familial",
+                "Musique",
+                "Aventure"
+            ],
+            "image": "https://image.tmdb.org/t/p/w342/e2C0ElYfdvuGylhyCHbY2VzqFHY.jpg",
+            "fichier": "/03_Films/Ernest.et.Celestine.Le.Voyage.en.Charabie.2022.FRENCH.720p.BluRay.x264-Ulysse.mkv",
+            "nomFichier": "Ernest.et.Celestine.Le.Voyage.en.Charabie.2022.FRENCH.720p.BluRay.x264-Ulysse.mkv",
+            "imdbId": null,
+            "tmdbId": 947219,
+            "tmdbUrl": "https://www.themoviedb.org/movie/947219",
+            "doublonExact": false,
+            "doublonProbable": true,
+            "groupeDoublon": "ernest_et_celestine_voyage_charabie_ulysse",
+            "dateAjout": "2026-11-06T19:39:20.776Z",
+            "titreTmdb": "Ernest et Célestine : Le Voyage en Charabie",
+            "anneeTmdb": "2022",
+            "dureeTmdb": 80,
+            "descriptionTmdb": "Ernest et Célestine retournent au pays d’Ernest, la Charabie, pour faire réparer son précieux violon cassé. Ils découvrent alors que la musique est bannie dans tout le pays depuis plusieurs années. Pour nos deux héros, il est impensable de vivre sans musique ! Accompagnés de complices, dont un mystérieux justicier masqué, Ernest et Célestine vont tenter de réparer cette injustice afin de ramener la joie au pays des ours.",
+            "collectionId": 989657,
+            "collectionNom": "Ernest & Célestine - Saga",
+            "collectionDescription": null,
+            "collectionImage": "https://image.tmdb.org/t/p/w500/jmAErbJ777sNlEiFpdd6oglsBhg.jpg",
+            "collectionTmdbUrl": "https://www.themoviedb.org/collection/989657"
+        },
+        {
             "id": "eternals_1_2021",
             "titre": "Eternals 1",
             "annee": 2021,
@@ -8470,6 +8783,39 @@
             "collectionNom": null,
             "type": "Spectacle",
             "studio": null
+        },
+        {
+            "id": "ford_v_ferrari_2019",
+            "titre": "Ford v Ferrari",
+            "annee": 2019,
+            "langue": [
+                "VF"
+            ],
+            "taille": 1466618520,
+            "genre": [
+                "Drame",
+                "Histoire",
+                "Action"
+            ],
+            "image": "https://image.tmdb.org/t/p/w342/2KQI0x6AEdbiN6z4LWjKZHukMzZ.jpg",
+            "fichier": "/03_Films/Ford.v.Ferrari.2019.FRENCH.BDRip.XviD-EXTREME.avi",
+            "nomFichier": "Ford.v.Ferrari.2019.FRENCH.BDRip.XviD-EXTREME.avi",
+            "imdbId": null,
+            "tmdbId": 359724,
+            "tmdbUrl": "https://www.themoviedb.org/movie/359724",
+            "doublonExact": false,
+            "doublonProbable": false,
+            "groupeDoublon": null,
+            "dateAjout": "2026-11-06T19:39:20.777Z",
+            "titreTmdb": "Le Mans 66",
+            "anneeTmdb": "2019",
+            "dureeTmdb": 153,
+            "descriptionTmdb": "Relate l’histoire vraie qui a conduit l’ingénieur automobile visionnaire américain Caroll Shelby à faire équipe avec le pilote de course britannique surdoué Ken Miles. Bravant l’ordre établi, défiant les lois de la physique et luttant contre leurs propres démons, les deux hommes n’avaient qu’un seul but : construire pour le compte de Ford Motor Company un bolide révolutionnaire capable de renverser la suprématie de l’écurie d’Enzo Ferrari sur le mythique circuit des 24 heures du Mans en 1966…",
+            "collectionId": null,
+            "collectionNom": null,
+            "collectionDescription": null,
+            "collectionImage": null,
+            "collectionTmdbUrl": null
         },
         {
             "id": "forrest",
@@ -11029,6 +11375,40 @@
             "ignoreInCollection": false
         },
         {
+            "id": "ip_man_1_ghz_2008",
+            "titre": "Ip Man 1 GHZ",
+            "annee": 2008,
+            "langue": [
+                "VO",
+                "VF"
+            ],
+            "taille": 1478811498,
+            "genre": [
+                "Drame",
+                "Action",
+                "Histoire"
+            ],
+            "image": "https://image.tmdb.org/t/p/w342/7fHSYpgGgPBQKUrvDlhJDPfGZQg.jpg",
+            "fichier": "/03_Films/Ip.Man.1.2008.MULTi.BRrip.x264.AC3-GHZ.mkv",
+            "nomFichier": "Ip.Man.1.2008.MULTi.BRrip.x264.AC3-GHZ.mkv",
+            "imdbId": null,
+            "tmdbId": 14756,
+            "tmdbUrl": "https://www.themoviedb.org/movie/14756",
+            "doublonExact": false,
+            "doublonProbable": false,
+            "groupeDoublon": null,
+            "dateAjout": "2026-11-06T19:39:20.777Z",
+            "titreTmdb": "Ip Man",
+            "anneeTmdb": "2008",
+            "dureeTmdb": 106,
+            "descriptionTmdb": "Film biographique sur la vie de Ip Man, un maître de Kung-Fu spécialisé dans le style Wing Chun et qui fut le maître de Bruce Lee. Dans les années 30, Ip Man vit à Foshan dans le sud de la Chine, lors de l'occupation japonaise. Face à ses indéniables talents en matière d'arts martiaux, les Japonais lui demandent d'entraîner les soldats, ce qu'il refuse catégoriquement. Il va alors devoir lutter pour sa survie.",
+            "collectionId": 70068,
+            "collectionNom": "Ip Man - Saga",
+            "collectionDescription": "Ip-Man est une série de films réalisé par le Hongkongais Wilson Yip mettant en scène Donnie Yen. Ce dernier interprète le célèbre maître chinois de wing chun \"Yip Man\" qui a notamment été le maître du mythique Bruce Lee !  Avec un premier film sorti en 2008 Ip Man avait tout simplement relancé le film d'art Martiaux made in Hongkong. Produit pour un peu moins de 12 millions de dollars le premier films avait tout simplement fait trembler les chiffres du Box Office. En 2019 la sortie de Ip Man 4 est attendu par les fans du monde entier et réunit plus de 180 millions de dollars de recette mondiale ! Pour ma part les deux premiers films sortent vraiment du lot. Malgré la présence de Mike Tyson Ip Man 3 manque, au final, un peu d'originalité scénaristique... Coté critique, Ip Man 4 a, apparemment, mis tout le monde d'accord....",
+            "collectionImage": "https://image.tmdb.org/t/p/w500/d5025iuay2UTeviFdu5zKKurfg4.jpg",
+            "collectionTmdbUrl": "https://www.themoviedb.org/collection/70068"
+        },
+        {
             "id": "tmdb_37472",
             "titre": "Ip Man 2",
             "annee": 2010,
@@ -11057,6 +11437,39 @@
             "type": "Film",
             "studio": null,
             "ignoreInCollection": false
+        },
+        {
+            "id": "ip_man_2_chi_spa_fre_bymetalh_2010",
+            "titre": "Ip Man 2 ( ) Chi Spa Fre byMetalh",
+            "annee": 2010,
+            "langue": [
+                "TBD"
+            ],
+            "taille": 3130788488,
+            "genre": [
+                "Action",
+                "Histoire",
+                "Drame"
+            ],
+            "image": "https://image.tmdb.org/t/p/w342/7HtZ7U1hfrtZAWOEgEv8x0lP4nr.jpg",
+            "fichier": "/03_Films/Ip.Man.2.(2010).Ita.Chi.Spa.Fre.720p.h264.byMetalh.mkv",
+            "nomFichier": "Ip.Man.2.(2010).Ita.Chi.Spa.Fre.720p.h264.byMetalh.mkv",
+            "imdbId": null,
+            "tmdbId": 37472,
+            "tmdbUrl": "https://www.themoviedb.org/movie/37472",
+            "doublonExact": false,
+            "doublonProbable": false,
+            "groupeDoublon": null,
+            "dateAjout": "2026-11-06T19:39:20.778Z",
+            "titreTmdb": "Ip Man 2",
+            "anneeTmdb": "2010",
+            "dureeTmdb": 108,
+            "descriptionTmdb": "Ip Man a émigré à Hong Kong où il prévoit d'introduire le Wing Chun dans la région, mais sur l'île, il rencontre de nombreux obstacles y compris « Hung Ga » un des maître d'arts martiaux locaux qui enseignent. Plus tard, il a des ennuis avec un commissaire de police corrompu qui ordonne la mort de Hung. Ip Man est ensuite défié par un champion de boxe. Afin de préserver la dignité du peuple chinois et de prouver que sa forme de Kung Fu est la meilleure, Ip Man décide de relever le défi.",
+            "collectionId": 70068,
+            "collectionNom": "Ip Man - Saga",
+            "collectionDescription": "Ip-Man est une série de films réalisé par le Hongkongais Wilson Yip mettant en scène Donnie Yen. Ce dernier interprète le célèbre maître chinois de wing chun \"Yip Man\" qui a notamment été le maître du mythique Bruce Lee !  Avec un premier film sorti en 2008 Ip Man avait tout simplement relancé le film d'art Martiaux made in Hongkong. Produit pour un peu moins de 12 millions de dollars le premier films avait tout simplement fait trembler les chiffres du Box Office. En 2019 la sortie de Ip Man 4 est attendu par les fans du monde entier et réunit plus de 180 millions de dollars de recette mondiale ! Pour ma part les deux premiers films sortent vraiment du lot. Malgré la présence de Mike Tyson Ip Man 3 manque, au final, un peu d'originalité scénaristique... Coté critique, Ip Man 4 a, apparemment, mis tout le monde d'accord....",
+            "collectionImage": "https://image.tmdb.org/t/p/w500/d5025iuay2UTeviFdu5zKKurfg4.jpg",
+            "collectionTmdbUrl": "https://www.themoviedb.org/collection/70068"
         },
         {
             "id": "ip_man_3_cortex91_2015",
@@ -11118,6 +11531,168 @@
             "type": "Film",
             "studio": null,
             "ignoreInCollection": false
+        },
+        {
+            "id": "ip_man_4_the_finale_2019",
+            "titre": "Ip Man 4 The Finale",
+            "annee": 2019,
+            "langue": [
+                "VF"
+            ],
+            "taille": 3724676707,
+            "genre": [
+                "Action",
+                "Histoire",
+                "Drame"
+            ],
+            "image": "https://image.tmdb.org/t/p/w342/36zQcTVrOm69fgn34GuTX2NHTsF.jpg",
+            "fichier": "/03_Films/Ip.Man.4.The.Finale.2019.FRENCH.720p.BluRay.x264.AC3-EXTREME.mkv",
+            "nomFichier": "Ip.Man.4.The.Finale.2019.FRENCH.720p.BluRay.x264.AC3-EXTREME.mkv",
+            "imdbId": null,
+            "tmdbId": 449924,
+            "tmdbUrl": "https://www.themoviedb.org/movie/449924",
+            "doublonExact": false,
+            "doublonProbable": false,
+            "groupeDoublon": null,
+            "dateAjout": "2026-11-06T19:39:20.778Z",
+            "titreTmdb": "Ip Man 4 : Le Dernier Combat",
+            "anneeTmdb": "2019",
+            "dureeTmdb": 107,
+            "descriptionTmdb": "Ip Man se rend aux États-Unis à la demande de Bruce Lee afin d'apaiser les tensions entre les maîtres locaux du Kung-fu et son protégé. Il se retrouve très vite impliqué dans un différend raciste entre les forces armées locales et une école d'arts martiaux chinoise établie dans le quartier de Chinatown à San Francisco.",
+            "collectionId": 70068,
+            "collectionNom": "Ip Man - Saga",
+            "collectionDescription": "Ip-Man est une série de films réalisé par le Hongkongais Wilson Yip mettant en scène Donnie Yen. Ce dernier interprète le célèbre maître chinois de wing chun \"Yip Man\" qui a notamment été le maître du mythique Bruce Lee !  Avec un premier film sorti en 2008 Ip Man avait tout simplement relancé le film d'art Martiaux made in Hongkong. Produit pour un peu moins de 12 millions de dollars le premier films avait tout simplement fait trembler les chiffres du Box Office. En 2019 la sortie de Ip Man 4 est attendu par les fans du monde entier et réunit plus de 180 millions de dollars de recette mondiale ! Pour ma part les deux premiers films sortent vraiment du lot. Malgré la présence de Mike Tyson Ip Man 3 manque, au final, un peu d'originalité scénaristique... Coté critique, Ip Man 4 a, apparemment, mis tout le monde d'accord....",
+            "collectionImage": "https://image.tmdb.org/t/p/w500/d5025iuay2UTeviFdu5zKKurfg4.jpg",
+            "collectionTmdbUrl": "https://www.themoviedb.org/collection/70068"
+        },
+        {
+            "id": "ip_man_4_the_finale_1_2019",
+            "titre": "Ip Man 4 The Finale 1",
+            "annee": 2019,
+            "langue": [
+                "TBD"
+            ],
+            "taille": 2081919688,
+            "genre": [
+                "Action",
+                "Histoire",
+                "Drame"
+            ],
+            "image": "https://image.tmdb.org/t/p/w342/36zQcTVrOm69fgn34GuTX2NHTsF.jpg",
+            "fichier": "/03_Films/Ip.Man.4.The.Finale.2019.1080p.BluRay.x264.AAC5.1-.mp4",
+            "nomFichier": "Ip.Man.4.The.Finale.2019.1080p.BluRay.x264.AAC5.1-.mp4",
+            "imdbId": null,
+            "tmdbId": 449924,
+            "tmdbUrl": "https://www.themoviedb.org/movie/449924",
+            "doublonExact": false,
+            "doublonProbable": false,
+            "groupeDoublon": null,
+            "dateAjout": "2026-11-06T19:39:20.778Z",
+            "titreTmdb": "Ip Man 4 : Le Dernier Combat",
+            "anneeTmdb": "2019",
+            "dureeTmdb": 107,
+            "descriptionTmdb": "Ip Man se rend aux États-Unis à la demande de Bruce Lee afin d'apaiser les tensions entre les maîtres locaux du Kung-fu et son protégé. Il se retrouve très vite impliqué dans un différend raciste entre les forces armées locales et une école d'arts martiaux chinoise établie dans le quartier de Chinatown à San Francisco.",
+            "collectionId": 70068,
+            "collectionNom": "Ip Man - Saga",
+            "collectionDescription": "Ip-Man est une série de films réalisé par le Hongkongais Wilson Yip mettant en scène Donnie Yen. Ce dernier interprète le célèbre maître chinois de wing chun \"Yip Man\" qui a notamment été le maître du mythique Bruce Lee !  Avec un premier film sorti en 2008 Ip Man avait tout simplement relancé le film d'art Martiaux made in Hongkong. Produit pour un peu moins de 12 millions de dollars le premier films avait tout simplement fait trembler les chiffres du Box Office. En 2019 la sortie de Ip Man 4 est attendu par les fans du monde entier et réunit plus de 180 millions de dollars de recette mondiale ! Pour ma part les deux premiers films sortent vraiment du lot. Malgré la présence de Mike Tyson Ip Man 3 manque, au final, un peu d'originalité scénaristique... Coté critique, Ip Man 4 a, apparemment, mis tout le monde d'accord....",
+            "collectionImage": "https://image.tmdb.org/t/p/w500/d5025iuay2UTeviFdu5zKKurfg4.jpg",
+            "collectionTmdbUrl": "https://www.themoviedb.org/collection/70068"
+        },
+        {
+            "id": "ip_man_4_the_finale_hc_1_8gb_mkvhub_2019",
+            "titre": "Ip Man 4 The Finale HC 1 8GB MkvHub",
+            "annee": 2019,
+            "langue": [
+                "TBD"
+            ],
+            "taille": 1927664351,
+            "genre": [
+                "Action",
+                "Histoire",
+                "Drame"
+            ],
+            "image": "https://image.tmdb.org/t/p/w342/36zQcTVrOm69fgn34GuTX2NHTsF.jpg",
+            "fichier": "/03_Films/Ip Man 4 The Finale 2019 1080p HC HDRip x264 1.8GB - MkvHub.Com.mkv",
+            "nomFichier": "Ip Man 4 The Finale 2019 1080p HC HDRip x264 1.8GB - MkvHub.Com.mkv",
+            "imdbId": null,
+            "tmdbId": 449924,
+            "tmdbUrl": "https://www.themoviedb.org/movie/449924",
+            "doublonExact": false,
+            "doublonProbable": false,
+            "groupeDoublon": null,
+            "dateAjout": "2026-11-06T19:39:20.777Z",
+            "titreTmdb": "Ip Man 4 : Le Dernier Combat",
+            "anneeTmdb": "2019",
+            "dureeTmdb": 107,
+            "descriptionTmdb": "Ip Man se rend aux États-Unis à la demande de Bruce Lee afin d'apaiser les tensions entre les maîtres locaux du Kung-fu et son protégé. Il se retrouve très vite impliqué dans un différend raciste entre les forces armées locales et une école d'arts martiaux chinoise établie dans le quartier de Chinatown à San Francisco.",
+            "collectionId": 70068,
+            "collectionNom": "Ip Man - Saga",
+            "collectionDescription": "Ip-Man est une série de films réalisé par le Hongkongais Wilson Yip mettant en scène Donnie Yen. Ce dernier interprète le célèbre maître chinois de wing chun \"Yip Man\" qui a notamment été le maître du mythique Bruce Lee !  Avec un premier film sorti en 2008 Ip Man avait tout simplement relancé le film d'art Martiaux made in Hongkong. Produit pour un peu moins de 12 millions de dollars le premier films avait tout simplement fait trembler les chiffres du Box Office. En 2019 la sortie de Ip Man 4 est attendu par les fans du monde entier et réunit plus de 180 millions de dollars de recette mondiale ! Pour ma part les deux premiers films sortent vraiment du lot. Malgré la présence de Mike Tyson Ip Man 3 manque, au final, un peu d'originalité scénaristique... Coté critique, Ip Man 4 a, apparemment, mis tout le monde d'accord....",
+            "collectionImage": "https://image.tmdb.org/t/p/w500/d5025iuay2UTeviFdu5zKKurfg4.jpg",
+            "collectionTmdbUrl": "https://www.themoviedb.org/collection/70068"
+        },
+        {
+            "id": "ip_man_the_awakening_1_2022",
+            "titre": "Ip Man The Awakening 1",
+            "annee": 2022,
+            "langue": [
+                "TBD"
+            ],
+            "taille": 1506110934,
+            "genre": [
+                "Action"
+            ],
+            "image": "https://image.tmdb.org/t/p/w342/uD114D4Di7M4sXnBiwaBHepUAZE.jpg",
+            "fichier": "/03_Films/Ip.Man.The.Awakening.2022.1080p.BluRay.1400MB.DD5.1.x264-GalaxyRG.mkv",
+            "nomFichier": "Ip.Man.The.Awakening.2022.1080p.BluRay.1400MB.DD5.1.x264-GalaxyRG.mkv",
+            "imdbId": null,
+            "tmdbId": 875104,
+            "tmdbUrl": "https://www.themoviedb.org/movie/875104",
+            "doublonExact": false,
+            "doublonProbable": false,
+            "groupeDoublon": null,
+            "dateAjout": "2026-11-06T19:39:20.779Z",
+            "titreTmdb": "Ip Man : L'Éveil du Maître",
+            "anneeTmdb": "2021",
+            "dureeTmdb": 76,
+            "descriptionTmdb": "Alors qu'Ip Man étudiait à Hong Kong pendant sa jeunesse, il est accidentellement impliqué dans une affaire d'enlèvement de femmes chinoises par la société britannique Stark Industries pour en faire un trafic à l'étranger. Ip Man s'avance et combat les occidentaux. Il combat les guerriers britanniques Patton à trois reprises et utilise le Wing Chun pour défendre la dignité des Chinois bafoués.",
+            "collectionId": null,
+            "collectionNom": null,
+            "collectionDescription": null,
+            "collectionImage": null,
+            "collectionTmdbUrl": null
+        },
+        {
+            "id": "ip_man_the_final_fight_1_2013",
+            "titre": "Ip Man The Final Fight 1",
+            "annee": 2013,
+            "langue": [
+                "TBD"
+            ],
+            "taille": 1985828341,
+            "genre": [
+                "Action",
+                "Drame"
+            ],
+            "image": "https://image.tmdb.org/t/p/w342/kbC4MWXkwaX8DqRLFYoGTdUZSxm.jpg",
+            "fichier": "/03_Films/Ip.Man.The.Final.Fight.2013.1080p.BluRay.x264.AAC5.1-.mp4",
+            "nomFichier": "Ip.Man.The.Final.Fight.2013.1080p.BluRay.x264.AAC5.1-.mp4",
+            "imdbId": null,
+            "tmdbId": 182127,
+            "tmdbUrl": "https://www.themoviedb.org/movie/182127",
+            "doublonExact": false,
+            "doublonProbable": false,
+            "groupeDoublon": null,
+            "dateAjout": "2026-11-06T19:39:20.779Z",
+            "titreTmdb": "Ip Man : Le Combat final",
+            "anneeTmdb": "2013",
+            "dureeTmdb": 100,
+            "descriptionTmdb": "Après la seconde guerre sino-japonaise, le maître légendaire de Wing Chun se retrouve une fois de plus, entraîné malgré lui au cœur de l’action. D’autres experts en arts martiaux décident de l’affronter pour comparer leurs styles de Kung Fu, mais très vite Ip Man atterrit dans le sombre et dangereux milieu des Triades. Pour sauver sa vie, il n’a pas d’autre choix que de se battre une dernière fois.",
+            "collectionId": null,
+            "collectionNom": null,
+            "collectionDescription": null,
+            "collectionImage": null,
+            "collectionTmdbUrl": null
         },
         {
             "id": "iron_man_2008",
@@ -11701,6 +12276,39 @@
             "ignoreInCollection": false
         },
         {
+            "id": "johnny_strikes_again_2018",
+            "titre": "Johnny Strikes Again",
+            "annee": 2018,
+            "langue": [
+                "TBD"
+            ],
+            "taille": 1527929996,
+            "genre": [
+                "Action",
+                "Aventure",
+                "Comédie"
+            ],
+            "image": "https://image.tmdb.org/t/p/w342/lkYOD4vYsuhRKQ8grKjUY9acWdF.jpg",
+            "fichier": "/03_Films/Johnny.English.Strikes.Again.2018.1080p.BluRay.x264-.mp4",
+            "nomFichier": "Johnny.English.Strikes.Again.2018.1080p.BluRay.x264-.mp4",
+            "imdbId": null,
+            "tmdbId": 463272,
+            "tmdbUrl": "https://www.themoviedb.org/movie/463272",
+            "doublonExact": false,
+            "doublonProbable": false,
+            "groupeDoublon": null,
+            "dateAjout": "2026-11-06T19:39:20.780Z",
+            "titreTmdb": "Johnny English contre-attaque",
+            "anneeTmdb": "2018",
+            "dureeTmdb": 89,
+            "descriptionTmdb": "Une cyberattaque révèle l’identité de tous les agents britanniques sous couverture. Johnny English devient alors le dernier espoir des services secrets. Rappelé de sa retraite, il plonge tête la première dans sa mission : découvrir qui est le génie du piratage qui se cache derrière ces attaques. Avec ses méthodes obsolètes Johnny English doit relever les défis de la technologie moderne pour assurer la réussite de sa mission.",
+            "collectionId": 86117,
+            "collectionNom": "Johnny English - Saga",
+            "collectionDescription": "Johnny English est une série de films de comédie d'action britanniques parodiant le genre des agents secrets de James Bond. Il présente Rowan Atkinson comme personnage principal, basé sur le scénario écrit par Neal Purvis, Robert Wade et William Davies. La série comprend trois films. La série est imprégnée de comédie similaire à Mr. Bean, et a rapporté 477,8 millions de dollars dans le monde.",
+            "collectionImage": "https://image.tmdb.org/t/p/w500/4ICdnU5ieFquD2kIs9Mwt4NGZcR.jpg",
+            "collectionTmdbUrl": "https://www.themoviedb.org/collection/86117"
+        },
+        {
             "id": "le_jour_d_apres",
             "titre": "jour d'après",
             "annee": null,
@@ -11729,6 +12337,39 @@
             "collectionNom": null,
             "type": "Film",
             "studio": null
+        },
+        {
+            "id": "jumanji_the_next_level_1_2019",
+            "titre": "Jumanji The Next Level 1",
+            "annee": 2019,
+            "langue": [
+                "TBD"
+            ],
+            "taille": 2347708188,
+            "genre": [
+                "Aventure",
+                "Comédie",
+                "Fantastique"
+            ],
+            "image": "https://image.tmdb.org/t/p/w342/sC31ja7yVxXwggx3oNuf9hVSg0G.jpg",
+            "fichier": "/03_Films/Jumanji.The.Next.Level.2019.1080p.WEBRip.x264.AAC5.1-.mp4",
+            "nomFichier": "Jumanji.The.Next.Level.2019.1080p.WEBRip.x264.AAC5.1-.mp4",
+            "imdbId": null,
+            "tmdbId": 512200,
+            "tmdbUrl": "https://www.themoviedb.org/movie/512200",
+            "doublonExact": false,
+            "doublonProbable": false,
+            "groupeDoublon": null,
+            "dateAjout": "2026-11-06T19:39:20.780Z",
+            "titreTmdb": "Jumanji : Next Level",
+            "anneeTmdb": "2019",
+            "dureeTmdb": 123,
+            "descriptionTmdb": "L’équipe est de retour, mais le jeu a changé. Alors qu’ils retournent dans Jumanji pour secourir l’un des leurs, ils découvrent un monde totalement inattendu. Des déserts arides aux montagnes enneigées, les joueurs vont devoir braver des espaces inconnus et inexplorés, afin de sortir du jeu le plus dangereux du monde...",
+            "collectionId": 495527,
+            "collectionNom": "Jumanji  - Saga",
+            "collectionDescription": "L'univers de Jumanji provient de l'imaginaire de l'auteur et illustrateur de livres pour enfants américain Chris Van Allsburg (également auteur des ouvrages à l'origine du Pôle Express, et de Zathura). Publié en 1981, son livre Jumanji devient un film en 1995 : un blockbuster d'aventure fantastique culte dans lequel Robin Williams affronte une jungle et ses animaux sortis d'un jeu de société magique, figurés à renforts d'effets spéciaux. En 2017, la franchise trouve une nouvelle forme, à nouveau avec succès. Et désormais, la saga Jumanji tourne autour d'un jeu vidéo magique, dans lequel les joueurs prennent la forme d'avatars incarnés par des stars d'action (Dwayne Johnson) et de comédie (Jack Black, Kevin Hart).",
+            "collectionImage": "https://image.tmdb.org/t/p/w500/kcP23X4s3IlrvbTxJDxCid3eijE.jpg",
+            "collectionTmdbUrl": "https://www.themoviedb.org/collection/495527"
         },
         {
             "id": "jumper_2008",
@@ -11876,8 +12517,8 @@
             "tmdbId": 1885,
             "tmdbUrl": "https://www.themoviedb.org/movie/1885",
             "doublonExact": false,
-            "doublonProbable": false,
-            "groupeDoublon": null,
+            "doublonProbable": true,
+            "groupeDoublon": "karate_kid",
             "dateAjout": null,
             "titreTmdb": "Karate Kid",
             "titreOriginal": "The Karate Kid",
@@ -11888,6 +12529,39 @@
             "type": "Film",
             "studio": null,
             "ignoreInCollection": false
+        },
+        {
+            "id": "karate_kid_1984",
+            "titre": "Karate Kid",
+            "annee": 1984,
+            "langue": [
+                "VF"
+            ],
+            "taille": 1990807552,
+            "genre": [
+                "Action",
+                "Drame",
+                "Familial"
+            ],
+            "image": "https://image.tmdb.org/t/p/w342/h6pD4G2ogPnzACofNIdjERsbnTZ.jpg",
+            "fichier": "/03_Films/Karate Kid 1984 French DvDRip X264 AC3-T911.avi",
+            "nomFichier": "Karate Kid 1984 French DvDRip X264 AC3-T911.avi",
+            "imdbId": null,
+            "tmdbId": 1885,
+            "tmdbUrl": "https://www.themoviedb.org/movie/1885",
+            "doublonExact": false,
+            "doublonProbable": true,
+            "groupeDoublon": "karate_kid",
+            "dateAjout": "2026-11-06T19:39:20.780Z",
+            "titreTmdb": "Karate Kid",
+            "anneeTmdb": "1984",
+            "dureeTmdb": 126,
+            "descriptionTmdb": "Daniel quitte le New Jersey pour s’installer avec sa mère en Californie. À l’école, ses nouveaux camarades de classe l’isolent et le persécutent. Comment faire face ? En se laissant aller à son tour à la violence ? À la haine ? Et ce vieux Japonais plein de sagesse, fera‐t‐il de lui un champion de karaté ? Transformera‐t‐il sa vision de la vie ?",
+            "collectionId": 8580,
+            "collectionNom": "Karate Kid - Saga",
+            "collectionDescription": "Les trois premiers films de la série suivent Daniel LaRusso, qui apprend à maîtriser le karaté pour de bon grâce au mentorat excentrique d'un concierge nommé M. Miyagi. Dans le quatrième et dernier film de la série originale, M. Miyagi devient le gardien de la petite-fille de son ami pour tenter de l'éloigner des ennuis.",
+            "collectionImage": "https://image.tmdb.org/t/p/w500/pexxR6j3i72n9frn7Y1UyCyabnd.jpg",
+            "collectionTmdbUrl": "https://www.themoviedb.org/collection/8580"
         },
         {
             "id": "tmdb_8856",
@@ -12858,6 +13532,40 @@
             "type": "Film",
             "studio": null,
             "ignoreInCollection": false
+        },
+        {
+            "id": "l_arme_fatale_iv_tonyk_1998",
+            "titre": "L'arme Fatale IV Tonyk",
+            "annee": 1998,
+            "langue": [
+                "VO",
+                "VF"
+            ],
+            "taille": 3613950314,
+            "genre": [
+                "Action",
+                "Crime",
+                "Thriller"
+            ],
+            "image": "https://image.tmdb.org/t/p/w342/8wUNoQ0Q92dHSXqdq7mceGudasg.jpg",
+            "fichier": "/03_Films/L'arme Fatale IV 1998 Multi-VF2 1080p HDlight.x264-Tonyk.mkv",
+            "nomFichier": "L'arme Fatale IV 1998 Multi-VF2 1080p HDlight.x264-Tonyk.mkv",
+            "imdbId": null,
+            "tmdbId": 944,
+            "tmdbUrl": "https://www.themoviedb.org/movie/944",
+            "doublonExact": false,
+            "doublonProbable": false,
+            "groupeDoublon": null,
+            "dateAjout": "2026-11-06T19:39:20.781Z",
+            "titreTmdb": "L'Arme fatale 4",
+            "anneeTmdb": "1998",
+            "dureeTmdb": 127,
+            "descriptionTmdb": "Les flics de choc Martin Riggs et Roger Murtaugh, accompagnés de la troublante et explosive Lorna Cole et de l'encombrant Leo Getz, sont de retour pour de nouvelles aventures à tombeau ouvert. Cette fois-ci, pour avoir fourré leurs nez dans une histoire d'immigration clandestine, ils se mettent à dos toute la mafia chinoise.",
+            "collectionId": 945,
+            "collectionNom": "L'Arme Fatale - Saga",
+            "collectionDescription": "De leur première rencontre à leur dernière aventure 10 ans plus tard, Riggs et Murtaugh ont accumulé une somme incroyable de catastrophes, de coups de gueule, de balles perdues et de bons gros fous rires…",
+            "collectionImage": "https://image.tmdb.org/t/p/w500/cIfobGg5oDbc1Tk5uRwBYW4L3BO.jpg",
+            "collectionTmdbUrl": "https://www.themoviedb.org/collection/945"
         },
         {
             "id": "l_assaut",
@@ -15213,6 +15921,40 @@
             "ignoreInCollection": false
         },
         {
+            "id": "man_brand_new_day_2026",
+            "titre": "Man Brand New Day",
+            "annee": 2026,
+            "langue": [
+                "VO",
+                "VF"
+            ],
+            "taille": 1725073810,
+            "genre": [
+                "Science-Fiction",
+                "Action",
+                "Aventure"
+            ],
+            "image": "https://image.tmdb.org/t/p/w342/6OEtkkzoyusZDm2uMJojlWZSLR9.jpg",
+            "fichier": "/03_Films/Spider.Man.Brand.New.Day.2026.Multi.Vf2.WEBRIP.mp4",
+            "nomFichier": "Spider.Man.Brand.New.Day.2026.Multi.Vf2.WEBRIP.mp4",
+            "imdbId": null,
+            "tmdbId": 969681,
+            "tmdbUrl": "https://www.themoviedb.org/movie/969681",
+            "doublonExact": false,
+            "doublonProbable": false,
+            "groupeDoublon": null,
+            "dateAjout": "2026-11-06T19:39:20.786Z",
+            "titreTmdb": "Spider-Man : Brand New Day",
+            "anneeTmdb": "2026",
+            "dureeTmdb": 150,
+            "descriptionTmdb": "Quatre ans se sont écoulés, Peter, désormais adulte, vit seul, s'est volontairement effacé de la vie et des souvenirs de ses proches. Luttant contre le crime dans un New York qui ne le reconnaît plus, il se consacre entièrement à la protection de la ville - un Spider-Man à plein temps - mais à mesure que les responsabilités s'intensifient, la pression provoque une transformation physique surprenante qui menace son existence, tandis qu'une étrange nouvelle vague de crimes donne naissance à l'une des menaces les plus redoutables qu'il ait jamais affrontées.",
+            "collectionId": 531241,
+            "collectionNom": "Spider-Man (MCU) - Saga",
+            "collectionDescription": "Cette saga nous dépeint la vie de Peter Parker, partagé entre se vie de lycéen lambda et ses aspirations de justicier, tout d'abord à l'échelle de son quartier et plus tard à une échelle planétaire au sein de la prestigieuse équipe des Avengers, chaperonné par Iron-Man, alias Tony Stark...",
+            "collectionImage": "https://image.tmdb.org/t/p/w500/3BVng0lmJyYIUqm5dxLS2eZ2625.jpg",
+            "collectionTmdbUrl": "https://www.themoviedb.org/collection/531241"
+        },
+        {
             "id": "spider_man_new_generation_spider_man_into_the_spider_verse_ulhd_2018",
             "titre": "Man New Generation {Spider Man the Verse}",
             "annee": 2018,
@@ -15370,6 +16112,39 @@
             "type": "Animation",
             "studio": "Disney Classic",
             "ignoreInCollection": false
+        },
+        {
+            "id": "master_z_ip_man_legacy_2018",
+            "titre": "Master Z Ip Man Legacy",
+            "annee": 2018,
+            "langue": [
+                "TBD"
+            ],
+            "taille": 1850602112,
+            "genre": [
+                "Action",
+                "Crime",
+                "Drame"
+            ],
+            "image": "https://image.tmdb.org/t/p/w342/AoyxxB7fEMsioFkqjl3yexnCzbP.jpg",
+            "fichier": "/03_Films/Master.Z.Ip.Man.Legacy.2018.1080p.BluRay.x264-.mp4",
+            "nomFichier": "Master.Z.Ip.Man.Legacy.2018.1080p.BluRay.x264-.mp4",
+            "imdbId": null,
+            "tmdbId": 450001,
+            "tmdbUrl": "https://www.themoviedb.org/movie/450001",
+            "doublonExact": false,
+            "doublonProbable": false,
+            "groupeDoublon": null,
+            "dateAjout": "2026-11-06T19:39:20.781Z",
+            "titreTmdb": "Ip Man Legacy : Master Z",
+            "anneeTmdb": "2018",
+            "dureeTmdb": 107,
+            "descriptionTmdb": "Après avoir été vaincu par le Maître Ip Man, Cheung Tin Chi, blessé dans son orgueil, mène une vie modeste, se consacrant à son épicerie et à l’éducation de son fils. En voulant secourir son ex-fiancée, le challenger de Ip va devenir la cible des triades de Hong-Kong, menées par le cruel Kit Kang et sa sœur Kwan. Il devra affronter le funeste Owen Davidson, un homme d’affaires américain au cœur du commerce de l’héroïne pour vaincre tous ses ennemis, sauver sa fierté et gagner le respect de ses pairs…",
+            "collectionId": null,
+            "collectionNom": null,
+            "collectionDescription": null,
+            "collectionImage": null,
+            "collectionTmdbUrl": null
         },
         {
             "id": "tmdb_603",
@@ -15935,8 +16710,8 @@
             "tmdbId": 575265,
             "tmdbUrl": "https://www.themoviedb.org/movie/575265",
             "doublonExact": false,
-            "doublonProbable": false,
-            "groupeDoublon": null,
+            "doublonProbable": true,
+            "groupeDoublon": "mission_impossible_the_final_reckoning",
             "dateAjout": null,
             "titreTmdb": "Mission : Impossible - The Final Reckoning",
             "titreOriginal": "Mission: Impossible - The Final Reckoning",
@@ -16284,6 +17059,39 @@
             "type": "Film",
             "studio": null,
             "ignoreInCollection": false
+        },
+        {
+            "id": "mission_impossible_the_final_reckoning_2025",
+            "titre": "Mission Impossible The Final Reckoning",
+            "annee": 2025,
+            "langue": [
+                "VF"
+            ],
+            "taille": 2089200624,
+            "genre": [
+                "Action",
+                "Thriller",
+                "Aventure"
+            ],
+            "image": "https://image.tmdb.org/t/p/w342/AozMgdALZuR1hDPZt2a1aXiWmL4.jpg",
+            "fichier": "/03_Films/Mission.Impossible.The.Final.Reckoning.2025.Multi.Truefrench.Vf2.WEBRIP.mp4",
+            "nomFichier": "Mission.Impossible.The.Final.Reckoning.2025.Multi.Truefrench.Vf2.WEBRIP.mp4",
+            "imdbId": null,
+            "tmdbId": 575265,
+            "tmdbUrl": "https://www.themoviedb.org/movie/575265",
+            "doublonExact": false,
+            "doublonProbable": true,
+            "groupeDoublon": "mission_impossible_the_final_reckoning",
+            "dateAjout": "2026-11-06T19:39:20.781Z",
+            "titreTmdb": "Mission : Impossible - The Final Reckoning",
+            "anneeTmdb": "2025",
+            "dureeTmdb": 173,
+            "descriptionTmdb": "Ethan Hunt se rend à Londres avec son équipe dans l'espoir de remonter la piste du mystérieux Gabriel, qu'il a affronté deux mois auparavant à bord de l'Orient-Express et qui détient la clé contrôlant l’intelligence artificielle toute puissante surnommée l'Entité. Adulée par les uns, redoutée par les autres, l’Entité se distingue par sa capacité à prédire toutes les éventualités possibles. Elle connaît parfaitement les forces et faiblesses d’Ethan et de son équipe. Gabriel compte l'utiliser pour mettre en œuvre son plan ultime : annihiler Ethan et son équipe, s’emparer de tous les systèmes de défense planétaires et déclencher la Troisième Guerre mondiale.",
+            "collectionId": 87359,
+            "collectionNom": "Mission : Impossible - Saga",
+            "collectionDescription": "Les aventures de l'agent secret Ethan Hunt pour le compte de l'unité IMF (Impossible Missions Force).",
+            "collectionImage": "https://image.tmdb.org/t/p/w500/5nUgyjBem5QctwzQoDyJ3kuE7xh.jpg",
+            "collectionTmdbUrl": "https://www.themoviedb.org/collection/87359"
         },
         {
             "id": "moana_2016",
@@ -16786,6 +17594,39 @@
             "studio": null
         },
         {
+            "id": "no_time_to_die_2021",
+            "titre": "No Time To Die",
+            "annee": 2021,
+            "langue": [
+                "TBD"
+            ],
+            "taille": 1808414942,
+            "genre": [
+                "Action",
+                "Thriller",
+                "Aventure"
+            ],
+            "image": "https://image.tmdb.org/t/p/w342/qseURFLjRBCqFCNCKmS2uwM9IOj.jpg",
+            "fichier": "/03_Films/No.Time.To.Die.2021.HDRip.XviD.AC3-EVO.avi",
+            "nomFichier": "No.Time.To.Die.2021.HDRip.XviD.AC3-EVO.avi",
+            "imdbId": null,
+            "tmdbId": 370172,
+            "tmdbUrl": "https://www.themoviedb.org/movie/370172",
+            "doublonExact": false,
+            "doublonProbable": false,
+            "groupeDoublon": null,
+            "dateAjout": "2026-11-06T19:39:20.782Z",
+            "titreTmdb": "Mourir peut attendre",
+            "anneeTmdb": "2021",
+            "dureeTmdb": 163,
+            "descriptionTmdb": "James Bond a quitté les services secrets et coule des jours heureux en Jamaïque. Mais sa tranquillité est de courte durée car son vieil ami Felix Leiter de la CIA débarque pour solliciter son aide : il s'agit de sauver un scientifique qui vient d'être kidnappé. Mais la mission se révèle bien plus dangereuse que prévu et Bond se retrouve aux trousses d'un mystérieux ennemi détenant de redoutables armes technologiques…",
+            "collectionId": 645,
+            "collectionNom": "James Bond 007 - Saga",
+            "collectionDescription": "James Bond, agent 007, autorisé à tuer, est le héros de la plus longue saga cinématographique de tous les temps, au succès sans égal. Armé de son Walther PPK, accompagné des plus jolies filles de la terre et opposé aux plus cyniques des méchants, il a poursuivi le mal aux quatre coins du monde, survécu à la guerre froide et à la chute du mur de Berlin.",
+            "collectionImage": "https://image.tmdb.org/t/p/w500/ammkAiFPUQhqrWAdzNZSXR8VMpy.jpg",
+            "collectionTmdbUrl": "https://www.themoviedb.org/collection/645"
+        },
+        {
             "id": "le_nom_de_la_rose",
             "titre": "Nom de Rose",
             "annee": null,
@@ -17010,6 +17851,39 @@
             "studio": null
         },
         {
+            "id": "now_you_see_me_now_you_dont_lctl_2025",
+            "titre": "Now You See Me Now You Dont LCTL",
+            "annee": 2025,
+            "langue": [
+                "VO",
+                "VF"
+            ],
+            "taille": 1140377869,
+            "genre": [
+                "Crime",
+                "Thriller"
+            ],
+            "image": "https://image.tmdb.org/t/p/w342/rfjuf6kNLVnH8qOk6UZJBHQHKlF.jpg",
+            "fichier": "/03_Films/Now.You.See.Me.Now.You.Dont.2025.MULTi.VFQ.WEBRip.x264-LCTL.mkv",
+            "nomFichier": "Now.You.See.Me.Now.You.Dont.2025.MULTi.VFQ.WEBRip.x264-LCTL.mkv",
+            "imdbId": null,
+            "tmdbId": 425274,
+            "tmdbUrl": "https://www.themoviedb.org/movie/425274",
+            "doublonExact": false,
+            "doublonProbable": false,
+            "groupeDoublon": null,
+            "dateAjout": "2026-11-06T19:39:20.782Z",
+            "titreTmdb": "Insaisissables 3",
+            "anneeTmdb": "2025",
+            "dureeTmdb": 112,
+            "descriptionTmdb": "Les Cavaliers sont de retour pour le braquage le plus impressionnant jamais imaginé ! Accompagnés d'un groupe de jeunes magiciens qui espèrent suivre leur trace, ils vont devoir repousser les limites de l'illusion pour orchestrer leur tour le plus spectaculaire : dérober le joyau le plus précieux du monde des mains d'une redoutable organisation criminelle…",
+            "collectionId": 382685,
+            "collectionNom": "Insaisissables - Saga",
+            "collectionDescription": "Insaisissables est un thriller américain de 2013 réalisé par Louis Leterrier. Le film met en vedette un groupe composé de Jesse Eisenberg, Mark Ruffalo, Woody Harrelson, Mélanie Laurent, Isla Fisher, Dave Franco, Michael Caine et Morgan Freeman.  L'intrigue suit un agent du FBI et un détective d'Interpol traquants une équipe d'illusionnistes qui se livrent à des braquages de banques pendant leurs performances et récompensent leur public avec l'argent. Une suite a été publiée le 10 juin 2016 et s'intitulait Insaisissables 2. Un troisième volet est prévu.",
+            "collectionImage": "https://image.tmdb.org/t/p/w500/JAzLUXjXJEGp9IKR7jEY4L2VSL.jpg",
+            "collectionTmdbUrl": "https://www.themoviedb.org/collection/382685"
+        },
+        {
             "id": "tmdb_700",
             "titre": "Octopussy",
             "annee": 1983,
@@ -17230,6 +18104,39 @@
             "ignoreInCollection": false
         },
         {
+            "id": "oss_117_alerte_rouge_afrique_noire_2021",
+            "titre": "OSS 117 Alerte Rouge Afrique Noire",
+            "annee": 2021,
+            "langue": [
+                "VF"
+            ],
+            "taille": 726071192,
+            "genre": [
+                "Comédie",
+                "Aventure",
+                "Action"
+            ],
+            "image": "https://image.tmdb.org/t/p/w342/m3iAyhvWHyp9xith6ydOeBVh9bq.jpg",
+            "fichier": "/03_Films/OSS.117.Alerte.Rouge.en.Afrique.Noire.2021.FRENCH.BDRip.XviD-EXTREME.avi",
+            "nomFichier": "OSS.117.Alerte.Rouge.en.Afrique.Noire.2021.FRENCH.BDRip.XviD-EXTREME.avi",
+            "imdbId": null,
+            "tmdbId": 604563,
+            "tmdbUrl": "https://www.themoviedb.org/movie/604563",
+            "doublonExact": false,
+            "doublonProbable": false,
+            "groupeDoublon": null,
+            "dateAjout": "2026-11-06T19:39:20.783Z",
+            "titreTmdb": "OSS 117 : Alerte rouge en Afrique noire",
+            "anneeTmdb": "2021",
+            "dureeTmdb": 116,
+            "descriptionTmdb": "1981. Hubert Bonisseur de La Bath, alias OSS 117, est de retour. Pour cette nouvelle mission, plus délicate, plus périlleuse et plus torride que jamais, il est contraint de faire équipe avec un jeune collègue, le prometteur OSS 1001.",
+            "collectionId": 1413999,
+            "collectionNom": "OSS 117 - Saga",
+            "collectionDescription": "OSS 117 est une série de films sur Hubert Bonisseur de la Bath, l'agent OSS 117 du SDECE envoyé dans diverses missions à travers le globe.",
+            "collectionImage": "https://image.tmdb.org/t/p/w500/9l1yr1SBTTFC4nGdGqfQskvpsnD.jpg",
+            "collectionTmdbUrl": "https://www.themoviedb.org/collection/1413999"
+        },
+        {
             "id": "oss_117_rio_ne_repond_plus",
             "titre": "OSS 117 Rio Ne Repond Plus",
             "annee": null,
@@ -17362,6 +18269,37 @@
             "collectionTmdbUrl": null,
             "type": "Animation",
             "studio": null
+        },
+        {
+            "id": "pay_it_forward_webdl_10bit_h3llg0d_2000",
+            "titre": "Pay It Forward WEBDL 10bit h3llg0d",
+            "annee": 2000,
+            "langue": [
+                "TBD"
+            ],
+            "taille": 1186712140,
+            "genre": [
+                "Drame"
+            ],
+            "image": "https://image.tmdb.org/t/p/w342/tUxBr7IJerxpmUa7AEO3hEhwLDx.jpg",
+            "fichier": "/03_Films/Pay.It.Forward.2000.1080P.WEBDL.x265.10bit.h3llg0d.mkv",
+            "nomFichier": "Pay.It.Forward.2000.1080P.WEBDL.x265.10bit.h3llg0d.mkv",
+            "imdbId": null,
+            "tmdbId": 10647,
+            "tmdbUrl": "https://www.themoviedb.org/movie/10647",
+            "doublonExact": false,
+            "doublonProbable": false,
+            "groupeDoublon": null,
+            "dateAjout": "2026-11-06T19:39:20.783Z",
+            "titreTmdb": "Un monde meilleur",
+            "anneeTmdb": "2000",
+            "dureeTmdb": 122,
+            "descriptionTmdb": "Une nouvelle année scolaire commence pour Trevor McKinney, un garçon de douze ans, une année qui ne ressemblera à aucune autre et changera peut-être la vie de milliers d'hommes. Le jour de la rentrée, Trevor reçoit de la part de son professeur Eugene Simonet un sujet de devoir pour le moins inhabituel : trouver une solution pour rendre le monde meilleur et la mettre en pratique. Plus mûr, plus sensible que ses camarades, Trevor prend très au sérieux ce devoir. Il suggère d'aider de façon désintéressée trois personnes qui deviendront ses obligées, et chacune d'entre elles devra passer le relais à trois inconnus qui en feront de même à leur tour. On ne peut pas changer le monde à douze ans, mais on peut tenter de redonner espoir à son entourage : une mère déboussolée, un professeur solitaire et un SDF sont des cobayes de rêve pour un garçon inventif, généreux, en manque d'affection.",
+            "collectionId": null,
+            "collectionNom": null,
+            "collectionDescription": null,
+            "collectionImage": null,
+            "collectionTmdbUrl": null
         },
         {
             "id": "paycheck_2003",
@@ -19083,6 +20021,38 @@
             "ignoreInCollection": false
         },
         {
+            "id": "safe_house",
+            "titre": "Safe House",
+            "annee": null,
+            "langue": [
+                "TBD"
+            ],
+            "taille": 1616678358,
+            "genre": [
+                "Action",
+                "Thriller"
+            ],
+            "image": "https://image.tmdb.org/t/p/w342/yyl2AXjLfpyYHY7b0SQPYULu42.jpg",
+            "fichier": "/03_Films/Safe.House.1080p.BluRay.x264.YIFY.mp4",
+            "nomFichier": "Safe.House.1080p.BluRay.x264.YIFY.mp4",
+            "imdbId": null,
+            "tmdbId": 59961,
+            "tmdbUrl": "https://www.themoviedb.org/movie/59961",
+            "doublonExact": false,
+            "doublonProbable": false,
+            "groupeDoublon": null,
+            "dateAjout": "2026-11-06T19:39:20.783Z",
+            "titreTmdb": "Sécurité Rapprochée",
+            "anneeTmdb": "2012",
+            "dureeTmdb": 115,
+            "descriptionTmdb": "Tobin Frost est le traître le plus haï et le plus redouté de la CIA. Après avoir échappé au contre-espionnage pendant près de 10 ans, il refait surface en Afrique du Sud. Lorsque sa cachette d’un faubourg du Cap est attaquée par un mystérieux commando, un jeune «bleu», Matt Weston, est obligé d’assurer seul sa fuite et de le conduire dans une nouvelle résidence sécurisée. «Ange gardien» malgré lui, Matt voit dans cette mission une chance inespérée de faire ses preuves aux yeux de l’Agence. Une relation précaire s’établit entre le débutant et le renégat endurci. Mais Frost, manipulateur né, réserve quelques surprises à son candide protecteur…",
+            "collectionId": null,
+            "collectionNom": null,
+            "collectionDescription": null,
+            "collectionImage": null,
+            "collectionTmdbUrl": null
+        },
+        {
             "id": "salt",
             "titre": "Salt",
             "annee": null,
@@ -19114,6 +20084,46 @@
             "collectionTmdbUrl": null,
             "type": "Film",
             "studio": null
+        },
+        {
+            "id": "sample",
+            "titre": "sample",
+            "annee": null,
+            "langue": [
+                "TBD"
+            ],
+            "taille": 11372544,
+            "genre": null,
+            "image": null,
+            "fichier": "/03_Films/sample.avi",
+            "nomFichier": "sample.avi",
+            "imdbId": null,
+            "tmdbId": null,
+            "tmdbUrl": null,
+            "doublonExact": false,
+            "doublonProbable": true,
+            "groupeDoublon": "sample",
+            "dateAjout": "2026-11-06T19:39:20.784Z"
+        },
+        {
+            "id": "sample",
+            "titre": "Sample",
+            "annee": null,
+            "langue": [
+                "TBD"
+            ],
+            "taille": 12909648,
+            "genre": null,
+            "image": null,
+            "fichier": "/03_Films/Sample.mkv",
+            "nomFichier": "Sample.mkv",
+            "imdbId": null,
+            "tmdbId": null,
+            "tmdbUrl": null,
+            "doublonExact": false,
+            "doublonProbable": true,
+            "groupeDoublon": "sample",
+            "dateAjout": "2026-11-06T19:39:20.784Z"
         },
         {
             "id": "seal_team_2021",
@@ -19932,6 +20942,39 @@
             "studio": "Marvel"
         },
         {
+            "id": "source_code_2011",
+            "titre": "Source Code",
+            "annee": 2011,
+            "langue": [
+                "TBD"
+            ],
+            "taille": 729221714,
+            "genre": [
+                "Thriller",
+                "Science-Fiction",
+                "Mystère"
+            ],
+            "image": "https://image.tmdb.org/t/p/w342/4z8PEhDJ38OepZcKaDN38GJ0jXv.jpg",
+            "fichier": "/03_Films/Source.Code.2011.DVDRIP.VFF-T911.avi",
+            "nomFichier": "Source.Code.2011.DVDRIP.VFF-T911.avi",
+            "imdbId": null,
+            "tmdbId": 45612,
+            "tmdbUrl": "https://www.themoviedb.org/movie/45612",
+            "doublonExact": false,
+            "doublonProbable": false,
+            "groupeDoublon": null,
+            "dateAjout": "2026-11-06T19:39:20.785Z",
+            "titreTmdb": "Source Code",
+            "anneeTmdb": "2011",
+            "dureeTmdb": 93,
+            "descriptionTmdb": "Colter Stevens se réveille en sursaut dans un train à destination de Chicago. Amnésique, il n’a aucun souvenir d’être monté dedans. Pire encore, les passagers du train se comportent avec lui avec familiarité alors qu’il ne les a jamais vus. Désorienté, il cherche à comprendre ce qui se passe mais une bombe explose tuant tout le monde à bord. Colter se réveille alors dans un caisson étrange et découvre qu’il participe à un procédé expérimental permettant de se projeter dans le corps d’une personne et de revivre les 8 dernières minutes de sa vie. Sa mission: revivre sans cesse les quelques minutes précédant l’explosion afin d’identifier et d’arrêter les auteurs de l’attentat. À chaque échec, les chances de pouvoir revenir dans le passé s’amenuisent...",
+            "collectionId": null,
+            "collectionNom": null,
+            "collectionDescription": null,
+            "collectionImage": null,
+            "collectionTmdbUrl": null
+        },
+        {
             "id": "soyez_sympas_rembobinez",
             "titre": "Soyez sympas, rembobinez",
             "annee": null,
@@ -20094,6 +21137,38 @@
             "type": "Film",
             "studio": null,
             "ignoreInCollection": false
+        },
+        {
+            "id": "speed_2_cruise_control_1997",
+            "titre": "Speed 2 Cruise Control",
+            "annee": 1997,
+            "langue": [
+                "TBD"
+            ],
+            "taille": 1981205914,
+            "genre": [
+                "Action",
+                "Thriller"
+            ],
+            "image": "https://image.tmdb.org/t/p/w342/rqhKm4GdFABBvYv6eDXeWiv4h7k.jpg",
+            "fichier": "/03_Films/Speed.2.Cruise.Control.1997.1080p.BluRay.x264.YIFY.mp4",
+            "nomFichier": "Speed.2.Cruise.Control.1997.1080p.BluRay.x264.YIFY.mp4",
+            "imdbId": null,
+            "tmdbId": 1639,
+            "tmdbUrl": "https://www.themoviedb.org/movie/1639",
+            "doublonExact": false,
+            "doublonProbable": false,
+            "groupeDoublon": null,
+            "dateAjout": "2026-11-06T19:39:20.785Z",
+            "titreTmdb": "Speed 2 : Cap sur le danger",
+            "anneeTmdb": "1997",
+            "dureeTmdb": 125,
+            "descriptionTmdb": "Alex et Annie partent en croisière dans les Caraïbes sur un luxueux paquebot. Un policier de bord est intrigué par le comportement nerveux d'un certain Geiger qui se prétend golfeur. Il est encore loin de s'imaginer que Geiger transporte avec lui tout un arsenal qui va mettre la vie des passagers en danger.",
+            "collectionId": 43064,
+            "collectionNom": "Speed - Saga",
+            "collectionDescription": "Speed, est un film d'action américain de 1994 réalisé par Jan de Bont. Jack Traven, officier du LAPD, devient le centre d'intérêt d'Howard Payne, un bombardier et extorqueur, sergent à la retraite de l'équipe de déminage d'Atlanta. Le film se déroule à Los Angeles en 1993. En 1997, une suite, Speed 2 : Cruise Control, sort. Sandra Bullock accepte de jouer à nouveau le rôle d'Annie, pour obtenir un soutien financier pour un autre projet, mais Keanu Reeves décline l'offre de revenir dans le rôle de Jack. En conséquence, Jason Patric a été intégré à l'histoire en tant qu'Alex Shaw, le nouveau petit ami d'Annie, qui a rompu avec Jack parce qu'elle s'inquiétait du mode de vie dangereux de ce dernier. Willem Dafoe joue le rôle du méchant John Geiger, et Glenn Plummer (qui joue la victime du carjacking de Reeves) est également un caméléon dans le rôle d'un conducteur de bateau. Le film est considéré comme l'une des pires suites de tous les temps.",
+            "collectionImage": "https://image.tmdb.org/t/p/w500/o0eZDtoeMSxQbT3hjPtF0qSDJU0.jpg",
+            "collectionTmdbUrl": "https://www.themoviedb.org/collection/43064"
         },
         {
             "id": "tmdb_969681",
@@ -20651,6 +21726,39 @@
             "studio": null
         },
         {
+            "id": "taken_2008",
+            "titre": "Taken",
+            "annee": 2008,
+            "langue": [
+                "VO",
+                "VF"
+            ],
+            "taille": 1410651191,
+            "genre": [
+                "Action",
+                "Thriller"
+            ],
+            "image": "https://image.tmdb.org/t/p/w342/4h9b8E2C9FdIVKbQRDMwZzpSIjL.jpg",
+            "fichier": "/03_Films/01 Taken Extended Cut - Thriller 2008 Eng Rus Multi Subs 720p .mp4",
+            "nomFichier": "01 Taken Extended Cut - Thriller 2008 Eng Rus Multi Subs 720p .mp4",
+            "imdbId": null,
+            "tmdbId": 8681,
+            "tmdbUrl": "https://www.themoviedb.org/movie/8681",
+            "doublonExact": false,
+            "doublonProbable": false,
+            "groupeDoublon": null,
+            "dateAjout": "2026-11-06T19:39:20.771Z",
+            "titreTmdb": "Taken",
+            "anneeTmdb": "2008",
+            "dureeTmdb": 94,
+            "descriptionTmdb": "Que peut-on imaginer de pire pour un père que d'assister impuissant à l'enlèvement de sa fille via un téléphone portable ? C'est le cauchemar vécu par Bryan, ancien agent des services secrets américains, qui n'a que quelques heures pour arracher Kim des mains d'un redoutable gang spécialisé dans la traite des femmes. Premier problème à résoudre : il est à Los Angeles, elle vient de se faire enlever à Paris.",
+            "collectionId": 135483,
+            "collectionNom": "Taken - Saga",
+            "collectionDescription": "Les aventures d'un ancien agent des services secrets américains, Bryan Mills, qui devra user de tout son talent pour s'extirper des périls le menaçant lui et sa famille.",
+            "collectionImage": "https://image.tmdb.org/t/p/w500/dObT7wPx4V4ZZ3hwBJws0EHuDlX.jpg",
+            "collectionTmdbUrl": "https://www.themoviedb.org/collection/135483"
+        },
+        {
             "id": "taken_1",
             "titre": "Taken 1",
             "annee": null,
@@ -20702,8 +21810,8 @@
             "tmdbId": 82675,
             "tmdbUrl": "https://www.themoviedb.org/movie/82675",
             "doublonExact": false,
-            "doublonProbable": false,
-            "groupeDoublon": null,
+            "doublonProbable": true,
+            "groupeDoublon": "taken_2",
             "dateAjout": "2026-08-22T08:23:33.556Z",
             "titreTmdb": "Taken 2",
             "anneeTmdb": "2012",
@@ -20717,6 +21825,40 @@
             "type": "Film",
             "studio": null,
             "ignoreInCollection": false
+        },
+        {
+            "id": "taken_2_2012",
+            "titre": "Taken 2",
+            "annee": 2012,
+            "langue": [
+                "VO",
+                "VF"
+            ],
+            "taille": 1483743438,
+            "genre": [
+                "Action",
+                "Crime",
+                "Thriller"
+            ],
+            "image": "https://image.tmdb.org/t/p/w342/uzfVdeYUAuJNLhIW0kbFrD9PRWc.jpg",
+            "fichier": "/03_Films/02 Taken 2 Extended Cut - Thriller 2012 Eng Rus Multi Subs 720p .mp4",
+            "nomFichier": "02 Taken 2 Extended Cut - Thriller 2012 Eng Rus Multi Subs 720p .mp4",
+            "imdbId": null,
+            "tmdbId": 82675,
+            "tmdbUrl": "https://www.themoviedb.org/movie/82675",
+            "doublonExact": false,
+            "doublonProbable": true,
+            "groupeDoublon": "taken_2",
+            "dateAjout": "2026-11-06T19:39:20.772Z",
+            "titreTmdb": "Taken 2",
+            "anneeTmdb": "2012",
+            "dureeTmdb": 98,
+            "descriptionTmdb": "L'agent de la CIA Bryan Mills a beau avoir sauvé sa fille Kim des mains de kidnappeurs Albanais, ses problèmes ne sont pas terminés, puisque le père d'un des kidnappeurs décide de se venger en prenant Bryan et sa femme en otages alors que la famille est en vacances. C'est au tour de Kim de sauver ses parents, en employant les techniques particulières de son père.",
+            "collectionId": 135483,
+            "collectionNom": "Taken - Saga",
+            "collectionDescription": "Les aventures d'un ancien agent des services secrets américains, Bryan Mills, qui devra user de tout son talent pour s'extirper des périls le menaçant lui et sa famille.",
+            "collectionImage": "https://image.tmdb.org/t/p/w500/dObT7wPx4V4ZZ3hwBJws0EHuDlX.jpg",
+            "collectionTmdbUrl": "https://www.themoviedb.org/collection/135483"
         },
         {
             "id": "tmdb_260346",
@@ -20735,8 +21877,8 @@
             "tmdbId": 260346,
             "tmdbUrl": "https://www.themoviedb.org/movie/260346",
             "doublonExact": false,
-            "doublonProbable": false,
-            "groupeDoublon": null,
+            "doublonProbable": true,
+            "groupeDoublon": "taken_3",
             "dateAjout": null,
             "titreTmdb": "Taken 3",
             "titreOriginal": "Taken 3",
@@ -20747,6 +21889,103 @@
             "type": "Film",
             "studio": null,
             "ignoreInCollection": false
+        },
+        {
+            "id": "taken_3_2014",
+            "titre": "Taken 3",
+            "annee": 2014,
+            "langue": [
+                "VO",
+                "VF"
+            ],
+            "taille": 1740335168,
+            "genre": [
+                "Thriller",
+                "Action"
+            ],
+            "image": "https://image.tmdb.org/t/p/w342/2CZkH6fYKUBq7exixbGcPa4Ksc6.jpg",
+            "fichier": "/03_Films/03 Taken 3 Extended Cut - Thriller 2014 Eng Rus Multi Subs 720p .mp4",
+            "nomFichier": "03 Taken 3 Extended Cut - Thriller 2014 Eng Rus Multi Subs 720p .mp4",
+            "imdbId": null,
+            "tmdbId": 260346,
+            "tmdbUrl": "https://www.themoviedb.org/movie/260346",
+            "doublonExact": false,
+            "doublonProbable": true,
+            "groupeDoublon": "taken_3",
+            "dateAjout": "2026-11-06T19:39:20.772Z",
+            "titreTmdb": "Taken 3",
+            "anneeTmdb": "2014",
+            "dureeTmdb": 104,
+            "descriptionTmdb": "L’ex-agent spécial Bryan Mills voit son retour à une vie tranquille bouleversé lorsqu’il est accusé à tort du meurtre de son ex-femme, chez lui, à Los Angeles. En fuite et traqué par l’inspecteur Dotzler, Mills va devoir employer ses compétences particulières une dernière fois pour trouver le véritable coupable, prouver son innocence et protéger la seule personne qui compte désormais pour lui – sa fille.",
+            "collectionId": 135483,
+            "collectionNom": "Taken - Saga",
+            "collectionDescription": "Les aventures d'un ancien agent des services secrets américains, Bryan Mills, qui devra user de tout son talent pour s'extirper des périls le menaçant lui et sa famille.",
+            "collectionImage": "https://image.tmdb.org/t/p/w500/dObT7wPx4V4ZZ3hwBJws0EHuDlX.jpg",
+            "collectionTmdbUrl": "https://www.themoviedb.org/collection/135483"
+        },
+        {
+            "id": "taken_3_2014",
+            "titre": "Taken 3",
+            "annee": 2014,
+            "langue": [
+                "VF"
+            ],
+            "taille": 730881763,
+            "genre": [
+                "Thriller",
+                "Action"
+            ],
+            "image": "https://image.tmdb.org/t/p/w342/2CZkH6fYKUBq7exixbGcPa4Ksc6.jpg",
+            "fichier": "/03_Films/Taken.3.2014.EXTENDED.FRENCH.BDRip.XviD.avi",
+            "nomFichier": "Taken.3.2014.EXTENDED.FRENCH.BDRip.XviD.avi",
+            "imdbId": null,
+            "tmdbId": 260346,
+            "tmdbUrl": "https://www.themoviedb.org/movie/260346",
+            "doublonExact": false,
+            "doublonProbable": true,
+            "groupeDoublon": "taken_3",
+            "dateAjout": "2026-11-06T19:39:20.786Z",
+            "titreTmdb": "Taken 3",
+            "anneeTmdb": "2014",
+            "dureeTmdb": 104,
+            "descriptionTmdb": "L’ex-agent spécial Bryan Mills voit son retour à une vie tranquille bouleversé lorsqu’il est accusé à tort du meurtre de son ex-femme, chez lui, à Los Angeles. En fuite et traqué par l’inspecteur Dotzler, Mills va devoir employer ses compétences particulières une dernière fois pour trouver le véritable coupable, prouver son innocence et protéger la seule personne qui compte désormais pour lui – sa fille.",
+            "collectionId": 135483,
+            "collectionNom": "Taken - Saga",
+            "collectionDescription": "Les aventures d'un ancien agent des services secrets américains, Bryan Mills, qui devra user de tout son talent pour s'extirper des périls le menaçant lui et sa famille.",
+            "collectionImage": "https://image.tmdb.org/t/p/w500/dObT7wPx4V4ZZ3hwBJws0EHuDlX.jpg",
+            "collectionTmdbUrl": "https://www.themoviedb.org/collection/135483"
+        },
+        {
+            "id": "taken_3_6ch_2014",
+            "titre": "Taken 3 6CH",
+            "annee": 2014,
+            "langue": [
+                "TBD"
+            ],
+            "taille": 1443445537,
+            "genre": [
+                "Thriller",
+                "Action"
+            ],
+            "image": "https://image.tmdb.org/t/p/w342/2CZkH6fYKUBq7exixbGcPa4Ksc6.jpg",
+            "fichier": "/03_Films/Taken.3.2014.EXTENDED.1080p.BluRay.6CH.x265.HEVC-PSA.mkv",
+            "nomFichier": "Taken.3.2014.EXTENDED.1080p.BluRay.6CH.x265.HEVC-PSA.mkv",
+            "imdbId": null,
+            "tmdbId": 260346,
+            "tmdbUrl": "https://www.themoviedb.org/movie/260346",
+            "doublonExact": false,
+            "doublonProbable": false,
+            "groupeDoublon": null,
+            "dateAjout": "2026-11-06T19:39:20.786Z",
+            "titreTmdb": "Taken 3",
+            "anneeTmdb": "2014",
+            "dureeTmdb": 104,
+            "descriptionTmdb": "L’ex-agent spécial Bryan Mills voit son retour à une vie tranquille bouleversé lorsqu’il est accusé à tort du meurtre de son ex-femme, chez lui, à Los Angeles. En fuite et traqué par l’inspecteur Dotzler, Mills va devoir employer ses compétences particulières une dernière fois pour trouver le véritable coupable, prouver son innocence et protéger la seule personne qui compte désormais pour lui – sa fille.",
+            "collectionId": 135483,
+            "collectionNom": "Taken - Saga",
+            "collectionDescription": "Les aventures d'un ancien agent des services secrets américains, Bryan Mills, qui devra user de tout son talent pour s'extirper des périls le menaçant lui et sa famille.",
+            "collectionImage": "https://image.tmdb.org/t/p/w500/dObT7wPx4V4ZZ3hwBJws0EHuDlX.jpg",
+            "collectionTmdbUrl": "https://www.themoviedb.org/collection/135483"
         },
         {
             "id": "taxi_1_by_naceraz",
@@ -20913,6 +22152,39 @@
             "type": "Film",
             "studio": null,
             "ignoreInCollection": true
+        },
+        {
+            "id": "taxi_5_1_2018",
+            "titre": "Taxi 5 1",
+            "annee": 2018,
+            "langue": [
+                "TBD"
+            ],
+            "taille": 2016272809,
+            "genre": [
+                "Action",
+                "Comédie",
+                "Crime"
+            ],
+            "image": "https://image.tmdb.org/t/p/w342/cRY6NShGF0FFDnRHEDTj0spUGHU.jpg",
+            "fichier": "/03_Films/Taxi.5.2018.1080p.BluRay.x264.AAC5.1-.mp4",
+            "nomFichier": "Taxi.5.2018.1080p.BluRay.x264.AAC5.1-.mp4",
+            "imdbId": null,
+            "tmdbId": 434355,
+            "tmdbUrl": "https://www.themoviedb.org/movie/434355",
+            "doublonExact": false,
+            "doublonProbable": false,
+            "groupeDoublon": null,
+            "dateAjout": "2026-11-06T19:39:20.787Z",
+            "titreTmdb": "Taxi 5",
+            "anneeTmdb": "2018",
+            "dureeTmdb": 103,
+            "descriptionTmdb": "Sylvain Marot, super flic parisien et pilote d’exception, est muté contre son gré à la Police Municipale de Marseille. L’ex-commissaire Gibert, devenu Maire de la ville et au plus bas dans les sondages, va alors lui confier la mission de stopper le redoutable « Gang des Italiens », qui écume des bijouteries à l’aide de puissantes Ferrari. Mais pour y parvenir, Marot n’aura pas d’autre choix que de collaborer avec le petit-neveu du célèbre Daniel, Eddy Maklouf, le pire chauffeur VTC de Marseille, mais le seul à pouvoir récupérer le légendaire TAXI blanc.",
+            "collectionId": 211721,
+            "collectionNom": "Taxi - Saga",
+            "collectionDescription": "En ce qui concerne les entrées au guichet, la série \"Taxi\" est l’une des franchises françaises les plus titrées de tous les temps, avec un total rapporté de 200 millions de dollars dans le monde et de 23 millions d’entrées en France.",
+            "collectionImage": "https://image.tmdb.org/t/p/w500/eEBD8TVN6caaUZpn093kDbR4li1.jpg",
+            "collectionTmdbUrl": "https://www.themoviedb.org/collection/211721"
         },
         {
             "id": "a_team_repack_1cd_fms_2010",
@@ -21785,6 +23057,37 @@
             "collectionTmdbUrl": null,
             "type": "Film",
             "studio": null
+        },
+        {
+            "id": "the_ron_clark_story_2006",
+            "titre": "The Ron Clark Story",
+            "annee": 2006,
+            "langue": [
+                "TBD"
+            ],
+            "taille": 1542548290,
+            "genre": [
+                "Drame"
+            ],
+            "image": "https://image.tmdb.org/t/p/w342/2RJiZzzfG3dT6rNrJnNFTG8GQiQ.jpg",
+            "fichier": "/03_Films/The.Ron.Clark.Story.2006.1080p.WEBRip.x264-.mp4",
+            "nomFichier": "The.Ron.Clark.Story.2006.1080p.WEBRip.x264-.mp4",
+            "imdbId": null,
+            "tmdbId": 25527,
+            "tmdbUrl": "https://www.themoviedb.org/movie/25527",
+            "doublonExact": false,
+            "doublonProbable": false,
+            "groupeDoublon": null,
+            "dateAjout": "2026-11-06T19:39:20.787Z",
+            "titreTmdb": "The Ron Clark Story",
+            "anneeTmdb": "2006",
+            "dureeTmdb": 90,
+            "descriptionTmdb": "Un professeur passionné et innovant quitte sa petite ville natale pour enseigner dans l'une des écoles les plus difficiles de Harlem. Mais pour percer auprès de ses élèves, Ron Clark doit utiliser des méthodes non conventionnelles, notamment ses règles de classe révolutionnaires, pour les pousser à réaliser leur potentiel.",
+            "collectionId": null,
+            "collectionNom": null,
+            "collectionDescription": null,
+            "collectionImage": null,
+            "collectionTmdbUrl": null
         },
         {
             "id": "tmdb_1109206",
@@ -24427,6 +25730,42 @@
             "studio": null
         },
         {
+            "id": "xxx_tf_hdl_2002",
+            "titre": "xXx TF HDL",
+            "annee": 2002,
+            "langue": [
+                "VO",
+                "VF"
+            ],
+            "taille": 2551140332,
+            "genre": [
+                "Action",
+                "Aventure",
+                "Thriller",
+                "Crime",
+                "Drame"
+            ],
+            "image": "https://image.tmdb.org/t/p/w342/4nLTMNCGQ4rKsrlPVMPG4YnxV0k.jpg",
+            "fichier": "/03_Films/xXx.2002.Multi TF 1080p HDL.mkv",
+            "nomFichier": "xXx.2002.Multi TF 1080p HDL.mkv",
+            "imdbId": null,
+            "tmdbId": 7451,
+            "tmdbUrl": "https://www.themoviedb.org/movie/7451",
+            "doublonExact": false,
+            "doublonProbable": false,
+            "groupeDoublon": null,
+            "dateAjout": "2026-11-06T19:39:20.791Z",
+            "titreTmdb": "xXx",
+            "anneeTmdb": "2002",
+            "dureeTmdb": 124,
+            "descriptionTmdb": "Après une série de tests, Xander Cage dit « xXx », un spécialiste des sports extrêmes couvert de tatouages, est recruté par Augustus Gibbons, un agent de la National Security Agency (NSA), pour s’infiltrer dans une organisation criminelle et mettre fin à ses agissements. Dirigée par un certain Yorgi, celle‐ci se fait appeler « Anarchie 99 » et son siège se situe à Prague, en République tchèque. Gibbons est persuadé que Xander Cage réussira là où les espions conventionnels ont échoué.Ce dernier insiste toutefois pour accomplir cette mission à sa façon. Il se présente alors directement à Yorgi et se lie rapidement d’amitié avec lui, l’occasion pour Xander Cage de découvrir les terribles desseins de l’organisation.",
+            "collectionId": 52785,
+            "collectionNom": "xXx - Saga",
+            "collectionDescription": "Vin Diesel interprète xXx, un agent secret rebelle travaillant pour l'administration américaine. xXx doit d'abord démanteler un reseau de criminels caché dans les montagnes pour rendre service à la patrie.",
+            "collectionImage": "https://image.tmdb.org/t/p/w500/wca7mxkpJwfJNOoHllonrSqePsq.jpg",
+            "collectionTmdbUrl": "https://www.themoviedb.org/collection/52785"
+        },
+        {
             "id": "tmdb_6935",
             "titre": "Yamakasi",
             "annee": 2001,
@@ -24455,6 +25794,39 @@
             "type": "Film",
             "studio": null,
             "ignoreInCollection": false
+        },
+        {
+            "id": "yamakasi_les_samourai_temps_modernes_dvdr_xvid_nl_dmt_2001",
+            "titre": "Yamakasi Les Samouraï Temps Modernes ( ) DVDR(xvid) NL DMT",
+            "annee": 2001,
+            "langue": [
+                "TBD"
+            ],
+            "taille": 986418202,
+            "genre": [
+                "Action",
+                "Crime",
+                "Drame"
+            ],
+            "image": "https://image.tmdb.org/t/p/w342/YRsXykyaXm3ABsfdfzxV59c17K.jpg",
+            "fichier": "/03_Films/Yamakasi-Les Samouraï des Temps Modernes (2001) DVDR(xvid) NL Subs DMT.avi",
+            "nomFichier": "Yamakasi-Les Samouraï des Temps Modernes (2001) DVDR(xvid) NL Subs DMT.avi",
+            "imdbId": null,
+            "tmdbId": 6935,
+            "tmdbUrl": "https://www.themoviedb.org/movie/6935",
+            "doublonExact": false,
+            "doublonProbable": false,
+            "groupeDoublon": null,
+            "dateAjout": "2026-11-06T19:39:20.792Z",
+            "titreTmdb": "Yamakasi",
+            "anneeTmdb": "2001",
+            "dureeTmdb": 90,
+            "descriptionTmdb": "Une bande de jeunes athlètes banlieusards a créé sa propre discipline: l'art du déplacement. Ils bravent tous les dangers, escaladent les immeubles, effectuent des sauts vertigineux. Chaque membre a sa spécialité: Baseball est lanceur d'élite, L'Araignée se prend pour Spiderman, La Belette est une véritable anguille, Zicmu est un fou de musique, Rocket est plus rapide que l'éclair. Ils sont adoubés nouveaux modèles pour les plus jeunes et se livrent au jeu du chat et de la souris avec les autorités locales. Mais un accident survient: le petit Djamel tombe. Les Yamakasi vont devoir faire face à leurs responsabilités pour trouver l'argent nécessaire à son opération.",
+            "collectionId": 107471,
+            "collectionNom": "Yamakasi - Saga",
+            "collectionDescription": "Les Yamakasi sont sept jeunes de banlieue qui ont créé leur propre discipline : l'art du déplacement (ADD).",
+            "collectionImage": "https://image.tmdb.org/t/p/w500/mjqpOI0kbvpTLQNyrcdzyn33xUo.jpg",
+            "collectionTmdbUrl": "https://www.themoviedb.org/collection/107471"
         },
         {
             "id": "yes_man",
