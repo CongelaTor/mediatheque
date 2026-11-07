@@ -247,10 +247,6 @@ function getResumeSerie() {
   return JSON.parse(value);
 }
 
-setInterval(() => {
-  updateResumeButtons();
-}, 60000);
-
 function initResumeButtons() {
   const syncFilmButton = document.getElementById("syncFilmButton");
   if (syncFilmButton) {

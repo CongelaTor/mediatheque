@@ -1,6 +1,6 @@
 {
     "version": 1,
-    "dateDernierScan": "2026-11-06T22:28:39.863Z",
+    "dateDernierScan": "2026-11-07T07:16:57.775Z",
     "collections": [
         {
             "collectionId": 9485,
@@ -1008,36 +1008,6 @@
             "ignoreInCollection": false
         },
         {
-            "id": "tmdb_1573",
-            "titre": "58 minutes pour vivre",
-            "annee": 1990,
-            "langue": [
-                "TBD"
-            ],
-            "taille": 0,
-            "genre": [
-                "Action"
-            ],
-            "image": "https://image.tmdb.org/t/p/w342/1gphGfZKKnxEVJRLYT9VyyDaOaV.jpg",
-            "fichier": null,
-            "nomFichier": null,
-            "tmdbId": 1573,
-            "tmdbUrl": "https://www.themoviedb.org/movie/1573",
-            "doublonExact": false,
-            "doublonProbable": false,
-            "groupeDoublon": null,
-            "dateAjout": null,
-            "titreTmdb": "58 minutes pour vivre",
-            "titreOriginal": "Die Hard 2",
-            "anneeTmdb": 1990,
-            "descriptionTmdb": "John McClane tente d'éviter le désastre alors que des agents secrets militaires dévoyés prennent le contrôle de l'Aéroport International de Dulles à Washington, D.C.",
-            "collectionId": 1570,
-            "collectionNom": "Die Hard - Saga",
-            "type": "Film",
-            "studio": null,
-            "ignoreInCollection": false
-        },
-        {
             "id": "a_avengers_age_of_ultron_2015",
             "titre": "a Avengers Age Of Ultron",
             "annee": 2015,
@@ -1818,34 +1788,37 @@
             "studio": null
         },
         {
-            "id": "tmdb_640146",
-            "titre": "Ant-Man et la Guêpe : Quantumania",
+            "id": "ant_man_and_the_quantumania_ddlpz_2023",
+            "titre": "Ant Man and the Quantumania DDLPZ",
             "annee": 2023,
             "langue": [
-                "TBD"
+                "VF"
             ],
-            "taille": 0,
+            "taille": 1561925418,
             "genre": [
+                "Action",
+                "Aventure",
                 "Science-Fiction"
             ],
             "image": "https://image.tmdb.org/t/p/w342/2hq8EKF6kaUyOxB9KhmIb5JUxEe.jpg",
-            "fichier": null,
-            "nomFichier": null,
+            "fichier": "/03_Films/Ant.Man.and.the.Wasp.Quantumania.2023.CUSTOM.FRENCH.BDRip.x264-DDLPZ.mkv",
+            "nomFichier": "Ant.Man.and.the.Wasp.Quantumania.2023.CUSTOM.FRENCH.BDRip.x264-DDLPZ.mkv",
+            "imdbId": null,
             "tmdbId": 640146,
             "tmdbUrl": "https://www.themoviedb.org/movie/640146",
             "doublonExact": false,
             "doublonProbable": false,
             "groupeDoublon": null,
-            "dateAjout": null,
+            "dateAjout": "2026-11-07T06:53:23.321Z",
             "titreTmdb": "Ant-Man et la Guêpe : Quantumania",
-            "titreOriginal": "Ant-Man and the Wasp: Quantumania",
-            "anneeTmdb": 2023,
+            "anneeTmdb": "2023",
+            "dureeTmdb": 124,
             "descriptionTmdb": "Tout va pour le mieux : Scott a écrit un livre à succès tandis que Hope défend avec le plus grand dévouement des causes humanitaires. Leur famille - Janet van Dyne et Hank Pym (les parents de Hope) et Cassie, la fille de Scott - font enfin partie de leur quotidien. Cassie partage la passion de sa nouvelle famille pour la science et la technologie, notamment en ce qui concerne le domaine quantique. Mais sa curiosité les entraîne tous dans une odyssée imprévue et sans retour dans le vaste monde subatomique, un endroit mystérieux où ils rencontrent d’étranges nouvelles créatures, une société en crise et un impitoyable maître du temps dont l’ombre menaçante commence tout juste à s’étendre. Scott et Cassie sont soudainement happés dans une direction tandis que Hope, Janet et Hank se retrouvent propulsés dans une autre. Tous se perdent dans un monde en guerre, sans savoir comment ils pourront en sortir ni même s'ils retrouveront un jour le chemin de leur foyer...",
             "collectionId": 422834,
             "collectionNom": "Ant-Man - Saga",
-            "type": "Film",
-            "studio": "Marvel",
-            "ignoreInCollection": false
+            "collectionDescription": "Une série de films de super-héros basée sur le personnage de Marvel Comics Ant-Man, et faisant partie de la série Marvel Cinematic Universe (MCU). La série est centrée sur Scott Lang, un ancien détenu qui a volé un costume qui lui permet de changer de taille. Hank Pym, l'homme-fourmi original, a découvert les particules subatomiques qui rendent la transformation possible. Hank conseille Scott pour qu'il reprenne le pseudonyme de super-héros.",
+            "collectionImage": "https://image.tmdb.org/t/p/w500/3PTRzkZHsiIfnHdNFvJn0poyPvn.jpg",
+            "collectionTmdbUrl": "https://www.themoviedb.org/collection/422834"
         },
         {
             "id": "antitrust",
@@ -1912,34 +1885,37 @@
             "ignoreInCollection": false
         },
         {
-            "id": "tmdb_572802",
-            "titre": "Aquaman et le Royaume perdu",
+            "id": "aquaman_and_the_kingdom_2023",
+            "titre": "Aquaman and the Kingdom",
             "annee": 2023,
             "langue": [
-                "TBD"
+                "VF"
             ],
-            "taille": 0,
+            "taille": 1900776886,
             "genre": [
-                "Science-Fiction"
+                "Action",
+                "Aventure",
+                "Fantastique"
             ],
             "image": "https://image.tmdb.org/t/p/w342/w8r7NAEIGLPH5r3NhiMobEO80PS.jpg",
-            "fichier": null,
-            "nomFichier": null,
+            "fichier": "/03_Films/Aquaman.and.the.Lost.Kingdom.2023.CUSTOM.TRUEFRENCH.BDRip.x264-ONLYMOViE.mkv",
+            "nomFichier": "Aquaman.and.the.Lost.Kingdom.2023.CUSTOM.TRUEFRENCH.BDRip.x264-ONLYMOViE.mkv",
+            "imdbId": null,
             "tmdbId": 572802,
             "tmdbUrl": "https://www.themoviedb.org/movie/572802",
             "doublonExact": false,
             "doublonProbable": false,
             "groupeDoublon": null,
-            "dateAjout": null,
+            "dateAjout": "2026-11-07T06:46:46.888Z",
             "titreTmdb": "Aquaman et le Royaume perdu",
-            "titreOriginal": "Aquaman and the Lost Kingdom",
-            "anneeTmdb": 2023,
+            "anneeTmdb": "2023",
+            "dureeTmdb": 124,
             "descriptionTmdb": "Alors qu'Arthur Curry affronte ses responsabilités de Roi des Sept Mers, un pouvoir antique enfoui depuis longtemps se déchaîne. Après avoir été témoin de l'effet de ces forces obscures, Aquaman doit forger une alliance difficile avec un vieil ennemi et se lancer dans un voyage périlleux pour protéger sa famille, son royaume et le monde d'une dévastation irréversible.",
             "collectionId": 573693,
             "collectionNom": "Aquaman - Saga",
-            "type": "Film",
-            "studio": "Marvel",
-            "ignoreInCollection": false
+            "collectionDescription": "Série de films centrée sur le personnage d'Aquaman de DC Comics.",
+            "collectionImage": "https://image.tmdb.org/t/p/w500/2k754gEz4uL3j1GhjitTOJ6Rcbm.jpg",
+            "collectionTmdbUrl": "https://www.themoviedb.org/collection/573693"
         },
         {
             "id": "armageddon",
@@ -2153,36 +2129,6 @@
             "ignoreInCollection": true
         },
         {
-            "id": "tmdb_2899",
-            "titre": "Astérix & Obélix : Mission Cléopâtre",
-            "annee": 2002,
-            "langue": [
-                "TBD"
-            ],
-            "taille": 0,
-            "genre": [
-                "Comédie"
-            ],
-            "image": "https://image.tmdb.org/t/p/w342/2lC9lzozlzVxCsSgPjRz5AWcz00.jpg",
-            "fichier": null,
-            "nomFichier": null,
-            "tmdbId": 2899,
-            "tmdbUrl": "https://www.themoviedb.org/movie/2899",
-            "doublonExact": false,
-            "doublonProbable": false,
-            "groupeDoublon": null,
-            "dateAjout": null,
-            "titreTmdb": "Astérix & Obélix : Mission Cléopâtre",
-            "titreOriginal": "Astérix & Obélix : Mission Cléopâtre",
-            "anneeTmdb": 2002,
-            "descriptionTmdb": "Cléopâtre, la reine d’Égypte, décide, pour défier l’empereur romain Jules César, de construire en trois mois un palais somptueux en plein désert. Si elle y parvient, celui‐ci devra concéder publiquement que le peuple égyptien est le plus grand de tous les peuples. Pour ce faire, Cléopâtre fait appel à Numérobis, un architecte d’avant‐garde plein d’énergie. S’il réussit, elle le couvrira d’or. S’il échoue, elle le jettera aux crocodiles. Celui‐ci, conscient du défi à relever, cherche de l’aide auprès de son vieil ami Panoramix. Le druide fait le voyage en Égypte avec Astérix et Obélix. De son côté, Amonbofis, l’architecte officiel de Cléopâtre, jaloux que la reine ait choisi Numérobis pour construire le palais, va tout mettre en œuvre pour faire échouer son concurrent.",
-            "collectionId": 2396,
-            "collectionNom": "Astérix & Obélix - Saga",
-            "type": "Film",
-            "studio": null,
-            "ignoreInCollection": false
-        },
-        {
             "id": "tmdb_9564",
             "titre": "Astérix & Obélix contre César",
             "annee": 1999,
@@ -2272,6 +2218,40 @@
             "type": "Film",
             "studio": null,
             "ignoreInCollection": true
+        },
+        {
+            "id": "asterix_et_obelix_mission_cleopatre_1500kbps_son_dolby_5_1",
+            "titre": "Astérix Et Obélix Mission Cléopatre 1500kbps Son Dolby 5 1",
+            "annee": null,
+            "langue": [
+                "TBD"
+            ],
+            "taille": 1521420288,
+            "genre": [
+                "Familial",
+                "Fantastique",
+                "Comédie",
+                "Aventure"
+            ],
+            "image": "https://image.tmdb.org/t/p/w342/2lC9lzozlzVxCsSgPjRz5AWcz00.jpg",
+            "fichier": "/03_Films/Astérix Et Obélix Mission Cléopatre - DVDRip Fr - 1500kbps - Son Dolby AC3 5.1.avi",
+            "nomFichier": "Astérix Et Obélix Mission Cléopatre - DVDRip Fr - 1500kbps - Son Dolby AC3 5.1.avi",
+            "imdbId": null,
+            "tmdbId": 2899,
+            "tmdbUrl": "https://www.themoviedb.org/movie/2899",
+            "doublonExact": false,
+            "doublonProbable": false,
+            "groupeDoublon": null,
+            "dateAjout": "2026-11-07T06:46:46.890Z",
+            "titreTmdb": "Astérix & Obélix : Mission Cléopâtre",
+            "anneeTmdb": "2002",
+            "dureeTmdb": 107,
+            "descriptionTmdb": "Cléopâtre, la reine d’Égypte, décide, pour défier l’empereur romain Jules César, de construire en trois mois un palais somptueux en plein désert. Si elle y parvient, celui‐ci devra concéder publiquement que le peuple égyptien est le plus grand de tous les peuples. Pour ce faire, Cléopâtre fait appel à Numérobis, un architecte d’avant‐garde plein d’énergie. S’il réussit, elle le couvrira d’or. S’il échoue, elle le jettera aux crocodiles. Celui‐ci, conscient du défi à relever, cherche de l’aide auprès de son vieil ami Panoramix. Le druide fait le voyage en Égypte avec Astérix et Obélix. De son côté, Amonbofis, l’architecte officiel de Cléopâtre, jaloux que la reine ait choisi Numérobis pour construire le palais, va tout mettre en œuvre pour faire échouer son concurrent.",
+            "collectionId": 2396,
+            "collectionNom": "Astérix & Obélix - Saga",
+            "collectionDescription": "L’univers d’Astérix prend vie sur grand écran ! Adaptations fidèles et pleines d’humour, les live action réunissent des acteurs talentueux, des décors spectaculaires et des aventures inoubliables. Entre batailles épiques contre les Romains et quêtes hilarantes, plongez dans l’énergie et la magie des aventures gauloises comme vous ne les avez jamais vues !",
+            "collectionImage": "https://image.tmdb.org/t/p/w500/lF0VfeCBPWbulAFW0KcISgPquuJ.jpg",
+            "collectionTmdbUrl": "https://www.themoviedb.org/collection/2396"
         },
         {
             "id": "tmdb_58625",
@@ -4501,34 +4481,37 @@
             "ignoreInCollection": true
         },
         {
-            "id": "tmdb_1771",
-            "titre": "Captain America : First Avenger",
+            "id": "captain_america_the_first_avenger_2011",
+            "titre": "Captain America The First Avenger",
             "annee": 2011,
             "langue": [
-                "TBD"
+                "VF"
             ],
-            "taille": 0,
+            "taille": 1466468383,
             "genre": [
+                "Action",
+                "Aventure",
                 "Science-Fiction"
             ],
             "image": "https://image.tmdb.org/t/p/w342/l1SP3gyHA5ZEuf72WKx5ihtZZFO.jpg",
-            "fichier": null,
-            "nomFichier": null,
+            "fichier": "/03_Films/Captain.America.The.First.Avenger.2011.TRUEFRENCH.BRRiP.XviD-AUTOPSiE.avi",
+            "nomFichier": "Captain.America.The.First.Avenger.2011.TRUEFRENCH.BRRiP.XviD-AUTOPSiE.avi",
+            "imdbId": null,
             "tmdbId": 1771,
             "tmdbUrl": "https://www.themoviedb.org/movie/1771",
             "doublonExact": false,
             "doublonProbable": false,
             "groupeDoublon": null,
-            "dateAjout": null,
+            "dateAjout": "2026-11-07T06:46:46.891Z",
             "titreTmdb": "Captain America : First Avenger",
-            "titreOriginal": "Captain America: The First Avenger",
-            "anneeTmdb": 2011,
+            "anneeTmdb": "2011",
+            "dureeTmdb": 124,
             "descriptionTmdb": "1941, la Seconde Guerre Mondiale fait rage. Après avoir tenté vainement de s'engager dans l'armée pour se battre aux côtés des Alliés, Steve Rogers, frêle et timide, se porte volontaire pour participer à un programme expérimental qui va le transformer en un Super Soldat connu sous le nom de Captain America. Sous le commandement du colonel Chester Phillips, il s'apprête à affronter HYDRA, l'organisation scientifique secrète des nazis dirigée par le redoutable Crâne Rouge, aux côtés de Bucky Barnes et Peggy Carter...",
             "collectionId": 131295,
             "collectionNom": "Captain America - Saga",
-            "type": "Film",
-            "studio": "Marvel",
-            "ignoreInCollection": false
+            "collectionDescription": "Steven « Steve » Rogers, alias Captain America est un super-héros évoluant dans l'univers Marvel de la maison d'édition Marvel Comics. Créé par scénariste Joe Simon et le dessinateur Jack Kirby, le personnage de fiction apparaît pour la première fois dans le comic book Captain America Comics #1 en décembre 1940",
+            "collectionImage": "https://image.tmdb.org/t/p/w500/1nefddmvyXD8N2R5o6qU9U7Ty3w.jpg",
+            "collectionTmdbUrl": "https://www.themoviedb.org/collection/131295"
         },
         {
             "id": "cars_cd1",
@@ -5750,36 +5733,6 @@
             "ignoreInCollection": false
         },
         {
-            "id": "tmdb_402543",
-            "titre": "Danse ta vie : L'Affrontement",
-            "annee": 2016,
-            "langue": [
-                "TBD"
-            ],
-            "taille": 0,
-            "genre": [
-                "Comédie musicale"
-            ],
-            "image": "https://image.tmdb.org/t/p/w342/ukaNSLrmzfP3ZHqLcaWCl7ogH0o.jpg",
-            "fichier": null,
-            "nomFichier": null,
-            "tmdbId": 402543,
-            "tmdbUrl": "https://www.themoviedb.org/movie/402543",
-            "doublonExact": false,
-            "doublonProbable": false,
-            "groupeDoublon": null,
-            "dateAjout": null,
-            "titreTmdb": "Danse ta vie : L'Affrontement",
-            "titreOriginal": "Center Stage: On Pointe",
-            "anneeTmdb": 2016,
-            "descriptionTmdb": "Dans Center Stage: On Pointe, Jonathan Reeves (Gallagher) doit apporter du style contemporain et moderne dans l'académie américaine de ballet ...",
-            "collectionId": 246839,
-            "collectionNom": "Danse ta vie - Saga",
-            "type": "Film",
-            "studio": null,
-            "ignoreInCollection": false
-        },
-        {
             "id": "danse_ta_vie_1_center_stage",
             "titre": "Danse Ta Vie 1 Center Stage",
             "annee": null,
@@ -6091,36 +6044,6 @@
             "studio": null
         },
         {
-            "id": "tmdb_47964",
-            "titre": "Die Hard : Belle journée pour mourir",
-            "annee": 2013,
-            "langue": [
-                "TBD"
-            ],
-            "taille": 0,
-            "genre": [
-                "Action"
-            ],
-            "image": "https://image.tmdb.org/t/p/w342/aBo2EsfKCdcZelx1uFoTg6l0fA2.jpg",
-            "fichier": null,
-            "nomFichier": null,
-            "tmdbId": 47964,
-            "tmdbUrl": "https://www.themoviedb.org/movie/47964",
-            "doublonExact": false,
-            "doublonProbable": false,
-            "groupeDoublon": null,
-            "dateAjout": null,
-            "titreTmdb": "Die Hard : Belle journée pour mourir",
-            "titreOriginal": "A Good Day to Die Hard",
-            "anneeTmdb": 2013,
-            "descriptionTmdb": "John McClane, le flic sans état d’âme, est vraiment au mauvais endroit au mauvais moment, à Moscou, pour aider son fils Jack qu’il ne voit plus. Entre la mafia russe qui veut leur faire la peau et leur combat pour éviter le déclenchement d’une guerre, les McClane découvrent que leurs méthodes pourtant bien différentes font d’eux des héros que rien ne peut arrêter.",
-            "collectionId": 1570,
-            "collectionNom": "Die Hard - Saga",
-            "type": "Film",
-            "studio": null,
-            "ignoreInCollection": false
-        },
-        {
             "id": "die_hard_2_die_harder_bruce_willis_action_1990",
             "titre": "Die Hard 2 Die Harder Bruce Willis Action",
             "annee": 1990,
@@ -6318,17 +6241,29 @@
                 "TBD"
             ],
             "taille": 1319343530,
-            "genre": null,
-            "image": null,
+            "genre": [
+                "Action",
+                "Thriller"
+            ],
+            "image": "https://image.tmdb.org/t/p/w342/1nOVVjbf8ucbeLmIlK5D2kCQQST.jpg",
             "fichier": "/03_Films/die.hard.1988.720p.bluray.x264-nezu.mkv",
             "nomFichier": "die.hard.1988.720p.bluray.x264-nezu.mkv",
             "imdbId": null,
-            "tmdbId": null,
-            "tmdbUrl": null,
+            "tmdbId": 562,
+            "tmdbUrl": "https://www.themoviedb.org/movie/562",
             "doublonExact": false,
             "doublonProbable": false,
             "groupeDoublon": null,
-            "dateAjout": "2026-11-06T19:39:20.775Z"
+            "dateAjout": "2026-11-06T19:39:20.775Z",
+            "titreTmdb": "Piège de cristal",
+            "anneeTmdb": "1988",
+            "dureeTmdb": 132,
+            "descriptionTmdb": "John McClane, un policier de New York, tente de sauver sa femme Holly Gennaro et un groupe d'autres personnes prises en otage par le terroriste allemand Hans Gruber lors d'une fête de Noël au Nakatomi Plaza de Los Angeles.",
+            "collectionId": 1570,
+            "collectionNom": "Die Hard - Saga",
+            "collectionDescription": "Une série de films d'action centrés autour du personnage de John McClane, un détective de police de New York City qui se retrouve en lutte contre un groupe de terroristes dans chaque film.",
+            "collectionImage": "https://image.tmdb.org/t/p/w500/bFZRGXeLLUjnp3F8zzwkvrvPHWD.jpg",
+            "collectionTmdbUrl": "https://www.themoviedb.org/collection/1570"
         },
         {
             "id": "doctor_strange_hd_cpg_2016",
@@ -7495,36 +7430,6 @@
             "anneeTmdb": "2012",
             "dureeTmdb": 79,
             "descriptionTmdb": "Dans le monde conventionnel des ours, il est mal vu de se lier d’amitié avec une souris. Et pourtant, Ernest, gros ours marginal, clown et musicien, va accueillir chez lui la petite Célestine, une orpheline qui a fui le monde souterrain des rongeurs. Ces deux solitaires vont se soutenir et se réconforter, et bousculer ainsi l’ordre établi.",
-            "collectionId": 989657,
-            "collectionNom": "Ernest & Célestine - Saga",
-            "type": "Animation",
-            "studio": null,
-            "ignoreInCollection": false
-        },
-        {
-            "id": "tmdb_947219",
-            "titre": "Ernest et Célestine : Le Voyage en Charabie",
-            "annee": 2022,
-            "langue": [
-                "TBD"
-            ],
-            "taille": 0,
-            "genre": [
-                "Comédie"
-            ],
-            "image": "https://image.tmdb.org/t/p/w342/e2C0ElYfdvuGylhyCHbY2VzqFHY.jpg",
-            "fichier": null,
-            "nomFichier": null,
-            "tmdbId": 947219,
-            "tmdbUrl": "https://www.themoviedb.org/movie/947219",
-            "doublonExact": false,
-            "doublonProbable": false,
-            "groupeDoublon": null,
-            "dateAjout": null,
-            "titreTmdb": "Ernest et Célestine : Le Voyage en Charabie",
-            "titreOriginal": "Ernest et Célestine : Le Voyage en Charabie",
-            "anneeTmdb": 2022,
-            "descriptionTmdb": "Ernest et Célestine retournent au pays d’Ernest, la Charabie, pour faire réparer son précieux violon cassé. Ils découvrent alors que la musique est bannie dans tout le pays depuis plusieurs années. Pour nos deux héros, il est impensable de vivre sans musique ! Accompagnés de complices, dont un mystérieux justicier masqué, Ernest et Célestine vont tenter de réparer cette injustice afin de ramener la joie au pays des ours.",
             "collectionId": 989657,
             "collectionNom": "Ernest & Célestine - Saga",
             "type": "Animation",
@@ -11225,36 +11130,6 @@
             "ignoreInCollection": false
         },
         {
-            "id": "tmdb_425274",
-            "titre": "Insaisissables 3",
-            "annee": 2025,
-            "langue": [
-                "TBD"
-            ],
-            "taille": 0,
-            "genre": [
-                "Action"
-            ],
-            "image": "https://image.tmdb.org/t/p/w342/rfjuf6kNLVnH8qOk6UZJBHQHKlF.jpg",
-            "fichier": null,
-            "nomFichier": null,
-            "tmdbId": 425274,
-            "tmdbUrl": "https://www.themoviedb.org/movie/425274",
-            "doublonExact": false,
-            "doublonProbable": false,
-            "groupeDoublon": null,
-            "dateAjout": null,
-            "titreTmdb": "Insaisissables 3",
-            "titreOriginal": "Now You See Me: Now You Don't",
-            "anneeTmdb": 2025,
-            "descriptionTmdb": "Les Cavaliers sont de retour pour le braquage le plus impressionnant jamais imaginé ! Accompagnés d'un groupe de jeunes magiciens qui espèrent suivre leur trace, ils vont devoir repousser les limites de l'illusion pour orchestrer leur tour le plus spectaculaire : dérober le joyau le plus précieux du monde des mains d'une redoutable organisation criminelle…",
-            "collectionId": 382685,
-            "collectionNom": "Insaisissables - Saga",
-            "type": "Film",
-            "studio": null,
-            "ignoreInCollection": false
-        },
-        {
             "id": "intouchables_2011",
             "titre": "Intouchables",
             "annee": 2011,
@@ -11345,36 +11220,6 @@
             "studio": null
         },
         {
-            "id": "tmdb_14756",
-            "titre": "Ip Man",
-            "annee": 2008,
-            "langue": [
-                "TBD"
-            ],
-            "taille": 0,
-            "genre": [
-                "Action"
-            ],
-            "image": "https://image.tmdb.org/t/p/w342/7fHSYpgGgPBQKUrvDlhJDPfGZQg.jpg",
-            "fichier": null,
-            "nomFichier": null,
-            "tmdbId": 14756,
-            "tmdbUrl": "https://www.themoviedb.org/movie/14756",
-            "doublonExact": false,
-            "doublonProbable": false,
-            "groupeDoublon": null,
-            "dateAjout": null,
-            "titreTmdb": "Ip Man",
-            "titreOriginal": "葉問",
-            "anneeTmdb": 2008,
-            "descriptionTmdb": "Film biographique sur la vie de Ip Man, un maître de Kung-Fu spécialisé dans le style Wing Chun et qui fut le maître de Bruce Lee. Dans les années 30, Ip Man vit à Foshan dans le sud de la Chine, lors de l'occupation japonaise. Face à ses indéniables talents en matière d'arts martiaux, les Japonais lui demandent d'entraîner les soldats, ce qu'il refuse catégoriquement. Il va alors devoir lutter pour sa survie.",
-            "collectionId": 70068,
-            "collectionNom": "Ip Man - Saga",
-            "type": "Film",
-            "studio": null,
-            "ignoreInCollection": false
-        },
-        {
             "id": "ip_man_1_ghz_2008",
             "titre": "Ip Man 1 GHZ",
             "annee": 2008,
@@ -11407,36 +11252,6 @@
             "collectionDescription": "Ip-Man est une série de films réalisé par le Hongkongais Wilson Yip mettant en scène Donnie Yen. Ce dernier interprète le célèbre maître chinois de wing chun \"Yip Man\" qui a notamment été le maître du mythique Bruce Lee !  Avec un premier film sorti en 2008 Ip Man avait tout simplement relancé le film d'art Martiaux made in Hongkong. Produit pour un peu moins de 12 millions de dollars le premier films avait tout simplement fait trembler les chiffres du Box Office. En 2019 la sortie de Ip Man 4 est attendu par les fans du monde entier et réunit plus de 180 millions de dollars de recette mondiale ! Pour ma part les deux premiers films sortent vraiment du lot. Malgré la présence de Mike Tyson Ip Man 3 manque, au final, un peu d'originalité scénaristique... Coté critique, Ip Man 4 a, apparemment, mis tout le monde d'accord....",
             "collectionImage": "https://image.tmdb.org/t/p/w500/d5025iuay2UTeviFdu5zKKurfg4.jpg",
             "collectionTmdbUrl": "https://www.themoviedb.org/collection/70068"
-        },
-        {
-            "id": "tmdb_37472",
-            "titre": "Ip Man 2",
-            "annee": 2010,
-            "langue": [
-                "TBD"
-            ],
-            "taille": 0,
-            "genre": [
-                "Action"
-            ],
-            "image": "https://image.tmdb.org/t/p/w342/7HtZ7U1hfrtZAWOEgEv8x0lP4nr.jpg",
-            "fichier": null,
-            "nomFichier": null,
-            "tmdbId": 37472,
-            "tmdbUrl": "https://www.themoviedb.org/movie/37472",
-            "doublonExact": false,
-            "doublonProbable": false,
-            "groupeDoublon": null,
-            "dateAjout": null,
-            "titreTmdb": "Ip Man 2",
-            "titreOriginal": "葉問2",
-            "anneeTmdb": 2010,
-            "descriptionTmdb": "Ip Man a émigré à Hong Kong où il prévoit d'introduire le Wing Chun dans la région, mais sur l'île, il rencontre de nombreux obstacles y compris « Hung Ga » un des maître d'arts martiaux locaux qui enseignent. Plus tard, il a des ennuis avec un commissaire de police corrompu qui ordonne la mort de Hung. Ip Man est ensuite défié par un champion de boxe. Afin de préserver la dignité du peuple chinois et de prouver que sa forme de Kung Fu est la meilleure, Ip Man décide de relever le défi.",
-            "collectionId": 70068,
-            "collectionNom": "Ip Man - Saga",
-            "type": "Film",
-            "studio": null,
-            "ignoreInCollection": false
         },
         {
             "id": "ip_man_2_chi_spa_fre_bymetalh_2010",
@@ -11496,36 +11311,6 @@
             "anneeTmdb": "2015",
             "dureeTmdb": 105,
             "descriptionTmdb": "Lorsque qu'une bande de gangsters dirigée par un promoteur immobilier corrompu cherche à prendre le contrôle de la ville, Ip reprend du service.",
-            "collectionId": 70068,
-            "collectionNom": "Ip Man - Saga",
-            "type": "Film",
-            "studio": null,
-            "ignoreInCollection": false
-        },
-        {
-            "id": "tmdb_449924",
-            "titre": "Ip Man 4 : Le Dernier Combat",
-            "annee": 2019,
-            "langue": [
-                "TBD"
-            ],
-            "taille": 0,
-            "genre": [
-                "Action"
-            ],
-            "image": "https://image.tmdb.org/t/p/w342/36zQcTVrOm69fgn34GuTX2NHTsF.jpg",
-            "fichier": null,
-            "nomFichier": null,
-            "tmdbId": 449924,
-            "tmdbUrl": "https://www.themoviedb.org/movie/449924",
-            "doublonExact": false,
-            "doublonProbable": false,
-            "groupeDoublon": null,
-            "dateAjout": null,
-            "titreTmdb": "Ip Man 4 : Le Dernier Combat",
-            "titreOriginal": "葉問4",
-            "anneeTmdb": 2019,
-            "descriptionTmdb": "Ip Man se rend aux États-Unis à la demande de Bruce Lee afin d'apaiser les tensions entre les maîtres locaux du Kung-fu et son protégé. Il se retrouve très vite impliqué dans un différend raciste entre les forces armées locales et une école d'arts martiaux chinoise établie dans le quartier de Chinatown à San Francisco.",
             "collectionId": 70068,
             "collectionNom": "Ip Man - Saga",
             "type": "Film",
@@ -12215,36 +12000,6 @@
             "ignoreInCollection": true
         },
         {
-            "id": "tmdb_463272",
-            "titre": "Johnny English contre-attaque",
-            "annee": 2018,
-            "langue": [
-                "TBD"
-            ],
-            "taille": 0,
-            "genre": [
-                "Action"
-            ],
-            "image": "https://image.tmdb.org/t/p/w342/lkYOD4vYsuhRKQ8grKjUY9acWdF.jpg",
-            "fichier": null,
-            "nomFichier": null,
-            "tmdbId": 463272,
-            "tmdbUrl": "https://www.themoviedb.org/movie/463272",
-            "doublonExact": false,
-            "doublonProbable": false,
-            "groupeDoublon": null,
-            "dateAjout": null,
-            "titreTmdb": "Johnny English contre-attaque",
-            "titreOriginal": "Johnny English Strikes Again",
-            "anneeTmdb": 2018,
-            "descriptionTmdb": "Une cyberattaque révèle l’identité de tous les agents britanniques sous couverture. Johnny English devient alors le dernier espoir des services secrets. Rappelé de sa retraite, il plonge tête la première dans sa mission : découvrir qui est le génie du piratage qui se cache derrière ces attaques. Avec ses méthodes obsolètes Johnny English doit relever les défis de la technologie moderne pour assurer la réussite de sa mission.",
-            "collectionId": 86117,
-            "collectionNom": "Johnny English - Saga",
-            "type": "Film",
-            "studio": null,
-            "ignoreInCollection": false
-        },
-        {
             "id": "johnny_reborn_2011",
             "titre": "Johnny Reborn",
             "annee": 2011,
@@ -12501,36 +12256,6 @@
             "studio": null
         },
         {
-            "id": "tmdb_1885",
-            "titre": "Karate Kid",
-            "annee": 1984,
-            "langue": [
-                "TBD"
-            ],
-            "taille": 0,
-            "genre": [
-                "Action"
-            ],
-            "image": "https://image.tmdb.org/t/p/w342/h6pD4G2ogPnzACofNIdjERsbnTZ.jpg",
-            "fichier": null,
-            "nomFichier": null,
-            "tmdbId": 1885,
-            "tmdbUrl": "https://www.themoviedb.org/movie/1885",
-            "doublonExact": false,
-            "doublonProbable": true,
-            "groupeDoublon": "karate_kid",
-            "dateAjout": null,
-            "titreTmdb": "Karate Kid",
-            "titreOriginal": "The Karate Kid",
-            "anneeTmdb": 1984,
-            "descriptionTmdb": "Daniel quitte le New Jersey pour s’installer avec sa mère en Californie. À l’école, ses nouveaux camarades de classe l’isolent et le persécutent. Comment faire face ? En se laissant aller à son tour à la violence ? À la haine ? Et ce vieux Japonais plein de sagesse, fera‐t‐il de lui un champion de karaté ? Transformera‐t‐il sa vision de la vie ?",
-            "collectionId": 8580,
-            "collectionNom": "Karate Kid - Saga",
-            "type": "Film",
-            "studio": null,
-            "ignoreInCollection": false
-        },
-        {
             "id": "karate_kid_1984",
             "titre": "Karate Kid",
             "annee": 1984,
@@ -12550,8 +12275,8 @@
             "tmdbId": 1885,
             "tmdbUrl": "https://www.themoviedb.org/movie/1885",
             "doublonExact": false,
-            "doublonProbable": true,
-            "groupeDoublon": "karate_kid",
+            "doublonProbable": false,
+            "groupeDoublon": null,
             "dateAjout": "2026-11-06T19:39:20.780Z",
             "titreTmdb": "Karate Kid",
             "anneeTmdb": "1984",
@@ -13497,36 +13222,6 @@
             "anneeTmdb": "1992",
             "dureeTmdb": 118,
             "descriptionTmdb": "Le sergent Murtaugh est à deux doigts de la retraite, mais une imprudence de son partenaire Riggs leur vaut d'être rétrogradés au rang de simple flic. Ils n'en décident pas moins de continuer à leur compte l'enquête commencée sur un trafic d'armes volées dans leur commissariat, en compagnie de Lorna Cole, énergique inspectrice de l'IGS.",
-            "collectionId": 945,
-            "collectionNom": "L'Arme Fatale - Saga",
-            "type": "Film",
-            "studio": null,
-            "ignoreInCollection": false
-        },
-        {
-            "id": "tmdb_944",
-            "titre": "L'Arme fatale 4",
-            "annee": 1998,
-            "langue": [
-                "TBD"
-            ],
-            "taille": 0,
-            "genre": [
-                "Action"
-            ],
-            "image": "https://image.tmdb.org/t/p/w342/8wUNoQ0Q92dHSXqdq7mceGudasg.jpg",
-            "fichier": null,
-            "nomFichier": null,
-            "tmdbId": 944,
-            "tmdbUrl": "https://www.themoviedb.org/movie/944",
-            "doublonExact": false,
-            "doublonProbable": false,
-            "groupeDoublon": null,
-            "dateAjout": null,
-            "titreTmdb": "L'Arme fatale 4",
-            "titreOriginal": "Lethal Weapon 4",
-            "anneeTmdb": 1998,
-            "descriptionTmdb": "Les flics de choc Martin Riggs et Roger Murtaugh, accompagnés de la troublante et explosive Lorna Cole et de l'encombrant Leo Getz, sont de retour pour de nouvelles aventures à tombeau ouvert. Cette fois-ci, pour avoir fourré leurs nez dans une histoire d'immigration clandestine, ils se mettent à dos toute la mafia chinoise.",
             "collectionId": 945,
             "collectionNom": "L'Arme Fatale - Saga",
             "type": "Film",
@@ -16694,36 +16389,6 @@
             "ignoreInCollection": true
         },
         {
-            "id": "tmdb_575265",
-            "titre": "Mission : Impossible - The Final Reckoning",
-            "annee": 2025,
-            "langue": [
-                "TBD"
-            ],
-            "taille": 0,
-            "genre": [
-                "Action"
-            ],
-            "image": "https://image.tmdb.org/t/p/w342/AozMgdALZuR1hDPZt2a1aXiWmL4.jpg",
-            "fichier": null,
-            "nomFichier": null,
-            "tmdbId": 575265,
-            "tmdbUrl": "https://www.themoviedb.org/movie/575265",
-            "doublonExact": false,
-            "doublonProbable": true,
-            "groupeDoublon": "mission_impossible_the_final_reckoning",
-            "dateAjout": null,
-            "titreTmdb": "Mission : Impossible - The Final Reckoning",
-            "titreOriginal": "Mission: Impossible - The Final Reckoning",
-            "anneeTmdb": 2025,
-            "descriptionTmdb": "Ethan Hunt se rend à Londres avec son équipe dans l'espoir de remonter la piste du mystérieux Gabriel, qu'il a affronté deux mois auparavant à bord de l'Orient-Express et qui détient la clé contrôlant l’intelligence artificielle toute puissante surnommée l'Entité. Adulée par les uns, redoutée par les autres, l’Entité se distingue par sa capacité à prédire toutes les éventualités possibles. Elle connaît parfaitement les forces et faiblesses d’Ethan et de son équipe. Gabriel compte l'utiliser pour mettre en œuvre son plan ultime : annihiler Ethan et son équipe, s’emparer de tous les systèmes de défense planétaires et déclencher la Troisième Guerre mondiale.",
-            "collectionId": 87359,
-            "collectionNom": "Mission : Impossible - Saga",
-            "type": "Film",
-            "studio": null,
-            "ignoreInCollection": false
-        },
-        {
             "id": "mission_impossible_1",
             "titre": "Mission Impossible 1",
             "annee": null,
@@ -17080,8 +16745,8 @@
             "tmdbId": 575265,
             "tmdbUrl": "https://www.themoviedb.org/movie/575265",
             "doublonExact": false,
-            "doublonProbable": true,
-            "groupeDoublon": "mission_impossible_the_final_reckoning",
+            "doublonProbable": false,
+            "groupeDoublon": null,
             "dateAjout": "2026-11-06T19:39:20.781Z",
             "titreTmdb": "Mission : Impossible - The Final Reckoning",
             "anneeTmdb": "2025",
@@ -17397,36 +17062,6 @@
             "collectionTmdbUrl": null,
             "type": "Film",
             "studio": null
-        },
-        {
-            "id": "tmdb_370172",
-            "titre": "Mourir peut attendre",
-            "annee": 2021,
-            "langue": [
-                "TBD"
-            ],
-            "taille": 0,
-            "genre": [
-                "Espionnage"
-            ],
-            "image": "https://image.tmdb.org/t/p/w342/qseURFLjRBCqFCNCKmS2uwM9IOj.jpg",
-            "fichier": null,
-            "nomFichier": null,
-            "tmdbId": 370172,
-            "tmdbUrl": "https://www.themoviedb.org/movie/370172",
-            "doublonExact": false,
-            "doublonProbable": false,
-            "groupeDoublon": null,
-            "dateAjout": null,
-            "titreTmdb": "Mourir peut attendre",
-            "titreOriginal": "No Time to Die",
-            "anneeTmdb": 2021,
-            "descriptionTmdb": "James Bond a quitté les services secrets et coule des jours heureux en Jamaïque. Mais sa tranquillité est de courte durée car son vieil ami Felix Leiter de la CIA débarque pour solliciter son aide : il s'agit de sauver un scientifique qui vient d'être kidnappé. Mais la mission se révèle bien plus dangereuse que prévu et Bond se retrouve aux trousses d'un mystérieux ennemi détenant de redoutables armes technologiques…",
-            "collectionId": 645,
-            "collectionNom": "James Bond 007 - Saga",
-            "type": "Film",
-            "studio": null,
-            "ignoreInCollection": false
         },
         {
             "id": "mr_mrs_smith",
@@ -18074,36 +17709,6 @@
             "studio": null
         },
         {
-            "id": "tmdb_604563",
-            "titre": "OSS 117 : Alerte rouge en Afrique noire",
-            "annee": 2021,
-            "langue": [
-                "TBD"
-            ],
-            "taille": 0,
-            "genre": [
-                "Comédie"
-            ],
-            "image": "https://image.tmdb.org/t/p/w342/m3iAyhvWHyp9xith6ydOeBVh9bq.jpg",
-            "fichier": null,
-            "nomFichier": null,
-            "tmdbId": 604563,
-            "tmdbUrl": "https://www.themoviedb.org/movie/604563",
-            "doublonExact": false,
-            "doublonProbable": false,
-            "groupeDoublon": null,
-            "dateAjout": null,
-            "titreTmdb": "OSS 117 : Alerte rouge en Afrique noire",
-            "titreOriginal": "OSS 117 : Alerte rouge en Afrique noire",
-            "anneeTmdb": 2021,
-            "descriptionTmdb": "1981. Hubert Bonisseur de La Bath, alias OSS 117, est de retour. Pour cette nouvelle mission, plus délicate, plus périlleuse et plus torride que jamais, il est contraint de faire équipe avec un jeune collègue, le prometteur OSS 1001.",
-            "collectionId": 1413999,
-            "collectionNom": "OSS 117 - Saga",
-            "type": "Film",
-            "studio": null,
-            "ignoreInCollection": false
-        },
-        {
             "id": "oss_117_alerte_rouge_afrique_noire_2021",
             "titre": "OSS 117 Alerte Rouge Afrique Noire",
             "annee": 2021,
@@ -18615,36 +18220,6 @@
             "collectionNom": null,
             "type": "Film",
             "studio": null
-        },
-        {
-            "id": "tmdb_562",
-            "titre": "Piège de cristal",
-            "annee": 1988,
-            "langue": [
-                "TBD"
-            ],
-            "taille": 0,
-            "genre": [
-                "Action"
-            ],
-            "image": "https://image.tmdb.org/t/p/w342/1nOVVjbf8ucbeLmIlK5D2kCQQST.jpg",
-            "fichier": null,
-            "nomFichier": null,
-            "tmdbId": 562,
-            "tmdbUrl": "https://www.themoviedb.org/movie/562",
-            "doublonExact": false,
-            "doublonProbable": false,
-            "groupeDoublon": null,
-            "dateAjout": null,
-            "titreTmdb": "Piège de cristal",
-            "titreOriginal": "Die Hard",
-            "anneeTmdb": 1988,
-            "descriptionTmdb": "John McClane, un policier de New York, tente de sauver sa femme Holly Gennaro et un groupe d'autres personnes prises en otage par le terroriste allemand Hans Gruber lors d'une fête de Noël au Nakatomi Plaza de Los Angeles.",
-            "collectionId": 1570,
-            "collectionNom": "Die Hard - Saga",
-            "type": "Film",
-            "studio": null,
-            "ignoreInCollection": false
         },
         {
             "id": "la_planete_au_tresor_un_nouvel_univers_disney_n_78",
@@ -20086,46 +19661,6 @@
             "studio": null
         },
         {
-            "id": "sample",
-            "titre": "sample",
-            "annee": null,
-            "langue": [
-                "TBD"
-            ],
-            "taille": 11372544,
-            "genre": null,
-            "image": null,
-            "fichier": "/03_Films/sample.avi",
-            "nomFichier": "sample.avi",
-            "imdbId": null,
-            "tmdbId": null,
-            "tmdbUrl": null,
-            "doublonExact": false,
-            "doublonProbable": true,
-            "groupeDoublon": "sample",
-            "dateAjout": "2026-11-06T19:39:20.784Z"
-        },
-        {
-            "id": "sample",
-            "titre": "Sample",
-            "annee": null,
-            "langue": [
-                "TBD"
-            ],
-            "taille": 12909648,
-            "genre": null,
-            "image": null,
-            "fichier": "/03_Films/Sample.mkv",
-            "nomFichier": "Sample.mkv",
-            "imdbId": null,
-            "tmdbId": null,
-            "tmdbUrl": null,
-            "doublonExact": false,
-            "doublonProbable": true,
-            "groupeDoublon": "sample",
-            "dateAjout": "2026-11-06T19:39:20.784Z"
-        },
-        {
             "id": "seal_team_2021",
             "titre": "Seal Team",
             "annee": 2021,
@@ -21109,36 +20644,6 @@
             "studio": null
         },
         {
-            "id": "tmdb_1639",
-            "titre": "Speed 2 : Cap sur le danger",
-            "annee": 1997,
-            "langue": [
-                "TBD"
-            ],
-            "taille": 0,
-            "genre": [
-                "Action"
-            ],
-            "image": "https://image.tmdb.org/t/p/w342/rqhKm4GdFABBvYv6eDXeWiv4h7k.jpg",
-            "fichier": null,
-            "nomFichier": null,
-            "tmdbId": 1639,
-            "tmdbUrl": "https://www.themoviedb.org/movie/1639",
-            "doublonExact": false,
-            "doublonProbable": false,
-            "groupeDoublon": null,
-            "dateAjout": null,
-            "titreTmdb": "Speed 2 : Cap sur le danger",
-            "titreOriginal": "Speed 2: Cruise Control",
-            "anneeTmdb": 1997,
-            "descriptionTmdb": "Alex et Annie partent en croisière dans les Caraïbes sur un luxueux paquebot. Un policier de bord est intrigué par le comportement nerveux d'un certain Geiger qui se prétend golfeur. Il est encore loin de s'imaginer que Geiger transporte avec lui tout un arsenal qui va mettre la vie des passagers en danger.",
-            "collectionId": 43064,
-            "collectionNom": "Speed - Saga",
-            "type": "Film",
-            "studio": null,
-            "ignoreInCollection": false
-        },
-        {
             "id": "speed_2_cruise_control_1997",
             "titre": "Speed 2 Cruise Control",
             "annee": 1997,
@@ -21169,36 +20674,6 @@
             "collectionDescription": "Speed, est un film d'action américain de 1994 réalisé par Jan de Bont. Jack Traven, officier du LAPD, devient le centre d'intérêt d'Howard Payne, un bombardier et extorqueur, sergent à la retraite de l'équipe de déminage d'Atlanta. Le film se déroule à Los Angeles en 1993. En 1997, une suite, Speed 2 : Cruise Control, sort. Sandra Bullock accepte de jouer à nouveau le rôle d'Annie, pour obtenir un soutien financier pour un autre projet, mais Keanu Reeves décline l'offre de revenir dans le rôle de Jack. En conséquence, Jason Patric a été intégré à l'histoire en tant qu'Alex Shaw, le nouveau petit ami d'Annie, qui a rompu avec Jack parce qu'elle s'inquiétait du mode de vie dangereux de ce dernier. Willem Dafoe joue le rôle du méchant John Geiger, et Glenn Plummer (qui joue la victime du carjacking de Reeves) est également un caméléon dans le rôle d'un conducteur de bateau. Le film est considéré comme l'une des pires suites de tous les temps.",
             "collectionImage": "https://image.tmdb.org/t/p/w500/o0eZDtoeMSxQbT3hjPtF0qSDJU0.jpg",
             "collectionTmdbUrl": "https://www.themoviedb.org/collection/43064"
-        },
-        {
-            "id": "tmdb_969681",
-            "titre": "Spider-Man : Brand New Day",
-            "annee": 2026,
-            "langue": [
-                "TBD"
-            ],
-            "taille": 0,
-            "genre": [
-                "Science-Fiction"
-            ],
-            "image": "https://image.tmdb.org/t/p/w342/6OEtkkzoyusZDm2uMJojlWZSLR9.jpg",
-            "fichier": null,
-            "nomFichier": null,
-            "tmdbId": 969681,
-            "tmdbUrl": "https://www.themoviedb.org/movie/969681",
-            "doublonExact": false,
-            "doublonProbable": false,
-            "groupeDoublon": null,
-            "dateAjout": null,
-            "titreTmdb": "Spider-Man : Brand New Day",
-            "titreOriginal": "Spider-Man: Brand New Day",
-            "anneeTmdb": 2026,
-            "descriptionTmdb": "Quatre ans se sont écoulés, Peter, désormais adulte, vit seul, s'est volontairement effacé de la vie et des souvenirs de ses proches. Luttant contre le crime dans un New York qui ne le reconnaît plus, il se consacre entièrement à la protection de la ville - un Spider-Man à plein temps - mais à mesure que les responsabilités s'intensifient, la pression provoque une transformation physique surprenante qui menace son existence, tandis qu'une étrange nouvelle vague de crimes donne naissance à l'une des menaces les plus redoutables qu'il ait jamais affrontées.",
-            "collectionId": 531241,
-            "collectionNom": "Spider-Man (MCU) - Saga",
-            "type": "Film",
-            "studio": "Marvel",
-            "ignoreInCollection": false
         },
         {
             "id": "tmdb_911916",
@@ -21793,40 +21268,6 @@
             "ignoreInCollection": false
         },
         {
-            "id": "taken_2_artefac_2012",
-            "titre": "Taken 2",
-            "annee": 2012,
-            "langue": [
-                "VF"
-            ],
-            "taille": 1466744832,
-            "genre": [
-                "Action"
-            ],
-            "image": "https://image.tmdb.org/t/p/w342/uzfVdeYUAuJNLhIW0kbFrD9PRWc.jpg",
-            "fichier": "/Box_Films/Action/Taken/Taken.2.2012.TRUEFRENCH.DVDRiP.XViD.AC3-ARTEFAC.avi",
-            "nomFichier": "Taken.2.2012.TRUEFRENCH.DVDRiP.XViD.AC3-ARTEFAC.avi",
-            "imdbId": null,
-            "tmdbId": 82675,
-            "tmdbUrl": "https://www.themoviedb.org/movie/82675",
-            "doublonExact": false,
-            "doublonProbable": true,
-            "groupeDoublon": "taken_2",
-            "dateAjout": "2026-08-22T08:23:33.556Z",
-            "titreTmdb": "Taken 2",
-            "anneeTmdb": "2012",
-            "dureeTmdb": 98,
-            "descriptionTmdb": "L'agent de la CIA Bryan Mills a beau avoir sauvé sa fille Kim des mains de kidnappeurs Albanais, ses problèmes ne sont pas terminés, puisque le père d'un des kidnappeurs décide de se venger en prenant Bryan et sa femme en otages alors que la famille est en vacances. C'est au tour de Kim de sauver ses parents, en employant les techniques particulières de son père.",
-            "collectionId": 135483,
-            "collectionNom": "Taken - Saga",
-            "collectionDescription": "Les aventures d'un ancien agent des services secrets américains, Bryan Mills, qui devra user de tout son talent pour s'extirper des périls le menaçant lui et sa famille.",
-            "collectionImage": "https://image.tmdb.org/t/p/w500/dObT7wPx4V4ZZ3hwBJws0EHuDlX.jpg",
-            "collectionTmdbUrl": "https://www.themoviedb.org/collection/135483",
-            "type": "Film",
-            "studio": null,
-            "ignoreInCollection": false
-        },
-        {
             "id": "taken_2_2012",
             "titre": "Taken 2",
             "annee": 2012,
@@ -21861,31 +21302,35 @@
             "collectionTmdbUrl": "https://www.themoviedb.org/collection/135483"
         },
         {
-            "id": "tmdb_260346",
-            "titre": "Taken 3",
-            "annee": 2014,
+            "id": "taken_2_artefac_2012",
+            "titre": "Taken 2",
+            "annee": 2012,
             "langue": [
-                "TBD"
+                "VF"
             ],
-            "taille": 0,
+            "taille": 1466744832,
             "genre": [
                 "Action"
             ],
-            "image": "https://image.tmdb.org/t/p/w342/2CZkH6fYKUBq7exixbGcPa4Ksc6.jpg",
-            "fichier": null,
-            "nomFichier": null,
-            "tmdbId": 260346,
-            "tmdbUrl": "https://www.themoviedb.org/movie/260346",
+            "image": "https://image.tmdb.org/t/p/w342/uzfVdeYUAuJNLhIW0kbFrD9PRWc.jpg",
+            "fichier": "/Box_Films/Action/Taken/Taken.2.2012.TRUEFRENCH.DVDRiP.XViD.AC3-ARTEFAC.avi",
+            "nomFichier": "Taken.2.2012.TRUEFRENCH.DVDRiP.XViD.AC3-ARTEFAC.avi",
+            "imdbId": null,
+            "tmdbId": 82675,
+            "tmdbUrl": "https://www.themoviedb.org/movie/82675",
             "doublonExact": false,
             "doublonProbable": true,
-            "groupeDoublon": "taken_3",
-            "dateAjout": null,
-            "titreTmdb": "Taken 3",
-            "titreOriginal": "Taken 3",
-            "anneeTmdb": 2014,
-            "descriptionTmdb": "L’ex-agent spécial Bryan Mills voit son retour à une vie tranquille bouleversé lorsqu’il est accusé à tort du meurtre de son ex-femme, chez lui, à Los Angeles. En fuite et traqué par l’inspecteur Dotzler, Mills va devoir employer ses compétences particulières une dernière fois pour trouver le véritable coupable, prouver son innocence et protéger la seule personne qui compte désormais pour lui – sa fille.",
+            "groupeDoublon": "taken_2",
+            "dateAjout": "2026-08-22T08:23:33.556Z",
+            "titreTmdb": "Taken 2",
+            "anneeTmdb": "2012",
+            "dureeTmdb": 98,
+            "descriptionTmdb": "L'agent de la CIA Bryan Mills a beau avoir sauvé sa fille Kim des mains de kidnappeurs Albanais, ses problèmes ne sont pas terminés, puisque le père d'un des kidnappeurs décide de se venger en prenant Bryan et sa femme en otages alors que la famille est en vacances. C'est au tour de Kim de sauver ses parents, en employant les techniques particulières de son père.",
             "collectionId": 135483,
             "collectionNom": "Taken - Saga",
+            "collectionDescription": "Les aventures d'un ancien agent des services secrets américains, Bryan Mills, qui devra user de tout son talent pour s'extirper des périls le menaçant lui et sa famille.",
+            "collectionImage": "https://image.tmdb.org/t/p/w500/dObT7wPx4V4ZZ3hwBJws0EHuDlX.jpg",
+            "collectionTmdbUrl": "https://www.themoviedb.org/collection/135483",
             "type": "Film",
             "studio": null,
             "ignoreInCollection": false
@@ -22122,36 +21567,6 @@
             "type": "Film",
             "studio": null,
             "ignoreInCollection": false
-        },
-        {
-            "id": "tmdb_434355",
-            "titre": "Taxi 5",
-            "annee": 2018,
-            "langue": [
-                "TBD"
-            ],
-            "taille": 0,
-            "genre": [
-                "Action"
-            ],
-            "image": "https://image.tmdb.org/t/p/w342/cRY6NShGF0FFDnRHEDTj0spUGHU.jpg",
-            "fichier": null,
-            "nomFichier": null,
-            "tmdbId": 434355,
-            "tmdbUrl": "https://www.themoviedb.org/movie/434355",
-            "doublonExact": false,
-            "doublonProbable": false,
-            "groupeDoublon": null,
-            "dateAjout": null,
-            "titreTmdb": "Taxi 5",
-            "titreOriginal": "Taxi 5",
-            "anneeTmdb": 2018,
-            "descriptionTmdb": "Sylvain Marot, super flic parisien et pilote d’exception, est muté contre son gré à la Police Municipale de Marseille. L’ex-commissaire Gibert, devenu Maire de la ville et au plus bas dans les sondages, va alors lui confier la mission de stopper le redoutable « Gang des Italiens », qui écume des bijouteries à l’aide de puissantes Ferrari. Mais pour y parvenir, Marot n’aura pas d’autre choix que de collaborer avec le petit-neveu du célèbre Daniel, Eddy Maklouf, le pire chauffeur VTC de Marseille, mais le seul à pouvoir récupérer le légendaire TAXI blanc.",
-            "collectionId": 211721,
-            "collectionNom": "Taxi - Saga",
-            "type": "Film",
-            "studio": null,
-            "ignoreInCollection": true
         },
         {
             "id": "taxi_5_1_2018",
@@ -24211,6 +23626,40 @@
             "ignoreInCollection": false
         },
         {
+            "id": "tuner_ca_2025",
+            "titre": "Tuner Ca",
+            "annee": 2025,
+            "langue": [
+                "VO",
+                "VF"
+            ],
+            "taille": 2895263723,
+            "genre": [
+                "Crime",
+                "Musique",
+                "Romance"
+            ],
+            "image": "https://image.tmdb.org/t/p/w342/z9sxdWvYJDyZeKHhBSU8Kczw7yC.jpg",
+            "fichier": "/03_Films/Tuner.2025.Multi.Ca.720P. WEBRIP.mkv",
+            "nomFichier": "Tuner.2025.Multi.Ca.720P. WEBRIP.mkv",
+            "imdbId": null,
+            "tmdbId": 1340206,
+            "tmdbUrl": "https://www.themoviedb.org/movie/1340206",
+            "doublonExact": false,
+            "doublonProbable": false,
+            "groupeDoublon": null,
+            "dateAjout": "2026-11-07T06:46:46.913Z",
+            "titreTmdb": "Le Virtuose",
+            "anneeTmdb": "2026",
+            "dureeTmdb": 109,
+            "descriptionTmdb": "Doté d'une ouïe exceptionnelle, un jeune accordeur de piano voit sa vie basculer lorsque son talent attire l'attention de criminels qui l'entraînent dans une série de cambriolages de plus en plus risqués. Malgré lui, il s'enfonce dans un engrenage dangereux qui pourrait lui coûter bien plus que sa liberté.",
+            "collectionId": null,
+            "collectionNom": null,
+            "collectionDescription": null,
+            "collectionImage": null,
+            "collectionTmdbUrl": null
+        },
+        {
             "id": "turning_2022",
             "titre": "Turning",
             "annee": 2022,
@@ -25599,36 +25048,6 @@
             "ignoreInCollection": false
         },
         {
-            "id": "tmdb_7451",
-            "titre": "xXx",
-            "annee": 2002,
-            "langue": [
-                "TBD"
-            ],
-            "taille": 0,
-            "genre": [
-                "Action"
-            ],
-            "image": "https://image.tmdb.org/t/p/w342/4nLTMNCGQ4rKsrlPVMPG4YnxV0k.jpg",
-            "fichier": null,
-            "nomFichier": null,
-            "tmdbId": 7451,
-            "tmdbUrl": "https://www.themoviedb.org/movie/7451",
-            "doublonExact": false,
-            "doublonProbable": false,
-            "groupeDoublon": null,
-            "dateAjout": null,
-            "titreTmdb": "xXx",
-            "titreOriginal": "xXx",
-            "anneeTmdb": 2002,
-            "descriptionTmdb": "Après une série de tests, Xander Cage dit « xXx », un spécialiste des sports extrêmes couvert de tatouages, est recruté par Augustus Gibbons, un agent de la National Security Agency (NSA), pour s’infiltrer dans une organisation criminelle et mettre fin à ses agissements. Dirigée par un certain Yorgi, celle‐ci se fait appeler « Anarchie 99 » et son siège se situe à Prague, en République tchèque. Gibbons est persuadé que Xander Cage réussira là où les espions conventionnels ont échoué.Ce dernier insiste toutefois pour accomplir cette mission à sa façon. Il se présente alors directement à Yorgi et se lie rapidement d’amitié avec lui, l’occasion pour Xander Cage de découvrir les terribles desseins de l’organisation.",
-            "collectionId": 52785,
-            "collectionNom": "xXx - Saga",
-            "type": "Film",
-            "studio": null,
-            "ignoreInCollection": false
-        },
-        {
             "id": "xxx_2_next_level",
             "titre": "XXX 2 the next level",
             "annee": null,
@@ -25764,36 +25183,6 @@
             "collectionDescription": "Vin Diesel interprète xXx, un agent secret rebelle travaillant pour l'administration américaine. xXx doit d'abord démanteler un reseau de criminels caché dans les montagnes pour rendre service à la patrie.",
             "collectionImage": "https://image.tmdb.org/t/p/w500/wca7mxkpJwfJNOoHllonrSqePsq.jpg",
             "collectionTmdbUrl": "https://www.themoviedb.org/collection/52785"
-        },
-        {
-            "id": "tmdb_6935",
-            "titre": "Yamakasi",
-            "annee": 2001,
-            "langue": [
-                "TBD"
-            ],
-            "taille": 0,
-            "genre": [
-                "Action"
-            ],
-            "image": "https://image.tmdb.org/t/p/w342/YRsXykyaXm3ABsfdfzxV59c17K.jpg",
-            "fichier": null,
-            "nomFichier": null,
-            "tmdbId": 6935,
-            "tmdbUrl": "https://www.themoviedb.org/movie/6935",
-            "doublonExact": false,
-            "doublonProbable": false,
-            "groupeDoublon": null,
-            "dateAjout": null,
-            "titreTmdb": "Yamakasi",
-            "titreOriginal": "Yamakasi - Les samouraïs des temps modernes",
-            "anneeTmdb": 2001,
-            "descriptionTmdb": "Une bande de jeunes athlètes banlieusards a créé sa propre discipline: l'art du déplacement. Ils bravent tous les dangers, escaladent les immeubles, effectuent des sauts vertigineux. Chaque membre a sa spécialité: Baseball est lanceur d'élite, L'Araignée se prend pour Spiderman, La Belette est une véritable anguille, Zicmu est un fou de musique, Rocket est plus rapide que l'éclair. Ils sont adoubés nouveaux modèles pour les plus jeunes et se livrent au jeu du chat et de la souris avec les autorités locales. Mais un accident survient: le petit Djamel tombe. Les Yamakasi vont devoir faire face à leurs responsabilités pour trouver l'argent nécessaire à son opération.",
-            "collectionId": 107471,
-            "collectionNom": "Yamakasi - Saga",
-            "type": "Film",
-            "studio": null,
-            "ignoreInCollection": false
         },
         {
             "id": "yamakasi_les_samourai_temps_modernes_dvdr_xvid_nl_dmt_2001",

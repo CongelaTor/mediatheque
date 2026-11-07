@@ -11,10 +11,9 @@ async function reloadCatalog(type = "all") {
       : type === "series"
         ? "Scan des séries en cours..."
         : "Scan des disques en cours...";
-
   await new Promise((resolve) => setTimeout(resolve, 500));
-
-  document.getElementById("scanLog").textContent = "";
+  const scanLog = document.getElementById("scanLog");
+  scanLog.textContent = "";
   const response = await fetch("http://localhost:9876/refresh-catalog", {
     method: "POST",
     headers: {
@@ -27,21 +26,30 @@ async function reloadCatalog(type = "all") {
   if (!response.ok) {
     const log = await response.text();
     alert(log);
-    console.error(await response.text());
+    console.error(log);
     return;
   }
-  const log = await response.text();
-
+  const reader = response.body.getReader();
+  const decoder = new TextDecoder();
+  while (true) {
+    const { value, done } = await reader.read();
+    if (done) {
+      break;
+    }
+    scanLog.textContent += decoder.decode(value, {
+      stream: true,
+    });
+    scanLog.scrollTop = scanLog.scrollHeight;
+  }
+  scanLog.textContent += decoder.decode();
   document.getElementById("scanTitle").textContent =
     type === "films"
       ? "Scan des films terminé"
       : type === "series"
         ? "Scan des séries terminé"
         : "Scan des disques terminé";
-
   await loadCatalog();
   updateStats();
-
   if (currentPage === "films" && typeof renderFilms === "function") {
     renderFilms();
   }
@@ -55,7 +63,6 @@ async function reloadCatalog(type = "all") {
   ) {
     showSerieDetails(currentSerie, currentSeason);
   }
-  document.getElementById("scanLog").textContent = log;
 }
 
 function updateStats() {
@@ -185,9 +192,28 @@ function countEpisodes() {
   return count;
 }
 function openScanModal() {
-  document.getElementById("scanModal").classList.remove("hidden");
+  const modal = document.getElementById("scanModal");
+  const header = modal.querySelector(".tmdb-modal-header");
+  if (!header.querySelector(".tmdb-modal-close")) {
+    const closeButton = document.createElement("button");
+    closeButton.className = "tmdb-modal-close";
+    closeButton.textContent = "×";
+    closeButton.onclick = closeScanModal;
+    header.appendChild(closeButton);
+  }
+  const oldCloseButton = [...modal.querySelectorAll("button")].find(
+    (button) => button.textContent.trim() === "Fermer",
+  );
+  if (oldCloseButton) {
+    oldCloseButton.style.display = "none";
+  }
+  modal.onclick = (event) => {
+    if (event.target === modal) {
+      closeScanModal();
+    }
+  };
+  modal.classList.remove("hidden");
 }
-
 function closeScanModal() {
   document.getElementById("scanModal").classList.add("hidden");
 }
