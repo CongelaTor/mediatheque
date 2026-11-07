@@ -1386,7 +1386,8 @@
             ],
             "taille": 734613504,
             "genre": [
-                "Science-Fiction"
+                "Science-Fiction",
+                "Action"
             ],
             "image": "https://image.tmdb.org/t/p/w342/kNKUCNLu1lZDGAHOBEHxR6psYHx.jpg",
             "fichier": "/01_Films/Marvel/2008 a Iron Man 1.avi",
@@ -1420,7 +1421,8 @@
             ],
             "taille": 2095937578,
             "genre": [
-                "Science-Fiction"
+                "Science-Fiction",
+                "Action"
             ],
             "image": "https://image.tmdb.org/t/p/w342/sE71EBrRMfW0NKMHlXPO55Km88X.jpg",
             "fichier": "/01_Films/Marvel/2013 a Iron.Man.3.2013.1080p.BluRay.x264.YIFY.mp4",
@@ -1519,7 +1521,7 @@
             ],
             "taille": 730900838,
             "genre": [
-                "Fantastique"
+                "Aventure"
             ],
             "image": "https://image.tmdb.org/t/p/w342/AbFn6zyKULDU7hwCzNuKx1Utpwe.jpg",
             "fichier": "/Box_Films/0 - New/Anime à trier/Ainbo.Spirit.of.the.Amazon.2021.FRENCH.HDRip.XviD-EXTREME.avi",
@@ -1613,7 +1615,7 @@
             ],
             "taille": 730163200,
             "genre": [
-                "Drame"
+                "Comédie"
             ],
             "image": "https://image.tmdb.org/t/p/w342/aHM3WOgW4jfosO2Qysa7xtcbMkV.jpg",
             "fichier": "/Box_Films/Drame/Alfie.avi",
@@ -3087,9 +3089,7 @@
                 "VF"
             ],
             "taille": 729157828,
-            "genre": [
-                "Familial"
-            ],
+            "genre": [],
             "image": "https://image.tmdb.org/t/p/w342/89lmbg1lUQEZYywy9C7NOGJZlL3.jpg",
             "fichier": "/Box_Films/Enfants/Ballerina.2016.FRENCH.BDRip.XviD-EXTREME.avi",
             "nomFichier": "Ballerina.2016.FRENCH.BDRip.XviD-EXTREME.avi",
@@ -3118,9 +3118,7 @@
                 "TBD"
             ],
             "taille": 0,
-            "genre": [
-                "Familial"
-            ],
+            "genre": [],
             "image": null,
             "fichier": null,
             "nomFichier": null,
@@ -9976,7 +9974,7 @@
             ],
             "taille": 1464421168,
             "genre": [
-                "Fantastique"
+                "Science-Fiction"
             ],
             "image": "https://image.tmdb.org/t/p/w342/eLwUFfGFnffjV331PDfwUKRgW0U.jpg",
             "fichier": "/Box_Films/0 - New/Anime à trier/Green.Snake.2021.FRENCH.HDRip.XviD-EXTREME.avi",
@@ -10832,7 +10830,7 @@
             ],
             "taille": 1447610368,
             "genre": [
-                "Drame"
+                "Comédie musicale"
             ],
             "image": "https://image.tmdb.org/t/p/w342/gzxUNGk79dHk2mUb5HrhvooHScV.jpg",
             "fichier": "/Box_Films/Check Films/Honey.Rise.Up.And.Dance.2018.FRENCH.HDRiP.XViD-FGTVF.avi",
@@ -11168,7 +11166,7 @@
             ],
             "taille": 733992960,
             "genre": [
-                "Histoire"
+                "Biopic"
             ],
             "image": "https://image.tmdb.org/t/p/w342/4zpsqUf8XFzk4sYbGSXBap1bQKh.jpg",
             "fichier": "/Box_Films/Drame/Invictus.cd1.avi",
@@ -11198,7 +11196,7 @@
             ],
             "taille": 734015488,
             "genre": [
-                "Histoire"
+                "Biopic"
             ],
             "image": "https://image.tmdb.org/t/p/w342/4zpsqUf8XFzk4sYbGSXBap1bQKh.jpg",
             "fichier": "/Box_Films/Drame/Invictus.cd2.avi",
@@ -11229,9 +11227,7 @@
             ],
             "taille": 1478811498,
             "genre": [
-                "Drame",
-                "Action",
-                "Histoire"
+                "Action"
             ],
             "image": "https://image.tmdb.org/t/p/w342/7fHSYpgGgPBQKUrvDlhJDPfGZQg.jpg",
             "fichier": "/03_Films/Ip.Man.1.2008.MULTi.BRrip.x264.AC3-GHZ.mkv",
@@ -11251,7 +11247,9 @@
             "collectionNom": "Ip Man - Saga",
             "collectionDescription": "Ip-Man est une série de films réalisé par le Hongkongais Wilson Yip mettant en scène Donnie Yen. Ce dernier interprète le célèbre maître chinois de wing chun \"Yip Man\" qui a notamment été le maître du mythique Bruce Lee !  Avec un premier film sorti en 2008 Ip Man avait tout simplement relancé le film d'art Martiaux made in Hongkong. Produit pour un peu moins de 12 millions de dollars le premier films avait tout simplement fait trembler les chiffres du Box Office. En 2019 la sortie de Ip Man 4 est attendu par les fans du monde entier et réunit plus de 180 millions de dollars de recette mondiale ! Pour ma part les deux premiers films sortent vraiment du lot. Malgré la présence de Mike Tyson Ip Man 3 manque, au final, un peu d'originalité scénaristique... Coté critique, Ip Man 4 a, apparemment, mis tout le monde d'accord....",
             "collectionImage": "https://image.tmdb.org/t/p/w500/d5025iuay2UTeviFdu5zKKurfg4.jpg",
-            "collectionTmdbUrl": "https://www.themoviedb.org/collection/70068"
+            "collectionTmdbUrl": "https://www.themoviedb.org/collection/70068",
+            "type": null,
+            "studio": null
         },
         {
             "id": "ip_man_2_chi_spa_fre_bymetalh_2010",
@@ -11262,9 +11260,7 @@
             ],
             "taille": 3130788488,
             "genre": [
-                "Action",
-                "Histoire",
-                "Drame"
+                "Action"
             ],
             "image": "https://image.tmdb.org/t/p/w342/7HtZ7U1hfrtZAWOEgEv8x0lP4nr.jpg",
             "fichier": "/03_Films/Ip.Man.2.(2010).Ita.Chi.Spa.Fre.720p.h264.byMetalh.mkv",
@@ -11284,7 +11280,9 @@
             "collectionNom": "Ip Man - Saga",
             "collectionDescription": "Ip-Man est une série de films réalisé par le Hongkongais Wilson Yip mettant en scène Donnie Yen. Ce dernier interprète le célèbre maître chinois de wing chun \"Yip Man\" qui a notamment été le maître du mythique Bruce Lee !  Avec un premier film sorti en 2008 Ip Man avait tout simplement relancé le film d'art Martiaux made in Hongkong. Produit pour un peu moins de 12 millions de dollars le premier films avait tout simplement fait trembler les chiffres du Box Office. En 2019 la sortie de Ip Man 4 est attendu par les fans du monde entier et réunit plus de 180 millions de dollars de recette mondiale ! Pour ma part les deux premiers films sortent vraiment du lot. Malgré la présence de Mike Tyson Ip Man 3 manque, au final, un peu d'originalité scénaristique... Coté critique, Ip Man 4 a, apparemment, mis tout le monde d'accord....",
             "collectionImage": "https://image.tmdb.org/t/p/w500/d5025iuay2UTeviFdu5zKKurfg4.jpg",
-            "collectionTmdbUrl": "https://www.themoviedb.org/collection/70068"
+            "collectionTmdbUrl": "https://www.themoviedb.org/collection/70068",
+            "type": null,
+            "studio": null
         },
         {
             "id": "ip_man_3_cortex91_2015",
@@ -11326,9 +11324,7 @@
             ],
             "taille": 3724676707,
             "genre": [
-                "Action",
-                "Histoire",
-                "Drame"
+                "Action"
             ],
             "image": "https://image.tmdb.org/t/p/w342/36zQcTVrOm69fgn34GuTX2NHTsF.jpg",
             "fichier": "/03_Films/Ip.Man.4.The.Finale.2019.FRENCH.720p.BluRay.x264.AC3-EXTREME.mkv",
@@ -11348,7 +11344,9 @@
             "collectionNom": "Ip Man - Saga",
             "collectionDescription": "Ip-Man est une série de films réalisé par le Hongkongais Wilson Yip mettant en scène Donnie Yen. Ce dernier interprète le célèbre maître chinois de wing chun \"Yip Man\" qui a notamment été le maître du mythique Bruce Lee !  Avec un premier film sorti en 2008 Ip Man avait tout simplement relancé le film d'art Martiaux made in Hongkong. Produit pour un peu moins de 12 millions de dollars le premier films avait tout simplement fait trembler les chiffres du Box Office. En 2019 la sortie de Ip Man 4 est attendu par les fans du monde entier et réunit plus de 180 millions de dollars de recette mondiale ! Pour ma part les deux premiers films sortent vraiment du lot. Malgré la présence de Mike Tyson Ip Man 3 manque, au final, un peu d'originalité scénaristique... Coté critique, Ip Man 4 a, apparemment, mis tout le monde d'accord....",
             "collectionImage": "https://image.tmdb.org/t/p/w500/d5025iuay2UTeviFdu5zKKurfg4.jpg",
-            "collectionTmdbUrl": "https://www.themoviedb.org/collection/70068"
+            "collectionTmdbUrl": "https://www.themoviedb.org/collection/70068",
+            "type": null,
+            "studio": null
         },
         {
             "id": "ip_man_4_the_finale_1_2019",
@@ -11359,9 +11357,7 @@
             ],
             "taille": 2081919688,
             "genre": [
-                "Action",
-                "Histoire",
-                "Drame"
+                "Action"
             ],
             "image": "https://image.tmdb.org/t/p/w342/36zQcTVrOm69fgn34GuTX2NHTsF.jpg",
             "fichier": "/03_Films/Ip.Man.4.The.Finale.2019.1080p.BluRay.x264.AAC5.1-.mp4",
@@ -11381,7 +11377,9 @@
             "collectionNom": "Ip Man - Saga",
             "collectionDescription": "Ip-Man est une série de films réalisé par le Hongkongais Wilson Yip mettant en scène Donnie Yen. Ce dernier interprète le célèbre maître chinois de wing chun \"Yip Man\" qui a notamment été le maître du mythique Bruce Lee !  Avec un premier film sorti en 2008 Ip Man avait tout simplement relancé le film d'art Martiaux made in Hongkong. Produit pour un peu moins de 12 millions de dollars le premier films avait tout simplement fait trembler les chiffres du Box Office. En 2019 la sortie de Ip Man 4 est attendu par les fans du monde entier et réunit plus de 180 millions de dollars de recette mondiale ! Pour ma part les deux premiers films sortent vraiment du lot. Malgré la présence de Mike Tyson Ip Man 3 manque, au final, un peu d'originalité scénaristique... Coté critique, Ip Man 4 a, apparemment, mis tout le monde d'accord....",
             "collectionImage": "https://image.tmdb.org/t/p/w500/d5025iuay2UTeviFdu5zKKurfg4.jpg",
-            "collectionTmdbUrl": "https://www.themoviedb.org/collection/70068"
+            "collectionTmdbUrl": "https://www.themoviedb.org/collection/70068",
+            "type": null,
+            "studio": null
         },
         {
             "id": "ip_man_4_the_finale_hc_1_8gb_mkvhub_2019",
@@ -11392,9 +11390,7 @@
             ],
             "taille": 1927664351,
             "genre": [
-                "Action",
-                "Histoire",
-                "Drame"
+                "Action"
             ],
             "image": "https://image.tmdb.org/t/p/w342/36zQcTVrOm69fgn34GuTX2NHTsF.jpg",
             "fichier": "/03_Films/Ip Man 4 The Finale 2019 1080p HC HDRip x264 1.8GB - MkvHub.Com.mkv",
@@ -11414,7 +11410,9 @@
             "collectionNom": "Ip Man - Saga",
             "collectionDescription": "Ip-Man est une série de films réalisé par le Hongkongais Wilson Yip mettant en scène Donnie Yen. Ce dernier interprète le célèbre maître chinois de wing chun \"Yip Man\" qui a notamment été le maître du mythique Bruce Lee !  Avec un premier film sorti en 2008 Ip Man avait tout simplement relancé le film d'art Martiaux made in Hongkong. Produit pour un peu moins de 12 millions de dollars le premier films avait tout simplement fait trembler les chiffres du Box Office. En 2019 la sortie de Ip Man 4 est attendu par les fans du monde entier et réunit plus de 180 millions de dollars de recette mondiale ! Pour ma part les deux premiers films sortent vraiment du lot. Malgré la présence de Mike Tyson Ip Man 3 manque, au final, un peu d'originalité scénaristique... Coté critique, Ip Man 4 a, apparemment, mis tout le monde d'accord....",
             "collectionImage": "https://image.tmdb.org/t/p/w500/d5025iuay2UTeviFdu5zKKurfg4.jpg",
-            "collectionTmdbUrl": "https://www.themoviedb.org/collection/70068"
+            "collectionTmdbUrl": "https://www.themoviedb.org/collection/70068",
+            "type": null,
+            "studio": null
         },
         {
             "id": "ip_man_the_awakening_1_2022",
@@ -11456,8 +11454,7 @@
             ],
             "taille": 1985828341,
             "genre": [
-                "Action",
-                "Drame"
+                "Action"
             ],
             "image": "https://image.tmdb.org/t/p/w342/kbC4MWXkwaX8DqRLFYoGTdUZSxm.jpg",
             "fichier": "/03_Films/Ip.Man.The.Final.Fight.2013.1080p.BluRay.x264.AAC5.1-.mp4",
@@ -11477,7 +11474,9 @@
             "collectionNom": null,
             "collectionDescription": null,
             "collectionImage": null,
-            "collectionTmdbUrl": null
+            "collectionTmdbUrl": null,
+            "type": null,
+            "studio": null
         },
         {
             "id": "iron_man_2008",
@@ -11488,7 +11487,8 @@
             ],
             "taille": 1773975793,
             "genre": [
-                "Science-Fiction"
+                "Science-Fiction",
+                "Action"
             ],
             "image": "https://image.tmdb.org/t/p/w342/kNKUCNLu1lZDGAHOBEHxR6psYHx.jpg",
             "fichier": "/01_Films/Marvel/2008 Iron.Man.2008.1080p.BrRip.x264.YIFY.mp4",
@@ -11521,7 +11521,8 @@
             ],
             "taille": 1722312518,
             "genre": [
-                "Science-Fiction"
+                "Science-Fiction",
+                "Action"
             ],
             "image": "https://image.tmdb.org/t/p/w342/g9DSeSozGi4zpUyeOYZYMNmIv9O.jpg",
             "fichier": "/01_Films/Marvel/2010 Iron.Man.2.2010.1080p.BrRip.x264.YIFY.mp4",
@@ -11555,7 +11556,7 @@
             ],
             "taille": 734802672,
             "genre": [
-                "Drame"
+                "Comédie musicale"
             ],
             "image": "https://image.tmdb.org/t/p/w342/2oKEdtqVbVeday0NyYUznTnPQEz.jpg",
             "fichier": "/Box_Films/Enfants/Jack.Et.La.Mecanique.Du.Coeur.avi",
@@ -14182,7 +14183,7 @@
             ],
             "taille": 2840335014,
             "genre": [
-                "Aventure"
+                "Action"
             ],
             "image": "https://image.tmdb.org/t/p/w342/g4YdtN10YPhmrcetJOl7ZrxNSaP.jpg",
             "fichier": "/Box_Films/Enfants/Les 5 Légendes (Jack Frost).mkv",
@@ -15817,9 +15818,7 @@
             ],
             "taille": 1850602112,
             "genre": [
-                "Action",
-                "Crime",
-                "Drame"
+                "Action"
             ],
             "image": "https://image.tmdb.org/t/p/w342/AoyxxB7fEMsioFkqjl3yexnCzbP.jpg",
             "fichier": "/03_Films/Master.Z.Ip.Man.Legacy.2018.1080p.BluRay.x264-.mp4",
@@ -15839,7 +15838,9 @@
             "collectionNom": null,
             "collectionDescription": null,
             "collectionImage": null,
-            "collectionTmdbUrl": null
+            "collectionTmdbUrl": null,
+            "type": null,
+            "studio": null
         },
         {
             "id": "tmdb_603",
@@ -16277,7 +16278,7 @@
             ],
             "taille": 732090368,
             "genre": [
-                "Histoire"
+                "Biopic"
             ],
             "image": "https://image.tmdb.org/t/p/w342/qyHbqrAQEC7ZprqFa05pqsnxTmI.jpg",
             "fichier": "/Box_Films/Drame/Milk - VF.avi",
@@ -17495,8 +17496,7 @@
             ],
             "taille": 1140377869,
             "genre": [
-                "Crime",
-                "Thriller"
+                "Action"
             ],
             "image": "https://image.tmdb.org/t/p/w342/rfjuf6kNLVnH8qOk6UZJBHQHKlF.jpg",
             "fichier": "/03_Films/Now.You.See.Me.Now.You.Dont.2025.MULTi.VFQ.WEBRip.x264-LCTL.mkv",
@@ -17516,7 +17516,9 @@
             "collectionNom": "Insaisissables - Saga",
             "collectionDescription": "Insaisissables est un thriller américain de 2013 réalisé par Louis Leterrier. Le film met en vedette un groupe composé de Jesse Eisenberg, Mark Ruffalo, Woody Harrelson, Mélanie Laurent, Isla Fisher, Dave Franco, Michael Caine et Morgan Freeman.  L'intrigue suit un agent du FBI et un détective d'Interpol traquants une équipe d'illusionnistes qui se livrent à des braquages de banques pendant leurs performances et récompensent leur public avec l'argent. Une suite a été publiée le 10 juin 2016 et s'intitulait Insaisissables 2. Un troisième volet est prévu.",
             "collectionImage": "https://image.tmdb.org/t/p/w500/JAzLUXjXJEGp9IKR7jEY4L2VSL.jpg",
-            "collectionTmdbUrl": "https://www.themoviedb.org/collection/382685"
+            "collectionTmdbUrl": "https://www.themoviedb.org/collection/382685",
+            "type": null,
+            "studio": null
         },
         {
             "id": "tmdb_700",

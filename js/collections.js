@@ -30,7 +30,7 @@ async function initCollectionsPage() {
   currentType = state.type ?? "all";
   currentStudio = state.studio ?? "all";
 
-  updateSidebarTitle("ajoutsTitle", "AJOUTS", currentAjouts);
+  updateSidebarTitle("ajoutsTitle", "SELECTION", currentAjouts);
   updateSidebarTitle("genreTitle", "GENRE", currentGenre);
   updateSidebarTitle("typeTitle", "TYPE", currentType);
   updateSidebarTitle("studioTitle", "STUDIO", currentStudio);

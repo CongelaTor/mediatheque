@@ -42,7 +42,7 @@ async function initFilmsPage() {
   document
     .getElementById("sideCollectionsRow")
     ?.classList.toggle("hidden", !isCollectionContextActive());
-  updateSidebarTitle("ajoutsTitle", "AJOUTS", currentAjouts);
+  updateSidebarTitle("ajoutsTitle", "SELECTION", currentAjouts);
   updateSidebarTitle("genreTitle", "GENRE", currentGenre);
   updateSidebarTitle("typeTitle", "TYPE", currentType);
   updateSidebarTitle("studioTitle", "STUDIO", currentStudio);

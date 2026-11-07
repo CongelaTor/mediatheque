@@ -90,7 +90,7 @@ function renderAllSidebarFilters(tousValue) {
     "ajouts",
     tousValue,
   );
-  renderSidebarFilters("genreFilters", FILTER_GENRES, "genre", tousValue);
+  renderSidebarFilters("genreFilters", FILTER_GENRES, "genre", "Tous les genres");
   renderSidebarFilters("typeFilters", FILTER_TYPES, "type", "Tous les types");
   renderSidebarFilters(
     "studioFilters",
@@ -245,7 +245,7 @@ function selectAjouts(ajouts) {
   const state = loadSidebarState();
   state.ajoutsExpanded = false;
   saveSidebarState(state);
-  updateSidebarTitle("ajoutsTitle", "AJOUTS", currentAjouts);
+  updateSidebarTitle("ajoutsTitle", "SELECTION", currentAjouts);
 
   renderCurrentScreen();
 }
