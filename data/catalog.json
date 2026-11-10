@@ -1,6 +1,6 @@
 {
     "version": 1,
-    "dateDernierScan": "2026-11-10T08:52:35.436Z",
+    "dateDernierScan": "2026-11-10T13:54:50.428Z",
     "collections": [
         {
             "collectionId": 9485,
@@ -19034,10 +19034,7 @@
             ],
             "taille": 1167605874,
             "genre": [
-                "Animation",
-                "Familial",
-                "Comédie",
-                "Fantastique"
+                "Comédie musicale"
             ],
             "image": "https://image.tmdb.org/t/p/w342/7eBLd6LkxrN8MJ0wdg3xeCU2HFL.jpg",
             "fichier": "/03_Films/La.Reine.Des.Neiges.Une.Fête.Givrée.2015.TRUEFRENCH.1080p.HD.x264-NoTag.mkv",
@@ -19050,7 +19047,7 @@
             "groupeDoublon": null,
             "dateAjout": "2026-11-10T08:51:25.702Z",
             "type": "Animation",
-            "studio": null,
+            "studio": "Disney",
             "titreTmdb": "La Reine des Neiges : Une fête givrée",
             "anneeTmdb": "2015",
             "dureeTmdb": 7,
@@ -20394,8 +20391,8 @@
             "tmdbId": 2005,
             "tmdbUrl": "https://www.themoviedb.org/movie/2005",
             "doublonExact": false,
-            "doublonProbable": false,
-            "groupeDoublon": null,
+            "doublonProbable": true,
+            "groupeDoublon": "sister_act",
             "dateAjout": "2026-08-22T08:23:33.581Z",
             "titreTmdb": "Sister Act",
             "anneeTmdb": "1992",
@@ -20460,8 +20457,8 @@
             "tmdbId": 2005,
             "tmdbUrl": "https://www.themoviedb.org/movie/2005",
             "doublonExact": false,
-            "doublonProbable": false,
-            "groupeDoublon": null,
+            "doublonProbable": true,
+            "groupeDoublon": "sister_act",
             "dateAjout": "2026-11-10T08:51:25.707Z",
             "titreTmdb": "Sister Act",
             "anneeTmdb": "1992",
@@ -22894,7 +22891,7 @@
             "collectionId": 374930,
             "collectionNom": "Snow Queen - Saga",
             "type": "Animation",
-            "studio": null,
+            "studio": "Disney",
             "ignoreInCollection": false
         },
         {
@@ -22958,7 +22955,7 @@
             "collectionId": 374930,
             "collectionNom": "Snow Queen - Saga",
             "type": "Animation",
-            "studio": null,
+            "studio": "Disney",
             "ignoreInCollection": false
         },
         {
@@ -25728,7 +25725,8 @@
                             "doublonProbable": false,
                             "dateAjout": "2026-09-06T18:10:38.521Z"
                         }
-                    ]
+                    ],
+                    "hasMissingEpisodes": false
                 }
             ]
         },
@@ -27371,147 +27369,146 @@
                             "langue": [
                                 "TBD"
                             ],
-                            "fichier": "/01_Series/Burn Notice/S01/Burn.Notice.S01E01.DVDRip.TOPAZ.fr.mkv",
-                            "nomFichier": "Burn.Notice.S01E01.DVDRip.TOPAZ.fr.mkv",
-                            "taille": 263444721,
+                            "fichier": "/01_Series/Burn Notice/S01/Burn.Notice.S01E01.1080p.WEBRip.x265-HiQVE.mkv",
+                            "nomFichier": "Burn.Notice.S01E01.1080p.WEBRip.x265-HiQVE.mkv",
+                            "taille": 2079005407,
                             "doublonExact": false,
                             "doublonProbable": false,
-                            "dateAjout": "2026-09-06T18:10:38.588Z"
+                            "dateAjout": "2026-11-10T11:00:48.395Z"
                         },
                         {
                             "numero": 2,
                             "langue": [
                                 "TBD"
                             ],
-                            "fichier": "/01_Series/Burn Notice/S01/Burn.Notice.S01E02.DVDRip.TOPAZ.fr.mkv",
-                            "nomFichier": "Burn.Notice.S01E02.DVDRip.TOPAZ.fr.mkv",
-                            "taille": 159343489,
+                            "fichier": "/01_Series/Burn Notice/S01/Burn.Notice.S01E02.1080p.WEBRip.x265-HiQVE.mkv",
+                            "nomFichier": "Burn.Notice.S01E02.1080p.WEBRip.x265-HiQVE.mkv",
+                            "taille": 1315917221,
                             "doublonExact": false,
                             "doublonProbable": false,
-                            "dateAjout": "2026-09-06T18:10:38.589Z"
+                            "dateAjout": "2026-11-10T11:00:48.398Z"
                         },
                         {
                             "numero": 3,
                             "langue": [
                                 "TBD"
                             ],
-                            "fichier": "/01_Series/Burn Notice/S01/Burn.Notice.S01E03.DVDRip.TOPAZ.fr.mkv",
-                            "nomFichier": "Burn.Notice.S01E03.DVDRip.TOPAZ.fr.mkv",
-                            "taille": 158002437,
+                            "fichier": "/01_Series/Burn Notice/S01/Burn.Notice.S01E03.1080p.WEBRip.x265-HiQVE.mkv",
+                            "nomFichier": "Burn.Notice.S01E03.1080p.WEBRip.x265-HiQVE.mkv",
+                            "taille": 1317667244,
                             "doublonExact": false,
                             "doublonProbable": false,
-                            "dateAjout": "2026-09-06T18:10:38.589Z"
+                            "dateAjout": "2026-11-10T11:00:48.401Z"
                         },
                         {
                             "numero": 4,
                             "langue": [
                                 "TBD"
                             ],
-                            "fichier": "/01_Series/Burn Notice/S01/Burn.Notice.S01E04.DVDRip.TOPAZ.fr.mkv",
-                            "nomFichier": "Burn.Notice.S01E04.DVDRip.TOPAZ.fr.mkv",
-                            "taille": 159891602,
+                            "fichier": "/01_Series/Burn Notice/S01/Burn.Notice.S01E04.1080p.WEBRip.x265-HiQVE.mkv",
+                            "nomFichier": "Burn.Notice.S01E04.1080p.WEBRip.x265-HiQVE.mkv",
+                            "taille": 1307386333,
                             "doublonExact": false,
                             "doublonProbable": false,
-                            "dateAjout": "2026-09-06T18:10:38.590Z"
+                            "dateAjout": "2026-11-10T11:00:48.404Z"
                         },
                         {
                             "numero": 5,
                             "langue": [
                                 "TBD"
                             ],
-                            "fichier": "/01_Series/Burn Notice/S01/Burn.Notice.S01E05.DVDRip.TOPAZ.fr.mkv",
-                            "nomFichier": "Burn.Notice.S01E05.DVDRip.TOPAZ.fr.mkv",
-                            "taille": 161971683,
+                            "fichier": "/01_Series/Burn Notice/S01/Burn.Notice.S01E05.1080p.WEBRip.x265-HiQVE.mkv",
+                            "nomFichier": "Burn.Notice.S01E05.1080p.WEBRip.x265-HiQVE.mkv",
+                            "taille": 1345352980,
                             "doublonExact": false,
                             "doublonProbable": false,
-                            "dateAjout": "2026-09-06T18:10:38.591Z"
+                            "dateAjout": "2026-11-10T11:00:48.407Z"
                         },
                         {
                             "numero": 6,
                             "langue": [
                                 "TBD"
                             ],
-                            "fichier": "/01_Series/Burn Notice/S01/Burn.Notice.S01E06.DVDRip.TOPAZ.fr.mkv",
-                            "nomFichier": "Burn.Notice.S01E06.DVDRip.TOPAZ.fr.mkv",
-                            "taille": 158144131,
+                            "fichier": "/01_Series/Burn Notice/S01/Burn.Notice.S01E06.1080p.WEBRip.x265-HiQVE.mkv",
+                            "nomFichier": "Burn.Notice.S01E06.1080p.WEBRip.x265-HiQVE.mkv",
+                            "taille": 1317358723,
                             "doublonExact": false,
                             "doublonProbable": false,
-                            "dateAjout": "2026-09-06T18:10:38.591Z"
+                            "dateAjout": "2026-11-10T11:00:48.410Z"
                         },
                         {
                             "numero": 7,
                             "langue": [
                                 "TBD"
                             ],
-                            "fichier": "/01_Series/Burn Notice/S01/Burn.Notice.S01E07.DVDRip.TOPAZ.fr.mkv",
-                            "nomFichier": "Burn.Notice.S01E07.DVDRip.TOPAZ.fr.mkv",
-                            "taille": 160650217,
+                            "fichier": "/01_Series/Burn Notice/S01/Burn.Notice.S01E07.1080p.WEBRip.x265-HiQVE.mkv",
+                            "nomFichier": "Burn.Notice.S01E07.1080p.WEBRip.x265-HiQVE.mkv",
+                            "taille": 1339185976,
                             "doublonExact": false,
                             "doublonProbable": false,
-                            "dateAjout": "2026-09-06T18:10:38.592Z"
+                            "dateAjout": "2026-11-10T11:00:48.414Z"
                         },
                         {
                             "numero": 8,
                             "langue": [
                                 "TBD"
                             ],
-                            "fichier": "/01_Series/Burn Notice/S01/Burn.Notice.S01E08.DVDRip.TOPAZ.fr.mkv",
-                            "nomFichier": "Burn.Notice.S01E08.DVDRip.TOPAZ.fr.mkv",
-                            "taille": 159535155,
+                            "fichier": "/01_Series/Burn Notice/S01/Burn.Notice.S01E08.1080p.WEBRip.x265-HiQVE.mkv",
+                            "nomFichier": "Burn.Notice.S01E08.1080p.WEBRip.x265-HiQVE.mkv",
+                            "taille": 1327061610,
                             "doublonExact": false,
                             "doublonProbable": false,
-                            "dateAjout": "2026-09-06T18:10:38.593Z"
+                            "dateAjout": "2026-11-10T11:00:48.417Z"
                         },
                         {
                             "numero": 9,
                             "langue": [
                                 "TBD"
                             ],
-                            "fichier": "/01_Series/Burn Notice/S01/Burn.Notice.S01E09.DVDRip.TOPAZ.fr.mkv",
-                            "nomFichier": "Burn.Notice.S01E09.DVDRip.TOPAZ.fr.mkv",
-                            "taille": 157800165,
+                            "fichier": "/01_Series/Burn Notice/S01/Burn.Notice.S01E09.1080p.WEBRip.x265-HiQVE.mkv",
+                            "nomFichier": "Burn.Notice.S01E09.1080p.WEBRip.x265-HiQVE.mkv",
+                            "taille": 1311080534,
                             "doublonExact": false,
                             "doublonProbable": false,
-                            "dateAjout": "2026-09-06T18:10:38.593Z"
+                            "dateAjout": "2026-11-10T11:00:48.420Z"
                         },
                         {
                             "numero": 10,
                             "langue": [
                                 "TBD"
                             ],
-                            "fichier": "/01_Series/Burn Notice/S01/Burn.Notice.S01E10.DVDRip.TOPAZ.fr.mkv",
-                            "nomFichier": "Burn.Notice.S01E10.DVDRip.TOPAZ.fr.mkv",
-                            "taille": 159826505,
+                            "fichier": "/01_Series/Burn Notice/S01/Burn.Notice.S01E10.1080p.WEBRip.x265-HiQVE.mkv",
+                            "nomFichier": "Burn.Notice.S01E10.1080p.WEBRip.x265-HiQVE.mkv",
+                            "taille": 1329769379,
                             "doublonExact": false,
                             "doublonProbable": false,
-                            "dateAjout": "2026-09-06T18:10:38.594Z"
+                            "dateAjout": "2026-11-10T11:00:48.423Z"
                         },
                         {
                             "numero": 11,
                             "langue": [
                                 "TBD"
                             ],
-                            "fichier": "/01_Series/Burn Notice/S01/Burn.Notice.S01E11.DVDRip.TOPAZ.fr.mkv",
-                            "nomFichier": "Burn.Notice.S01E11.DVDRip.TOPAZ.fr.mkv",
-                            "taille": 315716529,
+                            "fichier": "/01_Series/Burn Notice/S01/Burn.Notice.S01E11.1080p.WEBRip.x265-HiQVE.mkv",
+                            "nomFichier": "Burn.Notice.S01E11.1080p.WEBRip.x265-HiQVE.mkv",
+                            "taille": 1350602940,
                             "doublonExact": false,
                             "doublonProbable": false,
-                            "dateAjout": "2026-09-06T18:10:38.594Z"
+                            "dateAjout": "2026-11-10T11:00:48.426Z"
                         },
                         {
                             "numero": 12,
                             "langue": [
                                 "TBD"
                             ],
-                            "fichier": "/01_Series/Burn Notice/S01/Burn.Notice.S01E12.DVDRip.TOPAZ.fr.webp",
-                            "nomFichier": "Burn.Notice.S01E12.DVDRip.TOPAZ.fr.webp",
-                            "taille": 81016,
+                            "fichier": "/01_Series/Burn Notice/S01/Burn.Notice.S01E12.1080p.WEBRip.x265-HiQVE.mkv",
+                            "nomFichier": "Burn.Notice.S01E12.1080p.WEBRip.x265-HiQVE.mkv",
+                            "taille": 1335019147,
                             "doublonExact": false,
                             "doublonProbable": false,
-                            "dateAjout": "2026-09-06T18:10:38.595Z"
+                            "dateAjout": "2026-11-10T11:00:48.429Z"
                         }
-                    ],
-                    "hasMissingEpisodes": false
+                    ]
                 },
                 {
                     "numero": 2,
@@ -27521,195 +27518,194 @@
                             "langue": [
                                 "TBD"
                             ],
-                            "fichier": "/01_Series/Burn Notice/S02/201 - Breaking and Entering.avi",
-                            "nomFichier": "201 - Breaking and Entering.avi",
-                            "taille": 367647490,
+                            "fichier": "/01_Series/Burn Notice/S02/Burn.Notice.S02E01.1080p.Bluray.x265-HiQVE.mkv",
+                            "nomFichier": "Burn.Notice.S02E01.1080p.Bluray.x265-HiQVE.mkv",
+                            "taille": 1353641628,
                             "doublonExact": false,
                             "doublonProbable": false,
-                            "dateAjout": "2026-09-06T18:10:38.596Z"
+                            "dateAjout": "2026-11-10T11:00:48.432Z"
                         },
                         {
                             "numero": 2,
                             "langue": [
                                 "TBD"
                             ],
-                            "fichier": "/01_Series/Burn Notice/S02/202 - Turn and Burn.avi",
-                            "nomFichier": "202 - Turn and Burn.avi",
-                            "taille": 366841856,
+                            "fichier": "/01_Series/Burn Notice/S02/Burn.Notice.S02E02.1080p.Bluray.x265-HiQVE.mkv",
+                            "nomFichier": "Burn.Notice.S02E02.1080p.Bluray.x265-HiQVE.mkv",
+                            "taille": 1339282963,
                             "doublonExact": false,
                             "doublonProbable": false,
-                            "dateAjout": "2026-09-06T18:10:38.596Z"
+                            "dateAjout": "2026-11-10T11:00:48.435Z"
                         },
                         {
                             "numero": 3,
                             "langue": [
                                 "TBD"
                             ],
-                            "fichier": "/01_Series/Burn Notice/S02/203 - Trust Me.avi",
-                            "nomFichier": "203 - Trust Me.avi",
-                            "taille": 366782934,
+                            "fichier": "/01_Series/Burn Notice/S02/Burn.Notice.S02E03.1080p.Bluray.x265-HiQVE.mkv",
+                            "nomFichier": "Burn.Notice.S02E03.1080p.Bluray.x265-HiQVE.mkv",
+                            "taille": 1345085145,
                             "doublonExact": false,
                             "doublonProbable": false,
-                            "dateAjout": "2026-09-06T18:10:38.597Z"
+                            "dateAjout": "2026-11-10T11:00:48.438Z"
                         },
                         {
                             "numero": 4,
                             "langue": [
                                 "TBD"
                             ],
-                            "fichier": "/01_Series/Burn Notice/S02/204 - Comrades.avi",
-                            "nomFichier": "204 - Comrades.avi",
-                            "taille": 367618048,
+                            "fichier": "/01_Series/Burn Notice/S02/Burn.Notice.S02E04.1080p.Bluray.x265-HiQVE.mkv",
+                            "nomFichier": "Burn.Notice.S02E04.1080p.Bluray.x265-HiQVE.mkv",
+                            "taille": 1328740555,
                             "doublonExact": false,
                             "doublonProbable": false,
-                            "dateAjout": "2026-09-06T18:10:38.597Z"
+                            "dateAjout": "2026-11-10T11:00:48.442Z"
                         },
                         {
                             "numero": 5,
                             "langue": [
                                 "TBD"
                             ],
-                            "fichier": "/01_Series/Burn Notice/S02/205 - Scatter Point.avi",
-                            "nomFichier": "205 - Scatter Point.avi",
-                            "taille": 367285734,
+                            "fichier": "/01_Series/Burn Notice/S02/Burn.Notice.S02E05.1080p.Bluray.x265-HiQVE.mkv",
+                            "nomFichier": "Burn.Notice.S02E05.1080p.Bluray.x265-HiQVE.mkv",
+                            "taille": 1317877598,
                             "doublonExact": false,
                             "doublonProbable": false,
-                            "dateAjout": "2026-09-06T18:10:38.598Z"
+                            "dateAjout": "2026-11-10T11:00:48.445Z"
                         },
                         {
                             "numero": 6,
                             "langue": [
                                 "TBD"
                             ],
-                            "fichier": "/01_Series/Burn Notice/S02/206 - Bad Blood.avi",
-                            "nomFichier": "206 - Bad Blood.avi",
-                            "taille": 368053334,
+                            "fichier": "/01_Series/Burn Notice/S02/Burn.Notice.S02E06.1080p.Bluray.x265-HiQVE.mkv",
+                            "nomFichier": "Burn.Notice.S02E06.1080p.Bluray.x265-HiQVE.mkv",
+                            "taille": 1352912693,
                             "doublonExact": false,
                             "doublonProbable": false,
-                            "dateAjout": "2026-09-06T18:10:38.598Z"
+                            "dateAjout": "2026-11-10T11:00:48.448Z"
                         },
                         {
                             "numero": 7,
                             "langue": [
                                 "TBD"
                             ],
-                            "fichier": "/01_Series/Burn Notice/S02/207 - Rough Seas.avi",
-                            "nomFichier": "207 - Rough Seas.avi",
-                            "taille": 366370676,
+                            "fichier": "/01_Series/Burn Notice/S02/Burn.Notice.S02E07.1080p.Bluray.x265-HiQVE.mkv",
+                            "nomFichier": "Burn.Notice.S02E07.1080p.Bluray.x265-HiQVE.mkv",
+                            "taille": 1345205578,
                             "doublonExact": false,
                             "doublonProbable": false,
-                            "dateAjout": "2026-09-06T18:10:38.598Z"
+                            "dateAjout": "2026-11-10T11:00:48.451Z"
                         },
                         {
                             "numero": 8,
                             "langue": [
                                 "TBD"
                             ],
-                            "fichier": "/01_Series/Burn Notice/S02/208 - Double Booked.avi",
-                            "nomFichier": "208 - Double Booked.avi",
-                            "taille": 367893662,
+                            "fichier": "/01_Series/Burn Notice/S02/Burn.Notice.S02E08.1080p.Bluray.x265-HiQVE.mkv",
+                            "nomFichier": "Burn.Notice.S02E08.1080p.Bluray.x265-HiQVE.mkv",
+                            "taille": 1358003796,
                             "doublonExact": false,
                             "doublonProbable": false,
-                            "dateAjout": "2026-09-06T18:10:38.599Z"
+                            "dateAjout": "2026-11-10T11:00:48.454Z"
                         },
                         {
                             "numero": 9,
                             "langue": [
                                 "TBD"
                             ],
-                            "fichier": "/01_Series/Burn Notice/S02/209 - Good Soldier.avi",
-                            "nomFichier": "209 - Good Soldier.avi",
-                            "taille": 366118842,
+                            "fichier": "/01_Series/Burn Notice/S02/Burn.Notice.S02E09.1080p.Bluray.x265-HiQVE.mkv",
+                            "nomFichier": "Burn.Notice.S02E09.1080p.Bluray.x265-HiQVE.mkv",
+                            "taille": 1326813453,
                             "doublonExact": false,
                             "doublonProbable": false,
-                            "dateAjout": "2026-09-06T18:10:38.599Z"
+                            "dateAjout": "2026-11-10T11:00:48.458Z"
                         },
                         {
                             "numero": 10,
                             "langue": [
                                 "TBD"
                             ],
-                            "fichier": "/01_Series/Burn Notice/S02/210 - Do No Harm.avi",
-                            "nomFichier": "210 - Do No Harm.avi",
-                            "taille": 367376198,
+                            "fichier": "/01_Series/Burn Notice/S02/Burn.Notice.S02E10.1080p.Bluray.x265-HiQVE.mkv",
+                            "nomFichier": "Burn.Notice.S02E10.1080p.Bluray.x265-HiQVE.mkv",
+                            "taille": 1325934112,
                             "doublonExact": false,
                             "doublonProbable": false,
-                            "dateAjout": "2026-09-06T18:10:38.600Z"
+                            "dateAjout": "2026-11-10T11:00:48.461Z"
                         },
                         {
                             "numero": 11,
                             "langue": [
                                 "TBD"
                             ],
-                            "fichier": "/01_Series/Burn Notice/S02/211 - Hot Spot.avi",
-                            "nomFichier": "211 - Hot Spot.avi",
-                            "taille": 366467988,
+                            "fichier": "/01_Series/Burn Notice/S02/Burn.Notice.S02E11.1080p.Bluray.x265-HiQVE.mkv",
+                            "nomFichier": "Burn.Notice.S02E11.1080p.Bluray.x265-HiQVE.mkv",
+                            "taille": 1335110809,
                             "doublonExact": false,
                             "doublonProbable": false,
-                            "dateAjout": "2026-09-06T18:10:38.600Z"
+                            "dateAjout": "2026-11-10T11:00:48.464Z"
                         },
                         {
                             "numero": 12,
                             "langue": [
                                 "TBD"
                             ],
-                            "fichier": "/01_Series/Burn Notice/S02/212 - Seek and Destroy.avi",
-                            "nomFichier": "212 - Seek and Destroy.avi",
-                            "taille": 366165240,
+                            "fichier": "/01_Series/Burn Notice/S02/Burn.Notice.S02E12.1080p.Bluray.x265-HiQVE.mkv",
+                            "nomFichier": "Burn.Notice.S02E12.1080p.Bluray.x265-HiQVE.mkv",
+                            "taille": 1314960600,
                             "doublonExact": false,
                             "doublonProbable": false,
-                            "dateAjout": "2026-09-06T18:10:38.601Z"
+                            "dateAjout": "2026-11-10T11:00:48.467Z"
                         },
                         {
                             "numero": 13,
                             "langue": [
                                 "TBD"
                             ],
-                            "fichier": "/01_Series/Burn Notice/S02/213 - Bad Breaks.avi",
-                            "nomFichier": "213 - Bad Breaks.avi",
-                            "taille": 368087798,
+                            "fichier": "/01_Series/Burn Notice/S02/Burn.Notice.S02E13.1080p.Bluray.x265-HiQVE.mkv",
+                            "nomFichier": "Burn.Notice.S02E13.1080p.Bluray.x265-HiQVE.mkv",
+                            "taille": 1331391643,
                             "doublonExact": false,
                             "doublonProbable": false,
-                            "dateAjout": "2026-09-06T18:10:38.601Z"
+                            "dateAjout": "2026-11-10T11:00:48.470Z"
                         },
                         {
                             "numero": 14,
                             "langue": [
                                 "TBD"
                             ],
-                            "fichier": "/01_Series/Burn Notice/S02/214 - Truth and Reconciliation.avi",
-                            "nomFichier": "214 - Truth and Reconciliation.avi",
-                            "taille": 366385554,
+                            "fichier": "/01_Series/Burn Notice/S02/Burn.Notice.S02E14.1080p.Bluray.x265-HiQVE.mkv",
+                            "nomFichier": "Burn.Notice.S02E14.1080p.Bluray.x265-HiQVE.mkv",
+                            "taille": 1317767473,
                             "doublonExact": false,
                             "doublonProbable": false,
-                            "dateAjout": "2026-09-06T18:10:38.602Z"
+                            "dateAjout": "2026-11-10T11:00:48.474Z"
                         },
                         {
                             "numero": 15,
                             "langue": [
                                 "TBD"
                             ],
-                            "fichier": "/01_Series/Burn Notice/S02/215 - Sins of Omission.avi",
-                            "nomFichier": "215 - Sins of Omission.avi",
-                            "taille": 367949740,
+                            "fichier": "/01_Series/Burn Notice/S02/Burn.Notice.S02E15.1080p.Bluray.x265-HiQVE.mkv",
+                            "nomFichier": "Burn.Notice.S02E15.1080p.Bluray.x265-HiQVE.mkv",
+                            "taille": 1357574284,
                             "doublonExact": false,
                             "doublonProbable": false,
-                            "dateAjout": "2026-09-06T18:10:38.602Z"
+                            "dateAjout": "2026-11-10T11:00:48.477Z"
                         },
                         {
                             "numero": 16,
                             "langue": [
                                 "TBD"
                             ],
-                            "fichier": "/01_Series/Burn Notice/S02/216 - Lesser Evil.avi",
-                            "nomFichier": "216 - Lesser Evil.avi",
-                            "taille": 366128790,
+                            "fichier": "/01_Series/Burn Notice/S02/Burn.Notice.S02E16.1080p.Bluray.x265-HiQVE.mkv",
+                            "nomFichier": "Burn.Notice.S02E16.1080p.Bluray.x265-HiQVE.mkv",
+                            "taille": 1359264920,
                             "doublonExact": false,
                             "doublonProbable": false,
-                            "dateAjout": "2026-09-06T18:10:38.603Z"
+                            "dateAjout": "2026-11-10T11:00:48.480Z"
                         }
-                    ],
-                    "hasMissingEpisodes": false
+                    ]
                 },
                 {
                     "numero": 3,
@@ -27719,195 +27715,194 @@
                             "langue": [
                                 "TBD"
                             ],
-                            "fichier": "/01_Series/Burn Notice/S03/301 - Friends and Family.avi",
-                            "nomFichier": "301 - Friends and Family.avi",
-                            "taille": 366192634,
+                            "fichier": "/01_Series/Burn Notice/S03/Burn.Notice.S03E01.1080p.WEBRip.x265-HiQVE.mkv",
+                            "nomFichier": "Burn.Notice.S03E01.1080p.WEBRip.x265-HiQVE.mkv",
+                            "taille": 1329493380,
                             "doublonExact": false,
                             "doublonProbable": false,
-                            "dateAjout": "2026-09-06T18:10:38.603Z"
+                            "dateAjout": "2026-11-10T11:00:48.483Z"
                         },
                         {
                             "numero": 2,
                             "langue": [
                                 "TBD"
                             ],
-                            "fichier": "/01_Series/Burn Notice/S03/302 - Question & Answer.avi",
-                            "nomFichier": "302 - Question & Answer.avi",
-                            "taille": 366487048,
+                            "fichier": "/01_Series/Burn Notice/S03/Burn.Notice.S03E02.1080p.WEBRip.x265-HiQVE.mkv",
+                            "nomFichier": "Burn.Notice.S03E02.1080p.WEBRip.x265-HiQVE.mkv",
+                            "taille": 1322033746,
                             "doublonExact": false,
                             "doublonProbable": false,
-                            "dateAjout": "2026-09-06T18:10:38.604Z"
+                            "dateAjout": "2026-11-10T11:00:48.486Z"
                         },
                         {
                             "numero": 3,
                             "langue": [
                                 "TBD"
                             ],
-                            "fichier": "/01_Series/Burn Notice/S03/303 - End Run.avi",
-                            "nomFichier": "303 - End Run.avi",
-                            "taille": 366775646,
+                            "fichier": "/01_Series/Burn Notice/S03/Burn.Notice.S03E03.1080p.WEBRip.x265-HiQVE.mkv",
+                            "nomFichier": "Burn.Notice.S03E03.1080p.WEBRip.x265-HiQVE.mkv",
+                            "taille": 1327165014,
                             "doublonExact": false,
                             "doublonProbable": false,
-                            "dateAjout": "2026-09-06T18:10:38.604Z"
+                            "dateAjout": "2026-11-10T11:00:48.490Z"
                         },
                         {
                             "numero": 4,
                             "langue": [
                                 "TBD"
                             ],
-                            "fichier": "/01_Series/Burn Notice/S03/304 - Fearless Leader.avi",
-                            "nomFichier": "304 - Fearless Leader.avi",
-                            "taille": 366703064,
+                            "fichier": "/01_Series/Burn Notice/S03/Burn.Notice.S03E04.1080p.WEBRip.x265-HiQVE.mkv",
+                            "nomFichier": "Burn.Notice.S03E04.1080p.WEBRip.x265-HiQVE.mkv",
+                            "taille": 1315628076,
                             "doublonExact": false,
                             "doublonProbable": false,
-                            "dateAjout": "2026-09-06T18:10:38.605Z"
+                            "dateAjout": "2026-11-10T11:00:48.493Z"
                         },
                         {
                             "numero": 5,
                             "langue": [
                                 "TBD"
                             ],
-                            "fichier": "/01_Series/Burn Notice/S03/305 - Signals and Codes.avi",
-                            "nomFichier": "305 - Signals and Codes.avi",
-                            "taille": 366614168,
+                            "fichier": "/01_Series/Burn Notice/S03/Burn.Notice.S03E05.1080p.WEBRip.x265-HiQVE.mkv",
+                            "nomFichier": "Burn.Notice.S03E05.1080p.WEBRip.x265-HiQVE.mkv",
+                            "taille": 1351320348,
                             "doublonExact": false,
                             "doublonProbable": false,
-                            "dateAjout": "2026-09-06T18:10:38.605Z"
+                            "dateAjout": "2026-11-10T11:00:48.496Z"
                         },
                         {
                             "numero": 6,
                             "langue": [
                                 "TBD"
                             ],
-                            "fichier": "/01_Series/Burn Notice/S03/306 - The Hunter.avi",
-                            "nomFichier": "306 - The Hunter.avi",
-                            "taille": 366574268,
+                            "fichier": "/01_Series/Burn Notice/S03/Burn.Notice.S03E06.1080p.WEBRip.x265-HiQVE.mkv",
+                            "nomFichier": "Burn.Notice.S03E06.1080p.WEBRip.x265-HiQVE.mkv",
+                            "taille": 1354506041,
                             "doublonExact": false,
                             "doublonProbable": false,
-                            "dateAjout": "2026-09-06T18:10:38.606Z"
+                            "dateAjout": "2026-11-10T11:00:48.499Z"
                         },
                         {
                             "numero": 7,
                             "langue": [
                                 "TBD"
                             ],
-                            "fichier": "/01_Series/Burn Notice/S03/307 - Shot in the Dark.avi",
-                            "nomFichier": "307 - Shot in the Dark.avi",
-                            "taille": 366365948,
+                            "fichier": "/01_Series/Burn Notice/S03/Burn.Notice.S03E07.1080p.WEBRip.x265-HiQVE.mkv",
+                            "nomFichier": "Burn.Notice.S03E07.1080p.WEBRip.x265-HiQVE.mkv",
+                            "taille": 1310144310,
                             "doublonExact": false,
                             "doublonProbable": false,
-                            "dateAjout": "2026-09-06T18:10:38.606Z"
+                            "dateAjout": "2026-11-10T11:00:48.503Z"
                         },
                         {
                             "numero": 8,
                             "langue": [
                                 "TBD"
                             ],
-                            "fichier": "/01_Series/Burn Notice/S03/308 - Friends Like These.avi",
-                            "nomFichier": "308 - Friends Like These.avi",
-                            "taille": 368439560,
+                            "fichier": "/01_Series/Burn Notice/S03/Burn.Notice.S03E08.1080p.WEBRip.x265-HiQVE.mkv",
+                            "nomFichier": "Burn.Notice.S03E08.1080p.WEBRip.x265-HiQVE.mkv",
+                            "taille": 1355976360,
                             "doublonExact": false,
                             "doublonProbable": false,
-                            "dateAjout": "2026-09-06T18:10:38.607Z"
+                            "dateAjout": "2026-11-10T11:00:48.519Z"
                         },
                         {
                             "numero": 9,
                             "langue": [
                                 "TBD"
                             ],
-                            "fichier": "/01_Series/Burn Notice/S03/309 - Long Way Back.avi",
-                            "nomFichier": "309 - Long Way Back.avi",
-                            "taille": 366778596,
+                            "fichier": "/01_Series/Burn Notice/S03/Burn.Notice.S03E09.1080p.WEBRip.x265-HiQVE.mkv",
+                            "nomFichier": "Burn.Notice.S03E09.1080p.WEBRip.x265-HiQVE.mkv",
+                            "taille": 1327435136,
                             "doublonExact": false,
                             "doublonProbable": false,
-                            "dateAjout": "2026-09-06T18:10:38.607Z"
+                            "dateAjout": "2026-11-10T11:00:48.522Z"
                         },
                         {
                             "numero": 10,
                             "langue": [
                                 "TBD"
                             ],
-                            "fichier": "/01_Series/Burn Notice/S03/310 - A Dark Road.avi",
-                            "nomFichier": "310 - A Dark Road.avi",
-                            "taille": 367047420,
+                            "fichier": "/01_Series/Burn Notice/S03/Burn.Notice.S03E10.1080p.WEBRip.x265-HiQVE.mkv",
+                            "nomFichier": "Burn.Notice.S03E10.1080p.WEBRip.x265-HiQVE.mkv",
+                            "taille": 1356417297,
                             "doublonExact": false,
                             "doublonProbable": false,
-                            "dateAjout": "2026-09-06T18:10:38.608Z"
+                            "dateAjout": "2026-11-10T11:00:48.525Z"
                         },
                         {
                             "numero": 11,
                             "langue": [
                                 "TBD"
                             ],
-                            "fichier": "/01_Series/Burn Notice/S03/311 - Friendly Fire.avi",
-                            "nomFichier": "311 - Friendly Fire.avi",
-                            "taille": 366939094,
+                            "fichier": "/01_Series/Burn Notice/S03/Burn.Notice.S03E11.1080p.WEBRip.x265-HiQVE.mkv",
+                            "nomFichier": "Burn.Notice.S03E11.1080p.WEBRip.x265-HiQVE.mkv",
+                            "taille": 1360490594,
                             "doublonExact": false,
                             "doublonProbable": false,
-                            "dateAjout": "2026-09-06T18:10:38.608Z"
+                            "dateAjout": "2026-11-10T11:00:48.528Z"
                         },
                         {
                             "numero": 12,
                             "langue": [
                                 "TBD"
                             ],
-                            "fichier": "/01_Series/Burn Notice/S03/312 - Noble Causes.avi",
-                            "nomFichier": "312 - Noble Causes.avi",
-                            "taille": 367052480,
+                            "fichier": "/01_Series/Burn Notice/S03/Burn.Notice.S03E12.1080p.WEBRip.x265-HiQVE.mkv",
+                            "nomFichier": "Burn.Notice.S03E12.1080p.WEBRip.x265-HiQVE.mkv",
+                            "taille": 1309750051,
                             "doublonExact": false,
                             "doublonProbable": false,
-                            "dateAjout": "2026-09-06T18:10:38.609Z"
+                            "dateAjout": "2026-11-10T11:00:48.531Z"
                         },
                         {
                             "numero": 13,
                             "langue": [
                                 "TBD"
                             ],
-                            "fichier": "/01_Series/Burn Notice/S03/313 - Enemies Closer.avi",
-                            "nomFichier": "313 - Enemies Closer.avi",
-                            "taille": 366679938,
+                            "fichier": "/01_Series/Burn Notice/S03/Burn.Notice.S03E13.1080p.WEBRip.x265-HiQVE.mkv",
+                            "nomFichier": "Burn.Notice.S03E13.1080p.WEBRip.x265-HiQVE.mkv",
+                            "taille": 1369211395,
                             "doublonExact": false,
                             "doublonProbable": false,
-                            "dateAjout": "2026-09-06T18:10:38.609Z"
+                            "dateAjout": "2026-11-10T11:00:48.534Z"
                         },
                         {
                             "numero": 14,
                             "langue": [
                                 "TBD"
                             ],
-                            "fichier": "/01_Series/Burn Notice/S03/314 - Partners in Crime.avi",
-                            "nomFichier": "314 - Partners in Crime.avi",
-                            "taille": 366774820,
+                            "fichier": "/01_Series/Burn Notice/S03/Burn.Notice.S03E14.1080p.WEBRip.x265-HiQVE.mkv",
+                            "nomFichier": "Burn.Notice.S03E14.1080p.WEBRip.x265-HiQVE.mkv",
+                            "taille": 1309177718,
                             "doublonExact": false,
                             "doublonProbable": false,
-                            "dateAjout": "2026-09-06T18:10:38.610Z"
+                            "dateAjout": "2026-11-10T11:00:48.537Z"
                         },
                         {
                             "numero": 15,
                             "langue": [
                                 "TBD"
                             ],
-                            "fichier": "/01_Series/Burn Notice/S03/315 - Good Intentions.avi",
-                            "nomFichier": "315 - Good Intentions.avi",
-                            "taille": 365718104,
+                            "fichier": "/01_Series/Burn Notice/S03/Burn.Notice.S03E15.1080p.WEBRip.x265-HiQVE.mkv",
+                            "nomFichier": "Burn.Notice.S03E15.1080p.WEBRip.x265-HiQVE.mkv",
+                            "taille": 1363730783,
                             "doublonExact": false,
                             "doublonProbable": false,
-                            "dateAjout": "2026-09-06T18:10:38.610Z"
+                            "dateAjout": "2026-11-10T11:00:48.541Z"
                         },
                         {
                             "numero": 16,
                             "langue": [
                                 "TBD"
                             ],
-                            "fichier": "/01_Series/Burn Notice/S03/316 - Devil You Know.avi",
-                            "nomFichier": "316 - Devil You Know.avi",
-                            "taille": 366502104,
+                            "fichier": "/01_Series/Burn Notice/S03/Burn.Notice.S03E16.1080p.WEBRip.x265-HiQVE.mkv",
+                            "nomFichier": "Burn.Notice.S03E16.1080p.WEBRip.x265-HiQVE.mkv",
+                            "taille": 1336946071,
                             "doublonExact": false,
                             "doublonProbable": false,
-                            "dateAjout": "2026-09-06T18:10:38.611Z"
+                            "dateAjout": "2026-11-10T11:00:48.544Z"
                         }
-                    ],
-                    "hasMissingEpisodes": false
+                    ]
                 },
                 {
                     "numero": 4,
@@ -27917,219 +27912,218 @@
                             "langue": [
                                 "TBD"
                             ],
-                            "fichier": "/01_Series/Burn Notice/S04/401 - Friends and Enemies.avi",
-                            "nomFichier": "401 - Friends and Enemies.avi",
-                            "taille": 367165116,
+                            "fichier": "/01_Series/Burn Notice/S04/Burn.Notice.S04E01.1080p.WEBRip.x265-HiQVE.mkv",
+                            "nomFichier": "Burn.Notice.S04E01.1080p.WEBRip.x265-HiQVE.mkv",
+                            "taille": 1314609888,
                             "doublonExact": false,
                             "doublonProbable": false,
-                            "dateAjout": "2026-09-06T18:10:38.611Z"
+                            "dateAjout": "2026-11-10T11:00:48.548Z"
                         },
                         {
                             "numero": 2,
                             "langue": [
                                 "TBD"
                             ],
-                            "fichier": "/01_Series/Burn Notice/S04/402 - Fast Friends.avi",
-                            "nomFichier": "402 - Fast Friends.avi",
-                            "taille": 366810332,
+                            "fichier": "/01_Series/Burn Notice/S04/Burn.Notice.S04E02.1080p.WEBRip.x265-HiQVE.mkv",
+                            "nomFichier": "Burn.Notice.S04E02.1080p.WEBRip.x265-HiQVE.mkv",
+                            "taille": 1281637290,
                             "doublonExact": false,
                             "doublonProbable": false,
-                            "dateAjout": "2026-09-06T18:10:38.612Z"
+                            "dateAjout": "2026-11-10T11:00:48.551Z"
                         },
                         {
                             "numero": 3,
                             "langue": [
                                 "TBD"
                             ],
-                            "fichier": "/01_Series/Burn Notice/S04/403 - Made Man.avi",
-                            "nomFichier": "403 - Made Man.avi",
-                            "taille": 367476440,
+                            "fichier": "/01_Series/Burn Notice/S04/Burn.Notice.S04E03.1080p.WEBRip.x265-HiQVE.mkv",
+                            "nomFichier": "Burn.Notice.S04E03.1080p.WEBRip.x265-HiQVE.mkv",
+                            "taille": 1234885221,
                             "doublonExact": false,
                             "doublonProbable": false,
-                            "dateAjout": "2026-09-06T18:10:38.612Z"
+                            "dateAjout": "2026-11-10T11:00:48.554Z"
                         },
                         {
                             "numero": 4,
                             "langue": [
                                 "TBD"
                             ],
-                            "fichier": "/01_Series/Burn Notice/S04/404 - Breach of Faith.avi",
-                            "nomFichier": "404 - Breach of Faith.avi",
-                            "taille": 367206142,
+                            "fichier": "/01_Series/Burn Notice/S04/Burn.Notice.S04E04.1080p.WEBRip.x265-HiQVE.mkv",
+                            "nomFichier": "Burn.Notice.S04E04.1080p.WEBRip.x265-HiQVE.mkv",
+                            "taille": 1234146439,
                             "doublonExact": false,
                             "doublonProbable": false,
-                            "dateAjout": "2026-09-06T18:10:38.613Z"
+                            "dateAjout": "2026-11-10T11:00:48.557Z"
                         },
                         {
                             "numero": 5,
                             "langue": [
                                 "TBD"
                             ],
-                            "fichier": "/01_Series/Burn Notice/S04/405 - Neighborhood Watch.avi",
-                            "nomFichier": "405 - Neighborhood Watch.avi",
-                            "taille": 367155686,
+                            "fichier": "/01_Series/Burn Notice/S04/Burn.Notice.S04E05.1080p.WEBRip.x265-HiQVE.mkv",
+                            "nomFichier": "Burn.Notice.S04E05.1080p.WEBRip.x265-HiQVE.mkv",
+                            "taille": 1287123010,
                             "doublonExact": false,
                             "doublonProbable": false,
-                            "dateAjout": "2026-09-06T18:10:38.613Z"
+                            "dateAjout": "2026-11-10T11:00:48.561Z"
                         },
                         {
                             "numero": 6,
                             "langue": [
                                 "TBD"
                             ],
-                            "fichier": "/01_Series/Burn Notice/S04/406 - Entry Point.avi",
-                            "nomFichier": "406 - Entry Point.avi",
-                            "taille": 366852030,
+                            "fichier": "/01_Series/Burn Notice/S04/Burn.Notice.S04E06.1080p.WEBRip.x265-HiQVE.mkv",
+                            "nomFichier": "Burn.Notice.S04E06.1080p.WEBRip.x265-HiQVE.mkv",
+                            "taille": 1212166524,
                             "doublonExact": false,
                             "doublonProbable": false,
-                            "dateAjout": "2026-09-06T18:10:38.614Z"
+                            "dateAjout": "2026-11-10T11:00:48.564Z"
                         },
                         {
                             "numero": 7,
                             "langue": [
                                 "TBD"
                             ],
-                            "fichier": "/01_Series/Burn Notice/S04/407 - Past & Future Tense.avi",
-                            "nomFichier": "407 - Past & Future Tense.avi",
-                            "taille": 367379214,
+                            "fichier": "/01_Series/Burn Notice/S04/Burn.Notice.S04E07.1080p.WEBRip.x265-HiQVE.mkv",
+                            "nomFichier": "Burn.Notice.S04E07.1080p.WEBRip.x265-HiQVE.mkv",
+                            "taille": 1236506011,
                             "doublonExact": false,
                             "doublonProbable": false,
-                            "dateAjout": "2026-09-06T18:10:38.614Z"
+                            "dateAjout": "2026-11-10T11:00:48.567Z"
                         },
                         {
                             "numero": 8,
                             "langue": [
                                 "TBD"
                             ],
-                            "fichier": "/01_Series/Burn Notice/S04/408 - Where There's Smoke.avi",
-                            "nomFichier": "408 - Where There's Smoke.avi",
-                            "taille": 367461502,
+                            "fichier": "/01_Series/Burn Notice/S04/Burn.Notice.S04E08.1080p.WEBRip.x265-HiQVE.mkv",
+                            "nomFichier": "Burn.Notice.S04E08.1080p.WEBRip.x265-HiQVE.mkv",
+                            "taille": 1167704946,
                             "doublonExact": false,
                             "doublonProbable": false,
-                            "dateAjout": "2026-09-06T18:10:38.615Z"
+                            "dateAjout": "2026-11-10T11:00:48.570Z"
                         },
                         {
                             "numero": 9,
                             "langue": [
                                 "TBD"
                             ],
-                            "fichier": "/01_Series/Burn Notice/S04/409 - Center of the Storm.avi",
-                            "nomFichier": "409 - Center of the Storm.avi",
-                            "taille": 367451772,
+                            "fichier": "/01_Series/Burn Notice/S04/Burn.Notice.S04E09.1080p.WEBRip.x265-HiQVE.mkv",
+                            "nomFichier": "Burn.Notice.S04E09.1080p.WEBRip.x265-HiQVE.mkv",
+                            "taille": 1262027110,
                             "doublonExact": false,
                             "doublonProbable": false,
-                            "dateAjout": "2026-09-06T18:10:38.615Z"
+                            "dateAjout": "2026-11-10T11:00:48.573Z"
                         },
                         {
                             "numero": 10,
                             "langue": [
                                 "TBD"
                             ],
-                            "fichier": "/01_Series/Burn Notice/S04/410 - Hard Time.avi",
-                            "nomFichier": "410 - Hard Time.avi",
-                            "taille": 366980864,
+                            "fichier": "/01_Series/Burn Notice/S04/Burn.Notice.S04E10.1080p.WEBRip.x265-HiQVE.mkv",
+                            "nomFichier": "Burn.Notice.S04E10.1080p.WEBRip.x265-HiQVE.mkv",
+                            "taille": 1318843988,
                             "doublonExact": false,
                             "doublonProbable": false,
-                            "dateAjout": "2026-09-06T18:10:38.616Z"
+                            "dateAjout": "2026-11-10T11:00:48.577Z"
                         },
                         {
                             "numero": 11,
                             "langue": [
                                 "TBD"
                             ],
-                            "fichier": "/01_Series/Burn Notice/S04/411 - Blind Spot.avi",
-                            "nomFichier": "411 - Blind Spot.avi",
-                            "taille": 367138316,
+                            "fichier": "/01_Series/Burn Notice/S04/Burn.Notice.S04E11.1080p.WEBRip.x265-HiQVE.mkv",
+                            "nomFichier": "Burn.Notice.S04E11.1080p.WEBRip.x265-HiQVE.mkv",
+                            "taille": 1316797752,
                             "doublonExact": false,
                             "doublonProbable": false,
-                            "dateAjout": "2026-09-06T18:10:38.616Z"
+                            "dateAjout": "2026-11-10T11:00:48.580Z"
                         },
                         {
                             "numero": 12,
                             "langue": [
                                 "TBD"
                             ],
-                            "fichier": "/01_Series/Burn Notice/S04/412 - Guilty as Charged.avi",
-                            "nomFichier": "412 - Guilty as Charged.avi",
-                            "taille": 367150992,
+                            "fichier": "/01_Series/Burn Notice/S04/Burn.Notice.S04E12.1080p.WEBRip.x265-HiQVE.mkv",
+                            "nomFichier": "Burn.Notice.S04E12.1080p.WEBRip.x265-HiQVE.mkv",
+                            "taille": 1285187293,
                             "doublonExact": false,
                             "doublonProbable": false,
-                            "dateAjout": "2026-09-06T18:10:38.617Z"
+                            "dateAjout": "2026-11-10T11:00:48.583Z"
                         },
                         {
                             "numero": 13,
                             "langue": [
                                 "TBD"
                             ],
-                            "fichier": "/01_Series/Burn Notice/S04/413 - Eyes Open.avi",
-                            "nomFichier": "413 - Eyes Open.avi",
-                            "taille": 367463504,
+                            "fichier": "/01_Series/Burn Notice/S04/Burn.Notice.S04E13.1080p.WEBRip.x265-HiQVE.mkv",
+                            "nomFichier": "Burn.Notice.S04E13.1080p.WEBRip.x265-HiQVE.mkv",
+                            "taille": 1318253682,
                             "doublonExact": false,
                             "doublonProbable": false,
-                            "dateAjout": "2026-09-06T18:10:38.618Z"
+                            "dateAjout": "2026-11-10T11:00:48.586Z"
                         },
                         {
                             "numero": 14,
                             "langue": [
                                 "TBD"
                             ],
-                            "fichier": "/01_Series/Burn Notice/S04/414 - Hot Property.avi",
-                            "nomFichier": "414 - Hot Property.avi",
-                            "taille": 366614698,
+                            "fichier": "/01_Series/Burn Notice/S04/Burn.Notice.S04E14.1080p.WEBRip.x265-HiQVE.mkv",
+                            "nomFichier": "Burn.Notice.S04E14.1080p.WEBRip.x265-HiQVE.mkv",
+                            "taille": 1298719470,
                             "doublonExact": false,
                             "doublonProbable": false,
-                            "dateAjout": "2026-09-06T18:10:38.618Z"
+                            "dateAjout": "2026-11-10T11:00:48.590Z"
                         },
                         {
                             "numero": 15,
                             "langue": [
                                 "TBD"
                             ],
-                            "fichier": "/01_Series/Burn Notice/S04/415 - Brotherly Love.avi",
-                            "nomFichier": "415 - Brotherly Love.avi",
-                            "taille": 367178736,
+                            "fichier": "/01_Series/Burn Notice/S04/Burn.Notice.S04E15.1080p.WEBRip.x265-HiQVE.mkv",
+                            "nomFichier": "Burn.Notice.S04E15.1080p.WEBRip.x265-HiQVE.mkv",
+                            "taille": 1293763075,
                             "doublonExact": false,
                             "doublonProbable": false,
-                            "dateAjout": "2026-09-06T18:10:38.619Z"
+                            "dateAjout": "2026-11-10T11:00:48.593Z"
                         },
                         {
                             "numero": 16,
                             "langue": [
                                 "TBD"
                             ],
-                            "fichier": "/01_Series/Burn Notice/S04/416 - Dead or Alive.avi",
-                            "nomFichier": "416 - Dead or Alive.avi",
-                            "taille": 366443930,
+                            "fichier": "/01_Series/Burn Notice/S04/Burn.Notice.S04E16.1080p.WEBRip.x265-HiQVE.mkv",
+                            "nomFichier": "Burn.Notice.S04E16.1080p.WEBRip.x265-HiQVE.mkv",
+                            "taille": 1260683258,
                             "doublonExact": false,
                             "doublonProbable": false,
-                            "dateAjout": "2026-09-06T18:10:38.619Z"
+                            "dateAjout": "2026-11-10T11:00:48.596Z"
                         },
                         {
                             "numero": 17,
                             "langue": [
                                 "TBD"
                             ],
-                            "fichier": "/01_Series/Burn Notice/S04/417 - Out of the Fire.avi",
-                            "nomFichier": "417 - Out of the Fire.avi",
-                            "taille": 366891196,
+                            "fichier": "/01_Series/Burn Notice/S04/Burn.Notice.S04E17.1080p.WEBRip.x265-HiQVE.mkv",
+                            "nomFichier": "Burn.Notice.S04E17.1080p.WEBRip.x265-HiQVE.mkv",
+                            "taille": 1327190831,
                             "doublonExact": false,
                             "doublonProbable": false,
-                            "dateAjout": "2026-09-06T18:10:38.620Z"
+                            "dateAjout": "2026-11-10T11:00:48.599Z"
                         },
                         {
                             "numero": 18,
                             "langue": [
                                 "TBD"
                             ],
-                            "fichier": "/01_Series/Burn Notice/S04/418 - Last Stand.avi",
-                            "nomFichier": "418 - Last Stand.avi",
-                            "taille": 367180740,
+                            "fichier": "/01_Series/Burn Notice/S04/Burn.Notice.S04E18.1080p.WEBRip.x265-HiQVE.mkv",
+                            "nomFichier": "Burn.Notice.S04E18.1080p.WEBRip.x265-HiQVE.mkv",
+                            "taille": 1339042628,
                             "doublonExact": false,
                             "doublonProbable": false,
-                            "dateAjout": "2026-09-06T18:10:38.620Z"
+                            "dateAjout": "2026-11-10T11:00:48.602Z"
                         }
-                    ],
-                    "hasMissingEpisodes": false
+                    ]
                 },
                 {
                     "numero": 5,
@@ -28139,219 +28133,218 @@
                             "langue": [
                                 "TBD"
                             ],
-                            "fichier": "/01_Series/Burn Notice/S05/501 - Company Man.avi",
-                            "nomFichier": "501 - Company Man.avi",
-                            "taille": 366568252,
+                            "fichier": "/01_Series/Burn Notice/S05/Burn.Notice.S05E01.1080p.WEB.h264-NiXON.mkv",
+                            "nomFichier": "Burn.Notice.S05E01.1080p.WEB.h264-NiXON.mkv",
+                            "taille": 1292117231,
                             "doublonExact": false,
                             "doublonProbable": false,
-                            "dateAjout": "2026-09-06T18:10:38.621Z"
+                            "dateAjout": "2026-11-10T11:00:48.606Z"
                         },
                         {
                             "numero": 2,
                             "langue": [
                                 "TBD"
                             ],
-                            "fichier": "/01_Series/Burn Notice/S05/502 - Bloodlines.avi",
-                            "nomFichier": "502 - Bloodlines.avi",
-                            "taille": 367114240,
+                            "fichier": "/01_Series/Burn Notice/S05/Burn.Notice.S05E02.1080p.WEB.h264-NiXON.mkv",
+                            "nomFichier": "Burn.Notice.S05E02.1080p.WEB.h264-NiXON.mkv",
+                            "taille": 1298205392,
                             "doublonExact": false,
                             "doublonProbable": false,
-                            "dateAjout": "2026-09-06T18:10:38.622Z"
+                            "dateAjout": "2026-11-10T11:00:48.609Z"
                         },
                         {
                             "numero": 3,
                             "langue": [
                                 "TBD"
                             ],
-                            "fichier": "/01_Series/Burn Notice/S05/503 - Mind Games.avi",
-                            "nomFichier": "503 - Mind Games.avi",
-                            "taille": 366948656,
+                            "fichier": "/01_Series/Burn Notice/S05/Burn.Notice.S05E03.1080p.WEB.h264-NiXON.mkv",
+                            "nomFichier": "Burn.Notice.S05E03.1080p.WEB.h264-NiXON.mkv",
+                            "taille": 1303685629,
                             "doublonExact": false,
                             "doublonProbable": false,
-                            "dateAjout": "2026-09-06T18:10:38.622Z"
+                            "dateAjout": "2026-11-10T11:00:48.613Z"
                         },
                         {
                             "numero": 4,
                             "langue": [
                                 "TBD"
                             ],
-                            "fichier": "/01_Series/Burn Notice/S05/504 - No Good Deed.avi",
-                            "nomFichier": "504 - No Good Deed.avi",
-                            "taille": 367133346,
+                            "fichier": "/01_Series/Burn Notice/S05/Burn.Notice.S05E04.1080p.WEB.h264-NiXON.mkv",
+                            "nomFichier": "Burn.Notice.S05E04.1080p.WEB.h264-NiXON.mkv",
+                            "taille": 1278653013,
                             "doublonExact": false,
                             "doublonProbable": false,
-                            "dateAjout": "2026-09-06T18:10:38.623Z"
+                            "dateAjout": "2026-11-10T11:00:48.616Z"
                         },
                         {
                             "numero": 5,
                             "langue": [
                                 "TBD"
                             ],
-                            "fichier": "/01_Series/Burn Notice/S05/505 - Square One.avi",
-                            "nomFichier": "505 - Square One.avi",
-                            "taille": 366669156,
+                            "fichier": "/01_Series/Burn Notice/S05/Burn.Notice.S05E05.1080p.WEB.h264-NiXON.mkv",
+                            "nomFichier": "Burn.Notice.S05E05.1080p.WEB.h264-NiXON.mkv",
+                            "taille": 1299500777,
                             "doublonExact": false,
                             "doublonProbable": false,
-                            "dateAjout": "2026-09-06T18:10:38.623Z"
+                            "dateAjout": "2026-11-10T11:00:48.619Z"
                         },
                         {
                             "numero": 6,
                             "langue": [
                                 "TBD"
                             ],
-                            "fichier": "/01_Series/Burn Notice/S05/506 - Enemy of My Enemy.avi",
-                            "nomFichier": "506 - Enemy of My Enemy.avi",
-                            "taille": 366650564,
+                            "fichier": "/01_Series/Burn Notice/S05/Burn.Notice.S05E06.1080p.WEB.h264-NiXON.mkv",
+                            "nomFichier": "Burn.Notice.S05E06.1080p.WEB.h264-NiXON.mkv",
+                            "taille": 1294041889,
                             "doublonExact": false,
                             "doublonProbable": false,
-                            "dateAjout": "2026-09-06T18:10:38.624Z"
+                            "dateAjout": "2026-11-10T11:00:48.622Z"
                         },
                         {
                             "numero": 7,
                             "langue": [
                                 "TBD"
                             ],
-                            "fichier": "/01_Series/Burn Notice/S05/507 - Besieged.avi",
-                            "nomFichier": "507 - Besieged.avi",
-                            "taille": 366794374,
+                            "fichier": "/01_Series/Burn Notice/S05/Burn.Notice.S05E07.1080p.WEB.h264-NiXON.mkv",
+                            "nomFichier": "Burn.Notice.S05E07.1080p.WEB.h264-NiXON.mkv",
+                            "taille": 1298642254,
                             "doublonExact": false,
                             "doublonProbable": false,
-                            "dateAjout": "2026-09-06T18:10:38.624Z"
+                            "dateAjout": "2026-11-10T11:00:48.625Z"
                         },
                         {
                             "numero": 8,
                             "langue": [
                                 "TBD"
                             ],
-                            "fichier": "/01_Series/Burn Notice/S05/508 - Hard Out.avi",
-                            "nomFichier": "508 - Hard Out.avi",
-                            "taille": 366803108,
+                            "fichier": "/01_Series/Burn Notice/S05/Burn.Notice.S05E08.1080p.WEB.h264-NiXON.mkv",
+                            "nomFichier": "Burn.Notice.S05E08.1080p.WEB.h264-NiXON.mkv",
+                            "taille": 1283553175,
                             "doublonExact": false,
                             "doublonProbable": false,
-                            "dateAjout": "2026-09-06T18:10:38.625Z"
+                            "dateAjout": "2026-11-10T11:00:48.629Z"
                         },
                         {
                             "numero": 9,
                             "langue": [
                                 "TBD"
                             ],
-                            "fichier": "/01_Series/Burn Notice/S05/509 - Eye for an Eye.avi",
-                            "nomFichier": "509 - Eye for an Eye.avi",
-                            "taille": 366717058,
+                            "fichier": "/01_Series/Burn Notice/S05/Burn.Notice.S05E09.1080p.WEB.h264-NiXON.mkv",
+                            "nomFichier": "Burn.Notice.S05E09.1080p.WEB.h264-NiXON.mkv",
+                            "taille": 1231810457,
                             "doublonExact": false,
                             "doublonProbable": false,
-                            "dateAjout": "2026-09-06T18:10:38.625Z"
+                            "dateAjout": "2026-11-10T11:00:48.632Z"
                         },
                         {
                             "numero": 10,
                             "langue": [
                                 "TBD"
                             ],
-                            "fichier": "/01_Series/Burn Notice/S05/510 - Army of One.avi",
-                            "nomFichier": "510 - Army of One.avi",
-                            "taille": 367361546,
+                            "fichier": "/01_Series/Burn Notice/S05/Burn.Notice.S05E10.1080p.WEB.h264-NiXON.mkv",
+                            "nomFichier": "Burn.Notice.S05E10.1080p.WEB.h264-NiXON.mkv",
+                            "taille": 1267940007,
                             "doublonExact": false,
                             "doublonProbable": false,
-                            "dateAjout": "2026-09-06T18:10:38.626Z"
+                            "dateAjout": "2026-11-10T11:00:48.635Z"
                         },
                         {
                             "numero": 11,
                             "langue": [
                                 "TBD"
                             ],
-                            "fichier": "/01_Series/Burn Notice/S05/511 - Better Halves.avi",
-                            "nomFichier": "511 - Better Halves.avi",
-                            "taille": 367153258,
+                            "fichier": "/01_Series/Burn Notice/S05/Burn.Notice.S05E11.1080p.WEB.h264-NiXON.mkv",
+                            "nomFichier": "Burn.Notice.S05E11.1080p.WEB.h264-NiXON.mkv",
+                            "taille": 1303944768,
                             "doublonExact": false,
                             "doublonProbable": false,
-                            "dateAjout": "2026-09-06T18:10:38.626Z"
+                            "dateAjout": "2026-11-10T11:00:48.638Z"
                         },
                         {
                             "numero": 12,
                             "langue": [
                                 "TBD"
                             ],
-                            "fichier": "/01_Series/Burn Notice/S05/512 - Dead to Rights.avi",
-                            "nomFichier": "512 - Dead to Rights.avi",
-                            "taille": 368928452,
+                            "fichier": "/01_Series/Burn Notice/S05/Burn.Notice.S05E12.1080p.WEB.h264-NiXON.mkv",
+                            "nomFichier": "Burn.Notice.S05E12.1080p.WEB.h264-NiXON.mkv",
+                            "taille": 1270839248,
                             "doublonExact": false,
                             "doublonProbable": false,
-                            "dateAjout": "2026-09-06T18:10:38.627Z"
+                            "dateAjout": "2026-11-10T11:00:48.641Z"
                         },
                         {
                             "numero": 13,
                             "langue": [
                                 "TBD"
                             ],
-                            "fichier": "/01_Series/Burn Notice/S05/513 - Damned If You Do.avi",
-                            "nomFichier": "513 - Damned If You Do.avi",
-                            "taille": 366892606,
+                            "fichier": "/01_Series/Burn Notice/S05/Burn.Notice.S05E13.1080p.WEB.h264-NiXON.mkv",
+                            "nomFichier": "Burn.Notice.S05E13.1080p.WEB.h264-NiXON.mkv",
+                            "taille": 1277752848,
                             "doublonExact": false,
                             "doublonProbable": false,
-                            "dateAjout": "2026-09-06T18:10:38.627Z"
+                            "dateAjout": "2026-11-10T11:00:48.645Z"
                         },
                         {
                             "numero": 14,
                             "langue": [
                                 "TBD"
                             ],
-                            "fichier": "/01_Series/Burn Notice/S05/514 - Breaking Point.avi",
-                            "nomFichier": "514 - Breaking Point.avi",
-                            "taille": 367068600,
+                            "fichier": "/01_Series/Burn Notice/S05/Burn.Notice.S05E14.1080p.WEB.h264-NiXON.mkv",
+                            "nomFichier": "Burn.Notice.S05E14.1080p.WEB.h264-NiXON.mkv",
+                            "taille": 1297549409,
                             "doublonExact": false,
                             "doublonProbable": false,
-                            "dateAjout": "2026-09-06T18:10:38.628Z"
+                            "dateAjout": "2026-11-10T11:00:48.648Z"
                         },
                         {
                             "numero": 15,
                             "langue": [
                                 "TBD"
                             ],
-                            "fichier": "/01_Series/Burn Notice/S05/515 - Necessary Evil.avi",
-                            "nomFichier": "515 - Necessary Evil.avi",
-                            "taille": 366734486,
+                            "fichier": "/01_Series/Burn Notice/S05/Burn.Notice.S05E15.1080p.WEB.h264-NiXON.mkv",
+                            "nomFichier": "Burn.Notice.S05E15.1080p.WEB.h264-NiXON.mkv",
+                            "taille": 1301893801,
                             "doublonExact": false,
                             "doublonProbable": false,
-                            "dateAjout": "2026-09-06T18:10:38.629Z"
+                            "dateAjout": "2026-11-10T11:00:48.651Z"
                         },
                         {
                             "numero": 16,
                             "langue": [
                                 "TBD"
                             ],
-                            "fichier": "/01_Series/Burn Notice/S05/516 - Depth Perception.avi",
-                            "nomFichier": "516 - Depth Perception.avi",
-                            "taille": 366733312,
+                            "fichier": "/01_Series/Burn Notice/S05/Burn.Notice.S05E16.1080p.WEB.h264-NiXON.mkv",
+                            "nomFichier": "Burn.Notice.S05E16.1080p.WEB.h264-NiXON.mkv",
+                            "taille": 1238550783,
                             "doublonExact": false,
                             "doublonProbable": false,
-                            "dateAjout": "2026-09-06T18:10:38.629Z"
+                            "dateAjout": "2026-11-10T11:00:48.655Z"
                         },
                         {
                             "numero": 17,
                             "langue": [
                                 "TBD"
                             ],
-                            "fichier": "/01_Series/Burn Notice/S05/517 - Acceptable Loss.avi",
-                            "nomFichier": "517 - Acceptable Loss.avi",
-                            "taille": 366976820,
+                            "fichier": "/01_Series/Burn Notice/S05/Burn.Notice.S05E17.1080p.WEB.h264-NiXON.mkv",
+                            "nomFichier": "Burn.Notice.S05E17.1080p.WEB.h264-NiXON.mkv",
+                            "taille": 1302480389,
                             "doublonExact": false,
                             "doublonProbable": false,
-                            "dateAjout": "2026-09-06T18:10:38.630Z"
+                            "dateAjout": "2026-11-10T11:00:48.658Z"
                         },
                         {
                             "numero": 18,
                             "langue": [
                                 "TBD"
                             ],
-                            "fichier": "/01_Series/Burn Notice/S05/518 - Fail Safe.avi",
-                            "nomFichier": "518 - Fail Safe.avi",
-                            "taille": 366730752,
+                            "fichier": "/01_Series/Burn Notice/S05/Burn.Notice.S05E18.1080p.WEB.h264-NiXON.mkv",
+                            "nomFichier": "Burn.Notice.S05E18.1080p.WEB.h264-NiXON.mkv",
+                            "taille": 1243749553,
                             "doublonExact": false,
                             "doublonProbable": false,
-                            "dateAjout": "2026-09-06T18:10:38.630Z"
+                            "dateAjout": "2026-11-10T11:00:48.661Z"
                         }
-                    ],
-                    "hasMissingEpisodes": false
+                    ]
                 },
                 {
                     "numero": 6,
@@ -28361,219 +28354,218 @@
                             "langue": [
                                 "TBD"
                             ],
-                            "fichier": "/01_Series/Burn Notice/S06/601 - Scorched Earth.avi",
-                            "nomFichier": "601 - Scorched Earth.avi",
-                            "taille": 354929338,
+                            "fichier": "/01_Series/Burn Notice/S06/Burn.Notice.S06E01.1080p.WEBRip.x265-HiQVE.mkv",
+                            "nomFichier": "Burn.Notice.S06E01.1080p.WEBRip.x265-HiQVE.mkv",
+                            "taille": 1278113513,
                             "doublonExact": false,
                             "doublonProbable": false,
-                            "dateAjout": "2026-09-06T18:10:38.631Z"
+                            "dateAjout": "2026-11-10T11:00:48.664Z"
                         },
                         {
                             "numero": 2,
                             "langue": [
                                 "TBD"
                             ],
-                            "fichier": "/01_Series/Burn Notice/S06/602 - Mixed Messages.mp4",
-                            "nomFichier": "602 - Mixed Messages.mp4",
-                            "taille": 329603409,
+                            "fichier": "/01_Series/Burn Notice/S06/Burn.Notice.S06E02.1080p.WEBRip.x265-HiQVE.mkv",
+                            "nomFichier": "Burn.Notice.S06E02.1080p.WEBRip.x265-HiQVE.mkv",
+                            "taille": 1304914766,
                             "doublonExact": false,
                             "doublonProbable": false,
-                            "dateAjout": "2026-09-06T18:10:38.631Z"
+                            "dateAjout": "2026-11-10T11:00:48.668Z"
                         },
                         {
                             "numero": 3,
                             "langue": [
                                 "TBD"
                             ],
-                            "fichier": "/01_Series/Burn Notice/S06/603 - Last Rites.mp4",
-                            "nomFichier": "603 - Last Rites.mp4",
-                            "taille": 347856194,
+                            "fichier": "/01_Series/Burn Notice/S06/Burn.Notice.S06E03.1080p.WEBRip.x265-HiQVE.mkv",
+                            "nomFichier": "Burn.Notice.S06E03.1080p.WEBRip.x265-HiQVE.mkv",
+                            "taille": 1200391958,
                             "doublonExact": false,
                             "doublonProbable": false,
-                            "dateAjout": "2026-09-06T18:10:38.632Z"
+                            "dateAjout": "2026-11-10T11:00:48.672Z"
                         },
                         {
                             "numero": 4,
                             "langue": [
                                 "TBD"
                             ],
-                            "fichier": "/01_Series/Burn Notice/S06/604 - Under the Gun.mp4",
-                            "nomFichier": "604 - Under the Gun.mp4",
-                            "taille": 484165989,
+                            "fichier": "/01_Series/Burn Notice/S06/Burn.Notice.S06E04.1080p.WEBRip.x265-HiQVE.mkv",
+                            "nomFichier": "Burn.Notice.S06E04.1080p.WEBRip.x265-HiQVE.mkv",
+                            "taille": 1300361601,
                             "doublonExact": false,
                             "doublonProbable": false,
-                            "dateAjout": "2026-09-06T18:10:38.632Z"
+                            "dateAjout": "2026-11-10T11:00:48.676Z"
                         },
                         {
                             "numero": 5,
                             "langue": [
                                 "TBD"
                             ],
-                            "fichier": "/01_Series/Burn Notice/S06/605 - Split Decision.mp4",
-                            "nomFichier": "605 - Split Decision.mp4",
-                            "taille": 404033682,
+                            "fichier": "/01_Series/Burn Notice/S06/Burn.Notice.S06E05.1080p.WEBRip.x265-HiQVE.mkv",
+                            "nomFichier": "Burn.Notice.S06E05.1080p.WEBRip.x265-HiQVE.mkv",
+                            "taille": 1268414442,
                             "doublonExact": false,
                             "doublonProbable": false,
-                            "dateAjout": "2026-09-06T18:10:38.633Z"
+                            "dateAjout": "2026-11-10T11:00:48.679Z"
                         },
                         {
                             "numero": 6,
                             "langue": [
                                 "TBD"
                             ],
-                            "fichier": "/01_Series/Burn Notice/S06/606 - Shock Wave.mp4",
-                            "nomFichier": "606 - Shock Wave.mp4",
-                            "taille": 388545602,
+                            "fichier": "/01_Series/Burn Notice/S06/Burn.Notice.S06E06.1080p.WEBRip.x265-HiQVE.mkv",
+                            "nomFichier": "Burn.Notice.S06E06.1080p.WEBRip.x265-HiQVE.mkv",
+                            "taille": 1284349754,
                             "doublonExact": false,
                             "doublonProbable": false,
-                            "dateAjout": "2026-09-06T18:10:38.634Z"
+                            "dateAjout": "2026-11-10T11:00:48.683Z"
                         },
                         {
                             "numero": 7,
                             "langue": [
                                 "TBD"
                             ],
-                            "fichier": "/01_Series/Burn Notice/S06/607 - Reunion.mp4",
-                            "nomFichier": "607 - Reunion.mp4",
-                            "taille": 401005799,
+                            "fichier": "/01_Series/Burn Notice/S06/Burn.Notice.S06E07.1080p.WEBRip.x265-HiQVE.mkv",
+                            "nomFichier": "Burn.Notice.S06E07.1080p.WEBRip.x265-HiQVE.mkv",
+                            "taille": 1299826684,
                             "doublonExact": false,
                             "doublonProbable": false,
-                            "dateAjout": "2026-09-06T18:10:38.634Z"
+                            "dateAjout": "2026-11-10T11:00:48.686Z"
                         },
                         {
                             "numero": 8,
                             "langue": [
                                 "TBD"
                             ],
-                            "fichier": "/01_Series/Burn Notice/S06/608 - Unchained.mp4",
-                            "nomFichier": "608 - Unchained.mp4",
-                            "taille": 403939787,
+                            "fichier": "/01_Series/Burn Notice/S06/Burn.Notice.S06E08.1080p.WEBRip.x265-HiQVE.mkv",
+                            "nomFichier": "Burn.Notice.S06E08.1080p.WEBRip.x265-HiQVE.mkv",
+                            "taille": 1308211353,
                             "doublonExact": false,
                             "doublonProbable": false,
-                            "dateAjout": "2026-09-06T18:10:38.635Z"
+                            "dateAjout": "2026-11-10T11:00:48.690Z"
                         },
                         {
                             "numero": 9,
                             "langue": [
                                 "TBD"
                             ],
-                            "fichier": "/01_Series/Burn Notice/S06/609 - Official Business.mp4",
-                            "nomFichier": "609 - Official Business.mp4",
-                            "taille": 429654408,
+                            "fichier": "/01_Series/Burn Notice/S06/Burn.Notice.S06E09.1080p.WEBRip.x265-HiQVE.mkv",
+                            "nomFichier": "Burn.Notice.S06E09.1080p.WEBRip.x265-HiQVE.mkv",
+                            "taille": 1287473297,
                             "doublonExact": false,
                             "doublonProbable": false,
-                            "dateAjout": "2026-09-06T18:10:38.635Z"
+                            "dateAjout": "2026-11-10T11:00:48.693Z"
                         },
                         {
                             "numero": 10,
                             "langue": [
                                 "TBD"
                             ],
-                            "fichier": "/01_Series/Burn Notice/S06/610 - Desperate Times.mp4",
-                            "nomFichier": "610 - Desperate Times.mp4",
-                            "taille": 423751710,
+                            "fichier": "/01_Series/Burn Notice/S06/Burn.Notice.S06E10.1080p.WEBRip.x265-HiQVE.mkv",
+                            "nomFichier": "Burn.Notice.S06E10.1080p.WEBRip.x265-HiQVE.mkv",
+                            "taille": 1268976586,
                             "doublonExact": false,
                             "doublonProbable": false,
-                            "dateAjout": "2026-09-06T18:10:38.636Z"
+                            "dateAjout": "2026-11-10T11:00:48.696Z"
                         },
                         {
                             "numero": 11,
                             "langue": [
                                 "TBD"
                             ],
-                            "fichier": "/01_Series/Burn Notice/S06/611 - Desperate Measures, Means & Ends.mp4",
-                            "nomFichier": "611 - Desperate Measures, Means & Ends.mp4",
-                            "taille": 727806431,
+                            "fichier": "/01_Series/Burn Notice/S06/Burn.Notice.S06E11.1080p.WEBRip.x265-HiQVE.mkv",
+                            "nomFichier": "Burn.Notice.S06E11.1080p.WEBRip.x265-HiQVE.mkv",
+                            "taille": 1287544130,
                             "doublonExact": false,
                             "doublonProbable": false,
-                            "dateAjout": "2026-09-06T18:10:38.636Z"
+                            "dateAjout": "2026-11-10T11:00:48.700Z"
                         },
                         {
                             "numero": 12,
                             "langue": [
                                 "TBD"
                             ],
-                            "fichier": "/01_Series/Burn Notice/S06/612 - Desperate Measures, Means & Ends.webp",
-                            "nomFichier": "612 - Desperate Measures, Means & Ends.webp",
-                            "taille": 81016,
+                            "fichier": "/01_Series/Burn Notice/S06/Burn.Notice.S06E12.1080p.WEBRip.x265-HiQVE.mkv",
+                            "nomFichier": "Burn.Notice.S06E12.1080p.WEBRip.x265-HiQVE.mkv",
+                            "taille": 1329436631,
                             "doublonExact": false,
                             "doublonProbable": false,
-                            "dateAjout": "2026-09-06T18:10:38.637Z"
+                            "dateAjout": "2026-11-10T11:00:48.703Z"
                         },
                         {
                             "numero": 13,
                             "langue": [
                                 "TBD"
                             ],
-                            "fichier": "/01_Series/Burn Notice/S06/613 - Over the Line.mp4",
-                            "nomFichier": "613 - Over the Line.mp4",
-                            "taille": 385311415,
+                            "fichier": "/01_Series/Burn Notice/S06/Burn.Notice.S06E13.1080p.WEBRip.x265-HiQVE.mkv",
+                            "nomFichier": "Burn.Notice.S06E13.1080p.WEBRip.x265-HiQVE.mkv",
+                            "taille": 1301309463,
                             "doublonExact": false,
                             "doublonProbable": false,
-                            "dateAjout": "2026-09-06T18:10:38.638Z"
+                            "dateAjout": "2026-11-10T11:00:48.706Z"
                         },
                         {
                             "numero": 14,
                             "langue": [
                                 "TBD"
                             ],
-                            "fichier": "/01_Series/Burn Notice/S06/614 - Down & Out.mp4",
-                            "nomFichier": "614 - Down & Out.mp4",
-                            "taille": 356147094,
+                            "fichier": "/01_Series/Burn Notice/S06/Burn.Notice.S06E14.1080p.WEBRip.x265-HiQVE.mkv",
+                            "nomFichier": "Burn.Notice.S06E14.1080p.WEBRip.x265-HiQVE.mkv",
+                            "taille": 1328106175,
                             "doublonExact": false,
                             "doublonProbable": false,
-                            "dateAjout": "2026-09-06T18:10:38.638Z"
+                            "dateAjout": "2026-11-10T11:00:48.709Z"
                         },
                         {
                             "numero": 15,
                             "langue": [
                                 "TBD"
                             ],
-                            "fichier": "/01_Series/Burn Notice/S06/615 - Best Laid Plans.mp4",
-                            "nomFichier": "615 - Best Laid Plans.mp4",
-                            "taille": 376746514,
+                            "fichier": "/01_Series/Burn Notice/S06/Burn.Notice.S06E15.1080p.WEBRip.x265-HiQVE.mkv",
+                            "nomFichier": "Burn.Notice.S06E15.1080p.WEBRip.x265-HiQVE.mkv",
+                            "taille": 1347921477,
                             "doublonExact": false,
                             "doublonProbable": false,
-                            "dateAjout": "2026-09-06T18:10:38.639Z"
+                            "dateAjout": "2026-11-10T11:00:48.712Z"
                         },
                         {
                             "numero": 16,
                             "langue": [
                                 "TBD"
                             ],
-                            "fichier": "/01_Series/Burn Notice/S06/616 - Odd Man Out.mp4",
-                            "nomFichier": "616 - Odd Man Out.mp4",
-                            "taille": 412611465,
+                            "fichier": "/01_Series/Burn Notice/S06/Burn.Notice.S06E16.1080p.WEBRip.x265-HiQVE.mkv",
+                            "nomFichier": "Burn.Notice.S06E16.1080p.WEBRip.x265-HiQVE.mkv",
+                            "taille": 1277560281,
                             "doublonExact": false,
                             "doublonProbable": false,
-                            "dateAjout": "2026-09-06T18:10:38.639Z"
+                            "dateAjout": "2026-11-10T11:00:48.716Z"
                         },
                         {
                             "numero": 17,
                             "langue": [
                                 "TBD"
                             ],
-                            "fichier": "/01_Series/Burn Notice/S06/617 - You Can Run, Game Change.mp4",
-                            "nomFichier": "617 - You Can Run, Game Change.mp4",
-                            "taille": 660793978,
+                            "fichier": "/01_Series/Burn Notice/S06/Burn.Notice.S06E17.1080p.WEBRip.x265-HiQVE.mkv",
+                            "nomFichier": "Burn.Notice.S06E17.1080p.WEBRip.x265-HiQVE.mkv",
+                            "taille": 1278286580,
                             "doublonExact": false,
                             "doublonProbable": false,
-                            "dateAjout": "2026-09-06T18:10:38.640Z"
+                            "dateAjout": "2026-11-10T11:00:48.719Z"
                         },
                         {
                             "numero": 18,
                             "langue": [
                                 "TBD"
                             ],
-                            "fichier": "/01_Series/Burn Notice/S06/618 - You Can Run, Game Change.webp",
-                            "nomFichier": "618 - You Can Run, Game Change.webp",
-                            "taille": 81016,
+                            "fichier": "/01_Series/Burn Notice/S06/Burn.Notice.S06E18.1080p.WEBRip.x265-HiQVE.mkv",
+                            "nomFichier": "Burn.Notice.S06E18.1080p.WEBRip.x265-HiQVE.mkv",
+                            "taille": 1250533427,
                             "doublonExact": false,
                             "doublonProbable": false,
-                            "dateAjout": "2026-09-06T18:10:38.640Z"
+                            "dateAjout": "2026-11-10T11:00:48.722Z"
                         }
-                    ],
-                    "hasMissingEpisodes": false
+                    ]
                 },
                 {
                     "numero": 7,
@@ -28583,159 +28575,158 @@
                             "langue": [
                                 "TBD"
                             ],
-                            "fichier": "/01_Series/Burn Notice/S07/701 - New Deal.mp4",
-                            "nomFichier": "701 - New Deal.mp4",
-                            "taille": 337684745,
+                            "fichier": "/01_Series/Burn Notice/S07/Burn.Notice.S07E01.1080p.WEBRip.x265-HiQVE.mkv",
+                            "nomFichier": "Burn.Notice.S07E01.1080p.WEBRip.x265-HiQVE.mkv",
+                            "taille": 1253177197,
                             "doublonExact": false,
                             "doublonProbable": false,
-                            "dateAjout": "2026-09-06T18:10:38.641Z"
+                            "dateAjout": "2026-11-10T11:00:48.725Z"
                         },
                         {
                             "numero": 2,
                             "langue": [
                                 "TBD"
                             ],
-                            "fichier": "/01_Series/Burn Notice/S07/702 - Forget Me Not.mp4",
-                            "nomFichier": "702 - Forget Me Not.mp4",
-                            "taille": 376610763,
+                            "fichier": "/01_Series/Burn Notice/S07/Burn.Notice.S07E02.1080p.WEBRip.x265-HiQVE.mkv",
+                            "nomFichier": "Burn.Notice.S07E02.1080p.WEBRip.x265-HiQVE.mkv",
+                            "taille": 1301468769,
                             "doublonExact": false,
                             "doublonProbable": false,
-                            "dateAjout": "2026-09-06T18:10:38.642Z"
+                            "dateAjout": "2026-11-10T11:00:48.728Z"
                         },
                         {
                             "numero": 3,
                             "langue": [
                                 "TBD"
                             ],
-                            "fichier": "/01_Series/Burn Notice/S07/703 - Down Range.mp4",
-                            "nomFichier": "703 - Down Range.mp4",
-                            "taille": 387222124,
+                            "fichier": "/01_Series/Burn Notice/S07/Burn.Notice.S07E03.1080p.WEBRip.x265-HiQVE.mkv",
+                            "nomFichier": "Burn.Notice.S07E03.1080p.WEBRip.x265-HiQVE.mkv",
+                            "taille": 1279013781,
                             "doublonExact": false,
                             "doublonProbable": false,
-                            "dateAjout": "2026-09-06T18:10:38.642Z"
+                            "dateAjout": "2026-11-10T11:00:48.732Z"
                         },
                         {
                             "numero": 4,
                             "langue": [
                                 "TBD"
                             ],
-                            "fichier": "/01_Series/Burn Notice/S07/704 - Brothers in Arms.mp4",
-                            "nomFichier": "704 - Brothers in Arms.mp4",
-                            "taille": 356896462,
+                            "fichier": "/01_Series/Burn Notice/S07/Burn.Notice.S07E04.1080p.WEBRip.x265-HiQVE.mkv",
+                            "nomFichier": "Burn.Notice.S07E04.1080p.WEBRip.x265-HiQVE.mkv",
+                            "taille": 1203370801,
                             "doublonExact": false,
                             "doublonProbable": false,
-                            "dateAjout": "2026-09-06T18:10:38.642Z"
+                            "dateAjout": "2026-11-10T11:00:48.735Z"
                         },
                         {
                             "numero": 5,
                             "langue": [
                                 "TBD"
                             ],
-                            "fichier": "/01_Series/Burn Notice/S07/705 - Exit Plan.mp4",
-                            "nomFichier": "705 - Exit Plan.mp4",
-                            "taille": 418975805,
+                            "fichier": "/01_Series/Burn Notice/S07/Burn.Notice.S07E05.1080p.WEBRip.x265-HiQVE.mkv",
+                            "nomFichier": "Burn.Notice.S07E05.1080p.WEBRip.x265-HiQVE.mkv",
+                            "taille": 1299781249,
                             "doublonExact": false,
                             "doublonProbable": false,
-                            "dateAjout": "2026-09-06T18:10:38.643Z"
+                            "dateAjout": "2026-11-10T11:00:48.738Z"
                         },
                         {
                             "numero": 6,
                             "langue": [
                                 "TBD"
                             ],
-                            "fichier": "/01_Series/Burn Notice/S07/706 - All or Nothing.mp4",
-                            "nomFichier": "706 - All or Nothing.mp4",
-                            "taille": 358906991,
+                            "fichier": "/01_Series/Burn Notice/S07/Burn.Notice.S07E06.1080p.WEBRip.x265-HiQVE.mkv",
+                            "nomFichier": "Burn.Notice.S07E06.1080p.WEBRip.x265-HiQVE.mkv",
+                            "taille": 1292672797,
                             "doublonExact": false,
                             "doublonProbable": false,
-                            "dateAjout": "2026-09-06T18:10:38.643Z"
+                            "dateAjout": "2026-11-10T11:00:48.742Z"
                         },
                         {
                             "numero": 7,
                             "langue": [
                                 "TBD"
                             ],
-                            "fichier": "/01_Series/Burn Notice/S07/707 - Psychological Warfare.mp4",
-                            "nomFichier": "707 - Psychological Warfare.mp4",
-                            "taille": 316422460,
+                            "fichier": "/01_Series/Burn Notice/S07/Burn.Notice.S07E07.1080p.WEBRip.x265-HiQVE.mkv",
+                            "nomFichier": "Burn.Notice.S07E07.1080p.WEBRip.x265-HiQVE.mkv",
+                            "taille": 1195928029,
                             "doublonExact": false,
                             "doublonProbable": false,
-                            "dateAjout": "2026-09-06T18:10:38.644Z"
+                            "dateAjout": "2026-11-10T11:00:48.745Z"
                         },
                         {
                             "numero": 8,
                             "langue": [
                                 "TBD"
                             ],
-                            "fichier": "/01_Series/Burn Notice/S07/708 - Nature of the Beast.mp4",
-                            "nomFichier": "708 - Nature of the Beast.mp4",
-                            "taille": 365369583,
+                            "fichier": "/01_Series/Burn Notice/S07/Burn.Notice.S07E08.1080p.WEBRip.x265-HiQVE.mkv",
+                            "nomFichier": "Burn.Notice.S07E08.1080p.WEBRip.x265-HiQVE.mkv",
+                            "taille": 1284830029,
                             "doublonExact": false,
                             "doublonProbable": false,
-                            "dateAjout": "2026-09-06T18:10:38.644Z"
+                            "dateAjout": "2026-11-10T11:00:48.748Z"
                         },
                         {
                             "numero": 9,
                             "langue": [
                                 "TBD"
                             ],
-                            "fichier": "/01_Series/Burn Notice/S07/709 - Bitter Pill.mp4",
-                            "nomFichier": "709 - Bitter Pill.mp4",
-                            "taille": 394628857,
+                            "fichier": "/01_Series/Burn Notice/S07/Burn.Notice.S07E09.1080p.WEBRip.x265-HiQVE.mkv",
+                            "nomFichier": "Burn.Notice.S07E09.1080p.WEBRip.x265-HiQVE.mkv",
+                            "taille": 1302503609,
                             "doublonExact": false,
                             "doublonProbable": false,
-                            "dateAjout": "2026-09-06T18:10:38.645Z"
+                            "dateAjout": "2026-11-10T11:00:48.751Z"
                         },
                         {
                             "numero": 10,
                             "langue": [
                                 "TBD"
                             ],
-                            "fichier": "/01_Series/Burn Notice/S07/710 - Things Unseen.mp4",
-                            "nomFichier": "710 - Things Unseen.mp4",
-                            "taille": 382459812,
+                            "fichier": "/01_Series/Burn Notice/S07/Burn.Notice.S07E10.1080p.WEBRip.x265-HiQVE.mkv",
+                            "nomFichier": "Burn.Notice.S07E10.1080p.WEBRip.x265-HiQVE.mkv",
+                            "taille": 1311384183,
                             "doublonExact": false,
                             "doublonProbable": false,
-                            "dateAjout": "2026-09-06T18:10:38.645Z"
+                            "dateAjout": "2026-11-10T11:00:48.754Z"
                         },
                         {
                             "numero": 11,
                             "langue": [
                                 "TBD"
                             ],
-                            "fichier": "/01_Series/Burn Notice/S07/711 - Tipping Point.mp4",
-                            "nomFichier": "711 - Tipping Point.mp4",
-                            "taille": 407395898,
+                            "fichier": "/01_Series/Burn Notice/S07/Burn.Notice.S07E11.1080p.WEBRip.x265-HiQVE.mkv",
+                            "nomFichier": "Burn.Notice.S07E11.1080p.WEBRip.x265-HiQVE.mkv",
+                            "taille": 1290264418,
                             "doublonExact": false,
                             "doublonProbable": false,
-                            "dateAjout": "2026-09-06T18:10:38.646Z"
+                            "dateAjout": "2026-11-10T11:00:48.757Z"
                         },
                         {
                             "numero": 12,
                             "langue": [
                                 "TBD"
                             ],
-                            "fichier": "/01_Series/Burn Notice/S07/712 - Sea Change.mp4",
-                            "nomFichier": "712 - Sea Change.mp4",
-                            "taille": 369140452,
+                            "fichier": "/01_Series/Burn Notice/S07/Burn.Notice.S07E12.1080p.WEBRip.x265-HiQVE.mkv",
+                            "nomFichier": "Burn.Notice.S07E12.1080p.WEBRip.x265-HiQVE.mkv",
+                            "taille": 1279084530,
                             "doublonExact": false,
                             "doublonProbable": false,
-                            "dateAjout": "2026-09-06T18:10:38.646Z"
+                            "dateAjout": "2026-11-10T11:00:48.760Z"
                         },
                         {
                             "numero": 13,
                             "langue": [
                                 "TBD"
                             ],
-                            "fichier": "/01_Series/Burn Notice/S07/713 - Reckoning.mp4",
-                            "nomFichier": "713 - Reckoning.mp4",
-                            "taille": 411388748,
+                            "fichier": "/01_Series/Burn Notice/S07/Burn.Notice.S07E13.1080p.WEBRip.x265-HiQVE.mkv",
+                            "nomFichier": "Burn.Notice.S07E13.1080p.WEBRip.x265-HiQVE.mkv",
+                            "taille": 1331825647,
                             "doublonExact": false,
                             "doublonProbable": false,
-                            "dateAjout": "2026-09-06T18:10:38.646Z"
+                            "dateAjout": "2026-11-10T11:00:48.764Z"
                         }
-                    ],
-                    "hasMissingEpisodes": false
+                    ]
                 }
             ]
         },
@@ -28875,8 +28866,7 @@
                             "doublonProbable": false,
                             "dateAjout": "2026-09-06T18:10:38.652Z"
                         }
-                    ],
-                    "hasMissingEpisodes": true
+                    ]
                 },
                 {
                     "numero": 2,
@@ -29073,8 +29063,7 @@
                             "doublonProbable": false,
                             "dateAjout": "2026-09-06T18:10:38.660Z"
                         }
-                    ],
-                    "hasMissingEpisodes": false
+                    ]
                 },
                 {
                     "numero": 3,
@@ -29271,8 +29260,7 @@
                             "doublonProbable": false,
                             "dateAjout": "2026-09-06T18:10:38.668Z"
                         }
-                    ],
-                    "hasMissingEpisodes": false
+                    ]
                 },
                 {
                     "numero": 4,
@@ -29469,8 +29457,7 @@
                             "doublonProbable": false,
                             "dateAjout": "2026-09-06T18:10:38.675Z"
                         }
-                    ],
-                    "hasMissingEpisodes": false
+                    ]
                 },
                 {
                     "numero": 5,
@@ -29667,8 +29654,7 @@
                             "doublonProbable": false,
                             "dateAjout": "2026-09-06T18:10:38.684Z"
                         }
-                    ],
-                    "hasMissingEpisodes": false
+                    ]
                 }
             ]
         },
@@ -31522,8 +31508,7 @@
                             "doublonProbable": false,
                             "dateAjout": "2026-09-06T18:10:38.716Z"
                         }
-                    ],
-                    "hasMissingEpisodes": false
+                    ]
                 },
                 {
                     "numero": 2,
@@ -31684,8 +31669,7 @@
                             "doublonProbable": false,
                             "dateAjout": "2026-09-06T18:10:38.723Z"
                         }
-                    ],
-                    "hasMissingEpisodes": false
+                    ]
                 }
             ]
         },
@@ -32186,7 +32170,8 @@
                             "doublonProbable": false,
                             "dateAjout": "2026-09-06T18:10:38.743Z"
                         }
-                    ]
+                    ],
+                    "hasMissingEpisodes": false
                 },
                 {
                     "numero": 2,
@@ -32455,7 +32440,8 @@
                             "doublonProbable": false,
                             "dateAjout": "2026-09-06T18:10:38.754Z"
                         }
-                    ]
+                    ],
+                    "hasMissingEpisodes": false
                 },
                 {
                     "numero": 3,
@@ -32736,7 +32722,8 @@
                             "doublonProbable": true,
                             "dateAjout": "2026-09-06T18:10:38.766Z"
                         }
-                    ]
+                    ],
+                    "hasMissingEpisodes": false
                 }
             ]
         },
@@ -35650,6 +35637,147 @@
                             "doublonExact": false,
                             "doublonProbable": false,
                             "dateAjout": "2026-09-06T18:10:38.885Z"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "lupin",
+            "titre": "Lupin",
+            "image": null,
+            "imdbId": null,
+            "tmdbId": null,
+            "tmdbUrl": null,
+            "dateAjout": "2026-11-10T11:00:40.902Z",
+            "saisons": [
+                {
+                    "numero": 1,
+                    "episodes": [
+                        {
+                            "numero": 1,
+                            "langue": [
+                                "TBD"
+                            ],
+                            "fichier": "/Box_Series/Lupin/L.S01E01.WEB.h264-RBB.mp4",
+                            "nomFichier": "L.S01E01.WEB.h264-RBB.mp4",
+                            "taille": 356971367,
+                            "doublonExact": false,
+                            "doublonProbable": false,
+                            "dateAjout": "2026-11-10T11:00:40.903Z"
+                        },
+                        {
+                            "numero": 2,
+                            "langue": [
+                                "TBD"
+                            ],
+                            "fichier": "/Box_Series/Lupin/L.S01E02.WEB.h264-RBB.mp4",
+                            "nomFichier": "L.S01E02.WEB.h264-RBB.mp4",
+                            "taille": 395693069,
+                            "doublonExact": false,
+                            "doublonProbable": false,
+                            "dateAjout": "2026-11-10T11:00:40.906Z"
+                        },
+                        {
+                            "numero": 3,
+                            "langue": [
+                                "TBD"
+                            ],
+                            "fichier": "/Box_Series/Lupin/L.S01E03.WEB.h264-RBB.mp4",
+                            "nomFichier": "L.S01E03.WEB.h264-RBB.mp4",
+                            "taille": 317482066,
+                            "doublonExact": false,
+                            "doublonProbable": false,
+                            "dateAjout": "2026-11-10T11:00:40.910Z"
+                        },
+                        {
+                            "numero": 4,
+                            "langue": [
+                                "TBD"
+                            ],
+                            "fichier": "/Box_Series/Lupin/L.S01E04.WEB.h264-RBB.mp4",
+                            "nomFichier": "L.S01E04.WEB.h264-RBB.mp4",
+                            "taille": 356218444,
+                            "doublonExact": false,
+                            "doublonProbable": false,
+                            "dateAjout": "2026-11-10T11:00:40.913Z"
+                        },
+                        {
+                            "numero": 5,
+                            "langue": [
+                                "TBD"
+                            ],
+                            "fichier": "/Box_Series/Lupin/L.S01E05.WEB.h264-RBB.mp4",
+                            "nomFichier": "L.S01E05.WEB.h264-RBB.mp4",
+                            "taille": 327741798,
+                            "doublonExact": false,
+                            "doublonProbable": false,
+                            "dateAjout": "2026-11-10T11:00:40.917Z"
+                        }
+                    ]
+                },
+                {
+                    "numero": 2,
+                    "episodes": [
+                        {
+                            "numero": 1,
+                            "langue": [
+                                "VF"
+                            ],
+                            "fichier": "/Box_Series/Lupin/[ OxTorrent.ph ] Lupin.S02E01.FRENCH.WEB.XviD-EXTREME.avi",
+                            "nomFichier": "[ OxTorrent.ph ] Lupin.S02E01.FRENCH.WEB.XviD-EXTREME.avi",
+                            "taille": 316054554,
+                            "doublonExact": false,
+                            "doublonProbable": false,
+                            "dateAjout": "2026-11-10T11:00:40.920Z"
+                        },
+                        {
+                            "numero": 2,
+                            "langue": [
+                                "VF"
+                            ],
+                            "fichier": "/Box_Series/Lupin/[ OxTorrent.ph ] Lupin.S02E02.FRENCH.WEB.XviD-EXTREME.avi",
+                            "nomFichier": "[ OxTorrent.ph ] Lupin.S02E02.FRENCH.WEB.XviD-EXTREME.avi",
+                            "taille": 322146078,
+                            "doublonExact": false,
+                            "doublonProbable": false,
+                            "dateAjout": "2026-11-10T11:00:40.923Z"
+                        },
+                        {
+                            "numero": 3,
+                            "langue": [
+                                "VF"
+                            ],
+                            "fichier": "/Box_Series/Lupin/[ OxTorrent.ph ] Lupin.S02E03.FRENCH.WEB.XviD-EXTREME.avi",
+                            "nomFichier": "[ OxTorrent.ph ] Lupin.S02E03.FRENCH.WEB.XviD-EXTREME.avi",
+                            "taille": 302803320,
+                            "doublonExact": false,
+                            "doublonProbable": false,
+                            "dateAjout": "2026-11-10T11:00:40.926Z"
+                        },
+                        {
+                            "numero": 4,
+                            "langue": [
+                                "VF"
+                            ],
+                            "fichier": "/Box_Series/Lupin/[ OxTorrent.ph ] Lupin.S02E04.FRENCH.WEB.XviD-EXTREME.avi",
+                            "nomFichier": "[ OxTorrent.ph ] Lupin.S02E04.FRENCH.WEB.XviD-EXTREME.avi",
+                            "taille": 352597688,
+                            "doublonExact": false,
+                            "doublonProbable": false,
+                            "dateAjout": "2026-11-10T11:00:40.929Z"
+                        },
+                        {
+                            "numero": 5,
+                            "langue": [
+                                "VF"
+                            ],
+                            "fichier": "/Box_Series/Lupin/[ OxTorrent.ph ] Lupin.S02E05.FRENCH.WEB.XviD-EXTREME.avi",
+                            "nomFichier": "[ OxTorrent.ph ] Lupin.S02E05.FRENCH.WEB.XviD-EXTREME.avi",
+                            "taille": 374364800,
+                            "doublonExact": false,
+                            "doublonProbable": false,
+                            "dateAjout": "2026-11-10T11:00:40.933Z"
                         }
                     ]
                 }
@@ -42467,8 +42595,7 @@
                             "doublonProbable": false,
                             "dateAjout": "2026-09-06T18:10:39.169Z"
                         }
-                    ],
-                    "hasMissingEpisodes": false
+                    ]
                 },
                 {
                     "numero": 2,
@@ -42713,8 +42840,7 @@
                             "doublonProbable": false,
                             "dateAjout": "2026-09-06T18:10:39.178Z"
                         }
-                    ],
-                    "hasMissingEpisodes": false
+                    ]
                 },
                 {
                     "numero": 3,
@@ -42887,8 +43013,7 @@
                             "doublonProbable": false,
                             "dateAjout": "2026-09-06T18:10:39.185Z"
                         }
-                    ],
-                    "hasMissingEpisodes": false
+                    ]
                 },
                 {
                     "numero": 4,
@@ -43097,8 +43222,7 @@
                             "doublonProbable": false,
                             "dateAjout": "2026-09-06T18:10:39.194Z"
                         }
-                    ],
-                    "hasMissingEpisodes": true
+                    ]
                 }
             ]
         },
@@ -43983,197 +44107,196 @@
                         {
                             "numero": 1,
                             "langue": [
-                                "VOSTFR"
+                                "TBD"
                             ],
-                            "fichier": "/01_Series/Timeless/S01/Timeless.S01E01.FASTSUB.VOSTFR.HDTV.XviD-ZT.avi",
-                            "nomFichier": "Timeless.S01E01.FASTSUB.VOSTFR.HDTV.XviD-ZT.avi",
-                            "taille": 567293398,
+                            "fichier": "/01_Series/Timeless/S01/Timeless.S01E01.Pilot.1080p.10bit.BluRay.DD5.1.HEVC-Vyndros.mkv",
+                            "nomFichier": "Timeless.S01E01.Pilot.1080p.10bit.BluRay.DD5.1.HEVC-Vyndros.mkv",
+                            "taille": 1213500184,
                             "doublonExact": false,
                             "doublonProbable": false,
-                            "dateAjout": "2026-09-13T20:29:45.934Z"
+                            "dateAjout": "2026-11-10T11:00:52.485Z"
                         },
                         {
                             "numero": 2,
                             "langue": [
-                                "VOSTFR"
+                                "TBD"
                             ],
-                            "fichier": "/01_Series/Timeless/S01/Timeless.S01E02.FASTSUB.VOSTFR.HDTV.XviD-ZT.avi",
-                            "nomFichier": "Timeless.S01E02.FASTSUB.VOSTFR.HDTV.XviD-ZT.avi",
-                            "taille": 363047582,
+                            "fichier": "/01_Series/Timeless/S01/Timeless.S01E02.The.Assassination.of.Abraham.Lincoln.1080p.10bit.BluRay.DD5.1.HEVC-Vyndros.mkv",
+                            "nomFichier": "Timeless.S01E02.The.Assassination.of.Abraham.Lincoln.1080p.10bit.BluRay.DD5.1.HEVC-Vyndros.mkv",
+                            "taille": 751824315,
                             "doublonExact": false,
                             "doublonProbable": false,
-                            "dateAjout": "2026-09-13T20:29:45.935Z"
+                            "dateAjout": "2026-11-10T11:00:52.489Z"
                         },
                         {
                             "numero": 3,
                             "langue": [
-                                "VOSTFR"
+                                "TBD"
                             ],
-                            "fichier": "/01_Series/Timeless/S01/Timeless.S01E03.FASTSUB.VOSTFR.HDTV.XviD-ZT.avi",
-                            "nomFichier": "Timeless.S01E03.FASTSUB.VOSTFR.HDTV.XviD-ZT.avi",
-                            "taille": 363184074,
+                            "fichier": "/01_Series/Timeless/S01/Timeless.S01E03.Atomic.City.1080p.10bit.BluRay.DD5.1.HEVC-Vyndros.mkv",
+                            "nomFichier": "Timeless.S01E03.Atomic.City.1080p.10bit.BluRay.DD5.1.HEVC-Vyndros.mkv",
+                            "taille": 780969457,
                             "doublonExact": false,
                             "doublonProbable": false,
-                            "dateAjout": "2026-09-13T20:29:45.935Z"
+                            "dateAjout": "2026-11-10T11:00:52.492Z"
                         },
                         {
                             "numero": 4,
                             "langue": [
-                                "VOSTFR"
+                                "TBD"
                             ],
-                            "fichier": "/01_Series/Timeless/S01/Timeless.S01E04.FASTSUB.VOSTFR.HDTV.XviD-ZT.avi",
-                            "nomFichier": "Timeless.S01E04.FASTSUB.VOSTFR.HDTV.XviD-ZT.avi",
-                            "taille": 373288156,
+                            "fichier": "/01_Series/Timeless/S01/Timeless.S01E04.Party.at.Castle.Varlar.1080p.10bit.BluRay.DD5.1.HEVC-Vyndros.mkv",
+                            "nomFichier": "Timeless.S01E04.Party.at.Castle.Varlar.1080p.10bit.BluRay.DD5.1.HEVC-Vyndros.mkv",
+                            "taille": 874206293,
                             "doublonExact": false,
                             "doublonProbable": false,
-                            "dateAjout": "2026-09-13T20:29:45.936Z"
+                            "dateAjout": "2026-11-10T11:00:52.495Z"
                         },
                         {
                             "numero": 5,
                             "langue": [
-                                "VOSTFR"
+                                "TBD"
                             ],
-                            "fichier": "/01_Series/Timeless/S01/Timeless.S01E05.FASTSUB.VOSTFR.HDTV.XviD-ZT.avi",
-                            "nomFichier": "Timeless.S01E05.FASTSUB.VOSTFR.HDTV.XviD-ZT.avi",
-                            "taille": 371005654,
+                            "fichier": "/01_Series/Timeless/S01/Timeless.S01E05.The.Alamo.1080p.10bit.BluRay.DD5.1.HEVC-Vyndros.mkv",
+                            "nomFichier": "Timeless.S01E05.The.Alamo.1080p.10bit.BluRay.DD5.1.HEVC-Vyndros.mkv",
+                            "taille": 904975608,
                             "doublonExact": false,
                             "doublonProbable": false,
-                            "dateAjout": "2026-09-13T20:29:45.936Z"
+                            "dateAjout": "2026-11-10T11:00:52.498Z"
                         },
                         {
                             "numero": 6,
                             "langue": [
-                                "VOSTFR"
+                                "TBD"
                             ],
-                            "fichier": "/01_Series/Timeless/S01/Timeless.S01E06.FASTSUB.VOSTFR.HDTV.XviD-ZT.www.torrent9.biz.avi",
-                            "nomFichier": "Timeless.S01E06.FASTSUB.VOSTFR.HDTV.XviD-ZT.www.torrent9.biz.avi",
-                            "taille": 368735654,
+                            "fichier": "/01_Series/Timeless/S01/Timeless.S01E06.The.Watergate.Tape.1080p.10bit.BluRay.DD5.1.HEVC-Vyndros.mkv",
+                            "nomFichier": "Timeless.S01E06.The.Watergate.Tape.1080p.10bit.BluRay.DD5.1.HEVC-Vyndros.mkv",
+                            "taille": 883150851,
                             "doublonExact": false,
                             "doublonProbable": false,
-                            "dateAjout": "2026-09-13T20:29:45.937Z"
+                            "dateAjout": "2026-11-10T11:00:52.501Z"
                         },
                         {
                             "numero": 7,
                             "langue": [
-                                "VOSTFR"
+                                "TBD"
                             ],
-                            "fichier": "/01_Series/Timeless/S01/Timeless.S01E07.FASTSUB.VOSTFR.HDTV.XviD-ZT.www.torrent9.biz.avi",
-                            "nomFichier": "Timeless.S01E07.FASTSUB.VOSTFR.HDTV.XviD-ZT.www.torrent9.biz.avi",
-                            "taille": 364066870,
+                            "fichier": "/01_Series/Timeless/S01/Timeless.S01E07.Stranded.1080p.10bit.BluRay.DD5.1.HEVC-Vyndros.mkv",
+                            "nomFichier": "Timeless.S01E07.Stranded.1080p.10bit.BluRay.DD5.1.HEVC-Vyndros.mkv",
+                            "taille": 1050864893,
                             "doublonExact": false,
                             "doublonProbable": false,
-                            "dateAjout": "2026-09-13T20:29:45.938Z"
+                            "dateAjout": "2026-11-10T11:00:52.505Z"
                         },
                         {
                             "numero": 8,
                             "langue": [
-                                "VOSTFR"
+                                "TBD"
                             ],
-                            "fichier": "/01_Series/Timeless/S01/Timeless.S01E08.FASTSUB.VOSTFR.HDTV.x264-ARK01.www.torrent9.biz.mp4",
-                            "nomFichier": "Timeless.S01E08.FASTSUB.VOSTFR.HDTV.x264-ARK01.www.torrent9.biz.mp4",
-                            "taille": 303348427,
+                            "fichier": "/01_Series/Timeless/S01/Timeless.S01E08.Space.Race.1080p.10bit.BluRay.DD5.1.HEVC-Vyndros.mkv",
+                            "nomFichier": "Timeless.S01E08.Space.Race.1080p.10bit.BluRay.DD5.1.HEVC-Vyndros.mkv",
+                            "taille": 811062093,
                             "doublonExact": false,
                             "doublonProbable": false,
-                            "dateAjout": "2026-09-13T20:29:45.938Z"
+                            "dateAjout": "2026-11-10T11:00:52.508Z"
                         },
                         {
                             "numero": 9,
                             "langue": [
-                                "VOSTFR"
+                                "TBD"
                             ],
-                            "fichier": "/01_Series/Timeless/S01/Timeless.S01E09.VOSTFR.HDTV.XviD-EXTREME.www.torrent9.biz.avi",
-                            "nomFichier": "Timeless.S01E09.VOSTFR.HDTV.XviD-EXTREME.www.torrent9.biz.avi",
-                            "taille": 347830668,
+                            "fichier": "/01_Series/Timeless/S01/Timeless.S01E09.Last.Ride.of.Bonnie.&.Clyde.1080p.10bit.BluRay.DD5.1.HEVC-Vyndros.mkv",
+                            "nomFichier": "Timeless.S01E09.Last.Ride.of.Bonnie.&.Clyde.1080p.10bit.BluRay.DD5.1.HEVC-Vyndros.mkv",
+                            "taille": 774302899,
                             "doublonExact": false,
                             "doublonProbable": false,
-                            "dateAjout": "2026-09-13T20:29:45.939Z"
+                            "dateAjout": "2026-11-10T11:00:52.511Z"
                         },
                         {
                             "numero": 10,
                             "langue": [
-                                "VOSTFR"
+                                "TBD"
                             ],
-                            "fichier": "/01_Series/Timeless/S01/Timeless.S01E10.HDTV.VOSTFR.XViD-EXTREME.www.torrent9.biz.avi",
-                            "nomFichier": "Timeless.S01E10.HDTV.VOSTFR.XViD-EXTREME.www.torrent9.biz.avi",
-                            "taille": 361123223,
+                            "fichier": "/01_Series/Timeless/S01/Timeless.S01E10.The.Capture.of.Benedict.Arnold.1080p.10bit.BluRay.DD5.1.HEVC-Vyndros.mkv",
+                            "nomFichier": "Timeless.S01E10.The.Capture.of.Benedict.Arnold.1080p.10bit.BluRay.DD5.1.HEVC-Vyndros.mkv",
+                            "taille": 894046506,
                             "doublonExact": false,
                             "doublonProbable": false,
-                            "dateAjout": "2026-09-13T20:29:45.939Z"
+                            "dateAjout": "2026-11-10T11:00:52.514Z"
                         },
                         {
                             "numero": 11,
                             "langue": [
-                                "VOSTFR"
+                                "TBD"
                             ],
-                            "fichier": "/01_Series/Timeless/S01/Timeless.S01E11.VOSTFR.HDTV.XViD-EXTREME.www.torrent9.biz.avi",
-                            "nomFichier": "Timeless.S01E11.VOSTFR.HDTV.XViD-EXTREME.www.torrent9.biz.avi",
-                            "taille": 314049756,
+                            "fichier": "/01_Series/Timeless/S01/Timeless.S01E11.The.World's.Columbian.Exposition.1080p.10bit.BluRay.DD5.1.HEVC-Vyndros.mkv",
+                            "nomFichier": "Timeless.S01E11.The.World's.Columbian.Exposition.1080p.10bit.BluRay.DD5.1.HEVC-Vyndros.mkv",
+                            "taille": 637531829,
                             "doublonExact": false,
                             "doublonProbable": false,
-                            "dateAjout": "2026-09-13T20:29:45.939Z"
+                            "dateAjout": "2026-11-10T11:00:52.517Z"
                         },
                         {
                             "numero": 12,
                             "langue": [
-                                "VOSTFR"
+                                "TBD"
                             ],
-                            "fichier": "/01_Series/Timeless/S01/Timeless.S01E12.FASTSUB.VOSTFR.HDTV.XviD-T9.www.torrent9.biz.avi",
-                            "nomFichier": "Timeless.S01E12.FASTSUB.VOSTFR.HDTV.XviD-T9.www.torrent9.biz.avi",
-                            "taille": 367069510,
+                            "fichier": "/01_Series/Timeless/S01/Timeless.S01E12.The.Murder.of.Jesse.James.1080p.10bit.BluRay.DD5.1.HEVC-Vyndros.mkv",
+                            "nomFichier": "Timeless.S01E12.The.Murder.of.Jesse.James.1080p.10bit.BluRay.DD5.1.HEVC-Vyndros.mkv",
+                            "taille": 868946315,
                             "doublonExact": false,
                             "doublonProbable": false,
-                            "dateAjout": "2026-09-13T20:29:45.940Z"
+                            "dateAjout": "2026-11-10T11:00:52.521Z"
                         },
                         {
                             "numero": 13,
                             "langue": [
-                                "VOSTFR"
+                                "TBD"
                             ],
-                            "fichier": "/01_Series/Timeless/S01/Timeless.S01E13.FASTSUB.VOSTFR.HDTV.XviD-T9.avi",
-                            "nomFichier": "Timeless.S01E13.FASTSUB.VOSTFR.HDTV.XviD-T9.avi",
-                            "taille": 367251908,
+                            "fichier": "/01_Series/Timeless/S01/Timeless.S01E13.Karma.Chameleon.1080p.10bit.BluRay.DD5.1.HEVC-Vyndros.mkv",
+                            "nomFichier": "Timeless.S01E13.Karma.Chameleon.1080p.10bit.BluRay.DD5.1.HEVC-Vyndros.mkv",
+                            "taille": 747513103,
                             "doublonExact": false,
                             "doublonProbable": false,
-                            "dateAjout": "2026-09-13T20:29:45.940Z"
+                            "dateAjout": "2026-11-10T11:00:52.524Z"
                         },
                         {
                             "numero": 14,
                             "langue": [
-                                "VOSTFR"
+                                "TBD"
                             ],
-                            "fichier": "/01_Series/Timeless/S01/Timeless.S01E14.FASTSUB.VOSTFR.HDTV.XviD-T9.www.torrent9.biz.avi",
-                            "nomFichier": "Timeless.S01E14.FASTSUB.VOSTFR.HDTV.XviD-T9.www.torrent9.biz.avi",
-                            "taille": 377511040,
+                            "fichier": "/01_Series/Timeless/S01/Timeless.S01E14.The.Lost.Generation.1080p.10bit.BluRay.DD5.1.HEVC-Vyndros.mkv",
+                            "nomFichier": "Timeless.S01E14.The.Lost.Generation.1080p.10bit.BluRay.DD5.1.HEVC-Vyndros.mkv",
+                            "taille": 678932610,
                             "doublonExact": false,
                             "doublonProbable": false,
-                            "dateAjout": "2026-09-13T20:29:45.941Z"
+                            "dateAjout": "2026-11-10T11:00:52.527Z"
                         },
                         {
                             "numero": 15,
                             "langue": [
-                                "VOSTFR"
+                                "TBD"
                             ],
-                            "fichier": "/01_Series/Timeless/S01/Timeless.S01E15.VOSTFR.HDTV.XViD-EXTREME.avi",
-                            "nomFichier": "Timeless.S01E15.VOSTFR.HDTV.XViD-EXTREME.avi",
-                            "taille": 367882780,
+                            "fichier": "/01_Series/Timeless/S01/Timeless.S01E15.Public.Enemy.No.1.1080p.10bit.BluRay.DD5.1.HEVC-Vyndros.mkv",
+                            "nomFichier": "Timeless.S01E15.Public.Enemy.No.1.1080p.10bit.BluRay.DD5.1.HEVC-Vyndros.mkv",
+                            "taille": 677087403,
                             "doublonExact": false,
                             "doublonProbable": false,
-                            "dateAjout": "2026-09-13T20:29:45.941Z"
+                            "dateAjout": "2026-11-10T11:00:52.530Z"
                         },
                         {
                             "numero": 16,
                             "langue": [
-                                "VOSTFR"
+                                "TBD"
                             ],
-                            "fichier": "/01_Series/Timeless/S01/Timeless.S01E16.FASTSUB.VOSTFR.HDTV.XviD-T9.www.torrent9.biz.avi",
-                            "nomFichier": "Timeless.S01E16.FASTSUB.VOSTFR.HDTV.XviD-T9.www.torrent9.biz.avi",
-                            "taille": 367025478,
+                            "fichier": "/01_Series/Timeless/S01/Timeless.S01E16.The.Red.Scare.1080p.10bit.BluRay.DD5.1.HEVC-Vyndros.mkv",
+                            "nomFichier": "Timeless.S01E16.The.Red.Scare.1080p.10bit.BluRay.DD5.1.HEVC-Vyndros.mkv",
+                            "taille": 638970177,
                             "doublonExact": false,
                             "doublonProbable": false,
-                            "dateAjout": "2026-09-13T20:29:45.942Z"
+                            "dateAjout": "2026-11-10T11:00:52.533Z"
                         }
-                    ],
-                    "hasMissingEpisodes": false
+                    ]
                 },
                 {
                     "numero": 2,
@@ -44181,138 +44304,148 @@
                         {
                             "numero": 1,
                             "langue": [
-                                "VOSTFR"
+                                "TBD"
                             ],
-                            "fichier": "/01_Series/Timeless/S02/[ Torrent9.red ] Timeless.S02E01.FASTSUB.VOSTFR.HDTV.XviD-ZT.avi",
-                            "nomFichier": "[ Torrent9.red ] Timeless.S02E01.FASTSUB.VOSTFR.HDTV.XviD-ZT.avi",
-                            "taille": 367421118,
+                            "fichier": "/01_Series/Timeless/S02/Timeless.S02E01.The.War.to.End.All.Wars.1080p.10bit.BluRay.DD5.1.HEVC-Vyndros.mkv",
+                            "nomFichier": "Timeless.S02E01.The.War.to.End.All.Wars.1080p.10bit.BluRay.DD5.1.HEVC-Vyndros.mkv",
+                            "taille": 874573181,
                             "doublonExact": false,
                             "doublonProbable": false,
-                            "dateAjout": "2026-09-13T20:29:45.945Z"
+                            "dateAjout": "2026-11-10T11:00:52.537Z"
                         },
                         {
                             "numero": 2,
                             "langue": [
-                                "VOSTFR"
+                                "TBD"
                             ],
-                            "fichier": "/01_Series/Timeless/S02/[ Torrent9.red ] Timeless.S02E02.VOSTFR.HDTV.XviD-EXTREME.avi",
-                            "nomFichier": "[ Torrent9.red ] Timeless.S02E02.VOSTFR.HDTV.XviD-EXTREME.avi",
-                            "taille": 348460710,
+                            "fichier": "/01_Series/Timeless/S02/Timeless.S02E02.The.Darlington.500.1080p.10bit.BluRay.DD5.1.HEVC-Vyndros.mkv",
+                            "nomFichier": "Timeless.S02E02.The.Darlington.500.1080p.10bit.BluRay.DD5.1.HEVC-Vyndros.mkv",
+                            "taille": 1019207948,
                             "doublonExact": false,
                             "doublonProbable": false,
-                            "dateAjout": "2026-09-13T20:29:45.945Z"
+                            "dateAjout": "2026-11-10T11:00:52.540Z"
                         },
                         {
                             "numero": 3,
                             "langue": [
-                                "VOSTFR"
+                                "TBD"
                             ],
-                            "fichier": "/01_Series/Timeless/S02/[ Torrent9.red ] Timeless.S02E03.VOSTFR.WEB-DL.XviD-ZT.avi",
-                            "nomFichier": "[ Torrent9.red ] Timeless.S02E03.VOSTFR.WEB-DL.XviD-ZT.avi",
-                            "taille": 367432338,
+                            "fichier": "/01_Series/Timeless/S02/Timeless.S02E03.Hollywoodland.1080p.10bit.BluRay.DD5.1.HEVC-Vyndros.mkv",
+                            "nomFichier": "Timeless.S02E03.Hollywoodland.1080p.10bit.BluRay.DD5.1.HEVC-Vyndros.mkv",
+                            "taille": 1031051675,
                             "doublonExact": false,
                             "doublonProbable": false,
-                            "dateAjout": "2026-09-13T20:29:45.946Z"
+                            "dateAjout": "2026-11-10T11:00:52.543Z"
                         },
                         {
                             "numero": 4,
                             "langue": [
-                                "VOSTFR"
+                                "TBD"
                             ],
-                            "fichier": "/01_Series/Timeless/S02/[ Torrent9.red ] Timeless.S02E04.VOSTFR.HDTV.XviD-EXTREME.avi",
-                            "nomFichier": "[ Torrent9.red ] Timeless.S02E04.VOSTFR.HDTV.XviD-EXTREME.avi",
-                            "taille": 358159200,
+                            "fichier": "/01_Series/Timeless/S02/Timeless.S02E04.The.Salem.Witch.Hunt.1080p.10bit.BluRay.DD5.1.HEVC-Vyndros.mkv",
+                            "nomFichier": "Timeless.S02E04.The.Salem.Witch.Hunt.1080p.10bit.BluRay.DD5.1.HEVC-Vyndros.mkv",
+                            "taille": 756546066,
                             "doublonExact": false,
                             "doublonProbable": false,
-                            "dateAjout": "2026-09-13T20:29:45.946Z"
+                            "dateAjout": "2026-11-10T11:00:52.547Z"
+                        },
+                        {
+                            "numero": 5,
+                            "langue": [
+                                "TBD"
+                            ],
+                            "fichier": "/01_Series/Timeless/S02/Timeless.S02E05.The.Kennedy.Curse.1080p.10bit.BluRay.DD5.1.HEVC-Vyndros.mkv",
+                            "nomFichier": "Timeless.S02E05.The.Kennedy.Curse.1080p.10bit.BluRay.DD5.1.HEVC-Vyndros.mkv",
+                            "taille": 813997014,
+                            "doublonExact": false,
+                            "doublonProbable": false,
+                            "dateAjout": "2026-11-10T11:00:52.551Z"
                         },
                         {
                             "numero": 6,
                             "langue": [
-                                "VOSTFR"
+                                "TBD"
                             ],
-                            "fichier": "/01_Series/Timeless/S02/[ Torrent9.red ] Timeless.S02E06.VOSTFR.HDTV.XviD-EXTREME.avi",
-                            "nomFichier": "[ Torrent9.red ] Timeless.S02E06.VOSTFR.HDTV.XviD-EXTREME.avi",
-                            "taille": 357131316,
+                            "fichier": "/01_Series/Timeless/S02/Timeless.S02E06.The.King.of.the.Delta.Blues.1080p.10bit.BluRay.DD5.1.HEVC-Vyndros.mkv",
+                            "nomFichier": "Timeless.S02E06.The.King.of.the.Delta.Blues.1080p.10bit.BluRay.DD5.1.HEVC-Vyndros.mkv",
+                            "taille": 797957583,
                             "doublonExact": false,
                             "doublonProbable": false,
-                            "dateAjout": "2026-09-13T20:29:45.947Z"
+                            "dateAjout": "2026-11-10T11:00:52.554Z"
                         },
                         {
                             "numero": 7,
                             "langue": [
-                                "VOSTFR"
+                                "TBD"
                             ],
-                            "fichier": "/01_Series/Timeless/S02/[ Torrent9.red ] Timeless.S02E07.FASTSUB.VOSTFR.HDTV.XviD-ZT.avi",
-                            "nomFichier": "[ Torrent9.red ] Timeless.S02E07.FASTSUB.VOSTFR.HDTV.XviD-ZT.avi",
-                            "taille": 367506076,
+                            "fichier": "/01_Series/Timeless/S02/Timeless.S02E07.Mrs.Sherlock.Holmes.1080p.10bit.BluRay.DD5.1.HEVC-Vyndros.mkv",
+                            "nomFichier": "Timeless.S02E07.Mrs.Sherlock.Holmes.1080p.10bit.BluRay.DD5.1.HEVC-Vyndros.mkv",
+                            "taille": 865201312,
                             "doublonExact": false,
                             "doublonProbable": false,
-                            "dateAjout": "2026-09-13T20:29:45.948Z"
+                            "dateAjout": "2026-11-10T11:00:52.557Z"
                         },
                         {
                             "numero": 8,
                             "langue": [
-                                "VOSTFR"
+                                "TBD"
                             ],
-                            "fichier": "/01_Series/Timeless/S02/[ www.Torrent9.Red ] Timeless.S02E08.FASTSUB.VOSTFR.HDTV.XviD-ZT.avi",
-                            "nomFichier": "[ www.Torrent9.Red ] Timeless.S02E08.FASTSUB.VOSTFR.HDTV.XviD-ZT.avi",
-                            "taille": 367730966,
+                            "fichier": "/01_Series/Timeless/S02/Timeless.S02E08.The.Day.Reagan.Was.Shot.1080p.10bit.BluRay.DD5.1.HEVC-Vyndros.mkv",
+                            "nomFichier": "Timeless.S02E08.The.Day.Reagan.Was.Shot.1080p.10bit.BluRay.DD5.1.HEVC-Vyndros.mkv",
+                            "taille": 1019937798,
                             "doublonExact": false,
                             "doublonProbable": false,
-                            "dateAjout": "2026-09-13T20:29:45.948Z"
+                            "dateAjout": "2026-11-10T11:00:52.560Z"
                         },
                         {
                             "numero": 9,
                             "langue": [
-                                "VOSTFR"
+                                "TBD"
                             ],
-                            "fichier": "/01_Series/Timeless/S02/[ www.Torrent9.Red ] Timeless.S02E09E10.VOSTFR.HDTV.XviD-EXTREME.avi",
-                            "nomFichier": "[ www.Torrent9.Red ] Timeless.S02E09E10.VOSTFR.HDTV.XviD-EXTREME.avi",
-                            "taille": 710577456,
+                            "fichier": "/01_Series/Timeless/S02/Timeless.S02E09.The.General.1080p.10bit.BluRay.DD5.1.HEVC-Vyndros.mkv",
+                            "nomFichier": "Timeless.S02E09.The.General.1080p.10bit.BluRay.DD5.1.HEVC-Vyndros.mkv",
+                            "taille": 940051443,
                             "doublonExact": false,
                             "doublonProbable": false,
-                            "dateAjout": "2026-09-13T20:29:45.949Z"
+                            "dateAjout": "2026-11-10T11:00:52.564Z"
+                        },
+                        {
+                            "numero": 10,
+                            "langue": [
+                                "TBD"
+                            ],
+                            "fichier": "/01_Series/Timeless/S02/Timeless.S02E10.Chinatown.1080p.10bit.BluRay.DD5.1.HEVC-Vyndros.mkv",
+                            "nomFichier": "Timeless.S02E10.Chinatown.1080p.10bit.BluRay.DD5.1.HEVC-Vyndros.mkv",
+                            "taille": 727558707,
+                            "doublonExact": false,
+                            "doublonProbable": false,
+                            "dateAjout": "2026-11-10T11:00:52.567Z"
                         },
                         {
                             "numero": 11,
                             "langue": [
-                                "VOSTFR"
+                                "TBD"
                             ],
-                            "fichier": "/01_Series/Timeless/S02/Timeless.S02E11.FASTSUB.VOSTFR.HDTV.XviD-EXTREME.avi",
-                            "nomFichier": "Timeless.S02E11.FASTSUB.VOSTFR.HDTV.XviD-EXTREME.avi",
-                            "taille": 367870142,
+                            "fichier": "/01_Series/Timeless/S02/Timeless.S02E11.The.Miracle.of.Christmas.(1).1080p.10bit.BluRay.DD5.1.HEVC-Vyndros.mkv",
+                            "nomFichier": "Timeless.S02E11.The.Miracle.of.Christmas.(1).1080p.10bit.BluRay.DD5.1.HEVC-Vyndros.mkv",
+                            "taille": 964480882,
                             "doublonExact": false,
-                            "doublonProbable": true,
-                            "dateAjout": "2026-09-13T20:29:45.942Z"
-                        },
-                        {
-                            "numero": 11,
-                            "langue": [
-                                "VO",
-                                "VF"
-                            ],
-                            "fichier": "/01_Series/Timeless/S02/timeless.s02e11.multi.1080p.web.x264-cielos.mkv",
-                            "nomFichier": "timeless.s02e11.multi.1080p.web.x264-cielos.mkv",
-                            "taille": 2279521272,
-                            "doublonExact": false,
-                            "doublonProbable": true,
-                            "dateAjout": "2026-09-13T20:29:45.943Z"
+                            "doublonProbable": false,
+                            "dateAjout": "2026-11-10T11:00:52.571Z"
                         },
                         {
                             "numero": 12,
                             "langue": [
-                                "VOSTFR"
+                                "TBD"
                             ],
-                            "fichier": "/01_Series/Timeless/S02/Timeless.S02E12.FiNAL.FASTSUB.VOSTFR.HDTV.XviD-EXTREME.avi",
-                            "nomFichier": "Timeless.S02E12.FiNAL.FASTSUB.VOSTFR.HDTV.XviD-EXTREME.avi",
-                            "taille": 365608232,
+                            "fichier": "/01_Series/Timeless/S02/Timeless.S02E12.The.Miracle.of.Christmas.(2).1080p.10bit.BluRay.DD5.1.HEVC-Vyndros.mkv",
+                            "nomFichier": "Timeless.S02E12.The.Miracle.of.Christmas.(2).1080p.10bit.BluRay.DD5.1.HEVC-Vyndros.mkv",
+                            "taille": 917214320,
                             "doublonExact": false,
                             "doublonProbable": false,
-                            "dateAjout": "2026-09-13T20:29:45.944Z"
+                            "dateAjout": "2026-11-10T11:00:52.574Z"
                         }
-                    ],
-                    "hasMissingEpisodes": true
+                    ]
                 }
             ]
         },
@@ -45506,6 +45639,23 @@
                     ]
                 }
             ]
+        }
+    ],
+    "stockage": [
+        {
+            "lecteur": "E",
+            "espaceLibre": 165063802880,
+            "capaciteTotale": 500001927168
+        },
+        {
+            "lecteur": "Y",
+            "espaceLibre": 418423578624,
+            "capaciteTotale": 2000396742656
+        },
+        {
+            "lecteur": "Z",
+            "espaceLibre": 39001206784,
+            "capaciteTotale": 1000169533440
         }
     ]
 }

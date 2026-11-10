@@ -165,8 +165,26 @@ function updateStats() {
 
   setText(
     "homeLibrarySize",
-    `Accédez à ${formatMediaSize(filmsSize + seriesSize)} de medias.`,
+    `Accédez à ${formatMediaSize(collectionsSize + filmsSize + seriesSize)} de medias.`,
   );
+  updateStorageStats();
+}
+
+function updateStorageStats() {
+  const container = document.getElementById("homeStorageStats");
+  if (!container || !catalog.stockage) {
+    return;
+  }
+  container.innerHTML = "";
+  for (const stockage of catalog.stockage) {
+    const gigaBytes = stockage.espaceLibre / (1024 * 1024 * 1024);
+    const level =
+      gigaBytes >= 150 ? "green" : gigaBytes >= 40 ? "orange" : "red";
+    const item = document.createElement("span");
+    item.className = `storage-item storage-${level}`;
+    item.innerHTML = `${stockage.lecteur}: ${formatMediaSize(stockage.espaceLibre)}`;
+    container.appendChild(item);
+  }
 }
 
 function formatMediaSize(size) {

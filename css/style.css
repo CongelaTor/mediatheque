@@ -200,18 +200,43 @@ input {
     max-width: 1200px;
     margin: 34px auto 24px auto;
     padding: 0 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
-
 .home-header h1 {
     margin: 0 0 8px 0;
     font-size: calc(30px * var(--font-scale));
 }
-
 .home-header p {
     margin: 0;
     color: var(--muted);
 }
-
+.home-storage {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+#homeStorageStats {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+.storage-item {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    white-space: nowrap;
+}
+.storage-green {
+    color: #1ec98b;
+}
+.storage-orange {
+    color: #f59e0b;
+}
+.storage-red {
+    color: #ef4444;
+}
 .home-cards {
     max-width: 1200px;
     margin: 0 auto;
@@ -223,7 +248,7 @@ input {
 
 .home-card {
     position: relative;
-    min-height: 438px;
+    min-height: 390px;
     background: rgba(255, 255, 255, 0.04);
     border: 1px solid var(--border);
     border-radius: 20px;
@@ -231,6 +256,8 @@ input {
     cursor: pointer;
     box-shadow: 0 18px 50px rgba(0, 0, 0, 0.35);
     transition: transform 0.2s ease, border-color 0.2s ease;
+    display: flex;
+    flex-direction: column;
 }
 
 .home-card-image {
@@ -284,11 +311,10 @@ input {
     font-size: calc(35px * var(--font-scale));
     margin: 10px 0;
 }
-
 .home-card p {
 text-align: center;
 color: var(--muted);
-margin: 0 auto 18px auto;
+margin: 0 auto;
 width: calc(100% - 48px);
 line-height: 1.5;
 }
@@ -311,7 +337,7 @@ font-size: calc(15px * var(--font-scale));
 width: calc(100% - 48px);
 min-height: 42px;
 height: auto;
-margin: 0 24px 24px 24px;
+margin: auto 24px;
 display: grid;
 grid-template-columns: 24px 1fr 24px;
 align-items: center;
@@ -324,11 +350,11 @@ display: flex;
 align-items: center;
 justify-content: center;
 }
-#resumeFilmText {
+#resumeFilmText,
+#resumeCollectionText {
 grid-column: 2;
 overflow-wrap: anywhere;
 }
-
 .home-card button.purple-button {
     background: var(--purple);
 }
@@ -472,22 +498,28 @@ gap: 26px;
 
 .resume-button {
     width: 100%;
+    max-width: var(--cadres-max-width);
     min-height: 48px;
-    margin-bottom: 20px;
+    margin: 0 0 20px 0;
     border: 1px solid var(--border);
     border-radius: 12px;
     background: linear-gradient(90deg, rgba(30, 201, 138, 0.219), rgba(22, 131, 255, 0.08));
     color: white;
-    text-align: left;
     padding: 0 18px;
     cursor: pointer;
     font-size: calc(15px * var(--font-scale));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    text-align: center;
 }
-
 .resume-button:hover {
     border-color: var(--green);
 }
-
+.resume-button-list {
+    max-width: none;
+}
 .cards-grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(170px, 1fr));
@@ -1298,7 +1330,6 @@ max-width: var(--cadres-max-width);
     gap: 8px;
     margin-bottom: 20px;
 }
-
 .resume-row .resume-button {
     margin-bottom: 0;
     flex: 1;

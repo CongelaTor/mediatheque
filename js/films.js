@@ -31,6 +31,11 @@ async function initFilmsPage() {
   window.selectedCollectionId = isCollectionContextActive()
     ? sessionStorage.getItem("selectedCollectionId")
     : null;
+  const resumeFilmButton = document.getElementById("resumeFilmButton");
+  resumeFilmButton?.classList.toggle(
+    "resume-button-list",
+    !isCollectionContextActive(),
+  );
   if (isCollectionContextActive()) {
     document
       .querySelector('.nav-button[data-page="films"]')

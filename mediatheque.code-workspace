@@ -13,5 +13,7 @@
 			"path": "Z:/01_mediaServer"
 		}
 	],
-	"settings": {}
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "mediatheque"
+	}
 }

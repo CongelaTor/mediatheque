@@ -51,7 +51,7 @@ let totalKeptEpisodes = 0;
 const scanSources = process.env.MEDIA_SCAN_SOURCES
   ? JSON.parse(process.env.MEDIA_SCAN_SOURCES)
   : config.sources;
-
+syncedCatalog.stockage = getStorageInfo(scanSources);
 // console.log("config.sources =", config.sources);
 console.log("scanSources =", scanSources);
 const sourcesToScan = scanSources.filter((source) => {
@@ -136,6 +136,32 @@ if (scanType === "films") {
   console.log("");
 }
 console.log("Catalogue synchronisé.");
+
+function getStorageInfo(sources) {
+  const storageByRoot = new Map();
+  for (const source of sources) {
+    for (const sourcePath of source.paths || []) {
+      if (!fs.existsSync(sourcePath)) {
+        continue;
+      }
+      const root = path.parse(sourcePath).root;
+      const rootKey = root.toLowerCase();
+      if (storageByRoot.has(rootKey)) {
+        continue;
+      }
+      const stats = fs.statfsSync(sourcePath);
+      storageByRoot.set(rootKey, {
+        lecteur: root.replace(/[\\/:]+$/, ""),
+        espaceLibre: stats.bavail * stats.bsize,
+        capaciteTotale: stats.blocks * stats.bsize,
+      });
+    }
+  }
+  return [...storageByRoot.values()].sort((a, b) =>
+    a.lecteur.localeCompare(b.lecteur, "fr"),
+  );
+}
+
 function readJson(filePath) {
   return JSON.parse(fs.readFileSync(filePath, "utf8"));
 }
@@ -439,7 +465,7 @@ function syncFilm(catalog, analyse) {
     });
     return "kept";
   }
-  
+
   catalog.films.push({
     id: analyse.id,
     titre: analyse.titre,

@@ -29,7 +29,7 @@ async function initHomePage() {
   });
   console.log("context =", context);
   const scanButton = document.querySelector(".refresh-button");
-  scanButton.classList.toggle("hidden", !context.permissions.canScan);
+  scanButton?.classList.add("hidden");
   const resumeFilmButton = document.getElementById("resumeFilmButton");
   resumeFilmButton.classList.toggle("hidden", !context.permissions.canPlay);
   const resumeSerieButton = document.getElementById("resumeSerieButton");
