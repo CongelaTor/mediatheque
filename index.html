@@ -92,6 +92,7 @@
             .then(response => response.text())
             .then(html => {
                 document.getElementById("topbarContainer").innerHTML = html;
+                updateUserGreeting();
                 document.getElementById("topbarScanButton").style.display = "none";
             });
     </script>

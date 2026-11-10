@@ -429,11 +429,10 @@ gap: 26px;
     font-weight: 700;
     margin-right: 8px;
 }
-
 .content {
     padding: 24px;
+    min-width: 0;
 }
-
 .content-header {
     display: flex;
     justify-content: space-between;
@@ -456,6 +455,15 @@ gap: 26px;
     width: 260px;
     min-height: 52px;
     font-size: calc(15px * var(--font-scale));
+}
+.tools-content-header {
+    flex-wrap: wrap;
+    gap: 12px;
+}
+.tools-content-header .search-input {
+    flex: 0 1 260px;
+    min-width: 160px;
+    max-width: 260px;
 }
 .sort-label {
     color: var(--muted);

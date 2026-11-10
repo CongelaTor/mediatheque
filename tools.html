@@ -50,7 +50,7 @@
                     </aside>
                     
                     <section class="content">
-                        <div class="content-header">
+                        <div class="content-header tools-content-header">
                             <div>
                                 <h1 id="filmsCount">Tools</h1>
                                 <p id="filmsSubtitle">Correction rapide des films</p>
@@ -128,6 +128,7 @@
             .then(response => response.text())
             .then(html => {
                 document.getElementById("topbarContainer").innerHTML = html;
+                updateUserGreeting();
                 document.getElementById("topbarScanText").textContent = "Scan des films";
                 document.getElementById("topbarScanButton").onclick = () => reloadCatalog("films");
             });

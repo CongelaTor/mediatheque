@@ -1,6 +1,6 @@
 {
     "version": 1,
-    "dateDernierScan": "2026-11-07T07:16:57.775Z",
+    "dateDernierScan": "2026-11-10T08:52:35.436Z",
     "collections": [
         {
             "collectionId": 9485,
@@ -1790,6 +1790,39 @@
             "studio": null
         },
         {
+            "id": "ant_man_and_the_quantumania_2023",
+            "titre": "Ant Man And The Quantumania",
+            "annee": 2023,
+            "langue": [
+                "VOSTFR"
+            ],
+            "taille": 1181296788,
+            "genre": [
+                "Action",
+                "Aventure",
+                "Science-Fiction"
+            ],
+            "image": "https://image.tmdb.org/t/p/w342/2hq8EKF6kaUyOxB9KhmIb5JUxEe.jpg",
+            "fichier": "/03_Films/Ant.Man.And.The.Wasp.Quantumania.2023.Vostfr.Hdrip.X264.mp4",
+            "nomFichier": "Ant.Man.And.The.Wasp.Quantumania.2023.Vostfr.Hdrip.X264.mp4",
+            "imdbId": null,
+            "tmdbId": 640146,
+            "tmdbUrl": "https://www.themoviedb.org/movie/640146",
+            "doublonExact": false,
+            "doublonProbable": false,
+            "groupeDoublon": null,
+            "dateAjout": "2026-11-10T08:51:25.690Z",
+            "titreTmdb": "Ant-Man et la Guêpe : Quantumania",
+            "anneeTmdb": "2023",
+            "dureeTmdb": 124,
+            "descriptionTmdb": "Tout va pour le mieux : Scott a écrit un livre à succès tandis que Hope défend avec le plus grand dévouement des causes humanitaires. Leur famille - Janet van Dyne et Hank Pym (les parents de Hope) et Cassie, la fille de Scott - font enfin partie de leur quotidien. Cassie partage la passion de sa nouvelle famille pour la science et la technologie, notamment en ce qui concerne le domaine quantique. Mais sa curiosité les entraîne tous dans une odyssée imprévue et sans retour dans le vaste monde subatomique, un endroit mystérieux où ils rencontrent d’étranges nouvelles créatures, une société en crise et un impitoyable maître du temps dont l’ombre menaçante commence tout juste à s’étendre. Scott et Cassie sont soudainement happés dans une direction tandis que Hope, Janet et Hank se retrouvent propulsés dans une autre. Tous se perdent dans un monde en guerre, sans savoir comment ils pourront en sortir ni même s'ils retrouveront un jour le chemin de leur foyer...",
+            "collectionId": 422834,
+            "collectionNom": "Ant-Man - Saga",
+            "collectionDescription": "Une série de films de super-héros basée sur le personnage de Marvel Comics Ant-Man, et faisant partie de la série Marvel Cinematic Universe (MCU). La série est centrée sur Scott Lang, un ancien détenu qui a volé un costume qui lui permet de changer de taille. Hank Pym, l'homme-fourmi original, a découvert les particules subatomiques qui rendent la transformation possible. Hank conseille Scott pour qu'il reprenne le pseudonyme de super-héros.",
+            "collectionImage": "https://image.tmdb.org/t/p/w500/3PTRzkZHsiIfnHdNFvJn0poyPvn.jpg",
+            "collectionTmdbUrl": "https://www.themoviedb.org/collection/422834"
+        },
+        {
             "id": "ant_man_and_the_quantumania_ddlpz_2023",
             "titre": "Ant Man and the Quantumania DDLPZ",
             "annee": 2023,
@@ -1808,9 +1841,42 @@
             "imdbId": null,
             "tmdbId": 640146,
             "tmdbUrl": "https://www.themoviedb.org/movie/640146",
-            "doublonExact": false,
-            "doublonProbable": false,
-            "groupeDoublon": null,
+            "doublonExact": true,
+            "doublonProbable": true,
+            "groupeDoublon": "ant_man_and_the_quantumania_ddlpz",
+            "dateAjout": "2026-11-07T06:53:23.321Z",
+            "titreTmdb": "Ant-Man et la Guêpe : Quantumania",
+            "anneeTmdb": "2023",
+            "dureeTmdb": 124,
+            "descriptionTmdb": "Tout va pour le mieux : Scott a écrit un livre à succès tandis que Hope défend avec le plus grand dévouement des causes humanitaires. Leur famille - Janet van Dyne et Hank Pym (les parents de Hope) et Cassie, la fille de Scott - font enfin partie de leur quotidien. Cassie partage la passion de sa nouvelle famille pour la science et la technologie, notamment en ce qui concerne le domaine quantique. Mais sa curiosité les entraîne tous dans une odyssée imprévue et sans retour dans le vaste monde subatomique, un endroit mystérieux où ils rencontrent d’étranges nouvelles créatures, une société en crise et un impitoyable maître du temps dont l’ombre menaçante commence tout juste à s’étendre. Scott et Cassie sont soudainement happés dans une direction tandis que Hope, Janet et Hank se retrouvent propulsés dans une autre. Tous se perdent dans un monde en guerre, sans savoir comment ils pourront en sortir ni même s'ils retrouveront un jour le chemin de leur foyer...",
+            "collectionId": 422834,
+            "collectionNom": "Ant-Man - Saga",
+            "collectionDescription": "Une série de films de super-héros basée sur le personnage de Marvel Comics Ant-Man, et faisant partie de la série Marvel Cinematic Universe (MCU). La série est centrée sur Scott Lang, un ancien détenu qui a volé un costume qui lui permet de changer de taille. Hank Pym, l'homme-fourmi original, a découvert les particules subatomiques qui rendent la transformation possible. Hank conseille Scott pour qu'il reprenne le pseudonyme de super-héros.",
+            "collectionImage": "https://image.tmdb.org/t/p/w500/3PTRzkZHsiIfnHdNFvJn0poyPvn.jpg",
+            "collectionTmdbUrl": "https://www.themoviedb.org/collection/422834"
+        },
+        {
+            "id": "ant_man_and_the_quantumania_ddlpz_2023",
+            "titre": "Ant Man and the Quantumania DDLPZ",
+            "annee": 2023,
+            "langue": [
+                "VF"
+            ],
+            "taille": 1561925418,
+            "genre": [
+                "Action",
+                "Aventure",
+                "Science-Fiction"
+            ],
+            "image": "https://image.tmdb.org/t/p/w342/2hq8EKF6kaUyOxB9KhmIb5JUxEe.jpg",
+            "fichier": "/01_Films/Marvel/Ant.Man.and.the.Wasp.Quantumania.2023.CUSTOM.FRENCH.BDRip.x264-DDLPZ.mkv",
+            "nomFichier": "Ant.Man.and.the.Wasp.Quantumania.2023.CUSTOM.FRENCH.BDRip.x264-DDLPZ.mkv",
+            "imdbId": null,
+            "tmdbId": 640146,
+            "tmdbUrl": "https://www.themoviedb.org/movie/640146",
+            "doublonExact": true,
+            "doublonProbable": true,
+            "groupeDoublon": "ant_man_and_the_quantumania_ddlpz",
             "dateAjout": "2026-11-07T06:53:23.321Z",
             "titreTmdb": "Ant-Man et la Guêpe : Quantumania",
             "anneeTmdb": "2023",
@@ -1909,6 +1975,39 @@
             "doublonProbable": false,
             "groupeDoublon": null,
             "dateAjout": "2026-11-07T06:46:46.888Z",
+            "titreTmdb": "Aquaman et le Royaume perdu",
+            "anneeTmdb": "2023",
+            "dureeTmdb": 124,
+            "descriptionTmdb": "Alors qu'Arthur Curry affronte ses responsabilités de Roi des Sept Mers, un pouvoir antique enfoui depuis longtemps se déchaîne. Après avoir été témoin de l'effet de ces forces obscures, Aquaman doit forger une alliance difficile avec un vieil ennemi et se lancer dans un voyage périlleux pour protéger sa famille, son royaume et le monde d'une dévastation irréversible.",
+            "collectionId": 573693,
+            "collectionNom": "Aquaman - Saga",
+            "collectionDescription": "Série de films centrée sur le personnage d'Aquaman de DC Comics.",
+            "collectionImage": "https://image.tmdb.org/t/p/w500/2k754gEz4uL3j1GhjitTOJ6Rcbm.jpg",
+            "collectionTmdbUrl": "https://www.themoviedb.org/collection/573693"
+        },
+        {
+            "id": "aquaman_and_the_lost_kingdom_2023",
+            "titre": "Aquaman And The Lost Kingdom",
+            "annee": 2023,
+            "langue": [
+                "TBD"
+            ],
+            "taille": 1655998402,
+            "genre": [
+                "Action",
+                "Aventure",
+                "Fantastique"
+            ],
+            "image": "https://image.tmdb.org/t/p/w342/w8r7NAEIGLPH5r3NhiMobEO80PS.jpg",
+            "fichier": "/03_Films/Aquaman.And.The.Lost.Kingdom.2023.VFQ.HDrip.x264.mp4",
+            "nomFichier": "Aquaman.And.The.Lost.Kingdom.2023.VFQ.HDrip.x264.mp4",
+            "imdbId": null,
+            "tmdbId": 572802,
+            "tmdbUrl": "https://www.themoviedb.org/movie/572802",
+            "doublonExact": false,
+            "doublonProbable": false,
+            "groupeDoublon": null,
+            "dateAjout": "2026-11-10T08:51:25.692Z",
             "titreTmdb": "Aquaman et le Royaume perdu",
             "anneeTmdb": "2023",
             "dureeTmdb": 124,
@@ -2344,7 +2443,7 @@
             "collectionNom": "James Bond 007 - Saga",
             "type": "Film",
             "studio": null,
-            "ignoreInCollection": false
+            "ignoreInCollection": true
         },
         {
             "id": "avant_onward_2020",
@@ -4034,7 +4133,7 @@
             "collectionNom": "James Bond 007 - Saga",
             "type": "Film",
             "studio": null,
-            "ignoreInCollection": false
+            "ignoreInCollection": true
         },
         {
             "id": "bourne_la_mort_dans_la_peau",
@@ -4416,7 +4515,7 @@
             "collectionNom": "Camping - Saga",
             "type": "Film",
             "studio": null,
-            "ignoreInCollection": false
+            "ignoreInCollection": true
         },
         {
             "id": "tmdb_375804",
@@ -4446,7 +4545,7 @@
             "collectionNom": "Camping - Saga",
             "type": "Film",
             "studio": null,
-            "ignoreInCollection": false
+            "ignoreInCollection": true
         },
         {
             "id": "tmdb_822119",
@@ -4795,7 +4894,7 @@
             ],
             "taille": 736914616,
             "genre": [
-                "Romance"
+                "Drame"
             ],
             "image": "https://image.tmdb.org/t/p/w342/nqSJwBdvG89uHRpDDdaAy5YhogZ.jpg",
             "fichier": "/Box_Films/Enfants/02 A tester/Cendrillon 1 (Disney n° 16).mkv",
@@ -4826,7 +4925,7 @@
             ],
             "taille": 702312014,
             "genre": [
-                "Romance"
+                "Drame"
             ],
             "image": "https://image.tmdb.org/t/p/w342/tNQQiBMimmt5yYtKYRXAEQG3hIQ.jpg",
             "fichier": "/Box_Films/Enfants/02 A tester/Cendrillon 2 - Une Vie de Princesse (Disney n° 75).avi",
@@ -5045,7 +5144,7 @@
             ],
             "taille": 730857438,
             "genre": [
-                "Familial"
+                "Action"
             ],
             "image": "https://image.tmdb.org/t/p/w342/gHjcaVaXVqjYItJzjD5Y8YrXh84.jpg",
             "fichier": "/Box_Films/0 - New/Anime à trier/Chasseurs De Dragons.2008.TRUEFRENCH.DVDRIP.XviD-VNR.avi",
@@ -5187,36 +5286,6 @@
             "ignoreInCollection": false
         },
         {
-            "id": "tmdb_297270",
-            "titre": "Clochette et la créature légendaire",
-            "annee": 2014,
-            "langue": [
-                "TBD"
-            ],
-            "taille": 0,
-            "genre": [
-                "Aventure"
-            ],
-            "image": "https://image.tmdb.org/t/p/w342/1aJsRTVbGfCVS397etGZ5AYOCuF.jpg",
-            "fichier": null,
-            "nomFichier": null,
-            "tmdbId": 297270,
-            "tmdbUrl": "https://www.themoviedb.org/movie/297270",
-            "doublonExact": false,
-            "doublonProbable": false,
-            "groupeDoublon": null,
-            "dateAjout": null,
-            "titreTmdb": "Clochette et la créature légendaire",
-            "titreOriginal": "Tinker Bell and the Legend of the NeverBeast",
-            "anneeTmdb": 2014,
-            "descriptionTmdb": "L'ancien mythe de la créature légendaire attire l'attention de Clochette et de son amie Noa, la fée des animaux, qui n'a pas peur d'enfreindre les règles pour sauver un animal en détresse. Mais cette créature n'est pas la bienvenue dans la Vallée des Fées et celles-ci sont bien décidées à la capturer. Noa, qui lui voit un cœur tendre, essaie de convaincre ses amies de sauver la créature. Certaines séquences ou certains motifs lumineux clignotants sont susceptibles d'affecter les téléspectateurs photosensibles.",
-            "collectionId": 315595,
-            "collectionNom": "Fée Clochette - Saga",
-            "type": "Animation",
-            "studio": null,
-            "ignoreInCollection": false
-        },
-        {
             "id": "tmdb_175112",
             "titre": "Clochette et la fée pirate",
             "annee": 2014,
@@ -5336,7 +5405,7 @@
             "collectionId": 1451578,
             "collectionNom": "Coco - Saga",
             "type": "Animation",
-            "studio": "Disney",
+            "studio": null,
             "ignoreInCollection": false
         },
         {
@@ -5728,7 +5797,7 @@
             "collectionNom": "James Bond 007 - Saga",
             "type": "Film",
             "studio": null,
-            "ignoreInCollection": false
+            "ignoreInCollection": true
         },
         {
             "id": "danse_ta_vie_1_center_stage",
@@ -6817,7 +6886,7 @@
             ],
             "taille": 1751066379,
             "genre": [
-                "Téléfilm"
+                "Aventure"
             ],
             "image": "https://image.tmdb.org/t/p/w342/fD68JTgLp9Sa5tgdYIdvxWgj9I0.jpg",
             "fichier": "/Box_Films/0 - New/Anime à trier/Dragons.Rescue.Riders.2020.MULTi.1080p.WEB.H264-EXTREME.mkv",
@@ -9052,7 +9121,7 @@
             "collectionNom": "Frère des ours - Saga",
             "type": "Animation",
             "studio": null,
-            "ignoreInCollection": false
+            "ignoreInCollection": true
         },
         {
             "id": "frere_des_ours_2",
@@ -9165,7 +9234,7 @@
             "doublonProbable": false,
             "groupeDoublon": null,
             "dateAjout": null,
-            "titreTmdb": "Frozen IV",
+            "titreTmdb": "La Reine des neiges IV",
             "titreOriginal": "Frozen IV",
             "anneeTmdb": 2100,
             "descriptionTmdb": "L'ultime opus de la franchise de Disney : La Reine des Neiges.",
@@ -9173,7 +9242,7 @@
             "collectionNom": "La Reine des neiges - Saga",
             "type": "Animation",
             "studio": "Disney",
-            "ignoreInCollection": false
+            "ignoreInCollection": true
         },
         {
             "id": "g_i_joe_2_retaliation_relic_2013",
@@ -9720,34 +9789,38 @@
             "ignoreInCollection": false
         },
         {
-            "id": "tmdb_710",
-            "titre": "GoldenEye",
+            "id": "goldeneye_vfi_5_1_lihdl_1995",
+            "titre": "Goldeneye VFi 5 1 LiHDL",
             "annee": 1995,
             "langue": [
-                "TBD"
+                "VO",
+                "VF"
             ],
-            "taille": 0,
+            "taille": 3800487745,
             "genre": [
-                "Espionnage"
+                "Aventure",
+                "Action",
+                "Thriller"
             ],
             "image": "https://image.tmdb.org/t/p/w342/aMfHCU4Bb2QURqO0rVD06aFs7iq.jpg",
-            "fichier": null,
-            "nomFichier": null,
+            "fichier": "/03_Films/Goldeneye.1995.MULTi.VFi.1080p.HDLight.AC3.5.1.H264-LiHDL.mkv",
+            "nomFichier": "Goldeneye.1995.MULTi.VFi.1080p.HDLight.AC3.5.1.H264-LiHDL.mkv",
+            "imdbId": null,
             "tmdbId": 710,
             "tmdbUrl": "https://www.themoviedb.org/movie/710",
             "doublonExact": false,
             "doublonProbable": false,
             "groupeDoublon": null,
-            "dateAjout": null,
+            "dateAjout": "2026-11-10T08:51:25.696Z",
             "titreTmdb": "GoldenEye",
-            "titreOriginal": "GoldenEye",
-            "anneeTmdb": 1995,
+            "anneeTmdb": "1995",
+            "dureeTmdb": 130,
             "descriptionTmdb": "Dans les derniers jours de la guerre froide, James Bond et son collègue et ami Alec Trevelyan s’introduisent dans l’usine soviétique de gaz neurotoxique Arkangel, afin de la détruire. Les deux hommes sont découverts et, au cours d’une violente bagarre, Trevelyan est fait prisonnier et est exécuté sous les yeux de Bond par le général soviétique Ourumov. Bond s’enfuit de façon spectaculaire. Il restera obsédé par son échec à sauver son ami. 9 ans plus tard, alors que l’Union Soviétique est devenue une constellation de nations indépendantes, James Bond rencontre Xenia Onatopp, une superbe créature qui joue au chat et à la souris avec lui. La partie se révèle pleine de charme mais aussi pleine de dangers.",
             "collectionId": 645,
             "collectionNom": "James Bond 007 - Saga",
-            "type": "Film",
-            "studio": null,
-            "ignoreInCollection": false
+            "collectionDescription": "James Bond, agent 007, autorisé à tuer, est le héros de la plus longue saga cinématographique de tous les temps, au succès sans égal. Armé de son Walther PPK, accompagné des plus jolies filles de la terre et opposé aux plus cyniques des méchants, il a poursuivi le mal aux quatre coins du monde, survécu à la guerre froide et à la chute du mur de Berlin.",
+            "collectionImage": "https://image.tmdb.org/t/p/w500/ammkAiFPUQhqrWAdzNZSXR8VMpy.jpg",
+            "collectionTmdbUrl": "https://www.themoviedb.org/collection/645"
         },
         {
             "id": "tmdb_658",
@@ -9777,7 +9850,7 @@
             "collectionNom": "James Bond 007 - Saga",
             "type": "Film",
             "studio": null,
-            "ignoreInCollection": false
+            "ignoreInCollection": true
         },
         {
             "id": "gone_in_60_seconds_2000",
@@ -10028,6 +10101,39 @@
             "collectionTmdbUrl": "https://www.themoviedb.org/collection/284433",
             "type": "Film",
             "studio": "Marvel"
+        },
+        {
+            "id": "guardians_of_the_galaxy_3_2023",
+            "titre": "Guardians of the Galaxy 3",
+            "annee": 2023,
+            "langue": [
+                "VF"
+            ],
+            "taille": 1646943957,
+            "genre": [
+                "Science-Fiction",
+                "Aventure",
+                "Action"
+            ],
+            "image": "https://image.tmdb.org/t/p/w342/dnyQnKSSqQ8aOEMiE5hYDNJO4dE.jpg",
+            "fichier": "/03_Films/Guardians.of.the.Galaxy.Vol.3.2023.CUSTOM.TRUEFRENCH.BDRip.x264-ONLYMOViE.mkv",
+            "nomFichier": "Guardians.of.the.Galaxy.Vol.3.2023.CUSTOM.TRUEFRENCH.BDRip.x264-ONLYMOViE.mkv",
+            "imdbId": null,
+            "tmdbId": 447365,
+            "tmdbUrl": "https://www.themoviedb.org/movie/447365",
+            "doublonExact": false,
+            "doublonProbable": false,
+            "groupeDoublon": null,
+            "dateAjout": "2026-11-10T08:51:25.697Z",
+            "titreTmdb": "Les Gardiens de la Galaxie : Volume 3",
+            "anneeTmdb": "2023",
+            "dureeTmdb": 149,
+            "descriptionTmdb": "Peter Quill, encore sous le choc d'une terrible perte, doit rallier son équipe et se lancer dans une mission risquée et palpitante pour défendre l'univers et protéger Rocket. Pendant ce temps, une nouvelle force imprévisible menace de faire tomber les Gardiens pour de bon.",
+            "collectionId": 284433,
+            "collectionNom": "Les Gardiens de la Galaxie - Saga",
+            "collectionDescription": "Une série de films de super-héros produite par Marvel Studios qui se base sur l'équipe des Gardiens de la Galaxie issue de l'univers de Marvel Comics. La série met en scène une bande d'anciens bandits unissant leurs forces pour protéger la galaxie des menaces planétaires.",
+            "collectionImage": "https://image.tmdb.org/t/p/w500/hQrNZnlIqB9ccaPoaU5rNoTgZJp.jpg",
+            "collectionTmdbUrl": "https://www.themoviedb.org/collection/284433"
         },
         {
             "id": "guns_3_5_2013",
@@ -11635,7 +11741,7 @@
             "collectionNom": "James Bond 007 - Saga",
             "type": "Film",
             "studio": null,
-            "ignoreInCollection": false
+            "ignoreInCollection": true
         },
         {
             "id": "tmdb_646",
@@ -11665,7 +11771,73 @@
             "collectionNom": "James Bond 007 - Saga",
             "type": "Film",
             "studio": null,
-            "ignoreInCollection": false
+            "ignoreInCollection": true
+        },
+        {
+            "id": "james_bond_die_another_day_2002",
+            "titre": "James Bond Die Another Day",
+            "annee": 2002,
+            "langue": [
+                "TBD"
+            ],
+            "taille": 2038218264,
+            "genre": [
+                "Aventure",
+                "Action",
+                "Thriller"
+            ],
+            "image": "https://image.tmdb.org/t/p/w342/d3HapjTNnR3mg7dugz47aQZ8rUS.jpg",
+            "fichier": "/03_Films/James.Bond.Die.Another.Day.2002.1080p.BRrip.x264.YIFY.mp4",
+            "nomFichier": "James.Bond.Die.Another.Day.2002.1080p.BRrip.x264.YIFY.mp4",
+            "imdbId": null,
+            "tmdbId": 36669,
+            "tmdbUrl": "https://www.themoviedb.org/movie/36669",
+            "doublonExact": false,
+            "doublonProbable": false,
+            "groupeDoublon": null,
+            "dateAjout": "2026-11-10T08:51:25.700Z",
+            "titreTmdb": "Meurs un autre jour",
+            "anneeTmdb": "2002",
+            "dureeTmdb": 134,
+            "descriptionTmdb": "Une opération secrète, menée en Corée du Nord par James Bond et deux de ses hommes, est compromise par un traître non identifié. S'ensuit une course-poursuite en hovercraft au cours de laquelle le colonel nord-coréen Moon trouve la mort et son lieutenant, Zao, est grièvement blessé. James Bond est quant à lui capturé et jeté dans une prison militaire. Après quelques mois de détention, ce dernier est libéré à l'occasion d'un échange de prisonniers organisé par Falco, le directeur de la National Security Agency. Démis de ses fonctions, l'ancien agent secret est décidé à retrouver Zao et à démasquer le traître qui a entraîné sa chute. Sa quête, riche en rebondissements, l'amènera à faire la rencontre de la belle et mystérieuse Jinx et de Gustav Graves, un mégalomaniaque propriétaire d'un somptueux palais de glace islandais et d'une arme d'une puissance insoupçonnée.",
+            "collectionId": 645,
+            "collectionNom": "James Bond 007 - Saga",
+            "collectionDescription": "James Bond, agent 007, autorisé à tuer, est le héros de la plus longue saga cinématographique de tous les temps, au succès sans égal. Armé de son Walther PPK, accompagné des plus jolies filles de la terre et opposé aux plus cyniques des méchants, il a poursuivi le mal aux quatre coins du monde, survécu à la guerre froide et à la chute du mur de Berlin.",
+            "collectionImage": "https://image.tmdb.org/t/p/w500/ammkAiFPUQhqrWAdzNZSXR8VMpy.jpg",
+            "collectionTmdbUrl": "https://www.themoviedb.org/collection/645"
+        },
+        {
+            "id": "james_bond_the_world_is_not_enough_1999",
+            "titre": "James Bond The World Is Not Enough",
+            "annee": 1999,
+            "langue": [
+                "TBD"
+            ],
+            "taille": 1982941409,
+            "genre": [
+                "Aventure",
+                "Action",
+                "Thriller"
+            ],
+            "image": "https://image.tmdb.org/t/p/w342/uoffFMywnkbxQ9Q9FSnyDfuXFEW.jpg",
+            "fichier": "/03_Films/James.Bond.The.World.Is.Not.Enough.1999.1080p.BRrip.x264.YIFY.mp4",
+            "nomFichier": "James.Bond.The.World.Is.Not.Enough.1999.1080p.BRrip.x264.YIFY.mp4",
+            "imdbId": null,
+            "tmdbId": 36643,
+            "tmdbUrl": "https://www.themoviedb.org/movie/36643",
+            "doublonExact": false,
+            "doublonProbable": false,
+            "groupeDoublon": null,
+            "dateAjout": "2026-11-10T08:51:25.701Z",
+            "titreTmdb": "Le monde ne suffit pas",
+            "anneeTmdb": "1999",
+            "dureeTmdb": 128,
+            "descriptionTmdb": "Le magnat du pétrole Sir Robert King est assassiné dans l'enceinte même du bâtiment ultramoderne des services secrets britanniques. James Bond réussit à éliminer l'auteur de l'attentat, une tueuse professionnelle travaillant pour le terroriste international Renard. Craignant que ce dernier ne s'en prenne désormais à la fille de King, Elektra, 007 se charge de la protéger. En Azerbaïdjan, où King avait commencé à exploiter un nouveau gisement pétrolifère, l'agent secret retrouve Valentin Zukovski, un ex-agent du KGB devenu mafioso, qui va l'aider dans son enquête.",
+            "collectionId": 645,
+            "collectionNom": "James Bond 007 - Saga",
+            "collectionDescription": "James Bond, agent 007, autorisé à tuer, est le héros de la plus longue saga cinématographique de tous les temps, au succès sans égal. Armé de son Walther PPK, accompagné des plus jolies filles de la terre et opposé aux plus cyniques des méchants, il a poursuivi le mal aux quatre coins du monde, survécu à la guerre froide et à la chute du mur de Berlin.",
+            "collectionImage": "https://image.tmdb.org/t/p/w500/ammkAiFPUQhqrWAdzNZSXR8VMpy.jpg",
+            "collectionTmdbUrl": "https://www.themoviedb.org/collection/645"
         },
         {
             "id": "jason_bourne_2016",
@@ -13351,7 +13523,7 @@
             "collectionNom": "James Bond 007 - Saga",
             "type": "Film",
             "studio": null,
-            "ignoreInCollection": false
+            "ignoreInCollection": true
         },
         {
             "id": "tmdb_682",
@@ -13381,7 +13553,7 @@
             "collectionNom": "James Bond 007 - Saga",
             "type": "Film",
             "studio": null,
-            "ignoreInCollection": false
+            "ignoreInCollection": true
         },
         {
             "id": "l_homme_sans_age",
@@ -13591,7 +13763,7 @@
             "collectionNom": "La Reine des neiges - Saga",
             "type": "Animation",
             "studio": "Disney",
-            "ignoreInCollection": false
+            "ignoreInCollection": true
         },
         {
             "id": "tmdb_39385",
@@ -13651,7 +13823,7 @@
             "collectionNom": "La Vérité si je mens ! - Saga",
             "type": "Film",
             "studio": null,
-            "ignoreInCollection": false
+            "ignoreInCollection": true
         },
         {
             "id": "tmdb_589980",
@@ -13681,37 +13853,39 @@
             "collectionNom": "La Vérité si je mens ! - Saga",
             "type": "Film",
             "studio": null,
-            "ignoreInCollection": false
+            "ignoreInCollection": true
         },
         {
-            "id": "tmdb_1996",
-            "titre": "Lara Croft : Tomb Raider, le berceau de la vie",
+            "id": "lara_croft_tomb_raider_ii_the_cradle_of_5_1_bone_2003",
+            "titre": "Lara Croft Tomb Raider II The Cradle of 5 1 BONE",
             "annee": 2003,
             "langue": [
                 "TBD"
             ],
-            "taille": 0,
+            "taille": 2102506462,
             "genre": [
-                "Aventure"
+                "Aventure",
+                "Action"
             ],
             "image": "https://image.tmdb.org/t/p/w342/1UbRvMwbiCrkFHEeFVUiXeGvy7j.jpg",
-            "fichier": null,
-            "nomFichier": null,
+            "fichier": "/03_Films/Lara Croft Tomb Raider II The Cradle of Life 2003 1080p REMASTERED BluRay HEVC x265 5.1 BONE.mkv",
+            "nomFichier": "Lara Croft Tomb Raider II The Cradle of Life 2003 1080p REMASTERED BluRay HEVC x265 5.1 BONE.mkv",
+            "imdbId": null,
             "tmdbId": 1996,
             "tmdbUrl": "https://www.themoviedb.org/movie/1996",
             "doublonExact": false,
             "doublonProbable": false,
             "groupeDoublon": null,
-            "dateAjout": null,
+            "dateAjout": "2026-11-10T08:51:25.703Z",
             "titreTmdb": "Lara Croft : Tomb Raider, le berceau de la vie",
-            "titreOriginal": "Lara Croft: Tomb Raider - The Cradle of Life",
-            "anneeTmdb": 2003,
+            "anneeTmdb": "2003",
+            "dureeTmdb": 117,
             "descriptionTmdb": "Aux abords du Kilimandjaro, le « Berceau de la Vie » abrite le plus mystérieux et le plus terrifiant des fléaux : la Boîte de Pandore, dont les germes pourraient en quelques heures anéantir l'Humanité. Au moment où Lara Croft, l'archéologue de charme, s'apprête à prendre possession de l'orbe contenant les coordonnées de ce trésor, un commando chinois fait irruption dans le temple sous-marin et s'en empare. Sauvée de la mort par ses fidèles assistants Bryce et Hillary, l'aventurière regagne son manoir, où elle reçoit bientôt la visite de deux émissaires du MI 6. Elle apprend ainsi que le commanditaire des tueurs et de leur chef Chen Lo n'est autre que le Dr Jonathan Reiss, un mégalomane cynique, soupçonné de fournir des armes biologiques high-tech aux plus offrants…",
             "collectionId": 2467,
             "collectionNom": "Lara Croft - Saga",
-            "type": "Film",
-            "studio": null,
-            "ignoreInCollection": false
+            "collectionDescription": "Tomb Raider est une série de films d'action-aventure, centrés sur les aventures de l'archéologue britannique fictive Lara Croft.",
+            "collectionImage": "https://image.tmdb.org/t/p/w500/sgaP4WtVlKzz8FIcjbkevOycJiq.jpg",
+            "collectionTmdbUrl": "https://www.themoviedb.org/collection/2467"
         },
         {
             "id": "las_vegas",
@@ -13770,36 +13944,6 @@
             "collectionId": 137697,
             "collectionNom": "Le Monde de Nemo - Saga",
             "type": "Animation",
-            "studio": null,
-            "ignoreInCollection": false
-        },
-        {
-            "id": "tmdb_36643",
-            "titre": "Le monde ne suffit pas",
-            "annee": 1999,
-            "langue": [
-                "TBD"
-            ],
-            "taille": 0,
-            "genre": [
-                "Espionnage"
-            ],
-            "image": "https://image.tmdb.org/t/p/w342/uoffFMywnkbxQ9Q9FSnyDfuXFEW.jpg",
-            "fichier": null,
-            "nomFichier": null,
-            "tmdbId": 36643,
-            "tmdbUrl": "https://www.themoviedb.org/movie/36643",
-            "doublonExact": false,
-            "doublonProbable": false,
-            "groupeDoublon": null,
-            "dateAjout": null,
-            "titreTmdb": "Le monde ne suffit pas",
-            "titreOriginal": "The World Is Not Enough",
-            "anneeTmdb": 1999,
-            "descriptionTmdb": "Le magnat du pétrole Sir Robert King est assassiné dans l'enceinte même du bâtiment ultramoderne des services secrets britanniques. James Bond réussit à éliminer l'auteur de l'attentat, une tueuse professionnelle travaillant pour le terroriste international Renard. Craignant que ce dernier ne s'en prenne désormais à la fille de King, Elektra, 007 se charge de la protéger. En Azerbaïdjan, où King avait commencé à exploiter un nouveau gisement pétrolifère, l'agent secret retrouve Valentin Zukovski, un ex-agent du KGB devenu mafioso, qui va l'aider dans son enquête.",
-            "collectionId": 645,
-            "collectionNom": "James Bond 007 - Saga",
-            "type": "Film",
             "studio": null,
             "ignoreInCollection": false
         },
@@ -14356,36 +14500,6 @@
             "ignoreInCollection": false
         },
         {
-            "id": "tmdb_1175942",
-            "titre": "Les Bad Guys 2",
-            "annee": 2025,
-            "langue": [
-                "TBD"
-            ],
-            "taille": 0,
-            "genre": [
-                "Action"
-            ],
-            "image": "https://image.tmdb.org/t/p/w342/1heUoLYAHVAKn0ehIF9ASOg2jUv.jpg",
-            "fichier": null,
-            "nomFichier": null,
-            "tmdbId": 1175942,
-            "tmdbUrl": "https://www.themoviedb.org/movie/1175942",
-            "doublonExact": false,
-            "doublonProbable": false,
-            "groupeDoublon": null,
-            "dateAjout": null,
-            "titreTmdb": "Les Bad Guys 2",
-            "titreOriginal": "The Bad Guys 2",
-            "anneeTmdb": 2025,
-            "descriptionTmdb": "Un loup, un serpent, une tarentule, un requin et un piranha sont une ancienne bande de criminels repentis tentant une réinsertion dans la société. Cependant, leur mauvaise réputation les précède et ils peinent à trouver du travail. Lorsqu'une série de cambriolages sont perpétrés dans la ville, ils en deviennent les principaux suspects. Pour prouver leurs bonnes intentions, ils offrent à la commissaire de police d'utiliser leurs habiletés uniques pour identifier le véritable coupable.",
-            "collectionId": 1231053,
-            "collectionNom": "Les Bad Guys - Saga",
-            "type": "Animation",
-            "studio": null,
-            "ignoreInCollection": false
-        },
-        {
             "id": "les_confessions_de_stephane_rousseau_utt_2011",
             "titre": "Les Confessions De Stephane Rousseau",
             "annee": 2011,
@@ -14473,7 +14587,7 @@
             "collectionNom": "James Bond 007 - Saga",
             "type": "Film",
             "studio": null,
-            "ignoreInCollection": false
+            "ignoreInCollection": true
         },
         {
             "id": "les_fils_du_vent",
@@ -14504,36 +14618,6 @@
             "collectionNom": "Yamakasi - Saga",
             "type": "Film",
             "studio": null,
-            "ignoreInCollection": false
-        },
-        {
-            "id": "tmdb_447365",
-            "titre": "Les Gardiens de la Galaxie : Volume 3",
-            "annee": 2023,
-            "langue": [
-                "TBD"
-            ],
-            "taille": 0,
-            "genre": [
-                "Science-Fiction"
-            ],
-            "image": "https://image.tmdb.org/t/p/w342/dnyQnKSSqQ8aOEMiE5hYDNJO4dE.jpg",
-            "fichier": null,
-            "nomFichier": null,
-            "tmdbId": 447365,
-            "tmdbUrl": "https://www.themoviedb.org/movie/447365",
-            "doublonExact": false,
-            "doublonProbable": false,
-            "groupeDoublon": null,
-            "dateAjout": null,
-            "titreTmdb": "Les Gardiens de la Galaxie : Volume 3",
-            "titreOriginal": "Guardians of the Galaxy Vol. 3",
-            "anneeTmdb": 2023,
-            "descriptionTmdb": "Peter Quill, encore sous le choc d'une terrible perte, doit rallier son équipe et se lancer dans une mission risquée et palpitante pour défendre l'univers et protéger Rocket. Pendant ce temps, une nouvelle force imprévisible menace de faire tomber les Gardiens pour de bon.",
-            "collectionId": 284433,
-            "collectionNom": "Les Gardiens de la Galaxie - Saga",
-            "type": "Film",
-            "studio": "Marvel",
             "ignoreInCollection": false
         },
         {
@@ -14867,6 +14951,37 @@
             "type": "Film",
             "studio": null,
             "ignoreInCollection": false
+        },
+        {
+            "id": "les_ripoux_paradis",
+            "titre": "Les Ripoux PARADIS",
+            "annee": null,
+            "langue": [
+                "VF"
+            ],
+            "taille": 734399960,
+            "genre": [
+                "Comédie"
+            ],
+            "image": "https://image.tmdb.org/t/p/w342/kvILcin1mGcEyu0rrME8MlmD9b3.jpg",
+            "fichier": "/03_Films/Les.Ripoux.FRENCH.DVDRIP.XVID-PARADIS.avi",
+            "nomFichier": "Les.Ripoux.FRENCH.DVDRIP.XVID-PARADIS.avi",
+            "imdbId": null,
+            "tmdbId": 10260,
+            "tmdbUrl": "https://www.themoviedb.org/movie/10260",
+            "doublonExact": false,
+            "doublonProbable": false,
+            "groupeDoublon": null,
+            "dateAjout": "2026-11-10T08:51:25.703Z",
+            "titreTmdb": "Les Ripoux",
+            "anneeTmdb": "1984",
+            "dureeTmdb": 107,
+            "descriptionTmdb": "René Boirond est inspecteur de police, bedonnant et corrompu, dans le XVIIIe arrondissement de Paris. Depuis des années, il tient son quartier à coups de combines. Il y a ses habitudes, ses petits trafics et ses petits profits, de quoi financer sa passion du turf. François Lesbuche, jeune inspecteur fraîchement diplômé et droit comme la justice est le nouveau partenaire de René. La cohabitation s’annonce difficile…",
+            "collectionId": 238448,
+            "collectionNom": "Les Ripoux - Saga",
+            "collectionDescription": "Les aventures de René, vieux briscard de la police officiant à Barbès, et François, frais émoulu de l'école et plein de certitudes.",
+            "collectionImage": "https://image.tmdb.org/t/p/w500/ke1p1REI3PYBvoD0waoCOQBhkGa.jpg",
+            "collectionTmdbUrl": "https://www.themoviedb.org/collection/238448"
         },
         {
             "id": "les_rois_de_la_glisse_surf_s_up_ok",
@@ -16149,36 +16264,6 @@
             "studio": null
         },
         {
-            "id": "tmdb_36669",
-            "titre": "Meurs un autre jour",
-            "annee": 2002,
-            "langue": [
-                "TBD"
-            ],
-            "taille": 0,
-            "genre": [
-                "Espionnage"
-            ],
-            "image": "https://image.tmdb.org/t/p/w342/d3HapjTNnR3mg7dugz47aQZ8rUS.jpg",
-            "fichier": null,
-            "nomFichier": null,
-            "tmdbId": 36669,
-            "tmdbUrl": "https://www.themoviedb.org/movie/36669",
-            "doublonExact": false,
-            "doublonProbable": false,
-            "groupeDoublon": null,
-            "dateAjout": null,
-            "titreTmdb": "Meurs un autre jour",
-            "titreOriginal": "Die Another Day",
-            "anneeTmdb": 2002,
-            "descriptionTmdb": "Une opération secrète, menée en Corée du Nord par James Bond et deux de ses hommes, est compromise par un traître non identifié. S'ensuit une course-poursuite en hovercraft au cours de laquelle le colonel nord-coréen Moon trouve la mort et son lieutenant, Zao, est grièvement blessé. James Bond est quant à lui capturé et jeté dans une prison militaire. Après quelques mois de détention, ce dernier est libéré à l'occasion d'un échange de prisonniers organisé par Falco, le directeur de la National Security Agency. Démis de ses fonctions, l'ancien agent secret est décidé à retrouver Zao et à démasquer le traître qui a entraîné sa chute. Sa quête, riche en rebondissements, l'amènera à faire la rencontre de la belle et mystérieuse Jinx et de Gustav Graves, un mégalomaniaque propriétaire d'un somptueux palais de glace islandais et d'une arme d'une puissance insoupçonnée.",
-            "collectionId": 645,
-            "collectionNom": "James Bond 007 - Saga",
-            "type": "Film",
-            "studio": null,
-            "ignoreInCollection": false
-        },
-        {
             "id": "michael_jackson_s_this_is_it",
             "titre": "Michael Jackson's This Is It",
             "annee": null,
@@ -16268,6 +16353,40 @@
             "type": "Animation",
             "studio": null,
             "ignoreInCollection": false
+        },
+        {
+            "id": "mike_and_nick_and_nick_and_alice_2026",
+            "titre": "Mike And Nick And Nick And Alice",
+            "annee": 2026,
+            "langue": [
+                "VO",
+                "VF"
+            ],
+            "taille": 989859790,
+            "genre": [
+                "Comédie",
+                "Science-Fiction",
+                "Action"
+            ],
+            "image": "https://image.tmdb.org/t/p/w342/fmimhXqKUmpwaOrYS2TAcEWvcMv.jpg",
+            "fichier": "/03_Films/Mike.And.Nick.And.Nick.And.Alice.2026.Multi.WEBRIP.mp4",
+            "nomFichier": "Mike.And.Nick.And.Nick.And.Alice.2026.Multi.WEBRIP.mp4",
+            "imdbId": null,
+            "tmdbId": 1115544,
+            "tmdbUrl": "https://www.themoviedb.org/movie/1115544",
+            "doublonExact": false,
+            "doublonProbable": false,
+            "groupeDoublon": null,
+            "dateAjout": "2026-11-10T08:51:25.704Z",
+            "titreTmdb": "Mike & Nick & Nick & Alice",
+            "anneeTmdb": "2026",
+            "dureeTmdb": 107,
+            "descriptionTmdb": "Deux gangsters et la femme qu'ils aiment tentent de survivre à la nuit la plus dangereuse de leur vie. Comme si cela ne suffisait pas, un élément imprévisible vient s'ajouter à l'équation : une machine à remonter le temps.",
+            "collectionId": null,
+            "collectionNom": null,
+            "collectionDescription": null,
+            "collectionImage": null,
+            "collectionTmdbUrl": null
         },
         {
             "id": "milk",
@@ -16791,6 +16910,41 @@
             "ignoreInCollection": false
         },
         {
+            "id": "moana_2_2024",
+            "titre": "Moana 2",
+            "annee": 2024,
+            "langue": [
+                "VF"
+            ],
+            "taille": 1431604993,
+            "genre": [
+                "Aventure",
+                "Animation",
+                "Comédie",
+                "Familial",
+                "Fantastique"
+            ],
+            "image": "https://image.tmdb.org/t/p/w342/zdVxpaoQdpheQqWWd6b82eY9Pid.jpg",
+            "fichier": "/03_Films/Moana.2.2024.French.WEBRIP.mp4",
+            "nomFichier": "Moana.2.2024.French.WEBRIP.mp4",
+            "imdbId": null,
+            "tmdbId": 1241982,
+            "tmdbUrl": "https://www.themoviedb.org/movie/1241982",
+            "doublonExact": false,
+            "doublonProbable": false,
+            "groupeDoublon": null,
+            "dateAjout": "2026-11-10T08:51:25.704Z",
+            "titreTmdb": "Vaiana 2",
+            "anneeTmdb": "2024",
+            "dureeTmdb": 100,
+            "descriptionTmdb": "Après avoir reçu une invitation inattendue de ses ancêtres, Vaiana entreprend un périple qui la conduira jusqu’aux eaux dangereuses situées aux confins des mers des îles du Pacifique. Elle y vivra des péripéties comme jamais vécues auparavant.",
+            "collectionId": 1241984,
+            "collectionNom": "Vaiana - Saga",
+            "collectionDescription": "La collection originale de Disney se déroule dans l'ancienne Polynésie et raconte l'histoire de Vaiana, la fille déterminée du chef d'un village côtier, choisie par l'océan lui-même pour réunir une relique mystique avec la déesse Te Fiti.",
+            "collectionImage": "https://image.tmdb.org/t/p/w500/pQDIFEwpXuMNegV4Ki1vklzJYBO.jpg",
+            "collectionTmdbUrl": "https://www.themoviedb.org/collection/1241984"
+        },
+        {
             "id": "tmdb_1647287",
             "titre": "Moana 3",
             "annee": 2100,
@@ -17029,7 +17183,7 @@
             "collectionNom": "James Bond 007 - Saga",
             "type": "Film",
             "studio": null,
-            "ignoreInCollection": false
+            "ignoreInCollection": true
         },
         {
             "id": "morning_glory_avec_harisson_ford",
@@ -17548,7 +17702,7 @@
             "collectionNom": "James Bond 007 - Saga",
             "type": "Film",
             "studio": null,
-            "ignoreInCollection": false
+            "ignoreInCollection": true
         },
         {
             "id": "off",
@@ -17611,7 +17765,7 @@
             "collectionNom": "James Bond 007 - Saga",
             "type": "Film",
             "studio": null,
-            "ignoreInCollection": false
+            "ignoreInCollection": true
         },
         {
             "id": "open_season",
@@ -17675,7 +17829,7 @@
             "collectionNom": "James Bond 007 - Saga",
             "type": "Film",
             "studio": null,
-            "ignoreInCollection": false
+            "ignoreInCollection": true
         },
         {
             "id": "ordinary_decent_criminal",
@@ -18035,7 +18189,7 @@
             "collectionNom": "James Bond 007 - Saga",
             "type": "Film",
             "studio": null,
-            "ignoreInCollection": false
+            "ignoreInCollection": true
         },
         {
             "id": "peter_pan",
@@ -18099,7 +18253,7 @@
             "collectionNom": "Peter Pan - Saga",
             "type": "Animation",
             "studio": null,
-            "ignoreInCollection": false
+            "ignoreInCollection": true
         },
         {
             "id": "la_petite",
@@ -18872,6 +19026,42 @@
             "studio": null
         },
         {
+            "id": "reine_des_neiges_une_fete_givree_notag_2015",
+            "titre": "Reine Des Neiges Une Fête Givrée NoTag",
+            "annee": 2015,
+            "langue": [
+                "VF"
+            ],
+            "taille": 1167605874,
+            "genre": [
+                "Animation",
+                "Familial",
+                "Comédie",
+                "Fantastique"
+            ],
+            "image": "https://image.tmdb.org/t/p/w342/7eBLd6LkxrN8MJ0wdg3xeCU2HFL.jpg",
+            "fichier": "/03_Films/La.Reine.Des.Neiges.Une.Fête.Givrée.2015.TRUEFRENCH.1080p.HD.x264-NoTag.mkv",
+            "nomFichier": "La.Reine.Des.Neiges.Une.Fête.Givrée.2015.TRUEFRENCH.1080p.HD.x264-NoTag.mkv",
+            "imdbId": null,
+            "tmdbId": 326359,
+            "tmdbUrl": "https://www.themoviedb.org/movie/326359",
+            "doublonExact": false,
+            "doublonProbable": false,
+            "groupeDoublon": null,
+            "dateAjout": "2026-11-10T08:51:25.702Z",
+            "type": "Animation",
+            "studio": null,
+            "titreTmdb": "La Reine des Neiges : Une fête givrée",
+            "anneeTmdb": "2015",
+            "dureeTmdb": 7,
+            "descriptionTmdb": "C’est l’anniversaire d’Anna, et Elsa et Kristoff sont décidés à lui offrir la plus belle fête dont on puisse rêver, mais les pouvoirs \"glaçants\" d’Elsa pourraient bien provoquer une catastrophe…",
+            "collectionId": null,
+            "collectionNom": null,
+            "collectionDescription": null,
+            "collectionImage": null,
+            "collectionTmdbUrl": null
+        },
+        {
             "id": "la_reine_des_neiges",
             "titre": "reine neiges",
             "annee": null,
@@ -19057,7 +19247,7 @@
             "collectionNom": "James Bond 007 - Saga",
             "type": "Film",
             "studio": null,
-            "ignoreInCollection": false
+            "ignoreInCollection": true
         },
         {
             "id": "rio_fast_five_2011",
@@ -20251,6 +20441,39 @@
             "ignoreInCollection": false
         },
         {
+            "id": "sister_act_1992",
+            "titre": "Sister Act ( )",
+            "annee": 1992,
+            "langue": [
+                "VO",
+                "VF"
+            ],
+            "taille": 2816212393,
+            "genre": [
+                "Musique",
+                "Comédie"
+            ],
+            "image": "https://image.tmdb.org/t/p/w342/4RPuvJ2IhF9EQkUGOa0jr7idlRP.jpg",
+            "fichier": "/03_Films/Sister Act (1992) MULTi 1080p BluRay x264-PopHD.mkv",
+            "nomFichier": "Sister Act (1992) MULTi 1080p BluRay x264-PopHD.mkv",
+            "imdbId": null,
+            "tmdbId": 2005,
+            "tmdbUrl": "https://www.themoviedb.org/movie/2005",
+            "doublonExact": false,
+            "doublonProbable": false,
+            "groupeDoublon": null,
+            "dateAjout": "2026-11-10T08:51:25.707Z",
+            "titreTmdb": "Sister Act",
+            "anneeTmdb": "1992",
+            "dureeTmdb": 100,
+            "descriptionTmdb": "Une jeune femme, témoin d'un meurtre, intègre un couvent pour se protéger. Elle va alors donner un nouvel élan à l'établissement religieux, invitant notamment les bonnes sœurs à une réorchestration musicale de leurs chants.",
+            "collectionId": 103573,
+            "collectionNom": "Sister Act - Saga",
+            "collectionDescription": "Sister Act est un film de comédie américaine sorti en 1992 par Touchstone Pictures. Réalisé par Emile Ardolino, il met en scène des arrangements musicaux de Marc Shaiman et met en vedette Whoopi Goldberg en tant que chanteuse lounge de Reno qui a été placée sous protection dans un couvent de San Francisco et qui doit prétendre être nonne lorsqu'un patron de la mafia la place sur sa liste de cibles.  Maggie Smith, Kathy Najimy, Wendy Makkena, Mary Wickes et Harvey Keitel font également partie des acteurs. Le film a été suivi d'une suite en 1993, Sister Act : Acte 2",
+            "collectionImage": "https://image.tmdb.org/t/p/w500/q5HkOoYsfNvE2QJZunrpi8RrP3t.jpg",
+            "collectionTmdbUrl": "https://www.themoviedb.org/collection/103573"
+        },
+        {
             "id": "tmdb_1563146",
             "titre": "Sister Act 3",
             "annee": 2100,
@@ -20278,7 +20501,7 @@
             "collectionNom": "Sister Act - Saga",
             "type": "Film",
             "studio": null,
-            "ignoreInCollection": false
+            "ignoreInCollection": true
         },
         {
             "id": "sleepless_2017",
@@ -20775,34 +20998,37 @@
             "studio": null
         },
         {
-            "id": "tmdb_13475",
+            "id": "star_trek_2009",
             "titre": "Star Trek",
             "annee": 2009,
             "langue": [
-                "TBD"
+                "VF"
             ],
-            "taille": 0,
+            "taille": 1169747284,
             "genre": [
-                "Science-Fiction"
+                "Science-Fiction",
+                "Action",
+                "Aventure"
             ],
             "image": "https://image.tmdb.org/t/p/w342/uS0YI879KkgUCk5tvbqDZXLb8mU.jpg",
-            "fichier": null,
-            "nomFichier": null,
+            "fichier": "/03_Films/Star.Trek.2009.TRUEFRENCH.BRRip.x264-GHZ.mkv",
+            "nomFichier": "Star.Trek.2009.TRUEFRENCH.BRRip.x264-GHZ.mkv",
+            "imdbId": null,
             "tmdbId": 13475,
             "tmdbUrl": "https://www.themoviedb.org/movie/13475",
             "doublonExact": false,
             "doublonProbable": false,
             "groupeDoublon": null,
-            "dateAjout": null,
+            "dateAjout": "2026-11-10T08:51:25.709Z",
             "titreTmdb": "Star Trek",
-            "titreOriginal": "Star Trek",
-            "anneeTmdb": 2009,
+            "anneeTmdb": "2009",
+            "dureeTmdb": 128,
             "descriptionTmdb": "James T. Kirk tente d'être à la hauteur de son père sous le contrôle de M. Spock alors qu'un Romulien vengeur du futur crée des trous noirs pour détruire la Fédération, planète par planète.",
             "collectionId": 115575,
             "collectionNom": "Star Trek - Saga",
-            "type": "Film",
-            "studio": null,
-            "ignoreInCollection": false
+            "collectionDescription": "Saga cinématographique Star Trek, troisième du nom.",
+            "collectionImage": "https://image.tmdb.org/t/p/w500/A8Y0BFIXpKv3AxbueUNnK6CdNCu.jpg",
+            "collectionTmdbUrl": "https://www.themoviedb.org/collection/115575"
         },
         {
             "id": "star_trek_survival_cd2_2009",
@@ -21112,7 +21338,7 @@
             ],
             "taille": 730118490,
             "genre": [
-                "Comédie"
+                "Aventure"
             ],
             "image": "https://image.tmdb.org/t/p/w342/uXAA01xLmVOFLXr2uwL6NAwJHh4.jpg",
             "fichier": "/Box_Films/Enfants/Storks.Les cigognes.2016.FRENCH.BDRip.XviD-EXTREME.avi",
@@ -21764,6 +21990,43 @@
             "type": "Film",
             "studio": "Marvel",
             "ignoreInCollection": false
+        },
+        {
+            "id": "the_bad_guys_2_2025",
+            "titre": "The Bad Guys 2",
+            "annee": 2025,
+            "langue": [
+                "VO",
+                "VF"
+            ],
+            "taille": 1344536007,
+            "genre": [
+                "Familial",
+                "Comédie",
+                "Crime",
+                "Aventure",
+                "Animation",
+                "Action"
+            ],
+            "image": "https://image.tmdb.org/t/p/w342/1heUoLYAHVAKn0ehIF9ASOg2jUv.jpg",
+            "fichier": "/03_Films/The.Bad.Guys.2.2025.Multi.WEBRIP.mp4",
+            "nomFichier": "The.Bad.Guys.2.2025.Multi.WEBRIP.mp4",
+            "imdbId": null,
+            "tmdbId": 1175942,
+            "tmdbUrl": "https://www.themoviedb.org/movie/1175942",
+            "doublonExact": false,
+            "doublonProbable": false,
+            "groupeDoublon": null,
+            "dateAjout": "2026-11-10T08:51:25.710Z",
+            "titreTmdb": "Les Bad Guys 2",
+            "anneeTmdb": "2025",
+            "dureeTmdb": 104,
+            "descriptionTmdb": "Un loup, un serpent, une tarentule, un requin et un piranha sont une ancienne bande de criminels repentis tentant une réinsertion dans la société. Cependant, leur mauvaise réputation les précède et ils peinent à trouver du travail. Lorsqu'une série de cambriolages sont perpétrés dans la ville, ils en deviennent les principaux suspects. Pour prouver leurs bonnes intentions, ils offrent à la commissaire de police d'utiliser leurs habiletés uniques pour identifier le véritable coupable.",
+            "collectionId": 1231053,
+            "collectionNom": "Les Bad Guys - Saga",
+            "collectionDescription": "Collection de films d'animation des Bad Guys",
+            "collectionImage": "https://image.tmdb.org/t/p/w500/OADNVTiVWT9lcuOSapQ9KlTX1D.jpg",
+            "collectionTmdbUrl": "https://www.themoviedb.org/collection/1231053"
         },
         {
             "id": "bang_bang_club",
@@ -22893,6 +23156,39 @@
             "ignoreInCollection": false
         },
         {
+            "id": "tinker_bell_and_the_legend_of_the_neverbeast_2014",
+            "titre": "Tinker Bell and the Legend of the Neverbeast",
+            "annee": 2014,
+            "langue": [
+                "VF"
+            ],
+            "taille": 700547950,
+            "genre": [
+                "Aventure",
+                "Animation",
+                "Familial"
+            ],
+            "image": "https://image.tmdb.org/t/p/w342/1aJsRTVbGfCVS397etGZ5AYOCuF.jpg",
+            "fichier": "/03_Films/Tinker.Bell.and.the.Legend.of.the.Neverbeast.2014.FRENCH.BDRip.x264.mkv",
+            "nomFichier": "Tinker.Bell.and.the.Legend.of.the.Neverbeast.2014.FRENCH.BDRip.x264.mkv",
+            "imdbId": null,
+            "tmdbId": 297270,
+            "tmdbUrl": "https://www.themoviedb.org/movie/297270",
+            "doublonExact": false,
+            "doublonProbable": false,
+            "groupeDoublon": null,
+            "dateAjout": "2026-11-08T21:42:38.951Z",
+            "titreTmdb": "Clochette et la créature légendaire",
+            "anneeTmdb": "2014",
+            "dureeTmdb": 76,
+            "descriptionTmdb": "L'ancien mythe de la créature légendaire attire l'attention de Clochette et de son amie Noa, la fée des animaux, qui n'a pas peur d'enfreindre les règles pour sauver un animal en détresse. Mais cette créature n'est pas la bienvenue dans la Vallée des Fées et celles-ci sont bien décidées à la capturer. Noa, qui lui voit un cœur tendre, essaie de convaincre ses amies de sauver la créature. Certaines séquences ou certains motifs lumineux clignotants sont susceptibles d'affecter les téléspectateurs photosensibles.",
+            "collectionId": 315595,
+            "collectionNom": "Fée Clochette - Saga",
+            "collectionDescription": "Après son périple au Pays imaginaire aux côtés de Peter Pan dans le long-métrage éponyme, « Peter Pan » des Walt Disney Animation Studios, sorti en 1953, et dans sa suite, « Peter Pan 2 : Retour au Pays imaginaire » des DisneyToon Studios, sorti en 2002, la petite fée a su dès 2008 se renouveler via une nouvelle franchise créée par les DisneyToon Studios.",
+            "collectionImage": "https://image.tmdb.org/t/p/w500/mEbblIsTckiyDcBXk72jPFmOrXz.jpg",
+            "collectionTmdbUrl": "https://www.themoviedb.org/collection/315595"
+        },
+        {
             "id": "tokyo_fast_and_tokyo_drift_2006",
             "titre": "Tokyo Fast and Furious Tokyo Drift",
             "annee": 2006,
@@ -23441,7 +23737,7 @@
             "collectionNom": "Transformers - Saga",
             "type": "Film",
             "studio": null,
-            "ignoreInCollection": false
+            "ignoreInCollection": true
         },
         {
             "id": "tmdb_335988",
@@ -23471,7 +23767,7 @@
             "collectionNom": "Transformers - Saga",
             "type": "Film",
             "studio": null,
-            "ignoreInCollection": false
+            "ignoreInCollection": true
         },
         {
             "id": "tmdb_8373",
@@ -23501,7 +23797,7 @@
             "collectionNom": "Transformers - Saga",
             "type": "Film",
             "studio": null,
-            "ignoreInCollection": false
+            "ignoreInCollection": true
         },
         {
             "id": "tmdb_38356",
@@ -23531,7 +23827,7 @@
             "collectionNom": "Transformers - Saga",
             "type": "Film",
             "studio": null,
-            "ignoreInCollection": false
+            "ignoreInCollection": true
         },
         {
             "id": "le_transporteur",
@@ -23625,7 +23921,7 @@
             "collectionNom": "James Bond 007 - Saga",
             "type": "Film",
             "studio": null,
-            "ignoreInCollection": false
+            "ignoreInCollection": true
         },
         {
             "id": "tuner_ca_2025",
@@ -23852,7 +24148,7 @@
             "collectionNom": "James Bond 007 - Saga",
             "type": "Film",
             "studio": null,
-            "ignoreInCollection": false
+            "ignoreInCollection": true
         },
         {
             "id": "up_2_streets_2008",
@@ -23918,36 +24214,6 @@
             "collectionImage": "https://image.tmdb.org/t/p/w500/syG4B7AnF9W8Cd0QEebl50YyN7M.jpg",
             "collectionTmdbUrl": "https://www.themoviedb.org/collection/86092",
             "type": "Film",
-            "studio": null,
-            "ignoreInCollection": false
-        },
-        {
-            "id": "tmdb_1241982",
-            "titre": "Vaiana 2",
-            "annee": 2024,
-            "langue": [
-                "TBD"
-            ],
-            "taille": 0,
-            "genre": [
-                "Aventure"
-            ],
-            "image": "https://image.tmdb.org/t/p/w342/zdVxpaoQdpheQqWWd6b82eY9Pid.jpg",
-            "fichier": null,
-            "nomFichier": null,
-            "tmdbId": 1241982,
-            "tmdbUrl": "https://www.themoviedb.org/movie/1241982",
-            "doublonExact": false,
-            "doublonProbable": false,
-            "groupeDoublon": null,
-            "dateAjout": null,
-            "titreTmdb": "Vaiana 2",
-            "titreOriginal": "Moana 2",
-            "anneeTmdb": 2024,
-            "descriptionTmdb": "Après avoir reçu une invitation inattendue de ses ancêtres, Vaiana entreprend un périple qui la conduira jusqu’aux eaux dangereuses situées aux confins des mers des îles du Pacifique. Elle y vivra des péripéties comme jamais vécues auparavant.",
-            "collectionId": 1241984,
-            "collectionNom": "Vaiana - Saga",
-            "type": "Animation",
             "studio": null,
             "ignoreInCollection": false
         },
@@ -24264,7 +24530,7 @@
             "collectionNom": "James Bond 007 - Saga",
             "type": "Film",
             "studio": null,
-            "ignoreInCollection": false
+            "ignoreInCollection": true
         },
         {
             "id": "volt",
@@ -24367,34 +24633,37 @@
             "ignoreInCollection": false
         },
         {
-            "id": "tmdb_14154",
-            "titre": "WarGames 2",
-            "annee": 2008,
+            "id": "wargames_the_dead_codedvdrip",
+            "titre": "WarGames The Dead CodeDvDrip",
+            "annee": null,
             "langue": [
                 "TBD"
             ],
-            "taille": 0,
+            "taille": 735332352,
             "genre": [
-                "Policier"
+                "Science-Fiction",
+                "Drame",
+                "Thriller"
             ],
             "image": "https://image.tmdb.org/t/p/w342/iwLR2K4CjRISMAER0Vy2xzhZ0W8.jpg",
-            "fichier": null,
-            "nomFichier": null,
+            "fichier": "/03_Films/WarGames-The.Dead.CodeDvDrip-aXXo.avi",
+            "nomFichier": "WarGames-The.Dead.CodeDvDrip-aXXo.avi",
+            "imdbId": null,
             "tmdbId": 14154,
             "tmdbUrl": "https://www.themoviedb.org/movie/14154",
             "doublonExact": false,
             "doublonProbable": false,
             "groupeDoublon": null,
-            "dateAjout": null,
+            "dateAjout": "2026-11-10T08:51:25.712Z",
             "titreTmdb": "WarGames 2",
-            "titreOriginal": "WarGames: The Dead Code",
-            "anneeTmdb": 2008,
+            "anneeTmdb": "2008",
+            "dureeTmdb": 100,
             "descriptionTmdb": "Quand Will Farmer pirate un réseau sécurisé d’une plateforme de jeux connu sous le nom de R.I.P.L.E.Y., il tombe par hasard sur un système de défense national conçu pour débusquer les cellules terroristes… et devient ainsi la prochaine cible de Ripley ! Son identité compromise, ses proches mis en danger et sa ville sur le point de subir une frappe chirurgicale, la dernière option de Will est de battre Ripley à son propre jeu. Mais quand le jeu passe au niveau supérieur, une course contre la montre s’engage pour empêcher Ripley de déclencher l’Armageddon !",
             "collectionId": 151263,
             "collectionNom": "WarGames - Saga",
-            "type": "Film",
-            "studio": null,
-            "ignoreInCollection": false
+            "collectionDescription": "WarGames est un film de science-fiction américain de 1983 sur la guerre froide, écrit par Lawrence Lasker et Walter F. Parkes et réalisé par John Badham. Le film met en vedette Matthew Broderick, Dabney Coleman, John Wood et Ally Sheedy. Le film raconte l'histoire de David Lightman (Broderick), un jeune hacker qui accède involontairement à War Operation Plan Response (WOPR), un superordinateur de l'armée américaine programmé à l'origine pour prédire les résultats possibles d'une guerre nucléaire. Lightman fait exécuter à WOPR une simulation de guerre nucléaire, croyant qu'il s'agit d'un jeu informatique. L'ordinateur, désormais relié au système de contrôle des armes nucléaires et incapable de faire la différence entre la simulation et la réalité, tente de déclencher la Troisième Guerre mondiale. Une suite, WarGames : The Dead Code, est sorti directement en vidéo en 2008.",
+            "collectionImage": "https://image.tmdb.org/t/p/w500/tPvDCajdnC6RpuKQqRI9G62IJ7f.jpg",
+            "collectionTmdbUrl": "https://www.themoviedb.org/collection/151263"
         },
         {
             "id": "white_house_down_2013",
@@ -24620,34 +24889,37 @@
             "ignoreInCollection": false
         },
         {
-            "id": "tmdb_464052",
-            "titre": "Wonder Woman 1984",
-            "annee": 2020,
+            "id": "wonder_woman_stvfrv_1984",
+            "titre": "Wonder Woman STVFRV",
+            "annee": 1984,
             "langue": [
                 "TBD"
             ],
-            "taille": 0,
+            "taille": 1692698522,
             "genre": [
-                "Science-Fiction"
+                "Action",
+                "Aventure",
+                "Fantastique"
             ],
             "image": "https://image.tmdb.org/t/p/w342/kdEorjrPno4Cn7HYVN2DA0f3ocr.jpg",
-            "fichier": null,
-            "nomFichier": null,
+            "fichier": "/03_Films/Wonder Woman 1984.2020.WEB-DL.x264-STVFRV.mkv",
+            "nomFichier": "Wonder Woman 1984.2020.WEB-DL.x264-STVFRV.mkv",
+            "imdbId": null,
             "tmdbId": 464052,
             "tmdbUrl": "https://www.themoviedb.org/movie/464052",
             "doublonExact": false,
             "doublonProbable": false,
             "groupeDoublon": null,
-            "dateAjout": null,
+            "dateAjout": "2026-11-10T08:51:25.712Z",
             "titreTmdb": "Wonder Woman 1984",
-            "titreOriginal": "Wonder Woman 1984",
-            "anneeTmdb": 2020,
+            "anneeTmdb": "2020",
+            "dureeTmdb": 161,
             "descriptionTmdb": "Suite des aventures de Diana Prince, alias Wonder Woman, Amazone devenue une super-héroïne dans notre monde. Après la Première guerre mondiale, direction les années 80 ! Cette fois, Wonder Woman doit affronter deux nouveaux ennemis, particulièrement redoutables : Max Lord et Cheetah.",
             "collectionId": 468552,
             "collectionNom": "Wonder Woman - Saga",
-            "type": "Film",
-            "studio": "Marvel",
-            "ignoreInCollection": false
+            "collectionDescription": "Une série de films basée sur le super-héros Wonder Woman de DC Comics.",
+            "collectionImage": "https://image.tmdb.org/t/p/w500/l2QTGuHsuLEA04QFiQrkkCgdmMR.jpg",
+            "collectionTmdbUrl": "https://www.themoviedb.org/collection/468552"
         },
         {
             "id": "x_men",
@@ -24953,6 +25225,39 @@
             "ignoreInCollection": false
         },
         {
+            "id": "x_men_days_of_future_past_2014",
+            "titre": "X Men Days of Future Past",
+            "annee": 2014,
+            "langue": [
+                "VF"
+            ],
+            "taille": 1042455963,
+            "genre": [
+                "Action",
+                "Aventure",
+                "Science-Fiction"
+            ],
+            "image": "https://image.tmdb.org/t/p/w342/zGSi4NG7SfyILp3SOfBgVo4VoWG.jpg",
+            "fichier": "/03_Films/X-Men.Days.of.Future.Past.2014.TRUEFRENCH.DVDRiP-T911.mp4",
+            "nomFichier": "X-Men.Days.of.Future.Past.2014.TRUEFRENCH.DVDRiP-T911.mp4",
+            "imdbId": null,
+            "tmdbId": 127585,
+            "tmdbUrl": "https://www.themoviedb.org/movie/127585",
+            "doublonExact": false,
+            "doublonProbable": false,
+            "groupeDoublon": null,
+            "dateAjout": "2026-11-10T08:51:25.712Z",
+            "titreTmdb": "X-Men : Days of Future Past",
+            "anneeTmdb": "2014",
+            "dureeTmdb": 131,
+            "descriptionTmdb": "Dans un futur proche, les mutants et les humains ont été décimés par les Sentinelles, des robots biologiques capables de copier les pouvoirs des mutants. Seuls quelques mutants, dont Kitty Pride, Iceman, Storm et Bishop, résistent encore. Le Professeur X et Magneto décident d’envoyer Logan dans le passé afin d’empêcher le meurtre de Bolivar Trask, un scientifique américain responsable du programme d’armement dont la mort déclenchera le programme des Sentinelles. Wolverine arrive donc en 1973 afin de convaincre Charles Xavier et Erik Lehnsherr de stopper Mystique dans sa mission, une tâche qu’ils devront accomplir avec l’aide de Beast et de Quicksilver.",
+            "collectionId": 748,
+            "collectionNom": "X-Men - Saga",
+            "collectionDescription": "X-Men est une saga cinématographique de super-héros américaine.",
+            "collectionImage": "https://image.tmdb.org/t/p/w500/9Z4fKVUqAJ2WEP6pQFTtYPuoknd.jpg",
+            "collectionTmdbUrl": "https://www.themoviedb.org/collection/748"
+        },
+        {
             "id": "x_men_first_class_2011",
             "titre": "X Men First Class",
             "annee": 2011,
@@ -25015,36 +25320,6 @@
             "collectionDescription": "La saga basée sur l'histoire de Wolverine, le super-héros Marvel.",
             "collectionImage": "https://image.tmdb.org/t/p/w500/oyKAIOQAK65LlEBKZaX4UkvU5wA.jpg",
             "collectionTmdbUrl": "https://www.themoviedb.org/collection/453993",
-            "type": "Film",
-            "studio": "Marvel",
-            "ignoreInCollection": false
-        },
-        {
-            "id": "tmdb_127585",
-            "titre": "X-Men : Days of Future Past",
-            "annee": 2014,
-            "langue": [
-                "TBD"
-            ],
-            "taille": 0,
-            "genre": [
-                "Science-Fiction"
-            ],
-            "image": "https://image.tmdb.org/t/p/w342/zGSi4NG7SfyILp3SOfBgVo4VoWG.jpg",
-            "fichier": null,
-            "nomFichier": null,
-            "tmdbId": 127585,
-            "tmdbUrl": "https://www.themoviedb.org/movie/127585",
-            "doublonExact": false,
-            "doublonProbable": false,
-            "groupeDoublon": null,
-            "dateAjout": null,
-            "titreTmdb": "X-Men : Days of Future Past",
-            "titreOriginal": "X-Men: Days of Future Past",
-            "anneeTmdb": 2014,
-            "descriptionTmdb": "Dans un futur proche, les mutants et les humains ont été décimés par les Sentinelles, des robots biologiques capables de copier les pouvoirs des mutants. Seuls quelques mutants, dont Kitty Pride, Iceman, Storm et Bishop, résistent encore. Le Professeur X et Magneto décident d’envoyer Logan dans le passé afin d’empêcher le meurtre de Bolivar Trask, un scientifique américain responsable du programme d’armement dont la mort déclenchera le programme des Sentinelles. Wolverine arrive donc en 1973 afin de convaincre Charles Xavier et Erik Lehnsherr de stopper Mystique dans sa mission, une tâche qu’ils devront accomplir avec l’aide de Beast et de Quicksilver.",
-            "collectionId": 748,
-            "collectionNom": "X-Men - Saga",
             "type": "Film",
             "studio": "Marvel",
             "ignoreInCollection": false

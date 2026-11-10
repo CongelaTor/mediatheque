@@ -244,7 +244,8 @@ function renderToolButtons(values, category, fichier) {
                 class="language-button ${isActive ? "active" : ""}"
                 data-category="${category}"
                 data-value="${value}"
-                data-fichier="${fichier.fichier}">
+                data-fichier="${fichier.fichier || ""}"
+                data-tmdb-id="${fichier.tmdbId || ""}">
                 ${value}
             </button>
             `;
@@ -388,6 +389,7 @@ async function saveFilmMetadata(fichiers) {
     body: JSON.stringify({
       fichiers: fichiers.map((fichier) => ({
         fichier: fichier.fichier,
+        tmdbId: fichier.tmdbId || null,
         type: fichier.type || null,
         genre: fichier.genre || [],
         studio: fichier.studio || null,
@@ -559,14 +561,16 @@ function renderTools() {
         }
 
         const fichierPath = button.dataset.fichier;
-        const fichier = catalog.films.find(
-          (item) => item.fichier === fichierPath,
+        const tmdbId = button.dataset.tmdbId;
+        const fichier = catalog.films.find((item) =>
+          fichierPath
+            ? item.fichier === fichierPath
+            : !item.fichier && Number(item.tmdbId) === Number(tmdbId),
         );
-
         if (!fichier) {
           return;
         }
-
+        
         const fichiersToUpdate = applyToAll ? displayedFiles : [fichier];
         const category = button.dataset.category;
         const value = button.dataset.value;

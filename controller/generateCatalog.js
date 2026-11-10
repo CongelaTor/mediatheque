@@ -52,7 +52,7 @@ const scanSources = process.env.MEDIA_SCAN_SOURCES
   ? JSON.parse(process.env.MEDIA_SCAN_SOURCES)
   : config.sources;
 
-console.log("config.sources =", config.sources);
+// console.log("config.sources =", config.sources);
 console.log("scanSources =", scanSources);
 const sourcesToScan = scanSources.filter((source) => {
   if (scanType === "all") {
@@ -220,9 +220,9 @@ function buildCatalogPath(fullPath) {
         const rootName = normalizedSourcePath.split("/").pop();
 
         if (buildCatalogPath.logCount < 3) {
-          console.log("rootName =", rootName);
+          // console.log("rootName =", rootName);
           const catalogPath = `/${rootName}${normalizedFullPath.substring(normalizedSourcePath.length)}`;
-          console.log("catalogPath =", catalogPath);
+          // console.log("catalogPath =", catalogPath);
         }
         return `/${rootName}${normalizedFullPath.substring(normalizedSourcePath.length)}`;
       }

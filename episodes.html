@@ -112,6 +112,7 @@
             .then(response => response.text())
             .then(html => {
                 document.getElementById("topbarContainer").innerHTML = html;
+                updateUserGreeting();
                 document.getElementById("topbarScanText").textContent = "Scan des séries";
                 document.getElementById("topbarScanButton").onclick = () => reloadCatalog("series");
             });

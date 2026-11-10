@@ -145,6 +145,7 @@
             .then(response => response.text())
             .then(html => {
                 document.getElementById("topbarContainer").innerHTML = html;
+                updateUserGreeting();
                 const scanText = document.getElementById("topbarScanText");
                 const scanButton = document.getElementById("topbarScanButton");
                 if (isCollectionContextActive()) {
