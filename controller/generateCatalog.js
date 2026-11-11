@@ -80,10 +80,7 @@ for (const source of sourcesToScan) {
         path: sourcePath,
       });
       if (analyse.type === "film") {
-        analyse.technique = extractVideoMetadata(
-          probeVideoFile(fichier.fichier),
-        );
-        const result = syncFilm(syncedCatalog, analyse);
+        const result = syncFilm(syncedCatalog, analyse, fichier.fichier);
         if (result === "new") {
           totalNewFilms++;
         }
@@ -516,7 +513,8 @@ function findAssociatedImage(videoPath) {
   }
   return null;
 }
-function syncFilm(catalog, analyse) {
+
+function syncFilm(catalog, analyse, sourceFilePath) {
   let existing = existingFilmByPath.get(
     pathKey(analyse.fichier.replace(/^[A-Z]:/i, "")),
   );
@@ -534,11 +532,12 @@ function syncFilm(catalog, analyse) {
     catalog.films.push({
       ...existing,
       fichier: analyse.fichier,
-      technique: analyse.technique,
     });
     return "kept";
   }
-
+  const technique = extractVideoMetadata(
+    probeVideoFile(sourceFilePath),
+  );
   catalog.films.push({
     id: analyse.id,
     titre: analyse.titre,
@@ -549,7 +548,6 @@ function syncFilm(catalog, analyse) {
     image: analyse.image,
     fichier: analyse.fichier,
     nomFichier: analyse.nomFichier,
-
     imdbId: null,
     tmdbId: null,
     tmdbUrl: null,
@@ -557,8 +555,7 @@ function syncFilm(catalog, analyse) {
     doublonProbable: false,
     groupeDoublon: null,
     dateAjout: new Date().toISOString(),
-
-    technique: analyse.technique,
+    technique: technique,
   });
   return "new";
 }

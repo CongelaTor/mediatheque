@@ -28,7 +28,7 @@ body:not(.no-mediaserver) .download-only {
     --green: #1ec98b;
     --danger: #ffcc00;
     --card-radius: 14px;
-    --cadres-max-width: 1000px;
+    --cadres-max-width: 1200px;
 }
 
 * {
