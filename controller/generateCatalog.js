@@ -1,7 +1,7 @@
 const scanType = process.argv[2] || "all";
 const fs = require("fs");
 const path = require("path");
-
+const { execFileSync } = require("child_process");
 const mediathequeRoot = path.join(__dirname, "..");
 const mediaServerDir = "Z:\\01_mediaServer";
 
@@ -80,6 +80,9 @@ for (const source of sourcesToScan) {
         path: sourcePath,
       });
       if (analyse.type === "film") {
+        analyse.technique = extractVideoMetadata(
+          probeVideoFile(fichier.fichier),
+        );
         const result = syncFilm(syncedCatalog, analyse);
         if (result === "new") {
           totalNewFilms++;
@@ -275,6 +278,75 @@ function scanDirectory(directory, extensions, results = []) {
   }
   return results;
 }
+function probeVideoFile(filePath) {
+  try {
+    const output = execFileSync(
+      "ffprobe",
+      ["-v", "error", "-show_format", "-show_streams", "-of", "json", filePath],
+      {
+        encoding: "utf8",
+        windowsHide: true,
+      },
+    );
+    return JSON.parse(output);
+  } catch (error) {
+    console.log(`FFprobe impossible : ${filePath}`);
+    return null;
+  }
+}
+function extractVideoMetadata(probe) {
+  if (!probe) {
+    return null;
+  }
+  const video = probe.streams?.find((stream) => stream.codec_type === "video");
+  const audioStreams =
+    probe.streams?.filter((stream) => stream.codec_type === "audio") || [];
+  const subtitleStreams =
+    probe.streams?.filter((stream) => stream.codec_type === "subtitle") || [];
+  const width = Number(video?.width) || null;
+  const height = Number(video?.height) || null;
+  const frameRateParts = video?.avg_frame_rate?.split("/") || [];
+  const frameRate =
+    frameRateParts.length === 2 && Number(frameRateParts[1])
+      ? Number(frameRateParts[0]) / Number(frameRateParts[1])
+      : null;
+  return {
+    largeur: width,
+    hauteur: height,
+    resolution: width && height ? `${width}x${height}` : null,
+    ratioImage: width && height ? Number((width / height).toFixed(3)) : null,
+    codecVideo: video?.codec_name || null,
+    profilVideo: video?.profile || null,
+    pixelFormat: video?.pix_fmt || null,
+    bitsParComposante: Number(video?.bits_per_raw_sample) || null,
+    bitrateVideo: Number(video?.bit_rate) || null,
+    framerate: frameRate ? Number(frameRate.toFixed(3)) : null,
+    espaceCouleur: video?.color_space || null,
+    transfertCouleur: video?.color_transfer || null,
+    primairesCouleur: video?.color_primaries || null,
+    hdr:
+      video?.color_transfer === "smpte2084" ||
+      video?.color_transfer === "arib-std-b67",
+    dureeFichier: Number(probe.format?.duration) || null,
+    bitrateGlobal: Number(probe.format?.bit_rate) || null,
+    formatConteneur: probe.format?.format_name || null,
+    audio: audioStreams.map((audio) => ({
+      codec: audio.codec_name || null,
+      profil: audio.profile || null,
+      canaux: Number(audio.channels) || null,
+      disposition: audio.channel_layout || null,
+      bitrate: Number(audio.bit_rate) || null,
+      frequence: Number(audio.sample_rate) || null,
+      langue: audio.tags?.language || audio.tags?.LANGUAGE || null,
+    })),
+    sousTitres: subtitleStreams.map((subtitle) => ({
+      codec: subtitle.codec_name || null,
+      langue: subtitle.tags?.language || subtitle.tags?.LANGUAGE || null,
+      titre: subtitle.tags?.title || null,
+    })),
+  };
+}
+
 function analyzeVideoFile(fichier, source) {
   const nomSansExtension = path.parse(fichier.nom).name;
   const episodeInfo = detectEpisode(nomSansExtension);
@@ -462,6 +534,7 @@ function syncFilm(catalog, analyse) {
     catalog.films.push({
       ...existing,
       fichier: analyse.fichier,
+      technique: analyse.technique,
     });
     return "kept";
   }
@@ -484,6 +557,8 @@ function syncFilm(catalog, analyse) {
     doublonProbable: false,
     groupeDoublon: null,
     dateAjout: new Date().toISOString(),
+
+    technique: analyse.technique,
   });
   return "new";
 }

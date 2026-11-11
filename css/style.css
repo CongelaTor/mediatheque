@@ -28,7 +28,7 @@ body:not(.no-mediaserver) .download-only {
     --green: #1ec98b;
     --danger: #ffcc00;
     --card-radius: 14px;
-    --cadres-max-width: 800px;
+    --cadres-max-width: 1000px;
 }
 
 * {
@@ -1197,7 +1197,6 @@ max-width: var(--cadres-max-width);
     text-overflow: ellipsis;
     white-space: nowrap;
 }
-
 .film-file-folder {
     color: var(--muted);
     font-size: calc(15px * var(--font-scale));
@@ -1207,13 +1206,56 @@ max-width: var(--cadres-max-width);
     word-break: break-word;
     margin-left: 8px;
 }
+.film-file-meta,
+.film-technical-video,
+.film-file-column .film-technical-info {
+    font-size: calc(14px * var(--font-scale));
+    line-height: 1;
+}
+.film-file-meta,
+.film-technical-video {
+    font-weight: 700;
+}
+.film-file-column .film-technical-info {
+    font-weight: 400;
+}
 .film-file-meta {
     color: var(--blue);
-    font-size: calc(18px * var(--font-scale));
-    font-weight: 700;
     margin-left: 1px;
+    transform: translateY(-3px);
 }
-.film-file-right-actions {
+.film-technical-video {
+    min-width: 0;
+    text-align: left;
+    white-space: nowrap;
+    transform: translateY(-4px);
+}
+.film-technical-third {
+    min-width: 0;
+    white-space: nowrap;
+}
+.film-technical-third:nth-child(1),
+.film-technical-third:nth-child(2),
+.film-technical-third:nth-child(3) {
+    text-align: left;
+}
+.film-technical-video {
+    min-width: 0;
+    text-align: left;
+    white-space: nowrap;
+    line-height: 1;  
+    font-weight: 700;
+    transform: translateY(-4px);
+}
+.film-technical-good {
+    color: #1ec98b;
+}
+.film-technical-medium {
+    color: #f59e0b;
+}
+.film-technical-low {
+    color: #ef4444;
+}.film-file-right-actions {
     margin-left: auto;
     display: flex;
     flex-direction: row;
@@ -1263,7 +1305,9 @@ max-width: var(--cadres-max-width);
 
 .film-files-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
+    grid-template-columns: minmax(0, 1fr);
+    width: 100%;
+    max-width: var(--cadres-max-width);    
     gap: 14px;
 }
 
@@ -1272,10 +1316,57 @@ max-width: var(--cadres-max-width);
 }
 
 .film-file-playback-row {
-    display: flex;
-    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    align-items: stretch;
 }
-
+.film-file-column {
+    min-width: 0;
+    height: 44px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.film-file-column:nth-child(2) .film-technical-video {
+    align-self: flex-start;
+}
+.film-file-left-info {
+    display: flex;
+    align-items: flex-start;
+    gap: 16px;
+    min-width: 0;
+}
+.film-file-column:first-child {
+    position: relative;
+    white-space: nowrap;
+}
+.film-file-column:first-child .film-technical-info {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+.film-file-column .film-technical-info {
+    display: block;
+    color: var(--muted);
+    font-size: calc(14px * var(--font-scale));
+    line-height: 1;
+    white-space: nowrap;
+}
+.film-file-column:first-child {
+    white-space: nowrap;
+}
+.film-file-column:first-child .film-file-left-info {
+    font-size: calc(14px * var(--font-scale));
+}
+.film-file-column:first-child .film-technical-info {
+    margin-left: 60px;
+}
+.film-file-column:nth-child(3) {
+    align-items: flex-end;
+}
+.film-file-right-actions {
+    justify-self: end;
+}
 .film-file-actions-row {
     display: grid;
     grid-template-columns: 44px 1fr 44px;

@@ -194,17 +194,73 @@ function renderFilmFiles(films) {
   panel.appendChild(filesList);
 }
 
+function formatTechnicalCodec(codec) {
+  const codecs = {
+    h264: "H.264",
+    hevc: "H.265",
+    h265: "H.265",
+    av1: "AV1",
+    mpeg4: "Xvid",
+  };
+  return codecs[codec?.toLowerCase()] || codec?.toUpperCase() || "";
+}
+function formatTechnicalBitrate(technique) {
+  const bitrate = technique?.bitrateVideo || technique?.bitrateGlobal;
+  if (!bitrate) {
+    return "";
+  }
+  return `${(bitrate / 1000000).toFixed(2).replace(".", ",")} Mb/s`;
+}
+function formatTechnicalLanguage(language) {
+  const languages = {
+    fr: "FR",
+    fre: "FR",
+    fra: "FR",
+    en: "EN",
+    eng: "EN",
+    de: "DE",
+    deu: "DE",
+    ger: "DE",
+  };
+  return languages[language?.toLowerCase()] || "";
+}
+function getTechnicalLanguages(streams) {
+  return [
+    ...new Set(
+      (streams || [])
+        .map((stream) => formatTechnicalLanguage(stream.langue))
+        .filter(Boolean),
+    ),
+  ];
+}
+function formatTechnicalDuration(seconds) {
+  if (!seconds) {
+    return "";
+  }
+  const totalSeconds = Math.round(seconds);
+  const hours = Math.floor(totalSeconds / 3600);
+  const minutes = Math.floor((totalSeconds % 3600) / 60);
+  const remainingSeconds = totalSeconds % 60;
+  return `${hours} h ${String(minutes).padStart(2, "0")} min ${String(remainingSeconds).padStart(2, "0")} s`;
+}
+function getTechnicalQualityClass(width) {
+  if (width >= 1920) {
+    return "film-technical-good";
+  }
+  if (width >= 960) {
+    return "film-technical-medium";
+  }
+  return "film-technical-low";
+}
+
 function createFilmFileCard(film) {
   const card = document.createElement("article");
   card.className = "film-file-card";
-
   const languages = Array.isArray(film.langue)
     ? film.langue.join(", ")
     : film.langue || "TBD";
-
   const playbackRow = document.createElement("div");
   playbackRow.className = "film-file-row film-file-playback-row";
-
   const metadata = document.createElement("div");
   metadata.className = "film-file-meta";
   metadata.textContent = `${languages} • ${formatFilmFileSize(film.taille)}`;
@@ -234,7 +290,6 @@ function createFilmFileCard(film) {
     downloadButton.innerHTML = '<span class="play-icon">↓</span>';
     downloadButton.title = "Télécharger";
   }
-
   downloadButton.onclick = () => {
     console.log("DWLD BUTTON CLICK", film.fichier);
     if (window.isWebContainer && film.fichier.startsWith("/Box_")) {
@@ -244,7 +299,6 @@ function createFilmFileCard(film) {
     }
     requestFilmDownload(film);
   };
-
   const tmdbButton = document.createElement("button");
   tmdbButton.className =
     "tmdb-associate-button film-file-action-button linux-hidden mediaserver-only";
@@ -264,14 +318,12 @@ function createFilmFileCard(film) {
     </span>`;
   tmdbButton.title = "Réassocier TMDB";
   tmdbButton.onclick = () => showTmdbFilmSearch(film);
-
   const locationButton = document.createElement("button");
   locationButton.className =
     "tmdb-associate-button film-file-action-button linux-hidden mediaserver-only";
   locationButton.innerHTML = '<span class="play-icon film-open-icon">🗁</span>';
   locationButton.title = "Ouvrir l'emplacement";
   locationButton.onclick = () => openFilmLocation(film);
-
   const deleteButton = document.createElement("button");
   deleteButton.className =
     "tmdb-associate-button film-file-action-button linux-hidden mediaserver-only";
@@ -295,11 +347,9 @@ function createFilmFileCard(film) {
     const confirmed = confirm(
       `Supprimer définitivement ce fichier ?\n\n${film.nomFichier}`,
     );
-
     if (!confirmed) {
       return;
     }
-
     const response = await fetch("http://localhost:9876/delete-film-file", {
       method: "POST",
       headers: {
@@ -322,15 +372,59 @@ function createFilmFileCard(film) {
 
   const rightActions = document.createElement("div");
   rightActions.className = "film-file-right-actions";
-
   rightActions.appendChild(locationButton);
   rightActions.appendChild(tmdbButton);
   rightActions.appendChild(deleteButton);
 
-  playbackRow.appendChild(playButton);
-  playbackRow.appendChild(downloadButton);
-  playbackRow.appendChild(metadata);
-  playbackRow.appendChild(rightActions);
+  const technique = film.technique;
+  const technicalVideo = document.createElement("div");
+  technicalVideo.className = `film-technical-video ${getTechnicalQualityClass(technique?.largeur)}`;
+  if (technique) {
+    const videoParts = [
+      technique.resolution,
+      formatTechnicalCodec(technique.codecVideo),
+      formatTechnicalBitrate(technique),
+    ].filter(Boolean);
+    technicalVideo.textContent = videoParts.join(" · ");
+  }
+  const leftInfo = document.createElement("div");
+  leftInfo.className = "film-file-left-info";
+  leftInfo.appendChild(playButton);
+  leftInfo.appendChild(downloadButton);
+  leftInfo.appendChild(metadata);
+
+  const audioLanguages = getTechnicalLanguages(technique?.audio);
+  const audioInfo = document.createElement("div");
+  audioInfo.className = "film-technical-info";
+  audioInfo.textContent = `🔊${audioLanguages.length ? ` ${audioLanguages.join(" · ")}` : ""}`;
+
+  const subtitleLanguages = getTechnicalLanguages(technique?.sousTitres);
+  const subtitleInfo = document.createElement("div");
+  subtitleInfo.className = "film-technical-info";
+  subtitleInfo.textContent = `💬${subtitleLanguages.length ? ` ${subtitleLanguages.join(" · ")}` : ""}`;
+
+  // const durationInfo = document.createElement("div");
+  // durationInfo.className = "film-technical-info";
+  // durationInfo.textContent = `⏱ ${formatTechnicalDuration(technique?.dureeFichier)}`;
+
+  const leftColumn = document.createElement("div");
+  leftColumn.className = "film-file-column";
+  leftColumn.appendChild(leftInfo);
+  leftColumn.appendChild(audioInfo);
+
+  const centerColumn = document.createElement("div");
+  centerColumn.className = "film-file-column";
+  centerColumn.appendChild(technicalVideo);
+  centerColumn.appendChild(subtitleInfo);
+
+  const rightColumn = document.createElement("div");
+  rightColumn.className = "film-file-column";
+  rightColumn.appendChild(rightActions);
+  // rightColumn.appendChild(durationInfo);
+
+  playbackRow.appendChild(leftColumn);
+  playbackRow.appendChild(centerColumn);
+  playbackRow.appendChild(rightColumn);
 
   const pathInfo = document.createElement("div");
   pathInfo.className = "film-file-folder";
@@ -338,10 +432,8 @@ function createFilmFileCard(film) {
 
   card.appendChild(playbackRow);
   card.appendChild(pathInfo);
-
   return card;
 }
-
 function formatFilmFileSize(size) {
   if (!size) {
     return "Taille inconnue";
