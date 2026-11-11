@@ -2,7 +2,7 @@ const FILTER_AJOUTS = {
   collections: ["Nouveautés", "Récents", "À compléter"],
   films: ["Nouveautés", "Récents", "Doublons"],
   tools: ["Nouveautés", "Récents", "Doublons"],
-  series: ["Nouveautés", "Récents", "Manquants"],
+  series: ["Nouveautés", "Récents", "À compléter"],
 };
 const FILTER_TYPES = ["Animation", "Anime", "Film", "Spectacle"];
 const FILTER_GENRES = [
@@ -125,7 +125,7 @@ function initFiltersSidebar(ecran) {
       tousLabel = "Tous les films";
       break;
     case "series":
-      validAjouts = ["all", "Nouveautés", "Récents", "Manquants"];
+      validAjouts = ["all", "Nouveautés", "Récents", "À compléter"];
       tousLabel = "Toutes les séries";
       break;
   }

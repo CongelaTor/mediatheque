@@ -242,6 +242,7 @@ function renderSeries() {
   grid.innerHTML = "";
   const series = catalog.series
     .filter((serie) => serieMatchesSeriesLanguages(serie))
+    .filter((serie) => currentAjouts !== "À compléter" || serie.hasMissingEpisodes)
     .filter((serie) => matchesSearch(serie.titre))
     .sort((a, b) => a.titre.localeCompare(b.titre, "fr"));
 

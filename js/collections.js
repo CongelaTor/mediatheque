@@ -104,40 +104,11 @@ function renderCollections() {
   console.log("collections.size =", collections.size);
 
   const currentYear = new Date().getFullYear();
-  let collectionsToCompleteCount = 0;
-  for (const collection of collections.values()) {
-    const eligibleFilms = new Set();
-    const ownedFilms = new Set();
-    for (const film of collection.films) {
-      const key = film.tmdbId
-        ? `tmdb:${film.tmdbId}`
-        : `title:${film.titre}|${film.annee || ""}`;
-      const isFutureFilm =
-        film.anneeTmdb !== null &&
-        film.anneeTmdb !== undefined &&
-        Number(film.anneeTmdb) >= currentYear;
-      if (!isFutureFilm && !film.ignoreInCollection) {
-        eligibleFilms.add(key);
-      }
-      if (film.nomFichier) {
-        ownedFilms.add(key);
-      }
-    }
-    const hasMissingFilm = [...eligibleFilms].some(
-      (key) => !ownedFilms.has(key),
-    );
-    if (hasMissingFilm) {
-      collectionsToCompleteCount++;
-    }
-  }
   const toCompleteButton = document.querySelector(
     '.sidebar-link[data-ajouts="À compléter"]',
   );
   if (toCompleteButton) {
-    toCompleteButton.textContent =
-      collectionsToCompleteCount === 0
-        ? "Aucune à compléter"
-        : `${collectionsToCompleteCount} à compléter`;
+    toCompleteButton.textContent = "À compléter";
   }
 
   const collectionList = [...collections.values()]

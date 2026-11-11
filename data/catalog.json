@@ -41941,9 +41941,11 @@
                             "doublonProbable": false,
                             "dateAjout": "2026-09-06T18:10:39.144Z"
                         }
-                    ]
+                    ],
+                    "hasMissingEpisodes": false
                 }
-            ]
+            ],
+            "hasMissingEpisodes": false
         },
         {
             "id": "the_chicago_code",

@@ -127,8 +127,9 @@ function saveResumeSerie(serie, saison, episode) {
 }
 
 function resumeFilm() {
-  requestResumePlayback("film");
-
+  if (mediaServerAvailable) {
+    requestResumePlayback("film");
+  }
   const tmdbId = document.getElementById("resumeFilmButton")?.dataset.tmdbId;
   if (tmdbId) {
     window.location.href = `film-detail.html?tmdbId=${tmdbId}`;
@@ -153,22 +154,66 @@ function updateResumeButtons() {
   const resumeCollection = getResumeCollection();
   const resumeFilm = getResumeFilm();
   const resumeSerie = getResumeSerie();
+
   const resumeCollectionButton = document.getElementById(
     "resumeCollectionButton",
   );
   const resumeFilmButton = document.getElementById("resumeFilmButton");
   const resumeSerieButton = document.getElementById("resumeSerieButton");
   if (!mediaServerAvailable) {
-    resumeCollectionButton?.classList.add("hidden");
+    const isHomePage =
+      window.location.pathname.endsWith("/index.html") ||
+      window.location.pathname.endsWith("/");
+    if (!isHomePage) {
+      resumeCollectionButton?.classList.add("hidden");
+      resumeFilmButton?.classList.add("hidden");
+      resumeSerieButton?.classList.add("hidden");
+      return;
+    }
+    if (resumeCollectionButton) {
+      if (resumeCollection) {
+        resumeCollectionButton.classList.remove("hidden");
+        setText("resumeCollectionText", resumeCollection.titre);
+        resumeCollectionButton
+          .querySelector(".home-resume-play")
+          ?.classList.add("hidden");
+      } else {
+        resumeCollectionButton.classList.add("hidden");
+      }
+    }
     if (resumeFilmButton) {
-      if (resumeFilm) {
+      const isCollectionFilms =
+        window.location.pathname.endsWith("/films.html") &&
+        isCollectionContextActive();
+      const displayedFilmResume = isCollectionFilms
+        ? resumeCollection
+        : resumeFilm;
+      if (displayedFilmResume) {
         resumeFilmButton.classList.remove("hidden");
-        setText("resumeFilmText", resumeFilm.titre);
+        setText("resumeFilmText", displayedFilmResume.titre);
+        resumeFilmButton
+          .querySelector(".home-resume-play")
+          ?.classList.add("hidden");
+        if (displayedFilmResume.tmdbId) {
+          resumeFilmButton.dataset.tmdbId = displayedFilmResume.tmdbId;
+        } else {
+          delete resumeFilmButton.dataset.tmdbId;
+        }
       } else {
         resumeFilmButton.classList.add("hidden");
       }
     }
-    resumeSerieButton?.classList.add("hidden");
+    if (resumeSerieButton) {
+      if (resumeSerie) {
+        resumeSerieButton.classList.remove("hidden");
+        setText("resumeSerieText", resumeSerie.titre);
+        resumeSerieButton
+          .querySelector(".home-resume-play")
+          ?.classList.add("hidden");
+      } else {
+        resumeSerieButton.classList.add("hidden");
+      }
+    }
     return;
   }
   if (resumeCollectionButton) {
@@ -197,7 +242,7 @@ function updateResumeButtons() {
   const displayedFilmResume =
     isCollectionFilmDetail || isCollectionFilms ? resumeCollection : resumeFilm;
 
-    if (resumeFilmButton) {
+  if (resumeFilmButton) {
     if (displayedFilmResume) {
       resumeFilmButton.classList.remove("hidden");
       setText("resumeFilmText", displayedFilmResume.titre);
@@ -306,7 +351,7 @@ function resumeCollection() {
   const durationSeconds = Number(resumeCollection.durationSeconds) || 0;
   const isFinished =
     durationSeconds > 0 && positionSeconds / durationSeconds >= 0.95;
-  if (!isFinished) {
+  if (!isFinished && mediaServerAvailable) {
     requestResumePlayback("film");
     return;
   }
