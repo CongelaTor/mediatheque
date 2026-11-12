@@ -1,6 +1,6 @@
 {
     "version": 1,
-    "dateDernierScan": "2026-11-11T17:57:17.072Z",
+    "dateDernierScan": "2026-11-12T12:16:35.629Z",
     "collections": [
         {
             "collectionId": 9485,
@@ -15,13 +15,6 @@
             "collectionImage": "/5ra91krahJv3CKklkxb01Yo74r5.jpg",
             "collectionDescription": "12 Rounds est un film d'action américain de 2009 réalisé par Renny Harlin et produit par WWE Studios. Le casting est dirigé par John Cena, aux côtés d'Aidan Gillen, Steve Harris, Gonzalo Menendez, Brian J. White, Ashley Scott et Taylor Cole. Le film est sorti le 27 mars 2009 dans les salles américaines. Randy Orton joue dans une suite autonome intitulée 12 Rounds 2: Reloaded. La suite est sortie en 2013. Il a été annoncé en 2014 que Dean Ambrose allait jouer dans le troisième film de la franchise intitulé 12 Rounds 3 : Lockdown.",
             "collectionFilmCount": 3
-        },
-        {
-            "collectionId": 1570,
-            "collectionNom": "Die Hard - Saga",
-            "collectionImage": "/bFZRGXeLLUjnp3F8zzwkvrvPHWD.jpg",
-            "collectionDescription": "Une série de films d'action centrés autour du personnage de John McClane, un détective de police de New York City qui se retrouve en lutte contre un groupe de terroristes dans chaque film.",
-            "collectionFilmCount": 5
         },
         {
             "collectionId": 86311,
@@ -47,9 +40,16 @@
         {
             "collectionId": 131295,
             "collectionNom": "Captain America - Saga",
-            "collectionImage": "/1nefddmvyXD8N2R5o6qU9U7Ty3w.jpg",
+            "collectionImage": "/isByUBmngXghxH8MFhJAKOgVdiB.jpg",
             "collectionDescription": "Steven « Steve » Rogers, alias Captain America est un super-héros évoluant dans l'univers Marvel de la maison d'édition Marvel Comics. Créé par scénariste Joe Simon et le dessinateur Jack Kirby, le personnage de fiction apparaît pour la première fois dans le comic book Captain America Comics #1 en décembre 1940",
             "collectionFilmCount": 4
+        },
+        {
+            "collectionId": 1570,
+            "collectionNom": "Die Hard - Saga",
+            "collectionImage": "/bFZRGXeLLUjnp3F8zzwkvrvPHWD.jpg",
+            "collectionDescription": "Une série de films d'action centrés autour du personnage de John McClane, un détective de police de New York City qui se retrouve en lutte contre un groupe de terroristes dans chaque film.",
+            "collectionFilmCount": 5
         },
         {
             "collectionId": 284433,
@@ -220,6 +220,13 @@
             "collectionFilmCount": 3
         },
         {
+            "collectionId": 246839,
+            "collectionNom": "Danse ta vie - Saga",
+            "collectionImage": "/atvhBKVMU4CCDvlGJgSXsPtNALF.jpg",
+            "collectionDescription": "L'histoire des élèves d'une prestigieuse école de danse...",
+            "collectionFilmCount": 3
+        },
+        {
             "collectionId": 86029,
             "collectionNom": "Charlie et ses drôles de dames - Saga",
             "collectionImage": "/5h35DPHuLg6PRDjzRGiwVbjn9Pq.jpg",
@@ -248,11 +255,11 @@
             "collectionFilmCount": 3
         },
         {
-            "collectionId": 246839,
-            "collectionNom": "Danse ta vie - Saga",
-            "collectionImage": "/atvhBKVMU4CCDvlGJgSXsPtNALF.jpg",
-            "collectionDescription": "L'histoire des élèves d'une prestigieuse école de danse...",
-            "collectionFilmCount": 3
+            "collectionId": 86066,
+            "collectionNom": "Moi, moche et méchant - Saga",
+            "collectionImage": "/wOBgRb2Fa0axJVsW7tQC3oNRLrf.jpg",
+            "collectionDescription": "Les aventures de Gru et des mignons.",
+            "collectionFilmCount": 4
         },
         {
             "collectionId": 89137,
@@ -288,6 +295,13 @@
             "collectionImage": "/uzmIfgHJSCNs3C0GCY98C7ZRqrY.jpg",
             "collectionDescription": "",
             "collectionFilmCount": 2
+        },
+        {
+            "collectionId": 829314,
+            "collectionNom": "Enola Holmes - Saga",
+            "collectionImage": "/9QfsXZTS7gDJwkSmmBPlml3P8ca.jpg",
+            "collectionDescription": "Les aventures inédites de la sœur de Sherlock Holmes, Enola.",
+            "collectionFilmCount": 3
         },
         {
             "collectionId": 989657,
@@ -395,13 +409,6 @@
             "collectionFilmCount": 3
         },
         {
-            "collectionId": 382685,
-            "collectionNom": "Insaisissables - Saga",
-            "collectionImage": "/JAzLUXjXJEGp9IKR7jEY4L2VSL.jpg",
-            "collectionDescription": "Insaisissables est un thriller américain de 2013 réalisé par Louis Leterrier. Le film met en vedette un groupe composé de Jesse Eisenberg, Mark Ruffalo, Woody Harrelson, Mélanie Laurent, Isla Fisher, Dave Franco, Michael Caine et Morgan Freeman.  L'intrigue suit un agent du FBI et un détective d'Interpol traquants une équipe d'illusionnistes qui se livrent à des braquages de banques pendant leurs performances et récompensent leur public avec l'argent. Une suite a été publiée le 10 juin 2016 et s'intitulait Insaisissables 2. Un troisième volet est prévu.",
-            "collectionFilmCount": 4
-        },
-        {
             "collectionId": 70068,
             "collectionNom": "Ip Man - Saga",
             "collectionImage": "/d5025iuay2UTeviFdu5zKKurfg4.jpg",
@@ -413,6 +420,13 @@
             "collectionNom": "Johnny English - Saga",
             "collectionImage": "/4ICdnU5ieFquD2kIs9Mwt4NGZcR.jpg",
             "collectionDescription": "Johnny English est une série de films de comédie d'action britanniques parodiant le genre des agents secrets de James Bond. Il présente Rowan Atkinson comme personnage principal, basé sur le scénario écrit par Neal Purvis, Robert Wade et William Davies. La série comprend trois films. La série est imprégnée de comédie similaire à Mr. Bean, et a rapporté 477,8 millions de dollars dans le monde.",
+            "collectionFilmCount": 4
+        },
+        {
+            "collectionId": 495527,
+            "collectionNom": "Jumanji  - Saga",
+            "collectionImage": "/kcP23X4s3IlrvbTxJDxCid3eijE.jpg",
+            "collectionDescription": "L'univers de Jumanji provient de l'imaginaire de l'auteur et illustrateur de livres pour enfants américain Chris Van Allsburg (également auteur des ouvrages à l'origine du Pôle Express, et de Zathura). Publié en 1981, son livre Jumanji devient un film en 1995 : un blockbuster d'aventure fantastique culte dans lequel Robin Williams affronte une jungle et ses animaux sortis d'un jeu de société magique, figurés à renforts d'effets spéciaux. En 2017, la franchise trouve une nouvelle forme, à nouveau avec succès. Et désormais, la saga Jumanji tourne autour d'un jeu vidéo magique, dans lequel les joueurs prennent la forme d'avatars incarnés par des stars d'action (Dwayne Johnson) et de comédie (Jack Black, Kevin Hart).",
             "collectionFilmCount": 4
         },
         {
@@ -455,7 +469,7 @@
             "collectionNom": "L'Arme Fatale - Saga",
             "collectionImage": "/cIfobGg5oDbc1Tk5uRwBYW4L3BO.jpg",
             "collectionDescription": "De leur première rencontre à leur dernière aventure 10 ans plus tard, Riggs et Murtaugh ont accumulé une somme incroyable de catastrophes, de coups de gueule, de balles perdues et de bons gros fous rires…",
-            "collectionFilmCount": 5
+            "collectionFilmCount": 4
         },
         {
             "collectionId": 374930,
@@ -647,6 +661,13 @@
             "collectionFilmCount": 3
         },
         {
+            "collectionId": 382685,
+            "collectionNom": "Insaisissables - Saga",
+            "collectionImage": "/JAzLUXjXJEGp9IKR7jEY4L2VSL.jpg",
+            "collectionDescription": "Insaisissables est un thriller américain de 2013 réalisé par Louis Leterrier. Le film met en vedette un groupe composé de Jesse Eisenberg, Mark Ruffalo, Woody Harrelson, Mélanie Laurent, Isla Fisher, Dave Franco, Michael Caine et Morgan Freeman.  L'intrigue suit un agent du FBI et un détective d'Interpol traquants une équipe d'illusionnistes qui se livrent à des braquages de banques pendant leurs performances et récompensent leur public avec l'argent. Une suite a été publiée le 10 juin 2016 et s'intitulait Insaisissables 2. Un troisième volet est prévu.",
+            "collectionFilmCount": 4
+        },
+        {
             "collectionId": 1413999,
             "collectionNom": "OSS 117 - Saga",
             "collectionImage": "/9l1yr1SBTTFC4nGdGqfQskvpsnD.jpg",
@@ -714,6 +735,13 @@
             "collectionNom": "Sherlock Holmes - Saga",
             "collectionImage": "/8CrcjCU9y1pjNwFnyEY9iz23cNV.jpg",
             "collectionDescription": "Robert Downey Jr. interprète le rôle principal du loufoque mais brillant détective, tandis que  Jude Law celui du Dr. Watson, dans ces nouvelles aventures de Sherlock Holmes.",
+            "collectionFilmCount": 2
+        },
+        {
+            "collectionId": 544670,
+            "collectionNom": "Tous en scène - Saga",
+            "collectionImage": "/xS2VLzd9ZG4XyZj5C69abO7ucbv.jpg",
+            "collectionDescription": "Les aventures de Buster Moon, un koala optimiste, qui s'efforce de monter un spectacle avec une troupe d'animaux talentueux mais en difficulté.",
             "collectionFilmCount": 3
         },
         {
@@ -1916,7 +1944,8 @@
                         "titre": null
                     }
                 ]
-            }
+            },
+            "ignoreInCollection": false
         },
         {
             "id": "a_guardians_of_the_galaxy_2_2017",
@@ -2114,6 +2143,97 @@
                 ],
                 "sousTitres": []
             }
+        },
+        {
+            "id": "a_poursuite_de_demain",
+            "titre": "A poursuite de demain",
+            "annee": null,
+            "langue": [
+                "VO",
+                "VF"
+            ],
+            "taille": 2860566468,
+            "genre": [
+                "Aventure",
+                "Familial",
+                "Mystère",
+                "Science-Fiction"
+            ],
+            "image": "https://image.tmdb.org/t/p/w342/yO3NvHzHOJjisLBS6oi9rL0fiLd.jpg",
+            "fichier": "/03_Films/A_la_poursuite_de_demain_2015_MULTi_VFF_1080p_HDLight_x264.GHT.mkv",
+            "nomFichier": "A_la_poursuite_de_demain_2015_MULTi_VFF_1080p_HDLight_x264.GHT.mkv",
+            "imdbId": null,
+            "tmdbId": 158852,
+            "tmdbUrl": "https://www.themoviedb.org/movie/158852",
+            "doublonExact": false,
+            "doublonProbable": false,
+            "groupeDoublon": null,
+            "dateAjout": "2026-11-12T11:53:14.361Z",
+            "technique": {
+                "largeur": 1920,
+                "hauteur": 872,
+                "resolution": "1920x872",
+                "ratioImage": 2.202,
+                "codecVideo": "h264",
+                "profilVideo": "High",
+                "pixelFormat": "yuv420p",
+                "bitsParComposante": 8,
+                "bitrateVideo": null,
+                "framerate": 23.976,
+                "espaceCouleur": "bt709",
+                "transfertCouleur": null,
+                "primairesCouleur": "bt709",
+                "hdr": false,
+                "dureeFichier": 7820.107,
+                "bitrateGlobal": 2926370,
+                "formatConteneur": "matroska,webm",
+                "audio": [
+                    {
+                        "codec": "aac",
+                        "profil": "LC",
+                        "canaux": 6,
+                        "disposition": "5.1",
+                        "bitrate": null,
+                        "frequence": 48000,
+                        "langue": "fre"
+                    },
+                    {
+                        "codec": "aac",
+                        "profil": "LC",
+                        "canaux": 6,
+                        "disposition": "5.1",
+                        "bitrate": null,
+                        "frequence": 48000,
+                        "langue": "eng"
+                    }
+                ],
+                "sousTitres": [
+                    {
+                        "codec": "subrip",
+                        "langue": "fre",
+                        "titre": "SRT FR Full"
+                    },
+                    {
+                        "codec": "subrip",
+                        "langue": "fre",
+                        "titre": "SRT FR Forced"
+                    },
+                    {
+                        "codec": "subrip",
+                        "langue": "eng",
+                        "titre": "SRT ENG Full"
+                    }
+                ]
+            },
+            "titreTmdb": "À la poursuite de demain",
+            "anneeTmdb": "2015",
+            "dureeTmdb": 130,
+            "descriptionTmdb": "Casey, une adolescente brillante et optimiste, douée d’une grande curiosité scientifique et Frank, un homme qui fut autrefois un jeune inventeur de génie avant de perdre ses illusions, s’embarquent pour une périlleuse mission. Leur but : découvrir les secrets d’un lieu mystérieux du nom de Tomorrowland, un endroit situé quelque part dans le temps et l’espace, qui ne semble exister que dans leur mémoire commune… Ce qu’ils y feront changera à jamais la face du monde… et leur propre destin !",
+            "collectionId": null,
+            "collectionNom": null,
+            "collectionDescription": null,
+            "collectionImage": null,
+            "collectionTmdbUrl": null
         },
         {
             "id": "a_thor_2011",
@@ -2836,9 +2956,9 @@
             "imdbId": null,
             "tmdbId": 640146,
             "tmdbUrl": "https://www.themoviedb.org/movie/640146",
-            "doublonExact": true,
-            "doublonProbable": true,
-            "groupeDoublon": "ant_man_and_the_quantumania_ddlpz",
+            "doublonExact": false,
+            "doublonProbable": false,
+            "groupeDoublon": null,
             "dateAjout": "2026-11-07T06:53:23.321Z",
             "titreTmdb": "Ant-Man et la Guêpe : Quantumania",
             "anneeTmdb": "2023",
@@ -2900,7 +3020,8 @@
                         "titre": "English"
                     }
                 ]
-            }
+            },
+            "ignoreInCollection": false
         },
         {
             "id": "antitrust",
@@ -3101,7 +3222,8 @@
                         "titre": "French Full"
                     }
                 ]
-            }
+            },
+            "ignoreInCollection": false
         },
         {
             "id": "aquaman_and_the_lost_kingdom_2023",
@@ -3656,7 +3778,8 @@
                     }
                 ],
                 "sousTitres": []
-            }
+            },
+            "ignoreInCollection": false
         },
         {
             "id": "tmdb_58625",
@@ -8046,7 +8169,8 @@
                     }
                 ],
                 "sousTitres": []
-            }
+            },
+            "ignoreInCollection": false
         },
         {
             "id": "cars_cd1",
@@ -8918,7 +9042,8 @@
                     }
                 ],
                 "sousTitres": []
-            }
+            },
+            "ignoreInCollection": false
         },
         {
             "id": "charlies_angels_2000",
@@ -8938,8 +9063,8 @@
             "tmdbId": 4327,
             "tmdbUrl": "https://www.themoviedb.org/movie/4327",
             "doublonExact": false,
-            "doublonProbable": true,
-            "groupeDoublon": "charlies_angels",
+            "doublonProbable": false,
+            "groupeDoublon": null,
             "dateAjout": "2026-08-22T08:23:33.569Z",
             "titreTmdb": "Charlie et ses drôles de dames",
             "anneeTmdb": "2000",
@@ -9237,13 +9362,15 @@
                 "VF"
             ],
             "taille": 734257390,
-            "genre": null,
-            "image": null,
+            "genre": [
+                "Comédie"
+            ],
+            "image": "https://image.tmdb.org/t/p/w342/nm2L53AHKX2aju50reUfRmzMksn.jpg",
             "fichier": "/03_Films/La.Chtite.Famille.2018.FRENCH.BDRip.XviD-Ox.avi",
             "nomFichier": "La.Chtite.Famille.2018.FRENCH.BDRip.XviD-Ox.avi",
             "imdbId": null,
-            "tmdbId": null,
-            "tmdbUrl": null,
+            "tmdbId": 456165,
+            "tmdbUrl": "https://www.themoviedb.org/movie/456165",
             "doublonExact": false,
             "doublonProbable": false,
             "groupeDoublon": null,
@@ -9278,7 +9405,17 @@
                     }
                 ],
                 "sousTitres": []
-            }
+            },
+            "titreTmdb": "La Ch'tite Famille",
+            "anneeTmdb": "2018",
+            "dureeTmdb": 107,
+            "descriptionTmdb": "Valentin D. et Constance Brandt, un couple d’architectes designers en vogue préparent le vernissage de leur rétrospective au Palais de Tokyo. Mais ce que personne ne sait, c’est que pour s’intégrer au monde du design et du luxe parisien, Valentin a menti sur ses origines prolétaires et ch'tis. Alors, quand sa mère, son frère et sa belle-sœur débarquent par surprise au Palais de Tokyo, le jour du vernissage, la rencontre des deux mondes est fracassante. D’autant plus que Valentin, suite à un accident, va perdre la mémoire et se retrouver 20 ans en arrière, plus ch’ti que jamais!",
+            "collectionId": 1530834,
+            "collectionNom": "Les Ch'tits - Saga",
+            "collectionDescription": "Les mésaventures humoristiques de personnages confrontés aux chocs culturels et aux préjugés régionaux entre le Nord de la France et d'autres horizons. À travers des quiproquos tendres et des amitiés inattendues, elle explore avec dérision les traditions, l'accent et la chaleur humaine des gens du Nord.",
+            "collectionImage": "https://image.tmdb.org/t/p/w500/7faV6GjZzACZz452n0EEVNlBTDC.jpg",
+            "collectionTmdbUrl": "https://www.themoviedb.org/collection/1530834",
+            "ignoreInCollection": false
         },
         {
             "id": "le_cinquieme_element",
@@ -10891,7 +11028,8 @@
                     }
                 ],
                 "sousTitres": []
-            }
+            },
+            "ignoreInCollection": false
         },
         {
             "id": "detention_secrete",
@@ -11021,7 +11159,8 @@
                         "titre": null
                     }
                 ]
-            }
+            },
+            "ignoreInCollection": false
         },
         {
             "id": "die_hard_3_bitloks_1995",
@@ -11352,7 +11491,8 @@
                         "titre": null
                     }
                 ]
-            }
+            },
+            "ignoreInCollection": false
         },
         {
             "id": "die_hard_nezu_1988",
@@ -13647,7 +13787,8 @@
                     }
                 ],
                 "sousTitres": []
-            }
+            },
+            "ignoreInCollection": false
         },
         {
             "id": "enola_holmes_2_2022",
@@ -13722,7 +13863,40 @@
                         "titre": "French"
                     }
                 ]
-            }
+            },
+            "ignoreInCollection": false
+        },
+        {
+            "id": "tmdb_1202033",
+            "titre": "Enola Holmes 3",
+            "annee": 2026,
+            "langue": [
+                "TBD"
+            ],
+            "taille": 0,
+            "genre": [
+                "Aventure",
+                "Mystère",
+                "Crime"
+            ],
+            "image": "https://image.tmdb.org/t/p/w342/ncHImt9szlNQaNM2iY3vcgSdDp.jpg",
+            "fichier": null,
+            "nomFichier": null,
+            "tmdbId": 1202033,
+            "tmdbUrl": "https://www.themoviedb.org/movie/1202033",
+            "doublonExact": false,
+            "doublonProbable": false,
+            "groupeDoublon": null,
+            "dateAjout": null,
+            "titreTmdb": "Enola Holmes 3",
+            "titreOriginal": "Enola Holmes 3",
+            "anneeTmdb": 2026,
+            "descriptionTmdb": "La détective Enola Holmes poursuit ses aventures à Malte, où son projet de mariage se complique quand elle doit résoudre une périlleuse affaire liée à la disparition de Sherlock.",
+            "collectionId": 829314,
+            "collectionNom": "Enola Holmes - Saga",
+            "type": "Film",
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "ernest_et_celestine_gcjm_2012",
@@ -13920,7 +14094,8 @@
                     }
                 ],
                 "sousTitres": []
-            }
+            },
+            "ignoreInCollection": false
         },
         {
             "id": "ernest_et_celestine_voyage_charabie_ulysse_2022",
@@ -16943,13 +17118,17 @@
                 "VF"
             ],
             "taille": 4690187183,
-            "genre": null,
-            "image": null,
+            "genre": [
+                "Comédie",
+                "Aventure",
+                "Science-Fiction"
+            ],
+            "image": "https://image.tmdb.org/t/p/w342/lG7Rv88OANLVbeR6Zymlid1cRuk.jpg",
             "fichier": "/03_Films/Free.Guy.2021.TRUEFRENCH.720p.BluRay.x264.AC3-EXTREME.mkv",
             "nomFichier": "Free.Guy.2021.TRUEFRENCH.720p.BluRay.x264.AC3-EXTREME.mkv",
             "imdbId": null,
-            "tmdbId": null,
-            "tmdbUrl": null,
+            "tmdbId": 550988,
+            "tmdbUrl": "https://www.themoviedb.org/movie/550988",
             "doublonExact": false,
             "doublonProbable": true,
             "groupeDoublon": "free_guy",
@@ -16995,7 +17174,16 @@
                         "titre": "French"
                     }
                 ]
-            }
+            },
+            "titreTmdb": "Free Guy",
+            "anneeTmdb": "2021",
+            "dureeTmdb": 115,
+            "descriptionTmdb": "Un employé de banque, découvrant un jour qu’il n’est en fait qu’un personnage d’arrière-plan dans un jeu vidéo en ligne, décide de devenir le héros de sa propre histoire, quitte à la réécrire. Évoluant désormais dans un monde qui ne connaît pas de limites, il va tout mettre en œuvre pour le sauver à sa manière, avant qu’il ne soit trop tard…",
+            "collectionId": null,
+            "collectionNom": null,
+            "collectionDescription": null,
+            "collectionImage": null,
+            "collectionTmdbUrl": null
         },
         {
             "id": "free_guy_2021",
@@ -17005,13 +17193,17 @@
                 "VF"
             ],
             "taille": 727463244,
-            "genre": null,
-            "image": null,
+            "genre": [
+                "Comédie",
+                "Aventure",
+                "Science-Fiction"
+            ],
+            "image": "https://image.tmdb.org/t/p/w342/lG7Rv88OANLVbeR6Zymlid1cRuk.jpg",
             "fichier": "/03_Films/Free.Guy.2021.TRUEFRENCH.BDRip.XviD-EXTREME.avi",
             "nomFichier": "Free.Guy.2021.TRUEFRENCH.BDRip.XviD-EXTREME.avi",
             "imdbId": null,
-            "tmdbId": null,
-            "tmdbUrl": null,
+            "tmdbId": 550988,
+            "tmdbUrl": "https://www.themoviedb.org/movie/550988",
             "doublonExact": false,
             "doublonProbable": true,
             "groupeDoublon": "free_guy",
@@ -17046,7 +17238,16 @@
                     }
                 ],
                 "sousTitres": []
-            }
+            },
+            "titreTmdb": "Free Guy",
+            "anneeTmdb": "2021",
+            "dureeTmdb": 115,
+            "descriptionTmdb": "Un employé de banque, découvrant un jour qu’il n’est en fait qu’un personnage d’arrière-plan dans un jeu vidéo en ligne, décide de devenir le héros de sa propre histoire, quitte à la réécrire. Évoluant désormais dans un monde qui ne connaît pas de limites, il va tout mettre en œuvre pour le sauver à sa manière, avant qu’il ne soit trop tard…",
+            "collectionId": null,
+            "collectionNom": null,
+            "collectionDescription": null,
+            "collectionImage": null,
+            "collectionTmdbUrl": null
         },
         {
             "id": "free_guy_2021",
@@ -17066,8 +17267,8 @@
             "tmdbId": 550988,
             "tmdbUrl": "https://www.themoviedb.org/movie/550988",
             "doublonExact": false,
-            "doublonProbable": false,
-            "groupeDoublon": null,
+            "doublonProbable": true,
+            "groupeDoublon": "free_guy",
             "dateAjout": "2026-08-27T11:57:48.079Z",
             "titreTmdb": "Free Guy",
             "anneeTmdb": "2021",
@@ -17452,7 +17653,7 @@
             "doublonProbable": false,
             "groupeDoublon": null,
             "dateAjout": null,
-            "titreTmdb": "La Reine des neiges IV",
+            "titreTmdb": "Frozen IV",
             "titreOriginal": "Frozen IV",
             "anneeTmdb": 2100,
             "descriptionTmdb": "L'ultime opus de la franchise de Disney : La Reine des Neiges.",
@@ -18585,7 +18786,8 @@
                         "titre": "ENG Full : SRT"
                     }
                 ]
-            }
+            },
+            "ignoreInCollection": false
         },
         {
             "id": "tmdb_658",
@@ -19339,7 +19541,8 @@
                         "titre": "French Full"
                     }
                 ]
-            }
+            },
+            "ignoreInCollection": false
         },
         {
             "id": "guns_3_5_2013",
@@ -21226,13 +21429,18 @@
                 "VF"
             ],
             "taille": 728018814,
-            "genre": null,
-            "image": null,
+            "genre": [
+                "Action",
+                "Aventure",
+                "Animation",
+                "Familial"
+            ],
+            "image": "https://image.tmdb.org/t/p/w342/Apish2YD3QIAepzxZ96VLkqEZo3.jpg",
             "fichier": "/03_Films/Incredibles.2.2018.TRUEFRENCH.BDRip.XviD-T911.avi",
             "nomFichier": "Incredibles.2.2018.TRUEFRENCH.BDRip.XviD-T911.avi",
             "imdbId": null,
-            "tmdbId": null,
-            "tmdbUrl": null,
+            "tmdbId": 260513,
+            "tmdbUrl": "https://www.themoviedb.org/movie/260513",
             "doublonExact": false,
             "doublonProbable": false,
             "groupeDoublon": null,
@@ -21267,7 +21475,16 @@
                     }
                 ],
                 "sousTitres": []
-            }
+            },
+            "titreTmdb": "Les Indestructibles 2",
+            "anneeTmdb": "2018",
+            "dureeTmdb": 118,
+            "descriptionTmdb": "Les Parr reprennent du service ! Alors qu'Hélène est appelée pour redorer le blason des super-héros, Bob découvre la vie \"normale\" avec Violette, Flèche et le bébé Jack-Jack, dont les super pouvoirs sont sur le point de se révéler. Leur mission tourne court lorsqu'un nouveau méchant débarque avec un plan brillant. Mais les Parr ne fuient jamais les défis, surtout avec Frozone à leurs côtés.",
+            "collectionId": 468222,
+            "collectionNom": "Les Indestructibles - Saga",
+            "collectionDescription": "Les Indestructibles Collection est une série de films d'animation américains produite par Disney et créée par Pixar Animation Studios.",
+            "collectionImage": "https://image.tmdb.org/t/p/w500/aPgZIiQCnjfyBKK3b8A2vha8sp.jpg",
+            "collectionTmdbUrl": "https://www.themoviedb.org/collection/468222"
         },
         {
             "id": "indestructibles",
@@ -21597,7 +21814,8 @@
                         "titre": null
                     }
                 ]
-            }
+            },
+            "ignoreInCollection": false
         },
         {
             "id": "ip_man_2_chi_spa_fre_bymetalh_2010",
@@ -21704,7 +21922,8 @@
                         "titre": null
                     }
                 ]
-            }
+            },
+            "ignoreInCollection": false
         },
         {
             "id": "ip_man_3_cortex91_2015",
@@ -21841,7 +22060,8 @@
                         "titre": "French"
                     }
                 ]
-            }
+            },
+            "ignoreInCollection": false
         },
         {
             "id": "ip_man_4_the_finale_1_2019",
@@ -22472,7 +22692,8 @@
                     }
                 ],
                 "sousTitres": []
-            }
+            },
+            "ignoreInCollection": false
         },
         {
             "id": "james_bond_the_world_is_not_enough_1999",
@@ -22536,7 +22757,8 @@
                     }
                 ],
                 "sousTitres": []
-            }
+            },
+            "ignoreInCollection": false
         },
         {
             "id": "jason_bourne_2016",
@@ -23444,7 +23666,8 @@
                     }
                 ],
                 "sousTitres": []
-            }
+            },
+            "ignoreInCollection": false
         },
         {
             "id": "le_jour_d_apres",
@@ -23508,6 +23731,102 @@
             }
         },
         {
+            "id": "tmdb_8844",
+            "titre": "Jumanji",
+            "annee": 1995,
+            "langue": [
+                "TBD"
+            ],
+            "taille": 0,
+            "genre": [
+                "Aventure",
+                "Comédie",
+                "Fantastique"
+            ],
+            "image": "https://image.tmdb.org/t/p/w342/nLXYV4WmYUF4i8pX0iE0H1rltmf.jpg",
+            "fichier": null,
+            "nomFichier": null,
+            "tmdbId": 8844,
+            "tmdbUrl": "https://www.themoviedb.org/movie/8844",
+            "doublonExact": false,
+            "doublonProbable": false,
+            "groupeDoublon": null,
+            "dateAjout": null,
+            "titreTmdb": "Jumanji",
+            "titreOriginal": "Jumanji",
+            "anneeTmdb": 1995,
+            "descriptionTmdb": "Lors d'une partie de Jumanji, un jeu très ancien, le jeune Alan est propulsé sous les yeux de son amie d'enfance, Sarah, dans un étrange pays. Il ne pourra s'en échapper que lorsqu'un autre joueur reprendra la partie et le libèrera sur un coup de dés. Vingt-six ans plus tard, il retrouve le monde réel par le coup de dés de deux autres jeunes joueurs.",
+            "collectionId": 495527,
+            "collectionNom": "Jumanji  - Saga",
+            "type": "Film",
+            "studio": null,
+            "ignoreInCollection": false
+        },
+        {
+            "id": "tmdb_353486",
+            "titre": "Jumanji : Bienvenue dans la jungle",
+            "annee": 2017,
+            "langue": [
+                "TBD"
+            ],
+            "taille": 0,
+            "genre": [
+                "Aventure",
+                "Comédie",
+                "Fantastique"
+            ],
+            "image": "https://image.tmdb.org/t/p/w342/cOsomItWDbdwlG6XJUYkiAWoFLW.jpg",
+            "fichier": null,
+            "nomFichier": null,
+            "tmdbId": 353486,
+            "tmdbUrl": "https://www.themoviedb.org/movie/353486",
+            "doublonExact": false,
+            "doublonProbable": false,
+            "groupeDoublon": null,
+            "dateAjout": null,
+            "titreTmdb": "Jumanji : Bienvenue dans la jungle",
+            "titreOriginal": "Jumanji: Welcome to the Jungle",
+            "anneeTmdb": 2017,
+            "descriptionTmdb": "Quatre lycéens découvrent une vieille console contenant un jeu vidéo dont ils n’avaient jamais entendu parler : Jumanji. En voulant jouer, ils se retrouvent mystérieusement propulsés dans la jungle de Jumanji, où ils deviennent leurs avatars. Spencer est désormais un aventurier musclé, Fridge, le footeux, devient un véritable Einstein, Bethany, la fille si populaire au lycée, se transforme en professeur d’âge mûr et la timide Martha est maintenant une redoutable combattante. Ils vont rapidement découvrir qu’il ne suffit pas de jouer à Jumanji, il faut y survivre… Pour vaincre le jeu et revenir dans le monde réel, ils vont devoir affronter les pires dangers, découvrir ce qu’Alan Parrish a laissé vingt ans auparavant, et changer leur façon de voir la vie et eux‐mêmes. Sinon, ils resteront prisonniers de Jumanji pour toujours…",
+            "collectionId": 495527,
+            "collectionNom": "Jumanji  - Saga",
+            "type": "Film",
+            "studio": null,
+            "ignoreInCollection": false
+        },
+        {
+            "id": "tmdb_1260649",
+            "titre": "Jumanji : Bienvenue dans notre Monde",
+            "annee": 2026,
+            "langue": [
+                "TBD"
+            ],
+            "taille": 0,
+            "genre": [
+                "Aventure",
+                "Comédie",
+                "Fantastique"
+            ],
+            "image": "https://image.tmdb.org/t/p/w342/xGWD6Fk3oREh7Wqhkc48oaKHSrn.jpg",
+            "fichier": null,
+            "nomFichier": null,
+            "tmdbId": 1260649,
+            "tmdbUrl": "https://www.themoviedb.org/movie/1260649",
+            "doublonExact": false,
+            "doublonProbable": false,
+            "groupeDoublon": null,
+            "dateAjout": null,
+            "titreTmdb": "Jumanji : Bienvenue dans notre Monde",
+            "titreOriginal": "Jumanji: Open World",
+            "anneeTmdb": 2026,
+            "descriptionTmdb": "À Noël, Dwayne Johnson, Kevin Hart, Jack Black et Karen Gillan reprennent du service dans JUMANJI : BIENVENUE DANS NOTRE MONDE, le chapitre final de la trilogie phénomène. Nos héros pensaient avoir définitivement laissé derrière eux les jungles imprévisibles de Jumanji. Mais le jeu a évolué : il s'affranchit désormais de sa console pour envahir le monde réel, semant le chaos sur son passage.",
+            "collectionId": 495527,
+            "collectionNom": "Jumanji  - Saga",
+            "type": "Film",
+            "studio": null,
+            "ignoreInCollection": false
+        },
+        {
             "id": "jumanji_the_next_level_1_2019",
             "titre": "Jumanji The Next Level 1",
             "annee": 2019,
@@ -23569,7 +23888,8 @@
                     }
                 ],
                 "sousTitres": []
-            }
+            },
+            "ignoreInCollection": false
         },
         {
             "id": "jumper_2008",
@@ -23897,7 +24217,8 @@
                     }
                 ],
                 "sousTitres": []
-            }
+            },
+            "ignoreInCollection": false
         },
         {
             "id": "tmdb_8856",
@@ -25704,7 +26025,8 @@
                         "titre": "complet"
                     }
                 ]
-            }
+            },
+            "ignoreInCollection": false
         },
         {
             "id": "l_assaut",
@@ -26009,36 +26331,6 @@
                 ],
                 "sousTitres": []
             }
-        },
-        {
-            "id": "tmdb_456165",
-            "titre": "La Ch'tite Famille",
-            "annee": 2018,
-            "langue": [
-                "TBD"
-            ],
-            "taille": 0,
-            "genre": [
-                "Comédie"
-            ],
-            "image": "https://image.tmdb.org/t/p/w342/nm2L53AHKX2aju50reUfRmzMksn.jpg",
-            "fichier": null,
-            "nomFichier": null,
-            "tmdbId": 456165,
-            "tmdbUrl": "https://www.themoviedb.org/movie/456165",
-            "doublonExact": false,
-            "doublonProbable": false,
-            "groupeDoublon": null,
-            "dateAjout": null,
-            "titreTmdb": "La Ch'tite Famille",
-            "titreOriginal": "La Ch'tite Famille",
-            "anneeTmdb": 2018,
-            "descriptionTmdb": "Valentin D. et Constance Brandt, un couple d’architectes designers en vogue préparent le vernissage de leur rétrospective au Palais de Tokyo. Mais ce que personne ne sait, c’est que pour s’intégrer au monde du design et du luxe parisien, Valentin a menti sur ses origines prolétaires et ch'tis. Alors, quand sa mère, son frère et sa belle-sœur débarquent par surprise au Palais de Tokyo, le jour du vernissage, la rencontre des deux mondes est fracassante. D’autant plus que Valentin, suite à un accident, va perdre la mémoire et se retrouver 20 ans en arrière, plus ch’ti que jamais!",
-            "collectionId": 1530834,
-            "collectionNom": "Les Ch'tits - Saga",
-            "type": "Film",
-            "studio": null,
-            "ignoreInCollection": false
         },
         {
             "id": "la_haut",
@@ -26348,7 +26640,8 @@
                         "titre": "English "
                     }
                 ]
-            }
+            },
+            "ignoreInCollection": false
         },
         {
             "id": "lara_croft_tomb_raider_berceau_de_vie",
@@ -26358,13 +26651,16 @@
                 "TBD"
             ],
             "taille": 740062648,
-            "genre": null,
-            "image": null,
+            "genre": [
+                "Aventure",
+                "Action"
+            ],
+            "image": "https://image.tmdb.org/t/p/w342/t7hdugSBoox8ojzrwZWPJtNMlWb.jpg",
             "fichier": "/03_Films/Lara Croft - Tomb Raider, Le Berceau De La Vie.avi",
             "nomFichier": "Lara Croft - Tomb Raider, Le Berceau De La Vie.avi",
             "imdbId": null,
-            "tmdbId": null,
-            "tmdbUrl": null,
+            "tmdbId": 1995,
+            "tmdbUrl": "https://www.themoviedb.org/movie/1995",
             "doublonExact": false,
             "doublonProbable": false,
             "groupeDoublon": null,
@@ -26399,7 +26695,16 @@
                     }
                 ],
                 "sousTitres": []
-            }
+            },
+            "titreTmdb": "Lara Croft : Tomb Raider",
+            "anneeTmdb": "2001",
+            "dureeTmdb": 100,
+            "descriptionTmdb": "Lara Croft a hérité de son père archéologue de nombreux trésors parmi lesquels une mystérieuse horloge magique. Des années plus tôt, celui-ci lui dévoila l'existence d'une organisation secrète, les Illuminati, qui s'était lancée à la recherche d'une horloge dont la clé ouvrait les portes du Temps et de l'Espace. Celle-ci est un triangle sacré qui assura, 5 000 ans auparavant, la victoire des premiers Illuminati sur leurs ennemis. Si le triangle venait à être recomposé, ces lointains ancêtres reviendraient à la vie et le sort de l'Humanité en serait bouleversé à jamais. Le puissance de ce triangle atteindra son summum lorsque trois planètes s'aligneront dans le ciel en une éclipse totale qui survient une fois tous les 5 000 ans. L'aventurière ne dispose que de 48 heures pour résoudre l'énigme du triangle magique et ainsi sauver le monde.",
+            "collectionId": 2467,
+            "collectionNom": "Lara Croft - Saga",
+            "collectionDescription": "Tomb Raider est une série de films d'action-aventure, centrés sur les aventures de l'archéologue britannique fictive Lara Croft.",
+            "collectionImage": "https://image.tmdb.org/t/p/w500/sgaP4WtVlKzz8FIcjbkevOycJiq.jpg",
+            "collectionTmdbUrl": "https://www.themoviedb.org/collection/2467"
         },
         {
             "id": "las_vegas",
@@ -27948,36 +28253,6 @@
                 ],
                 "sousTitres": []
             }
-        },
-        {
-            "id": "tmdb_260513",
-            "titre": "Les Indestructibles 2",
-            "annee": 2018,
-            "langue": [
-                "TBD"
-            ],
-            "taille": 0,
-            "genre": [
-                "Science-Fiction"
-            ],
-            "image": "https://image.tmdb.org/t/p/w342/Apish2YD3QIAepzxZ96VLkqEZo3.jpg",
-            "fichier": null,
-            "nomFichier": null,
-            "tmdbId": 260513,
-            "tmdbUrl": "https://www.themoviedb.org/movie/260513",
-            "doublonExact": false,
-            "doublonProbable": false,
-            "groupeDoublon": null,
-            "dateAjout": null,
-            "titreTmdb": "Les Indestructibles 2",
-            "titreOriginal": "Incredibles 2",
-            "anneeTmdb": 2018,
-            "descriptionTmdb": "Les Parr reprennent du service ! Alors qu'Hélène est appelée pour redorer le blason des super-héros, Bob découvre la vie \"normale\" avec Violette, Flèche et le bébé Jack-Jack, dont les super pouvoirs sont sur le point de se révéler. Leur mission tourne court lorsqu'un nouveau méchant débarque avec un plan brillant. Mais les Parr ne fuient jamais les défis, surtout avec Frozone à leurs côtés.",
-            "collectionId": 468222,
-            "collectionNom": "Les Indestructibles - Saga",
-            "type": "Animation",
-            "studio": "Pixar",
-            "ignoreInCollection": false
         },
         {
             "id": "tmdb_1327821",
@@ -29890,7 +30165,8 @@
                         "titre": null
                     }
                 ]
-            }
+            },
+            "ignoreInCollection": false
         },
         {
             "id": "spider_man_new_generation_spider_man_into_the_spider_verse_ulhd_2018",
@@ -32179,7 +32455,8 @@
                         "titre": null
                     }
                 ]
-            }
+            },
+            "ignoreInCollection": false
         },
         {
             "id": "moana_2016",
@@ -32307,7 +32584,8 @@
                     }
                 ],
                 "sousTitres": []
-            }
+            },
+            "ignoreInCollection": false
         },
         {
             "id": "tmdb_1647287",
@@ -32336,6 +32614,108 @@
             "collectionId": 1241984,
             "collectionNom": "Vaiana - Saga",
             "type": "Animation",
+            "studio": null,
+            "ignoreInCollection": false
+        },
+        {
+            "id": "tmdb_20352",
+            "titre": "Moi, moche et méchant",
+            "annee": 2010,
+            "langue": [
+                "TBD"
+            ],
+            "taille": 0,
+            "genre": [
+                "Action",
+                "Animation",
+                "Comédie",
+                "Familial",
+                "Aventure"
+            ],
+            "image": "https://image.tmdb.org/t/p/w342/wuhJx9bTbxHfJHeeR3L8uRjAZ7C.jpg",
+            "fichier": null,
+            "nomFichier": null,
+            "tmdbId": 20352,
+            "tmdbUrl": "https://www.themoviedb.org/movie/20352",
+            "doublonExact": false,
+            "doublonProbable": false,
+            "groupeDoublon": null,
+            "dateAjout": null,
+            "titreTmdb": "Moi, moche et méchant",
+            "titreOriginal": "Despicable Me",
+            "anneeTmdb": 2010,
+            "descriptionTmdb": "Dans un charmant quartier résidentiel délimité par des clôtures de bois blanc et orné de rosiers fleurissants se dresse une bâtisse noire entourée d’une pelouse en friche. Cette façade sinistre cache un secret : Gru, un méchant vilain, entouré d’une myriade de sous‐fifres et armé jusqu’aux dents, qui, à l’insu du voisinage, complote le plus gros casse de tous les temps : voler la lune (Oui, la lune !)… Gru affectionne toutes sortes de sales joujoux. Il possède une multitude de véhicules de combat aérien et terrestre et un arsenal de rayons immobilisants et rétrécissants avec lesquels il anéantit tous ceux qui osent lui barrer la route… jusqu’au jour où il tombe nez à nez avec trois petites orphelines qui voient en lui quelqu’un de tout à fait différent : un papa. Le plus grand vilain de tous les temps se retrouve confronté à sa plus dure épreuve : trois fillettes prénommées Margo, Édith et Agnès.",
+            "collectionId": 86066,
+            "collectionNom": "Moi, moche et méchant - Saga",
+            "type": "Film",
+            "studio": null,
+            "ignoreInCollection": false
+        },
+        {
+            "id": "tmdb_93456",
+            "titre": "Moi, moche et méchant 2",
+            "annee": 2013,
+            "langue": [
+                "TBD"
+            ],
+            "taille": 0,
+            "genre": [
+                "Action",
+                "Animation",
+                "Comédie",
+                "Familial",
+                "Aventure"
+            ],
+            "image": "https://image.tmdb.org/t/p/w342/PCd21fTyaJN9ge1MpYUfF5Zcmb.jpg",
+            "fichier": null,
+            "nomFichier": null,
+            "tmdbId": 93456,
+            "tmdbUrl": "https://www.themoviedb.org/movie/93456",
+            "doublonExact": false,
+            "doublonProbable": false,
+            "groupeDoublon": null,
+            "dateAjout": null,
+            "titreTmdb": "Moi, moche et méchant 2",
+            "titreOriginal": "Despicable Me 2",
+            "anneeTmdb": 2013,
+            "descriptionTmdb": "Ayant abandonné la super‐criminalité et mis de côté ses activités funestes pour se consacrer à la paternité et élever Margo, Édith et Agnès, Gru, et avec lui, le Professeur Néfario et les Minions, doivent se trouver de nouvelles occupations. Alors qu’il commence à peine à s’adapter à sa nouvelle vie tranquille de père de famille, une organisation ultrasecrète, menant une lutte acharnée contre le Mal à l’échelle planétaire, vient frapper à sa porte. Soudain, c’est à Gru, et à sa nouvelle coéquipière Lucy, que revient la responsabilité de résoudre une série de méfaits spectaculaires. Après tout, qui mieux que l’ex plus méchant de tous les temps, pourrait attraper celui qui rivalise pour lui voler la place qu’il occupait encore récemment…",
+            "collectionId": 86066,
+            "collectionNom": "Moi, moche et méchant - Saga",
+            "type": "Film",
+            "studio": null,
+            "ignoreInCollection": false
+        },
+        {
+            "id": "tmdb_519182",
+            "titre": "Moi, moche et méchant 4",
+            "annee": 2024,
+            "langue": [
+                "TBD"
+            ],
+            "taille": 0,
+            "genre": [
+                "Action",
+                "Animation",
+                "Comédie",
+                "Familial",
+                "Aventure"
+            ],
+            "image": "https://image.tmdb.org/t/p/w342/bYovCvLV1RxB0zAR5cXu699P9P7.jpg",
+            "fichier": null,
+            "nomFichier": null,
+            "tmdbId": 519182,
+            "tmdbUrl": "https://www.themoviedb.org/movie/519182",
+            "doublonExact": false,
+            "doublonProbable": false,
+            "groupeDoublon": null,
+            "dateAjout": null,
+            "titreTmdb": "Moi, moche et méchant 4",
+            "titreOriginal": "Despicable Me 4",
+            "anneeTmdb": 2024,
+            "descriptionTmdb": "Gru, Lucy et les filles, Margo, Édith et Agnès accueillent le petit dernier de la famille, Gru Junior, qui semble n’avoir qu’une passion : faire tourner son père en bourrique. Mais Gru est confronté à un nouvel ennemi, Maxime Le Mal, qui avec l’aide de sa petite amie, la fatale Valentina, va obliger toute la famille à fuir.",
+            "collectionId": 86066,
+            "collectionNom": "Moi, moche et méchant - Saga",
+            "type": "Film",
             "studio": null,
             "ignoreInCollection": false
         },
@@ -33194,7 +33574,8 @@
                     }
                 ],
                 "sousTitres": []
-            }
+            },
+            "ignoreInCollection": false
         },
         {
             "id": "le_nom_de_la_rose",
@@ -33738,7 +34119,8 @@
                         "titre": "VO : Full SDH"
                     }
                 ]
-            }
+            },
+            "ignoreInCollection": false
         },
         {
             "id": "tmdb_700",
@@ -34085,7 +34467,8 @@
                     }
                 ],
                 "sousTitres": []
-            }
+            },
+            "ignoreInCollection": false
         },
         {
             "id": "oss_117_rio_ne_repond_plus",
@@ -38101,36 +38484,6 @@
             }
         },
         {
-            "id": "tmdb_9762",
-            "titre": "Sexy Dance",
-            "annee": 2006,
-            "langue": [
-                "TBD"
-            ],
-            "taille": 0,
-            "genre": [
-                "Comédie musicale"
-            ],
-            "image": "https://image.tmdb.org/t/p/w342/kRNZT9NZIdm3Mom4HHTBPH2bmY5.jpg",
-            "fichier": null,
-            "nomFichier": null,
-            "tmdbId": 9762,
-            "tmdbUrl": "https://www.themoviedb.org/movie/9762",
-            "doublonExact": false,
-            "doublonProbable": false,
-            "groupeDoublon": null,
-            "dateAjout": null,
-            "titreTmdb": "Sexy Dance",
-            "titreOriginal": "Step Up",
-            "anneeTmdb": 2006,
-            "descriptionTmdb": "Rebelle dans l'âme, Tyler Gage a passé toute sa jeunesse dans les bas quartiers et les mean streets de Baltimore, et sait aujourd'hui qu'il ne se tirera d'affaire qu'en rompant avec son milieu. Son seul atout, bien mince : un don naturel pour le hip-hop, qu'il pratique d'instinct, pour son seul plaisir...Ambitieuse et douée, la belle Nora a grandi au sein d'une famille bourgeoise qui a encouragé très tôt sa vocation, et finance ses études de danse classique à la prestigieuse Performing Arts High School.Tyler et Nora : deux mondes diamétralement opposés, deux talents, deux passions dont la rencontre explosive sera à l'origine d'un étonnant conte de fée musical...",
-            "collectionId": 86092,
-            "collectionNom": "Sexy Dance - Saga",
-            "type": "Film",
-            "studio": null,
-            "ignoreInCollection": false
-        },
-        {
             "id": "sexy_dance_2",
             "titre": "Sexy Dance 2",
             "annee": null,
@@ -38268,13 +38621,18 @@
                 "VF"
             ],
             "taille": 731234304,
-            "genre": null,
-            "image": null,
+            "genre": [
+                "Musique",
+                "Drame",
+                "Romance",
+                "Crime"
+            ],
+            "image": "https://image.tmdb.org/t/p/w342/kRNZT9NZIdm3Mom4HHTBPH2bmY5.jpg",
             "fichier": "/03_Films/Sexy Dancer.FRENCH.DVDRip.XviD-LOST.avi",
             "nomFichier": "Sexy Dancer.FRENCH.DVDRip.XviD-LOST.avi",
             "imdbId": null,
-            "tmdbId": null,
-            "tmdbUrl": null,
+            "tmdbId": 9762,
+            "tmdbUrl": "https://www.themoviedb.org/movie/9762",
             "doublonExact": false,
             "doublonProbable": false,
             "groupeDoublon": null,
@@ -38309,7 +38667,16 @@
                     }
                 ],
                 "sousTitres": []
-            }
+            },
+            "titreTmdb": "Sexy Dance",
+            "anneeTmdb": "2006",
+            "dureeTmdb": 103,
+            "descriptionTmdb": "Rebelle dans l'âme, Tyler Gage a passé toute sa jeunesse dans les bas quartiers et les mean streets de Baltimore, et sait aujourd'hui qu'il ne se tirera d'affaire qu'en rompant avec son milieu. Son seul atout, bien mince : un don naturel pour le hip-hop, qu'il pratique d'instinct, pour son seul plaisir...Ambitieuse et douée, la belle Nora a grandi au sein d'une famille bourgeoise qui a encouragé très tôt sa vocation, et finance ses études de danse classique à la prestigieuse Performing Arts High School.Tyler et Nora : deux mondes diamétralement opposés, deux talents, deux passions dont la rencontre explosive sera à l'origine d'un étonnant conte de fée musical...",
+            "collectionId": 86092,
+            "collectionNom": "Sexy Dance - Saga",
+            "collectionDescription": "Les films \"Step Up\" sont une série de films de danse/romance-drame créés par Duane Adler.",
+            "collectionImage": "https://image.tmdb.org/t/p/w500/syG4B7AnF9W8Cd0QEebl50YyN7M.jpg",
+            "collectionTmdbUrl": "https://www.themoviedb.org/collection/86092"
         },
         {
             "id": "tmdb_370567",
@@ -38820,7 +39187,41 @@
                     }
                 ],
                 "sousTitres": []
-            }
+            },
+            "ignoreInCollection": false
+        },
+        {
+            "id": "tmdb_1108794",
+            "titre": "Sing 3",
+            "annee": 2100,
+            "langue": [
+                "TBD"
+            ],
+            "taille": 0,
+            "genre": [
+                "Animation",
+                "Comédie",
+                "Familial",
+                "Musique"
+            ],
+            "image": "https://image.tmdb.org/t/p/w342/xnR5dSaH7FpfHRxKL7rLU3HBzpM.jpg",
+            "fichier": null,
+            "nomFichier": null,
+            "tmdbId": 1108794,
+            "tmdbUrl": "https://www.themoviedb.org/movie/1108794",
+            "doublonExact": false,
+            "doublonProbable": false,
+            "groupeDoublon": null,
+            "dateAjout": null,
+            "titreTmdb": "Sing 3",
+            "titreOriginal": "Sing 3",
+            "anneeTmdb": 2100,
+            "descriptionTmdb": "",
+            "collectionId": 544670,
+            "collectionNom": "Tous en scène - Saga",
+            "type": "Film",
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "sister_act_1992",
@@ -39834,7 +40235,8 @@
                     }
                 ],
                 "sousTitres": []
-            }
+            },
+            "ignoreInCollection": false
         },
         {
             "id": "tmdb_911916",
@@ -40063,7 +40465,8 @@
                         "titre": null
                     }
                 ]
-            }
+            },
+            "ignoreInCollection": false
         },
         {
             "id": "star_trek_survival_cd2_2009",
@@ -40920,7 +41323,8 @@
                         "titre": null
                     }
                 ]
-            }
+            },
+            "ignoreInCollection": false
         },
         {
             "id": "taken_1",
@@ -41079,7 +41483,8 @@
                         "titre": null
                     }
                 ]
-            }
+            },
+            "ignoreInCollection": false
         },
         {
             "id": "taken_2_artefac_2012",
@@ -41237,7 +41642,8 @@
                         "titre": null
                     }
                 ]
-            }
+            },
+            "ignoreInCollection": false
         },
         {
             "id": "taken_3_2014",
@@ -41698,7 +42104,8 @@
                     }
                 ],
                 "sousTitres": []
-            }
+            },
+            "ignoreInCollection": false
         },
         {
             "id": "a_team_repack_1cd_fms_2010",
@@ -42108,7 +42515,8 @@
                         "titre": null
                     }
                 ]
-            }
+            },
+            "ignoreInCollection": false
         },
         {
             "id": "bang_bang_club",
@@ -44462,7 +44870,8 @@
                         "titre": "French Forced"
                     }
                 ]
-            }
+            },
+            "ignoreInCollection": false
         },
         {
             "id": "tokyo_fast_and_tokyo_drift_2006",
@@ -44824,70 +45233,6 @@
             }
         },
         {
-            "id": "tomorrowland_2015",
-            "titre": "Tomorrowland",
-            "annee": 2015,
-            "langue": [
-                "VF"
-            ],
-            "taille": 1472330140,
-            "genre": [
-                "Science-Fiction"
-            ],
-            "image": "https://image.tmdb.org/t/p/w342/yO3NvHzHOJjisLBS6oi9rL0fiLd.jpg",
-            "fichier": "/Box_Films/Enfants/Tomorrowland.2015.TRUEFRENCH.BDRip.XviD-EXTREME.avi",
-            "nomFichier": "Tomorrowland.2015.TRUEFRENCH.BDRip.XviD-EXTREME.avi",
-            "imdbId": null,
-            "tmdbId": 158852,
-            "tmdbUrl": "https://www.themoviedb.org/movie/158852",
-            "doublonExact": false,
-            "doublonProbable": false,
-            "groupeDoublon": null,
-            "dateAjout": "2026-08-22T08:23:33.720Z",
-            "titreTmdb": "À la poursuite de demain",
-            "anneeTmdb": "2015",
-            "dureeTmdb": 130,
-            "descriptionTmdb": "Casey, une adolescente brillante et optimiste, douée d’une grande curiosité scientifique et Frank, un homme qui fut autrefois un jeune inventeur de génie avant de perdre ses illusions, s’embarquent pour une périlleuse mission. Leur but : découvrir les secrets d’un lieu mystérieux du nom de Tomorrowland, un endroit situé quelque part dans le temps et l’espace, qui ne semble exister que dans leur mémoire commune… Ce qu’ils y feront changera à jamais la face du monde… et leur propre destin !",
-            "collectionId": null,
-            "collectionNom": null,
-            "collectionDescription": null,
-            "collectionImage": null,
-            "collectionTmdbUrl": null,
-            "type": "Film",
-            "studio": null,
-            "technique": {
-                "largeur": 720,
-                "hauteur": 336,
-                "resolution": "720x336",
-                "ratioImage": 2.143,
-                "codecVideo": "mpeg4",
-                "profilVideo": "Advanced Simple Profile",
-                "pixelFormat": "yuv420p",
-                "bitsParComposante": null,
-                "bitrateVideo": 1368704,
-                "framerate": 23.976,
-                "espaceCouleur": null,
-                "transfertCouleur": null,
-                "primairesCouleur": null,
-                "hdr": false,
-                "dureeFichier": 7803.289264,
-                "bitrateGlobal": 1509445,
-                "formatConteneur": "avi",
-                "audio": [
-                    {
-                        "codec": "mp3",
-                        "profil": null,
-                        "canaux": 2,
-                        "disposition": "stereo",
-                        "bitrate": 128000,
-                        "frequence": 48000,
-                        "langue": null
-                    }
-                ],
-                "sousTitres": []
-            }
-        },
-        {
             "id": "tonnerre_sous_les_tropiques_tropic_thunder",
             "titre": "Tonnerre sous les tropiques (Tropic Thunder)",
             "annee": null,
@@ -45181,6 +45526,39 @@
                 ],
                 "sousTitres": []
             }
+        },
+        {
+            "id": "tmdb_335797",
+            "titre": "Tous en scène",
+            "annee": 2016,
+            "langue": [
+                "TBD"
+            ],
+            "taille": 0,
+            "genre": [
+                "Animation",
+                "Comédie",
+                "Familial",
+                "Musique"
+            ],
+            "image": "https://image.tmdb.org/t/p/w342/6igG1J3T6uavROpQAhKfptm4KA4.jpg",
+            "fichier": null,
+            "nomFichier": null,
+            "tmdbId": 335797,
+            "tmdbUrl": "https://www.themoviedb.org/movie/335797",
+            "doublonExact": false,
+            "doublonProbable": false,
+            "groupeDoublon": null,
+            "dateAjout": null,
+            "titreTmdb": "Tous en scène",
+            "titreOriginal": "Sing",
+            "anneeTmdb": 2016,
+            "descriptionTmdb": "Buster Moon est un élégant koala qui dirige un grand théâtre, jadis illustre, mais aujourd’hui tombé en désuétude. C’est un éternel optimiste, un peu bougon, qui aime son précieux théâtre au‐delà de tout et serait prêt à tout pour le sauver. C’est alors qu’il trouve une chance en or pour redorer son blason tout en évitant la destruction de ses rêves et de toutes ses ambitions : une compétition de chant. Cinq candidats sont retenus pour ce défi : une souris aussi séduisante que malhonnête, une jeune éléphante timide dévorée par le trac, une truie mère de famille débordée par ses 25 marcassins, un jeune gorille délinquant qui ne cherche qu’à échapper à sa famille, et une porc‐épic punk qui peine à se débarrasser de son petit ami à l’ego surdimensionné pour faire une carrière solo. Tout ce petit monde va venir chercher sur la scène de Buster l’opportunité qui pourra changer leur vie à jamais.",
+            "collectionId": 544670,
+            "collectionNom": "Tous en scène - Saga",
+            "type": "Film",
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "toy_story_1",
@@ -46643,7 +47021,7 @@
             "genre": [
                 "Science-Fiction"
             ],
-            "image": "https://image.tmdb.org/t/p/w342/9ympKg12qmUmEpVAH4Z8AR4z4GN.jpg",
+            "image": "https://image.tmdb.org/t/p/w342/9fImQ9TYnNBR3aC1Rx0c7Tz6q15.jpg",
             "fichier": null,
             "nomFichier": null,
             "tmdbId": 1052946,
@@ -47057,7 +47435,8 @@
                     }
                 ],
                 "sousTitres": []
-            }
+            },
+            "ignoreInCollection": false
         },
         {
             "id": "white_house_down_2013",
@@ -47523,7 +47902,8 @@
                         "titre": null
                     }
                 ]
-            }
+            },
+            "ignoreInCollection": false
         },
         {
             "id": "x_men",
@@ -48169,7 +48549,8 @@
                     }
                 ],
                 "sousTitres": []
-            }
+            },
+            "ignoreInCollection": false
         },
         {
             "id": "x_men_first_class_2011",
@@ -48584,7 +48965,8 @@
                         "titre": "Anglais"
                     }
                 ]
-            }
+            },
+            "ignoreInCollection": false
         },
         {
             "id": "yamakasi_les_samourai_temps_modernes_dvdr_xvid_nl_dmt_2001",
@@ -48648,7 +49030,8 @@
                     }
                 ],
                 "sousTitres": []
-            }
+            },
+            "ignoreInCollection": false
         },
         {
             "id": "yes_man",
@@ -52087,7 +52470,8 @@
                             "doublonProbable": false,
                             "dateAjout": "2026-09-06T18:10:38.652Z"
                         }
-                    ]
+                    ],
+                    "hasMissingEpisodes": true
                 },
                 {
                     "numero": 2,
@@ -52284,7 +52668,8 @@
                             "doublonProbable": false,
                             "dateAjout": "2026-09-06T18:10:38.660Z"
                         }
-                    ]
+                    ],
+                    "hasMissingEpisodes": false
                 },
                 {
                     "numero": 3,
@@ -52481,7 +52866,8 @@
                             "doublonProbable": false,
                             "dateAjout": "2026-09-06T18:10:38.668Z"
                         }
-                    ]
+                    ],
+                    "hasMissingEpisodes": false
                 },
                 {
                     "numero": 4,
@@ -52678,7 +53064,8 @@
                             "doublonProbable": false,
                             "dateAjout": "2026-09-06T18:10:38.675Z"
                         }
-                    ]
+                    ],
+                    "hasMissingEpisodes": false
                 },
                 {
                     "numero": 5,
@@ -52875,7 +53262,8 @@
                             "doublonProbable": false,
                             "dateAjout": "2026-09-06T18:10:38.684Z"
                         }
-                    ]
+                    ],
+                    "hasMissingEpisodes": false
                 }
             ]
         },
@@ -59962,7 +60350,7 @@
             "titreTmdb": "Person of Interest",
             "anneeTmdb": "2011",
             "descriptionTmdb": "Un agent paramilitaire de la CIA, présumé mort, est recruté par un millionnaire reclu pour travailler sur un projet top-secret : prévenir le crime avant qu'il ne se produise ! Un ingénieux programme élaboré par Finch identifie chaque jour des personnes qui vont être impliquées dans un crime. Victime ou coupable ? Reese va devoir mener l'enquête pour découvrir qui est en danger et empêcher qu'un nouveau meurtre soit commis…",
-            "hasMissingEpisodes": true,
+            "hasMissingEpisodes": false,
             "saisons": [
                 {
                     "numero": 1,
@@ -60243,7 +60631,8 @@
                             "doublonProbable": false,
                             "dateAjout": "2026-09-06T18:10:38.934Z"
                         }
-                    ]
+                    ],
+                    "hasMissingEpisodes": false
                 },
                 {
                     "numero": 2,
@@ -60512,7 +60901,8 @@
                             "doublonProbable": false,
                             "dateAjout": "2026-09-06T18:10:38.945Z"
                         }
-                    ]
+                    ],
+                    "hasMissingEpisodes": false
                 },
                 {
                     "numero": 3,
@@ -60793,7 +61183,8 @@
                             "doublonProbable": false,
                             "dateAjout": "2026-09-06T18:10:38.958Z"
                         }
-                    ]
+                    ],
+                    "hasMissingEpisodes": false
                 },
                 {
                     "numero": 4,
@@ -61062,7 +61453,8 @@
                             "doublonProbable": false,
                             "dateAjout": "2026-09-06T18:10:38.973Z"
                         }
-                    ]
+                    ],
+                    "hasMissingEpisodes": false
                 },
                 {
                     "numero": 5,
@@ -61223,7 +61615,8 @@
                             "doublonProbable": false,
                             "dateAjout": "2026-09-06T18:10:38.980Z"
                         }
-                    ]
+                    ],
+                    "hasMissingEpisodes": false
                 }
             ]
         },
@@ -68867,12 +69260,12 @@
     "stockage": [
         {
             "lecteur": "E",
-            "espaceLibre": 172328787968,
+            "espaceLibre": 171113291776,
             "capaciteTotale": 500001927168
         },
         {
             "lecteur": "Y",
-            "espaceLibre": 418423578624,
+            "espaceLibre": 421402816512,
             "capaciteTotale": 2000396742656
         },
         {

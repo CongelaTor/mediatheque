@@ -33,7 +33,10 @@ const TMDB_IGNORE_GENRES = [
 ];
 const FILTER_STUDIOS = ["DC", "Disney", "Disney Classic", "Marvel", "Pixar"];
 
+const FILTER_QUALITIES = ["Haute", "Moyenne", "Basse"];
+
 const TOOLS_FILTER_STATE_KEY = "toolsFilterState";
+
 function loadFilterState(storageKey, defaultState) {
   return JSON.parse(
     sessionStorage.getItem(storageKey) || JSON.stringify(defaultState),
@@ -49,6 +52,7 @@ function loadSidebarState() {
     genreExpanded: false,
     typeExpanded: false,
     studioExpanded: false,
+    qualityExpanded: false,
   });
 }
 
@@ -76,10 +80,15 @@ function renderSidebarFilters(containerId, values, dataAttribute, allLabel) {
   container.innerHTML =
     `<button class="sidebar-link" data-${dataAttribute}="all">${allLabel}</button>` +
     values
-      .map(
-        (value) =>
-          `<button class="sidebar-link" data-${dataAttribute}="${value}">${value}</button>`,
-      )
+      .map((value) => {
+        let qualityClass = "";
+        if (dataAttribute === "quality") {
+          if (value === "Haute") qualityClass = " film-technical-good";
+          if (value === "Moyenne") qualityClass = " film-technical-medium";
+          if (value === "Basse") qualityClass = " film-technical-low";
+        }
+        return `<button class="sidebar-link${qualityClass}" data-${dataAttribute}="${value}">${value}</button>`;
+      })
       .join("");
 }
 
@@ -90,13 +99,24 @@ function renderAllSidebarFilters(tousValue) {
     "ajouts",
     tousValue,
   );
-  renderSidebarFilters("genreFilters", FILTER_GENRES, "genre", "Tous les genres");
+  renderSidebarFilters(
+    "genreFilters",
+    FILTER_GENRES,
+    "genre",
+    "Tous les genres",
+  );
   renderSidebarFilters("typeFilters", FILTER_TYPES, "type", "Tous les types");
   renderSidebarFilters(
     "studioFilters",
     FILTER_STUDIOS,
     "studio",
     "Tous les studios",
+  );
+  renderSidebarFilters(
+    "qualityFilters",
+    FILTER_QUALITIES,
+    "quality",
+    "Toutes les qualités",
   );
 }
 
@@ -106,6 +126,16 @@ function updateSidebarTitle(elementId, label, value) {
     return;
   }
   element.textContent = value === "all" ? label : `${label} (${value})`;
+  if (elementId === "qualityTitle") {
+    element.classList.remove(
+      "film-technical-good",
+      "film-technical-medium",
+      "film-technical-low",
+    );
+    if (value === "Haute") element.classList.add("film-technical-good");
+    if (value === "Moyenne") element.classList.add("film-technical-medium");
+    if (value === "Basse") element.classList.add("film-technical-low");
+  }
 }
 
 function initFiltersSidebar(ecran) {
@@ -139,6 +169,7 @@ function initFiltersSidebar(ecran) {
   currentGenre = viewState.genre || "all";
   currentType = viewState.type || "all";
   currentStudio = viewState.studio || "all";
+  currentQuality = viewState.quality || "all";
 
   console.log("currentPage =", currentPage);
   console.log("currentAjouts = ", currentAjouts);
@@ -159,6 +190,9 @@ function initFiltersSidebar(ecran) {
   document.querySelectorAll(".sidebar-link[data-studio]").forEach((button) => {
     button.onclick = () => selectStudio(button.dataset.studio);
   });
+  document.querySelectorAll(".sidebar-link[data-quality]").forEach((button) => {
+    button.onclick = () => selectQuality(button.dataset.quality);
+  });
 
   document
     .querySelector(`.sidebar-link[data-ajouts="${currentAjouts}"]`)
@@ -171,6 +205,9 @@ function initFiltersSidebar(ecran) {
     ?.classList.add("active");
   document
     .querySelector(`.sidebar-link[data-studio="${currentStudio}"]`)
+    ?.classList.add("active");
+  document
+    .querySelector(`.sidebar-link[data-quality="${currentQuality}"]`)
     ?.classList.add("active");
 
   const state = loadSidebarState();
@@ -189,6 +226,9 @@ function initFiltersSidebar(ecran) {
 
   if (!state.studioExpanded) {
     document.getElementById("studioFilters")?.classList.add("hidden");
+  }
+  if (!state.qualityExpanded) {
+    document.getElementById("qualityFilters")?.classList.add("hidden");
   }
 
   document.getElementById("ajoutsTitle").onclick = () => {
@@ -221,11 +261,21 @@ function initFiltersSidebar(ecran) {
   document.getElementById("studioTitle").onclick = () => {
     const filters = document.getElementById("studioFilters");
     filters.classList.toggle("hidden");
-
     const state = loadSidebarState();
     state.studioExpanded = !filters.classList.contains("hidden");
     saveSidebarState(state);
   };
+
+  const qualityTitle = document.getElementById("qualityTitle");
+  if (qualityTitle) {
+    qualityTitle.onclick = () => {
+      const filters = document.getElementById("qualityFilters");
+      filters.classList.toggle("hidden");
+      const state = loadSidebarState();
+      state.qualityExpanded = !filters.classList.contains("hidden");
+      saveSidebarState(state);
+    };
+  }
 }
 
 function selectAjouts(ajouts) {
@@ -314,7 +364,25 @@ function selectStudio(studio) {
 
   renderCurrentScreen();
 }
-
+function selectQuality(quality) {
+  currentQuality = quality;
+  document.querySelectorAll(".sidebar-link[data-quality]").forEach((button) => {
+    button.classList.remove("active");
+  });
+  const activeButton = document.querySelector(
+    `.sidebar-link[data-quality="${quality}"]`,
+  );
+  if (activeButton) {
+    activeButton.classList.add("active");
+  }
+  saveSidebarFiltersState();
+  document.getElementById("qualityFilters")?.classList.add("hidden");
+  const state = loadSidebarState();
+  state.qualityExpanded = false;
+  saveSidebarState(state);
+  updateSidebarTitle("qualityTitle", "QUALITÉ", currentQuality);
+  renderCurrentScreen();
+}
 function matchesGenre(film) {
   if (currentGenre === "all") {
     return true;
@@ -338,6 +406,23 @@ function matchesStudio(film) {
     return true;
   }
   return film.studio === currentStudio;
+}
+
+function matchesQuality(film) {
+  if (currentQuality === "all") {
+    return true;
+  }
+  const width = film.technique?.largeur;
+  if (currentQuality === "Haute") {
+    return width >= 1920;
+  }
+  if (currentQuality === "Moyenne") {
+    return width >= 960 && width < 1920;
+  }
+  if (currentQuality === "Basse") {
+    return width < 960;
+  }
+  return true;
 }
 
 function renderCurrentScreen() {

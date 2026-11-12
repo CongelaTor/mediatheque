@@ -115,6 +115,7 @@ function saveSidebarFiltersState() {
     genre: currentGenre,
     type: currentType,
     studio: currentStudio,
+    quality: currentQuality,
     languages: [...document.querySelectorAll(".language-button.active")].map(
       (button) => button.dataset.language,
     ),

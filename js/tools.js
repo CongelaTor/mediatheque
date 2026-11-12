@@ -171,7 +171,10 @@ function initToolsFilters() {
   document.querySelectorAll(".sidebar-link[data-studio]").forEach((button) => {
     button.onclick = () => selectToolsStudio(button.dataset.studio);
   });
-
+  document.querySelectorAll(".sidebar-link[data-quality]").forEach((button) => {
+    button.onclick = () => selectQuality(button.dataset.quality);
+  });
+  
   document
     .querySelector(`.sidebar-link[data-ajouts="${currentAjouts}"]`)
     ?.classList.add("active");

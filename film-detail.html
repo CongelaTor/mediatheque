@@ -39,12 +39,15 @@
                             <div class="serie-info-image"></div>
                             <div id="filmInfoDescription" class="tmdb-result-description"></div>
                         </div>
-                        <div id="languageFilters" class="language-filters">
-                            <button class="language-button active" data-language="VO">VO</button>
-                            <button class="language-button active" data-language="VF">VF</button>
-                            <button class="language-button active" data-language="VOST">VOST</button>
-                            <button class="language-button active" data-language="VOSTFR">VOSTFR</button>
-                            <button class="language-button active" data-language="TBD">TBD</button>
+                        <div class="film-detail-actions-row">
+                            <div id="languageFilters" class="language-filters">
+                                <button class="language-button active" data-language="VO">VO</button>
+                                <button class="language-button active" data-language="VF">VF</button>
+                                <button class="language-button active" data-language="VOST">VOST</button>
+                                <button class="language-button active" data-language="VOSTFR">VOSTFR</button>
+                                <button class="language-button active" data-language="TBD">TBD</button>
+                            </div>
+                            <button id="filmSearchButton" class="tmdb-associate-button">Rechercher</button>
                         </div>
                         <div id="filmFilesPanel" class="episodes-panel"></div>
                     </section>
@@ -52,6 +55,7 @@
             </section>
         </main>
     </div>
+    
     <div id="tmdbModal" class="tmdb-modal hidden">
         <div class="tmdb-modal-panel">
             <div class="tmdb-modal-header">
@@ -69,6 +73,25 @@
 
             <div id="tmdbSearchTokens" class="tmdb-search-tokens"></div>
             <div id="tmdbResults" class="tmdb-results"></div>
+        </div>
+    </div>
+
+    <div id="filmSearchModal" class="tmdb-modal hidden">
+        <div class="tmdb-modal-panel">
+            <div class="tmdb-modal-header">
+                <h2>Rechercher le film</h2>
+                <button class="tmdb-modal-close" onclick="closeFilmSearchModal()">×</button>
+            </div>
+            <div class="tmdb-results">
+                <div>
+                    <div id="filmSearchTitleButtons" class="tmdb-search-tokens">
+                        <button id="filmSearchOriginalTitle" class="tmdb-search-token"></button>
+                        <button id="filmSearchFrenchTitle" class="tmdb-search-token"></button>
+                        <button id="filmSearchYear" class="tmdb-search-token"></button>
+                    </div>
+                    <div id="filmSearchButtons" class="tmdb-search-tokens" style="margin-top: 36px;"></div>
+                </div>
+            </div>
         </div>
     </div>
 

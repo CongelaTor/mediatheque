@@ -1,7 +1,7 @@
 const scanType = process.argv[2] || "all";
 const fs = require("fs");
 const path = require("path");
-const { execFileSync } = require("child_process");
+const { execFileSync, spawnSync } = require("child_process");
 const mediathequeRoot = path.join(__dirname, "..");
 const mediaServerDir = "Z:\\01_mediaServer";
 
@@ -114,7 +114,10 @@ if (scanType === "films") {
   console.log("");
   logStat("Fichiers de film ajoutés", totalNewFilms);
   logStat("Fichiers de film conservés", totalKeptFilms);
-  logStat("Fichiers de film au catalogue", syncedCatalog.films.length);
+  logStat(
+    "Fichiers de film au catalogue",
+    syncedCatalog.films.filter((film) => film.fichier).length,
+  );
   console.log("");
 } else if (scanType === "series") {
   logStat("Vidéos analysées", totalVideos);
@@ -128,7 +131,10 @@ if (scanType === "films") {
   console.log("");
   logStat("Fichiers de film ajoutés", totalNewFilms);
   logStat("Fichiers de film conservés", totalKeptFilms);
-  logStat("Fichiers de film au catalogue", syncedCatalog.films.length);
+  logStat(
+    "Fichiers de film au catalogue",
+    syncedCatalog.films.filter((film) => film.fichier).length,
+  );
   console.log("");
   logStat("Épisodes ajoutés", totalNewEpisodes);
   logStat("Épisodes conservés", totalKeptEpisodes);
@@ -290,6 +296,42 @@ function probeVideoFile(filePath) {
     console.log(`FFprobe impossible : ${filePath}`);
     return null;
   }
+}
+function detectUsefulVideoArea(filePath) {
+  const result = spawnSync(
+    "ffmpeg",
+    [
+      "-ss",
+      "00:10:00",
+      "-i",
+      filePath,
+      "-t",
+      "10",
+      "-vf",
+      "cropdetect=24:16:0",
+      "-an",
+      "-f",
+      "null",
+      "-",
+    ],
+    {
+      encoding: "utf8",
+      windowsHide: true,
+    },
+  );
+  const output = result.stderr || "";
+  const matches = [...output.matchAll(/crop=(\d+):(\d+):(\d+):(\d+)/g)];
+  if (matches.length === 0) {
+    console.log(`Cropdetect impossible : ${filePath}`);
+    return null;
+  }
+  const match = matches[matches.length - 1];
+  return {
+    largeurUtile: Number(match[1]),
+    hauteurUtile: Number(match[2]),
+    x: Number(match[3]),
+    y: Number(match[4]),
+  };
 }
 function extractVideoMetadata(probe) {
   if (!probe) {
@@ -532,12 +574,15 @@ function syncFilm(catalog, analyse, sourceFilePath) {
     catalog.films.push({
       ...existing,
       fichier: analyse.fichier,
+      technique: {
+        ...existing.technique,
+        zoneUtile: analyse.zoneUtile,
+      },
     });
     return "kept";
   }
-  const technique = extractVideoMetadata(
-    probeVideoFile(sourceFilePath),
-  );
+  const technique = extractVideoMetadata(probeVideoFile(sourceFilePath));
+  technique.zoneUtile = detectUsefulVideoArea(sourceFilePath);
   catalog.films.push({
     id: analyse.id,
     titre: analyse.titre,

@@ -1158,6 +1158,15 @@ max-width: var(--cadres-max-width);
     font-size: calc(14px * var(--font-scale));
     filter: grayscale(100%);
 }
+.film-detail-actions-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 18px;
+}
+.film-detail-actions-row .language-filters {
+    margin: 0;
+}
 .film-detail-card {
     display: grid;
     grid-template-columns: 180px 1fr;

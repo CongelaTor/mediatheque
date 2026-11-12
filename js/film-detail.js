@@ -26,6 +26,7 @@ async function initFilmDetailPage() {
   }
 
   await loadCatalog();
+  await loadFilmSearchConfig();
   updateStats();
   initResumeButtons();
   updateResumeButtons();
@@ -84,7 +85,10 @@ async function initFilmDetailPage() {
 
     return;
   }
+
   const referenceFilm = films[0];
+  document.getElementById("filmSearchButton").onclick = () =>
+    showFilmSearchModal(referenceFilm);
   console.log("tmdbId =", tmdbId);
   console.log("films =", films);
   console.log("referenceFilm =", referenceFilm);
@@ -380,13 +384,21 @@ function createFilmFileCard(film) {
   const technicalVideo = document.createElement("div");
   technicalVideo.className = `film-technical-video ${getTechnicalQualityClass(technique?.largeur)}`;
   if (technique) {
+    const quality =
+      technique.largeur >= 1920
+        ? "Haute"
+        : technique.largeur >= 960
+          ? "Moyenne"
+          : "Basse";
     const videoParts = [
+      quality,
       technique.resolution,
       formatTechnicalCodec(technique.codecVideo),
       formatTechnicalBitrate(technique),
     ].filter(Boolean);
     technicalVideo.textContent = videoParts.join(" · ");
   }
+  
   const leftInfo = document.createElement("div");
   leftInfo.className = "film-file-left-info";
   leftInfo.appendChild(playButton);

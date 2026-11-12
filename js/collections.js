@@ -29,11 +29,13 @@ async function initCollectionsPage() {
   currentGenre = state.genre ?? "all";
   currentType = state.type ?? "all";
   currentStudio = state.studio ?? "all";
+  currentQuality = state.quality ?? "all";
 
   updateSidebarTitle("ajoutsTitle", "SELECTION", currentAjouts);
   updateSidebarTitle("genreTitle", "GENRE", currentGenre);
   updateSidebarTitle("typeTitle", "TYPE", currentType);
   updateSidebarTitle("studioTitle", "STUDIO", currentStudio);
+  updateSidebarTitle("qualityTitle", "QUALITÉ", currentQuality);
 
   //------------------------------
   // SET LANGUAGE FILTERS
@@ -147,7 +149,8 @@ function renderCollections() {
       return (
         matchesGenre(firstFilm) &&
         matchesType(firstFilm) &&
-        matchesStudio(firstFilm)
+        matchesStudio(firstFilm) &&
+        matchesQuality(firstFilm)
       );
     })
     .sort((a, b) => a.nom.localeCompare(b.nom, "fr"));

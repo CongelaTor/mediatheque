@@ -28,6 +28,7 @@ async function initFilmsPage() {
   currentGenre = state.genre ?? "all";
   currentType = state.type ?? "all";
   currentStudio = state.studio ?? "all";
+  currentQuality = state.quality ?? "all";
   window.selectedCollectionId = isCollectionContextActive()
     ? sessionStorage.getItem("selectedCollectionId")
     : null;
@@ -51,6 +52,7 @@ async function initFilmsPage() {
   updateSidebarTitle("genreTitle", "GENRE", currentGenre);
   updateSidebarTitle("typeTitle", "TYPE", currentType);
   updateSidebarTitle("studioTitle", "STUDIO", currentStudio);
+  updateSidebarTitle("qualityTitle", "QUALITÉ", currentQuality);
 
   //------------------------------
   // SET LANGUAGE FILTERS
@@ -130,6 +132,7 @@ function renderFilms() {
     .filter((film) => matchesGenre(film))
     .filter((film) => matchesType(film))
     .filter((film) => matchesStudio(film))
+    .filter((film) => matchesQuality(film))
     .filter((film) => filmMatchesLanguage(film))
     .filter((film) =>
       matchesSearch(film.titreTmdb ? film.titreTmdb : film.titre),
