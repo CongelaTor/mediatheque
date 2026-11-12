@@ -112,12 +112,14 @@ function renderAllSidebarFilters(tousValue) {
     "studio",
     "Tous les studios",
   );
-  renderSidebarFilters(
-    "qualityFilters",
-    FILTER_QUALITIES,
-    "quality",
-    "Toutes les qualités",
-  );
+  if (currentPage !== "series") {
+    renderSidebarFilters(
+      "qualityFilters",
+      FILTER_QUALITIES,
+      "quality",
+      "Toutes les qualités",
+    );
+  }
 }
 
 function updateSidebarTitle(elementId, label, value) {
