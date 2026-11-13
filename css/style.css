@@ -1615,7 +1615,9 @@ max-width: var(--cadres-max-width);
 .poster-zone.quality-medium-high::after {
     background: linear-gradient(to bottom, #1ec98b, #f59e0b) border-box;
 }
-
+.poster-zone.no-original-title::after {
+    background: linear-gradient(to bottom, #fde047, #fde047) border-box !important;
+}
 /* ==================================================
    MOBILE
    ================================================== */
