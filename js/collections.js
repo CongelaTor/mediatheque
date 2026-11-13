@@ -193,10 +193,53 @@ function renderCollections() {
 
     const posterZone = document.createElement("div");
     posterZone.className = "poster-zone";
+
+    let hasHigh = false;
+    let hasMedium = false;
+    let hasLow = false;
+    let hasFiles = false;
+
+    for (const collectionFilm of collection.films) {
+      const realFiles = catalog.films.filter(
+        (f) => f.tmdbId === collectionFilm.tmdbId,
+      );
+
+      for (const file of realFiles) {
+        const width = file.technique?.largeur;
+        if (width !== undefined && width !== null) {
+          hasFiles = true;
+          if (width >= 1920) {
+            hasHigh = true;
+          } else if (width >= 960) {
+            hasMedium = true;
+          } else {
+            hasLow = true;
+          }
+        }
+      }
+    }
+
+    if (!hasFiles) {
+      posterZone.classList.add("quality-none");
+    } else if (hasLow && hasHigh) {
+      posterZone.classList.add("quality-full-range");
+    } else if (hasLow && hasMedium) {
+      posterZone.classList.add("quality-low");
+    } else if (hasMedium && hasHigh) {
+      posterZone.classList.add("quality-medium");
+    } else if (hasLow) {
+      posterZone.classList.add("quality-low");
+    } else if (hasMedium) {
+      posterZone.classList.add("quality-medium");
+    } else if (hasHigh) {
+      posterZone.classList.add("quality-high");
+    } else {
+      posterZone.classList.add("quality-none");
+    }
+
     posterZone.appendChild(
       createPosterContent(collection.image, collectionName, collection.id),
     );
-
     posterZone.onclick = () => {
       sessionStorage.setItem("collectionsSearch", currentSearch);
       sessionStorage.setItem("selectedCollectionId", collection.id);

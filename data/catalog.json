@@ -21484,7 +21484,8 @@
             "collectionNom": "Les Indestructibles - Saga",
             "collectionDescription": "Les Indestructibles Collection est une série de films d'animation américains produite par Disney et créée par Pixar Animation Studios.",
             "collectionImage": "https://image.tmdb.org/t/p/w500/aPgZIiQCnjfyBKK3b8A2vha8sp.jpg",
-            "collectionTmdbUrl": "https://www.themoviedb.org/collection/468222"
+            "collectionTmdbUrl": "https://www.themoviedb.org/collection/468222",
+            "ignoreInCollection": false
         },
         {
             "id": "indestructibles",
@@ -26704,7 +26705,8 @@
             "collectionNom": "Lara Croft - Saga",
             "collectionDescription": "Tomb Raider est une série de films d'action-aventure, centrés sur les aventures de l'archéologue britannique fictive Lara Croft.",
             "collectionImage": "https://image.tmdb.org/t/p/w500/sgaP4WtVlKzz8FIcjbkevOycJiq.jpg",
-            "collectionTmdbUrl": "https://www.themoviedb.org/collection/2467"
+            "collectionTmdbUrl": "https://www.themoviedb.org/collection/2467",
+            "ignoreInCollection": false
         },
         {
             "id": "las_vegas",
@@ -38676,7 +38678,8 @@
             "collectionNom": "Sexy Dance - Saga",
             "collectionDescription": "Les films \"Step Up\" sont une série de films de danse/romance-drame créés par Duane Adler.",
             "collectionImage": "https://image.tmdb.org/t/p/w500/syG4B7AnF9W8Cd0QEebl50YyN7M.jpg",
-            "collectionTmdbUrl": "https://www.themoviedb.org/collection/86092"
+            "collectionTmdbUrl": "https://www.themoviedb.org/collection/86092",
+            "ignoreInCollection": false
         },
         {
             "id": "tmdb_370567",

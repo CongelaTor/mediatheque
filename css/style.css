@@ -539,9 +539,7 @@ gap: 26px;
 
 .media-card:hover {
     transform: translateY(-3px);
-    border-color: var(--blue);
 }
-
 .poster-zone {
     aspect-ratio: 2 / 3;
     height: auto;
@@ -549,6 +547,7 @@ gap: 26px;
     background: #182235;
     cursor: pointer;
     overflow: hidden;
+    border-radius: calc(var(--card-radius) - 2px);
 }
 
 .poster-zone img {
@@ -556,6 +555,7 @@ gap: 26px;
     height: 100%;
     object-fit: cover;
     display: block;
+    border-radius: calc(var(--card-radius) - 2px);
 }
 
 .play-icon {
@@ -1567,6 +1567,53 @@ max-width: var(--cadres-max-width);
 .font-zoom-button:hover { 
     color: white; 
     border-color: white;
+}
+
+/* ==================================================
+   CONTOURS DÉGRADÉS QUALITÉ VIDÉO (AFFICHES)
+   ================================================== */
+.poster-zone::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    border-radius: calc(var(--card-radius) - 2px);
+    pointer-events: none;
+    border: 3px solid transparent;
+    -webkit-mask: linear-gradient(#fff 0 0) padding-box, linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+}
+
+.poster-zone.quality-high::after {
+    background: linear-gradient(to bottom, #1ec98b, #1ec98b) border-box;
+}
+
+.poster-zone.quality-medium::after {
+    background: linear-gradient(to bottom, #f59e0b, #f59e0b) border-box;
+}
+
+.poster-zone.quality-low::after {
+    background: linear-gradient(to bottom, #ef4444, #ef4444) border-box;
+}
+
+.poster-zone.quality-none::after {
+    background: linear-gradient(to bottom, #9aa8c2, #9aa8c2) border-box;
+}
+
+.poster-zone.quality-full-range::after {
+    background: linear-gradient(to bottom, #1ec98b, #f59e0b, #ef4444) border-box;
+}
+
+.poster-zone.quality-low-high::after {
+    background: linear-gradient(to bottom, #1ec98b, #ef4444) border-box;
+}
+
+.poster-zone.quality-low-medium::after {
+    background: linear-gradient(to bottom, #f59e0b, #f59e0b) border-box;
+}
+
+.poster-zone.quality-medium-high::after {
+    background: linear-gradient(to bottom, #1ec98b, #f59e0b) border-box;
 }
 
 /* ==================================================
