@@ -175,6 +175,19 @@ function renderFilms() {
       const imageContainer =
         collectionInfoCard.querySelector(".serie-info-image");
       imageContainer.innerHTML = "";
+      imageContainer.classList.remove(
+        "quality-none",
+        "quality-full-range",
+        "quality-low-high",
+        "quality-low-medium",
+        "quality-medium-high",
+        "quality-low",
+        "quality-medium",
+        "quality-high",
+        "language-check",
+      );
+      const collectionFiles = films.flatMap((film) => film.groupFiles || []);
+      imageContainer.classList.add(...getFilmBorderClasses(collectionFiles));
       if (collection.collectionImage) {
         imageContainer.appendChild(
           createPosterContent(
@@ -252,53 +265,16 @@ function createFilmCard(film) {
   const posterZone = document.createElement("div");
   posterZone.className = "poster-zone";
 
-  let hasHigh = false;
-  let hasMedium = false;
-  let hasLow = false;
-  let hasFiles = false;
   let hasMissingOriginalTitle = false;
-
   const filesToCheck =
     film.groupFiles && film.groupFiles.length > 0 ? film.groupFiles : [film];
   for (const file of filesToCheck) {
     if (!file.titreOriginal || file.titreOriginal.trim() === "") {
       hasMissingOriginalTitle = true;
     }
-    const width = file.technique?.largeur;
-    if (width !== undefined && width !== null) {
-      hasFiles = true;
-
-      if (width >= 1920) {
-        hasHigh = true;
-      } else if (width >= 960) {
-        hasMedium = true;
-      } else {
-        hasLow = true;
-      }
-    }
   }
 
-  if (!hasFiles) {
-    posterZone.classList.add("quality-none");
-  } else if (hasMissingOriginalTitle) {
-    posterZone.classList.add("no-original-title");
-  } else if (hasLow && hasMedium && hasHigh) {
-    posterZone.classList.add("quality-full-range");
-  } else if (hasLow && hasHigh) {
-    posterZone.classList.add("quality-low-high");
-  } else if (hasLow && hasMedium) {
-    posterZone.classList.add("quality-low-medium");
-  } else if (hasMedium && hasHigh) {
-    posterZone.classList.add("quality-medium-high");
-  } else if (hasLow) {
-    posterZone.classList.add("quality-low");
-  } else if (hasMedium) {
-    posterZone.classList.add("quality-medium");
-  } else if (hasHigh) {
-    posterZone.classList.add("quality-high");
-  } else {
-    posterZone.classList.add("quality-none");
-  }
+  posterZone.classList.add(...getFilmBorderClasses(filesToCheck));
 
   posterZone.onclick = () => {
     if (film.fileCount === 0) {

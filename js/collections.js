@@ -90,21 +90,27 @@ function renderCollections() {
   grid.innerHTML = "";
 
   const collections = new Map();
-
   for (const film of catalog.films) {
     if (!film.collectionId || !film.collectionNom) {
       continue;
     }
-
     if (!collections.has(film.collectionId)) {
+      const catalogCollection = (catalog.collections || []).find(
+        (collection) =>
+          String(collection.collectionId) === String(film.collectionId),
+      );
+      const collectionImage = catalogCollection?.collectionImage
+        ? catalogCollection.collectionImage.startsWith("http")
+          ? catalogCollection.collectionImage
+          : `https://image.tmdb.org/t/p/w500${catalogCollection.collectionImage}`
+        : film.collectionImage || null;
       collections.set(film.collectionId, {
         id: film.collectionId,
-        nom: film.collectionNom,
-        image: film.collectionImage || null,
+        nom: catalogCollection?.collectionNom || film.collectionNom,
+        image: collectionImage,
         films: [],
       });
     }
-
     collections.get(film.collectionId).films.push(film);
   }
 
@@ -219,49 +225,15 @@ function renderCollections() {
 
     const posterZone = document.createElement("div");
     posterZone.className = "poster-zone";
-
-    let hasHigh = false;
-    let hasMedium = false;
-    let hasLow = false;
-    let hasFiles = false;
-
+    const collectionFiles = [];
     for (const collectionFilm of collection.films) {
       const realFiles = catalog.films.filter(
-        (f) => f.tmdbId === collectionFilm.tmdbId,
+        (f) => f.tmdbId === collectionFilm.tmdbId && f.fichier,
       );
-
-      for (const file of realFiles) {
-        const width = file.technique?.largeur;
-        if (width !== undefined && width !== null) {
-          hasFiles = true;
-          if (width >= 1920) {
-            hasHigh = true;
-          } else if (width >= 960) {
-            hasMedium = true;
-          } else {
-            hasLow = true;
-          }
-        }
-      }
+      collectionFiles.push(...realFiles);
     }
 
-    if (!hasFiles) {
-      posterZone.classList.add("quality-none");
-    } else if (hasLow && hasHigh) {
-      posterZone.classList.add("quality-full-range");
-    } else if (hasLow && hasMedium) {
-      posterZone.classList.add("quality-low");
-    } else if (hasMedium && hasHigh) {
-      posterZone.classList.add("quality-medium");
-    } else if (hasLow) {
-      posterZone.classList.add("quality-low");
-    } else if (hasMedium) {
-      posterZone.classList.add("quality-medium");
-    } else if (hasHigh) {
-      posterZone.classList.add("quality-high");
-    } else {
-      posterZone.classList.add("quality-none");
-    }
+    posterZone.classList.add(...getFilmBorderClasses(collectionFiles));
 
     posterZone.appendChild(
       createPosterContent(collection.image, collectionName, collection.id),

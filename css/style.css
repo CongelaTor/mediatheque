@@ -582,6 +582,9 @@ gap: 26px;
     cursor: pointer;
     z-index: 10;
 }
+#collectionsGrid .play-button {
+    padding-bottom: 4px;
+}
 .play-button.collection-incomplete {
     background: #ff8c00;
     color: #070b14;
@@ -614,35 +617,25 @@ background: #f97316;
 }
 
 .missing-poster {
-
     width: 100%;
     height: 100%;
-
     display: flex;
-
     justify-content: center;
     align-items: center;
-
     text-align: center;
-
     padding: 20px;
-
     color: white;
-
     font-size: calc(24px * var(--font-scale));
     font-weight: 600;
-
     line-height: 1.4;
-
     overflow-wrap: break-word;
-
+    border-radius: calc(var(--card-radius) - 6px);
     background:
         linear-gradient(135deg,
             #243d5a 0%,
             #294668 45%,
             #2c4a6e 100%);
 }
-
 .seasons-bar {
     display: flex;
     gap: 12px;
@@ -943,15 +936,19 @@ background: #f97316;
     width: 180px;
     height: 267px;
     position: relative;
+    border-radius: 10px;
+    overflow: hidden;
 }
 .serie-info-image .poster-zone,
 .serie-info-image img,
 .serie-info-image .missing-poster {
-    width: 180px;
-    height: 267px;
-    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+    border-radius: 6px;
 }
-
+.serie-info-image .poster-zone::after {
+    content: none;
+}
 .episodes-panel {
 max-width: var(--cadres-max-width);
 }
@@ -1582,55 +1579,71 @@ max-width: var(--cadres-max-width);
 /* ==================================================
    CONTOURS DÉGRADÉS QUALITÉ VIDÉO (AFFICHES)
    ================================================== */
-.poster-zone::after {
-    content: "";
-    position: absolute;
-    inset: 0;
-    border-radius: calc(var(--card-radius) - 2px);
-    pointer-events: none;
-    border: 3px solid transparent;
-    -webkit-mask: linear-gradient(#fff 0 0) padding-box, linear-gradient(#fff 0 0);
-    -webkit-mask-composite: xor;
-    mask-composite: exclude;
+.poster-zone,
+.serie-info-image {
+    padding: 4px;
+    box-sizing: border-box;
+    background: var(--poster-border-gradient);
+}
+.poster-zone::after,
+.serie-info-image::after {
+    content: none;
+}
+:is(.poster-zone, .serie-info-image).quality-high {
+    --poster-border-gradient: linear-gradient(to bottom, #1ec98b, #1ec98b);
+}
+:is(.poster-zone, .serie-info-image).quality-medium {
+    --poster-border-gradient: linear-gradient(to bottom, #f59e0b, #f59e0b);
+}
+:is(.poster-zone, .serie-info-image).quality-low {
+    --poster-border-gradient: linear-gradient(to bottom, #ef4444, #ef4444);
+}
+:is(.poster-zone, .serie-info-image).quality-none {
+    --poster-border-gradient: linear-gradient(to bottom, #9aa8c2, #9aa8c2);
+}
+:is(.poster-zone, .serie-info-image).quality-full-range {
+    --poster-border-gradient: linear-gradient(to bottom, #1ec98b, #f59e0b, #ef4444);
+}
+:is(.poster-zone, .serie-info-image).quality-low-high {
+    --poster-border-gradient: linear-gradient(to bottom, #1ec98b, #ef4444);
+}
+:is(.poster-zone, .serie-info-image).quality-low-medium {
+    --poster-border-gradient: linear-gradient(to bottom, #f59e0b, #ef4444);
+}
+:is(.poster-zone, .serie-info-image).quality-medium-high {
+    --poster-border-gradient: linear-gradient(to bottom, #1ec98b, #f59e0b);
+}
+:is(.poster-zone, .serie-info-image).language-check.quality-high {
+    --poster-border-gradient: linear-gradient(to bottom, #1ec98b, #8d45f6);
+}
+:is(.poster-zone, .serie-info-image).language-check.quality-medium {
+    --poster-border-gradient: linear-gradient(to bottom, #f59e0b, #8d45f6);
+}
+:is(.poster-zone, .serie-info-image).language-check.quality-low {
+    --poster-border-gradient: linear-gradient(to bottom, #ef4444, #8d45f6);
+}
+:is(.poster-zone, .serie-info-image).language-check.quality-none {
+    --poster-border-gradient: linear-gradient(to bottom, #9aa8c2, #8d45f6);
+}
+:is(.poster-zone, .serie-info-image).language-check.quality-full-range {
+    --poster-border-gradient: linear-gradient(to bottom, #1ec98b, #f59e0b, #ef4444, #8d45f6);
+}
+:is(.poster-zone, .serie-info-image).language-check.quality-low-high {
+    --poster-border-gradient: linear-gradient(to bottom, #1ec98b, #ef4444, #8d45f6);
+}
+:is(.poster-zone, .serie-info-image).language-check.quality-low-medium {
+    --poster-border-gradient: linear-gradient(to bottom, #f59e0b, #ef4444, #8d45f6);
+}
+:is(.poster-zone, .serie-info-image).language-check.quality-medium-high {
+    --poster-border-gradient: linear-gradient(to bottom, #1ec98b, #f59e0b, #8d45f6);
+}
+:is(.poster-zone, .serie-info-image).no-original-title {
+    --poster-border-gradient: linear-gradient(to bottom, #fde047, #fde047);
 }
 
-.poster-zone.quality-high::after {
-    background: linear-gradient(to bottom, #1ec98b, #1ec98b) border-box;
-}
-
-.poster-zone.quality-medium::after {
-    background: linear-gradient(to bottom, #f59e0b, #f59e0b) border-box;
-}
-
-.poster-zone.quality-low::after {
-    background: linear-gradient(to bottom, #ef4444, #ef4444) border-box;
-}
-
-.poster-zone.quality-none::after {
-    background: linear-gradient(to bottom, #9aa8c2, #9aa8c2) border-box;
-}
-
-.poster-zone.quality-full-range::after {
-    background: linear-gradient(to bottom, #1ec98b, #f59e0b, #ef4444) border-box;
-}
-
-.poster-zone.quality-low-high::after {
-    background: linear-gradient(to bottom, #1ec98b, #ef4444) border-box;
-}
-
-.poster-zone.quality-low-medium::after {
-    background: linear-gradient(to bottom, #f59e0b, #f59e0b) border-box;
-}
-
-.poster-zone.quality-medium-high::after {
-    background: linear-gradient(to bottom, #1ec98b, #f59e0b) border-box;
-}
-.poster-zone.no-original-title::after {
-    background: linear-gradient(to bottom, #fde047, #fde047) border-box !important;
-}
 /* ==================================================
-   MOBILE
-   ================================================== */
+MOBILE
+================================================== */
 @media (max-width: 768px) {
     :root {
         --font-scale: 3;

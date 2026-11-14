@@ -37,3 +37,64 @@ function isWebSafeImagePath(imagePath) {
   }
   return false;
 }
+
+function getFilmBorderClasses(files) {
+  let hasHigh = false;
+  let hasMedium = false;
+  let hasLow = false;
+  let hasFiles = false;
+  let needsLanguageCheck = false;
+  for (const file of files) {
+    const languages = Array.isArray(file.langue)
+      ? file.langue
+      : [file.langue || "TBD"];
+    const hasTbd = languages.includes("TBD");
+    const hasVo = languages.includes("VO");
+    const hasVf = languages.includes("VF");
+    const originalLanguage = file.langueOriginale?.toLowerCase();
+    if (
+      file.fichier &&
+      (hasTbd ||
+        !originalLanguage ||
+        (originalLanguage === "fr" && !hasVf) ||
+        (originalLanguage !== "fr" && (!hasVo || !hasVf)))
+    ) {
+      needsLanguageCheck = true;
+    }
+    const width = file.technique?.largeur;
+    if (width !== undefined && width !== null) {
+      hasFiles = true;
+      if (width >= 1920) {
+        hasHigh = true;
+      } else if (width >= 960) {
+        hasMedium = true;
+      } else {
+        hasLow = true;
+      }
+    }
+  }
+  const classes = [];
+  if (!hasFiles) {
+    classes.push("quality-none");
+  } else if (hasLow && hasMedium && hasHigh) {
+    classes.push("quality-full-range");
+  } else if (hasLow && hasHigh) {
+    classes.push("quality-low-high");
+  } else if (hasLow && hasMedium) {
+    classes.push("quality-low-medium");
+  } else if (hasMedium && hasHigh) {
+    classes.push("quality-medium-high");
+  } else if (hasLow) {
+    classes.push("quality-low");
+  } else if (hasMedium) {
+    classes.push("quality-medium");
+  } else if (hasHigh) {
+    classes.push("quality-high");
+  } else {
+    classes.push("quality-none");
+  }
+  if (needsLanguageCheck) {
+    classes.push("language-check");
+  }
+  return classes;
+}

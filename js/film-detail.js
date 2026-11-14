@@ -50,6 +50,8 @@ async function initFilmDetailPage() {
 
     const imageContainer = infoCard.querySelector(".serie-info-image");
     imageContainer.innerHTML = "";
+    imageContainer.classList.add(...getFilmBorderClasses([]));
+
     if (storedInfo.image) {
       const tmdbBadge = document.createElement("button");
       tmdbBadge.className = "play-button";
@@ -128,6 +130,7 @@ async function initFilmDetailPage() {
 
   const imageContainer = infoCard.querySelector(".serie-info-image");
   imageContainer.innerHTML = "";
+  imageContainer.classList.add(...getFilmBorderClasses(films));
   imageContainer.appendChild(
     createPosterContent(
       referenceFilm.image,
@@ -418,11 +421,15 @@ function renderSubtitleLanguageEditor(
 function createFilmFileCard(film) {
   const card = document.createElement("article");
   card.className = "film-file-card";
+  card.classList.add(...getFilmBorderClasses([film]));
+
   const languages = Array.isArray(film.langue)
     ? film.langue.join(", ")
     : film.langue || "TBD";
+
   const playbackRow = document.createElement("div");
   playbackRow.className = "film-file-row film-file-playback-row";
+
   const metadata = document.createElement("div");
   metadata.className = "film-file-meta";
   metadata.textContent = `${languages} • ${formatFilmFileSize(film.taille)}`;
@@ -461,31 +468,41 @@ function createFilmFileCard(film) {
     }
     requestFilmDownload(film);
   };
-  const tmdbButton = document.createElement("button");
-  tmdbButton.className =
-    "tmdb-associate-button film-file-action-button linux-hidden mediaserver-only";
-  tmdbButton.innerHTML = `
-    <span class="play-icon film-link-icon">
-      <svg viewBox="0 0 24 24"
-          width="18"
-          height="18"
-          fill="none"
-          stroke="currentColor"
-          stroke-width="2"
-          stroke-linecap="round"
-          stroke-linejoin="round">
-        <path d="M10 13a5 5 0 0 0 7.07 0l2.83-2.83a5 5 0 0 0-7.07-7.07L11 4"/>
-        <path d="M14 11a5 5 0 0 0-7.07 0L4.1 13.83a5 5 0 1 0 7.07 7.07L13 20"/>
-      </svg>
-    </span>`;
-  tmdbButton.title = "Réassocier TMDB";
-  tmdbButton.onclick = () => showTmdbFilmSearch(film);
+
+  // const tmdbButton = document.createElement("button");
+  // tmdbButton.className =
+  //   "tmdb-associate-button film-file-action-button linux-hidden mediaserver-only";
+  // tmdbButton.innerHTML = `
+  //   <span class="play-icon film-link-icon">
+  //     <svg viewBox="0 0 24 24"
+  //         width="18"
+  //         height="18"
+  //         fill="none"
+  //         stroke="currentColor"
+  //         stroke-width="2"
+  //         stroke-linecap="round"
+  //         stroke-linejoin="round">
+  //       <path d="M10 13a5 5 0 0 0 7.07 0l2.83-2.83a5 5 0 0 0-7.07-7.07L11 4"/>
+  //       <path d="M14 11a5 5 0 0 0-7.07 0L4.1 13.83a5 5 0 1 0 7.07 7.07L13 20"/>
+  //     </svg>
+  //   </span>`;
+  // tmdbButton.title = "Réassocier TMDB";
+  // tmdbButton.onclick = () => showTmdbFilmSearch(film);
+
   const locationButton = document.createElement("button");
   locationButton.className =
     "tmdb-associate-button film-file-action-button linux-hidden mediaserver-only";
   locationButton.innerHTML = '<span class="play-icon film-open-icon">🗁</span>';
   locationButton.title = "Ouvrir l'emplacement";
   locationButton.onclick = () => openFilmLocation(film);
+
+  const tmdbButton = document.createElement("button");
+  tmdbButton.className =
+    "tmdb-associate-button film-file-action-button linux-hidden mediaserver-only";
+  tmdbButton.innerHTML =
+    '<span class="play-icon film-link-icon" style="transform: translateX(-2px)">TM</span>';
+  tmdbButton.title = "Réassocier TMDB";
+
   const deleteButton = document.createElement("button");
   deleteButton.className =
     "tmdb-associate-button film-file-action-button linux-hidden mediaserver-only";
