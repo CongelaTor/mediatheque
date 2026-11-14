@@ -1,6 +1,6 @@
 {
     "version": 1,
-    "dateDernierScan": "2026-11-14T15:50:19.406Z",
+    "dateDernierScan": "2026-11-14T18:56:51.156Z",
     "collections": [
         {
             "collectionId": 9485,
@@ -661,6 +661,13 @@
             "collectionFilmCount": 3
         },
         {
+            "collectionId": 870339,
+            "collectionNom": "Mr Wolff - Saga",
+            "collectionImage": "/rbTVcWYJp3xjKqirEif530uUACh.jpg",
+            "collectionDescription": "Une trilogie de thrillers policiers avec Ben Affleck dans le rôle d'un mathématicien plus affiné avec les chiffres qu'avec les gens. Sous couvert d'un cabinet d'expertise comptable d'une petite ville, il gagne sa vie en tant que comptable indépendant pour de dangereuses organisations criminelles.",
+            "collectionFilmCount": 2
+        },
+        {
             "collectionId": 382685,
             "collectionNom": "Insaisissables - Saga",
             "collectionImage": "/JAzLUXjXJEGp9IKR7jEY4L2VSL.jpg",
@@ -785,13 +792,6 @@
             "collectionImage": "/eEBD8TVN6caaUZpn093kDbR4li1.jpg",
             "collectionDescription": "En ce qui concerne les entrées au guichet, la série \"Taxi\" est l’une des franchises françaises les plus titrées de tous les temps, avec un total rapporté de 200 millions de dollars dans le monde et de 23 millions d’entrées en France.",
             "collectionFilmCount": 5
-        },
-        {
-            "collectionId": 870339,
-            "collectionNom": "Mr Wolff - Saga",
-            "collectionImage": "/rbTVcWYJp3xjKqirEif530uUACh.jpg",
-            "collectionDescription": "Une trilogie de thrillers policiers avec Ben Affleck dans le rôle d'un mathématicien plus affiné avec les chiffres qu'avec les gens. Sous couvert d'un cabinet d'expertise comptable d'une petite ville, il gagne sa vie en tant que comptable indépendant pour de dangereuses organisations criminelles.",
-            "collectionFilmCount": 2
         },
         {
             "collectionId": 125574,
@@ -2552,7 +2552,7 @@
             "collectionNom": "Albator - Saga",
             "type": "Animation",
             "studio": "Marvel",
-            "ignoreInCollection": false,
+            "ignoreInCollection": true,
             "langueOriginale": "ja"
         },
         {
@@ -3530,7 +3530,7 @@
             "collectionNom": "Arthur et les Minimoys - Saga",
             "type": "Film",
             "studio": null,
-            "ignoreInCollection": false,
+            "ignoreInCollection": true,
             "langueOriginale": "fr"
         },
         {
@@ -3561,7 +3561,7 @@
             "collectionNom": "Arthur et les Minimoys - Saga",
             "type": "Film",
             "studio": null,
-            "ignoreInCollection": false,
+            "ignoreInCollection": true,
             "langueOriginale": "fr"
         },
         {
@@ -5189,7 +5189,10 @@
                 "sousTitres": []
             },
             "titreOriginal": "Doctor Strange",
-            "langueOriginale": "en"
+            "langueOriginale": "en",
+            "languesAudio": [
+                "FR"
+            ]
         },
         {
             "id": "b_girl_stv_slim_2009",
@@ -10114,7 +10117,7 @@
             "collectionNom": "Comme des bêtes - Saga",
             "type": "Animation",
             "studio": null,
-            "ignoreInCollection": false,
+            "ignoreInCollection": true,
             "langueOriginale": "en"
         },
         {
@@ -12596,7 +12599,10 @@
                 "sousTitres": []
             },
             "titreOriginal": "Dune",
-            "langueOriginale": "en"
+            "langueOriginale": "en",
+            "languesAudio": [
+                "FR"
+            ]
         },
         {
             "id": "tmdb_693134",
@@ -12667,7 +12673,7 @@
             "titre": "Dune 1",
             "annee": 2021,
             "langue": [
-                "TBD"
+                "VO"
             ],
             "taille": 1722073295,
             "genre": [
@@ -12733,7 +12739,11 @@
                 ]
             },
             "titreOriginal": "Dune",
-            "langueOriginale": "en"
+            "langueOriginale": "en",
+            "languesAudio": [
+                "EN"
+            ],
+            "languesSousTitres": []
         },
         {
             "id": "eagle_eye",
@@ -19100,7 +19110,7 @@
             "collectionNom": "Harry Potter - Saga",
             "type": "Film",
             "studio": null,
-            "ignoreInCollection": false,
+            "ignoreInCollection": true,
             "langueOriginale": "en"
         },
         {
@@ -19131,7 +19141,7 @@
             "collectionNom": "Harry Potter - Saga",
             "type": "Film",
             "studio": null,
-            "ignoreInCollection": false,
+            "ignoreInCollection": true,
             "langueOriginale": "en"
         },
         {
@@ -19162,7 +19172,7 @@
             "collectionNom": "Harry Potter - Saga",
             "type": "Film",
             "studio": null,
-            "ignoreInCollection": false,
+            "ignoreInCollection": true,
             "langueOriginale": "en"
         },
         {
@@ -19193,7 +19203,7 @@
             "collectionNom": "Harry Potter - Saga",
             "type": "Film",
             "studio": null,
-            "ignoreInCollection": false,
+            "ignoreInCollection": true,
             "langueOriginale": "en"
         },
         {
@@ -19224,7 +19234,7 @@
             "collectionNom": "Harry Potter - Saga",
             "type": "Film",
             "studio": null,
-            "ignoreInCollection": false,
+            "ignoreInCollection": true,
             "langueOriginale": "en"
         },
         {
@@ -19350,7 +19360,7 @@
             "collectionNom": "Hercules (Disney) - Saga",
             "type": "Animation",
             "studio": null,
-            "ignoreInCollection": false,
+            "ignoreInCollection": true,
             "langueOriginale": "en"
         },
         {
@@ -24781,7 +24791,7 @@
             "collectionNom": "L'Âge de glace - Saga",
             "type": "Animation",
             "studio": null,
-            "ignoreInCollection": false,
+            "ignoreInCollection": true,
             "langueOriginale": "en"
         },
         {
@@ -24812,7 +24822,7 @@
             "collectionNom": "L'Âge de glace - Saga",
             "type": "Animation",
             "studio": null,
-            "ignoreInCollection": false,
+            "ignoreInCollection": true,
             "langueOriginale": "en"
         },
         {
@@ -24843,7 +24853,7 @@
             "collectionNom": "L'Âge de glace - Saga",
             "type": "Animation",
             "studio": null,
-            "ignoreInCollection": false,
+            "ignoreInCollection": true,
             "langueOriginale": "en"
         },
         {
@@ -24938,7 +24948,7 @@
             "collectionNom": "L'Âge de glace - Saga",
             "type": "Animation",
             "studio": null,
-            "ignoreInCollection": false,
+            "ignoreInCollection": true,
             "langueOriginale": "en"
         },
         {
@@ -26509,7 +26519,7 @@
             "collectionNom": "La Petite Sirène - Saga",
             "type": "Animation",
             "studio": "Disney",
-            "ignoreInCollection": false,
+            "ignoreInCollection": true,
             "langueOriginale": "en"
         },
         {
@@ -29470,7 +29480,7 @@
             "collectionNom": "Madagascar - Saga",
             "type": "Animation",
             "studio": null,
-            "ignoreInCollection": false,
+            "ignoreInCollection": true,
             "langueOriginale": "en"
         },
         {
@@ -33031,6 +33041,38 @@
             },
             "titreOriginal": "Mr. & Mrs. Smith",
             "langueOriginale": "en"
+        },
+        {
+            "id": "tmdb_870028",
+            "titre": "Mr Wolff 2",
+            "annee": 2025,
+            "langue": [
+                "TBD"
+            ],
+            "taille": 0,
+            "genre": [
+                "Crime",
+                "Thriller",
+                "Drame"
+            ],
+            "image": "https://image.tmdb.org/t/p/w342/kgzWQPNZp3byMamRr6Mm1KdgzUl.jpg",
+            "fichier": null,
+            "nomFichier": null,
+            "tmdbId": 870028,
+            "tmdbUrl": "https://www.themoviedb.org/movie/870028",
+            "doublonExact": false,
+            "doublonProbable": false,
+            "groupeDoublon": null,
+            "dateAjout": null,
+            "titreTmdb": "Mr Wolff 2",
+            "titreOriginal": "The Accountant²",
+            "anneeTmdb": 2025,
+            "descriptionTmdb": "Christian Wolff est doué pour résoudre les problèmes. Quand une vieille connaissance est tuée en laissant un message énigmatique disant de \"trouver le comptable\", Wolff doit recruter son dangereux frère Brax pour élucider l'affaire. En partenariat avec la directrice adjointe du Trésor américain, Medina, ils découvrent une conspiration mortelle et deviennent les cibles d'un réseau de tueurs.",
+            "collectionId": 870339,
+            "collectionNom": "Mr Wolff - Saga",
+            "type": "Film",
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "negociateur",
@@ -39118,73 +39160,6 @@
             "langueOriginale": "en"
         },
         {
-            "id": "sister_act_1992",
-            "titre": "Sister Act",
-            "annee": 1992,
-            "langue": [
-                "TBD"
-            ],
-            "taille": 792982227,
-            "genre": [
-                "Comédie musicale"
-            ],
-            "image": "https://image.tmdb.org/t/p/w342/4RPuvJ2IhF9EQkUGOa0jr7idlRP.jpg",
-            "fichier": "/Box_Films/Check Films/Sister Act (1992)/Sister.Act.1992.720p.BluRay.x264.YIFY.mp4",
-            "nomFichier": "Sister.Act.1992.720p.BluRay.x264.YIFY.mp4",
-            "imdbId": null,
-            "tmdbId": 2005,
-            "tmdbUrl": "https://www.themoviedb.org/movie/2005",
-            "doublonExact": false,
-            "doublonProbable": true,
-            "groupeDoublon": "sister_act",
-            "dateAjout": "2026-08-22T08:23:33.581Z",
-            "titreTmdb": "Sister Act",
-            "anneeTmdb": "1992",
-            "dureeTmdb": 100,
-            "descriptionTmdb": "Une jeune femme, témoin d'un meurtre, intègre un couvent pour se protéger. Elle va alors donner un nouvel élan à l'établissement religieux, invitant notamment les bonnes sœurs à une réorchestration musicale de leurs chants.",
-            "collectionId": 103573,
-            "collectionNom": "Sister Act - Saga",
-            "collectionDescription": "Sister Act est un film de comédie américaine sorti en 1992 par Touchstone Pictures. Réalisé par Emile Ardolino, il met en scène des arrangements musicaux de Marc Shaiman et met en vedette Whoopi Goldberg en tant que chanteuse lounge de Reno qui a été placée sous protection dans un couvent de San Francisco et qui doit prétendre être nonne lorsqu'un patron de la mafia la place sur sa liste de cibles.  Maggie Smith, Kathy Najimy, Wendy Makkena, Mary Wickes et Harvey Keitel font également partie des acteurs. Le film a été suivi d'une suite en 1993, Sister Act : Acte 2",
-            "collectionImage": "https://image.tmdb.org/t/p/w500/q5HkOoYsfNvE2QJZunrpi8RrP3t.jpg",
-            "collectionTmdbUrl": "https://www.themoviedb.org/collection/103573",
-            "type": "Film",
-            "studio": null,
-            "ignoreInCollection": false,
-            "technique": {
-                "largeur": 1280,
-                "hauteur": 688,
-                "resolution": "1280x688",
-                "ratioImage": 1.86,
-                "codecVideo": "h264",
-                "profilVideo": "High",
-                "pixelFormat": "yuv420p",
-                "bitsParComposante": 8,
-                "bitrateVideo": 955960,
-                "framerate": 23.976,
-                "espaceCouleur": "bt709",
-                "transfertCouleur": null,
-                "primairesCouleur": "bt709",
-                "hdr": false,
-                "dureeFichier": 6019.179834,
-                "bitrateGlobal": 1053940,
-                "formatConteneur": "mov,mp4,m4a,3gp,3g2,mj2",
-                "audio": [
-                    {
-                        "codec": "aac",
-                        "profil": "LC",
-                        "canaux": 2,
-                        "disposition": "stereo",
-                        "bitrate": 93845,
-                        "frequence": 48000,
-                        "langue": "eng"
-                    }
-                ],
-                "sousTitres": []
-            },
-            "titreOriginal": "Sister Act",
-            "langueOriginale": "en"
-        },
-        {
             "id": "tmdb_6279",
             "titre": "Sister Act : Acte 2",
             "annee": 1993,
@@ -39221,7 +39196,9 @@
             "annee": 1992,
             "langue": [
                 "VO",
-                "VF"
+                "VF",
+                "VOSTFR",
+                "VOST"
             ],
             "taille": 2816212393,
             "genre": [
@@ -39304,7 +39281,11 @@
                 ]
             },
             "titreOriginal": "Sister Act",
-            "langueOriginale": "en"
+            "langueOriginale": "en",
+            "languesAudio": [
+                "FR",
+                "EN"
+            ]
         },
         {
             "id": "tmdb_1563146",
@@ -44430,74 +44411,7 @@
             "collectionNom": "Comme des bêtes - Saga",
             "type": "Animation",
             "studio": null,
-            "ignoreInCollection": false,
-            "langueOriginale": "en"
-        },
-        {
-            "id": "secret_pets_eve_www_ws_2016",
-            "titre": "The Secret of Pets",
-            "annee": 2016,
-            "langue": [
-                "VF"
-            ],
-            "taille": 739397120,
-            "genre": [
-                "Comédie"
-            ],
-            "image": "https://image.tmdb.org/t/p/w342/cn7mFB0sCeQJO8MAyl15yFp0rpc.jpg",
-            "fichier": "/Box_Films/Enfants/The.Secret.Life.of.Pets.2016.RERiP.TRUEFRENCH.DVDRip.XVID-eVe.www.torrent9.ws.avi",
-            "nomFichier": "The.Secret.Life.of.Pets.2016.RERiP.TRUEFRENCH.DVDRip.XVID-eVe.www.torrent9.ws.avi",
-            "imdbId": null,
-            "tmdbId": 328111,
-            "tmdbUrl": "https://www.themoviedb.org/movie/328111",
-            "doublonExact": false,
-            "doublonProbable": false,
-            "groupeDoublon": null,
-            "dateAjout": "2026-08-22T08:23:33.718Z",
-            "titreTmdb": "Comme des bêtes",
-            "anneeTmdb": "2016",
-            "dureeTmdb": 87,
-            "descriptionTmdb": "Que font nos animaux de compagnie pendant notre absence ? Ils se réunissent pour échanger les derniers potins, s'abandonner à leurs gourmandises préférées ou organiser des fêtes gigantesques. Mais Max, un Jack Russell ultra gâté par sa maîtresse Katie, voit son petit monde bouleversé lorsque cette dernière ramène à la maison Duke, un gros bâtard mal léché. Ce duo mal assorti va alors devoir mettre ses susceptibilités de côté pour s'unir face à l'adversité des rues de New York et rejoindre leur appartement avant le retour de Katie pour le dîner.",
-            "collectionId": 427084,
-            "collectionNom": "Comme des bêtes - Saga",
-            "collectionDescription": "Découverte de la vie secrète que mènent nos animaux domestiques dans Manhattan.",
-            "collectionImage": "https://image.tmdb.org/t/p/w500/n07ABL55QSlAknhWmIFiSmILXqK.jpg",
-            "collectionTmdbUrl": "https://www.themoviedb.org/collection/427084",
-            "type": "Animation",
-            "studio": null,
-            "ignoreInCollection": false,
-            "technique": {
-                "largeur": 720,
-                "hauteur": 390,
-                "resolution": "720x390",
-                "ratioImage": 1.846,
-                "codecVideo": "mpeg4",
-                "profilVideo": "Simple Profile",
-                "pixelFormat": "yuv420p",
-                "bitsParComposante": null,
-                "bitrateVideo": 1047978,
-                "framerate": 25,
-                "espaceCouleur": null,
-                "transfertCouleur": null,
-                "primairesCouleur": null,
-                "hdr": false,
-                "dureeFichier": 4974.76,
-                "bitrateGlobal": 1189037,
-                "formatConteneur": "avi",
-                "audio": [
-                    {
-                        "codec": "mp3",
-                        "profil": null,
-                        "canaux": 2,
-                        "disposition": "stereo",
-                        "bitrate": 128000,
-                        "frequence": 48000,
-                        "langue": null
-                    }
-                ],
-                "sousTitres": []
-            },
-            "titreOriginal": "The Secret Life of Pets",
+            "ignoreInCollection": true,
             "langueOriginale": "en"
         },
         {
@@ -49718,36 +49632,32 @@
             "langueOriginale": "ru"
         },
         {
-            "id": "tmdb_870028",
-            "titre": "Mr Wolff 2",
-            "annee": 2025,
+            "id": "tmdb_328111",
+            "titre": "Comme des bêtes",
+            "annee": 2016,
             "langue": [
                 "TBD"
             ],
             "taille": 0,
-            "genre": [
-                "Crime",
-                "Thriller",
-                "Drame"
-            ],
-            "image": "https://image.tmdb.org/t/p/w342/kgzWQPNZp3byMamRr6Mm1KdgzUl.jpg",
+            "genre": [],
+            "image": "https://image.tmdb.org/t/p/w342/cn7mFB0sCeQJO8MAyl15yFp0rpc.jpg",
             "fichier": null,
             "nomFichier": null,
-            "tmdbId": 870028,
-            "tmdbUrl": "https://www.themoviedb.org/movie/870028",
+            "tmdbId": 328111,
+            "tmdbUrl": "https://www.themoviedb.org/movie/328111",
             "doublonExact": false,
             "doublonProbable": false,
             "groupeDoublon": null,
             "dateAjout": null,
-            "titreTmdb": "Mr Wolff 2",
-            "titreOriginal": "The Accountant²",
-            "anneeTmdb": 2025,
-            "descriptionTmdb": "Christian Wolff est doué pour résoudre les problèmes. Quand une vieille connaissance est tuée en laissant un message énigmatique disant de \"trouver le comptable\", Wolff doit recruter son dangereux frère Brax pour élucider l'affaire. En partenariat avec la directrice adjointe du Trésor américain, Medina, ils découvrent une conspiration mortelle et deviennent les cibles d'un réseau de tueurs.",
-            "collectionId": 870339,
-            "collectionNom": "Mr Wolff - Saga",
+            "titreTmdb": "Comme des bêtes",
+            "titreOriginal": "The Secret Life of Pets",
+            "anneeTmdb": 2016,
+            "descriptionTmdb": "Que font nos animaux de compagnie pendant notre absence ? Ils se réunissent pour échanger les derniers potins, s'abandonner à leurs gourmandises préférées ou organiser des fêtes gigantesques. Mais Max, un Jack Russell ultra gâté par sa maîtresse Katie, voit son petit monde bouleversé lorsque cette dernière ramène à la maison Duke, un gros bâtard mal léché. Ce duo mal assorti va alors devoir mettre ses susceptibilités de côté pour s'unir face à l'adversité des rues de New York et rejoindre leur appartement avant le retour de Katie pour le dîner.",
+            "collectionId": 427084,
+            "collectionNom": "Comme des bêtes - Saga",
             "type": "Film",
             "studio": null,
-            "ignoreInCollection": false
+            "ignoreInCollection": true
         }
     ],
     "series": [
@@ -69822,17 +69732,17 @@
     "stockage": [
         {
             "lecteur": "E",
-            "espaceLibre": 162876637184,
+            "espaceLibre": 162691039232,
             "capaciteTotale": 500001927168
         },
         {
             "lecteur": "Y",
-            "espaceLibre": 540547444736,
+            "espaceLibre": 542013521920,
             "capaciteTotale": 2000396742656
         },
         {
             "lecteur": "Z",
-            "espaceLibre": 47397982208,
+            "espaceLibre": 49313968128,
             "capaciteTotale": 1000169533440
         }
     ]
