@@ -270,6 +270,71 @@ function getTechnicalQualityClass(width) {
   return "film-technical-low";
 }
 
+function renderAudioLanguages(audioInfo, audioLanguages, metadata, film) {
+  audioInfo.innerHTML = "";
+  audioInfo.classList.remove("language-editor");
+  metadata.classList.remove("language-metadata-hidden");
+  const audioIcon = document.createElement("span");
+  audioIcon.textContent = "🔊";
+  audioIcon.style.cursor = "pointer";
+  audioIcon.onclick = (event) => {
+    event.stopPropagation();
+    renderAudioLanguageEditor(audioInfo, audioLanguages, metadata, film);
+  };
+  audioInfo.appendChild(audioIcon);
+  if (audioLanguages.length) {
+    audioInfo.append(` ${audioLanguages.join(" · ")}`);
+  }
+}
+function renderAudioLanguageEditor(audioInfo, audioLanguages, metadata, film) {
+  audioInfo.innerHTML = "";
+  audioInfo.classList.add("language-editor");
+  metadata.classList.add("language-metadata-hidden");
+  const closeEditor = () => {
+    document.removeEventListener("click", closeEditor);
+    renderAudioLanguages(audioInfo, audioLanguages, metadata);
+  };
+  for (const language of ["FR", "EN"]) {
+    const button = document.createElement("button");
+    button.type = "button";
+    button.textContent = language;
+    button.className = "language-button";
+    button.classList.toggle("active", audioLanguages.includes(language));
+    button.onclick = async (event) => {
+      event.stopPropagation();
+      button.classList.toggle("active");
+      audioLanguages.splice(
+        0,
+        audioLanguages.length,
+        ...[...audioInfo.querySelectorAll(".language-button.active")].map(
+          (button) => button.textContent,
+        ),
+      );
+      document.removeEventListener("click", closeEditor);
+      renderAudioLanguages(audioInfo, audioLanguages, metadata, film);
+      const response = await fetch(
+        "http://127.0.0.1:9876/save-film-languages",
+        {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify({
+            fichier: film.fichier,
+            type: "audio",
+            languages: audioLanguages,
+          }),
+        },
+      );
+      if (!response.ok) {
+        throw new Error(await response.text());
+      }
+    };
+    audioInfo.appendChild(button);
+  }
+  setTimeout(() => document.addEventListener("click", closeEditor), 0);
+}
+
 function createFilmFileCard(film) {
   const card = document.createElement("article");
   card.className = "film-file-card";
@@ -419,10 +484,12 @@ function createFilmFileCard(film) {
   leftInfo.appendChild(downloadButton);
   leftInfo.appendChild(metadata);
 
-  const audioLanguages = getTechnicalLanguages(technique?.audio);
+  const audioLanguages = Array.isArray(film.languesAudio)
+    ? [...film.languesAudio]
+    : [];
   const audioInfo = document.createElement("div");
   audioInfo.className = "film-technical-info";
-  audioInfo.textContent = `🔊${audioLanguages.length ? ` ${audioLanguages.join(" · ")}` : ""}`;
+  renderAudioLanguages(audioInfo, audioLanguages, metadata, film);
 
   const subtitleLanguages = getTechnicalLanguages(technique?.sousTitres);
   const subtitleInfo = document.createElement("div");

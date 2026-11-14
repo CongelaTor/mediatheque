@@ -688,6 +688,14 @@ background: #f97316;
     flex-wrap: wrap;
 }
 
+.language-editor {
+    display: flex !important;
+    align-items: center;
+    gap: 8px;
+}
+.language-metadata-hidden {
+    visibility: hidden;
+}
 .language-button {
     border: 1px solid transparent;
     padding: 10px 18px;

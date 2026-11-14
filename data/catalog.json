@@ -1,6 +1,6 @@
 {
     "version": 1,
-    "dateDernierScan": "2026-11-14T08:35:21.453Z",
+    "dateDernierScan": "2026-11-14T15:50:19.406Z",
     "collections": [
         {
             "collectionId": 9485,
@@ -10871,8 +10871,8 @@
             "tmdbId": 7551,
             "tmdbUrl": "https://www.themoviedb.org/movie/7551",
             "doublonExact": false,
-            "doublonProbable": true,
-            "groupeDoublon": "deja_vu",
+            "doublonProbable": false,
+            "groupeDoublon": null,
             "dateAjout": "2026-11-14T08:27:59.431Z",
             "technique": {
                 "largeur": 1920,
@@ -11672,6 +11672,36 @@
                 ]
             },
             "titreOriginal": "Die Hard"
+        },
+        {
+            "id": "tmdb_453395",
+            "titre": "Doctor Strange in the Multiverse of Madness",
+            "annee": 2022,
+            "langue": [
+                "TBD"
+            ],
+            "taille": 0,
+            "genre": [
+                "Science-Fiction"
+            ],
+            "image": "https://image.tmdb.org/t/p/w342/arfzjn1tGvXWwkX7eaGVuXsc0mp.jpg",
+            "fichier": null,
+            "nomFichier": null,
+            "tmdbId": 453395,
+            "tmdbUrl": "https://www.themoviedb.org/movie/453395",
+            "doublonExact": false,
+            "doublonProbable": false,
+            "groupeDoublon": null,
+            "dateAjout": null,
+            "titreTmdb": "Doctor Strange in the Multiverse of Madness",
+            "titreOriginal": "Doctor Strange in the Multiverse of Madness",
+            "anneeTmdb": 2022,
+            "descriptionTmdb": "Le Docteur Strange lance un sort interdit qui ouvre le portail du Multivers, incluant des versions alternatives de lui-même. Cette menace à l'humanité est plus puissante que les pouvoirs combinés de Strange, Wong et Wanda Maximoff.",
+            "collectionId": 618529,
+            "collectionNom": "Doctor Strange - Saga",
+            "type": "Film",
+            "studio": "Marvel",
+            "ignoreInCollection": false
         },
         {
             "id": "draft_day_2014",
@@ -15981,8 +16011,8 @@
             "tmdbId": 550988,
             "tmdbUrl": "https://www.themoviedb.org/movie/550988",
             "doublonExact": false,
-            "doublonProbable": true,
-            "groupeDoublon": "free_guy",
+            "doublonProbable": false,
+            "groupeDoublon": null,
             "dateAjout": "2026-08-27T11:57:48.079Z",
             "titreTmdb": "Free Guy",
             "anneeTmdb": "2021",
@@ -17618,7 +17648,11 @@
                 ],
                 "sousTitres": []
             },
-            "titreOriginal": "Gone in Sixty Seconds"
+            "titreOriginal": "Gone in Sixty Seconds",
+            "languesAudio": [
+                "FR",
+                "EN"
+            ]
         },
         {
             "id": "gone_in_60_seconds_voa_lc_2000",
@@ -18350,8 +18384,8 @@
             "tmdbId": 447365,
             "tmdbUrl": "https://www.themoviedb.org/movie/447365",
             "doublonExact": false,
-            "doublonProbable": false,
-            "groupeDoublon": null,
+            "doublonProbable": true,
+            "groupeDoublon": "guardians_of_the_galaxy_3",
             "dateAjout": "2026-11-10T08:51:25.697Z",
             "titreTmdb": "Les Gardiens de la Galaxie : Volume 3",
             "anneeTmdb": "2023",
@@ -18427,8 +18461,8 @@
             "tmdbId": 447365,
             "tmdbUrl": "https://www.themoviedb.org/movie/447365",
             "doublonExact": false,
-            "doublonProbable": false,
-            "groupeDoublon": null,
+            "doublonProbable": true,
+            "groupeDoublon": "guardians_of_the_galaxy_3",
             "dateAjout": "2026-11-14T08:28:01.256Z",
             "technique": {
                 "largeur": 1280,
@@ -21373,8 +21407,8 @@
             "tmdbId": 10138,
             "tmdbUrl": "https://www.themoviedb.org/movie/10138",
             "doublonExact": false,
-            "doublonProbable": false,
-            "groupeDoublon": null,
+            "doublonProbable": true,
+            "groupeDoublon": "iron_man_2",
             "dateAjout": "2026-11-14T08:28:01.903Z",
             "technique": {
                 "largeur": 640,
@@ -21437,8 +21471,8 @@
             "tmdbId": 10138,
             "tmdbUrl": "https://www.themoviedb.org/movie/10138",
             "doublonExact": false,
-            "doublonProbable": false,
-            "groupeDoublon": null,
+            "doublonProbable": true,
+            "groupeDoublon": "iron_man_2",
             "dateAjout": "2026-08-27T11:57:48.103Z",
             "titreTmdb": "Iron Man 2",
             "anneeTmdb": "2010",
@@ -37630,7 +37664,7 @@
             "titre": "secondes chrono",
             "annee": null,
             "langue": [
-                "TBD"
+                "VF"
             ],
             "taille": 726675864,
             "genre": [
@@ -37688,7 +37722,10 @@
                 ],
                 "sousTitres": []
             },
-            "titreOriginal": "Gone in Sixty Seconds"
+            "titreOriginal": "Gone in Sixty Seconds",
+            "languesAudio": [
+                "EN"
+            ]
         },
         {
             "id": "secret_defense",
@@ -49001,36 +49038,6 @@
             "collectionNom": "Snow Queen - Saga",
             "type": "Animation",
             "studio": null,
-            "ignoreInCollection": false
-        },
-        {
-            "id": "tmdb_453395",
-            "titre": "Doctor Strange in the Multiverse of Madness",
-            "annee": 2022,
-            "langue": [
-                "TBD"
-            ],
-            "taille": 0,
-            "genre": [
-                "Science-Fiction"
-            ],
-            "image": "https://image.tmdb.org/t/p/w342/arfzjn1tGvXWwkX7eaGVuXsc0mp.jpg",
-            "fichier": null,
-            "nomFichier": null,
-            "tmdbId": 453395,
-            "tmdbUrl": "https://www.themoviedb.org/movie/453395",
-            "doublonExact": false,
-            "doublonProbable": false,
-            "groupeDoublon": null,
-            "dateAjout": null,
-            "titreTmdb": "Doctor Strange in the Multiverse of Madness",
-            "titreOriginal": "Doctor Strange in the Multiverse of Madness",
-            "anneeTmdb": 2022,
-            "descriptionTmdb": "Le Docteur Strange lance un sort interdit qui ouvre le portail du Multivers, incluant des versions alternatives de lui-même. Cette menace à l'humanité est plus puissante que les pouvoirs combinés de Strange, Wong et Wanda Maximoff.",
-            "collectionId": 618529,
-            "collectionNom": "Doctor Strange - Saga",
-            "type": "Film",
-            "studio": "Marvel",
             "ignoreInCollection": false
         }
     ],
@@ -69106,17 +69113,17 @@
     "stockage": [
         {
             "lecteur": "E",
-            "espaceLibre": 154618171392,
+            "espaceLibre": 162876637184,
             "capaciteTotale": 500001927168
         },
         {
             "lecteur": "Y",
-            "espaceLibre": 537354407936,
+            "espaceLibre": 540547444736,
             "capaciteTotale": 2000396742656
         },
         {
             "lecteur": "Z",
-            "espaceLibre": 47398006784,
+            "espaceLibre": 47397982208,
             "capaciteTotale": 1000169533440
         }
     ]
