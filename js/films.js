@@ -463,6 +463,8 @@ function renderFilmSearchButtons(container) {
         separator,
       );
       window.open(`${site.url}${encodedSearchText}`, "_blank", "noopener");
+      // window.open(`${site.url}${encodedSearchText}`, 'FilmSearchWindow', 'noopener,noreferrer');
+      closeFilmSearchModal();
     };
     container.appendChild(button);
   }

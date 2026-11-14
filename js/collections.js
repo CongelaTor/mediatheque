@@ -64,6 +64,22 @@ window.addEventListener("pageshow", async (event) => {
   renderCollections();
 });
 
+function getCollectionLatestDate(collection) {
+  let latestTime = 0;
+  for (const collectionFilm of collection.films) {
+    const realFiles = catalog.films.filter(
+      (f) => Number(f.tmdbId) === Number(collectionFilm.tmdbId) && f.dateAjout,
+    );
+    for (const file of realFiles) {
+      const fileTime = new Date(file.dateAjout).getTime();
+      if (!isNaN(fileTime) && fileTime > latestTime) {
+        latestTime = fileTime;
+      }
+    }
+  }
+  return latestTime;
+}
+
 function renderCollections() {
   const grid = document.getElementById("collectionsGrid");
 
@@ -153,7 +169,17 @@ function renderCollections() {
         matchesQuality(firstFilm)
       );
     })
-    .sort((a, b) => a.nom.localeCompare(b.nom, "fr"));
+    .sort((a, b) => {
+      if (currentAjouts === "Récents") {
+        const timeA = getCollectionLatestDate(a);
+        const timeB = getCollectionLatestDate(b);
+        if (timeA !== timeB) {
+          return timeB - timeA; // Tri décroissant (le plus récent en premier)
+        }
+      }
+      return a.nom.localeCompare(b.nom, "fr");
+    });
+
   setText("sideCollections", collections.size);
   const groupedFilms = new Set();
   for (const film of catalog.films) {

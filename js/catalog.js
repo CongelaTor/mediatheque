@@ -158,6 +158,105 @@ function updateStats() {
   setText("sideNouveautes", nouveautesCount);
   setText("sideSeries", seriesCount);
   setText("sideEpisodes", episodesCount);
+
+  // --- Rendre la ligne des collections/films cliquable pour réinitialiser le filtre à "all" ---
+  // --- Rendre la ligne des films/collections cliquable pour réinitialiser le filtre à "all" selon l'écran ---
+  const sideFilmsEl = document.getElementById("sideFilms");
+  if (sideFilmsEl) {
+    const statRow = sideFilmsEl.closest(".sidebar-stat");
+    if (statRow) {
+      const isCollectionsScreen = currentPage === "collections";
+
+      statRow.style.cursor = "pointer";
+      statRow.title = isCollectionsScreen
+        ? "Afficher toutes les collections"
+        : "Afficher tous les films";
+
+      statRow.onclick = () => {
+        // Utiliser selectAjouts("all") pour synchroniser l'UI, le stockage et le rendu de l'écran actif
+        if (typeof selectAjouts === "function") {
+          selectAjouts("all");
+        } else {
+          currentAjouts = "all";
+          if (typeof updateSidebarTitle === "function") {
+            updateSidebarTitle("ajoutsTitle", "SELECTION", "all");
+          }
+          if (typeof saveSidebarFiltersState === "function") {
+            saveSidebarFiltersState({ ajouts: currentAjouts });
+          }
+          if (isCollectionsScreen && typeof renderCollections === "function") {
+            renderCollections();
+          } else if (
+            currentPage === "films" &&
+            typeof renderFilms === "function"
+          ) {
+            renderFilms();
+          }
+        }
+      };
+    }
+  }
+  // Rendre la ligne des nouveautés cliquable si count > 0 et masquer si contexte collection
+  const sideNouveautesEl = document.getElementById("sideNouveautes");
+  if (sideNouveautesEl) {
+    const statRow = sideNouveautesEl.closest(".sidebar-stat");
+    const isCollectionContext =
+      currentPage === "collections" ||
+      (typeof isCollectionContextActive === "function" &&
+        isCollectionContextActive());
+
+    if (statRow) {
+      if (isCollectionContext) {
+        // Reste masqué dans le contexte collection (pas de clignotement)
+        statRow.style.display = "none";
+      } else {
+        // Hors contexte collection : on l'affiche et on gère son interactivité
+        statRow.style.display = "";
+        if (nouveautesCount > 0) {
+          statRow.style.cursor = "pointer";
+          statRow.title = "Filtrer par Nouveautés";
+          statRow.onclick = () => {
+            const nouveautesButton =
+              document.querySelector(
+                '.sidebar-link[data-ajouts="Nouveautés"]',
+              ) ||
+              [
+                ...document.querySelectorAll(
+                  ".sidebar-link, .filter-button, [data-ajouts]",
+                ),
+              ].find((el) => el.textContent.includes("Nouveautés"));
+
+            if (nouveautesButton) {
+              nouveautesButton.click();
+            } else if (typeof currentAjouts !== "undefined") {
+              currentAjouts = "Nouveautés";
+              if (typeof updateSidebarTitle === "function") {
+                updateSidebarTitle("ajoutsTitle", "SELECTION", currentAjouts);
+              }
+              if (typeof saveSidebarFiltersState === "function") {
+                saveSidebarFiltersState({ ajouts: currentAjouts });
+              }
+              if (
+                currentPage === "films" &&
+                typeof renderFilms === "function"
+              ) {
+                renderFilms();
+              } else if (
+                currentPage === "collections" &&
+                typeof renderCollections === "function"
+              ) {
+                renderCollections();
+              }
+            }
+          };
+        } else {
+          statRow.style.cursor = "default";
+          statRow.title = "";
+          statRow.onclick = null;
+        }
+      }
+    }
+  }
   setText(
     "homeSeriesStats",
     `${seriesCount} séries • ${episodesCount} épisodes • ${formatMediaSize(seriesSize)}`,

@@ -1,6 +1,6 @@
 {
     "version": 1,
-    "dateDernierScan": "2026-11-12T12:16:35.629Z",
+    "dateDernierScan": "2026-11-14T08:35:21.453Z",
     "collections": [
         {
             "collectionId": 9485,
@@ -2719,62 +2719,70 @@
             "titre": "American Sniper",
             "annee": 2014,
             "langue": [
-                "VF"
+                "TBD"
             ],
-            "taille": 1467695108,
+            "taille": 3001669700,
             "genre": [
-                "Guerre"
+                "Guerre",
+                "Action"
             ],
             "image": "https://image.tmdb.org/t/p/w342/9BEN7zRpoLBaBU3t97kPJkHUgnv.jpg",
-            "fichier": "/Box_Films/Drame/American.Sniper.2014.FRENCH.DVDRip.XviD-GLUPS.avi",
-            "nomFichier": "American.Sniper.2014.FRENCH.DVDRip.XviD-GLUPS.avi",
+            "fichier": "/03_Films/American Sniper 2014 1080p VFF Dts Hdlight x264-T911.mkv",
+            "nomFichier": "American Sniper 2014 1080p VFF Dts Hdlight x264-T911.mkv",
             "imdbId": null,
             "tmdbId": 190859,
             "tmdbUrl": "https://www.themoviedb.org/movie/190859",
             "doublonExact": false,
             "doublonProbable": false,
             "groupeDoublon": null,
-            "dateAjout": "2026-08-22T08:23:33.612Z",
+            "dateAjout": "2026-11-14T08:27:56.398Z",
+            "technique": {
+                "largeur": 1920,
+                "hauteur": 800,
+                "resolution": "1920x800",
+                "ratioImage": 2.4,
+                "codecVideo": "h264",
+                "profilVideo": "High",
+                "pixelFormat": "yuv420p",
+                "bitsParComposante": 8,
+                "bitrateVideo": null,
+                "framerate": 23.976,
+                "espaceCouleur": "bt709",
+                "transfertCouleur": "bt709",
+                "primairesCouleur": "bt709",
+                "hdr": false,
+                "dureeFichier": 7959.904,
+                "bitrateGlobal": 3016789,
+                "formatConteneur": "matroska,webm",
+                "audio": [
+                    {
+                        "codec": "dts",
+                        "profil": "DTS",
+                        "canaux": 6,
+                        "disposition": "5.1(side)",
+                        "bitrate": 768000,
+                        "frequence": 48000,
+                        "langue": "fre"
+                    }
+                ],
+                "sousTitres": [
+                    {
+                        "codec": "subrip",
+                        "langue": "fre",
+                        "titre": "FR FORCES"
+                    }
+                ]
+            },
             "titreTmdb": "American Sniper",
+            "titreOriginal": "American Sniper",
             "anneeTmdb": "2014",
             "dureeTmdb": 132,
             "descriptionTmdb": "Tireur d’élite des Navy SEAL, Chris Kyle est envoyé en Irak dans un seul but : protéger ses camarades. Sa précision chirurgicale sauve d’innombrables vies humaines sur le champ de bataille et, tandis que les récits de ses exploits se multiplient, il décroche le surnom de « La Légende ». Cependant, sa réputation se propage au-delà des lignes ennemies, si bien que sa tête est mise à prix et qu’il devient une cible privilégiée des insurgés. Malgré le danger, et l’angoisse dans laquelle vit sa famille, Chris participe à quatre batailles décisives parmi les plus terribles de la guerre en Irak, s’imposant ainsi comme l’incarnation vivante de la devise des SEAL : « Pas de quartier ! ». Mais en rentrant au pays, Chris prend conscience qu’il ne parvient pas à retrouver une vie normale.",
             "collectionId": null,
             "collectionNom": null,
-            "type": "Film",
-            "studio": null,
-            "technique": {
-                "largeur": 704,
-                "hauteur": 304,
-                "resolution": "704x304",
-                "ratioImage": 2.316,
-                "codecVideo": "mpeg4",
-                "profilVideo": "Advanced Simple Profile",
-                "pixelFormat": "yuv420p",
-                "bitsParComposante": null,
-                "bitrateVideo": 1400462,
-                "framerate": 25,
-                "espaceCouleur": null,
-                "transfertCouleur": null,
-                "primairesCouleur": null,
-                "hdr": false,
-                "dureeFichier": 7633.76,
-                "bitrateGlobal": 1538109,
-                "formatConteneur": "avi",
-                "audio": [
-                    {
-                        "codec": "mp3",
-                        "profil": null,
-                        "canaux": 2,
-                        "disposition": "stereo",
-                        "bitrate": 128000,
-                        "frequence": 48000,
-                        "langue": null
-                    }
-                ],
-                "sousTitres": []
-            },
-            "titreOriginal": "American Sniper"
+            "collectionDescription": null,
+            "collectionImage": null,
+            "collectionTmdbUrl": null
         },
         {
             "id": "angel_eyes",
@@ -4022,7 +4030,7 @@
                 "Science-Fiction"
             ],
             "image": "https://image.tmdb.org/t/p/w342/7N8L80OaG8EBTDdRBjGqT8PBzCM.jpg",
-            "fichier": "/Box_Films/0 - New/A trier/Avatar.2009.Extended.Collectors.Cut.VFF.BluRay.720p.x264-BigZT.mkv",
+            "fichier": "/Box_Films/0 - New/Avatar.2009.Extended.Collectors.Cut.VFF.BluRay.720p.x264-BigZT.mkv",
             "nomFichier": "Avatar.2009.Extended.Collectors.Cut.VFF.BluRay.720p.x264-BigZT.mkv",
             "imdbId": null,
             "tmdbId": 19995,
@@ -5049,8 +5057,8 @@
             "tmdbId": 284052,
             "tmdbUrl": "https://www.themoviedb.org/movie/284052",
             "doublonExact": false,
-            "doublonProbable": true,
-            "groupeDoublon": "b_doctor_strange",
+            "doublonProbable": false,
+            "groupeDoublon": null,
             "dateAjout": "2026-08-27T11:57:48.163Z",
             "titreTmdb": "Doctor Strange",
             "anneeTmdb": "2016",
@@ -5091,71 +5099,6 @@
                         "bitrate": 447578,
                         "frequence": 48000,
                         "langue": "fra"
-                    }
-                ],
-                "sousTitres": []
-            },
-            "titreOriginal": "Doctor Strange"
-        },
-        {
-            "id": "b_doctor_strange_2016",
-            "titre": "b Doctor Strange",
-            "annee": 2016,
-            "langue": [
-                "VOSTFR"
-            ],
-            "taille": 999923462,
-            "genre": [
-                "Science-Fiction"
-            ],
-            "image": "https://image.tmdb.org/t/p/w342/7wZ7mx7tY5SgflQKuJmQvwu3wGm.jpg",
-            "fichier": "/01_Films/Marvel/2016 b Doctor.Strange.2016.FANSUB.VOSTFR.HDTV.Xvid-EXTREME.avi",
-            "nomFichier": "2016 b Doctor.Strange.2016.FANSUB.VOSTFR.HDTV.Xvid-EXTREME.avi",
-            "imdbId": null,
-            "tmdbId": 284052,
-            "tmdbUrl": "https://www.themoviedb.org/movie/284052",
-            "doublonExact": false,
-            "doublonProbable": true,
-            "groupeDoublon": "b_doctor_strange",
-            "dateAjout": "2026-08-27T11:57:48.166Z",
-            "titreTmdb": "Doctor Strange",
-            "anneeTmdb": "2016",
-            "dureeTmdb": 115,
-            "descriptionTmdb": "Le neurochirurgien Stephen Strange, en quête de guérison, trouve des pouvoirs magiques dans un endroit mystérieux, connu sous le nom de Kamar-Taj, la ligne de front d'un combat contre des forces obscures invisibles, essayant de détruire notre réalité.",
-            "collectionId": 618529,
-            "collectionNom": "Doctor Strange - Saga",
-            "collectionDescription": "Cette série raconte l'histoire du neurochirurgien Stephen Strange qui, après avoir perdu la capacité d'utiliser ses mains après un accident de voiture, demande l'aide de \"L'ancien\" pour devenir un maître des arts mystiques connu sous le nom de Doctor Strange.",
-            "collectionImage": "https://image.tmdb.org/t/p/w500/jGyjFboipgcBwvnrORWjZqoxOeR.jpg",
-            "collectionTmdbUrl": "https://www.themoviedb.org/collection/618529",
-            "type": "Film",
-            "studio": "Marvel",
-            "technique": {
-                "largeur": 720,
-                "hauteur": 404,
-                "resolution": "720x404",
-                "ratioImage": 1.782,
-                "codecVideo": "mpeg4",
-                "profilVideo": "Simple Profile",
-                "pixelFormat": "yuv420p",
-                "bitsParComposante": null,
-                "bitrateVideo": 1015986,
-                "framerate": 23.976,
-                "espaceCouleur": null,
-                "transfertCouleur": null,
-                "primairesCouleur": null,
-                "hdr": false,
-                "dureeFichier": 6915.768,
-                "bitrateGlobal": 1156688,
-                "formatConteneur": "avi",
-                "audio": [
-                    {
-                        "codec": "mp3",
-                        "profil": null,
-                        "canaux": 2,
-                        "disposition": "stereo",
-                        "bitrate": 128000,
-                        "frequence": 48000,
-                        "langue": null
                     }
                 ],
                 "sousTitres": []
@@ -8734,54 +8677,45 @@
             "titreOriginal": "Casino Royale"
         },
         {
-            "id": "catwoman_5_1_2004",
-            "titre": "Catwoman ( ) 5 1",
+            "id": "catwoman_2004",
+            "titre": "Catwoman",
             "annee": 2004,
             "langue": [
-                "TBD"
+                "VF"
             ],
-            "taille": 2893192700,
+            "taille": 3937927577,
             "genre": [
-                "Science-Fiction"
+                "Action",
+                "Fantastique",
+                "Crime"
             ],
             "image": "https://image.tmdb.org/t/p/w342/k2nCH7FrNM88CV0LsJ555WZhU55.jpg",
-            "fichier": "/01_Films/Marvel/Catwoman (2004) AC3 5.1 ITA.ENG 1080p H265 sub ita.eng Sp33dy94-MIRCrew.mkv",
-            "nomFichier": "Catwoman (2004) AC3 5.1 ITA.ENG 1080p H265 sub ita.eng Sp33dy94-MIRCrew.mkv",
+            "fichier": "/01_Films/Marvel/Catwoman.2004.MULTi.TRUEFRENCH.1080p.BluRay.mHD.x264.AC3-RiFiFi.mkv",
+            "nomFichier": "Catwoman.2004.MULTi.TRUEFRENCH.1080p.BluRay.mHD.x264.AC3-RiFiFi.mkv",
             "imdbId": null,
             "tmdbId": 314,
             "tmdbUrl": "https://www.themoviedb.org/movie/314",
             "doublonExact": false,
             "doublonProbable": false,
             "groupeDoublon": null,
-            "dateAjout": "2026-08-27T11:57:48.283Z",
-            "titreTmdb": "Catwoman",
-            "anneeTmdb": "2004",
-            "dureeTmdb": 104,
-            "descriptionTmdb": "Patience Philips est une artiste douée, mais maladivement timide, qui se contente d'un modeste emploi de dessinatrice publicitaire au sein du conglomérat Hedare Beauty que dirigent le tyrannique George Hedare et sa femme, le légendaire top model Laurel. Cette société se prépare à lancer « LE » cosmétique miracle censé procurer aux femmes un visage et un corps à jamais immaculés. Patience découvre que le produit ne possède aucune de ces vertus, mais est froidement tuée par ses patrons avant d'avoir pu dénoncer l'imposture. Tout n'est pas perdu, cependant, car celle-ci ressuscite sous l'emprise d'une force mystérieuse. Elle se réincarne, magnifiée, en une femme féline, sensuelle, d'une agilité et d'une force surhumaines : Catwoman… Libérée de ses complexes, celle-ci commence par régler quelques comptes et s'offrir certains plaisirs trop longtemps négligés...",
-            "collectionId": null,
-            "collectionNom": null,
-            "collectionDescription": null,
-            "collectionImage": null,
-            "collectionTmdbUrl": null,
-            "type": "Film",
-            "studio": "Marvel",
+            "dateAjout": "2026-11-14T08:28:16.603Z",
             "technique": {
                 "largeur": 1920,
-                "hauteur": 800,
-                "resolution": "1920x800",
-                "ratioImage": 2.4,
-                "codecVideo": "hevc",
-                "profilVideo": "Main",
+                "hauteur": 1080,
+                "resolution": "1920x1080",
+                "ratioImage": 1.778,
+                "codecVideo": "h264",
+                "profilVideo": "High",
                 "pixelFormat": "yuv420p",
-                "bitsParComposante": null,
+                "bitsParComposante": 8,
                 "bitrateVideo": null,
                 "framerate": 23.976,
                 "espaceCouleur": "bt709",
                 "transfertCouleur": "bt709",
                 "primairesCouleur": "bt709",
                 "hdr": false,
-                "dureeFichier": 6257.673,
-                "bitrateGlobal": 3698745,
+                "dureeFichier": 6258.016,
+                "bitrateGlobal": 5034090,
                 "formatConteneur": "matroska,webm",
                 "audio": [
                     {
@@ -8789,39 +8723,43 @@
                         "profil": null,
                         "canaux": 6,
                         "disposition": "5.1(side)",
-                        "bitrate": 448000,
+                        "bitrate": 384000,
                         "frequence": 48000,
-                        "langue": "ita"
+                        "langue": "fre"
                     },
                     {
                         "codec": "ac3",
                         "profil": null,
                         "canaux": 6,
                         "disposition": "5.1(side)",
-                        "bitrate": 448000,
+                        "bitrate": 384000,
                         "frequence": 48000,
                         "langue": "eng"
                     }
                 ],
                 "sousTitres": [
                     {
-                        "codec": "ass",
-                        "langue": "ita",
-                        "titre": "Forced ITA Sp33dy94"
+                        "codec": "hdmv_pgs_subtitle",
+                        "langue": "fre",
+                        "titre": "French Full"
                     },
                     {
-                        "codec": "ass",
-                        "langue": "ita",
-                        "titre": "ITA Completi"
-                    },
-                    {
-                        "codec": "ass",
+                        "codec": "hdmv_pgs_subtitle",
                         "langue": "eng",
-                        "titre": "ENG Full"
+                        "titre": "English Full"
                     }
                 ]
             },
-            "titreOriginal": "Catwoman"
+            "titreTmdb": "Catwoman",
+            "titreOriginal": "Catwoman",
+            "anneeTmdb": "2004",
+            "dureeTmdb": 104,
+            "descriptionTmdb": "Patience Philips est une artiste douée, mais maladivement timide, qui se contente d'un modeste emploi de dessinatrice publicitaire au sein du conglomérat Hedare Beauty que dirigent le tyrannique George Hedare et sa femme, le légendaire top model Laurel. Cette société se prépare à lancer « LE » cosmétique miracle censé procurer aux femmes un visage et un corps à jamais immaculés. Patience découvre que le produit ne possède aucune de ces vertus, mais est froidement tuée par ses patrons avant d'avoir pu dénoncer l'imposture. Tout n'est pas perdu, cependant, car celle-ci ressuscite sous l'emprise d'une force mystérieuse. Elle se réincarne, magnifiée, en une femme féline, sensuelle, d'une agilité et d'une force surhumaines : Catwoman… Libérée de ses complexes, celle-ci commence par régler quelques comptes et s'offrir certains plaisirs trop longtemps négligés...",
+            "collectionId": null,
+            "collectionNom": null,
+            "collectionDescription": null,
+            "collectionImage": null,
+            "collectionTmdbUrl": null
         },
         {
             "id": "cendrillon_1_disney_n_16",
@@ -10913,6 +10851,161 @@
             "titreOriginal": "Dead Man Down"
         },
         {
+            "id": "deja_vu_2006",
+            "titre": "Deja Vu",
+            "annee": 2006,
+            "langue": [
+                "VF"
+            ],
+            "taille": 1472489296,
+            "genre": [
+                "Action",
+                "Thriller",
+                "Science-Fiction"
+            ],
+            "image": "https://image.tmdb.org/t/p/w342/e1o8zj0U1bWxbxbNydid86JkIal.jpg",
+            "fichier": "/03_Films/Deja.Vu.2006.TRUEFRENCH.BRRip.XViD-T911.avi",
+            "nomFichier": "Deja.Vu.2006.TRUEFRENCH.BRRip.XViD-T911.avi",
+            "imdbId": null,
+            "tmdbId": 7551,
+            "tmdbUrl": "https://www.themoviedb.org/movie/7551",
+            "doublonExact": false,
+            "doublonProbable": true,
+            "groupeDoublon": "deja_vu",
+            "dateAjout": "2026-11-14T08:27:58.466Z",
+            "technique": {
+                "largeur": 720,
+                "hauteur": 300,
+                "resolution": "720x300",
+                "ratioImage": 2.4,
+                "codecVideo": "mpeg4",
+                "profilVideo": "Advanced Simple Profile",
+                "pixelFormat": "yuv420p",
+                "bitsParComposante": null,
+                "bitrateVideo": 1415001,
+                "framerate": 25,
+                "espaceCouleur": null,
+                "transfertCouleur": null,
+                "primairesCouleur": null,
+                "hdr": false,
+                "dureeFichier": 7586.88,
+                "bitrateGlobal": 1552669,
+                "formatConteneur": "avi",
+                "audio": [
+                    {
+                        "codec": "mp3",
+                        "profil": null,
+                        "canaux": 2,
+                        "disposition": "stereo",
+                        "bitrate": 128000,
+                        "frequence": 48000,
+                        "langue": null
+                    }
+                ],
+                "sousTitres": []
+            },
+            "titreTmdb": "Déjà vu",
+            "titreOriginal": "Déjà Vu",
+            "anneeTmdb": "2006",
+            "dureeTmdb": 130,
+            "descriptionTmdb": "Alors qu'il enquête sur l'explosion d'une bombe sur un ferry à la Nouvelle Orléans, l'agent Doug Carlin se voit enrôlé au sein d'une nouvelle cellule du FBI ayant accès à un appareil gouvernemental top secret permettant d'ouvrir une «fenêtre sur le temps», et ainsi de retrouver les preuves nécessaires à l'arrestation d'importants criminels. Cette fenêtre permet d'observer des évènements dans le passé s'étant déroulés quatre jours, six heures et quelques minutes auparavant... pas une de plus, pas une de moins. Durant son investigation, Doug va découvrir que ce que la plupart des gens pensent n'être qu'un effet de leur mémoire est en fait un don bien plus précieux, une force qui le mènera vers une course contre la montre pour sauver des centaines d'innocents.",
+            "collectionId": null,
+            "collectionNom": null,
+            "collectionDescription": null,
+            "collectionImage": null,
+            "collectionTmdbUrl": null
+        },
+        {
+            "id": "deja_vu",
+            "titre": "Deja Vu",
+            "annee": null,
+            "langue": [
+                "VO",
+                "VF"
+            ],
+            "taille": 3014983777,
+            "genre": [
+                "Action",
+                "Thriller",
+                "Science-Fiction"
+            ],
+            "image": "https://image.tmdb.org/t/p/w342/e1o8zj0U1bWxbxbNydid86JkIal.jpg",
+            "fichier": "/03_Films/Deja_Vu_2006_Multi-VF2_1080p_Bluray_HDlight.x264~Tonyk.mp4",
+            "nomFichier": "Deja_Vu_2006_Multi-VF2_1080p_Bluray_HDlight.x264~Tonyk.mp4",
+            "imdbId": null,
+            "tmdbId": 7551,
+            "tmdbUrl": "https://www.themoviedb.org/movie/7551",
+            "doublonExact": false,
+            "doublonProbable": true,
+            "groupeDoublon": "deja_vu",
+            "dateAjout": "2026-11-14T08:27:59.431Z",
+            "technique": {
+                "largeur": 1920,
+                "hauteur": 800,
+                "resolution": "1920x800",
+                "ratioImage": 2.4,
+                "codecVideo": "h264",
+                "profilVideo": "High",
+                "pixelFormat": "yuv420p",
+                "bitsParComposante": 8,
+                "bitrateVideo": null,
+                "framerate": 24,
+                "espaceCouleur": "bt709",
+                "transfertCouleur": "bt709",
+                "primairesCouleur": "bt709",
+                "hdr": false,
+                "dureeFichier": 7586.992,
+                "bitrateGlobal": 3179108,
+                "formatConteneur": "matroska,webm",
+                "audio": [
+                    {
+                        "codec": "ac3",
+                        "profil": null,
+                        "canaux": 6,
+                        "disposition": "5.1(side)",
+                        "bitrate": 448000,
+                        "frequence": 48000,
+                        "langue": "fre"
+                    },
+                    {
+                        "codec": "ac3",
+                        "profil": null,
+                        "canaux": 6,
+                        "disposition": "5.1(side)",
+                        "bitrate": 448000,
+                        "frequence": 48000,
+                        "langue": "eng"
+                    },
+                    {
+                        "codec": "ac3",
+                        "profil": null,
+                        "canaux": 2,
+                        "disposition": "stereo",
+                        "bitrate": 192000,
+                        "frequence": 48000,
+                        "langue": "fre"
+                    }
+                ],
+                "sousTitres": [
+                    {
+                        "codec": "hdmv_pgs_subtitle",
+                        "langue": "fre",
+                        "titre": null
+                    }
+                ]
+            },
+            "titreTmdb": "Déjà vu",
+            "titreOriginal": "Déjà Vu",
+            "anneeTmdb": "2006",
+            "dureeTmdb": 130,
+            "descriptionTmdb": "Alors qu'il enquête sur l'explosion d'une bombe sur un ferry à la Nouvelle Orléans, l'agent Doug Carlin se voit enrôlé au sein d'une nouvelle cellule du FBI ayant accès à un appareil gouvernemental top secret permettant d'ouvrir une «fenêtre sur le temps», et ainsi de retrouver les preuves nécessaires à l'arrestation d'importants criminels. Cette fenêtre permet d'observer des évènements dans le passé s'étant déroulés quatre jours, six heures et quelques minutes auparavant... pas une de plus, pas une de moins. Durant son investigation, Doug va découvrir que ce que la plupart des gens pensent n'être qu'un effet de leur mémoire est en fait un don bien plus précieux, une force qui le mènera vers une course contre la montre pour sauver des centaines d'innocents.",
+            "collectionId": null,
+            "collectionNom": null,
+            "collectionDescription": null,
+            "collectionImage": null,
+            "collectionTmdbUrl": null
+        },
+        {
             "id": "deja_vu",
             "titre": "Déjà vu",
             "annee": null,
@@ -11706,837 +11799,6 @@
                 ]
             },
             "titreOriginal": "Die Hard"
-        },
-        {
-            "id": "doctor_strange_hd_cpg_2016",
-            "titre": "Doctor Strange",
-            "annee": 2016,
-            "langue": [
-                "TBD"
-            ],
-            "taille": 1955033855,
-            "genre": [
-                "Science-Fiction"
-            ],
-            "image": "https://image.tmdb.org/t/p/w342/7wZ7mx7tY5SgflQKuJmQvwu3wGm.jpg",
-            "fichier": "/Box_Films/cpy/Doctor Strange 2016 HD-TS x264 AC3-CPG.mkv",
-            "nomFichier": "Doctor Strange 2016 HD-TS x264 AC3-CPG.mkv",
-            "imdbId": null,
-            "tmdbId": 284052,
-            "tmdbUrl": "https://www.themoviedb.org/movie/284052",
-            "doublonExact": false,
-            "doublonProbable": false,
-            "groupeDoublon": null,
-            "dateAjout": "2026-08-22T15:11:14.266Z",
-            "titreTmdb": "Doctor Strange",
-            "anneeTmdb": "2016",
-            "dureeTmdb": 115,
-            "descriptionTmdb": "Le neurochirurgien Stephen Strange, en quête de guérison, trouve des pouvoirs magiques dans un endroit mystérieux, connu sous le nom de Kamar-Taj, la ligne de front d'un combat contre des forces obscures invisibles, essayant de détruire notre réalité.",
-            "collectionId": 618529,
-            "collectionNom": "Doctor Strange - Saga",
-            "type": "Film",
-            "studio": "Marvel",
-            "technique": {
-                "largeur": 720,
-                "hauteur": 352,
-                "resolution": "720x352",
-                "ratioImage": 2.045,
-                "codecVideo": "h264",
-                "profilVideo": "High",
-                "pixelFormat": "yuvj420p",
-                "bitsParComposante": 8,
-                "bitrateVideo": null,
-                "framerate": 29.97,
-                "espaceCouleur": "bt709",
-                "transfertCouleur": "bt709",
-                "primairesCouleur": "bt709",
-                "hdr": false,
-                "dureeFichier": 6556.221,
-                "bitrateGlobal": 2385561,
-                "formatConteneur": "matroska,webm",
-                "audio": [
-                    {
-                        "codec": "ac3",
-                        "profil": null,
-                        "canaux": 2,
-                        "disposition": "stereo",
-                        "bitrate": 192000,
-                        "frequence": 44100,
-                        "langue": null
-                    }
-                ],
-                "sousTitres": []
-            },
-            "titreOriginal": "Doctor Strange"
-        },
-        {
-            "id": "doctor_strange_2_2022",
-            "titre": "Doctor Strange 2",
-            "annee": 2022,
-            "langue": [
-                "TBD"
-            ],
-            "taille": 24369621,
-            "genre": [
-                "Science-Fiction"
-            ],
-            "image": "https://image.tmdb.org/t/p/w342/arfzjn1tGvXWwkX7eaGVuXsc0mp.jpg",
-            "fichier": "/01_Films/Marvel/2022 Doctor Strange 2 - Bonus BR OPUS VFF VFQ ENG 1080p x265 10Bits T0M/Doctor Strange 2 2022 Bonus - Bluray Looping MUSIC T0M.mkv",
-            "nomFichier": "Doctor Strange 2 2022 Bonus - Bluray Looping MUSIC T0M.mkv",
-            "imdbId": null,
-            "tmdbId": 453395,
-            "tmdbUrl": "https://www.themoviedb.org/movie/453395",
-            "doublonExact": false,
-            "doublonProbable": true,
-            "groupeDoublon": "doctor_strange_2",
-            "dateAjout": "2026-08-27T11:57:48.252Z",
-            "titreTmdb": "Doctor Strange in the Multiverse of Madness",
-            "anneeTmdb": "2022",
-            "dureeTmdb": 126,
-            "descriptionTmdb": "Le Docteur Strange lance un sort interdit qui ouvre le portail du Multivers, incluant des versions alternatives de lui-même. Cette menace à l'humanité est plus puissante que les pouvoirs combinés de Strange, Wong et Wanda Maximoff.",
-            "collectionId": 618529,
-            "collectionNom": "Doctor Strange - Saga",
-            "collectionDescription": "Cette série raconte l'histoire du neurochirurgien Stephen Strange qui, après avoir perdu la capacité d'utiliser ses mains après un accident de voiture, demande l'aide de \"L'ancien\" pour devenir un maître des arts mystiques connu sous le nom de Doctor Strange.",
-            "collectionImage": "https://image.tmdb.org/t/p/w500/jGyjFboipgcBwvnrORWjZqoxOeR.jpg",
-            "collectionTmdbUrl": "https://www.themoviedb.org/collection/618529",
-            "type": "Film",
-            "studio": "Marvel",
-            "ignoreInCollection": false,
-            "technique": {
-                "largeur": 1920,
-                "hauteur": 1080,
-                "resolution": "1920x1080",
-                "ratioImage": 1.778,
-                "codecVideo": "hevc",
-                "profilVideo": "Main 10",
-                "pixelFormat": "yuv420p10le",
-                "bitsParComposante": null,
-                "bitrateVideo": null,
-                "framerate": 23.976,
-                "espaceCouleur": "bt709",
-                "transfertCouleur": "bt709",
-                "primairesCouleur": "bt709",
-                "hdr": false,
-                "dureeFichier": 60.071,
-                "bitrateGlobal": 3245442,
-                "formatConteneur": "matroska,webm",
-                "audio": [
-                    {
-                        "codec": "opus",
-                        "profil": null,
-                        "canaux": 2,
-                        "disposition": "stereo",
-                        "bitrate": null,
-                        "frequence": 48000,
-                        "langue": "mul"
-                    }
-                ],
-                "sousTitres": []
-            },
-            "titreOriginal": "Doctor Strange in the Multiverse of Madness"
-        },
-        {
-            "id": "doctor_strange_2_2022",
-            "titre": "Doctor Strange 2",
-            "annee": 2022,
-            "langue": [
-                "TBD"
-            ],
-            "taille": 24636328,
-            "genre": [
-                "Science-Fiction"
-            ],
-            "image": "https://image.tmdb.org/t/p/w342/arfzjn1tGvXWwkX7eaGVuXsc0mp.jpg",
-            "fichier": "/01_Films/Marvel/2022 Doctor Strange 2 - Bonus BR OPUS VFF VFQ ENG 1080p x265 10Bits T0M/Doctor Strange 2 2022 Bonus - Bluray Opening MUSIC T0M.mkv",
-            "nomFichier": "Doctor Strange 2 2022 Bonus - Bluray Opening MUSIC T0M.mkv",
-            "imdbId": null,
-            "tmdbId": 453395,
-            "tmdbUrl": "https://www.themoviedb.org/movie/453395",
-            "doublonExact": false,
-            "doublonProbable": true,
-            "groupeDoublon": "doctor_strange_2",
-            "dateAjout": "2026-08-27T11:57:48.253Z",
-            "titreTmdb": "Doctor Strange in the Multiverse of Madness",
-            "anneeTmdb": "2022",
-            "dureeTmdb": 126,
-            "descriptionTmdb": "Le Docteur Strange lance un sort interdit qui ouvre le portail du Multivers, incluant des versions alternatives de lui-même. Cette menace à l'humanité est plus puissante que les pouvoirs combinés de Strange, Wong et Wanda Maximoff.",
-            "collectionId": 618529,
-            "collectionNom": "Doctor Strange - Saga",
-            "collectionDescription": "Cette série raconte l'histoire du neurochirurgien Stephen Strange qui, après avoir perdu la capacité d'utiliser ses mains après un accident de voiture, demande l'aide de \"L'ancien\" pour devenir un maître des arts mystiques connu sous le nom de Doctor Strange.",
-            "collectionImage": "https://image.tmdb.org/t/p/w500/jGyjFboipgcBwvnrORWjZqoxOeR.jpg",
-            "collectionTmdbUrl": "https://www.themoviedb.org/collection/618529",
-            "type": "Film",
-            "studio": "Marvel",
-            "technique": {
-                "largeur": 1920,
-                "hauteur": 1080,
-                "resolution": "1920x1080",
-                "ratioImage": 1.778,
-                "codecVideo": "hevc",
-                "profilVideo": "Main 10",
-                "pixelFormat": "yuv420p10le",
-                "bitsParComposante": null,
-                "bitrateVideo": null,
-                "framerate": 23.976,
-                "espaceCouleur": "bt709",
-                "transfertCouleur": "bt709",
-                "primairesCouleur": "bt709",
-                "hdr": false,
-                "dureeFichier": 60.071,
-                "bitrateGlobal": 3280961,
-                "formatConteneur": "matroska,webm",
-                "audio": [
-                    {
-                        "codec": "opus",
-                        "profil": null,
-                        "canaux": 2,
-                        "disposition": "stereo",
-                        "bitrate": null,
-                        "frequence": 48000,
-                        "langue": "mul"
-                    }
-                ],
-                "sousTitres": []
-            },
-            "titreOriginal": "Doctor Strange in the Multiverse of Madness"
-        },
-        {
-            "id": "doctor_strange_2_2022",
-            "titre": "Doctor Strange 2",
-            "annee": 2022,
-            "langue": [
-                "VOSTFR"
-            ],
-            "taille": 35120657,
-            "genre": [
-                "Science-Fiction"
-            ],
-            "image": "https://image.tmdb.org/t/p/w342/arfzjn1tGvXWwkX7eaGVuXsc0mp.jpg",
-            "fichier": "/01_Films/Marvel/2022 Doctor Strange 2 - Bonus BR OPUS VFF VFQ ENG 1080p x265 10Bits T0M/Doctor Strange 2 2022 Bonus - Gag Reel VOSTFR T0M.mkv",
-            "nomFichier": "Doctor Strange 2 2022 Bonus - Gag Reel VOSTFR T0M.mkv",
-            "imdbId": null,
-            "tmdbId": 453395,
-            "tmdbUrl": "https://www.themoviedb.org/movie/453395",
-            "doublonExact": false,
-            "doublonProbable": true,
-            "groupeDoublon": "doctor_strange_2",
-            "dateAjout": "2026-08-27T11:57:48.254Z",
-            "titreTmdb": "Doctor Strange in the Multiverse of Madness",
-            "anneeTmdb": "2022",
-            "dureeTmdb": 126,
-            "descriptionTmdb": "Le Docteur Strange lance un sort interdit qui ouvre le portail du Multivers, incluant des versions alternatives de lui-même. Cette menace à l'humanité est plus puissante que les pouvoirs combinés de Strange, Wong et Wanda Maximoff.",
-            "collectionId": 618529,
-            "collectionNom": "Doctor Strange - Saga",
-            "collectionDescription": "Cette série raconte l'histoire du neurochirurgien Stephen Strange qui, après avoir perdu la capacité d'utiliser ses mains après un accident de voiture, demande l'aide de \"L'ancien\" pour devenir un maître des arts mystiques connu sous le nom de Doctor Strange.",
-            "collectionImage": "https://image.tmdb.org/t/p/w500/jGyjFboipgcBwvnrORWjZqoxOeR.jpg",
-            "collectionTmdbUrl": "https://www.themoviedb.org/collection/618529",
-            "type": "Film",
-            "studio": "Marvel",
-            "technique": {
-                "largeur": 1920,
-                "hauteur": 1080,
-                "resolution": "1920x1080",
-                "ratioImage": 1.778,
-                "codecVideo": "hevc",
-                "profilVideo": "Main 10",
-                "pixelFormat": "yuv420p10le",
-                "bitsParComposante": null,
-                "bitrateVideo": null,
-                "framerate": 23.976,
-                "espaceCouleur": "bt709",
-                "transfertCouleur": "bt709",
-                "primairesCouleur": "bt709",
-                "hdr": false,
-                "dureeFichier": 148.583,
-                "bitrateGlobal": 1890965,
-                "formatConteneur": "matroska,webm",
-                "audio": [
-                    {
-                        "codec": "opus",
-                        "profil": null,
-                        "canaux": 6,
-                        "disposition": "5.1",
-                        "bitrate": null,
-                        "frequence": 48000,
-                        "langue": "eng"
-                    }
-                ],
-                "sousTitres": [
-                    {
-                        "codec": "hdmv_pgs_subtitle",
-                        "langue": "fre",
-                        "titre": "Français complet (Tous le film) PGS"
-                    },
-                    {
-                        "codec": "hdmv_pgs_subtitle",
-                        "langue": "eng",
-                        "titre": "English full SDH PGS"
-                    }
-                ]
-            },
-            "titreOriginal": "Doctor Strange in the Multiverse of Madness"
-        },
-        {
-            "id": "doctor_strange_2_2022",
-            "titre": "Doctor Strange 2",
-            "annee": 2022,
-            "langue": [
-                "TBD"
-            ],
-            "taille": 13807124,
-            "genre": [
-                "Science-Fiction"
-            ],
-            "image": "https://image.tmdb.org/t/p/w342/arfzjn1tGvXWwkX7eaGVuXsc0mp.jpg",
-            "fichier": "/01_Films/Marvel/2022 Doctor Strange 2 - Bonus BR OPUS VFF VFQ ENG 1080p x265 10Bits T0M/Doctor Strange 2 2022 Bonus - Logo Marvel Studios MUSIC T0M.mkv",
-            "nomFichier": "Doctor Strange 2 2022 Bonus - Logo Marvel Studios MUSIC T0M.mkv",
-            "imdbId": null,
-            "tmdbId": 453395,
-            "tmdbUrl": "https://www.themoviedb.org/movie/453395",
-            "doublonExact": false,
-            "doublonProbable": true,
-            "groupeDoublon": "doctor_strange_2",
-            "dateAjout": "2026-08-27T11:57:48.255Z",
-            "titreTmdb": "Doctor Strange in the Multiverse of Madness",
-            "anneeTmdb": "2022",
-            "dureeTmdb": 126,
-            "descriptionTmdb": "Le Docteur Strange lance un sort interdit qui ouvre le portail du Multivers, incluant des versions alternatives de lui-même. Cette menace à l'humanité est plus puissante que les pouvoirs combinés de Strange, Wong et Wanda Maximoff.",
-            "collectionId": 618529,
-            "collectionNom": "Doctor Strange - Saga",
-            "collectionDescription": "Cette série raconte l'histoire du neurochirurgien Stephen Strange qui, après avoir perdu la capacité d'utiliser ses mains après un accident de voiture, demande l'aide de \"L'ancien\" pour devenir un maître des arts mystiques connu sous le nom de Doctor Strange.",
-            "collectionImage": "https://image.tmdb.org/t/p/w500/jGyjFboipgcBwvnrORWjZqoxOeR.jpg",
-            "collectionTmdbUrl": "https://www.themoviedb.org/collection/618529",
-            "type": "Film",
-            "studio": "Marvel",
-            "technique": {
-                "largeur": 1920,
-                "hauteur": 1080,
-                "resolution": "1920x1080",
-                "ratioImage": 1.778,
-                "codecVideo": "hevc",
-                "profilVideo": "Main 10",
-                "pixelFormat": "yuv420p10le",
-                "bitsParComposante": null,
-                "bitrateVideo": null,
-                "framerate": 23.976,
-                "espaceCouleur": "bt709",
-                "transfertCouleur": "bt709",
-                "primairesCouleur": "bt709",
-                "hdr": false,
-                "dureeFichier": 36.679,
-                "bitrateGlobal": 3011450,
-                "formatConteneur": "matroska,webm",
-                "audio": [
-                    {
-                        "codec": "opus",
-                        "profil": null,
-                        "canaux": 6,
-                        "disposition": "5.1",
-                        "bitrate": null,
-                        "frequence": 48000,
-                        "langue": "mul"
-                    }
-                ],
-                "sousTitres": []
-            },
-            "titreOriginal": "Doctor Strange in the Multiverse of Madness"
-        },
-        {
-            "id": "doctor_strange_2_2022",
-            "titre": "Doctor Strange 2",
-            "annee": 2022,
-            "langue": [
-                "TBD"
-            ],
-            "taille": 98358,
-            "genre": [
-                "Science-Fiction"
-            ],
-            "image": "https://image.tmdb.org/t/p/w342/arfzjn1tGvXWwkX7eaGVuXsc0mp.jpg",
-            "fichier": "/01_Films/Marvel/2022 Doctor Strange 2 - Bonus BR OPUS VFF VFQ ENG 1080p x265 10Bits T0M/Doctor Strange 2 2022 Bonus - Version FR MUET T0M.mkv",
-            "nomFichier": "Doctor Strange 2 2022 Bonus - Version FR MUET T0M.mkv",
-            "imdbId": null,
-            "tmdbId": 453395,
-            "tmdbUrl": "https://www.themoviedb.org/movie/453395",
-            "doublonExact": false,
-            "doublonProbable": true,
-            "groupeDoublon": "doctor_strange_2",
-            "dateAjout": "2026-08-27T11:57:48.256Z",
-            "titreTmdb": "Doctor Strange in the Multiverse of Madness",
-            "anneeTmdb": "2022",
-            "dureeTmdb": 126,
-            "descriptionTmdb": "Le Docteur Strange lance un sort interdit qui ouvre le portail du Multivers, incluant des versions alternatives de lui-même. Cette menace à l'humanité est plus puissante que les pouvoirs combinés de Strange, Wong et Wanda Maximoff.",
-            "collectionId": 618529,
-            "collectionNom": "Doctor Strange - Saga",
-            "collectionDescription": "Cette série raconte l'histoire du neurochirurgien Stephen Strange qui, après avoir perdu la capacité d'utiliser ses mains après un accident de voiture, demande l'aide de \"L'ancien\" pour devenir un maître des arts mystiques connu sous le nom de Doctor Strange.",
-            "collectionImage": "https://image.tmdb.org/t/p/w500/jGyjFboipgcBwvnrORWjZqoxOeR.jpg",
-            "collectionTmdbUrl": "https://www.themoviedb.org/collection/618529",
-            "type": "Film",
-            "studio": "Marvel",
-            "technique": {
-                "largeur": 1920,
-                "hauteur": 1080,
-                "resolution": "1920x1080",
-                "ratioImage": 1.778,
-                "codecVideo": "hevc",
-                "profilVideo": "Main 10",
-                "pixelFormat": "yuv420p10le",
-                "bitsParComposante": null,
-                "bitrateVideo": null,
-                "framerate": 23.976,
-                "espaceCouleur": "bt709",
-                "transfertCouleur": "bt709",
-                "primairesCouleur": "bt709",
-                "hdr": false,
-                "dureeFichier": 0.167,
-                "bitrateGlobal": 4711760,
-                "formatConteneur": "matroska,webm",
-                "audio": [],
-                "sousTitres": []
-            },
-            "titreOriginal": "Doctor Strange in the Multiverse of Madness"
-        },
-        {
-            "id": "doctor_strange_2_2022",
-            "titre": "Doctor Strange 2",
-            "annee": 2022,
-            "langue": [
-                "TBD"
-            ],
-            "taille": 4165340517,
-            "genre": [
-                "Science-Fiction"
-            ],
-            "image": "https://image.tmdb.org/t/p/w342/arfzjn1tGvXWwkX7eaGVuXsc0mp.jpg",
-            "fichier": "/01_Films/Marvel/2022 Doctor Strange 2 - Bonus BR OPUS VFF VFQ ENG 1080p x265 10Bits T0M/Doctor Strange 2 2022 BR OPUS VFF VFQ ENG 1080p x265 10Bits T0M.mkv",
-            "nomFichier": "Doctor Strange 2 2022 BR OPUS VFF VFQ ENG 1080p x265 10Bits T0M.mkv",
-            "imdbId": null,
-            "tmdbId": 453395,
-            "tmdbUrl": "https://www.themoviedb.org/movie/453395",
-            "doublonExact": false,
-            "doublonProbable": true,
-            "groupeDoublon": "doctor_strange_2",
-            "dateAjout": "2026-08-27T11:57:48.256Z",
-            "titreTmdb": "Doctor Strange in the Multiverse of Madness",
-            "anneeTmdb": "2022",
-            "dureeTmdb": 126,
-            "descriptionTmdb": "Le Docteur Strange lance un sort interdit qui ouvre le portail du Multivers, incluant des versions alternatives de lui-même. Cette menace à l'humanité est plus puissante que les pouvoirs combinés de Strange, Wong et Wanda Maximoff.",
-            "collectionId": 618529,
-            "collectionNom": "Doctor Strange - Saga",
-            "collectionDescription": "Cette série raconte l'histoire du neurochirurgien Stephen Strange qui, après avoir perdu la capacité d'utiliser ses mains après un accident de voiture, demande l'aide de \"L'ancien\" pour devenir un maître des arts mystiques connu sous le nom de Doctor Strange.",
-            "collectionImage": "https://image.tmdb.org/t/p/w500/jGyjFboipgcBwvnrORWjZqoxOeR.jpg",
-            "collectionTmdbUrl": "https://www.themoviedb.org/collection/618529",
-            "type": "Film",
-            "studio": "Marvel",
-            "technique": {
-                "largeur": 1920,
-                "hauteur": 804,
-                "resolution": "1920x804",
-                "ratioImage": 2.388,
-                "codecVideo": "hevc",
-                "profilVideo": "Main 10",
-                "pixelFormat": "yuv420p10le",
-                "bitsParComposante": null,
-                "bitrateVideo": null,
-                "framerate": 23.976,
-                "espaceCouleur": "bt709",
-                "transfertCouleur": "bt709",
-                "primairesCouleur": "bt709",
-                "hdr": false,
-                "dureeFichier": 7591.239,
-                "bitrateGlobal": 4389629,
-                "formatConteneur": "matroska,webm",
-                "audio": [
-                    {
-                        "codec": "opus",
-                        "profil": null,
-                        "canaux": 8,
-                        "disposition": "7.1",
-                        "bitrate": null,
-                        "frequence": 48000,
-                        "langue": "fre"
-                    },
-                    {
-                        "codec": "opus",
-                        "profil": null,
-                        "canaux": 6,
-                        "disposition": "5.1",
-                        "bitrate": null,
-                        "frequence": 48000,
-                        "langue": "fre"
-                    },
-                    {
-                        "codec": "opus",
-                        "profil": null,
-                        "canaux": 8,
-                        "disposition": "7.1",
-                        "bitrate": null,
-                        "frequence": 48000,
-                        "langue": "eng"
-                    },
-                    {
-                        "codec": "opus",
-                        "profil": null,
-                        "canaux": 2,
-                        "disposition": "stereo",
-                        "bitrate": null,
-                        "frequence": 48000,
-                        "langue": "eng"
-                    }
-                ],
-                "sousTitres": [
-                    {
-                        "codec": "subrip",
-                        "langue": "fre",
-                        "titre": "Français forcé (Passages)"
-                    },
-                    {
-                        "codec": "subrip",
-                        "langue": "fre",
-                        "titre": "Français complet (Tous le film)"
-                    },
-                    {
-                        "codec": "hdmv_pgs_subtitle",
-                        "langue": "fre",
-                        "titre": "Français forcé (Passages) PGS"
-                    },
-                    {
-                        "codec": "hdmv_pgs_subtitle",
-                        "langue": "fre",
-                        "titre": "Français complet (Tous le film) PGS"
-                    },
-                    {
-                        "codec": "hdmv_pgs_subtitle",
-                        "langue": "fre",
-                        "titre": "Français commentaire de Sam Raimi, Richie Palmer et Michael Waldron PGS"
-                    },
-                    {
-                        "codec": "subrip",
-                        "langue": "eng",
-                        "titre": "English forced (Hearing impaired)"
-                    },
-                    {
-                        "codec": "hdmv_pgs_subtitle",
-                        "langue": "eng",
-                        "titre": "English forced (Hearing impaired) PGS"
-                    },
-                    {
-                        "codec": "hdmv_pgs_subtitle",
-                        "langue": "eng",
-                        "titre": "English full SDH PGS"
-                    },
-                    {
-                        "codec": "hdmv_pgs_subtitle",
-                        "langue": "eng",
-                        "titre": "English comment by Sam Raimi, Richie Palmer and Michael Waldron PGS"
-                    }
-                ]
-            },
-            "titreOriginal": "Doctor Strange in the Multiverse of Madness"
-        },
-        {
-            "id": "doctor_strange_2_3_2022",
-            "titre": "Doctor Strange 2 3",
-            "annee": 2022,
-            "langue": [
-                "VOSTFR"
-            ],
-            "taille": 35455519,
-            "genre": [
-                "Science-Fiction"
-            ],
-            "image": "https://image.tmdb.org/t/p/w342/arfzjn1tGvXWwkX7eaGVuXsc0mp.jpg",
-            "fichier": "/01_Films/Marvel/2022 Doctor Strange 2 - Bonus BR OPUS VFF VFQ ENG 1080p x265 10Bits T0M/Doctor Strange 2 2022 Bonus - 3 Deleted Scenes VOSTFR T0M.mkv",
-            "nomFichier": "Doctor Strange 2 2022 Bonus - 3 Deleted Scenes VOSTFR T0M.mkv",
-            "imdbId": null,
-            "tmdbId": 453395,
-            "tmdbUrl": "https://www.themoviedb.org/movie/453395",
-            "doublonExact": false,
-            "doublonProbable": false,
-            "groupeDoublon": null,
-            "dateAjout": "2026-08-27T11:57:48.252Z",
-            "titreTmdb": "Doctor Strange in the Multiverse of Madness",
-            "anneeTmdb": "2022",
-            "dureeTmdb": 126,
-            "descriptionTmdb": "Le Docteur Strange lance un sort interdit qui ouvre le portail du Multivers, incluant des versions alternatives de lui-même. Cette menace à l'humanité est plus puissante que les pouvoirs combinés de Strange, Wong et Wanda Maximoff.",
-            "collectionId": 618529,
-            "collectionNom": "Doctor Strange - Saga",
-            "collectionDescription": "Cette série raconte l'histoire du neurochirurgien Stephen Strange qui, après avoir perdu la capacité d'utiliser ses mains après un accident de voiture, demande l'aide de \"L'ancien\" pour devenir un maître des arts mystiques connu sous le nom de Doctor Strange.",
-            "collectionImage": "https://image.tmdb.org/t/p/w500/jGyjFboipgcBwvnrORWjZqoxOeR.jpg",
-            "collectionTmdbUrl": "https://www.themoviedb.org/collection/618529",
-            "type": "Film",
-            "studio": "Marvel",
-            "technique": {
-                "largeur": 1920,
-                "hauteur": 1080,
-                "resolution": "1920x1080",
-                "ratioImage": 1.778,
-                "codecVideo": "hevc",
-                "profilVideo": "Main 10",
-                "pixelFormat": "yuv420p10le",
-                "bitsParComposante": null,
-                "bitrateVideo": null,
-                "framerate": 23.976,
-                "espaceCouleur": "bt709",
-                "transfertCouleur": "bt709",
-                "primairesCouleur": "bt709",
-                "hdr": false,
-                "dureeFichier": 185.863,
-                "bitrateGlobal": 1526092,
-                "formatConteneur": "matroska,webm",
-                "audio": [
-                    {
-                        "codec": "opus",
-                        "profil": null,
-                        "canaux": 2,
-                        "disposition": "stereo",
-                        "bitrate": null,
-                        "frequence": 48000,
-                        "langue": "eng"
-                    }
-                ],
-                "sousTitres": [
-                    {
-                        "codec": "hdmv_pgs_subtitle",
-                        "langue": "fre",
-                        "titre": "Français complet (Tous le film) PGS"
-                    },
-                    {
-                        "codec": "hdmv_pgs_subtitle",
-                        "langue": "eng",
-                        "titre": "English full SDH PGS"
-                    }
-                ]
-            },
-            "titreOriginal": "Doctor Strange in the Multiverse of Madness"
-        },
-        {
-            "id": "doctor_strange_2_america_2022",
-            "titre": "Doctor Strange 2 America",
-            "annee": 2022,
-            "langue": [
-                "VOSTFR"
-            ],
-            "taille": 45876612,
-            "genre": [
-                "Science-Fiction"
-            ],
-            "image": "https://image.tmdb.org/t/p/w342/arfzjn1tGvXWwkX7eaGVuXsc0mp.jpg",
-            "fichier": "/01_Films/Marvel/2022 Doctor Strange 2 - Bonus BR OPUS VFF VFQ ENG 1080p x265 10Bits T0M/Doctor Strange 2 2022 Bonus - Introducing America Chavez VOSTFR T0M.mkv",
-            "nomFichier": "Doctor Strange 2 2022 Bonus - Introducing America Chavez VOSTFR T0M.mkv",
-            "imdbId": null,
-            "tmdbId": 453395,
-            "tmdbUrl": "https://www.themoviedb.org/movie/453395",
-            "doublonExact": false,
-            "doublonProbable": false,
-            "groupeDoublon": null,
-            "dateAjout": "2026-08-27T11:57:48.254Z",
-            "titreTmdb": "Doctor Strange in the Multiverse of Madness",
-            "anneeTmdb": "2022",
-            "dureeTmdb": 126,
-            "descriptionTmdb": "Le Docteur Strange lance un sort interdit qui ouvre le portail du Multivers, incluant des versions alternatives de lui-même. Cette menace à l'humanité est plus puissante que les pouvoirs combinés de Strange, Wong et Wanda Maximoff.",
-            "collectionId": 618529,
-            "collectionNom": "Doctor Strange - Saga",
-            "collectionDescription": "Cette série raconte l'histoire du neurochirurgien Stephen Strange qui, après avoir perdu la capacité d'utiliser ses mains après un accident de voiture, demande l'aide de \"L'ancien\" pour devenir un maître des arts mystiques connu sous le nom de Doctor Strange.",
-            "collectionImage": "https://image.tmdb.org/t/p/w500/jGyjFboipgcBwvnrORWjZqoxOeR.jpg",
-            "collectionTmdbUrl": "https://www.themoviedb.org/collection/618529",
-            "type": "Film",
-            "studio": "Marvel",
-            "technique": {
-                "largeur": 1920,
-                "hauteur": 1080,
-                "resolution": "1920x1080",
-                "ratioImage": 1.778,
-                "codecVideo": "hevc",
-                "profilVideo": "Main 10",
-                "pixelFormat": "yuv420p10le",
-                "bitsParComposante": null,
-                "bitrateVideo": null,
-                "framerate": 23.976,
-                "espaceCouleur": "bt709",
-                "transfertCouleur": "bt709",
-                "primairesCouleur": "bt709",
-                "hdr": false,
-                "dureeFichier": 209.735,
-                "bitrateGlobal": 1749888,
-                "formatConteneur": "matroska,webm",
-                "audio": [
-                    {
-                        "codec": "opus",
-                        "profil": null,
-                        "canaux": 6,
-                        "disposition": "5.1",
-                        "bitrate": null,
-                        "frequence": 48000,
-                        "langue": "eng"
-                    }
-                ],
-                "sousTitres": [
-                    {
-                        "codec": "hdmv_pgs_subtitle",
-                        "langue": "fre",
-                        "titre": "Français complet (Tous le film) PGS"
-                    },
-                    {
-                        "codec": "hdmv_pgs_subtitle",
-                        "langue": "eng",
-                        "titre": "English full SDH PGS"
-                    }
-                ]
-            },
-            "titreOriginal": "Doctor Strange in the Multiverse of Madness"
-        },
-        {
-            "id": "doctor_strange_2_the_multiverse_2022",
-            "titre": "Doctor Strange 2 the",
-            "annee": 2022,
-            "langue": [
-                "VOSTFR"
-            ],
-            "taille": 133797674,
-            "genre": [
-                "Science-Fiction"
-            ],
-            "image": "https://image.tmdb.org/t/p/w342/arfzjn1tGvXWwkX7eaGVuXsc0mp.jpg",
-            "fichier": "/01_Films/Marvel/2022 Doctor Strange 2 - Bonus BR OPUS VFF VFQ ENG 1080p x265 10Bits T0M/Doctor Strange 2 2022 Bonus - Constructing the Multiverse VOSTFR T0M.mkv",
-            "nomFichier": "Doctor Strange 2 2022 Bonus - Constructing the Multiverse VOSTFR T0M.mkv",
-            "imdbId": null,
-            "tmdbId": 453395,
-            "tmdbUrl": "https://www.themoviedb.org/movie/453395",
-            "doublonExact": false,
-            "doublonProbable": false,
-            "groupeDoublon": null,
-            "dateAjout": "2026-08-27T11:57:48.253Z",
-            "titreTmdb": "Doctor Strange in the Multiverse of Madness",
-            "anneeTmdb": "2022",
-            "dureeTmdb": 126,
-            "descriptionTmdb": "Le Docteur Strange lance un sort interdit qui ouvre le portail du Multivers, incluant des versions alternatives de lui-même. Cette menace à l'humanité est plus puissante que les pouvoirs combinés de Strange, Wong et Wanda Maximoff.",
-            "collectionId": 618529,
-            "collectionNom": "Doctor Strange - Saga",
-            "collectionDescription": "Cette série raconte l'histoire du neurochirurgien Stephen Strange qui, après avoir perdu la capacité d'utiliser ses mains après un accident de voiture, demande l'aide de \"L'ancien\" pour devenir un maître des arts mystiques connu sous le nom de Doctor Strange.",
-            "collectionImage": "https://image.tmdb.org/t/p/w500/jGyjFboipgcBwvnrORWjZqoxOeR.jpg",
-            "collectionTmdbUrl": "https://www.themoviedb.org/collection/618529",
-            "type": "Film",
-            "studio": "Marvel",
-            "technique": {
-                "largeur": 1920,
-                "hauteur": 1080,
-                "resolution": "1920x1080",
-                "ratioImage": 1.778,
-                "codecVideo": "hevc",
-                "profilVideo": "Main 10",
-                "pixelFormat": "yuv420p10le",
-                "bitsParComposante": null,
-                "bitrateVideo": null,
-                "framerate": 23.976,
-                "espaceCouleur": "bt709",
-                "transfertCouleur": "bt709",
-                "primairesCouleur": "bt709",
-                "hdr": false,
-                "dureeFichier": 670.983,
-                "bitrateGlobal": 1595243,
-                "formatConteneur": "matroska,webm",
-                "audio": [
-                    {
-                        "codec": "opus",
-                        "profil": null,
-                        "canaux": 6,
-                        "disposition": "5.1",
-                        "bitrate": null,
-                        "frequence": 48000,
-                        "langue": "eng"
-                    }
-                ],
-                "sousTitres": [
-                    {
-                        "codec": "hdmv_pgs_subtitle",
-                        "langue": "fre",
-                        "titre": "Français complet (Tous le film) PGS"
-                    },
-                    {
-                        "codec": "hdmv_pgs_subtitle",
-                        "langue": "eng",
-                        "titre": "English full SDH PGS"
-                    }
-                ]
-            },
-            "titreOriginal": "Doctor Strange in the Multiverse of Madness"
-        },
-        {
-            "id": "doctor_strange_2_to_the_2022",
-            "titre": "Doctor Strange 2 to the",
-            "annee": 2022,
-            "langue": [
-                "VOSTFR"
-            ],
-            "taille": 58266978,
-            "genre": [
-                "Science-Fiction"
-            ],
-            "image": "https://image.tmdb.org/t/p/w342/arfzjn1tGvXWwkX7eaGVuXsc0mp.jpg",
-            "fichier": "/01_Films/Marvel/2022 Doctor Strange 2 - Bonus BR OPUS VFF VFQ ENG 1080p x265 10Bits T0M/Doctor Strange 2 2022 Bonus - Method to the Madness VOSTFR T0M.mkv",
-            "nomFichier": "Doctor Strange 2 2022 Bonus - Method to the Madness VOSTFR T0M.mkv",
-            "imdbId": null,
-            "tmdbId": 453395,
-            "tmdbUrl": "https://www.themoviedb.org/movie/453395",
-            "doublonExact": false,
-            "doublonProbable": false,
-            "groupeDoublon": null,
-            "dateAjout": "2026-08-27T11:57:48.255Z",
-            "titreTmdb": "Doctor Strange in the Multiverse of Madness",
-            "anneeTmdb": "2022",
-            "dureeTmdb": 126,
-            "descriptionTmdb": "Le Docteur Strange lance un sort interdit qui ouvre le portail du Multivers, incluant des versions alternatives de lui-même. Cette menace à l'humanité est plus puissante que les pouvoirs combinés de Strange, Wong et Wanda Maximoff.",
-            "collectionId": 618529,
-            "collectionNom": "Doctor Strange - Saga",
-            "collectionDescription": "Cette série raconte l'histoire du neurochirurgien Stephen Strange qui, après avoir perdu la capacité d'utiliser ses mains après un accident de voiture, demande l'aide de \"L'ancien\" pour devenir un maître des arts mystiques connu sous le nom de Doctor Strange.",
-            "collectionImage": "https://image.tmdb.org/t/p/w500/jGyjFboipgcBwvnrORWjZqoxOeR.jpg",
-            "collectionTmdbUrl": "https://www.themoviedb.org/collection/618529",
-            "type": "Film",
-            "studio": "Marvel",
-            "technique": {
-                "largeur": 1920,
-                "hauteur": 1080,
-                "resolution": "1920x1080",
-                "ratioImage": 1.778,
-                "codecVideo": "hevc",
-                "profilVideo": "Main 10",
-                "pixelFormat": "yuv420p10le",
-                "bitsParComposante": null,
-                "bitrateVideo": null,
-                "framerate": 23.976,
-                "espaceCouleur": "bt709",
-                "transfertCouleur": "bt709",
-                "primairesCouleur": "bt709",
-                "hdr": false,
-                "dureeFichier": 302.119,
-                "bitrateGlobal": 1542888,
-                "formatConteneur": "matroska,webm",
-                "audio": [
-                    {
-                        "codec": "opus",
-                        "profil": null,
-                        "canaux": 6,
-                        "disposition": "5.1",
-                        "bitrate": null,
-                        "frequence": 48000,
-                        "langue": "eng"
-                    }
-                ],
-                "sousTitres": [
-                    {
-                        "codec": "hdmv_pgs_subtitle",
-                        "langue": "fre",
-                        "titre": "Français complet (Tous le film) PGS"
-                    },
-                    {
-                        "codec": "hdmv_pgs_subtitle",
-                        "langue": "eng",
-                        "titre": "English full SDH PGS"
-                    }
-                ]
-            },
-            "titreOriginal": "Doctor Strange in the Multiverse of Madness"
         },
         {
             "id": "draft_day_2014",
@@ -13912,7 +13174,7 @@
                 "Crime"
             ],
             "image": "https://image.tmdb.org/t/p/w342/zDtraIGPVhmSnPZQ34fmyvWT5tz.jpg",
-            "fichier": "/Box_Films/0 - New/Enola Holmes/Enola.Holmes.1.2020.FRENCH.WEBRip.XviD-EXTREME.avi",
+            "fichier": "/Box_Films/0 - New/Enola.Holmes.1.2020.FRENCH.WEBRip.XviD-EXTREME.avi",
             "nomFichier": "Enola.Holmes.1.2020.FRENCH.WEBRip.XviD-EXTREME.avi",
             "imdbId": null,
             "tmdbId": 497582,
@@ -13978,7 +13240,7 @@
                 "Crime"
             ],
             "image": "https://image.tmdb.org/t/p/w342/n4MNnDDVm86AELe1fxbLvxHYeyh.jpg",
-            "fichier": "/Box_Films/0 - New/Enola Holmes/Enola.Holmes.2.2022.FRENCH.HDRip.x264-EXTREME.mkv",
+            "fichier": "/Box_Films/0 - New/Enola.Holmes.2.2022.FRENCH.HDRip.x264-EXTREME.mkv",
             "nomFichier": "Enola.Holmes.2.2022.FRENCH.HDRip.x264-EXTREME.mkv",
             "imdbId": null,
             "tmdbId": 829280,
@@ -14347,283 +13609,12 @@
             "langue": [
                 "TBD"
             ],
-            "taille": 5880916,
-            "genre": [
-                "Science-Fiction"
-            ],
-            "image": "https://image.tmdb.org/t/p/w342/okFanmFdbnFQqX9YJsN2wOeueq0.jpg",
-            "fichier": "/01_Films/Marvel/2021 Eternals 1 2021 Bonus BR EAC3 VFF VFQ ENG 1080p x265 10Bits T0M/Eternals 1 2021 Bonus - Bluray Looping MUSIQUE.mkv",
-            "nomFichier": "Eternals 1 2021 Bonus - Bluray Looping MUSIQUE.mkv",
-            "imdbId": null,
-            "tmdbId": 939356,
-            "tmdbUrl": "https://www.themoviedb.org/movie/939356",
-            "doublonExact": false,
-            "doublonProbable": true,
-            "groupeDoublon": "eternals_1",
-            "dateAjout": "2026-08-27T11:57:48.244Z",
-            "titreTmdb": "Le Making-of Les Éternels",
-            "anneeTmdb": "2022",
-            "dureeTmdb": 57,
-            "descriptionTmdb": "Rejoignez la réalisatrice Chloe Zhao et les acteurs du film \"Les Éternels\" alors qu'ils racontent leurs expériences pendant le tournage le plus ambitieux de Marvel Studios à ce jour. Découvrez comment les membres de l'équipe ont su s'imprégner de leurs rôles, et comment cela a contribué à créer des relations qui s'étendent sur plus de 7 000 ans entre les personnages.",
-            "collectionId": null,
-            "collectionNom": null,
-            "collectionDescription": null,
-            "collectionImage": null,
-            "collectionTmdbUrl": null,
-            "type": "Film",
-            "studio": "Marvel",
-            "technique": {
-                "largeur": 1920,
-                "hauteur": 1080,
-                "resolution": "1920x1080",
-                "ratioImage": 1.778,
-                "codecVideo": "hevc",
-                "profilVideo": "Main 10",
-                "pixelFormat": "yuv420p10le",
-                "bitsParComposante": null,
-                "bitrateVideo": null,
-                "framerate": 23.976,
-                "espaceCouleur": "bt709",
-                "transfertCouleur": "bt709",
-                "primairesCouleur": "bt709",
-                "hdr": false,
-                "dureeFichier": 60.065,
-                "bitrateGlobal": 783273,
-                "formatConteneur": "matroska,webm",
-                "audio": [
-                    {
-                        "codec": "eac3",
-                        "profil": null,
-                        "canaux": 2,
-                        "disposition": "stereo",
-                        "bitrate": 192000,
-                        "frequence": 48000,
-                        "langue": "mul"
-                    }
-                ],
-                "sousTitres": []
-            },
-            "titreOriginal": "Marvel Studios Assembled: The Making of Eternals"
-        },
-        {
-            "id": "eternals_1_2021",
-            "titre": "Eternals 1",
-            "annee": 2021,
-            "langue": [
-                "TBD"
-            ],
-            "taille": 6636542,
-            "genre": [
-                "Science-Fiction"
-            ],
-            "image": "https://image.tmdb.org/t/p/w342/okFanmFdbnFQqX9YJsN2wOeueq0.jpg",
-            "fichier": "/01_Films/Marvel/2021 Eternals 1 2021 Bonus BR EAC3 VFF VFQ ENG 1080p x265 10Bits T0M/Eternals 1 2021 Bonus - Bluray Opening MUSIQUE.mkv",
-            "nomFichier": "Eternals 1 2021 Bonus - Bluray Opening MUSIQUE.mkv",
-            "imdbId": null,
-            "tmdbId": 939356,
-            "tmdbUrl": "https://www.themoviedb.org/movie/939356",
-            "doublonExact": false,
-            "doublonProbable": true,
-            "groupeDoublon": "eternals_1",
-            "dateAjout": "2026-08-27T11:57:48.244Z",
-            "titreTmdb": "Le Making-of Les Éternels",
-            "anneeTmdb": "2022",
-            "dureeTmdb": 57,
-            "descriptionTmdb": "Rejoignez la réalisatrice Chloe Zhao et les acteurs du film \"Les Éternels\" alors qu'ils racontent leurs expériences pendant le tournage le plus ambitieux de Marvel Studios à ce jour. Découvrez comment les membres de l'équipe ont su s'imprégner de leurs rôles, et comment cela a contribué à créer des relations qui s'étendent sur plus de 7 000 ans entre les personnages.",
-            "collectionId": null,
-            "collectionNom": null,
-            "collectionDescription": null,
-            "collectionImage": null,
-            "collectionTmdbUrl": null,
-            "type": "Film",
-            "studio": "Marvel",
-            "technique": {
-                "largeur": 1920,
-                "hauteur": 1080,
-                "resolution": "1920x1080",
-                "ratioImage": 1.778,
-                "codecVideo": "hevc",
-                "profilVideo": "Main 10",
-                "pixelFormat": "yuv420p10le",
-                "bitsParComposante": null,
-                "bitrateVideo": null,
-                "framerate": 23.976,
-                "espaceCouleur": "bt709",
-                "transfertCouleur": "bt709",
-                "primairesCouleur": "bt709",
-                "hdr": false,
-                "dureeFichier": 60.065,
-                "bitrateGlobal": 883914,
-                "formatConteneur": "matroska,webm",
-                "audio": [
-                    {
-                        "codec": "eac3",
-                        "profil": null,
-                        "canaux": 2,
-                        "disposition": "stereo",
-                        "bitrate": 192000,
-                        "frequence": 48000,
-                        "langue": "mul"
-                    }
-                ],
-                "sousTitres": []
-            },
-            "titreOriginal": "Marvel Studios Assembled: The Making of Eternals"
-        },
-        {
-            "id": "eternals_1_2021",
-            "titre": "Eternals 1",
-            "annee": 2021,
-            "langue": [
-                "VOSTFR"
-            ],
-            "taille": 29496441,
-            "genre": [
-                "Science-Fiction"
-            ],
-            "image": "https://image.tmdb.org/t/p/w342/okFanmFdbnFQqX9YJsN2wOeueq0.jpg",
-            "fichier": "/01_Films/Marvel/2021 Eternals 1 2021 Bonus BR EAC3 VFF VFQ ENG 1080p x265 10Bits T0M/Eternals 1 2021 Bonus - Gag Reel VOSTFR.mkv",
-            "nomFichier": "Eternals 1 2021 Bonus - Gag Reel VOSTFR.mkv",
-            "imdbId": null,
-            "tmdbId": 939356,
-            "tmdbUrl": "https://www.themoviedb.org/movie/939356",
-            "doublonExact": false,
-            "doublonProbable": true,
-            "groupeDoublon": "eternals_1",
-            "dateAjout": "2026-08-27T11:57:48.245Z",
-            "titreTmdb": "Le Making-of Les Éternels",
-            "anneeTmdb": "2022",
-            "dureeTmdb": 57,
-            "descriptionTmdb": "Rejoignez la réalisatrice Chloe Zhao et les acteurs du film \"Les Éternels\" alors qu'ils racontent leurs expériences pendant le tournage le plus ambitieux de Marvel Studios à ce jour. Découvrez comment les membres de l'équipe ont su s'imprégner de leurs rôles, et comment cela a contribué à créer des relations qui s'étendent sur plus de 7 000 ans entre les personnages.",
-            "collectionId": null,
-            "collectionNom": null,
-            "collectionDescription": null,
-            "collectionImage": null,
-            "collectionTmdbUrl": null,
-            "type": "Film",
-            "studio": "Marvel",
-            "technique": {
-                "largeur": 1920,
-                "hauteur": 1080,
-                "resolution": "1920x1080",
-                "ratioImage": 1.778,
-                "codecVideo": "hevc",
-                "profilVideo": "Main 10",
-                "pixelFormat": "yuv420p10le",
-                "bitsParComposante": null,
-                "bitrateVideo": null,
-                "framerate": 23.976,
-                "espaceCouleur": "bt709",
-                "transfertCouleur": "bt709",
-                "primairesCouleur": "bt709",
-                "hdr": false,
-                "dureeFichier": 149.216,
-                "bitrateGlobal": 1581409,
-                "formatConteneur": "matroska,webm",
-                "audio": [
-                    {
-                        "codec": "eac3",
-                        "profil": null,
-                        "canaux": 6,
-                        "disposition": "5.1(side)",
-                        "bitrate": 448000,
-                        "frequence": 48000,
-                        "langue": "eng"
-                    }
-                ],
-                "sousTitres": [
-                    {
-                        "codec": "hdmv_pgs_subtitle",
-                        "langue": "fre",
-                        "titre": "Français complet (Tous le film) PGS"
-                    },
-                    {
-                        "codec": "hdmv_pgs_subtitle",
-                        "langue": "eng",
-                        "titre": "English full (All the movie) PGS"
-                    }
-                ]
-            },
-            "titreOriginal": "Marvel Studios Assembled: The Making of Eternals"
-        },
-        {
-            "id": "eternals_1_2021",
-            "titre": "Eternals 1",
-            "annee": 2021,
-            "langue": [
-                "TBD"
-            ],
-            "taille": 1126898,
-            "genre": [
-                "Science-Fiction"
-            ],
-            "image": "https://image.tmdb.org/t/p/w342/okFanmFdbnFQqX9YJsN2wOeueq0.jpg",
-            "fichier": "/01_Films/Marvel/2021 Eternals 1 2021 Bonus BR EAC3 VFF VFQ ENG 1080p x265 10Bits T0M/Eternals 1 2021 Bonus - Logo Marvel Studio MUSIQUE.mkv",
-            "nomFichier": "Eternals 1 2021 Bonus - Logo Marvel Studio MUSIQUE.mkv",
-            "imdbId": null,
-            "tmdbId": 939356,
-            "tmdbUrl": "https://www.themoviedb.org/movie/939356",
-            "doublonExact": false,
-            "doublonProbable": true,
-            "groupeDoublon": "eternals_1",
-            "dateAjout": "2026-08-27T11:57:48.245Z",
-            "titreTmdb": "Le Making-of Les Éternels",
-            "anneeTmdb": "2022",
-            "dureeTmdb": 57,
-            "descriptionTmdb": "Rejoignez la réalisatrice Chloe Zhao et les acteurs du film \"Les Éternels\" alors qu'ils racontent leurs expériences pendant le tournage le plus ambitieux de Marvel Studios à ce jour. Découvrez comment les membres de l'équipe ont su s'imprégner de leurs rôles, et comment cela a contribué à créer des relations qui s'étendent sur plus de 7 000 ans entre les personnages.",
-            "collectionId": null,
-            "collectionNom": null,
-            "collectionDescription": null,
-            "collectionImage": null,
-            "collectionTmdbUrl": null,
-            "type": "Film",
-            "studio": "Marvel",
-            "technique": {
-                "largeur": 1920,
-                "hauteur": 1080,
-                "resolution": "1920x1080",
-                "ratioImage": 1.778,
-                "codecVideo": "hevc",
-                "profilVideo": "Main 10",
-                "pixelFormat": "yuv420p10le",
-                "bitsParComposante": null,
-                "bitrateVideo": null,
-                "framerate": 23.976,
-                "espaceCouleur": "bt709",
-                "transfertCouleur": "bt709",
-                "primairesCouleur": "bt709",
-                "hdr": false,
-                "dureeFichier": 12.309,
-                "bitrateGlobal": 732405,
-                "formatConteneur": "matroska,webm",
-                "audio": [
-                    {
-                        "codec": "eac3",
-                        "profil": null,
-                        "canaux": 2,
-                        "disposition": "stereo",
-                        "bitrate": 192000,
-                        "frequence": 48000,
-                        "langue": "mul"
-                    }
-                ],
-                "sousTitres": []
-            },
-            "titreOriginal": "Marvel Studios Assembled: The Making of Eternals"
-        },
-        {
-            "id": "eternals_1_2021",
-            "titre": "Eternals 1",
-            "annee": 2021,
-            "langue": [
-                "TBD"
-            ],
             "taille": 5318751430,
             "genre": [
                 "Science-Fiction"
             ],
             "image": "https://image.tmdb.org/t/p/w342/vV7TrS7PNRZJHCxNmiYN1SU7s1w.jpg",
-            "fichier": "/01_Films/Marvel/2021 Eternals 1 2021 Bonus BR EAC3 VFF VFQ ENG 1080p x265 10Bits T0M/Eternals 1 2021 BR EAC3 VFF VFQ ENG 1080p x265 10Bits T0M.mkv",
+            "fichier": "/01_Films/Marvel/Eternals 1 2021 BR EAC3 VFF VFQ ENG 1080p x265 10Bits T0M.mkv",
             "nomFichier": "Eternals 1 2021 BR EAC3 VFF VFQ ENG 1080p x265 10Bits T0M.mkv",
             "imdbId": null,
             "tmdbId": 524434,
@@ -14753,234 +13744,6 @@
                 ]
             },
             "titreOriginal": "Eternals"
-        },
-        {
-            "id": "eternals_1_4_2021",
-            "titre": "Eternals 1 4",
-            "annee": 2021,
-            "langue": [
-                "VOSTFR"
-            ],
-            "taille": 56402688,
-            "genre": [
-                "Science-Fiction"
-            ],
-            "image": "https://image.tmdb.org/t/p/w342/okFanmFdbnFQqX9YJsN2wOeueq0.jpg",
-            "fichier": "/01_Films/Marvel/2021 Eternals 1 2021 Bonus BR EAC3 VFF VFQ ENG 1080p x265 10Bits T0M/Eternals 1 2021 Bonus - 4 Deleted Scenes VOSTFR.mkv",
-            "nomFichier": "Eternals 1 2021 Bonus - 4 Deleted Scenes VOSTFR.mkv",
-            "imdbId": null,
-            "tmdbId": 939356,
-            "tmdbUrl": "https://www.themoviedb.org/movie/939356",
-            "doublonExact": false,
-            "doublonProbable": false,
-            "groupeDoublon": null,
-            "dateAjout": "2026-08-27T11:57:48.243Z",
-            "titreTmdb": "Le Making-of Les Éternels",
-            "anneeTmdb": "2022",
-            "dureeTmdb": 57,
-            "descriptionTmdb": "Rejoignez la réalisatrice Chloe Zhao et les acteurs du film \"Les Éternels\" alors qu'ils racontent leurs expériences pendant le tournage le plus ambitieux de Marvel Studios à ce jour. Découvrez comment les membres de l'équipe ont su s'imprégner de leurs rôles, et comment cela a contribué à créer des relations qui s'étendent sur plus de 7 000 ans entre les personnages.",
-            "collectionId": null,
-            "collectionNom": null,
-            "collectionDescription": null,
-            "collectionImage": null,
-            "collectionTmdbUrl": null,
-            "type": "Film",
-            "studio": "Marvel",
-            "technique": {
-                "largeur": 1920,
-                "hauteur": 1080,
-                "resolution": "1920x1080",
-                "ratioImage": 1.778,
-                "codecVideo": "hevc",
-                "profilVideo": "Main 10",
-                "pixelFormat": "yuv420p10le",
-                "bitsParComposante": null,
-                "bitrateVideo": null,
-                "framerate": 23.976,
-                "espaceCouleur": "bt709",
-                "transfertCouleur": "bt709",
-                "primairesCouleur": "bt709",
-                "hdr": false,
-                "dureeFichier": 350.048,
-                "bitrateGlobal": 1289027,
-                "formatConteneur": "matroska,webm",
-                "audio": [
-                    {
-                        "codec": "eac3",
-                        "profil": null,
-                        "canaux": 2,
-                        "disposition": "stereo",
-                        "bitrate": 192000,
-                        "frequence": 48000,
-                        "langue": "eng"
-                    }
-                ],
-                "sousTitres": [
-                    {
-                        "codec": "hdmv_pgs_subtitle",
-                        "langue": "fre",
-                        "titre": "Français complet (Tous le film) PGS"
-                    },
-                    {
-                        "codec": "hdmv_pgs_subtitle",
-                        "langue": "eng",
-                        "titre": "English full (All the movie) PGS"
-                    }
-                ]
-            },
-            "titreOriginal": "Marvel Studios Assembled: The Making of Eternals"
-        },
-        {
-            "id": "eternals_1_of_2021",
-            "titre": "Eternals 1 Making of",
-            "annee": 2021,
-            "langue": [
-                "VOSTFR"
-            ],
-            "taille": 141305753,
-            "genre": [
-                "Science-Fiction"
-            ],
-            "image": "https://image.tmdb.org/t/p/w342/okFanmFdbnFQqX9YJsN2wOeueq0.jpg",
-            "fichier": "/01_Films/Marvel/2021 Eternals 1 2021 Bonus BR EAC3 VFF VFQ ENG 1080p x265 10Bits T0M/Eternals 1 2021 Bonus - Making of VOSTFR.mkv",
-            "nomFichier": "Eternals 1 2021 Bonus - Making of VOSTFR.mkv",
-            "imdbId": null,
-            "tmdbId": 939356,
-            "tmdbUrl": "https://www.themoviedb.org/movie/939356",
-            "doublonExact": false,
-            "doublonProbable": false,
-            "groupeDoublon": null,
-            "dateAjout": "2026-08-27T11:57:48.246Z",
-            "titreTmdb": "Le Making-of Les Éternels",
-            "anneeTmdb": "2022",
-            "dureeTmdb": 57,
-            "descriptionTmdb": "Rejoignez la réalisatrice Chloe Zhao et les acteurs du film \"Les Éternels\" alors qu'ils racontent leurs expériences pendant le tournage le plus ambitieux de Marvel Studios à ce jour. Découvrez comment les membres de l'équipe ont su s'imprégner de leurs rôles, et comment cela a contribué à créer des relations qui s'étendent sur plus de 7 000 ans entre les personnages.",
-            "collectionId": null,
-            "collectionNom": null,
-            "collectionDescription": null,
-            "collectionImage": null,
-            "collectionTmdbUrl": null,
-            "type": "Film",
-            "studio": "Marvel",
-            "technique": {
-                "largeur": 1920,
-                "hauteur": 1080,
-                "resolution": "1920x1080",
-                "ratioImage": 1.778,
-                "codecVideo": "hevc",
-                "profilVideo": "Main 10",
-                "pixelFormat": "yuv420p10le",
-                "bitsParComposante": null,
-                "bitrateVideo": null,
-                "framerate": 23.976,
-                "espaceCouleur": "bt709",
-                "transfertCouleur": "bt709",
-                "primairesCouleur": "bt709",
-                "hdr": false,
-                "dureeFichier": 645.664,
-                "bitrateGlobal": 1750827,
-                "formatConteneur": "matroska,webm",
-                "audio": [
-                    {
-                        "codec": "eac3",
-                        "profil": null,
-                        "canaux": 6,
-                        "disposition": "5.1(side)",
-                        "bitrate": 448000,
-                        "frequence": 48000,
-                        "langue": "eng"
-                    }
-                ],
-                "sousTitres": [
-                    {
-                        "codec": "hdmv_pgs_subtitle",
-                        "langue": "fre",
-                        "titre": "Français complet (Tous le film) PGS"
-                    },
-                    {
-                        "codec": "hdmv_pgs_subtitle",
-                        "langue": "eng",
-                        "titre": "English full (All the movie) PGS"
-                    }
-                ]
-            },
-            "titreOriginal": "Marvel Studios Assembled: The Making of Eternals"
-        },
-        {
-            "id": "eternals_1_of_2021",
-            "titre": "Eternals 1 of",
-            "annee": 2021,
-            "langue": [
-                "VOSTFR"
-            ],
-            "taille": 66018481,
-            "genre": [
-                "Science-Fiction"
-            ],
-            "image": "https://image.tmdb.org/t/p/w342/okFanmFdbnFQqX9YJsN2wOeueq0.jpg",
-            "fichier": "/01_Films/Marvel/2021 Eternals 1 2021 Bonus BR EAC3 VFF VFQ ENG 1080p x265 10Bits T0M/Eternals 1 2021 Bonus - Walks of Life VOSTFR.mkv",
-            "nomFichier": "Eternals 1 2021 Bonus - Walks of Life VOSTFR.mkv",
-            "imdbId": null,
-            "tmdbId": 939356,
-            "tmdbUrl": "https://www.themoviedb.org/movie/939356",
-            "doublonExact": false,
-            "doublonProbable": false,
-            "groupeDoublon": null,
-            "dateAjout": "2026-08-27T11:57:48.246Z",
-            "titreTmdb": "Le Making-of Les Éternels",
-            "anneeTmdb": "2022",
-            "dureeTmdb": 57,
-            "descriptionTmdb": "Rejoignez la réalisatrice Chloe Zhao et les acteurs du film \"Les Éternels\" alors qu'ils racontent leurs expériences pendant le tournage le plus ambitieux de Marvel Studios à ce jour. Découvrez comment les membres de l'équipe ont su s'imprégner de leurs rôles, et comment cela a contribué à créer des relations qui s'étendent sur plus de 7 000 ans entre les personnages.",
-            "collectionId": null,
-            "collectionNom": null,
-            "collectionDescription": null,
-            "collectionImage": null,
-            "collectionTmdbUrl": null,
-            "type": "Film",
-            "studio": "Marvel",
-            "technique": {
-                "largeur": 1920,
-                "hauteur": 1080,
-                "resolution": "1920x1080",
-                "ratioImage": 1.778,
-                "codecVideo": "hevc",
-                "profilVideo": "Main 10",
-                "pixelFormat": "yuv420p10le",
-                "bitsParComposante": null,
-                "bitrateVideo": null,
-                "framerate": 23.976,
-                "espaceCouleur": "bt709",
-                "transfertCouleur": "bt709",
-                "primairesCouleur": "bt709",
-                "hdr": false,
-                "dureeFichier": 301.024,
-                "bitrateGlobal": 1754504,
-                "formatConteneur": "matroska,webm",
-                "audio": [
-                    {
-                        "codec": "eac3",
-                        "profil": null,
-                        "canaux": 6,
-                        "disposition": "5.1(side)",
-                        "bitrate": 448000,
-                        "frequence": 48000,
-                        "langue": "eng"
-                    }
-                ],
-                "sousTitres": [
-                    {
-                        "codec": "hdmv_pgs_subtitle",
-                        "langue": "fre",
-                        "titre": "Français complet (Tous le film) PGS"
-                    },
-                    {
-                        "codec": "hdmv_pgs_subtitle",
-                        "langue": "eng",
-                        "titre": "English full (All the movie) PGS"
-                    }
-                ]
-            },
-            "titreOriginal": "Marvel Studios Assembled: The Making of Eternals"
         },
         {
             "id": "f9_fast_saga_2021",
@@ -15255,7 +14018,7 @@
                 "Drame"
             ],
             "image": "https://image.tmdb.org/t/p/w342/vNnyuW37ZlzpN2EKxrAC8hZIDSy.jpg",
-            "fichier": "/Box_Films/0 - New/Fallen - Denzel Washington Thriller 1998 Eng Rus Multi Subs 720p [H264-mp4]/Fallen - Denzel Washington Thriller 1998 Eng Rus Multi Subs 720p [H264-mp4].mp4",
+            "fichier": "/Box_Films/0 - New/Fallen - Denzel Washington Thriller 1998 Eng Rus Multi Subs 720p [H264-mp4].mp4",
             "nomFichier": "Fallen - Denzel Washington Thriller 1998 Eng Rus Multi Subs 720p [H264-mp4].mp4",
             "imdbId": null,
             "tmdbId": 9411,
@@ -16518,7 +15281,7 @@
                 "Action"
             ],
             "image": "https://image.tmdb.org/t/p/w342/v1467wvoQIXlVY5MtAqt3PUtOdH.jpg",
-            "fichier": "/Box_Films/0 - New/Fast.X.2023.1080p.AMZN.WEBRip.1600MB.DD5.1.x264-GalaxyRG[TGx]/Fast.X.2023.1080p.AMZN.WEBRip.1600MB.DD5.1.x264-GalaxyRG.mkv",
+            "fichier": "/Box_Films/Fast.X.2023.1080p.AMZN.WEBRip.1600MB.DD5.1.x264-GalaxyRG.mkv",
             "nomFichier": "Fast.X.2023.1080p.AMZN.WEBRip.1600MB.DD5.1.x264-GalaxyRG.mkv",
             "imdbId": null,
             "tmdbId": 385687,
@@ -19126,6 +17889,124 @@
             "titreOriginal": "Gone in Sixty Seconds"
         },
         {
+            "id": "gone_in_60_seconds_voa_lc_2000",
+            "titre": "Gone in 60 Seconds VOA LC",
+            "annee": 2000,
+            "langue": [
+                "VO",
+                "VF"
+            ],
+            "taille": 2950658792,
+            "genre": [
+                "Action",
+                "Crime",
+                "Thriller"
+            ],
+            "image": "https://image.tmdb.org/t/p/w342/jY1qVXHz3IDGoajFivOhXgpBxHE.jpg",
+            "fichier": "/03_Films/Gone.in.60.Seconds.2000.MULTi VFF VFQ VOA HDlight AAC LC x264.mkv",
+            "nomFichier": "Gone.in.60.Seconds.2000.MULTi VFF VFQ VOA HDlight AAC LC x264.mkv",
+            "imdbId": null,
+            "tmdbId": 9679,
+            "tmdbUrl": "https://www.themoviedb.org/movie/9679",
+            "doublonExact": false,
+            "doublonProbable": false,
+            "groupeDoublon": null,
+            "dateAjout": "2026-11-14T08:28:00.618Z",
+            "technique": {
+                "largeur": 1920,
+                "hauteur": 816,
+                "resolution": "1920x816",
+                "ratioImage": 2.353,
+                "codecVideo": "h264",
+                "profilVideo": "High",
+                "pixelFormat": "yuv420p",
+                "bitsParComposante": 8,
+                "bitrateVideo": null,
+                "framerate": 23.976,
+                "espaceCouleur": "bt709",
+                "transfertCouleur": "bt709",
+                "primairesCouleur": "bt709",
+                "hdr": false,
+                "dureeFichier": 7077.503,
+                "bitrateGlobal": 3335254,
+                "formatConteneur": "matroska,webm",
+                "audio": [
+                    {
+                        "codec": "aac",
+                        "profil": "LC",
+                        "canaux": 6,
+                        "disposition": "5.1",
+                        "bitrate": null,
+                        "frequence": 48000,
+                        "langue": "fre"
+                    },
+                    {
+                        "codec": "aac",
+                        "profil": "LC",
+                        "canaux": 2,
+                        "disposition": "stereo",
+                        "bitrate": null,
+                        "frequence": 48000,
+                        "langue": "fre"
+                    },
+                    {
+                        "codec": "aac",
+                        "profil": "LC",
+                        "canaux": 6,
+                        "disposition": "5.1",
+                        "bitrate": null,
+                        "frequence": 48000,
+                        "langue": "fre"
+                    },
+                    {
+                        "codec": "aac",
+                        "profil": "LC",
+                        "canaux": 2,
+                        "disposition": "stereo",
+                        "bitrate": null,
+                        "frequence": 48000,
+                        "langue": "fre"
+                    },
+                    {
+                        "codec": "aac",
+                        "profil": "LC",
+                        "canaux": 6,
+                        "disposition": "5.1",
+                        "bitrate": null,
+                        "frequence": 44100,
+                        "langue": "eng"
+                    }
+                ],
+                "sousTitres": [
+                    {
+                        "codec": "subrip",
+                        "langue": "fre",
+                        "titre": "Français Sous-titre Forcé"
+                    },
+                    {
+                        "codec": "subrip",
+                        "langue": "fre",
+                        "titre": "Français Sous-titre Complet"
+                    },
+                    {
+                        "codec": "subrip",
+                        "langue": "eng",
+                        "titre": "Anglais Sous-titre Complet"
+                    }
+                ]
+            },
+            "titreTmdb": "60 secondes chrono",
+            "titreOriginal": "Gone in Sixty Seconds",
+            "anneeTmdb": "2000",
+            "dureeTmdb": 118,
+            "descriptionTmdb": "Pour sauver son frère Kip qui est entre les mains du redoutable Raymond Calitri, Memphis, un ancien braqueur de voitures, doit voler cinquante bolides d'exception en une nuit. Ses ennemis, ses amis, celle qu'il a toujours aimée et la police, qui n'a jamais réussi à le coincer, l'attendent au tournant.",
+            "collectionId": null,
+            "collectionNom": null,
+            "collectionDescription": null,
+            "collectionImage": null,
+            "collectionTmdbUrl": null
+        },
+        {
             "id": "gran_torino",
             "titre": "Gran Torino",
             "annee": null,
@@ -19199,7 +18080,7 @@
                 "Drame"
             ],
             "image": "https://image.tmdb.org/t/p/w342/ozXWxrxC6LGI7LMKMCMjLzFzsyr.jpg",
-            "fichier": "/Box_Films/0 - New/Gran.Turismo.2023.1080p.WEBRip.1600MB.DD5.1.x264-GalaxyRG[TGx]/Gran.Turismo.2023.1080p.WEBRip.1600MB.DD5.1.x264-GalaxyRG.mkv",
+            "fichier": "/Box_Films/0 - New/Gran.Turismo.2023.1080p.WEBRip.1600MB.DD5.1.x264-GalaxyRG.mkv",
             "nomFichier": "Gran.Turismo.2023.1080p.WEBRip.1600MB.DD5.1.x264-GalaxyRG.mkv",
             "imdbId": null,
             "tmdbId": 980489,
@@ -19793,6 +18674,77 @@
             },
             "ignoreInCollection": false,
             "titreOriginal": "Guardians of the Galaxy Vol. 3"
+        },
+        {
+            "id": "guardians_of_the_galaxy_3_2023",
+            "titre": "Guardians of the Galaxy 3",
+            "annee": 2023,
+            "langue": [
+                "VF"
+            ],
+            "taille": 2815833731,
+            "genre": [
+                "Science-Fiction",
+                "Aventure",
+                "Action"
+            ],
+            "image": "https://image.tmdb.org/t/p/w342/dnyQnKSSqQ8aOEMiE5hYDNJO4dE.jpg",
+            "fichier": "/03_Films/Guardians.of.the.Galaxy.Vol.3.2023.TRUEFRENCH.720p.WEBRip.H264.mkv",
+            "nomFichier": "Guardians.of.the.Galaxy.Vol.3.2023.TRUEFRENCH.720p.WEBRip.H264.mkv",
+            "imdbId": null,
+            "tmdbId": 447365,
+            "tmdbUrl": "https://www.themoviedb.org/movie/447365",
+            "doublonExact": false,
+            "doublonProbable": false,
+            "groupeDoublon": null,
+            "dateAjout": "2026-11-14T08:28:01.256Z",
+            "technique": {
+                "largeur": 1280,
+                "hauteur": 720,
+                "resolution": "1280x720",
+                "ratioImage": 1.778,
+                "codecVideo": "h264",
+                "profilVideo": "Main",
+                "pixelFormat": "yuv420p",
+                "bitsParComposante": 8,
+                "bitrateVideo": null,
+                "framerate": 23.976,
+                "espaceCouleur": "bt709",
+                "transfertCouleur": "bt709",
+                "primairesCouleur": "bt709",
+                "hdr": false,
+                "dureeFichier": 9002.744,
+                "bitrateGlobal": 2502200,
+                "formatConteneur": "matroska,webm",
+                "audio": [
+                    {
+                        "codec": "aac",
+                        "profil": "LC",
+                        "canaux": 2,
+                        "disposition": "stereo",
+                        "bitrate": null,
+                        "frequence": 44100,
+                        "langue": "fre"
+                    }
+                ],
+                "sousTitres": [
+                    {
+                        "codec": "subrip",
+                        "langue": "fre",
+                        "titre": "FORCED"
+                    }
+                ]
+            },
+            "titreTmdb": "Les Gardiens de la Galaxie : Volume 3",
+            "titreOriginal": "Guardians of the Galaxy Vol. 3",
+            "anneeTmdb": "2023",
+            "dureeTmdb": 149,
+            "descriptionTmdb": "Peter Quill, encore sous le choc d'une terrible perte, doit rallier son équipe et se lancer dans une mission risquée et palpitante pour défendre l'univers et protéger Rocket. Pendant ce temps, une nouvelle force imprévisible menace de faire tomber les Gardiens pour de bon.",
+            "collectionId": 284433,
+            "collectionNom": "Les Gardiens de la Galaxie - Saga",
+            "collectionDescription": "Une série de films de super-héros produite par Marvel Studios qui se base sur l'équipe des Gardiens de la Galaxie issue de l'univers de Marvel Comics. La série met en scène une bande d'anciens bandits unissant leurs forces pour protéger la galaxie des menaces planétaires.",
+            "collectionImage": "https://image.tmdb.org/t/p/w500/hQrNZnlIqB9ccaPoaU5rNoTgZJp.jpg",
+            "collectionTmdbUrl": "https://www.themoviedb.org/collection/284433"
         },
         {
             "id": "guns_3_5_2013",
@@ -22670,6 +21622,71 @@
             "titreOriginal": "Iron Man"
         },
         {
+            "id": "iron_man_2",
+            "titre": "Iron man 2",
+            "annee": null,
+            "langue": [
+                "TBD"
+            ],
+            "taille": 1467840546,
+            "genre": [
+                "Aventure",
+                "Action",
+                "Science-Fiction"
+            ],
+            "image": "https://image.tmdb.org/t/p/w342/ghomWlBZtAW5K9zjcAvg4dU62AU.jpg",
+            "fichier": "/03_Films/Iron man 2.avi",
+            "nomFichier": "Iron man 2.avi",
+            "imdbId": null,
+            "tmdbId": 10138,
+            "tmdbUrl": "https://www.themoviedb.org/movie/10138",
+            "doublonExact": false,
+            "doublonProbable": false,
+            "groupeDoublon": null,
+            "dateAjout": "2026-11-14T08:28:01.903Z",
+            "technique": {
+                "largeur": 640,
+                "hauteur": 272,
+                "resolution": "640x272",
+                "ratioImage": 2.353,
+                "codecVideo": "mpeg4",
+                "profilVideo": "Simple Profile",
+                "pixelFormat": "yuv420p",
+                "bitsParComposante": null,
+                "bitrateVideo": 1112652,
+                "framerate": 23.976,
+                "espaceCouleur": null,
+                "transfertCouleur": null,
+                "primairesCouleur": null,
+                "hdr": false,
+                "dureeFichier": 7485.823632,
+                "bitrateGlobal": 1568661,
+                "formatConteneur": "avi",
+                "audio": [
+                    {
+                        "codec": "ac3",
+                        "profil": null,
+                        "canaux": 6,
+                        "disposition": "5.1(side)",
+                        "bitrate": 448000,
+                        "frequence": 48000,
+                        "langue": null
+                    }
+                ],
+                "sousTitres": []
+            },
+            "titreTmdb": "Iron Man 2",
+            "titreOriginal": "Iron Man 2",
+            "anneeTmdb": "2010",
+            "dureeTmdb": 117,
+            "descriptionTmdb": "Le monde sait désormais que l'inventeur milliardaire Tony Stark et le super-héros Iron Man ne font qu'un. Malgré la pression du gouvernement, de la presse et du public pour qu'il partage sa technologie avec l'armée, Tony n'est pas disposé à divulguer les secrets de son armure, redoutant que l'information atterrisse dans de mauvaises mains. Avec Pepper Potts et James \"Rhodey\" Rhodes à ses côtés, Tony va forger de nouvelles alliances et affronter de nouvelles forces toutes-puissantes...",
+            "collectionId": 131292,
+            "collectionNom": "Iron Man - Saga",
+            "collectionDescription": "Collection des films Iron Man (littéralement l'Homme de Fer), super-héros de comics créé en 1963 par Stan Lee pour Marvel Comics.",
+            "collectionImage": "https://image.tmdb.org/t/p/w500/bQGciwYBe0aG1UNHuIiFkey4pqX.jpg",
+            "collectionTmdbUrl": "https://www.themoviedb.org/collection/131292"
+        },
+        {
             "id": "iron_man_2_2010",
             "titre": "Iron Man 2",
             "annee": 2010,
@@ -22735,6 +21752,71 @@
                 "sousTitres": []
             },
             "titreOriginal": "Iron Man 2"
+        },
+        {
+            "id": "iron_man_3_2013",
+            "titre": "Iron Man 3",
+            "annee": 2013,
+            "langue": [
+                "VF"
+            ],
+            "taille": 1466058752,
+            "genre": [
+                "Action",
+                "Aventure",
+                "Science-Fiction"
+            ],
+            "image": "https://image.tmdb.org/t/p/w342/sE71EBrRMfW0NKMHlXPO55Km88X.jpg",
+            "fichier": "/03_Films/Iron Man 3 2013 FRENCH BDRiP XviD-CARPEDIEM.avi",
+            "nomFichier": "Iron Man 3 2013 FRENCH BDRiP XviD-CARPEDIEM.avi",
+            "imdbId": null,
+            "tmdbId": 68721,
+            "tmdbUrl": "https://www.themoviedb.org/movie/68721",
+            "doublonExact": false,
+            "doublonProbable": false,
+            "groupeDoublon": null,
+            "dateAjout": "2026-11-14T08:28:02.438Z",
+            "technique": {
+                "largeur": 640,
+                "hauteur": 272,
+                "resolution": "640x272",
+                "ratioImage": 2.353,
+                "codecVideo": "mpeg4",
+                "profilVideo": "Advanced Simple Profile",
+                "pixelFormat": "yuv420p",
+                "bitsParComposante": null,
+                "bitrateVideo": 1360032,
+                "framerate": 23.976,
+                "espaceCouleur": null,
+                "transfertCouleur": null,
+                "primairesCouleur": null,
+                "hdr": false,
+                "dureeFichier": 7832.879228,
+                "bitrateGlobal": 1497338,
+                "formatConteneur": "avi",
+                "audio": [
+                    {
+                        "codec": "mp3",
+                        "profil": null,
+                        "canaux": 2,
+                        "disposition": "stereo",
+                        "bitrate": 128000,
+                        "frequence": 48000,
+                        "langue": null
+                    }
+                ],
+                "sousTitres": []
+            },
+            "titreTmdb": "Iron Man 3",
+            "titreOriginal": "Iron Man 3",
+            "anneeTmdb": "2013",
+            "dureeTmdb": 130,
+            "descriptionTmdb": "Tony Stark, l’industriel flamboyant qui est aussi Iron Man, est confronté cette fois à un ennemi qui va attaquer sur tous les fronts. Lorsque son univers personnel est détruit, Stark se lance dans une quête acharnée pour retrouver les coupables. Plus que jamais, son courage va être mis à l’épreuve, à chaque instant. Dos au mur, il ne peut plus compter que sur ses inventions, son ingéniosité, et son instinct pour protéger ses proches. Alors qu’il se jette dans la bataille, Stark va enfin découvrir la réponse à la question qui le hante secrètement depuis si longtemps : est‐ce l’homme qui fait le costume ou bien le costume qui fait l’homme ?",
+            "collectionId": 131292,
+            "collectionNom": "Iron Man - Saga",
+            "collectionDescription": "Collection des films Iron Man (littéralement l'Homme de Fer), super-héros de comics créé en 1963 par Stan Lee pour Marvel Comics.",
+            "collectionImage": "https://image.tmdb.org/t/p/w500/bQGciwYBe0aG1UNHuIiFkey4pqX.jpg",
+            "collectionTmdbUrl": "https://www.themoviedb.org/collection/131292"
         },
         {
             "id": "jack_et_la_mecanique_du_coeur",
@@ -25871,6 +24953,97 @@
             "titreOriginal": "L'Âge de raison"
         },
         {
+            "id": "l_agence_tous_risquesl_agence_tous_risques_2010",
+            "titre": "L'Agence tous risquesL'Agence tous risques",
+            "annee": 2010,
+            "langue": [
+                "VO",
+                "VF"
+            ],
+            "taille": 3835973938,
+            "genre": [
+                "Action",
+                "Comédie",
+                "Crime"
+            ],
+            "image": "https://image.tmdb.org/t/p/w342/tZmlUikHctU4qy82HMmkbGWDHfY.jpg",
+            "fichier": "/03_Films/L'Agence tous risquesL'Agence tous risques.2010.MULTi.VFF.1080p.HDLight.x264.AC3-T911.mkv",
+            "nomFichier": "L'Agence tous risquesL'Agence tous risques.2010.MULTi.VFF.1080p.HDLight.x264.AC3-T911.mkv",
+            "imdbId": null,
+            "tmdbId": 34544,
+            "tmdbUrl": "https://www.themoviedb.org/movie/34544",
+            "doublonExact": false,
+            "doublonProbable": false,
+            "groupeDoublon": null,
+            "dateAjout": "2026-11-14T08:28:03.705Z",
+            "technique": {
+                "largeur": 1920,
+                "hauteur": 1080,
+                "resolution": "1920x1080",
+                "ratioImage": 1.778,
+                "codecVideo": "h264",
+                "profilVideo": "High",
+                "pixelFormat": "yuv420p",
+                "bitsParComposante": 8,
+                "bitrateVideo": null,
+                "framerate": 23.976,
+                "espaceCouleur": "bt709",
+                "transfertCouleur": "bt709",
+                "primairesCouleur": "bt709",
+                "hdr": false,
+                "dureeFichier": 7126.176,
+                "bitrateGlobal": 4306347,
+                "formatConteneur": "matroska,webm",
+                "audio": [
+                    {
+                        "codec": "ac3",
+                        "profil": null,
+                        "canaux": 6,
+                        "disposition": "5.1(side)",
+                        "bitrate": 640000,
+                        "frequence": 48000,
+                        "langue": "fre"
+                    },
+                    {
+                        "codec": "ac3",
+                        "profil": null,
+                        "canaux": 6,
+                        "disposition": "5.1(side)",
+                        "bitrate": 640000,
+                        "frequence": 48000,
+                        "langue": "eng"
+                    }
+                ],
+                "sousTitres": [
+                    {
+                        "codec": "hdmv_pgs_subtitle",
+                        "langue": "fre",
+                        "titre": "fr"
+                    },
+                    {
+                        "codec": "hdmv_pgs_subtitle",
+                        "langue": "eng",
+                        "titre": "us"
+                    },
+                    {
+                        "codec": "hdmv_pgs_subtitle",
+                        "langue": "eng",
+                        "titre": "us"
+                    }
+                ]
+            },
+            "titreTmdb": "L'Agence tous risques",
+            "titreOriginal": "The A-Team",
+            "anneeTmdb": "2010",
+            "dureeTmdb": 118,
+            "descriptionTmdb": "Quatre hommes, hyper qualifiés et autrefois membres respectés d'une unité d'élite de l'armée, sont chargés d'une mission secrète destinée à les piéger et qui les conduit en prison pour un crime qu'ils n'ont pas commis. Mais la somme de leurs talents leur permet de s'évader. Devenus des rebelles, ils décident de blanchir leurs noms et de retrouver les vrais coupables.",
+            "collectionId": null,
+            "collectionNom": null,
+            "collectionDescription": null,
+            "collectionImage": null,
+            "collectionTmdbUrl": null
+        },
+        {
             "id": "l_apprenti_sorcier",
             "titre": "L'apprenti sorcier",
             "annee": null,
@@ -28308,68 +27481,6 @@
                 "sousTitres": []
             },
             "titreOriginal": "Les confessions de Stéphane Rousseau"
-        },
-        {
-            "id": "les_demineurs_vost_fr",
-            "titre": "Les demineurs",
-            "annee": null,
-            "langue": [
-                "VOST"
-            ],
-            "taille": 873047804,
-            "genre": [
-                "Action"
-            ],
-            "image": "https://image.tmdb.org/t/p/w342/8M31PAMj8XhrbfXfILLJHRX8UPy.jpg",
-            "fichier": "/Box_Films/Action/Les demineurs (VOST-Fr).avi",
-            "nomFichier": "Les demineurs (VOST-Fr).avi",
-            "imdbId": null,
-            "tmdbId": 44808,
-            "tmdbUrl": "https://www.themoviedb.org/movie/44808",
-            "doublonExact": false,
-            "doublonProbable": false,
-            "groupeDoublon": null,
-            "dateAjout": "2026-08-22T08:23:33.536Z",
-            "titreTmdb": "Les démineurs",
-            "anneeTmdb": "1998",
-            "dureeTmdb": 96,
-            "descriptionTmdb": "Christian Erikson est l'un des démineurs les plus doués au monde. Il sauve des milliers de vies jusqu'au jour où son fils de onze ans est victime d'une mine antipersonnel. Accablé, anéanti, il ne souhaite plus exercer son métier. L'arrivée d'une experte en explosifs va lui rendre sa motivation : celle-ci enquête sur un complot visant à importer de toutes nouvelles armes aux États-Unis. Ensemble, ils vont tenter de mettre fin au complot.",
-            "collectionId": null,
-            "collectionNom": null,
-            "type": "Film",
-            "studio": null,
-            "technique": {
-                "largeur": 512,
-                "hauteur": 320,
-                "resolution": "512x320",
-                "ratioImage": 1.6,
-                "codecVideo": "mpeg4",
-                "profilVideo": "Simple Profile",
-                "pixelFormat": "yuv420p",
-                "bitsParComposante": null,
-                "bitrateVideo": 891761,
-                "framerate": 25,
-                "espaceCouleur": null,
-                "transfertCouleur": null,
-                "primairesCouleur": null,
-                "hdr": false,
-                "dureeFichier": 7525.28,
-                "bitrateGlobal": 928122,
-                "formatConteneur": "avi",
-                "audio": [
-                    {
-                        "codec": "mp3",
-                        "profil": null,
-                        "canaux": 1,
-                        "disposition": "mono",
-                        "bitrate": 24000,
-                        "frequence": 22050,
-                        "langue": null
-                    }
-                ],
-                "sousTitres": []
-            },
-            "titreOriginal": "Sweepers"
         },
         {
             "id": "tmdb_681",
@@ -37423,7 +36534,7 @@
                 "Science-Fiction"
             ],
             "image": "https://image.tmdb.org/t/p/w342/pvSf95zo0GZNp83QCtmK1GFLHtT.jpg",
-            "fichier": "/Box_Films/0 - New/A trier/Retour vers le futur 2 - VF.avi",
+            "fichier": "/Box_Films/0 - New/Retour vers le futur 2 - VF.avi",
             "nomFichier": "Retour vers le futur 2 - VF.avi",
             "imdbId": null,
             "tmdbId": 165,
@@ -37697,7 +36808,7 @@
                 "Comédie"
             ],
             "image": "https://image.tmdb.org/t/p/w342/9Viyay6lT7kfYfJmGRelLFpx4mJ.jpg",
-            "fichier": "/Box_Films/0 - New/A trier/Ripoux contre Ripoux - VF.avi",
+            "fichier": "/Box_Films/0 - New/Ripoux contre Ripoux - VF.avi",
             "nomFichier": "Ripoux contre Ripoux - VF.avi",
             "imdbId": null,
             "tmdbId": 22240,
@@ -40205,77 +39316,6 @@
             "titreOriginal": "Snake Eyes"
         },
         {
-            "id": "snowden_psa_2016",
-            "titre": "Snowden",
-            "annee": 2016,
-            "langue": [
-                "TBD"
-            ],
-            "taille": 986812056,
-            "genre": [
-                "Drame"
-            ],
-            "image": "https://image.tmdb.org/t/p/w342/ev8fOrdeuf8zQyzhtOA3I6bBPCj.jpg",
-            "fichier": "/Box_Films/0 - New/A trier/Snowden.2016.720p.BrRip.2CH.x265.HEVC-PSA.mkv",
-            "nomFichier": "Snowden.2016.720p.BrRip.2CH.x265.HEVC-PSA.mkv",
-            "imdbId": null,
-            "tmdbId": 302401,
-            "tmdbUrl": "https://www.themoviedb.org/movie/302401",
-            "doublonExact": false,
-            "doublonProbable": false,
-            "groupeDoublon": null,
-            "dateAjout": "2026-08-22T08:23:33.484Z",
-            "titreTmdb": "Snowden",
-            "anneeTmdb": "2016",
-            "dureeTmdb": 134,
-            "descriptionTmdb": "Patriote idéaliste et enthousiaste, le jeune Edward Snowden semble réaliser son rêve quand il rejoint les équipes de la CIA puis de la NSA. Il découvre alors au cœur des Services de Renseignements américains l'ampleur insoupçonnée de la cyber-surveillance. Violant la Constitution, soutenue par de grandes entreprises, la NSA collecte des montagnes de données et piste toutes les formes de télécommunications à un niveau planétaire.  Choqué par cette intrusion systématique dans nos vies privées, Snowden décide de rassembler des preuves et de tout divulguer. Devenu lanceur d'alerte, il sacrifiera sa liberté et sa vie privée.  En juin 2013, deux journalistes prennent le risque de le rencontrer dans une chambre d'hôtel à Hong Kong. Une course contre la montre s'engage pour analyser les preuves irréfutables présentées par Snowden avant leur publication.  Les révélations qui vont être faites dans cette pièce seront au cœur du plus grand scandale d'espionnage de l'histoire des États-Unis.",
-            "collectionId": null,
-            "collectionNom": null,
-            "collectionDescription": null,
-            "collectionImage": null,
-            "collectionTmdbUrl": null,
-            "type": "Film",
-            "studio": null,
-            "technique": {
-                "largeur": 1280,
-                "hauteur": 536,
-                "resolution": "1280x536",
-                "ratioImage": 2.388,
-                "codecVideo": "hevc",
-                "profilVideo": "Main",
-                "pixelFormat": "yuv420p",
-                "bitsParComposante": null,
-                "bitrateVideo": null,
-                "framerate": 23.976,
-                "espaceCouleur": "bt709",
-                "transfertCouleur": "bt709",
-                "primairesCouleur": "bt709",
-                "hdr": false,
-                "dureeFichier": 8089.04,
-                "bitrateGlobal": 975949,
-                "formatConteneur": "matroska,webm",
-                "audio": [
-                    {
-                        "codec": "aac",
-                        "profil": "HE-AAC",
-                        "canaux": 2,
-                        "disposition": "stereo",
-                        "bitrate": null,
-                        "frequence": 48000,
-                        "langue": "eng"
-                    }
-                ],
-                "sousTitres": [
-                    {
-                        "codec": "subrip",
-                        "langue": "eng",
-                        "titre": "ENG"
-                    }
-                ]
-            },
-            "titreOriginal": "Snowden"
-        },
-        {
             "id": "solo_a_star_wars_story_2018",
             "titre": "Solo A Star Wars Story ( )",
             "annee": 2018,
@@ -40758,6 +39798,42 @@
             "titreOriginal": "Speed 2: Cruise Control"
         },
         {
+            "id": "spider_man_across_the_spider_verse_2023",
+            "titre": "Spider Man Across The Spider Verse",
+            "annee": 2023,
+            "langue": [
+                "VF"
+            ],
+            "taille": 2038575142,
+            "genre": [
+                "Animation",
+                "Action",
+                "Aventure",
+                "Science-Fiction"
+            ],
+            "image": "https://image.tmdb.org/t/p/w342/hvfwCeSTgsExmz9l31dKkfR83DH.jpg",
+            "fichier": "/03_Films/Spider-Man.Across.The.Spider-Verse.2023.CUSTOM.TRUEFRENCH.BDRip.x264-ONLYMOViE.mkv",
+            "nomFichier": "Spider-Man.Across.The.Spider-Verse.2023.CUSTOM.TRUEFRENCH.BDRip.x264-ONLYMOViE.mkv",
+            "imdbId": null,
+            "tmdbId": 569094,
+            "tmdbUrl": "https://www.themoviedb.org/movie/569094",
+            "doublonExact": false,
+            "doublonProbable": false,
+            "groupeDoublon": null,
+            "dateAjout": "2026-11-14T08:28:04.017Z",
+            "technique": {},
+            "titreTmdb": "Spider-Man : Across the Spider-Verse",
+            "titreOriginal": "Spider-Man: Across the Spider-Verse",
+            "anneeTmdb": "2023",
+            "dureeTmdb": 140,
+            "descriptionTmdb": "Après avoir retrouvé Gwen Stacy, Spider-Man, le sympathique héros originaire de Brooklyn, est catapulté à travers le Multivers, où il rencontre une équipe de Spider-Héros chargée d'en protéger l'existence. Mais lorsque les héros s'opposent sur la façon de gérer une nouvelle menace, Miles se retrouve confronté à eux et doit redéfinir ce que signifie être un héros afin de sauver les personnes qu'il aime le plus.",
+            "collectionId": 573436,
+            "collectionNom": "Spider-Man : New Generation - Saga",
+            "collectionDescription": "Une collection animée qui explore les différentes versions de Spider-Man dans de multiples univers en suivant les premiers pas de Miles Morales...",
+            "collectionImage": "https://image.tmdb.org/t/p/w500/6BiByOXRrMqB3yFVyuPFNZnJlPj.jpg",
+            "collectionTmdbUrl": "https://www.themoviedb.org/collection/573436"
+        },
+        {
             "id": "tmdb_911916",
             "titre": "Spider-Man: Beyond the Spider-Verse",
             "annee": 2027,
@@ -40923,37 +39999,29 @@
             "titre": "Star Trek",
             "annee": 2009,
             "langue": [
+                "VO",
                 "VF"
             ],
-            "taille": 1169747284,
+            "taille": 3752877237,
             "genre": [
                 "Science-Fiction",
                 "Action",
                 "Aventure"
             ],
             "image": "https://image.tmdb.org/t/p/w342/uS0YI879KkgUCk5tvbqDZXLb8mU.jpg",
-            "fichier": "/03_Films/Star.Trek.2009.TRUEFRENCH.BRRip.x264-GHZ.mkv",
-            "nomFichier": "Star.Trek.2009.TRUEFRENCH.BRRip.x264-GHZ.mkv",
+            "fichier": "/03_Films/Star Trek 2009 MULTi VF2 1080p BluRay x264-PopHD.mkv",
+            "nomFichier": "Star Trek 2009 MULTi VF2 1080p BluRay x264-PopHD.mkv",
             "imdbId": null,
             "tmdbId": 13475,
             "tmdbUrl": "https://www.themoviedb.org/movie/13475",
             "doublonExact": false,
             "doublonProbable": false,
             "groupeDoublon": null,
-            "dateAjout": "2026-11-10T08:51:25.709Z",
-            "titreTmdb": "Star Trek",
-            "anneeTmdb": "2009",
-            "dureeTmdb": 128,
-            "descriptionTmdb": "James T. Kirk tente d'être à la hauteur de son père sous le contrôle de M. Spock alors qu'un Romulien vengeur du futur crée des trous noirs pour détruire la Fédération, planète par planète.",
-            "collectionId": 115575,
-            "collectionNom": "Star Trek - Saga",
-            "collectionDescription": "Saga cinématographique Star Trek, troisième du nom.",
-            "collectionImage": "https://image.tmdb.org/t/p/w500/A8Y0BFIXpKv3AxbueUNnK6CdNCu.jpg",
-            "collectionTmdbUrl": "https://www.themoviedb.org/collection/115575",
+            "dateAjout": "2026-11-14T08:28:05.303Z",
             "technique": {
-                "largeur": 720,
-                "hauteur": 300,
-                "resolution": "720x300",
+                "largeur": 1920,
+                "hauteur": 800,
+                "resolution": "1920x800",
                 "ratioImage": 2.4,
                 "codecVideo": "h264",
                 "profilVideo": "High",
@@ -40965,82 +40033,9 @@
                 "transfertCouleur": "bt709",
                 "primairesCouleur": "bt709",
                 "hdr": false,
-                "dureeFichier": 7610.282,
-                "bitrateGlobal": 1229649,
+                "dureeFichier": 7610.272,
+                "bitrateGlobal": 3945065,
                 "formatConteneur": "matroska,webm",
-                "audio": [
-                    {
-                        "codec": "aac",
-                        "profil": "LC",
-                        "canaux": 2,
-                        "disposition": "stereo",
-                        "bitrate": null,
-                        "frequence": 48000,
-                        "langue": "fre"
-                    }
-                ],
-                "sousTitres": [
-                    {
-                        "codec": "ass",
-                        "langue": "fre",
-                        "titre": null
-                    }
-                ]
-            },
-            "ignoreInCollection": false,
-            "titreOriginal": "Star Trek"
-        },
-        {
-            "id": "star_trek_survival_cd2_2009",
-            "titre": "Star Trek",
-            "annee": 2009,
-            "langue": [
-                "VF"
-            ],
-            "taille": 733804544,
-            "genre": [
-                "Science-Fiction"
-            ],
-            "image": "https://image.tmdb.org/t/p/w342/aerpiFz3XsTg6ICP2qSxRriKTPd.jpg",
-            "fichier": "/Box_Films/Action/Star Trek/Star.Trek.2009.FRENCH.BDRiP.XViD-SURViVAL.CD2.avi",
-            "nomFichier": "Star.Trek.2009.FRENCH.BDRiP.XViD-SURViVAL.CD2.avi",
-            "imdbId": null,
-            "tmdbId": 188927,
-            "tmdbUrl": "https://www.themoviedb.org/movie/188927",
-            "doublonExact": false,
-            "doublonProbable": false,
-            "groupeDoublon": null,
-            "dateAjout": "2026-08-22T08:23:33.553Z",
-            "titreTmdb": "Star Trek : Sans limites",
-            "anneeTmdb": "2016",
-            "dureeTmdb": 123,
-            "descriptionTmdb": "L'équipage de l'USS Enterprise explore les confins de l'espace inconnu où ils rencontrent un nouvel ennemi impitoyable qui les met à l'épreuve, ainsi que tout ce que la Fédération représente.",
-            "collectionId": 115575,
-            "collectionNom": "Star Trek - Saga",
-            "collectionDescription": "Saga cinématographique Star Trek, troisième du nom.",
-            "collectionImage": "https://image.tmdb.org/t/p/w500/A8Y0BFIXpKv3AxbueUNnK6CdNCu.jpg",
-            "collectionTmdbUrl": "https://www.themoviedb.org/collection/115575",
-            "type": "Film",
-            "studio": null,
-            "ignoreInCollection": false,
-            "technique": {
-                "largeur": 640,
-                "hauteur": 272,
-                "resolution": "640x272",
-                "ratioImage": 2.353,
-                "codecVideo": "mpeg4",
-                "profilVideo": "Simple Profile",
-                "pixelFormat": "yuv420p",
-                "bitsParComposante": null,
-                "bitrateVideo": 1071096,
-                "framerate": 23.976,
-                "espaceCouleur": null,
-                "transfertCouleur": null,
-                "primairesCouleur": null,
-                "hdr": false,
-                "dureeFichier": 3853.522493,
-                "bitrateGlobal": 1523394,
-                "formatConteneur": "avi",
                 "audio": [
                     {
                         "codec": "ac3",
@@ -41049,78 +40044,55 @@
                         "disposition": "5.1(side)",
                         "bitrate": 448000,
                         "frequence": 48000,
-                        "langue": null
+                        "langue": "fre"
+                    },
+                    {
+                        "codec": "ac3",
+                        "profil": null,
+                        "canaux": 6,
+                        "disposition": "5.1(side)",
+                        "bitrate": 448000,
+                        "frequence": 48000,
+                        "langue": "eng"
+                    },
+                    {
+                        "codec": "ac3",
+                        "profil": null,
+                        "canaux": 6,
+                        "disposition": "5.1(side)",
+                        "bitrate": 448000,
+                        "frequence": 48000,
+                        "langue": "fre"
                     }
                 ],
-                "sousTitres": []
+                "sousTitres": [
+                    {
+                        "codec": "subrip",
+                        "langue": "fre",
+                        "titre": "French Forced"
+                    },
+                    {
+                        "codec": "subrip",
+                        "langue": "fre",
+                        "titre": "French Full"
+                    },
+                    {
+                        "codec": "subrip",
+                        "langue": "eng",
+                        "titre": "English Full"
+                    }
+                ]
             },
-            "titreOriginal": "Star Trek Beyond"
-        },
-        {
-            "id": "star_trek_into_darkness_2013",
-            "titre": "Star Trek",
-            "annee": 2013,
-            "langue": [
-                "VF"
-            ],
-            "taille": 1468026880,
-            "genre": [
-                "Science-Fiction"
-            ],
-            "image": "https://image.tmdb.org/t/p/w342/g9XEl6WP5IFixRhpQBezZ6TDbk4.jpg",
-            "fichier": "/Box_Films/Action/Star Trek/Star.Trek.2013.Into.Darkness.FRENCH..avi",
-            "nomFichier": "Star.Trek.2013.Into.Darkness.FRENCH..avi",
-            "imdbId": null,
-            "tmdbId": 54138,
-            "tmdbUrl": "https://www.themoviedb.org/movie/54138",
-            "doublonExact": false,
-            "doublonProbable": false,
-            "groupeDoublon": null,
-            "dateAjout": "2026-08-22T08:23:33.554Z",
-            "titreTmdb": "Star Trek Into Darkness",
-            "anneeTmdb": "2013",
-            "dureeTmdb": 130,
-            "descriptionTmdb": "Alors qu'il rentre à sa base, l'équipage de l'Enterprise doit faire face à des forces terroristes implacables au sein même de son organisation. L'ennemi a fait exploser la flotte et tout ce qu'elle représentait, plongeant notre monde dans le chaos.",
+            "titreTmdb": "Star Trek",
+            "titreOriginal": "Star Trek",
+            "anneeTmdb": "2009",
+            "dureeTmdb": 128,
+            "descriptionTmdb": "James T. Kirk tente d'être à la hauteur de son père sous le contrôle de M. Spock alors qu'un Romulien vengeur du futur crée des trous noirs pour détruire la Fédération, planète par planète.",
             "collectionId": 115575,
             "collectionNom": "Star Trek - Saga",
             "collectionDescription": "Saga cinématographique Star Trek, troisième du nom.",
             "collectionImage": "https://image.tmdb.org/t/p/w500/A8Y0BFIXpKv3AxbueUNnK6CdNCu.jpg",
-            "collectionTmdbUrl": "https://www.themoviedb.org/collection/115575",
-            "type": "Film",
-            "studio": null,
-            "ignoreInCollection": false,
-            "technique": {
-                "largeur": 720,
-                "hauteur": 304,
-                "resolution": "720x304",
-                "ratioImage": 2.368,
-                "codecVideo": "mpeg4",
-                "profilVideo": "Advanced Simple Profile",
-                "pixelFormat": "yuv420p",
-                "bitsParComposante": null,
-                "bitrateVideo": 1343457,
-                "framerate": 23.98,
-                "espaceCouleur": null,
-                "transfertCouleur": null,
-                "primairesCouleur": null,
-                "hdr": false,
-                "dureeFichier": 7930.942452,
-                "bitrateGlobal": 1480809,
-                "formatConteneur": "avi",
-                "audio": [
-                    {
-                        "codec": "mp3",
-                        "profil": null,
-                        "canaux": 2,
-                        "disposition": "stereo",
-                        "bitrate": 128000,
-                        "frequence": 48000,
-                        "langue": null
-                    }
-                ],
-                "sousTitres": []
-            },
-            "titreOriginal": "Star Trek Into Darkness"
+            "collectionTmdbUrl": "https://www.themoviedb.org/collection/115575"
         },
         {
             "id": "star_trek_beyond_2016",
@@ -41185,7 +40157,8 @@
                 ],
                 "sousTitres": []
             },
-            "titreOriginal": "Star Trek Beyond"
+            "titreOriginal": "Star Trek Beyond",
+            "ignoreInCollection": false
         },
         {
             "id": "star_trek_beyond_2016",
@@ -41251,6 +40224,106 @@
                 "sousTitres": []
             },
             "titreOriginal": "Star Trek Beyond"
+        },
+        {
+            "id": "star_trek_2013",
+            "titre": "Star Trek ( )",
+            "annee": 2013,
+            "langue": [
+                "VO",
+                "VF"
+            ],
+            "taille": 3908532690,
+            "genre": [
+                "Action",
+                "Aventure",
+                "Science-Fiction"
+            ],
+            "image": "https://image.tmdb.org/t/p/w342/g9XEl6WP5IFixRhpQBezZ6TDbk4.jpg",
+            "fichier": "/03_Films/Star Trek Into Darkness (2013) MULTi VF2 1080p BluRay x264-PopHD.mkv",
+            "nomFichier": "Star Trek Into Darkness (2013) MULTi VF2 1080p BluRay x264-PopHD.mkv",
+            "imdbId": null,
+            "tmdbId": 54138,
+            "tmdbUrl": "https://www.themoviedb.org/movie/54138",
+            "doublonExact": false,
+            "doublonProbable": false,
+            "groupeDoublon": null,
+            "dateAjout": "2026-11-14T08:28:06.139Z",
+            "technique": {
+                "largeur": 1920,
+                "hauteur": 800,
+                "resolution": "1920x800",
+                "ratioImage": 2.4,
+                "codecVideo": "h264",
+                "profilVideo": "High",
+                "pixelFormat": "yuv420p",
+                "bitsParComposante": 8,
+                "bitrateVideo": null,
+                "framerate": 23.976,
+                "espaceCouleur": "bt709",
+                "transfertCouleur": "bt709",
+                "primairesCouleur": "bt709",
+                "hdr": false,
+                "dureeFichier": 7925.173,
+                "bitrateGlobal": 3945435,
+                "formatConteneur": "matroska,webm",
+                "audio": [
+                    {
+                        "codec": "ac3",
+                        "profil": null,
+                        "canaux": 6,
+                        "disposition": "5.1(side)",
+                        "bitrate": 448000,
+                        "frequence": 48000,
+                        "langue": "fre"
+                    },
+                    {
+                        "codec": "ac3",
+                        "profil": null,
+                        "canaux": 6,
+                        "disposition": "5.1(side)",
+                        "bitrate": 448000,
+                        "frequence": 48000,
+                        "langue": "eng"
+                    },
+                    {
+                        "codec": "ac3",
+                        "profil": null,
+                        "canaux": 6,
+                        "disposition": "5.1(side)",
+                        "bitrate": 448000,
+                        "frequence": 48000,
+                        "langue": "fre"
+                    }
+                ],
+                "sousTitres": [
+                    {
+                        "codec": "subrip",
+                        "langue": "fre",
+                        "titre": "Fench Forced"
+                    },
+                    {
+                        "codec": "subrip",
+                        "langue": "fre",
+                        "titre": "Fench Full"
+                    },
+                    {
+                        "codec": "subrip",
+                        "langue": "eng",
+                        "titre": "English Full"
+                    }
+                ]
+            },
+            "titreTmdb": "Star Trek Into Darkness",
+            "titreOriginal": "Star Trek Into Darkness",
+            "anneeTmdb": "2013",
+            "dureeTmdb": 130,
+            "descriptionTmdb": "Alors qu'il rentre à sa base, l'équipage de l'Enterprise doit faire face à des forces terroristes implacables au sein même de son organisation. L'ennemi a fait exploser la flotte et tout ce qu'elle représentait, plongeant notre monde dans le chaos.",
+            "collectionId": 115575,
+            "collectionNom": "Star Trek - Saga",
+            "collectionDescription": "Saga cinématographique Star Trek, troisième du nom.",
+            "collectionImage": "https://image.tmdb.org/t/p/w500/A8Y0BFIXpKv3AxbueUNnK6CdNCu.jpg",
+            "collectionTmdbUrl": "https://www.themoviedb.org/collection/115575"
         },
         {
             "id": "starsky_and_hutch",
@@ -42775,6 +41848,395 @@
                 "sousTitres": []
             },
             "titreOriginal": "The A-Team"
+        },
+        {
+            "id": "the_accountant_2016",
+            "titre": "The Accountant",
+            "annee": 2016,
+            "langue": [
+                "VO",
+                "VF"
+            ],
+            "taille": 2669983217,
+            "genre": [
+                "Crime",
+                "Thriller",
+                "Drame"
+            ],
+            "image": "https://image.tmdb.org/t/p/w342/o7073AlEoBqltpsRBRDI6b5CyM6.jpg",
+            "fichier": "/03_Films/The.Accountant.2016.MULTi.1080p.HDLight.x264-ZT.mkv",
+            "nomFichier": "The.Accountant.2016.MULTi.1080p.HDLight.x264-ZT.mkv",
+            "imdbId": null,
+            "tmdbId": 302946,
+            "tmdbUrl": "https://www.themoviedb.org/movie/302946",
+            "doublonExact": false,
+            "doublonProbable": true,
+            "groupeDoublon": "the_accountant",
+            "dateAjout": "2026-11-14T08:28:09.111Z",
+            "technique": {
+                "largeur": 1920,
+                "hauteur": 800,
+                "resolution": "1920x800",
+                "ratioImage": 2.4,
+                "codecVideo": "h264",
+                "profilVideo": "High",
+                "pixelFormat": "yuv420p",
+                "bitsParComposante": 8,
+                "bitrateVideo": null,
+                "framerate": 23.976,
+                "espaceCouleur": null,
+                "transfertCouleur": null,
+                "primairesCouleur": null,
+                "hdr": false,
+                "dureeFichier": 7674.282,
+                "bitrateGlobal": 2783304,
+                "formatConteneur": "matroska,webm",
+                "audio": [
+                    {
+                        "codec": "aac",
+                        "profil": "LC",
+                        "canaux": 2,
+                        "disposition": "stereo",
+                        "bitrate": null,
+                        "frequence": 48000,
+                        "langue": "fre"
+                    },
+                    {
+                        "codec": "aac",
+                        "profil": "HE-AAC",
+                        "canaux": 6,
+                        "disposition": "5.1",
+                        "bitrate": null,
+                        "frequence": 48000,
+                        "langue": "eng"
+                    }
+                ],
+                "sousTitres": [
+                    {
+                        "codec": "subrip",
+                        "langue": "fre",
+                        "titre": "FRENCH FORCED"
+                    },
+                    {
+                        "codec": "subrip",
+                        "langue": "fre",
+                        "titre": "FRENCH FULL"
+                    }
+                ]
+            },
+            "titreTmdb": "Mr Wolff",
+            "titreOriginal": "The Accountant",
+            "anneeTmdb": "2016",
+            "dureeTmdb": 128,
+            "descriptionTmdb": "Petit génie des mathématiques, Christian Wolff est plus à l’aise avec les chiffres qu’avec les gens. Expert‐comptable dans le civil, il travaille en réalité pour plusieurs organisations mafieuses parmi les plus dangereuses au monde. Lorsque la brigade anti‐criminalité du ministère des Finances s’intéresse d’un peu trop près à ses affaires, Christian cherche à faire diversion : il accepte de vérifier les comptes d’une entreprise de robotique ayant pignon sur rue. Problème : la comptable de la société a décelé un détournement de fonds de plusieurs millions de dollars. Tandis que Christian épluche les comptes et découvre les rouages de l’escroquerie, les cadavres s’accumulent…",
+            "collectionId": 870339,
+            "collectionNom": "Mr Wolff - Saga",
+            "collectionDescription": "Une trilogie de thrillers policiers avec Ben Affleck dans le rôle d'un mathématicien plus affiné avec les chiffres qu'avec les gens. Sous couvert d'un cabinet d'expertise comptable d'une petite ville, il gagne sa vie en tant que comptable indépendant pour de dangereuses organisations criminelles.",
+            "collectionImage": "https://image.tmdb.org/t/p/w500/rbTVcWYJp3xjKqirEif530uUACh.jpg",
+            "collectionTmdbUrl": "https://www.themoviedb.org/collection/870339"
+        },
+        {
+            "id": "the_accountant_2016",
+            "titre": "The Accountant",
+            "annee": 2016,
+            "langue": [
+                "TBD"
+            ],
+            "taille": 1352159663,
+            "genre": [
+                "Crime",
+                "Thriller",
+                "Drame"
+            ],
+            "image": "https://image.tmdb.org/t/p/w342/o7073AlEoBqltpsRBRDI6b5CyM6.jpg",
+            "fichier": "/03_Films/The.Accountant.2016.VFF.XviD-NEWCiNE.avi",
+            "nomFichier": "The.Accountant.2016.VFF.XviD-NEWCiNE.avi",
+            "imdbId": null,
+            "tmdbId": 302946,
+            "tmdbUrl": "https://www.themoviedb.org/movie/302946",
+            "doublonExact": false,
+            "doublonProbable": true,
+            "groupeDoublon": "the_accountant",
+            "dateAjout": "2026-11-14T08:28:09.856Z",
+            "technique": {
+                "largeur": 720,
+                "hauteur": 304,
+                "resolution": "720x304",
+                "ratioImage": 2.368,
+                "codecVideo": "mpeg4",
+                "profilVideo": "Advanced Simple Profile",
+                "pixelFormat": "yuv420p",
+                "bitsParComposante": null,
+                "bitrateVideo": 1272105,
+                "framerate": 23.976,
+                "espaceCouleur": null,
+                "transfertCouleur": null,
+                "primairesCouleur": null,
+                "hdr": false,
+                "dureeFichier": 7674.262183,
+                "bitrateGlobal": 1409552,
+                "formatConteneur": "avi",
+                "audio": [
+                    {
+                        "codec": "mp3",
+                        "profil": null,
+                        "canaux": 2,
+                        "disposition": "stereo",
+                        "bitrate": 128000,
+                        "frequence": 48000,
+                        "langue": null
+                    }
+                ],
+                "sousTitres": []
+            },
+            "titreTmdb": "Mr Wolff",
+            "titreOriginal": "The Accountant",
+            "anneeTmdb": "2016",
+            "dureeTmdb": 128,
+            "descriptionTmdb": "Petit génie des mathématiques, Christian Wolff est plus à l’aise avec les chiffres qu’avec les gens. Expert‐comptable dans le civil, il travaille en réalité pour plusieurs organisations mafieuses parmi les plus dangereuses au monde. Lorsque la brigade anti‐criminalité du ministère des Finances s’intéresse d’un peu trop près à ses affaires, Christian cherche à faire diversion : il accepte de vérifier les comptes d’une entreprise de robotique ayant pignon sur rue. Problème : la comptable de la société a décelé un détournement de fonds de plusieurs millions de dollars. Tandis que Christian épluche les comptes et découvre les rouages de l’escroquerie, les cadavres s’accumulent…",
+            "collectionId": 870339,
+            "collectionNom": "Mr Wolff - Saga",
+            "collectionDescription": "Une trilogie de thrillers policiers avec Ben Affleck dans le rôle d'un mathématicien plus affiné avec les chiffres qu'avec les gens. Sous couvert d'un cabinet d'expertise comptable d'une petite ville, il gagne sa vie en tant que comptable indépendant pour de dangereuses organisations criminelles.",
+            "collectionImage": "https://image.tmdb.org/t/p/w500/rbTVcWYJp3xjKqirEif530uUACh.jpg",
+            "collectionTmdbUrl": "https://www.themoviedb.org/collection/870339"
+        },
+        {
+            "id": "the_accountant_2_2025",
+            "titre": "The Accountant 2",
+            "annee": 2025,
+            "langue": [
+                "VO",
+                "VF"
+            ],
+            "taille": 3573871858,
+            "genre": [
+                "Crime",
+                "Thriller",
+                "Drame"
+            ],
+            "image": "https://image.tmdb.org/t/p/w342/o7073AlEoBqltpsRBRDI6b5CyM6.jpg",
+            "fichier": "/03_Films/The.Accountant.2.2025.MULTi.VF2.WEB.H264-TFA.mkv",
+            "nomFichier": "The.Accountant.2.2025.MULTi.VF2.WEB.H264-TFA.mkv",
+            "imdbId": null,
+            "tmdbId": 302946,
+            "tmdbUrl": "https://www.themoviedb.org/movie/302946",
+            "doublonExact": false,
+            "doublonProbable": true,
+            "groupeDoublon": "the_accountant_2",
+            "dateAjout": "2026-11-14T08:28:07.458Z",
+            "technique": {
+                "largeur": 712,
+                "hauteur": 296,
+                "resolution": "712x296",
+                "ratioImage": 2.405,
+                "codecVideo": "h264",
+                "profilVideo": "Main",
+                "pixelFormat": "yuv420p",
+                "bitsParComposante": 8,
+                "bitrateVideo": null,
+                "framerate": 24,
+                "espaceCouleur": "bt709",
+                "transfertCouleur": "bt709",
+                "primairesCouleur": "bt709",
+                "hdr": false,
+                "dureeFichier": 8060,
+                "bitrateGlobal": 3547267,
+                "formatConteneur": "matroska,webm",
+                "audio": [
+                    {
+                        "codec": "eac3",
+                        "profil": null,
+                        "canaux": 6,
+                        "disposition": "5.1(side)",
+                        "bitrate": 640000,
+                        "frequence": 48000,
+                        "langue": "fre"
+                    },
+                    {
+                        "codec": "eac3",
+                        "profil": null,
+                        "canaux": 6,
+                        "disposition": "5.1(side)",
+                        "bitrate": 640000,
+                        "frequence": 48000,
+                        "langue": "fre"
+                    },
+                    {
+                        "codec": "eac3",
+                        "profil": null,
+                        "canaux": 6,
+                        "disposition": "5.1(side)",
+                        "bitrate": 640000,
+                        "frequence": 48000,
+                        "langue": "eng"
+                    },
+                    {
+                        "codec": "eac3",
+                        "profil": null,
+                        "canaux": 6,
+                        "disposition": "5.1(side)",
+                        "bitrate": 640000,
+                        "frequence": 48000,
+                        "langue": "eng"
+                    }
+                ],
+                "sousTitres": [
+                    {
+                        "codec": "subrip",
+                        "langue": "fre",
+                        "titre": "VFQ (Forced)"
+                    },
+                    {
+                        "codec": "subrip",
+                        "langue": "fre",
+                        "titre": "VFQ"
+                    },
+                    {
+                        "codec": "subrip",
+                        "langue": "fre",
+                        "titre": "VFF (Forced)"
+                    },
+                    {
+                        "codec": "subrip",
+                        "langue": "fre",
+                        "titre": "VFF"
+                    },
+                    {
+                        "codec": "subrip",
+                        "langue": "eng",
+                        "titre": "SDH"
+                    }
+                ]
+            },
+            "titreTmdb": "Mr Wolff",
+            "titreOriginal": "The Accountant",
+            "anneeTmdb": "2016",
+            "dureeTmdb": 128,
+            "descriptionTmdb": "Petit génie des mathématiques, Christian Wolff est plus à l’aise avec les chiffres qu’avec les gens. Expert‐comptable dans le civil, il travaille en réalité pour plusieurs organisations mafieuses parmi les plus dangereuses au monde. Lorsque la brigade anti‐criminalité du ministère des Finances s’intéresse d’un peu trop près à ses affaires, Christian cherche à faire diversion : il accepte de vérifier les comptes d’une entreprise de robotique ayant pignon sur rue. Problème : la comptable de la société a décelé un détournement de fonds de plusieurs millions de dollars. Tandis que Christian épluche les comptes et découvre les rouages de l’escroquerie, les cadavres s’accumulent…",
+            "collectionId": 870339,
+            "collectionNom": "Mr Wolff - Saga",
+            "collectionDescription": "Une trilogie de thrillers policiers avec Ben Affleck dans le rôle d'un mathématicien plus affiné avec les chiffres qu'avec les gens. Sous couvert d'un cabinet d'expertise comptable d'une petite ville, il gagne sa vie en tant que comptable indépendant pour de dangereuses organisations criminelles.",
+            "collectionImage": "https://image.tmdb.org/t/p/w500/rbTVcWYJp3xjKqirEif530uUACh.jpg",
+            "collectionTmdbUrl": "https://www.themoviedb.org/collection/870339"
+        },
+        {
+            "id": "the_accountant_2_2025",
+            "titre": "The Accountant 2",
+            "annee": 2025,
+            "langue": [
+                "VO",
+                "VF"
+            ],
+            "taille": 1287950776,
+            "genre": [
+                "Crime",
+                "Thriller",
+                "Drame"
+            ],
+            "image": "https://image.tmdb.org/t/p/w342/o7073AlEoBqltpsRBRDI6b5CyM6.jpg",
+            "fichier": "/03_Films/The.Accountant.2.2025.Multi.Vf2.WEBRIP.mp4",
+            "nomFichier": "The.Accountant.2.2025.Multi.Vf2.WEBRIP.mp4",
+            "imdbId": null,
+            "tmdbId": 302946,
+            "tmdbUrl": "https://www.themoviedb.org/movie/302946",
+            "doublonExact": false,
+            "doublonProbable": true,
+            "groupeDoublon": "the_accountant_2",
+            "dateAjout": "2026-11-14T08:28:08.394Z",
+            "technique": {
+                "largeur": 712,
+                "hauteur": 296,
+                "resolution": "712x296",
+                "ratioImage": 2.405,
+                "codecVideo": "h264",
+                "profilVideo": "High",
+                "pixelFormat": "yuv420p",
+                "bitsParComposante": 8,
+                "bitrateVideo": 617243,
+                "framerate": 24,
+                "espaceCouleur": "bt709",
+                "transfertCouleur": "bt709",
+                "primairesCouleur": "bt709",
+                "hdr": false,
+                "dureeFichier": 8060,
+                "bitrateGlobal": 1278363,
+                "formatConteneur": "mov,mp4,m4a,3gp,3g2,mj2",
+                "audio": [
+                    {
+                        "codec": "aac",
+                        "profil": "LC",
+                        "canaux": 2,
+                        "disposition": "stereo",
+                        "bitrate": 161710,
+                        "frequence": 48000,
+                        "langue": "fra"
+                    },
+                    {
+                        "codec": "aac",
+                        "profil": "LC",
+                        "canaux": 2,
+                        "disposition": "stereo",
+                        "bitrate": 160877,
+                        "frequence": 48000,
+                        "langue": "fra"
+                    },
+                    {
+                        "codec": "aac",
+                        "profil": "LC",
+                        "canaux": 2,
+                        "disposition": "stereo",
+                        "bitrate": 161095,
+                        "frequence": 48000,
+                        "langue": "eng"
+                    },
+                    {
+                        "codec": "aac",
+                        "profil": "LC",
+                        "canaux": 2,
+                        "disposition": "stereo",
+                        "bitrate": 161714,
+                        "frequence": 48000,
+                        "langue": "eng"
+                    }
+                ],
+                "sousTitres": [
+                    {
+                        "codec": "mov_text",
+                        "langue": "fra",
+                        "titre": null
+                    },
+                    {
+                        "codec": "mov_text",
+                        "langue": "fra",
+                        "titre": null
+                    },
+                    {
+                        "codec": "mov_text",
+                        "langue": "fra",
+                        "titre": null
+                    },
+                    {
+                        "codec": "mov_text",
+                        "langue": "fra",
+                        "titre": null
+                    },
+                    {
+                        "codec": "mov_text",
+                        "langue": "eng",
+                        "titre": null
+                    }
+                ]
+            },
+            "titreTmdb": "Mr Wolff",
+            "titreOriginal": "The Accountant",
+            "anneeTmdb": "2016",
+            "dureeTmdb": 128,
+            "descriptionTmdb": "Petit génie des mathématiques, Christian Wolff est plus à l’aise avec les chiffres qu’avec les gens. Expert‐comptable dans le civil, il travaille en réalité pour plusieurs organisations mafieuses parmi les plus dangereuses au monde. Lorsque la brigade anti‐criminalité du ministère des Finances s’intéresse d’un peu trop près à ses affaires, Christian cherche à faire diversion : il accepte de vérifier les comptes d’une entreprise de robotique ayant pignon sur rue. Problème : la comptable de la société a décelé un détournement de fonds de plusieurs millions de dollars. Tandis que Christian épluche les comptes et découvre les rouages de l’escroquerie, les cadavres s’accumulent…",
+            "collectionId": 870339,
+            "collectionNom": "Mr Wolff - Saga",
+            "collectionDescription": "Une trilogie de thrillers policiers avec Ben Affleck dans le rôle d'un mathématicien plus affiné avec les chiffres qu'avec les gens. Sous couvert d'un cabinet d'expertise comptable d'une petite ville, il gagne sa vie en tant que comptable indépendant pour de dangereuses organisations criminelles.",
+            "collectionImage": "https://image.tmdb.org/t/p/w500/rbTVcWYJp3xjKqirEif530uUACh.jpg",
+            "collectionTmdbUrl": "https://www.themoviedb.org/collection/870339"
         },
         {
             "id": "the_amazing_spider_man_1_2012",
@@ -45329,7 +44791,7 @@
                 "Aventure"
             ],
             "image": "https://image.tmdb.org/t/p/w342/pipDbSUyH0xABjlKJyPaPSJ1N1I.jpg",
-            "fichier": "/Box_Films/0 - New/A trier/Tinker.Bell.2008.720p.BRrip.x264.GAZ.YIFY.mp4",
+            "fichier": "/Box_Films/0 - New/Tinker.Bell.2008.720p.BRrip.x264.GAZ.YIFY.mp4",
             "nomFichier": "Tinker.Bell.2008.720p.BRrip.x264.GAZ.YIFY.mp4",
             "imdbId": null,
             "tmdbId": 13179,
@@ -47154,6 +46616,112 @@
             "type": "Film",
             "studio": null,
             "ignoreInCollection": true
+        },
+        {
+            "id": "up_2006",
+            "titre": "Up",
+            "annee": 2006,
+            "langue": [
+                "VF"
+            ],
+            "taille": 2870409904,
+            "genre": [
+                "Musique",
+                "Drame",
+                "Romance",
+                "Crime"
+            ],
+            "image": "https://image.tmdb.org/t/p/w342/kRNZT9NZIdm3Mom4HHTBPH2bmY5.jpg",
+            "fichier": "/03_Films/Step Up 2006 MULTi VFI TrueFrench 1080p HDLight x264.mkv",
+            "nomFichier": "Step Up 2006 MULTi VFI TrueFrench 1080p HDLight x264.mkv",
+            "imdbId": null,
+            "tmdbId": 9762,
+            "tmdbUrl": "https://www.themoviedb.org/movie/9762",
+            "doublonExact": false,
+            "doublonProbable": false,
+            "groupeDoublon": null,
+            "dateAjout": "2026-11-14T08:28:07.154Z",
+            "technique": {
+                "largeur": 1920,
+                "hauteur": 820,
+                "resolution": "1920x820",
+                "ratioImage": 2.341,
+                "codecVideo": "h264",
+                "profilVideo": "High",
+                "pixelFormat": "yuv420p",
+                "bitsParComposante": 8,
+                "bitrateVideo": null,
+                "framerate": 23.976,
+                "espaceCouleur": "bt709",
+                "transfertCouleur": "bt709",
+                "primairesCouleur": "bt709",
+                "hdr": false,
+                "dureeFichier": 6212.665,
+                "bitrateGlobal": 3696204,
+                "formatConteneur": "matroska,webm",
+                "audio": [
+                    {
+                        "codec": "ac3",
+                        "profil": null,
+                        "canaux": 6,
+                        "disposition": "5.1(side)",
+                        "bitrate": 448000,
+                        "frequence": 48000,
+                        "langue": "fre"
+                    },
+                    {
+                        "codec": "ac3",
+                        "profil": null,
+                        "canaux": 6,
+                        "disposition": "5.1(side)",
+                        "bitrate": 448000,
+                        "frequence": 48000,
+                        "langue": "eng"
+                    }
+                ],
+                "sousTitres": [
+                    {
+                        "codec": "subrip",
+                        "langue": "fre",
+                        "titre": "forced"
+                    },
+                    {
+                        "codec": "subrip",
+                        "langue": "fre",
+                        "titre": "full"
+                    },
+                    {
+                        "codec": "hdmv_pgs_subtitle",
+                        "langue": "fre",
+                        "titre": "commentary"
+                    },
+                    {
+                        "codec": "subrip",
+                        "langue": "eng",
+                        "titre": "full"
+                    },
+                    {
+                        "codec": "subrip",
+                        "langue": "eng",
+                        "titre": "SDH"
+                    },
+                    {
+                        "codec": "hdmv_pgs_subtitle",
+                        "langue": "eng",
+                        "titre": "commentary"
+                    }
+                ]
+            },
+            "titreTmdb": "Sexy Dance",
+            "titreOriginal": "Step Up",
+            "anneeTmdb": "2006",
+            "dureeTmdb": 103,
+            "descriptionTmdb": "Rebelle dans l'âme, Tyler Gage a passé toute sa jeunesse dans les bas quartiers et les mean streets de Baltimore, et sait aujourd'hui qu'il ne se tirera d'affaire qu'en rompant avec son milieu. Son seul atout, bien mince : un don naturel pour le hip-hop, qu'il pratique d'instinct, pour son seul plaisir...Ambitieuse et douée, la belle Nora a grandi au sein d'une famille bourgeoise qui a encouragé très tôt sa vocation, et finance ses études de danse classique à la prestigieuse Performing Arts High School.Tyler et Nora : deux mondes diamétralement opposés, deux talents, deux passions dont la rencontre explosive sera à l'origine d'un étonnant conte de fée musical...",
+            "collectionId": 86092,
+            "collectionNom": "Sexy Dance - Saga",
+            "collectionDescription": "Les films \"Step Up\" sont une série de films de danse/romance-drame créés par Duane Adler.",
+            "collectionImage": "https://image.tmdb.org/t/p/w500/syG4B7AnF9W8Cd0QEebl50YyN7M.jpg",
+            "collectionTmdbUrl": "https://www.themoviedb.org/collection/86092"
         },
         {
             "id": "up_2_streets_2008",
@@ -49256,7 +48824,7 @@
                 "Science-Fiction"
             ],
             "image": "https://image.tmdb.org/t/p/w342/ucJroLJ6RCqXY6hjYeLCW6jbWwE.jpg",
-            "fichier": "/Box_Films/Marvel/X-Men Origins - VF.Avi",
+            "fichier": "/01_Films/Marvel/X-Men Origins - VF.Avi",
             "nomFichier": "X-Men Origins - VF.Avi",
             "imdbId": null,
             "tmdbId": 2080,
@@ -49825,6 +49393,36 @@
             "collectionNom": "Snow Queen - Saga",
             "type": "Animation",
             "studio": null,
+            "ignoreInCollection": false
+        },
+        {
+            "id": "tmdb_453395",
+            "titre": "Doctor Strange in the Multiverse of Madness",
+            "annee": 2022,
+            "langue": [
+                "TBD"
+            ],
+            "taille": 0,
+            "genre": [
+                "Science-Fiction"
+            ],
+            "image": "https://image.tmdb.org/t/p/w342/arfzjn1tGvXWwkX7eaGVuXsc0mp.jpg",
+            "fichier": null,
+            "nomFichier": null,
+            "tmdbId": 453395,
+            "tmdbUrl": "https://www.themoviedb.org/movie/453395",
+            "doublonExact": false,
+            "doublonProbable": false,
+            "groupeDoublon": null,
+            "dateAjout": null,
+            "titreTmdb": "Doctor Strange in the Multiverse of Madness",
+            "titreOriginal": "Doctor Strange in the Multiverse of Madness",
+            "anneeTmdb": 2022,
+            "descriptionTmdb": "Le Docteur Strange lance un sort interdit qui ouvre le portail du Multivers, incluant des versions alternatives de lui-même. Cette menace à l'humanité est plus puissante que les pouvoirs combinés de Strange, Wong et Wanda Maximoff.",
+            "collectionId": 618529,
+            "collectionNom": "Doctor Strange - Saga",
+            "type": "Film",
+            "studio": "Marvel",
             "ignoreInCollection": false
         }
     ],
@@ -69900,17 +69498,17 @@
     "stockage": [
         {
             "lecteur": "E",
-            "espaceLibre": 171113291776,
+            "espaceLibre": 154618171392,
             "capaciteTotale": 500001927168
         },
         {
             "lecteur": "Y",
-            "espaceLibre": 421402816512,
+            "espaceLibre": 537354407936,
             "capaciteTotale": 2000396742656
         },
         {
             "lecteur": "Z",
-            "espaceLibre": 43333263360,
+            "espaceLibre": 47398006784,
             "capaciteTotale": 1000169533440
         }
     ]

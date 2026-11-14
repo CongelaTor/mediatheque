@@ -1,5 +1,5 @@
 const FILTER_AJOUTS = {
-  collections: ["Nouveautés", "Récents", "À compléter"],
+  collections: ["Récents", "À compléter"],
   films: ["Nouveautés", "Récents", "Doublons"],
   tools: ["Nouveautés", "Récents", "Doublons"],
   series: ["Nouveautés", "Récents", "À compléter"],
@@ -143,13 +143,22 @@ function updateSidebarTitle(elementId, label, value) {
 function initFiltersSidebar(ecran) {
   const viewState = loadSidebarFiltersState();
 
+  // Détecte si l'on est dans une collection (soit sur la page collections, soit en contexte collection sur l'écran films)
+  const isCollectionContext =
+    currentPage === "collections" ||
+    (typeof isCollectionContextActive === "function" &&
+      isCollectionContextActive());
+
   switch (currentPage) {
     case "collections":
-      validAjouts = ["all", "Nouveautés", "Récents", "A compléter"];
+      validAjouts = ["all", "Récents", "À compléter"];
       tousLabel = "Toutes les collections";
       break;
     case "films":
-      validAjouts = ["all", "Nouveautés", "Récents", "Doublons"];
+      // Si on est dans une collection active, on retire "Nouveautés" des ajouts valides
+      validAjouts = isCollectionContext
+        ? ["all", "Récents", "Doublons"]
+        : ["all", "Nouveautés", "Récents", "Doublons"];
       tousLabel = "Tous les films";
       break;
     case "tools":
@@ -162,7 +171,20 @@ function initFiltersSidebar(ecran) {
       break;
   }
 
-  renderAllSidebarFilters(tousLabel);
+  // Si on est en contexte collection sur la page films, on s'assure aussi de filtrer l'affichage du rendu des boutons
+  if (isCollectionContext && currentPage === "films") {
+    const ajoutsFiltresRestants = FILTER_AJOUTS.films.filter(
+      (item) => item !== "Nouveautés",
+    );
+    renderSidebarFilters(
+      "ajoutsFilters",
+      ajoutsFiltresRestants,
+      "ajouts",
+      tousLabel,
+    );
+  } else {
+    renderAllSidebarFilters(tousLabel);
+  }
 
   currentAjouts = viewState.ajouts || "all";
   if (!validAjouts.includes(currentAjouts)) {

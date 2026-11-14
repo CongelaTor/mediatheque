@@ -581,7 +581,7 @@ function syncFilm(catalog, analyse, sourceFilePath) {
     });
     return "kept";
   }
-  const technique = extractVideoMetadata(probeVideoFile(sourceFilePath));
+  const technique = extractVideoMetadata(probeVideoFile(sourceFilePath)) || {};
   technique.zoneUtile = detectUsefulVideoArea(sourceFilePath);
   catalog.films.push({
     id: analyse.id,

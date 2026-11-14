@@ -466,6 +466,7 @@ gap: 26px;
     justify-content: space-between;
     align-items: center;
     margin-bottom: 18px;
+    max-width: var(--cadres-max-width);
 }
 
 .content-header h1 {
@@ -1163,6 +1164,7 @@ max-width: var(--cadres-max-width);
     align-items: center;
     justify-content: space-between;
     margin-bottom: 18px;
+    max-width: var(--cadres-max-width);
 }
 .film-detail-actions-row .language-filters {
     margin: 0;

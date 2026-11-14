@@ -109,6 +109,21 @@ function loadSearchText() {
   return localStorage.getItem(key) ?? "";
 }
 
+function getSidebarFiltersStateKey() {
+  if (currentPage === "collections") {
+    return "filmsViewStateCollection"; // Partagé avec le mode collection des films
+  }
+  if (currentPage === "films") {
+    return isCollectionContextActive()
+      ? "filmsViewStateCollection"
+      : "filmsViewStateHorsCollection";
+  }
+  if (currentPage === "tools") {
+    return "filmsViewStateHorsCollection";
+  }
+  return filmsViewStateKey;
+}
+
 function saveSidebarFiltersState() {
   const state = {
     ajouts: currentAjouts,
@@ -120,7 +135,7 @@ function saveSidebarFiltersState() {
       (button) => button.dataset.language,
     ),
   };
-  localStorage.setItem(filmsViewStateKey, JSON.stringify(state));
+  localStorage.setItem(getSidebarFiltersStateKey(), JSON.stringify(state));
 }
 
 function saveToolsButtonsState() {
@@ -139,13 +154,13 @@ function saveToolsFiltersState() {
     state.genre = currentGenre;
     state.type = currentType;
     state.studio = currentStudio;
-    localStorage.setItem(filmsViewStateKey, JSON.stringify(state));
+    localStorage.setItem(getSidebarFiltersStateKey(), JSON.stringify(state));
   }
 
   saveToolsButtonsState();
 }
 function loadSidebarFiltersState() {
-  return JSON.parse(localStorage.getItem(filmsViewStateKey) ?? "{}");
+  return JSON.parse(localStorage.getItem(getSidebarFiltersStateKey()) ?? "{}");
 }
 function loadToolsButtonsState() {
   return JSON.parse(localStorage.getItem(toolsButtonsStateKey) ?? "{}");
@@ -154,7 +169,6 @@ function saveSeriesViewState() {
   const state = {
     languages: [...activeSeriesLanguages],
   };
-
   localStorage.setItem(seriesViewStateKey, JSON.stringify(state));
 }
 

@@ -492,6 +492,7 @@ async function associateTmdbFilm(film, result) {
       filmId: film.id,
       fichiers: fichiers,
       titreTmdb: result.titre,
+      titreOriginal: result.titreOriginal,
       anneeTmdb: result.annee,
       dureeTmdb: dureeTmdb,
       genre: genres,
@@ -515,6 +516,7 @@ async function associateTmdbFilm(film, result) {
   }
 
   film.titreTmdb = result.titre;
+  film.titreOriginal = result.titreOriginal;
   film.anneeTmdb = result.annee;
   film.dureeTmdb = dureeTmdb;
   film.genre = genres;
@@ -620,6 +622,7 @@ async function searchTmdbFilm(title) {
   return data.results.map((item) => ({
     tmdbId: item.id,
     titre: item.title,
+    titreOriginal: item.original_title,
     annee: item.release_date ? item.release_date.substring(0, 4) : "",
     description: item.overview,
     image: item.poster_path
