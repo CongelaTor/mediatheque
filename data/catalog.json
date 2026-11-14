@@ -37664,7 +37664,9 @@
             "titre": "secondes chrono",
             "annee": null,
             "langue": [
-                "VF"
+                "VO",
+                "VF",
+                "VOST"
             ],
             "taille": 726675864,
             "genre": [
@@ -37724,6 +37726,10 @@
             },
             "titreOriginal": "Gone in Sixty Seconds",
             "languesAudio": [
+                "FR",
+                "EN"
+            ],
+            "languesSousTitres": [
                 "EN"
             ]
         },
