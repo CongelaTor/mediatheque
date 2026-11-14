@@ -215,6 +215,19 @@ function formatTechnicalBitrate(technique) {
   }
   return `${(bitrate / 1000000).toFixed(2).replace(".", ",")} Mb/s`;
 }
+function formatTechnicalScreen(technique) {
+  const zone = technique?.zoneUtile;
+  if (!zone?.largeurUtile || !zone?.hauteurUtile) {
+    return "Ratio à tester";
+  }
+  const videoRatio = zone.largeurUtile / zone.hauteurUtile;
+  const screenRatio = 2560 / 1080;
+  const tolerance = 0.03;
+  if (Math.abs(videoRatio - screenRatio) <= tolerance) {
+    return "Plein écran";
+  }
+  return videoRatio < screenRatio ? "Bandes latérales" : "Bandes horizontales";
+}
 function formatTechnicalLanguage(language) {
   const languages = {
     fr: "FR",
@@ -395,10 +408,11 @@ function createFilmFileCard(film) {
       technique.resolution,
       formatTechnicalCodec(technique.codecVideo),
       formatTechnicalBitrate(technique),
+      formatTechnicalScreen(technique),
     ].filter(Boolean);
     technicalVideo.textContent = videoParts.join(" · ");
   }
-  
+
   const leftInfo = document.createElement("div");
   leftInfo.className = "film-file-left-info";
   leftInfo.appendChild(playButton);
