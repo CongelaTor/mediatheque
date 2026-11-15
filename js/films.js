@@ -115,9 +115,23 @@ function renderFilms() {
   }
   let films = [...groupedFilms.values()]
     .map((group) => {
+      const hasVoVfFile = group.files.some((file) => {
+        const audioLanguages = Array.isArray(file.languesAudio)
+          ? file.languesAudio
+          : Array.isArray(file.technique?.audio)
+            ? file.technique.audio.map((track) => track.langue).filter(Boolean)
+            : [];
+        return (
+          (Array.isArray(file.langue) &&
+            file.langue.includes("VO") &&
+            file.langue.includes("VF")) ||
+          (audioLanguages.includes("eng") && audioLanguages.includes("fre"))
+        );
+      });
       group.film.fileCount = group.files.length;
       group.film.groupFiles = group.files;
-      group.film.hasExactDuplicate = group.hasExactDuplicate;
+      group.film.hasExactDuplicate =
+        group.hasExactDuplicate || (hasVoVfFile && group.files.length > 1);
       return group.film;
     })
     .filter((film) => {

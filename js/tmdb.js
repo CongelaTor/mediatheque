@@ -119,13 +119,10 @@ async function showTmdbFilmSearch(film) {
 
   modal.classList.remove("hidden");
   modal.onclick = (event) => {
-    console.log("TMDB CLICK =>", event.target);
+    if (event.target === modal) {
+      closeTmdbModal();
+    }
   };
-  // modal.onclick = (event) => {
-  //   if (event.target === modal) {
-  //     closeTmdbModal();
-  //   }
-  // };
 
   await searchTmdbFilmFromInput();
 }

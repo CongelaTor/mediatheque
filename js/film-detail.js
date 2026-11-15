@@ -279,59 +279,92 @@ function renderAudioLanguages(audioInfo, audioLanguages, metadata, film) {
   metadata.classList.remove("language-metadata-hidden");
   const audioIcon = document.createElement("span");
   audioIcon.textContent = "🔊";
-  audioIcon.style.cursor = "pointer";
-  audioIcon.onclick = (event) => {
-    event.stopPropagation();
-    renderAudioLanguageEditor(audioInfo, audioLanguages, metadata, film);
-  };
   audioInfo.appendChild(audioIcon);
   if (audioLanguages.length) {
     audioInfo.append(` ${audioLanguages.join(" · ")}`);
   }
+  audioInfo.style.cursor = "pointer";
+  audioInfo.onclick = (event) => {
+    event.stopPropagation();
+    renderAudioLanguageEditor(
+      audioInfo,
+      audioLanguages,
+      metadata,
+      film,
+      audioInfo.closest(".film-file-card"),
+    );
+  };
 }
-function renderAudioLanguageEditor(audioInfo, audioLanguages, metadata, film) {
+
+function renderAudioLanguageEditor(
+  audioInfo,
+  audioLanguages,
+  metadata,
+  film,
+  card,
+) {
   audioInfo.innerHTML = "";
   audioInfo.classList.add("language-editor");
-  metadata.classList.add("language-metadata-hidden");
   const closeEditor = () => {
     document.removeEventListener("click", closeEditor);
-    renderAudioLanguages(audioInfo, audioLanguages, metadata);
+    renderAudioLanguages(audioInfo, audioLanguages, metadata, film);
   };
+  const validateButton = document.createElement("button");
+  validateButton.type = "button";
+  validateButton.textContent = "✓";
+  validateButton.className = "language-button";
+  validateButton.onclick = async (event) => {
+    event.stopPropagation();
+    audioLanguages.splice(
+      0,
+      audioLanguages.length,
+      ...[...audioInfo.querySelectorAll(".language-button.active")].map(
+        (button) => button.textContent,
+      ),
+    );
+    const response = await fetch("http://127.0.0.1:9876/save-film-languages", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({
+        fichier: film.fichier,
+        type: "audio",
+        languages: audioLanguages,
+      }),
+    });
+    if (!response.ok) {
+      throw new Error(await response.text());
+    }
+    const result = await response.json();
+    const films = catalog.films.filter((item) => item.tmdbId === film.tmdbId);
+    const oldBorderClasses = getFilmBorderClasses(films);
+    film.languesAudio = [...audioLanguages];
+    film.langue = result.langue;
+    const languages = Array.isArray(film.langue)
+      ? film.langue.join(" ")
+      : film.langue || "TBD";
+    metadata.textContent = `${languages} • ${formatFilmFileSize(film.taille)}`;
+    const imageContainer = document.querySelector(
+      "#filmInfoCard .serie-info-image",
+    );
+    imageContainer.style.removeProperty("background");
+    imageContainer.classList.remove(...oldBorderClasses);
+    imageContainer.classList.add(...getFilmBorderClasses(films));
+    document.removeEventListener("click", closeEditor);
+    renderAudioLanguages(audioInfo, audioLanguages, metadata, film);
+  };
+
+  audioInfo.appendChild(validateButton);
   for (const language of ["FR", "EN"]) {
     const button = document.createElement("button");
     button.type = "button";
     button.textContent = language;
     button.className = "language-button";
     button.classList.toggle("active", audioLanguages.includes(language));
-    button.onclick = async (event) => {
+    button.onclick = (event) => {
       event.stopPropagation();
       button.classList.toggle("active");
-      audioLanguages.splice(
-        0,
-        audioLanguages.length,
-        ...[...audioInfo.querySelectorAll(".language-button.active")].map(
-          (button) => button.textContent,
-        ),
-      );
-      document.removeEventListener("click", closeEditor);
-      renderAudioLanguages(audioInfo, audioLanguages, metadata, film);
-      const response = await fetch(
-        "http://127.0.0.1:9876/save-film-languages",
-        {
-          method: "POST",
-          headers: {
-            "Content-Type": "application/json",
-          },
-          body: JSON.stringify({
-            fichier: film.fichier,
-            type: "audio",
-            languages: audioLanguages,
-          }),
-        },
-      );
-      if (!response.ok) {
-        throw new Error(await response.text());
-      }
     };
     audioInfo.appendChild(button);
   }
@@ -347,10 +380,15 @@ function renderSubtitleLanguages(
   subtitleInfo.innerHTML = "";
   subtitleInfo.classList.remove("language-editor");
   metadata.classList.remove("language-metadata-hidden");
+
   const subtitleIcon = document.createElement("span");
   subtitleIcon.textContent = "💬";
-  subtitleIcon.style.cursor = "pointer";
-  subtitleIcon.onclick = (event) => {
+  subtitleInfo.appendChild(subtitleIcon);
+  if (subtitleLanguages.length) {
+    subtitleInfo.append(` ${subtitleLanguages.join(" · ")}`);
+  }
+  subtitleInfo.style.cursor = "pointer";
+  subtitleInfo.onclick = (event) => {
     event.stopPropagation();
     renderSubtitleLanguageEditor(
       subtitleInfo,
@@ -359,11 +397,8 @@ function renderSubtitleLanguages(
       film,
     );
   };
-  subtitleInfo.appendChild(subtitleIcon);
-  if (subtitleLanguages.length) {
-    subtitleInfo.append(` ${subtitleLanguages.join(" · ")}`);
-  }
 }
+
 function renderSubtitleLanguageEditor(
   subtitleInfo,
   subtitleLanguages,
@@ -372,59 +407,69 @@ function renderSubtitleLanguageEditor(
 ) {
   subtitleInfo.innerHTML = "";
   subtitleInfo.classList.add("language-editor");
-  metadata.classList.add("language-metadata-hidden");
   const closeEditor = () => {
     document.removeEventListener("click", closeEditor);
     renderSubtitleLanguages(subtitleInfo, subtitleLanguages, metadata, film);
   };
+  const validateButton = document.createElement("button");
+  validateButton.type = "button";
+  validateButton.textContent = "✓";
+  validateButton.className = "language-button";
+  validateButton.onclick = async (event) => {
+    event.stopPropagation();
+    subtitleLanguages.splice(
+      0,
+      subtitleLanguages.length,
+      ...[...subtitleInfo.querySelectorAll(".language-button.active")].map(
+        (button) => button.textContent,
+      ),
+    );
+    const response = await fetch("http://127.0.0.1:9876/save-film-languages", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({
+        fichier: film.fichier,
+        type: "subtitles",
+        languages: subtitleLanguages,
+      }),
+    });
+    if (!response.ok) {
+      throw new Error(await response.text());
+    }
+    const result = await response.json();
+    film.languesSousTitres = [...subtitleLanguages];
+    film.langue = result.langue;
+    const languages = Array.isArray(film.langue)
+      ? film.langue.join(" ")
+      : film.langue || "TBD";
+    metadata.textContent = `${languages} • ${formatFilmFileSize(film.taille)}`;
+    document.removeEventListener("click", closeEditor);
+    renderSubtitleLanguages(subtitleInfo, subtitleLanguages, metadata, film);
+  };
+  subtitleInfo.appendChild(validateButton);
   for (const language of ["FR", "EN"]) {
     const button = document.createElement("button");
     button.type = "button";
     button.textContent = language;
     button.className = "language-button";
     button.classList.toggle("active", subtitleLanguages.includes(language));
-    button.onclick = async (event) => {
+    button.onclick = (event) => {
       event.stopPropagation();
       button.classList.toggle("active");
-      subtitleLanguages.splice(
-        0,
-        subtitleLanguages.length,
-        ...[...subtitleInfo.querySelectorAll(".language-button.active")].map(
-          (button) => button.textContent,
-        ),
-      );
-      document.removeEventListener("click", closeEditor);
-      renderSubtitleLanguages(subtitleInfo, subtitleLanguages, metadata, film);
-      const response = await fetch(
-        "http://127.0.0.1:9876/save-film-languages",
-        {
-          method: "POST",
-          headers: {
-            "Content-Type": "application/json",
-          },
-          body: JSON.stringify({
-            fichier: film.fichier,
-            type: "subtitles",
-            languages: subtitleLanguages,
-          }),
-        },
-      );
-      if (!response.ok) {
-        throw new Error(await response.text());
-      }
     };
     subtitleInfo.appendChild(button);
   }
   setTimeout(() => document.addEventListener("click", closeEditor), 0);
 }
-
 function createFilmFileCard(film) {
   const card = document.createElement("article");
   card.className = "film-file-card";
   card.classList.add(...getFilmBorderClasses([film]));
 
   const languages = Array.isArray(film.langue)
-    ? film.langue.join(", ")
+    ? film.langue.join(" ")
     : film.langue || "TBD";
 
   const playbackRow = document.createElement("div");
@@ -502,6 +547,7 @@ function createFilmFileCard(film) {
   tmdbButton.innerHTML =
     '<span class="play-icon film-link-icon" style="transform: translateX(-2px)">TM</span>';
   tmdbButton.title = "Réassocier TMDB";
+  tmdbButton.onclick = () => showTmdbFilmSearch(film);
 
   const deleteButton = document.createElement("button");
   deleteButton.className =
@@ -572,7 +618,7 @@ function createFilmFileCard(film) {
       formatTechnicalBitrate(technique),
       formatTechnicalScreen(technique),
     ].filter(Boolean);
-    technicalVideo.textContent = videoParts.join(" · ");
+    technicalVideo.textContent = videoParts.join(" • ");
   }
 
   const leftInfo = document.createElement("div");
@@ -583,7 +629,7 @@ function createFilmFileCard(film) {
 
   const audioLanguages = Array.isArray(film.languesAudio)
     ? [...film.languesAudio]
-    : [];
+    : getTechnicalLanguages(technique?.audio);
   const audioInfo = document.createElement("div");
   audioInfo.className = "film-technical-info";
   renderAudioLanguages(audioInfo, audioLanguages, metadata, film);
@@ -591,6 +637,7 @@ function createFilmFileCard(film) {
   const subtitleLanguages = Array.isArray(film.languesSousTitres)
     ? [...film.languesSousTitres]
     : getTechnicalLanguages(technique?.sousTitres);
+
   const subtitleInfo = document.createElement("div");
   subtitleInfo.className = "film-technical-info";
   renderSubtitleLanguages(subtitleInfo, subtitleLanguages, metadata, film);

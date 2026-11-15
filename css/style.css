@@ -684,7 +684,12 @@ background: #f97316;
 .language-editor {
     display: flex !important;
     align-items: center;
-    gap: 8px;
+    gap: 6px;
+}
+.language-editor .language-button {
+    padding: 5px 10px;
+    border-radius: 9px;
+    font-size: calc(13px * var(--font-scale));
 }
 .language-metadata-hidden {
     visibility: hidden;
@@ -1360,6 +1365,9 @@ max-width: var(--cadres-max-width);
     position: absolute;
     left: 0;
     bottom: 0;
+}
+.film-file-column:first-child .film-technical-info.language-editor {
+    bottom: -2px;
 }
 .film-file-column .film-technical-info {
     display: block;
