@@ -144,18 +144,19 @@ async function initFilmDetailPage() {
     window.location.href = referenceFilm.tmdbUrl;
   };
 
+  updateLanguageFilters(films);
+  renderFilmFiles(films);
+}
+function updateLanguageFilters(films) {
   const availableLanguages = new Set();
-
   for (const film of films) {
     const languages = Array.isArray(film.langue)
       ? film.langue
       : [film.langue || "TBD"];
-
     for (const language of languages) {
       availableLanguages.add(language || "TBD");
     }
   }
-
   document
     .querySelectorAll("#languageFilters .language-button")
     .forEach((button) => {
@@ -164,10 +165,7 @@ async function initFilmDetailPage() {
         !availableLanguages.has(button.dataset.language),
       );
     });
-
-  renderFilmFiles(films);
 }
-
 function renderFilmFiles(films) {
   const panel = document.getElementById("filmFilesPanel");
   panel.innerHTML = "";
@@ -200,7 +198,22 @@ function renderFilmFiles(films) {
 
   panel.appendChild(filesList);
 }
-
+function formatFilmLanguages(languages) {
+  const order = ["VO", "VF", "VOST", "VOSTFR"];
+  const values = Array.isArray(languages)
+    ? [...languages]
+    : [languages || "TBD"];
+  return values
+    .sort((a, b) => {
+      const indexA = order.indexOf(a);
+      const indexB = order.indexOf(b);
+      return (
+        (indexA === -1 ? order.length : indexA) -
+        (indexB === -1 ? order.length : indexB)
+      );
+    })
+    .join(" ");
+}
 function formatTechnicalCodec(codec) {
   const codecs = {
     h264: "H.264",
@@ -281,7 +294,10 @@ function renderAudioLanguages(audioInfo, audioLanguages, metadata, film) {
   audioIcon.textContent = "🔊";
   audioInfo.appendChild(audioIcon);
   if (audioLanguages.length) {
-    audioInfo.append(` ${audioLanguages.join(" · ")}`);
+    const sortedAudioLanguages = [...audioLanguages].sort(
+      (a, b) => ["EN", "FR"].indexOf(a) - ["EN", "FR"].indexOf(b),
+    );
+    audioInfo.append(` ${sortedAudioLanguages.join(" · ")}`);
   }
   audioInfo.style.cursor = "pointer";
   audioInfo.onclick = (event) => {
@@ -341,9 +357,7 @@ function renderAudioLanguageEditor(
     const oldBorderClasses = getFilmBorderClasses(films);
     film.languesAudio = [...audioLanguages];
     film.langue = result.langue;
-    const languages = Array.isArray(film.langue)
-      ? film.langue.join(" ")
-      : film.langue || "TBD";
+    const languages = formatFilmLanguages(film.langue);
     metadata.textContent = `${languages} • ${formatFilmFileSize(film.taille)}`;
     const imageContainer = document.querySelector(
       "#filmInfoCard .serie-info-image",
@@ -351,12 +365,13 @@ function renderAudioLanguageEditor(
     imageContainer.style.removeProperty("background");
     imageContainer.classList.remove(...oldBorderClasses);
     imageContainer.classList.add(...getFilmBorderClasses(films));
+    updateLanguageFilters(films);
     document.removeEventListener("click", closeEditor);
     renderAudioLanguages(audioInfo, audioLanguages, metadata, film);
   };
 
   audioInfo.appendChild(validateButton);
-  for (const language of ["FR", "EN"]) {
+  for (const language of ["EN", "FR"]) {
     const button = document.createElement("button");
     button.type = "button";
     button.textContent = language;
@@ -385,7 +400,10 @@ function renderSubtitleLanguages(
   subtitleIcon.textContent = "💬";
   subtitleInfo.appendChild(subtitleIcon);
   if (subtitleLanguages.length) {
-    subtitleInfo.append(` ${subtitleLanguages.join(" · ")}`);
+    const sortedSubtitleLanguages = [...subtitleLanguages].sort(
+      (a, b) => ["EN", "FR"].indexOf(a) - ["EN", "FR"].indexOf(b),
+    );
+    subtitleInfo.append(` ${sortedSubtitleLanguages.join(" · ")}`);
   }
   subtitleInfo.style.cursor = "pointer";
   subtitleInfo.onclick = (event) => {
@@ -441,15 +459,16 @@ function renderSubtitleLanguageEditor(
     const result = await response.json();
     film.languesSousTitres = [...subtitleLanguages];
     film.langue = result.langue;
-    const languages = Array.isArray(film.langue)
-      ? film.langue.join(" ")
-      : film.langue || "TBD";
+    const languages = formatFilmLanguages(film.langue);
     metadata.textContent = `${languages} • ${formatFilmFileSize(film.taille)}`;
+    const films = catalog.films.filter((item) => item.tmdbId === film.tmdbId);
+    updateLanguageFilters(films);
     document.removeEventListener("click", closeEditor);
     renderSubtitleLanguages(subtitleInfo, subtitleLanguages, metadata, film);
   };
+
   subtitleInfo.appendChild(validateButton);
-  for (const language of ["FR", "EN"]) {
+  for (const language of ["EN", "FR"]) {
     const button = document.createElement("button");
     button.type = "button";
     button.textContent = language;
@@ -468,9 +487,7 @@ function createFilmFileCard(film) {
   card.className = "film-file-card";
   card.classList.add(...getFilmBorderClasses([film]));
 
-  const languages = Array.isArray(film.langue)
-    ? film.langue.join(" ")
-    : film.langue || "TBD";
+  const languages = formatFilmLanguages(film.langue);
 
   const playbackRow = document.createElement("div");
   playbackRow.className = "film-file-row film-file-playback-row";

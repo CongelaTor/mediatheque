@@ -103,7 +103,7 @@
         {
             "collectionId": 2396,
             "collectionNom": "Astérix & Obélix - Saga",
-            "collectionImage": "/lF0VfeCBPWbulAFW0KcISgPquuJ.jpg",
+            "collectionImage": "/2lC9lzozlzVxCsSgPjRz5AWcz00.jpg",
             "collectionDescription": "L’univers d’Astérix prend vie sur grand écran ! Adaptations fidèles et pleines d’humour, les live action réunissent des acteurs talentueux, des décors spectaculaires et des aventures inoubliables. Entre batailles épiques contre les Romains et quêtes hilarantes, plongez dans l’énergie et la magie des aventures gauloises comme vous ne les avez jamais vues !",
             "collectionFilmCount": 6
         },
@@ -2222,12 +2222,12 @@
             "collectionImage": null,
             "collectionTmdbUrl": null,
             "languesAudio": [
-                "FR",
-                "EN"
+                "EN",
+                "FR"
             ],
             "languesSousTitres": [
-                "FR",
-                "EN"
+                "EN",
+                "FR"
             ]
         },
         {
@@ -3592,7 +3592,7 @@
         {
             "id": "asterix_et_obelix_mission_cleopatre_1500kbps_son_dolby_5_1",
             "titre": "Astérix Et Obélix Mission Cléopatre 1500kbps Son Dolby 5 1",
-            "annee": null,
+            "annee": 2002,
             "langue": [
                 "VF"
             ],
@@ -6242,8 +6242,7 @@
             "titre": "Black Widow",
             "annee": 2021,
             "langue": [
-                "VO",
-                "VF"
+                "VO"
             ],
             "taille": 1598047698,
             "genre": [
@@ -6304,7 +6303,6 @@
             "collectionImage": null,
             "collectionTmdbUrl": null,
             "languesAudio": [
-                "FR",
                 "EN"
             ],
             "languesSousTitres": []
@@ -6373,7 +6371,10 @@
                 "sousTitres": []
             },
             "titreOriginal": "Black Widow",
-            "langueOriginale": "en"
+            "langueOriginale": "en",
+            "languesAudio": [
+                "FR"
+            ]
         },
         {
             "id": "body_lies",
@@ -30089,8 +30090,8 @@
             "titreOriginal": "Mike & Nick & Nick & Alice",
             "langueOriginale": "en",
             "languesAudio": [
-                "FR",
-                "EN"
+                "EN",
+                "FR"
             ],
             "languesSousTitres": [
                 "FR",
