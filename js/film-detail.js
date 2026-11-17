@@ -773,13 +773,14 @@ async function moveFilmFile(film) {
     showToast(await previewResponse.text(), "error");
     return;
   }
+
   const preview = await previewResponse.json();
-  const confirmed = confirm(
-    `Déplacer ce fichier ?\n\n${film.fichier}\n\nvers\n\n${preview.destination}`,
+  const destinationFolder = preview.destination.substring(
+    0,
+    preview.destination.lastIndexOf("\\"),
   );
-  if (!confirmed) {
-    return;
-  }
+  // showToast("Déplacement vers ${destinationFolder}", "success", 5000);
+
   const response = await fetch("http://localhost:9876/move-film-file", {
     method: "POST",
     headers: {
@@ -790,7 +791,7 @@ async function moveFilmFile(film) {
     }),
   });
   if (!response.ok) {
-    showToast(await response.text(), "error");
+    showToast(await response.text(), "error", 5000);
     return;
   }
   const result = await response.json();
