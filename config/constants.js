@@ -1,5 +1,6 @@
+const FILTER_DOUBLONS_NB_FICHIERS = 3;
 const FILTER_AJOUTS = {
-  collections: ["Récents", "À compléter"],
+  collections: ["Récents", "À compléter", "Doublons"],
   films: ["Nouveautés", "Récents", "Doublons"],
   tools: ["Nouveautés", "Récents", "Doublons"],
   series: ["Nouveautés", "Récents", "À compléter"],
@@ -151,7 +152,7 @@ function initFiltersSidebar(ecran) {
 
   switch (currentPage) {
     case "collections":
-      validAjouts = ["all", "Récents", "À compléter"];
+      validAjouts = ["all", "Récents", "À compléter", "Doublons"];
       tousLabel = "Toutes les collections";
       break;
     case "films":

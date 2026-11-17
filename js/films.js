@@ -257,7 +257,7 @@ function filmMatchesAjouts(film) {
     return true;
   }
   if (currentAjouts === "Doublons") {
-    return Boolean(film.hasExactDuplicate);
+    return Boolean(film.hasExactDuplicate) || film.fileCount >= FILTER_DOUBLONS_NB_FICHIERS;
   }
   return false;
 }
@@ -308,14 +308,14 @@ function createFilmCard(film) {
   posterZone.appendChild(createPosterContent(film.image, film.titre, film.id));
   if (film.fileCount === 0 || film.fileCount > 1) {
     const badge = document.createElement("button");
-    badge.className =
-      film.fileCount === 0
-        ? film.ignoreInCollection
-          ? "play-button film-ignore-in-collection"
-          : "play-button film-missing-in-collection"
-        : film.hasExactDuplicate
-          ? "play-button duplicate-badge"
-          : "play-button";
+          badge.className =
+        film.fileCount === 0
+          ? film.ignoreInCollection
+            ? "play-button film-ignore-in-collection"
+            : "play-button film-missing-in-collection"
+          : currentAjouts === "Doublons"
+            ? "play-button duplicate-badge"
+            : "play-button";
     badge.textContent =
       film.fileCount === 0
         ? film.ignoreInCollection

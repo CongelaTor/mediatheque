@@ -558,6 +558,31 @@ function createFilmFileCard(film) {
   locationButton.title = "Ouvrir l'emplacement";
   locationButton.onclick = () => openFilmLocation(film);
 
+  // const moveButton = document.createElement("button");
+  // moveButton.className =
+  //   "tmdb-associate-button film-file-action-button linux-hidden mediaserver-only";
+  // moveButton.innerHTML = '<span class="play-icon">↪</span>';
+  // moveButton.title = "Déplacer le fichier";
+
+  const moveButton = document.createElement("button");
+  moveButton.className =
+    "tmdb-associate-button film-file-action-button linux-hidden mediaserver-only";
+  moveButton.innerHTML = `
+      <svg viewBox="0 0 24 24"
+          width="18"
+          height="18"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round">
+        <path d="M5 12h12"/>
+        <path d="m13 8 4 4-4 4"/>
+        <path d="M5 5v14"/>
+      </svg>`;
+  moveButton.title = "Déplacer le fichier";
+  moveButton.onclick = () => moveFilmFile(film);
+
   const tmdbButton = document.createElement("button");
   tmdbButton.className =
     "tmdb-associate-button film-file-action-button linux-hidden mediaserver-only";
@@ -615,6 +640,7 @@ function createFilmFileCard(film) {
   const rightActions = document.createElement("div");
   rightActions.className = "film-file-right-actions";
   rightActions.appendChild(locationButton);
+  rightActions.appendChild(moveButton);
   rightActions.appendChild(tmdbButton);
   rightActions.appendChild(deleteButton);
 
@@ -730,6 +756,50 @@ async function openFilmLocation(film) {
   if (!response.ok) {
     console.error(await response.text());
   }
+}
+
+async function moveFilmFile(film) {
+  const previewResponse = await fetch("http://localhost:9876/move-film-file", {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/json",
+    },
+    body: JSON.stringify({
+      fichier: film.fichier,
+      preview: true,
+    }),
+  });
+  if (!previewResponse.ok) {
+    showToast(await previewResponse.text(), "error");
+    return;
+  }
+  const preview = await previewResponse.json();
+  const confirmed = confirm(
+    `Déplacer ce fichier ?\n\n${film.fichier}\n\nvers\n\n${preview.destination}`,
+  );
+  if (!confirmed) {
+    return;
+  }
+  const response = await fetch("http://localhost:9876/move-film-file", {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/json",
+    },
+    body: JSON.stringify({
+      fichier: film.fichier,
+    }),
+  });
+  if (!response.ok) {
+    showToast(await response.text(), "error");
+    return;
+  }
+  const result = await response.json();
+  film.fichier = result.fichier;
+  film.nomFichier = result.nomFichier;
+  showToast("Fichier déplacé");
+  setTimeout(() => {
+    window.location.reload();
+  }, 1500);
 }
 
 function requestFilmDownload(film) {

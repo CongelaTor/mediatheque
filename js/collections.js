@@ -160,6 +160,38 @@ function renderCollections() {
       if (currentAjouts === "À compléter") {
         return [...eligibleFilms].some((key) => !ownedFilms.has(key));
       }
+      if (currentAjouts === "Doublons") {
+        return [...uniqueFilms].some((key) => {
+          const filmFiles = collection.films.filter((file) => {
+            const fileKey = file.tmdbId
+              ? `tmdb:${file.tmdbId}`
+              : `title:${file.titre}|${file.annee || ""}`;
+            return fileKey === key && (file.fichier || file.nomFichier);
+          });
+          const hasExactDuplicate = filmFiles.some((file) => file.doublonExact);
+          const hasVoVfFile = filmFiles.some((file) => {
+            const audioLanguages = Array.isArray(file.languesAudio)
+              ? file.languesAudio
+              : Array.isArray(file.technique?.audio)
+                ? file.technique.audio
+                    .map((track) => track.langue)
+                    .filter(Boolean)
+                : [];
+            return (
+              (Array.isArray(file.langue) &&
+                file.langue.includes("VO") &&
+                file.langue.includes("VF")) ||
+              (audioLanguages.includes("eng") && audioLanguages.includes("fre"))
+            );
+          });
+          const hasExactDuplicateGroup =
+            hasExactDuplicate || (hasVoVfFile && filmFiles.length > 1);
+          return (
+            hasExactDuplicateGroup ||
+            filmFiles.length >= FILTER_DOUBLONS_NB_FICHIERS
+          );
+        });
+      }
       return uniqueFilms.size >= 1;
     })
     .filter((collection) => {

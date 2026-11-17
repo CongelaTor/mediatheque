@@ -1294,73 +1294,6 @@
             "titre": "a Black Panther",
             "annee": 2018,
             "langue": [
-                "TBD"
-            ],
-            "taille": 2325275640,
-            "genre": [
-                "Science-Fiction"
-            ],
-            "image": "https://image.tmdb.org/t/p/w342/g94IcdzPswTYl1ISdgn2EwvaZtt.jpg",
-            "fichier": "/01_Films/Marvel/2018 a Black.Panther.2018.1080p.BluRay.x264-[ www.Torrent9.Red ].mp4",
-            "nomFichier": "2018 a Black.Panther.2018.1080p.BluRay.x264-[ www.Torrent9.Red ].mp4",
-            "imdbId": null,
-            "tmdbId": 284054,
-            "tmdbUrl": "https://www.themoviedb.org/movie/284054",
-            "doublonExact": false,
-            "doublonProbable": true,
-            "groupeDoublon": "a_black_panther",
-            "dateAjout": "2026-08-27T11:57:48.190Z",
-            "titreTmdb": "Black Panther",
-            "anneeTmdb": "2018",
-            "dureeTmdb": 134,
-            "descriptionTmdb": "Après les événements qui se sont déroulés dans « Captain America : Civil War », T’Challa revient chez lui prendre sa place sur le trône du Wakanda, une nation africaine technologiquement très avancée. Mais lorsqu’un vieil ennemi resurgit, le courage de T’Challa est mis à rude épreuve, aussi bien en tant que souverain qu’en tant que Black Panther. Il se retrouve entraîné dans un conflit qui menace non seulement le destin du Wakanda, mais celui du monde entier…",
-            "collectionId": 529892,
-            "collectionNom": "Black Panther - Saga",
-            "collectionDescription": "Le Wakanda et sa métropole, dominée par des gratte-ciel modernes, est une nation africaine techniquement avancée qui est coupée du monde extérieur et se fait passer pour un pays pauvre du tiers-monde. Grâce à l'impact d'une météorite et à la source de matière première qui en résulte, le seul métal local, le vibranium, le pays africain peut se rendre invisible au reste du monde sous un immense dispositif de camouflage. Aussi, parce que la source de progrès pourrait faire des ravages entre de mauvaises mains, les premiers dirigeants du Wakanda ont opté pour l'isolement, qui perdure encore aujourd'hui.",
-            "collectionImage": "https://image.tmdb.org/t/p/w500/1bVrlIR6snwTglKtl5umYmGpnsb.jpg",
-            "collectionTmdbUrl": "https://www.themoviedb.org/collection/529892",
-            "type": "Film",
-            "studio": "Marvel",
-            "ignoreInCollection": false,
-            "technique": {
-                "largeur": 1920,
-                "hauteur": 800,
-                "resolution": "1920x800",
-                "ratioImage": 2.4,
-                "codecVideo": "h264",
-                "profilVideo": "High",
-                "pixelFormat": "yuv420p",
-                "bitsParComposante": 8,
-                "bitrateVideo": 2149541,
-                "framerate": 23.976,
-                "espaceCouleur": null,
-                "transfertCouleur": null,
-                "primairesCouleur": null,
-                "hdr": false,
-                "dureeFichier": 8073.152,
-                "bitrateGlobal": 2304205,
-                "formatConteneur": "mov,mp4,m4a,3gp,3g2,mj2",
-                "audio": [
-                    {
-                        "codec": "aac",
-                        "profil": "LC",
-                        "canaux": 2,
-                        "disposition": "stereo",
-                        "bitrate": 147791,
-                        "frequence": 48000,
-                        "langue": "und"
-                    }
-                ],
-                "sousTitres": []
-            },
-            "titreOriginal": "Black Panther",
-            "langueOriginale": "en"
-        },
-        {
-            "id": "a_black_panther_2018",
-            "titre": "a Black Panther",
-            "annee": 2018,
-            "langue": [
                 "VO",
                 "VF"
             ],
@@ -1536,7 +1469,10 @@
             "titre": "a Captain America Civil War",
             "annee": 2016,
             "langue": [
-                "TBD"
+                "VO",
+                "VF",
+                "VOSTFR",
+                "VOST"
             ],
             "taille": 4258418950,
             "genre": [
@@ -1645,73 +1581,11 @@
                 ]
             },
             "titreOriginal": "Captain America: Civil War",
-            "langueOriginale": "en"
-        },
-        {
-            "id": "a_captain_america_civil_war_2016",
-            "titre": "a Captain America Civil War",
-            "annee": 2016,
-            "langue": [
-                "VF"
-            ],
-            "taille": 1483036286,
-            "genre": [
-                "Science-Fiction"
-            ],
-            "image": "https://image.tmdb.org/t/p/w342/i2nc9IAP1xRWoa3MgeR7ldsshkV.jpg",
-            "fichier": "/01_Films/Marvel/2016 a Captain.America.Civil.War.2016.FRENCH.BDRip.XViD-FUNKKY.avi",
-            "nomFichier": "2016 a Captain.America.Civil.War.2016.FRENCH.BDRip.XViD-FUNKKY.avi",
-            "imdbId": null,
-            "tmdbId": 271110,
-            "tmdbUrl": "https://www.themoviedb.org/movie/271110",
-            "doublonExact": false,
-            "doublonProbable": true,
-            "groupeDoublon": "a_captain_america_civil_war",
-            "dateAjout": "2026-08-27T11:57:48.159Z",
-            "titreTmdb": "Captain America : Civil War",
-            "anneeTmdb": "2016",
-            "dureeTmdb": 148,
-            "descriptionTmdb": "Steve Rogers est désormais à la tête des Avengers, dont la mission est de protéger l’humanité. À la suite d’une de leurs interventions qui a causé d’importants dégâts collatéraux, le gouvernement décide de mettre en place un organisme de commandement et de supervision. Cette nouvelle donne provoque une scission au sein de l’équipe : Steve Rogers reste attaché à sa liberté de s’engager sans ingérence gouvernementale, tandis que d’autres se rangent derrière Tony Stark, qui contre toute attente, décide de se soumettre au gouvernement…",
-            "collectionId": 131295,
-            "collectionNom": "Captain America - Saga",
-            "collectionDescription": "Steven « Steve » Rogers, alias Captain America est un super-héros évoluant dans l'univers Marvel de la maison d'édition Marvel Comics. Créé par scénariste Joe Simon et le dessinateur Jack Kirby, le personnage de fiction apparaît pour la première fois dans le comic book Captain America Comics #1 en décembre 1940",
-            "collectionImage": "https://image.tmdb.org/t/p/w500/1nefddmvyXD8N2R5o6qU9U7Ty3w.jpg",
-            "collectionTmdbUrl": "https://www.themoviedb.org/collection/131295",
-            "type": "Film",
-            "studio": "Marvel",
-            "technique": {
-                "largeur": 720,
-                "hauteur": 300,
-                "resolution": "720x300",
-                "ratioImage": 2.4,
-                "codecVideo": "mpeg4",
-                "profilVideo": "Simple Profile",
-                "pixelFormat": "yuv420p",
-                "bitsParComposante": null,
-                "bitrateVideo": 1196156,
-                "framerate": 23.976,
-                "espaceCouleur": null,
-                "transfertCouleur": null,
-                "primairesCouleur": null,
-                "hdr": false,
-                "dureeFichier": 8861.978125,
-                "bitrateGlobal": 1338785,
-                "formatConteneur": "avi",
-                "audio": [
-                    {
-                        "codec": "mp3",
-                        "profil": null,
-                        "canaux": 2,
-                        "disposition": "stereo",
-                        "bitrate": 128000,
-                        "frequence": 48000,
-                        "langue": null
-                    }
-                ],
-                "sousTitres": []
-            },
-            "titreOriginal": "Captain America: Civil War",
-            "langueOriginale": "en"
+            "langueOriginale": "en",
+            "languesAudio": [
+                "EN",
+                "FR"
+            ]
         },
         {
             "id": "a_captain_america_the_winter_soldier_2014",
@@ -4288,7 +4162,7 @@
             "collectionNom": "Avatar - Saga",
             "type": "Film",
             "studio": null,
-            "ignoreInCollection": false,
+            "ignoreInCollection": true,
             "langueOriginale": "en"
         },
         {
@@ -4319,7 +4193,7 @@
             "collectionNom": "Avatar - Saga",
             "type": "Film",
             "studio": null,
-            "ignoreInCollection": false,
+            "ignoreInCollection": true,
             "langueOriginale": "en"
         },
         {
@@ -4589,73 +4463,6 @@
             "titre": "b Avengers Infinity War",
             "annee": 2018,
             "langue": [
-                "VF"
-            ],
-            "taille": 1470222316,
-            "genre": [
-                "Science-Fiction"
-            ],
-            "image": "https://image.tmdb.org/t/p/w342/hSfuKPtyEryeFzapZ8UgZd4aESu.jpg",
-            "fichier": "/01_Films/Marvel/2018 b Avengers 2018 Infinity.War.2018.FRENCH.BDRip.XviD-EXTREME.avi",
-            "nomFichier": "2018 b Avengers 2018 Infinity.War.2018.FRENCH.BDRip.XviD-EXTREME.avi",
-            "imdbId": null,
-            "tmdbId": 299536,
-            "tmdbUrl": "https://www.themoviedb.org/movie/299536",
-            "doublonExact": false,
-            "doublonProbable": true,
-            "groupeDoublon": "b_avengers_infinity_war",
-            "dateAjout": "2026-08-27T11:57:48.202Z",
-            "titreTmdb": "Avengers : Infinity War",
-            "anneeTmdb": "2018",
-            "dureeTmdb": 149,
-            "descriptionTmdb": "Les Avengers et leurs alliés devront être prêts à tout sacrifier pour neutraliser le redoutable Thanos avant que son attaque éclair ne conduise à la destruction complète de l’univers.",
-            "collectionId": 86311,
-            "collectionNom": "Avengers - Saga",
-            "collectionDescription": "Une série de films de super-héros produite par Marvel Studios qui se base sur l'équipe de super-héros issue de l'univers de Marvel Comics. La série met en scène des super-héros unissant leurs forces pour aider l'organisation de maintien de la paix SHIELD dirigée par Nick Fury.",
-            "collectionImage": "https://image.tmdb.org/t/p/w500/qvWDDPlo2MT7YCU4NSVxCgStxqu.jpg",
-            "collectionTmdbUrl": "https://www.themoviedb.org/collection/86311",
-            "type": "Film",
-            "studio": "Marvel",
-            "ignoreInCollection": false,
-            "technique": {
-                "largeur": 720,
-                "hauteur": 304,
-                "resolution": "720x304",
-                "ratioImage": 2.368,
-                "codecVideo": "mpeg4",
-                "profilVideo": "Advanced Simple Profile",
-                "pixelFormat": "yuv420p",
-                "bitsParComposante": null,
-                "bitrateVideo": 1175811,
-                "framerate": 23.976,
-                "espaceCouleur": null,
-                "transfertCouleur": null,
-                "primairesCouleur": null,
-                "hdr": false,
-                "dureeFichier": 8961.24,
-                "bitrateGlobal": 1312516,
-                "formatConteneur": "avi",
-                "audio": [
-                    {
-                        "codec": "mp3",
-                        "profil": null,
-                        "canaux": 2,
-                        "disposition": "stereo",
-                        "bitrate": 128000,
-                        "frequence": 48000,
-                        "langue": null
-                    }
-                ],
-                "sousTitres": []
-            },
-            "titreOriginal": "Avengers: Infinity War",
-            "langueOriginale": "en"
-        },
-        {
-            "id": "b_avengers_infinity_war_2018",
-            "titre": "b Avengers Infinity War",
-            "annee": 2018,
-            "langue": [
                 "VO",
                 "VF"
             ],
@@ -4737,76 +4544,6 @@
             },
             "titreOriginal": "Avengers: Infinity War",
             "langueOriginale": "en"
-        },
-        {
-            "id": "b_doctor_strange_2016",
-            "titre": "b Doctor Strange",
-            "annee": 2016,
-            "langue": [
-                "VF"
-            ],
-            "taille": 2114734202,
-            "genre": [
-                "Science-Fiction"
-            ],
-            "image": "https://image.tmdb.org/t/p/w342/7wZ7mx7tY5SgflQKuJmQvwu3wGm.jpg",
-            "fichier": "/01_Films/Marvel/2016 b Doctor Strange 2016 French 1080p x265 AAC.mp4",
-            "nomFichier": "2016 b Doctor Strange 2016 French 1080p x265 AAC.mp4",
-            "imdbId": null,
-            "tmdbId": 284052,
-            "tmdbUrl": "https://www.themoviedb.org/movie/284052",
-            "doublonExact": false,
-            "doublonProbable": false,
-            "groupeDoublon": null,
-            "dateAjout": "2026-08-27T11:57:48.163Z",
-            "titreTmdb": "Doctor Strange",
-            "anneeTmdb": "2016",
-            "dureeTmdb": 115,
-            "descriptionTmdb": "Le neurochirurgien Stephen Strange, en quête de guérison, trouve des pouvoirs magiques dans un endroit mystérieux, connu sous le nom de Kamar-Taj, la ligne de front d'un combat contre des forces obscures invisibles, essayant de détruire notre réalité.",
-            "collectionId": 618529,
-            "collectionNom": "Doctor Strange - Saga",
-            "collectionDescription": "Cette série raconte l'histoire du neurochirurgien Stephen Strange qui, après avoir perdu la capacité d'utiliser ses mains après un accident de voiture, demande l'aide de \"L'ancien\" pour devenir un maître des arts mystiques connu sous le nom de Doctor Strange.",
-            "collectionImage": "https://image.tmdb.org/t/p/w500/jGyjFboipgcBwvnrORWjZqoxOeR.jpg",
-            "collectionTmdbUrl": "https://www.themoviedb.org/collection/618529",
-            "type": "Film",
-            "studio": "Marvel",
-            "ignoreInCollection": false,
-            "technique": {
-                "largeur": 1920,
-                "hauteur": 808,
-                "resolution": "1920x808",
-                "ratioImage": 2.376,
-                "codecVideo": "hevc",
-                "profilVideo": "Main",
-                "pixelFormat": "yuv420p",
-                "bitsParComposante": null,
-                "bitrateVideo": 2000656,
-                "framerate": 23.976,
-                "espaceCouleur": null,
-                "transfertCouleur": null,
-                "primairesCouleur": null,
-                "hdr": false,
-                "dureeFichier": 6898.602667,
-                "bitrateGlobal": 2452362,
-                "formatConteneur": "mov,mp4,m4a,3gp,3g2,mj2",
-                "audio": [
-                    {
-                        "codec": "aac",
-                        "profil": "LC",
-                        "canaux": 6,
-                        "disposition": "5.1",
-                        "bitrate": 447578,
-                        "frequence": 48000,
-                        "langue": "fra"
-                    }
-                ],
-                "sousTitres": []
-            },
-            "titreOriginal": "Doctor Strange",
-            "langueOriginale": "en",
-            "languesAudio": [
-                "FR"
-            ]
         },
         {
             "id": "b_girl_stv_slim_2009",
@@ -6786,198 +6523,6 @@
             "type": "Film",
             "studio": null,
             "ignoreInCollection": true,
-            "langueOriginale": "en"
-        },
-        {
-            "id": "bourne_la_mort_dans_la_peau",
-            "titre": "Bourne dans Peau",
-            "annee": null,
-            "langue": [
-                "TBD"
-            ],
-            "taille": 734978048,
-            "genre": [
-                "Action"
-            ],
-            "image": "https://image.tmdb.org/t/p/w342/nFVQqnlBQq0UGZESobzgT6ipy7B.jpg",
-            "fichier": "/Box_Films/Action/Jason Bourne/Bourne - La Mort dans la Peau.avi",
-            "nomFichier": "Bourne - La Mort dans la Peau.avi",
-            "imdbId": null,
-            "tmdbId": 2502,
-            "tmdbUrl": "https://www.themoviedb.org/movie/2502",
-            "doublonExact": false,
-            "doublonProbable": false,
-            "groupeDoublon": null,
-            "dateAjout": "2026-08-22T08:23:33.524Z",
-            "titreTmdb": "La Mort dans la peau",
-            "anneeTmdb": "2004",
-            "dureeTmdb": 108,
-            "descriptionTmdb": "Depuis deux ans, l'ex‐agent / tueur à gages de la CIA Jason Bourne et sa compagne Marie ont réussi à tromper leurs poursuivants au prix d'une vigilance sans faille. Ce paisible village de Goa aurait dû être leur dernier refuge. Vain espoir. Deux ans plus tôt, Jason avait juré de se venger de quiconque le relancerait. Il tiendra parole.",
-            "collectionId": 31562,
-            "collectionNom": "Jason Bourne - Saga",
-            "type": "Film",
-            "studio": null,
-            "ignoreInCollection": false,
-            "technique": {
-                "largeur": 608,
-                "hauteur": 256,
-                "resolution": "608x256",
-                "ratioImage": 2.375,
-                "codecVideo": "mpeg4",
-                "profilVideo": null,
-                "pixelFormat": "yuv420p",
-                "bitsParComposante": null,
-                "bitrateVideo": 835582,
-                "framerate": 25,
-                "espaceCouleur": null,
-                "transfertCouleur": null,
-                "primairesCouleur": null,
-                "hdr": false,
-                "dureeFichier": 6246.76,
-                "bitrateGlobal": 941259,
-                "formatConteneur": "avi",
-                "audio": [
-                    {
-                        "codec": "mp3",
-                        "profil": null,
-                        "canaux": 2,
-                        "disposition": "stereo",
-                        "bitrate": 96000,
-                        "frequence": 48000,
-                        "langue": null
-                    }
-                ],
-                "sousTitres": []
-            },
-            "titreOriginal": "The Bourne Supremacy",
-            "langueOriginale": "en"
-        },
-        {
-            "id": "bourne_la_memoire_dans_la_peau_1",
-            "titre": "Bourne Mémoire dans Peau 1",
-            "annee": null,
-            "langue": [
-                "VF"
-            ],
-            "taille": 733021020,
-            "genre": [
-                "Action"
-            ],
-            "image": "https://image.tmdb.org/t/p/w342/osEb1avYb9MvGUCOIIX0fiXUXDN.jpg",
-            "fichier": "/Box_Films/Action/Jason Bourne/Bourne - La Mémoire dans la Peau 1 - VF.avi",
-            "nomFichier": "Bourne - La Mémoire dans la Peau 1 - VF.avi",
-            "imdbId": null,
-            "tmdbId": 2501,
-            "tmdbUrl": "https://www.themoviedb.org/movie/2501",
-            "doublonExact": false,
-            "doublonProbable": false,
-            "groupeDoublon": null,
-            "dateAjout": "2026-08-22T08:23:33.524Z",
-            "titreTmdb": "La Mémoire dans la peau",
-            "anneeTmdb": "2002",
-            "dureeTmdb": 118,
-            "descriptionTmdb": "Un homme entre la vie et la mort est tiré de l’océan par un bateau de pêche italien. Ayant retrouvé ses esprits, il se rend compte qu’il souffre d’amnésie totale et qu’il n’a sur lui aucun papier d’identité. Les nombreux talents qu’il se découvre, techniques de combat et connaissances de plusieurs langues, lui suggèrent un passé dangereux. Aidé de la d’abord récalcitrante Marie, il s’engage dans une recherche désespérée pour retrouver son identité et la raison qui pousse d’impitoyables assassins à le traquer.",
-            "collectionId": 31562,
-            "collectionNom": "Jason Bourne - Saga",
-            "type": "Film",
-            "studio": null,
-            "ignoreInCollection": false,
-            "technique": {
-                "largeur": 720,
-                "hauteur": 420,
-                "resolution": "720x420",
-                "ratioImage": 1.714,
-                "codecVideo": "mpeg4",
-                "profilVideo": null,
-                "pixelFormat": "yuv420p",
-                "bitsParComposante": null,
-                "bitrateVideo": 769914,
-                "framerate": 25,
-                "espaceCouleur": null,
-                "transfertCouleur": null,
-                "primairesCouleur": null,
-                "hdr": false,
-                "dureeFichier": 6437.28,
-                "bitrateGlobal": 910969,
-                "formatConteneur": "avi",
-                "audio": [
-                    {
-                        "codec": "mp3",
-                        "profil": null,
-                        "canaux": 2,
-                        "disposition": "stereo",
-                        "bitrate": 128000,
-                        "frequence": 48000,
-                        "langue": null
-                    }
-                ],
-                "sousTitres": []
-            },
-            "titreOriginal": "The Bourne Identity",
-            "langueOriginale": "en"
-        },
-        {
-            "id": "bourne_la_vengeance_dans_la_peau",
-            "titre": "Bourne Vengeance dans Peau",
-            "annee": null,
-            "langue": [
-                "TBD"
-            ],
-            "taille": 838279168,
-            "genre": [
-                "Action"
-            ],
-            "image": "https://image.tmdb.org/t/p/w342/9b3pgWTwERTRYzaKgzgmcQBIEqS.jpg",
-            "fichier": "/Box_Films/Action/Jason Bourne/Bourne - La Vengeance dans la Peau.AVI",
-            "nomFichier": "Bourne - La Vengeance dans la Peau.AVI",
-            "imdbId": null,
-            "tmdbId": 2503,
-            "tmdbUrl": "https://www.themoviedb.org/movie/2503",
-            "doublonExact": false,
-            "doublonProbable": false,
-            "groupeDoublon": null,
-            "dateAjout": "2026-08-22T08:23:33.525Z",
-            "titreTmdb": "La Vengeance dans la peau",
-            "anneeTmdb": "2007",
-            "dureeTmdb": 115,
-            "descriptionTmdb": "Jason Bourne vit tranquillement maintenant. Mais le département de la Défense lance en grand secret un second programme encore plus sophistiqué : Blackbriar, visant à fabriquer une nouvelle génération de tueurs supérieurement entraînés. Jason est, pour le directeur des opérations spéciales, une menace et une tache à effacer au plus vite. Ordre est donné de le supprimer. La traque recommence : Moscou, Paris, Madrid, Londres, Tanger et New York.",
-            "collectionId": 31562,
-            "collectionNom": "Jason Bourne - Saga",
-            "type": "Film",
-            "studio": null,
-            "ignoreInCollection": false,
-            "technique": {
-                "largeur": 592,
-                "hauteur": 224,
-                "resolution": "592x224",
-                "ratioImage": 2.643,
-                "codecVideo": "mpeg4",
-                "profilVideo": null,
-                "pixelFormat": "yuv420p",
-                "bitsParComposante": null,
-                "bitrateVideo": 923382,
-                "framerate": 23.976,
-                "espaceCouleur": null,
-                "transfertCouleur": null,
-                "primairesCouleur": null,
-                "hdr": false,
-                "dureeFichier": 6437.448,
-                "bitrateGlobal": 1041753,
-                "formatConteneur": "avi",
-                "audio": [
-                    {
-                        "codec": "mp3",
-                        "profil": null,
-                        "canaux": 2,
-                        "disposition": "stereo",
-                        "bitrate": 105696,
-                        "frequence": 48000,
-                        "langue": null
-                    }
-                ],
-                "sousTitres": []
-            },
-            "titreOriginal": "The Bourne Ultimatum",
             "langueOriginale": "en"
         },
         {
@@ -11001,77 +10546,6 @@
             "langueOriginale": "en"
         },
         {
-            "id": "die_hard_nezu_1988",
-            "titre": "die hard nezu",
-            "annee": 1988,
-            "langue": [
-                "TBD"
-            ],
-            "taille": 1319343530,
-            "genre": [
-                "Action",
-                "Thriller"
-            ],
-            "image": "https://image.tmdb.org/t/p/w342/1nOVVjbf8ucbeLmIlK5D2kCQQST.jpg",
-            "fichier": "/03_Films/die.hard.1988.720p.bluray.x264-nezu.mkv",
-            "nomFichier": "die.hard.1988.720p.bluray.x264-nezu.mkv",
-            "imdbId": null,
-            "tmdbId": 562,
-            "tmdbUrl": "https://www.themoviedb.org/movie/562",
-            "doublonExact": false,
-            "doublonProbable": false,
-            "groupeDoublon": null,
-            "dateAjout": "2026-11-06T19:39:20.775Z",
-            "titreTmdb": "Piège de cristal",
-            "anneeTmdb": "1988",
-            "dureeTmdb": 132,
-            "descriptionTmdb": "John McClane, un policier de New York, tente de sauver sa femme Holly Gennaro et un groupe d'autres personnes prises en otage par le terroriste allemand Hans Gruber lors d'une fête de Noël au Nakatomi Plaza de Los Angeles.",
-            "collectionId": 1570,
-            "collectionNom": "Die Hard - Saga",
-            "collectionDescription": "Une série de films d'action centrés autour du personnage de John McClane, un détective de police de New York City qui se retrouve en lutte contre un groupe de terroristes dans chaque film.",
-            "collectionImage": "https://image.tmdb.org/t/p/w500/bFZRGXeLLUjnp3F8zzwkvrvPHWD.jpg",
-            "collectionTmdbUrl": "https://www.themoviedb.org/collection/1570",
-            "technique": {
-                "largeur": 1280,
-                "hauteur": 542,
-                "resolution": "1280x542",
-                "ratioImage": 2.362,
-                "codecVideo": "h264",
-                "profilVideo": "High",
-                "pixelFormat": "yuv420p",
-                "bitsParComposante": 8,
-                "bitrateVideo": null,
-                "framerate": 23.976,
-                "espaceCouleur": null,
-                "transfertCouleur": null,
-                "primairesCouleur": null,
-                "hdr": false,
-                "dureeFichier": 7927.945,
-                "bitrateGlobal": 1331334,
-                "formatConteneur": "matroska,webm",
-                "audio": [
-                    {
-                        "codec": "aac",
-                        "profil": "LC",
-                        "canaux": 6,
-                        "disposition": "5.1",
-                        "bitrate": null,
-                        "frequence": 48000,
-                        "langue": "eng"
-                    }
-                ],
-                "sousTitres": [
-                    {
-                        "codec": "subrip",
-                        "langue": "eng",
-                        "titre": null
-                    }
-                ]
-            },
-            "titreOriginal": "Die Hard",
-            "langueOriginale": "en"
-        },
-        {
             "id": "doctor_strange_he_5_1_qtz_2016",
             "titre": "Doctor Strange ( ) HE 5 1 QTZ",
             "annee": 2016,
@@ -11320,134 +10794,6 @@
             "langueOriginale": "en"
         },
         {
-            "id": "dragon_3_2019",
-            "titre": "Dragon 3",
-            "annee": 2019,
-            "langue": [
-                "VF"
-            ],
-            "taille": 728149400,
-            "genre": [
-                "Aventure"
-            ],
-            "image": "https://image.tmdb.org/t/p/w342/oki89nNxoecoOTyqdPe9MS8zbiX.jpg",
-            "fichier": "/Box_Films/0 - New/Dragons/[ OxTorrent.com ] Dragon.3.2019.FRENCH.BDRip.XviD.avi",
-            "nomFichier": "[ OxTorrent.com ] Dragon.3.2019.FRENCH.BDRip.XviD.avi",
-            "imdbId": null,
-            "tmdbId": 166428,
-            "tmdbUrl": "https://www.themoviedb.org/movie/166428",
-            "doublonExact": false,
-            "doublonProbable": false,
-            "groupeDoublon": null,
-            "dateAjout": "2026-08-22T08:23:33.492Z",
-            "titreTmdb": "Dragons 3 : Le monde caché",
-            "anneeTmdb": "2019",
-            "dureeTmdb": 97,
-            "descriptionTmdb": "Dans ce nouveau chapitre, Harold et Krokmou vont enfin découvrir leurs véritables destinées : être le chef de Berk au côté d’Astrid et, en tant que dragon, être le leader de son espèce. Alors qu’ils réalisent leurs rêves de vivre en paix entre Vikings et dragons, une sombre menace planant sur le village et l’apparition d’une femelle Fury Nocturne vont mettre à mal leurs liens d’amitié comme jamais auparavant.",
-            "collectionId": 89137,
-            "collectionNom": "Dragons - Saga",
-            "type": "Animation",
-            "studio": null,
-            "ignoreInCollection": false,
-            "technique": {
-                "largeur": 720,
-                "hauteur": 304,
-                "resolution": "720x304",
-                "ratioImage": 2.368,
-                "codecVideo": "mpeg4",
-                "profilVideo": "Advanced Simple Profile",
-                "pixelFormat": "yuv420p",
-                "bitsParComposante": null,
-                "bitrateVideo": 798770,
-                "framerate": 23.976,
-                "espaceCouleur": null,
-                "transfertCouleur": null,
-                "primairesCouleur": null,
-                "hdr": false,
-                "dureeFichier": 6246.068175,
-                "bitrateGlobal": 932617,
-                "formatConteneur": "avi",
-                "audio": [
-                    {
-                        "codec": "mp3",
-                        "profil": null,
-                        "canaux": 2,
-                        "disposition": "stereo",
-                        "bitrate": 128000,
-                        "frequence": 48000,
-                        "langue": null
-                    }
-                ],
-                "sousTitres": []
-            },
-            "titreOriginal": "How to Train Your Dragon: The Hidden World",
-            "langueOriginale": "en"
-        },
-        {
-            "id": "dragons_2010",
-            "titre": "Dragons",
-            "annee": 2010,
-            "langue": [
-                "VF"
-            ],
-            "taille": 733569027,
-            "genre": [
-                "Aventure"
-            ],
-            "image": "https://image.tmdb.org/t/p/w342/a2xXAG8QuFZYt4ElbDrUd0IC3Ge.jpg",
-            "fichier": "/Box_Films/0 - New/Dragons/[ OxTorrent.com ] Dragons.2010 _TRUEFRENCH.BDRiP.XViD.avi",
-            "nomFichier": "[ OxTorrent.com ] Dragons.2010 _TRUEFRENCH.BDRiP.XViD.avi",
-            "imdbId": null,
-            "tmdbId": 10191,
-            "tmdbUrl": "https://www.themoviedb.org/movie/10191",
-            "doublonExact": false,
-            "doublonProbable": false,
-            "groupeDoublon": null,
-            "dateAjout": "2026-08-22T08:23:33.492Z",
-            "titreTmdb": "Dragons",
-            "anneeTmdb": "2010",
-            "dureeTmdb": 86,
-            "descriptionTmdb": "L’histoire d’Harold, jeune Viking peu à son aise dans sa tribu où combattre les dragons est le sport national. Sa vie va être bouleversée par sa rencontre avec un dragon qui va peu à peu amener Harold et les siens à voir le monde d’un point de vue totalement différent.",
-            "collectionId": 89137,
-            "collectionNom": "Dragons - Saga",
-            "type": "Animation",
-            "studio": null,
-            "ignoreInCollection": false,
-            "technique": {
-                "largeur": 640,
-                "hauteur": 272,
-                "resolution": "640x272",
-                "ratioImage": 2.353,
-                "codecVideo": "mpeg4",
-                "profilVideo": "Advanced Simple Profile",
-                "pixelFormat": "yuv420p",
-                "bitsParComposante": null,
-                "bitrateVideo": 861563,
-                "framerate": 23.976,
-                "espaceCouleur": null,
-                "transfertCouleur": null,
-                "primairesCouleur": null,
-                "hdr": false,
-                "dureeFichier": 5871,
-                "bitrateGlobal": 999583,
-                "formatConteneur": "avi",
-                "audio": [
-                    {
-                        "codec": "mp3",
-                        "profil": null,
-                        "canaux": 2,
-                        "disposition": "stereo",
-                        "bitrate": 125000,
-                        "frequence": 48000,
-                        "langue": null
-                    }
-                ],
-                "sousTitres": []
-            },
-            "titreOriginal": "How to Train Your Dragon",
-            "langueOriginale": "en"
-        },
-        {
             "id": "tmdb_723895",
             "titre": "Dragons : Les Gardiens du ciel : Le secret de l'envolée lyrique",
             "annee": 2020,
@@ -11507,70 +10853,6 @@
             "type": "Animation",
             "studio": null,
             "ignoreInCollection": false,
-            "langueOriginale": "en"
-        },
-        {
-            "id": "dragons_2",
-            "titre": "Dragons 2",
-            "annee": null,
-            "langue": [
-                "VF"
-            ],
-            "taille": 1473639002,
-            "genre": [
-                "Aventure"
-            ],
-            "image": "https://image.tmdb.org/t/p/w342/q6UtQBNwyfRa5WDQqQOnvwsPOB2.jpg",
-            "fichier": "/Box_Films/Enfants/Dragons 2 - VF.avi",
-            "nomFichier": "Dragons 2 - VF.avi",
-            "imdbId": null,
-            "tmdbId": 82702,
-            "tmdbUrl": "https://www.themoviedb.org/movie/82702",
-            "doublonExact": false,
-            "doublonProbable": false,
-            "groupeDoublon": null,
-            "dateAjout": "2026-08-22T08:23:33.667Z",
-            "titreTmdb": "Dragons 2",
-            "anneeTmdb": "2014",
-            "dureeTmdb": 85,
-            "descriptionTmdb": "Tandis qu’Astrid, Rustik et le reste de la bande se défient durant des courses sportives de dragons devenues populaires sur l’île, notre duo désormais inséparable parcourt les cieux, à la découverte de territoires inconnus et de nouveaux mondes. Au cours de l’une de leurs aventures, ils découvrent une grotte secrète qui abrite des centaines de dragons sauvages, dont le mystérieux Dragon Rider. Les deux amis se retrouvent alors au centre d’une lutte visant à maintenir la paix. Harold et Krokmou vont se battre pour défendre leurs valeurs et préserver le destin des hommes et des dragons.",
-            "collectionId": 89137,
-            "collectionNom": "Dragons - Saga",
-            "type": "Animation",
-            "studio": null,
-            "ignoreInCollection": false,
-            "technique": {
-                "largeur": 640,
-                "hauteur": 272,
-                "resolution": "640x272",
-                "ratioImage": 2.353,
-                "codecVideo": "mpeg4",
-                "profilVideo": "Advanced Simple Profile",
-                "pixelFormat": "yuv420p",
-                "bitsParComposante": null,
-                "bitrateVideo": 1468726,
-                "framerate": 23.975,
-                "espaceCouleur": null,
-                "transfertCouleur": null,
-                "primairesCouleur": null,
-                "hdr": false,
-                "dureeFichier": 6115.370177,
-                "bitrateGlobal": 1927783,
-                "formatConteneur": "avi",
-                "audio": [
-                    {
-                        "codec": "ac3",
-                        "profil": null,
-                        "canaux": 6,
-                        "disposition": "5.1(side)",
-                        "bitrate": 448000,
-                        "frequence": 48000,
-                        "langue": null
-                    }
-                ],
-                "sousTitres": []
-            },
-            "titreOriginal": "How to Train Your Dragon 2",
             "langueOriginale": "en"
         },
         {
@@ -13877,69 +13159,6 @@
             "langueOriginale": "en"
         },
         {
-            "id": "fast_and_1",
-            "titre": "Fast and Furious",
-            "annee": null,
-            "langue": [
-                "TBD"
-            ],
-            "taille": 722139136,
-            "genre": [
-                "Action"
-            ],
-            "image": "https://image.tmdb.org/t/p/w342/gsW9S3K6oBLKVMMLuSvKwEPOKHc.jpg",
-            "fichier": "/Box_Films/Action/Fast and Furious/Fast and Furious (1).avi",
-            "nomFichier": "Fast and Furious (1).avi",
-            "imdbId": null,
-            "tmdbId": 9799,
-            "tmdbUrl": "https://www.themoviedb.org/movie/9799",
-            "doublonExact": false,
-            "doublonProbable": true,
-            "groupeDoublon": "fast_and_furious",
-            "dateAjout": "2026-08-22T08:23:33.510Z",
-            "titreTmdb": "Fast and Furious",
-            "anneeTmdb": "2001",
-            "dureeTmdb": 107,
-            "descriptionTmdb": "La nuit tombée, Dominic Toretto règne sur les rues de Los Angeles à la tête d'une équipe de fidèles qui partagent son goût du risque, sa passion de la vitesse et son culte des voitures de sport lancées à plus de 250 km/h dans des rodéos urbains d'une rare violence. Ses journées sont consacrées à bricoler et à relooker des modèles haut de gamme, à les rendre toujours plus performants et plus voyants, à organiser des joutes illicites où de nombreux candidats s'affrontent sans merci sous le regard énamouré de leurs groupies. À la suite de plusieurs attaques de camions, la police de L.A. décide d'enquêter sur le milieu des street racers. Brian, un jeune policier, est chargé d'infiltrer la bande de Toretto, qui figure, avec celle de son rival Johnny Tran, au premier rang des suspects.",
-            "collectionId": 9485,
-            "collectionNom": "Fast and Furious - Saga",
-            "type": "Film",
-            "studio": null,
-            "technique": {
-                "largeur": 616,
-                "hauteur": 264,
-                "resolution": "616x264",
-                "ratioImage": 2.333,
-                "codecVideo": "mpeg4",
-                "profilVideo": null,
-                "pixelFormat": "yuv420p",
-                "bitsParComposante": null,
-                "bitrateVideo": 854786,
-                "framerate": 25,
-                "espaceCouleur": null,
-                "transfertCouleur": null,
-                "primairesCouleur": null,
-                "hdr": false,
-                "dureeFichier": 5820.88,
-                "bitrateGlobal": 992481,
-                "formatConteneur": "avi",
-                "audio": [
-                    {
-                        "codec": "mp3",
-                        "profil": null,
-                        "canaux": 2,
-                        "disposition": "stereo",
-                        "bitrate": 128000,
-                        "frequence": 48000,
-                        "langue": null
-                    }
-                ],
-                "sousTitres": []
-            },
-            "titreOriginal": "The Fast and the Furious",
-            "langueOriginale": "en"
-        },
-        {
             "id": "fast_and_2",
             "titre": "Fast and Furious",
             "annee": null,
@@ -14000,70 +13219,6 @@
                 "sousTitres": []
             },
             "titreOriginal": "2 Fast 2 Furious",
-            "langueOriginale": "en"
-        },
-        {
-            "id": "fast_and_3",
-            "titre": "Fast and Furious",
-            "annee": null,
-            "langue": [
-                "TBD"
-            ],
-            "taille": 730732544,
-            "genre": [
-                "Action"
-            ],
-            "image": "https://image.tmdb.org/t/p/w342/7t9FcL0wKVWCi6vq8Mv8R4tSLzj.jpg",
-            "fichier": "/Box_Films/Action/Fast and Furious/Fast and Furious (3).avi",
-            "nomFichier": "Fast and Furious (3).avi",
-            "imdbId": null,
-            "tmdbId": 9615,
-            "tmdbUrl": "https://www.themoviedb.org/movie/9615",
-            "doublonExact": false,
-            "doublonProbable": false,
-            "groupeDoublon": null,
-            "dateAjout": "2026-08-22T08:23:33.511Z",
-            "titreTmdb": "Fast & Furious : Tokyo drift",
-            "anneeTmdb": "2006",
-            "dureeTmdb": 104,
-            "descriptionTmdb": "Pour éviter la prison, Sean Boswell est envoyé pour vivre avec son père militaire à Tokyo. Lors de première course de drift, l'adolescent qui se prend pour une tête brûlée des courses de rues ne sait pas qu'il affronte « le roi du drift », un champion local de mèche avec la machine criminelle japonaise Yakuza.",
-            "collectionId": 9485,
-            "collectionNom": "Fast and Furious - Saga",
-            "type": "Film",
-            "studio": null,
-            "ignoreInCollection": false,
-            "technique": {
-                "largeur": 720,
-                "hauteur": 404,
-                "resolution": "720x404",
-                "ratioImage": 1.782,
-                "codecVideo": "mpeg4",
-                "profilVideo": "Advanced Simple Profile",
-                "pixelFormat": "yuv420p",
-                "bitsParComposante": null,
-                "bitrateVideo": 870023,
-                "framerate": 25,
-                "espaceCouleur": null,
-                "transfertCouleur": null,
-                "primairesCouleur": null,
-                "hdr": false,
-                "dureeFichier": 5991.56,
-                "bitrateGlobal": 975682,
-                "formatConteneur": "avi",
-                "audio": [
-                    {
-                        "codec": "mp3",
-                        "profil": null,
-                        "canaux": 2,
-                        "disposition": "stereo",
-                        "bitrate": 96000,
-                        "frequence": 32000,
-                        "langue": null
-                    }
-                ],
-                "sousTitres": []
-            },
-            "titreOriginal": "The Fast and the Furious: Tokyo Drift",
             "langueOriginale": "en"
         },
         {
@@ -19531,7 +18686,9 @@
             "annee": 2014,
             "langue": [
                 "VO",
-                "VF"
+                "VF",
+                "VOSTFR",
+                "VOST"
             ],
             "taille": 2557274585,
             "genre": [
@@ -19621,7 +18778,11 @@
                 ]
             },
             "titreOriginal": "How to Train Your Dragon 2",
-            "langueOriginale": "en"
+            "langueOriginale": "en",
+            "languesAudio": [
+                "EN",
+                "FR"
+            ]
         },
         {
             "id": "how_to_train_your_dragon_3_2019",
@@ -21476,7 +20637,10 @@
             "titre": "Jason Bourne",
             "annee": 2016,
             "langue": [
-                "TBD"
+                "VO",
+                "VF",
+                "VOSTFR",
+                "VOST"
             ],
             "taille": 2954769482,
             "genre": [
@@ -21563,77 +20727,21 @@
                 ]
             },
             "titreOriginal": "Jason Bourne",
-            "langueOriginale": "en"
-        },
-        {
-            "id": "jason_bourne_www_2016",
-            "titre": "Jason Bourne",
-            "annee": 2016,
-            "langue": [
-                "VF"
-            ],
-            "taille": 1478117376,
-            "genre": [
-                "Action"
-            ],
-            "image": "https://image.tmdb.org/t/p/w342/i3q8u4UgOjCufGJwfMbQHU4DbJj.jpg",
-            "fichier": "/Box_Films/Action/Jason Bourne/Jason.Bourne.2016.TRUEFRENCH.BDRip.XViD-FUNKKY.www.torrent9.biz.avi",
-            "nomFichier": "Jason.Bourne.2016.TRUEFRENCH.BDRip.XViD-FUNKKY.www.torrent9.biz.avi",
-            "imdbId": null,
-            "tmdbId": 324668,
-            "tmdbUrl": "https://www.themoviedb.org/movie/324668",
-            "doublonExact": false,
-            "doublonProbable": true,
-            "groupeDoublon": "jason_bourne",
-            "dateAjout": "2026-08-22T08:23:33.528Z",
-            "titreTmdb": "Jason Bourne",
-            "anneeTmdb": "2016",
-            "dureeTmdb": 123,
-            "descriptionTmdb": "La traque de Jason Bourne par les services secrets américains se poursuit. Des îles Canaries à Londres en passant par Las Vegas…",
-            "collectionId": 31562,
-            "collectionNom": "Jason Bourne - Saga",
-            "type": "Film",
-            "studio": null,
-            "technique": {
-                "largeur": 720,
-                "hauteur": 302,
-                "resolution": "720x302",
-                "ratioImage": 2.384,
-                "codecVideo": "mpeg4",
-                "profilVideo": "Advanced Simple Profile",
-                "pixelFormat": "yuv420p",
-                "bitsParComposante": null,
-                "bitrateVideo": 1462520,
-                "framerate": 23.976,
-                "espaceCouleur": null,
-                "transfertCouleur": null,
-                "primairesCouleur": null,
-                "hdr": false,
-                "dureeFichier": 7391.391391,
-                "bitrateGlobal": 1599825,
-                "formatConteneur": "avi",
-                "audio": [
-                    {
-                        "codec": "mp3",
-                        "profil": null,
-                        "canaux": 2,
-                        "disposition": "stereo",
-                        "bitrate": 128000,
-                        "frequence": 48000,
-                        "langue": null
-                    }
-                ],
-                "sousTitres": []
-            },
-            "titreOriginal": "Jason Bourne",
-            "langueOriginale": "en"
+            "langueOriginale": "en",
+            "languesAudio": [
+                "EN",
+                "FR"
+            ]
         },
         {
             "id": "jason_bourne_la_mort_dans_la_peau_2004",
             "titre": "Jason Bourne dans peau (2004)",
             "annee": 2004,
             "langue": [
-                "TBD"
+                "VO",
+                "VF",
+                "VOSTFR",
+                "VOST"
             ],
             "taille": 3145828387,
             "genre": [
@@ -21723,14 +20831,21 @@
                 ]
             },
             "titreOriginal": "The Bourne Supremacy",
-            "langueOriginale": "en"
+            "langueOriginale": "en",
+            "languesAudio": [
+                "EN",
+                "FR"
+            ]
         },
         {
             "id": "jason_bourne_2012",
             "titre": "Jason Bourne L'Héritage",
             "annee": 2012,
             "langue": [
-                "TBD"
+                "VO",
+                "VF",
+                "VOSTFR",
+                "VOST"
             ],
             "taille": 2803985742,
             "genre": [
@@ -21812,14 +20927,21 @@
                 ]
             },
             "titreOriginal": "The Bourne Legacy",
-            "langueOriginale": "en"
+            "langueOriginale": "en",
+            "languesAudio": [
+                "EN",
+                "FR"
+            ]
         },
         {
             "id": "jason_bourne_la_memoire_dans_la_peau_2002",
             "titre": "Jason Bourne memoire dans peau",
             "annee": 2002,
             "langue": [
-                "TBD"
+                "VO",
+                "VF",
+                "VOSTFR",
+                "VOST"
             ],
             "taille": 2552794953,
             "genre": [
@@ -21900,14 +21022,21 @@
                 ]
             },
             "titreOriginal": "The Bourne Identity",
-            "langueOriginale": "en"
+            "langueOriginale": "en",
+            "languesAudio": [
+                "EN",
+                "FR"
+            ]
         },
         {
             "id": "jason_bourne_la_vengeance_dans_la_peau_2007",
             "titre": "Jason Bourne vengeance dans peau",
             "annee": 2007,
             "langue": [
-                "TBD"
+                "VO",
+                "VF",
+                "VOSTFR",
+                "VOST"
             ],
             "taille": 2478787433,
             "genre": [
@@ -21988,7 +21117,11 @@
                 ]
             },
             "titreOriginal": "The Bourne Ultimatum",
-            "langueOriginale": "en"
+            "langueOriginale": "en",
+            "languesAudio": [
+                "EN",
+                "FR"
+            ]
         },
         {
             "id": "jeff_panacloc_perd_le_controle_diamonds_www_cpasbien_io_2015",
@@ -22532,73 +21665,6 @@
             "type": "Film",
             "studio": null,
             "ignoreInCollection": false,
-            "langueOriginale": "en"
-        },
-        {
-            "id": "jumanji_the_next_level_1_2019",
-            "titre": "Jumanji The Next Level 1",
-            "annee": 2019,
-            "langue": [
-                "TBD"
-            ],
-            "taille": 2347708188,
-            "genre": [
-                "Aventure",
-                "Comédie",
-                "Fantastique"
-            ],
-            "image": "https://image.tmdb.org/t/p/w342/sC31ja7yVxXwggx3oNuf9hVSg0G.jpg",
-            "fichier": "/03_Films/Jumanji.The.Next.Level.2019.1080p.WEBRip.x264.AAC5.1-.mp4",
-            "nomFichier": "Jumanji.The.Next.Level.2019.1080p.WEBRip.x264.AAC5.1-.mp4",
-            "imdbId": null,
-            "tmdbId": 512200,
-            "tmdbUrl": "https://www.themoviedb.org/movie/512200",
-            "doublonExact": false,
-            "doublonProbable": false,
-            "groupeDoublon": null,
-            "dateAjout": "2026-11-06T19:39:20.780Z",
-            "titreTmdb": "Jumanji : Next Level",
-            "anneeTmdb": "2019",
-            "dureeTmdb": 123,
-            "descriptionTmdb": "L’équipe est de retour, mais le jeu a changé. Alors qu’ils retournent dans Jumanji pour secourir l’un des leurs, ils découvrent un monde totalement inattendu. Des déserts arides aux montagnes enneigées, les joueurs vont devoir braver des espaces inconnus et inexplorés, afin de sortir du jeu le plus dangereux du monde...",
-            "collectionId": 495527,
-            "collectionNom": "Jumanji  - Saga",
-            "collectionDescription": "L'univers de Jumanji provient de l'imaginaire de l'auteur et illustrateur de livres pour enfants américain Chris Van Allsburg (également auteur des ouvrages à l'origine du Pôle Express, et de Zathura). Publié en 1981, son livre Jumanji devient un film en 1995 : un blockbuster d'aventure fantastique culte dans lequel Robin Williams affronte une jungle et ses animaux sortis d'un jeu de société magique, figurés à renforts d'effets spéciaux. En 2017, la franchise trouve une nouvelle forme, à nouveau avec succès. Et désormais, la saga Jumanji tourne autour d'un jeu vidéo magique, dans lequel les joueurs prennent la forme d'avatars incarnés par des stars d'action (Dwayne Johnson) et de comédie (Jack Black, Kevin Hart).",
-            "collectionImage": "https://image.tmdb.org/t/p/w500/kcP23X4s3IlrvbTxJDxCid3eijE.jpg",
-            "collectionTmdbUrl": "https://www.themoviedb.org/collection/495527",
-            "technique": {
-                "largeur": 1920,
-                "hauteur": 800,
-                "resolution": "1920x800",
-                "ratioImage": 2.4,
-                "codecVideo": "h264",
-                "profilVideo": "High",
-                "pixelFormat": "yuv420p",
-                "bitsParComposante": 8,
-                "bitrateVideo": 2249454,
-                "framerate": 23.976,
-                "espaceCouleur": null,
-                "transfertCouleur": null,
-                "primairesCouleur": null,
-                "hdr": false,
-                "dureeFichier": 7385.51,
-                "bitrateGlobal": 2543042,
-                "formatConteneur": "mov,mp4,m4a,3gp,3g2,mj2",
-                "audio": [
-                    {
-                        "codec": "aac",
-                        "profil": "LC",
-                        "canaux": 6,
-                        "disposition": "5.1",
-                        "bitrate": 288461,
-                        "frequence": 48000,
-                        "langue": "und"
-                    }
-                ],
-                "sousTitres": []
-            },
-            "ignoreInCollection": false,
-            "titreOriginal": "Jumanji: The Next Level",
             "langueOriginale": "en"
         },
         {
@@ -23993,74 +23059,13 @@
         },
         {
             "id": "l_age_de_glace",
-            "titre": "L'age De Glace",
-            "annee": null,
-            "langue": [
-                "TBD"
-            ],
-            "taille": 736952320,
-            "genre": [
-                "Aventure"
-            ],
-            "image": "https://image.tmdb.org/t/p/w342/ecgLEPhlpEloh58OireixHvEhur.jpg",
-            "fichier": "/Box_Films/Enfants/L'age De Glace.avi",
-            "nomFichier": "L'age De Glace.avi",
-            "imdbId": null,
-            "tmdbId": 425,
-            "tmdbUrl": "https://www.themoviedb.org/movie/425",
-            "doublonExact": false,
-            "doublonProbable": true,
-            "groupeDoublon": "l_age_de_glace",
-            "dateAjout": "2026-08-22T08:23:33.680Z",
-            "titreTmdb": "L'Âge de glace",
-            "anneeTmdb": "2002",
-            "dureeTmdb": 81,
-            "descriptionTmdb": "Vingt mille ans avant notre ère, lorsque Scrat, un rongeur obstiné, fend la banquise et déclenche un nouvel Âge de Glace, une vaste cohorte de mammifères s’assemble et commence à émigrer vers le sud. Manny, un mammouth solitaire qui n’en fait qu’à sa tête, choisit d’aller vers le nord et se voit bientôt rejoint par Sid, un petit paresseux volubile en quête de protecteur. Ce dernier l’oblige bientôt à recueillir un bébé humain, Roshan, que sa mère leur a confié avant de mourir, et à ramener celui‐ci à son père, chasseur nomade parti vers le nord. Sur leur chemin, les deux compères devront protéger Roshan de Diego, un tigre aux dents de sabre chargé par son chef Soto de capturer le bébé.",
-            "collectionId": 8354,
-            "collectionNom": "L'Âge de glace - Saga",
-            "type": "Animation",
-            "studio": null,
-            "ignoreInCollection": false,
-            "technique": {
-                "largeur": 576,
-                "hauteur": 304,
-                "resolution": "576x304",
-                "ratioImage": 1.895,
-                "codecVideo": "msmpeg4v3",
-                "profilVideo": null,
-                "pixelFormat": "yuv420p",
-                "bitsParComposante": null,
-                "bitrateVideo": 1065931,
-                "framerate": 23.976,
-                "espaceCouleur": null,
-                "transfertCouleur": null,
-                "primairesCouleur": null,
-                "hdr": false,
-                "dureeFichier": 4874.53083,
-                "bitrateGlobal": 1209474,
-                "formatConteneur": "avi",
-                "audio": [
-                    {
-                        "codec": "mp3",
-                        "profil": null,
-                        "canaux": 2,
-                        "disposition": "stereo",
-                        "bitrate": 130984,
-                        "frequence": 48000,
-                        "langue": null
-                    }
-                ],
-                "sousTitres": []
-            },
-            "titreOriginal": "Ice Age",
-            "langueOriginale": "en"
-        },
-        {
-            "id": "l_age_de_glace",
             "titre": "L'Age de Glace",
             "annee": null,
             "langue": [
-                "TBD"
+                "VO",
+                "VF",
+                "VOSTFR",
+                "VOST"
             ],
             "taille": 731186716,
             "genre": [
@@ -24155,7 +23160,11 @@
                 ]
             },
             "titreOriginal": "Ice Age",
-            "langueOriginale": "en"
+            "langueOriginale": "en",
+            "languesAudio": [
+                "EN",
+                "FR"
+            ]
         },
         {
             "id": "tmdb_1384758",
@@ -25566,72 +24575,6 @@
             },
             "ignoreInCollection": false,
             "titreOriginal": "Lara Croft: Tomb Raider - The Cradle of Life",
-            "langueOriginale": "en"
-        },
-        {
-            "id": "lara_croft_tomb_raider_berceau_de_vie",
-            "titre": "Lara Croft Tomb Raider, Berceau De Vie",
-            "annee": null,
-            "langue": [
-                "TBD"
-            ],
-            "taille": 740062648,
-            "genre": [
-                "Aventure",
-                "Action"
-            ],
-            "image": "https://image.tmdb.org/t/p/w342/t7hdugSBoox8ojzrwZWPJtNMlWb.jpg",
-            "fichier": "/03_Films/Lara Croft - Tomb Raider, Le Berceau De La Vie.avi",
-            "nomFichier": "Lara Croft - Tomb Raider, Le Berceau De La Vie.avi",
-            "imdbId": null,
-            "tmdbId": 1995,
-            "tmdbUrl": "https://www.themoviedb.org/movie/1995",
-            "doublonExact": false,
-            "doublonProbable": false,
-            "groupeDoublon": null,
-            "dateAjout": "2026-11-11T16:04:37.027Z",
-            "technique": {
-                "largeur": 640,
-                "hauteur": 272,
-                "resolution": "640x272",
-                "ratioImage": 2.353,
-                "codecVideo": "mpeg4",
-                "profilVideo": "Simple Profile",
-                "pixelFormat": "yuv420p",
-                "bitsParComposante": null,
-                "bitrateVideo": 735886,
-                "framerate": 25,
-                "espaceCouleur": null,
-                "transfertCouleur": null,
-                "primairesCouleur": null,
-                "hdr": false,
-                "dureeFichier": 6752.44,
-                "bitrateGlobal": 876794,
-                "formatConteneur": "avi",
-                "audio": [
-                    {
-                        "codec": "mp3",
-                        "profil": null,
-                        "canaux": 2,
-                        "disposition": "stereo",
-                        "bitrate": 128000,
-                        "frequence": 48000,
-                        "langue": null
-                    }
-                ],
-                "sousTitres": []
-            },
-            "titreTmdb": "Lara Croft : Tomb Raider",
-            "anneeTmdb": "2001",
-            "dureeTmdb": 100,
-            "descriptionTmdb": "Lara Croft a hérité de son père archéologue de nombreux trésors parmi lesquels une mystérieuse horloge magique. Des années plus tôt, celui-ci lui dévoila l'existence d'une organisation secrète, les Illuminati, qui s'était lancée à la recherche d'une horloge dont la clé ouvrait les portes du Temps et de l'Espace. Celle-ci est un triangle sacré qui assura, 5 000 ans auparavant, la victoire des premiers Illuminati sur leurs ennemis. Si le triangle venait à être recomposé, ces lointains ancêtres reviendraient à la vie et le sort de l'Humanité en serait bouleversé à jamais. Le puissance de ce triangle atteindra son summum lorsque trois planètes s'aligneront dans le ciel en une éclipse totale qui survient une fois tous les 5 000 ans. L'aventurière ne dispose que de 48 heures pour résoudre l'énigme du triangle magique et ainsi sauver le monde.",
-            "collectionId": 2467,
-            "collectionNom": "Lara Croft - Saga",
-            "collectionDescription": "Tomb Raider est une série de films d'action-aventure, centrés sur les aventures de l'archéologue britannique fictive Lara Croft.",
-            "collectionImage": "https://image.tmdb.org/t/p/w500/sgaP4WtVlKzz8FIcjbkevOycJiq.jpg",
-            "collectionTmdbUrl": "https://www.themoviedb.org/collection/2467",
-            "ignoreInCollection": false,
-            "titreOriginal": "Lara Croft: Tomb Raider",
             "langueOriginale": "en"
         },
         {
@@ -29536,118 +28479,6 @@
             "langueOriginale": "en"
         },
         {
-            "id": "men_in_black_1",
-            "titre": "Men in Black 1",
-            "annee": null,
-            "langue": [
-                "TBD"
-            ],
-            "taille": 733275229,
-            "genre": [
-                "Science-Fiction"
-            ],
-            "image": "https://image.tmdb.org/t/p/w342/rd0VCTHFFIE7BbZfy0aEIkOYxGA.jpg",
-            "fichier": "/Box_Films/Action/Men in Black 1.mkv",
-            "nomFichier": "Men in Black 1.mkv",
-            "imdbId": null,
-            "tmdbId": 607,
-            "tmdbUrl": "https://www.themoviedb.org/movie/607",
-            "doublonExact": false,
-            "doublonProbable": false,
-            "groupeDoublon": null,
-            "dateAjout": "2026-08-22T08:23:33.539Z",
-            "titreTmdb": "Men in Black",
-            "anneeTmdb": "1997",
-            "dureeTmdb": 98,
-            "descriptionTmdb": "Chargés de protéger la Terre de toute infraction extraterrestre et de réguler l’immigration intergalactique sur notre planète, les Men in black ou MIB opèrent dans le plus grand secret. Vêtus de costumes sombres et équipés des toutes dernières technologies, ils passent inaperçus aux yeux des humains dont ils effacent régulièrement la mémoire récente : la présence d’aliens sur notre sol doit rester secrète. Récemment séparé de son vieux partenaire, retourné à la vie civile sans aucun souvenir de sa vie d’homme en noir, K, le plus expérimenté des agents du MIB décide de former J, un jeune policier. Ensemble, ils vont afronter une nouvelle menace : Edgar le cafard…",
-            "collectionId": 86055,
-            "collectionNom": "Men in Black - Saga",
-            "type": "Film",
-            "studio": null,
-            "technique": {
-                "largeur": 640,
-                "hauteur": 352,
-                "resolution": "640x352",
-                "ratioImage": 1.818,
-                "codecVideo": "rv40",
-                "profilVideo": null,
-                "pixelFormat": "yuv420p",
-                "bitsParComposante": null,
-                "bitrateVideo": null,
-                "framerate": 30,
-                "espaceCouleur": null,
-                "transfertCouleur": null,
-                "primairesCouleur": null,
-                "hdr": false,
-                "dureeFichier": 5641.088,
-                "bitrateGlobal": 1039906,
-                "formatConteneur": "matroska,webm",
-                "audio": [
-                    {
-                        "codec": "aac",
-                        "profil": "HE-AAC",
-                        "canaux": 2,
-                        "disposition": "stereo",
-                        "bitrate": null,
-                        "frequence": 48000,
-                        "langue": "fre"
-                    },
-                    {
-                        "codec": "aac",
-                        "profil": "HE-AAC",
-                        "canaux": 2,
-                        "disposition": "stereo",
-                        "bitrate": null,
-                        "frequence": 48000,
-                        "langue": "eng"
-                    },
-                    {
-                        "codec": "aac",
-                        "profil": "HE-AAC",
-                        "canaux": 2,
-                        "disposition": "stereo",
-                        "bitrate": null,
-                        "frequence": 48000,
-                        "langue": "ger"
-                    }
-                ],
-                "sousTitres": [
-                    {
-                        "codec": "dvd_subtitle",
-                        "langue": "mis",
-                        "titre": null
-                    },
-                    {
-                        "codec": "dvd_subtitle",
-                        "langue": "fre",
-                        "titre": null
-                    },
-                    {
-                        "codec": "dvd_subtitle",
-                        "langue": "mis",
-                        "titre": null
-                    },
-                    {
-                        "codec": "dvd_subtitle",
-                        "langue": "eng",
-                        "titre": null
-                    },
-                    {
-                        "codec": "dvd_subtitle",
-                        "langue": "mis",
-                        "titre": null
-                    },
-                    {
-                        "codec": "dvd_subtitle",
-                        "langue": "ger",
-                        "titre": null
-                    }
-                ]
-            },
-            "titreOriginal": "Men in Black",
-            "langueOriginale": "en"
-        },
-        {
             "id": "men_in_black_3_2012",
             "titre": "Men in Black 3",
             "annee": 2012,
@@ -31943,38 +30774,6 @@
             "langueOriginale": "en"
         },
         {
-            "id": "tmdb_870028",
-            "titre": "Mr Wolff 2",
-            "annee": 2025,
-            "langue": [
-                "TBD"
-            ],
-            "taille": 0,
-            "genre": [
-                "Crime",
-                "Thriller",
-                "Drame"
-            ],
-            "image": "https://image.tmdb.org/t/p/w342/kgzWQPNZp3byMamRr6Mm1KdgzUl.jpg",
-            "fichier": null,
-            "nomFichier": null,
-            "tmdbId": 870028,
-            "tmdbUrl": "https://www.themoviedb.org/movie/870028",
-            "doublonExact": false,
-            "doublonProbable": false,
-            "groupeDoublon": null,
-            "dateAjout": null,
-            "titreTmdb": "Mr Wolff 2",
-            "titreOriginal": "The Accountant²",
-            "anneeTmdb": 2025,
-            "descriptionTmdb": "Christian Wolff est doué pour résoudre les problèmes. Quand une vieille connaissance est tuée en laissant un message énigmatique disant de \"trouver le comptable\", Wolff doit recruter son dangereux frère Brax pour élucider l'affaire. En partenariat avec la directrice adjointe du Trésor américain, Medina, ils découvrent une conspiration mortelle et deviennent les cibles d'un réseau de tueurs.",
-            "collectionId": 870339,
-            "collectionNom": "Mr Wolff - Saga",
-            "type": "Film",
-            "studio": null,
-            "ignoreInCollection": false
-        },
-        {
             "id": "negociateur",
             "titre": "Negociateur",
             "annee": null,
@@ -33836,173 +32635,6 @@
             "type": "Animation",
             "studio": null,
             "ignoreInCollection": true,
-            "langueOriginale": "en"
-        },
-        {
-            "id": "la_petite",
-            "titre": "petite",
-            "annee": null,
-            "langue": [
-                "TBD"
-            ],
-            "taille": 733169664,
-            "genre": [
-                "Comédie"
-            ],
-            "image": "https://image.tmdb.org/t/p/w342/fi7jHcwZje12iEslbBUo00EQDuB.jpg",
-            "fichier": "/Box_Films/Enfants/02 A tester/La petite sirene.avi",
-            "nomFichier": "La petite sirene.avi",
-            "imdbId": null,
-            "tmdbId": 10144,
-            "tmdbUrl": "https://www.themoviedb.org/movie/10144",
-            "doublonExact": false,
-            "doublonProbable": false,
-            "groupeDoublon": null,
-            "dateAjout": "2026-08-22T08:23:33.648Z",
-            "titreTmdb": "La Petite Sirène",
-            "anneeTmdb": "1989",
-            "dureeTmdb": 83,
-            "descriptionTmdb": "Ariel, une sirène fascinée par l'univers des humains, défie l'interdiction de son père de rester sous la surface. Lors d'une tempête, elle sauve le prince de ses rêves. Elle conclut un pacte avec la sorcière des mers : des jambes en échange de sa queue de sirène et de sa jolie voix. Ariel entame une course contre la montre pour conquérir le cœur de son prince et sauver le royaume de son père.",
-            "collectionId": 33085,
-            "collectionNom": "La Petite Sirène - Saga",
-            "type": "Animation",
-            "studio": "Disney",
-            "ignoreInCollection": false,
-            "technique": {
-                "largeur": 608,
-                "hauteur": 336,
-                "resolution": "608x336",
-                "ratioImage": 1.81,
-                "codecVideo": "mpeg4",
-                "profilVideo": "Advanced Simple Profile",
-                "pixelFormat": "yuv420p",
-                "bitsParComposante": null,
-                "bitrateVideo": 872452,
-                "framerate": 23.976,
-                "espaceCouleur": null,
-                "transfertCouleur": null,
-                "primairesCouleur": null,
-                "hdr": false,
-                "dureeFichier": 4633.842176,
-                "bitrateGlobal": 1265765,
-                "formatConteneur": "avi",
-                "audio": [
-                    {
-                        "codec": "ac3",
-                        "profil": null,
-                        "canaux": 5,
-                        "disposition": null,
-                        "bitrate": 384000,
-                        "frequence": 48000,
-                        "langue": null
-                    }
-                ],
-                "sousTitres": []
-            },
-            "titreOriginal": "The Little Mermaid",
-            "langueOriginale": "en"
-        },
-        {
-            "id": "la_petite_sirene_1_the_little_mermaid_disney_n_36",
-            "titre": "petite Sirène 1 little",
-            "annee": null,
-            "langue": [
-                "TBD"
-            ],
-            "taille": 733324946,
-            "genre": [
-                "Comédie"
-            ],
-            "image": "https://image.tmdb.org/t/p/w342/fi7jHcwZje12iEslbBUo00EQDuB.jpg",
-            "fichier": "/Box_Films/Enfants/02 A tester/La petite Sirène 1 (The little Mermaid) (Disney n° 36).mkv",
-            "nomFichier": "La petite Sirène 1 (The little Mermaid) (Disney n° 36).mkv",
-            "imdbId": null,
-            "tmdbId": 10144,
-            "tmdbUrl": "https://www.themoviedb.org/movie/10144",
-            "doublonExact": false,
-            "doublonProbable": false,
-            "groupeDoublon": null,
-            "dateAjout": "2026-08-22T08:23:33.648Z",
-            "titreTmdb": "La Petite Sirène",
-            "anneeTmdb": "1989",
-            "dureeTmdb": 83,
-            "descriptionTmdb": "Ariel, une sirène fascinée par l'univers des humains, défie l'interdiction de son père de rester sous la surface. Lors d'une tempête, elle sauve le prince de ses rêves. Elle conclut un pacte avec la sorcière des mers : des jambes en échange de sa queue de sirène et de sa jolie voix. Ariel entame une course contre la montre pour conquérir le cœur de son prince et sauver le royaume de son père.",
-            "collectionId": 33085,
-            "collectionNom": "La Petite Sirène - Saga",
-            "type": "Animation",
-            "studio": "Disney",
-            "technique": {
-                "largeur": 704,
-                "hauteur": 400,
-                "resolution": "704x400",
-                "ratioImage": 1.76,
-                "codecVideo": "h264",
-                "profilVideo": "High",
-                "pixelFormat": "yuv420p",
-                "bitsParComposante": 8,
-                "bitrateVideo": null,
-                "framerate": 25,
-                "espaceCouleur": null,
-                "transfertCouleur": null,
-                "primairesCouleur": null,
-                "hdr": false,
-                "dureeFichier": 4755.88,
-                "bitrateGlobal": 1233546,
-                "formatConteneur": "matroska,webm",
-                "audio": [
-                    {
-                        "codec": "aac",
-                        "profil": "HE-AAC",
-                        "canaux": 6,
-                        "disposition": "5.1",
-                        "bitrate": null,
-                        "frequence": 48000,
-                        "langue": "fre"
-                    },
-                    {
-                        "codec": "aac",
-                        "profil": "HE-AAC",
-                        "canaux": 6,
-                        "disposition": "5.1",
-                        "bitrate": null,
-                        "frequence": 48000,
-                        "langue": "eng"
-                    }
-                ],
-                "sousTitres": [
-                    {
-                        "codec": "dvd_subtitle",
-                        "langue": "fre",
-                        "titre": null
-                    },
-                    {
-                        "codec": "dvd_subtitle",
-                        "langue": "fre",
-                        "titre": null
-                    },
-                    {
-                        "codec": "dvd_subtitle",
-                        "langue": "eng",
-                        "titre": null
-                    },
-                    {
-                        "codec": "dvd_subtitle",
-                        "langue": "eng",
-                        "titre": null
-                    },
-                    {
-                        "codec": "dvd_subtitle",
-                        "langue": "dut",
-                        "titre": null
-                    },
-                    {
-                        "codec": "dvd_subtitle",
-                        "langue": "dut",
-                        "titre": null
-                    }
-                ]
-            },
-            "titreOriginal": "The Little Mermaid",
             "langueOriginale": "en"
         },
         {
@@ -35996,168 +34628,6 @@
                 "sousTitres": []
             },
             "titreOriginal": "Robots",
-            "langueOriginale": "en"
-        },
-        {
-            "id": "le_roi_lion_1_disney_n_43",
-            "titre": "Roi Lion 1",
-            "annee": null,
-            "langue": [
-                "TBD"
-            ],
-            "taille": 734237041,
-            "genre": [
-                "Aventure"
-            ],
-            "image": "https://image.tmdb.org/t/p/w342/n6UChiAOSTHGih2FBactLjA4Cdt.jpg",
-            "fichier": "/Box_Films/Enfants/02 A tester/Le Roi Lion 1 (Disney n° 43).mkv",
-            "nomFichier": "Le Roi Lion 1 (Disney n° 43).mkv",
-            "imdbId": null,
-            "tmdbId": 8587,
-            "tmdbUrl": "https://www.themoviedb.org/movie/8587",
-            "doublonExact": false,
-            "doublonProbable": true,
-            "groupeDoublon": "roi_lion_1",
-            "dateAjout": "2026-08-22T08:23:33.650Z",
-            "titreTmdb": "Le Roi lion",
-            "anneeTmdb": "1994",
-            "dureeTmdb": 88,
-            "descriptionTmdb": "Disney présente l'histoire de Simba, un fougueux lionceau qui « voudrait déjà être roi ». Éloigné par son sombre et ambitieux oncle Scar, Simba profite de la vie avec ses drôles de compagnons Timon et Pumbaa, oubliant son rang et ses responsabilités. Mais son destin l'appelle à rentrer auprès des siens et à reprendre sa place dans le Grand Cercle de la Vie.",
-            "collectionId": 94032,
-            "collectionNom": "Le Roi lion - Saga",
-            "type": "Animation",
-            "studio": null,
-            "ignoreInCollection": false,
-            "technique": {
-                "largeur": 672,
-                "hauteur": 384,
-                "resolution": "672x384",
-                "ratioImage": 1.75,
-                "codecVideo": "rv40",
-                "profilVideo": null,
-                "pixelFormat": "yuv420p",
-                "bitsParComposante": null,
-                "bitrateVideo": null,
-                "framerate": 25,
-                "espaceCouleur": null,
-                "transfertCouleur": null,
-                "primairesCouleur": null,
-                "hdr": false,
-                "dureeFichier": 5116.683,
-                "bitrateGlobal": 1147989,
-                "formatConteneur": "matroska,webm",
-                "audio": [
-                    {
-                        "codec": "cook",
-                        "profil": null,
-                        "canaux": 6,
-                        "disposition": "5.1",
-                        "bitrate": null,
-                        "frequence": 44100,
-                        "langue": "fre"
-                    },
-                    {
-                        "codec": "cook",
-                        "profil": null,
-                        "canaux": 6,
-                        "disposition": "5.1",
-                        "bitrate": null,
-                        "frequence": 44100,
-                        "langue": "eng"
-                    }
-                ],
-                "sousTitres": [
-                    {
-                        "codec": "subrip",
-                        "langue": "mis",
-                        "titre": null
-                    },
-                    {
-                        "codec": "dvd_subtitle",
-                        "langue": "fre",
-                        "titre": null
-                    },
-                    {
-                        "codec": "dvd_subtitle",
-                        "langue": "eng",
-                        "titre": null
-                    },
-                    {
-                        "codec": "dvd_subtitle",
-                        "langue": "eng",
-                        "titre": null
-                    },
-                    {
-                        "codec": "dvd_subtitle",
-                        "langue": "fre",
-                        "titre": null
-                    }
-                ]
-            },
-            "titreOriginal": "The Lion King",
-            "langueOriginale": "en"
-        },
-        {
-            "id": "le_roi_lion_1",
-            "titre": "Roi Lion 1",
-            "annee": null,
-            "langue": [
-                "TBD"
-            ],
-            "taille": 734511104,
-            "genre": [
-                "Aventure"
-            ],
-            "image": "https://image.tmdb.org/t/p/w342/n6UChiAOSTHGih2FBactLjA4Cdt.jpg",
-            "fichier": "/Box_Films/Enfants/Le Roi Lion 1.avi",
-            "nomFichier": "Le Roi Lion 1.avi",
-            "imdbId": null,
-            "tmdbId": 8587,
-            "tmdbUrl": "https://www.themoviedb.org/movie/8587",
-            "doublonExact": false,
-            "doublonProbable": true,
-            "groupeDoublon": "roi_lion_1",
-            "dateAjout": "2026-08-22T08:23:33.689Z",
-            "titreTmdb": "Le Roi lion",
-            "anneeTmdb": "1994",
-            "dureeTmdb": 88,
-            "descriptionTmdb": "Disney présente l'histoire de Simba, un fougueux lionceau qui « voudrait déjà être roi ». Éloigné par son sombre et ambitieux oncle Scar, Simba profite de la vie avec ses drôles de compagnons Timon et Pumbaa, oubliant son rang et ses responsabilités. Mais son destin l'appelle à rentrer auprès des siens et à reprendre sa place dans le Grand Cercle de la Vie.",
-            "collectionId": 94032,
-            "collectionNom": "Le Roi lion - Saga",
-            "type": "Animation",
-            "studio": null,
-            "technique": {
-                "largeur": 640,
-                "hauteur": 368,
-                "resolution": "640x368",
-                "ratioImage": 1.739,
-                "codecVideo": "mpeg4",
-                "profilVideo": null,
-                "pixelFormat": "yuv420p",
-                "bitsParComposante": null,
-                "bitrateVideo": 1127596,
-                "framerate": 23.976,
-                "espaceCouleur": null,
-                "transfertCouleur": null,
-                "primairesCouleur": null,
-                "hdr": false,
-                "dureeFichier": 4578.78712,
-                "bitrateGlobal": 1283328,
-                "formatConteneur": "avi",
-                "audio": [
-                    {
-                        "codec": "mp3",
-                        "profil": null,
-                        "canaux": 2,
-                        "disposition": "stereo",
-                        "bitrate": 130824,
-                        "frequence": 48000,
-                        "langue": null
-                    }
-                ],
-                "sousTitres": []
-            },
-            "titreOriginal": "The Lion King",
             "langueOriginale": "en"
         },
         {
@@ -40764,72 +39234,6 @@
             "ignoreInCollection": false
         },
         {
-            "id": "the_accountant_2016",
-            "titre": "The Accountant",
-            "annee": 2016,
-            "langue": [
-                "TBD"
-            ],
-            "taille": 1352159663,
-            "genre": [
-                "Crime",
-                "Thriller",
-                "Drame"
-            ],
-            "image": "https://image.tmdb.org/t/p/w342/o7073AlEoBqltpsRBRDI6b5CyM6.jpg",
-            "fichier": "/03_Films/The.Accountant.2016.VFF.XviD-NEWCiNE.avi",
-            "nomFichier": "The.Accountant.2016.VFF.XviD-NEWCiNE.avi",
-            "imdbId": null,
-            "tmdbId": 302946,
-            "tmdbUrl": "https://www.themoviedb.org/movie/302946",
-            "doublonExact": false,
-            "doublonProbable": true,
-            "groupeDoublon": "the_accountant",
-            "dateAjout": "2026-11-14T08:28:09.856Z",
-            "technique": {
-                "largeur": 720,
-                "hauteur": 304,
-                "resolution": "720x304",
-                "ratioImage": 2.368,
-                "codecVideo": "mpeg4",
-                "profilVideo": "Advanced Simple Profile",
-                "pixelFormat": "yuv420p",
-                "bitsParComposante": null,
-                "bitrateVideo": 1272105,
-                "framerate": 23.976,
-                "espaceCouleur": null,
-                "transfertCouleur": null,
-                "primairesCouleur": null,
-                "hdr": false,
-                "dureeFichier": 7674.262183,
-                "bitrateGlobal": 1409552,
-                "formatConteneur": "avi",
-                "audio": [
-                    {
-                        "codec": "mp3",
-                        "profil": null,
-                        "canaux": 2,
-                        "disposition": "stereo",
-                        "bitrate": 128000,
-                        "frequence": 48000,
-                        "langue": null
-                    }
-                ],
-                "sousTitres": []
-            },
-            "titreTmdb": "Mr Wolff",
-            "titreOriginal": "The Accountant",
-            "anneeTmdb": "2016",
-            "dureeTmdb": 128,
-            "descriptionTmdb": "Petit génie des mathématiques, Christian Wolff est plus à l’aise avec les chiffres qu’avec les gens. Expert‐comptable dans le civil, il travaille en réalité pour plusieurs organisations mafieuses parmi les plus dangereuses au monde. Lorsque la brigade anti‐criminalité du ministère des Finances s’intéresse d’un peu trop près à ses affaires, Christian cherche à faire diversion : il accepte de vérifier les comptes d’une entreprise de robotique ayant pignon sur rue. Problème : la comptable de la société a décelé un détournement de fonds de plusieurs millions de dollars. Tandis que Christian épluche les comptes et découvre les rouages de l’escroquerie, les cadavres s’accumulent…",
-            "collectionId": 870339,
-            "collectionNom": "Mr Wolff - Saga",
-            "collectionDescription": "Une trilogie de thrillers policiers avec Ben Affleck dans le rôle d'un mathématicien plus affiné avec les chiffres qu'avec les gens. Sous couvert d'un cabinet d'expertise comptable d'une petite ville, il gagne sa vie en tant que comptable indépendant pour de dangereuses organisations criminelles.",
-            "collectionImage": "https://image.tmdb.org/t/p/w500/rbTVcWYJp3xjKqirEif530uUACh.jpg",
-            "collectionTmdbUrl": "https://www.themoviedb.org/collection/870339",
-            "langueOriginale": "en"
-        },
-        {
             "id": "the_accountant_2_2025",
             "titre": "The Accountant 2",
             "annee": 2025,
@@ -40839,16 +39243,16 @@
             ],
             "taille": 3573871858,
             "genre": [
+                "Mystère",
                 "Crime",
-                "Thriller",
-                "Drame"
+                "Thriller"
             ],
-            "image": "https://image.tmdb.org/t/p/w342/o7073AlEoBqltpsRBRDI6b5CyM6.jpg",
+            "image": "https://image.tmdb.org/t/p/w342/kgzWQPNZp3byMamRr6Mm1KdgzUl.jpg",
             "fichier": "/03_Films/The.Accountant.2.2025.MULTi.VF2.WEB.H264-TFA.mkv",
             "nomFichier": "The.Accountant.2.2025.MULTi.VF2.WEB.H264-TFA.mkv",
             "imdbId": null,
-            "tmdbId": 302946,
-            "tmdbUrl": "https://www.themoviedb.org/movie/302946",
+            "tmdbId": 870028,
+            "tmdbUrl": "https://www.themoviedb.org/movie/870028",
             "doublonExact": false,
             "doublonProbable": true,
             "groupeDoublon": "the_accountant_2",
@@ -40937,131 +39341,11 @@
                     }
                 ]
             },
-            "titreTmdb": "Mr Wolff",
-            "titreOriginal": "The Accountant",
-            "anneeTmdb": "2016",
-            "dureeTmdb": 128,
-            "descriptionTmdb": "Petit génie des mathématiques, Christian Wolff est plus à l’aise avec les chiffres qu’avec les gens. Expert‐comptable dans le civil, il travaille en réalité pour plusieurs organisations mafieuses parmi les plus dangereuses au monde. Lorsque la brigade anti‐criminalité du ministère des Finances s’intéresse d’un peu trop près à ses affaires, Christian cherche à faire diversion : il accepte de vérifier les comptes d’une entreprise de robotique ayant pignon sur rue. Problème : la comptable de la société a décelé un détournement de fonds de plusieurs millions de dollars. Tandis que Christian épluche les comptes et découvre les rouages de l’escroquerie, les cadavres s’accumulent…",
-            "collectionId": 870339,
-            "collectionNom": "Mr Wolff - Saga",
-            "collectionDescription": "Une trilogie de thrillers policiers avec Ben Affleck dans le rôle d'un mathématicien plus affiné avec les chiffres qu'avec les gens. Sous couvert d'un cabinet d'expertise comptable d'une petite ville, il gagne sa vie en tant que comptable indépendant pour de dangereuses organisations criminelles.",
-            "collectionImage": "https://image.tmdb.org/t/p/w500/rbTVcWYJp3xjKqirEif530uUACh.jpg",
-            "collectionTmdbUrl": "https://www.themoviedb.org/collection/870339",
-            "langueOriginale": "en"
-        },
-        {
-            "id": "the_accountant_2_2025",
-            "titre": "The Accountant 2",
-            "annee": 2025,
-            "langue": [
-                "VO",
-                "VF"
-            ],
-            "taille": 1287950776,
-            "genre": [
-                "Crime",
-                "Thriller",
-                "Drame"
-            ],
-            "image": "https://image.tmdb.org/t/p/w342/o7073AlEoBqltpsRBRDI6b5CyM6.jpg",
-            "fichier": "/03_Films/The.Accountant.2.2025.Multi.Vf2.WEBRIP.mp4",
-            "nomFichier": "The.Accountant.2.2025.Multi.Vf2.WEBRIP.mp4",
-            "imdbId": null,
-            "tmdbId": 302946,
-            "tmdbUrl": "https://www.themoviedb.org/movie/302946",
-            "doublonExact": false,
-            "doublonProbable": true,
-            "groupeDoublon": "the_accountant_2",
-            "dateAjout": "2026-11-14T08:28:08.394Z",
-            "technique": {
-                "largeur": 712,
-                "hauteur": 296,
-                "resolution": "712x296",
-                "ratioImage": 2.405,
-                "codecVideo": "h264",
-                "profilVideo": "High",
-                "pixelFormat": "yuv420p",
-                "bitsParComposante": 8,
-                "bitrateVideo": 617243,
-                "framerate": 24,
-                "espaceCouleur": "bt709",
-                "transfertCouleur": "bt709",
-                "primairesCouleur": "bt709",
-                "hdr": false,
-                "dureeFichier": 8060,
-                "bitrateGlobal": 1278363,
-                "formatConteneur": "mov,mp4,m4a,3gp,3g2,mj2",
-                "audio": [
-                    {
-                        "codec": "aac",
-                        "profil": "LC",
-                        "canaux": 2,
-                        "disposition": "stereo",
-                        "bitrate": 161710,
-                        "frequence": 48000,
-                        "langue": "fra"
-                    },
-                    {
-                        "codec": "aac",
-                        "profil": "LC",
-                        "canaux": 2,
-                        "disposition": "stereo",
-                        "bitrate": 160877,
-                        "frequence": 48000,
-                        "langue": "fra"
-                    },
-                    {
-                        "codec": "aac",
-                        "profil": "LC",
-                        "canaux": 2,
-                        "disposition": "stereo",
-                        "bitrate": 161095,
-                        "frequence": 48000,
-                        "langue": "eng"
-                    },
-                    {
-                        "codec": "aac",
-                        "profil": "LC",
-                        "canaux": 2,
-                        "disposition": "stereo",
-                        "bitrate": 161714,
-                        "frequence": 48000,
-                        "langue": "eng"
-                    }
-                ],
-                "sousTitres": [
-                    {
-                        "codec": "mov_text",
-                        "langue": "fra",
-                        "titre": null
-                    },
-                    {
-                        "codec": "mov_text",
-                        "langue": "fra",
-                        "titre": null
-                    },
-                    {
-                        "codec": "mov_text",
-                        "langue": "fra",
-                        "titre": null
-                    },
-                    {
-                        "codec": "mov_text",
-                        "langue": "fra",
-                        "titre": null
-                    },
-                    {
-                        "codec": "mov_text",
-                        "langue": "eng",
-                        "titre": null
-                    }
-                ]
-            },
-            "titreTmdb": "Mr Wolff",
-            "titreOriginal": "The Accountant",
-            "anneeTmdb": "2016",
-            "dureeTmdb": 128,
-            "descriptionTmdb": "Petit génie des mathématiques, Christian Wolff est plus à l’aise avec les chiffres qu’avec les gens. Expert‐comptable dans le civil, il travaille en réalité pour plusieurs organisations mafieuses parmi les plus dangereuses au monde. Lorsque la brigade anti‐criminalité du ministère des Finances s’intéresse d’un peu trop près à ses affaires, Christian cherche à faire diversion : il accepte de vérifier les comptes d’une entreprise de robotique ayant pignon sur rue. Problème : la comptable de la société a décelé un détournement de fonds de plusieurs millions de dollars. Tandis que Christian épluche les comptes et découvre les rouages de l’escroquerie, les cadavres s’accumulent…",
+            "titreTmdb": "Mr Wolff 2",
+            "titreOriginal": "The Accountant²",
+            "anneeTmdb": "2025",
+            "dureeTmdb": 125,
+            "descriptionTmdb": "Christian Wolff est doué pour résoudre les problèmes. Quand une vieille connaissance est tuée en laissant un message énigmatique disant de \"trouver le comptable\", Wolff doit recruter son dangereux frère Brax pour élucider l'affaire. En partenariat avec la directrice adjointe du Trésor américain, Medina, ils découvrent une conspiration mortelle et deviennent les cibles d'un réseau de tueurs.",
             "collectionId": 870339,
             "collectionNom": "Mr Wolff - Saga",
             "collectionDescription": "Une trilogie de thrillers policiers avec Ben Affleck dans le rôle d'un mathématicien plus affiné avec les chiffres qu'avec les gens. Sous couvert d'un cabinet d'expertise comptable d'une petite ville, il gagne sa vie en tant que comptable indépendant pour de dangereuses organisations criminelles.",
@@ -41430,258 +39714,6 @@
                 "sousTitres": []
             },
             "titreOriginal": "The Bang Bang Club",
-            "langueOriginale": "en"
-        },
-        {
-            "id": "bourne_legacy_aymo_cd1_2012",
-            "titre": "The Bourne Legacy",
-            "annee": 2012,
-            "langue": [
-                "VF"
-            ],
-            "taille": 734273536,
-            "genre": [
-                "Action"
-            ],
-            "image": "https://image.tmdb.org/t/p/w342/7OUVM57BOCGbhQ6UerNrb9Zar26.jpg",
-            "fichier": "/Box_Films/Action/Jason Bourne/The.Bourne.Legacy.2012.FRENCH.BDRip.XviD-AYMO.CD1.avi",
-            "nomFichier": "The.Bourne.Legacy.2012.FRENCH.BDRip.XviD-AYMO.CD1.avi",
-            "imdbId": null,
-            "tmdbId": 49040,
-            "tmdbUrl": "https://www.themoviedb.org/movie/49040",
-            "doublonExact": false,
-            "doublonProbable": true,
-            "groupeDoublon": "the_bourne_legacy",
-            "dateAjout": "2026-08-22T08:23:33.528Z",
-            "titreTmdb": "Jason Bourne : L'Héritage",
-            "anneeTmdb": "2012",
-            "dureeTmdb": 136,
-            "descriptionTmdb": "Le programme Treadstone dont Jason était le cobaye n’était que la partie émergée d’une conspiration plus ténébreuse, ourdie par d’autres branches du gouvernement et mettant en jeu d’autres agences de renseignement, d’autres programmes militaires, d’autres laboratoires secrets… De Treadstone est né «Outcome», dont Aaron Cross est un des six agents. Sa finalité n’est plus de fabriquer des tueurs, mais des hommes capables d’assurer isolément des missions à haut risque. En dévoilant une partie de cette organisation, Jason laissait derrière lui un «héritage» explosif : compromis, les agents «Outcome» sont désormais promis à une liquidation brutale. Effacés à jamais pour que le «père» du programme, le Colonel Byer puisse poursuivre ses sinistres activités. Une gigantesque chasse à l’homme commence, et Cross, devenue sa première cible, n’a d’autre recours que de retrouver et gagner la confiance de la biochimiste d’«Outcome», Marta Shearing, elle-même menacée de mort…",
-            "collectionId": 31562,
-            "collectionNom": "Jason Bourne - Saga",
-            "type": "Film",
-            "studio": null,
-            "technique": {
-                "largeur": 640,
-                "hauteur": 272,
-                "resolution": "640x272",
-                "ratioImage": 2.353,
-                "codecVideo": "mpeg4",
-                "profilVideo": "Advanced Simple Profile",
-                "pixelFormat": "yuv420p",
-                "bitsParComposante": null,
-                "bitrateVideo": null,
-                "framerate": 23.976,
-                "espaceCouleur": null,
-                "transfertCouleur": null,
-                "primairesCouleur": null,
-                "hdr": false,
-                "dureeFichier": 4226.305417,
-                "bitrateGlobal": 1389910,
-                "formatConteneur": "avi",
-                "audio": [
-                    {
-                        "codec": "ac3",
-                        "profil": null,
-                        "canaux": 6,
-                        "disposition": "5.1(side)",
-                        "bitrate": 448000,
-                        "frequence": 48000,
-                        "langue": null
-                    }
-                ],
-                "sousTitres": []
-            },
-            "titreOriginal": "The Bourne Legacy",
-            "langueOriginale": "en"
-        },
-        {
-            "id": "bourne_legacy_aymo_cd2_2012",
-            "titre": "The Bourne Legacy",
-            "annee": 2012,
-            "langue": [
-                "VF"
-            ],
-            "taille": 732577792,
-            "genre": [
-                "Action"
-            ],
-            "image": "https://image.tmdb.org/t/p/w342/7OUVM57BOCGbhQ6UerNrb9Zar26.jpg",
-            "fichier": "/Box_Films/Action/Jason Bourne/The.Bourne.Legacy.2012.FRENCH.BDRip.XviD-AYMO.CD2.avi",
-            "nomFichier": "The.Bourne.Legacy.2012.FRENCH.BDRip.XviD-AYMO.CD2.avi",
-            "imdbId": null,
-            "tmdbId": 49040,
-            "tmdbUrl": "https://www.themoviedb.org/movie/49040",
-            "doublonExact": false,
-            "doublonProbable": true,
-            "groupeDoublon": "the_bourne_legacy",
-            "dateAjout": "2026-08-22T08:23:33.529Z",
-            "titreTmdb": "Jason Bourne : L'Héritage",
-            "anneeTmdb": "2012",
-            "dureeTmdb": 136,
-            "descriptionTmdb": "Le programme Treadstone dont Jason était le cobaye n’était que la partie émergée d’une conspiration plus ténébreuse, ourdie par d’autres branches du gouvernement et mettant en jeu d’autres agences de renseignement, d’autres programmes militaires, d’autres laboratoires secrets… De Treadstone est né «Outcome», dont Aaron Cross est un des six agents. Sa finalité n’est plus de fabriquer des tueurs, mais des hommes capables d’assurer isolément des missions à haut risque. En dévoilant une partie de cette organisation, Jason laissait derrière lui un «héritage» explosif : compromis, les agents «Outcome» sont désormais promis à une liquidation brutale. Effacés à jamais pour que le «père» du programme, le Colonel Byer puisse poursuivre ses sinistres activités. Une gigantesque chasse à l’homme commence, et Cross, devenue sa première cible, n’a d’autre recours que de retrouver et gagner la confiance de la biochimiste d’«Outcome», Marta Shearing, elle-même menacée de mort…",
-            "collectionId": 31562,
-            "collectionNom": "Jason Bourne - Saga",
-            "type": "Film",
-            "studio": null,
-            "technique": {
-                "largeur": 640,
-                "hauteur": 272,
-                "resolution": "640x272",
-                "ratioImage": 2.353,
-                "codecVideo": "mpeg4",
-                "profilVideo": "Advanced Simple Profile",
-                "pixelFormat": "yuv420p",
-                "bitsParComposante": null,
-                "bitrateVideo": null,
-                "framerate": 23.976,
-                "espaceCouleur": null,
-                "transfertCouleur": null,
-                "primairesCouleur": null,
-                "hdr": false,
-                "dureeFichier": 3876.038833,
-                "bitrateGlobal": 1512013,
-                "formatConteneur": "avi",
-                "audio": [
-                    {
-                        "codec": "ac3",
-                        "profil": null,
-                        "canaux": 6,
-                        "disposition": "5.1(side)",
-                        "bitrate": 448000,
-                        "frequence": 48000,
-                        "langue": null
-                    }
-                ],
-                "sousTitres": []
-            },
-            "titreOriginal": "The Bourne Legacy",
-            "langueOriginale": "en"
-        },
-        {
-            "id": "bourne_legacy_tmb_2012",
-            "titre": "The Bourne Legacy",
-            "annee": 2012,
-            "langue": [
-                "VF"
-            ],
-            "taille": 2195829608,
-            "genre": [
-                "Action"
-            ],
-            "image": "https://image.tmdb.org/t/p/w342/7OUVM57BOCGbhQ6UerNrb9Zar26.jpg",
-            "fichier": "/Box_Films/Action/Jason Bourne/The.Bourne.Legacy.2012.FRENCH.BRRip.XviD.AC3-TMB.avi",
-            "nomFichier": "The.Bourne.Legacy.2012.FRENCH.BRRip.XviD.AC3-TMB.avi",
-            "imdbId": null,
-            "tmdbId": 49040,
-            "tmdbUrl": "https://www.themoviedb.org/movie/49040",
-            "doublonExact": false,
-            "doublonProbable": true,
-            "groupeDoublon": "the_bourne_legacy",
-            "dateAjout": "2026-08-22T08:23:33.529Z",
-            "titreTmdb": "Jason Bourne : L'Héritage",
-            "anneeTmdb": "2012",
-            "dureeTmdb": 136,
-            "descriptionTmdb": "Le programme Treadstone dont Jason était le cobaye n’était que la partie émergée d’une conspiration plus ténébreuse, ourdie par d’autres branches du gouvernement et mettant en jeu d’autres agences de renseignement, d’autres programmes militaires, d’autres laboratoires secrets… De Treadstone est né «Outcome», dont Aaron Cross est un des six agents. Sa finalité n’est plus de fabriquer des tueurs, mais des hommes capables d’assurer isolément des missions à haut risque. En dévoilant une partie de cette organisation, Jason laissait derrière lui un «héritage» explosif : compromis, les agents «Outcome» sont désormais promis à une liquidation brutale. Effacés à jamais pour que le «père» du programme, le Colonel Byer puisse poursuivre ses sinistres activités. Une gigantesque chasse à l’homme commence, et Cross, devenue sa première cible, n’a d’autre recours que de retrouver et gagner la confiance de la biochimiste d’«Outcome», Marta Shearing, elle-même menacée de mort…",
-            "collectionId": 31562,
-            "collectionNom": "Jason Bourne - Saga",
-            "type": "Film",
-            "studio": null,
-            "technique": {
-                "largeur": 640,
-                "hauteur": 272,
-                "resolution": "640x272",
-                "ratioImage": 2.353,
-                "codecVideo": "mpeg4",
-                "profilVideo": "Advanced Simple Profile",
-                "pixelFormat": "yuv420p",
-                "bitsParComposante": null,
-                "bitrateVideo": 1710810,
-                "framerate": 23.976,
-                "espaceCouleur": null,
-                "transfertCouleur": null,
-                "primairesCouleur": null,
-                "hdr": false,
-                "dureeFichier": 8102.268936,
-                "bitrateGlobal": 2168113,
-                "formatConteneur": "avi",
-                "audio": [
-                    {
-                        "codec": "ac3",
-                        "profil": null,
-                        "canaux": 6,
-                        "disposition": "5.1(side)",
-                        "bitrate": 448000,
-                        "frequence": 48000,
-                        "langue": null
-                    }
-                ],
-                "sousTitres": []
-            },
-            "titreOriginal": "The Bourne Legacy",
-            "langueOriginale": "en"
-        },
-        {
-            "id": "bourne_legacy_subforced_2012",
-            "titre": "The Bourne Legacy",
-            "annee": 2012,
-            "langue": [
-                "VF"
-            ],
-            "taille": 1469433856,
-            "genre": [
-                "Action"
-            ],
-            "image": "https://image.tmdb.org/t/p/w342/7OUVM57BOCGbhQ6UerNrb9Zar26.jpg",
-            "fichier": "/Box_Films/Action/Jason Bourne/The.Bourne.Legacy.2012.TRUEFRENCH.SUBFORCED.BDRiP.XViD-AViTECH.avi",
-            "nomFichier": "The.Bourne.Legacy.2012.TRUEFRENCH.SUBFORCED.BDRiP.XViD-AViTECH.avi",
-            "imdbId": null,
-            "tmdbId": 49040,
-            "tmdbUrl": "https://www.themoviedb.org/movie/49040",
-            "doublonExact": false,
-            "doublonProbable": true,
-            "groupeDoublon": "the_bourne_legacy",
-            "dateAjout": "2026-08-22T08:23:33.530Z",
-            "titreTmdb": "Jason Bourne : L'Héritage",
-            "anneeTmdb": "2012",
-            "dureeTmdb": 136,
-            "descriptionTmdb": "Le programme Treadstone dont Jason était le cobaye n’était que la partie émergée d’une conspiration plus ténébreuse, ourdie par d’autres branches du gouvernement et mettant en jeu d’autres agences de renseignement, d’autres programmes militaires, d’autres laboratoires secrets… De Treadstone est né «Outcome», dont Aaron Cross est un des six agents. Sa finalité n’est plus de fabriquer des tueurs, mais des hommes capables d’assurer isolément des missions à haut risque. En dévoilant une partie de cette organisation, Jason laissait derrière lui un «héritage» explosif : compromis, les agents «Outcome» sont désormais promis à une liquidation brutale. Effacés à jamais pour que le «père» du programme, le Colonel Byer puisse poursuivre ses sinistres activités. Une gigantesque chasse à l’homme commence, et Cross, devenue sa première cible, n’a d’autre recours que de retrouver et gagner la confiance de la biochimiste d’«Outcome», Marta Shearing, elle-même menacée de mort…",
-            "collectionId": 31562,
-            "collectionNom": "Jason Bourne - Saga",
-            "type": "Film",
-            "studio": null,
-            "technique": {
-                "largeur": 640,
-                "hauteur": 272,
-                "resolution": "640x272",
-                "ratioImage": 2.353,
-                "codecVideo": "mpeg4",
-                "profilVideo": "Advanced Simple Profile",
-                "pixelFormat": "yuv420p",
-                "bitsParComposante": null,
-                "bitrateVideo": null,
-                "framerate": 23.976,
-                "espaceCouleur": null,
-                "transfertCouleur": null,
-                "primairesCouleur": null,
-                "hdr": false,
-                "dureeFichier": 8102.227227,
-                "bitrateGlobal": 1450893,
-                "formatConteneur": "avi",
-                "audio": [
-                    {
-                        "codec": "mp3",
-                        "profil": null,
-                        "canaux": 2,
-                        "disposition": "stereo",
-                        "bitrate": 126200,
-                        "frequence": 48000,
-                        "langue": null
-                    }
-                ],
-                "sousTitres": []
-            },
-            "titreOriginal": "The Bourne Legacy",
             "langueOriginale": "en"
         },
         {
@@ -43393,72 +41425,6 @@
             "langueOriginale": "en"
         },
         {
-            "id": "thor_2011",
-            "titre": "Thor",
-            "annee": 2011,
-            "langue": [
-                "VF"
-            ],
-            "taille": 1456269630,
-            "genre": [
-                "Science-Fiction"
-            ],
-            "image": "https://image.tmdb.org/t/p/w342/q8pF6s9b9veTQvxTqMDIQf9nJKi.jpg",
-            "fichier": "/01_Films/Marvel/Thor.2011.TRUEFRENCH.TS.MD.XviD-RESOLUTiON.avi",
-            "nomFichier": "Thor.2011.TRUEFRENCH.TS.MD.XviD-RESOLUTiON.avi",
-            "imdbId": null,
-            "tmdbId": 10195,
-            "tmdbUrl": "https://www.themoviedb.org/movie/10195",
-            "doublonExact": false,
-            "doublonProbable": false,
-            "groupeDoublon": null,
-            "dateAjout": "2026-08-27T11:57:48.351Z",
-            "titreTmdb": "Thor",
-            "anneeTmdb": "2011",
-            "dureeTmdb": 115,
-            "descriptionTmdb": "Thor, le héros du nouveau film issu de l'univers Marvel, est un guerrier tout-puissant et arrogant dont les actes téméraires font renaître de nos jours un conflit ancestral. À cause de cela, il est banni du Royaume mythique d’Asgard et est condamné à vivre parmi les humains. Mais lorsque les forces du Mal d’Asgard s’apprêtent à envahir la Terre, Thor découvre enfin ce que signifie \"être un héros\".",
-            "collectionId": 131296,
-            "collectionNom": "Thor - Saga",
-            "collectionDescription": "Une série de films basée sur Thor, le personnage de bande dessinée publié par Marvel Comics.",
-            "collectionImage": "https://image.tmdb.org/t/p/w500/cClJllWY3gPmoBvdbhO9MG14Q7P.jpg",
-            "collectionTmdbUrl": "https://www.themoviedb.org/collection/131296",
-            "type": "Film",
-            "studio": "Marvel",
-            "technique": {
-                "largeur": 720,
-                "hauteur": 322,
-                "resolution": "720x322",
-                "ratioImage": 2.236,
-                "codecVideo": "mpeg4",
-                "profilVideo": "Advanced Simple Profile",
-                "pixelFormat": "yuv420p",
-                "bitsParComposante": null,
-                "bitrateVideo": null,
-                "framerate": 25,
-                "espaceCouleur": null,
-                "transfertCouleur": null,
-                "primairesCouleur": null,
-                "hdr": false,
-                "dureeFichier": 5962.92,
-                "bitrateGlobal": 1953767,
-                "formatConteneur": "avi",
-                "audio": [
-                    {
-                        "codec": "mp3",
-                        "profil": null,
-                        "canaux": 2,
-                        "disposition": "stereo",
-                        "bitrate": 128000,
-                        "frequence": 44100,
-                        "langue": null
-                    }
-                ],
-                "sousTitres": []
-            },
-            "titreOriginal": "Thor",
-            "langueOriginale": "en"
-        },
-        {
             "id": "thor_love_and_thunder_2022",
             "titre": "Thor Love and Thunder ( )",
             "annee": 2022,
@@ -43893,73 +41859,6 @@
                 "sousTitres": []
             },
             "titreOriginal": "Ghost Recon: Alpha",
-            "langueOriginale": "en"
-        },
-        {
-            "id": "tomb_raider",
-            "titre": "Tomb Raider",
-            "annee": null,
-            "langue": [
-                "TBD"
-            ],
-            "taille": 734828544,
-            "genre": [
-                "Aventure"
-            ],
-            "image": "https://image.tmdb.org/t/p/w342/t7hdugSBoox8ojzrwZWPJtNMlWb.jpg",
-            "fichier": "/Box_Films/Action/Tomb Raider.avi",
-            "nomFichier": "Tomb Raider.avi",
-            "imdbId": null,
-            "tmdbId": 1995,
-            "tmdbUrl": "https://www.themoviedb.org/movie/1995",
-            "doublonExact": false,
-            "doublonProbable": true,
-            "groupeDoublon": "tomb_raider",
-            "dateAjout": "2026-08-22T08:23:33.563Z",
-            "titreTmdb": "Lara Croft : Tomb Raider",
-            "anneeTmdb": "2001",
-            "dureeTmdb": 100,
-            "descriptionTmdb": "Lara Croft a hérité de son père archéologue de nombreux trésors parmi lesquels une mystérieuse horloge magique. Des années plus tôt, celui-ci lui dévoila l'existence d'une organisation secrète, les Illuminati, qui s'était lancée à la recherche d'une horloge dont la clé ouvrait les portes du Temps et de l'Espace. Celle-ci est un triangle sacré qui assura, 5 000 ans auparavant, la victoire des premiers Illuminati sur leurs ennemis. Si le triangle venait à être recomposé, ces lointains ancêtres reviendraient à la vie et le sort de l'Humanité en serait bouleversé à jamais. Le puissance de ce triangle atteindra son summum lorsque trois planètes s'aligneront dans le ciel en une éclipse totale qui survient une fois tous les 5 000 ans. L'aventurière ne dispose que de 48 heures pour résoudre l'énigme du triangle magique et ainsi sauver le monde.",
-            "collectionId": 2467,
-            "collectionNom": "Lara Croft - Saga",
-            "collectionDescription": "Tomb Raider est une série de films d'action-aventure, centrés sur les aventures de l'archéologue britannique fictive Lara Croft.",
-            "collectionImage": "https://image.tmdb.org/t/p/w500/sgaP4WtVlKzz8FIcjbkevOycJiq.jpg",
-            "collectionTmdbUrl": "https://www.themoviedb.org/collection/2467",
-            "type": "Film",
-            "studio": null,
-            "ignoreInCollection": false,
-            "technique": {
-                "largeur": 576,
-                "hauteur": 240,
-                "resolution": "576x240",
-                "ratioImage": 2.4,
-                "codecVideo": "msmpeg4v3",
-                "profilVideo": null,
-                "pixelFormat": "yuv420p",
-                "bitsParComposante": null,
-                "bitrateVideo": 820345,
-                "framerate": 23.976,
-                "espaceCouleur": null,
-                "transfertCouleur": null,
-                "primairesCouleur": null,
-                "hdr": false,
-                "dureeFichier": 6033.908909,
-                "bitrateGlobal": 974265,
-                "formatConteneur": "avi",
-                "audio": [
-                    {
-                        "codec": "mp3",
-                        "profil": null,
-                        "canaux": 2,
-                        "disposition": "stereo",
-                        "bitrate": 141280,
-                        "frequence": 48000,
-                        "langue": null
-                    }
-                ],
-                "sousTitres": []
-            },
-            "titreOriginal": "Lara Croft: Tomb Raider",
             "langueOriginale": "en"
         },
         {
