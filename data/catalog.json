@@ -1,6 +1,6 @@
 {
     "version": 1,
-    "dateDernierScan": "2026-11-18T05:42:34.374Z",
+    "dateDernierScan": "2026-11-18T20:09:21.897Z",
     "collections": [
         {
             "collectionId": 9485,
@@ -229,7 +229,7 @@
         {
             "collectionId": 1451578,
             "collectionNom": "Coco - Saga",
-            "collectionImage": "/mzXleaxlzzxd8ViBNIxgsuJQC8T.jpg",
+            "collectionImage": "/6pNGLYKVRW8hGfEaEj261DEhAO0.jpg",
             "collectionDescription": "",
             "collectionFilmCount": 2
         },
@@ -292,7 +292,7 @@
         {
             "collectionId": 829314,
             "collectionNom": "Enola Holmes - Saga",
-            "collectionImage": "/9QfsXZTS7gDJwkSmmBPlml3P8ca.jpg",
+            "collectionImage": "/2FJKI2aHunnyDPMhK3gam2xXQUs.jpg",
             "collectionDescription": "Les aventures inédites de la sœur de Sherlock Holmes, Enola.",
             "collectionFilmCount": 3
         },
@@ -348,7 +348,7 @@
         {
             "collectionId": 110177,
             "collectionNom": "Goal! - Saga",
-            "collectionImage": "/v3HCGVQJ5xmZ37oRKUpsEf4zKQq.jpg",
+            "collectionImage": "/lRKeeAGMmGiSFq4JnQ4ypLSLYB8.jpg",
             "collectionDescription": "La trilogie Goal ! suit le parcours du footballeur Santiago, qui a fui le Mexique avec sa famille lorsqu'il était enfant, a joué au football professionnel de haut niveau en Europe et a finalement représenté son pays sur la plus grande scène du monde : la Coupe du monde.",
             "collectionFilmCount": 3
         },
@@ -369,7 +369,7 @@
         {
             "collectionId": 17235,
             "collectionNom": "Hellboy - Saga",
-            "collectionImage": "/7zzD8uQ5fyC4slZF1ATMS6gtyHS.jpg",
+            "collectionImage": "/uHEdKjMUMVbdN2cq5EA1QzOQZRu.jpg",
             "collectionDescription": "Les aventures du démon Hellboy, né dans les flammes de l'enfer mais oeuvrant pour le bien sur Terre.",
             "collectionFilmCount": 2
         },
@@ -938,9 +938,7 @@
             ],
             "taille": 1800651891,
             "genre": [
-                "Action",
-                "Thriller",
-                "Crime"
+                "Action"
             ],
             "image": "https://image.tmdb.org/t/p/w342/soOzhbIggxpBvxcFTJy5hvRJs37.jpg",
             "fichier": "/Box_Films/Action/12 Rounds/12.Rounds.1.2009.1080p.BluRay.x264-[YTS.AG].mp4",
@@ -994,7 +992,9 @@
             "collectionDescription": "12 Rounds est un film d'action américain de 2009 réalisé par Renny Harlin et produit par WWE Studios. Le casting est dirigé par John Cena, aux côtés d'Aidan Gillen, Steve Harris, Gonzalo Menendez, Brian J. White, Ashley Scott et Taylor Cole. Le film est sorti le 27 mars 2009 dans les salles américaines. Randy Orton joue dans une suite autonome intitulée 12 Rounds 2: Reloaded. La suite est sortie en 2013. Il a été annoncé en 2014 que Dean Ambrose allait jouer dans le troisième film de la franchise intitulé 12 Rounds 3 : Lockdown.",
             "collectionImage": "https://image.tmdb.org/t/p/w500/5ra91krahJv3CKklkxb01Yo74r5.jpg",
             "collectionTmdbUrl": "https://www.themoviedb.org/collection/221622",
-            "ignoreInCollection": false
+            "ignoreInCollection": false,
+            "type": "Film",
+            "studio": null
         },
         {
             "id": "12_rounds_2_reloaded_1_2013",
@@ -1850,11 +1850,10 @@
             ],
             "taille": 3297655380,
             "genre": [
-                "Action",
-                "Thriller"
+                "Action"
             ],
             "image": "https://image.tmdb.org/t/p/w342/aBo2EsfKCdcZelx1uFoTg6l0fA2.jpg",
-            "fichier": "/Box_Films/- Nouveaux/A.Good.Day.To.Die.Hard.2013.MULTi.VF2.1080p.HDLight.AC3.5.1.H264-LiHDL.mkv",
+            "fichier": "/Box_Films/Action/Die Hard/A.Good.Day.To.Die.Hard.2013.MULTi.VF2.1080p.HDLight.AC3.5.1.H264-LiHDL.mkv",
             "nomFichier": "A.Good.Day.To.Die.Hard.2013.MULTi.VF2.1080p.HDLight.AC3.5.1.H264-LiHDL.mkv",
             "imdbId": null,
             "tmdbId": 47964,
@@ -1944,77 +1943,7 @@
             "collectionDescription": "Une série de films d'action centrés autour du personnage de John McClane, un détective de police de New York City qui se retrouve en lutte contre un groupe de terroristes dans chaque film.",
             "collectionImage": "https://image.tmdb.org/t/p/w500/bFZRGXeLLUjnp3F8zzwkvrvPHWD.jpg",
             "collectionTmdbUrl": "https://www.themoviedb.org/collection/1570",
-            "ignoreInCollection": false
-        },
-        {
-            "id": "a_good_day_to_die_hard_english_2013",
-            "titre": "A Good Day To Die Hard English",
-            "annee": 2013,
-            "langue": [
-                "TBD"
-            ],
-            "taille": 1778253068,
-            "genre": [
-                "Action"
-            ],
-            "image": "https://image.tmdb.org/t/p/w342/aBo2EsfKCdcZelx1uFoTg6l0fA2.jpg",
-            "fichier": "/Box_Films/- Nouveaux/05 A Good Day To Die Hard Extended - Bruce Willis Action 2013 1080p English.mp4",
-            "nomFichier": "05 A Good Day To Die Hard Extended - Bruce Willis Action 2013 1080p English.mp4",
-            "imdbId": null,
-            "tmdbId": 47964,
-            "tmdbUrl": "https://www.themoviedb.org/movie/47964",
-            "doublonExact": false,
-            "doublonProbable": false,
-            "groupeDoublon": null,
-            "dateAjout": "2026-11-17T12:26:44.458Z",
-            "technique": {
-                "largeur": 1920,
-                "hauteur": 1040,
-                "resolution": "1920x1040",
-                "ratioImage": 1.846,
-                "codecVideo": "h264",
-                "profilVideo": "High",
-                "pixelFormat": "yuv420p",
-                "bitsParComposante": 8,
-                "bitrateVideo": 2210232,
-                "framerate": 23.976,
-                "espaceCouleur": "bt709",
-                "transfertCouleur": "bt709",
-                "primairesCouleur": "bt709",
-                "hdr": false,
-                "dureeFichier": 6070.037333,
-                "bitrateGlobal": 2343646,
-                "formatConteneur": "mov,mp4,m4a,3gp,3g2,mj2",
-                "audio": [
-                    {
-                        "codec": "aac",
-                        "profil": "LC",
-                        "canaux": 2,
-                        "disposition": "stereo",
-                        "bitrate": 127970,
-                        "frequence": 48000,
-                        "langue": "eng"
-                    }
-                ],
-                "sousTitres": [
-                    {
-                        "codec": "mov_text",
-                        "langue": "eng",
-                        "titre": null
-                    }
-                ]
-            },
-            "titreTmdb": "Die Hard : Belle journée pour mourir",
-            "titreOriginal": "A Good Day to Die Hard",
-            "langueOriginale": "en",
-            "anneeTmdb": "2013",
-            "dureeTmdb": 96,
-            "descriptionTmdb": "John McClane, le flic sans état d’âme, est vraiment au mauvais endroit au mauvais moment, à Moscou, pour aider son fils Jack qu’il ne voit plus. Entre la mafia russe qui veut leur faire la peau et leur combat pour éviter le déclenchement d’une guerre, les McClane découvrent que leurs méthodes pourtant bien différentes font d’eux des héros que rien ne peut arrêter.",
-            "collectionId": 1570,
-            "collectionNom": "Die Hard - Saga",
-            "collectionDescription": "Une série de films d'action centrés autour du personnage de John McClane, un détective de police de New York City qui se retrouve en lutte contre un groupe de terroristes dans chaque film.",
-            "collectionImage": "https://image.tmdb.org/t/p/w500/bFZRGXeLLUjnp3F8zzwkvrvPHWD.jpg",
-            "collectionTmdbUrl": "https://www.themoviedb.org/collection/1570",
+            "ignoreInCollection": false,
             "type": "Film",
             "studio": null
         },
@@ -2094,8 +2023,7 @@
             ],
             "taille": 734613504,
             "genre": [
-                "Science-Fiction",
-                "Action"
+                "Science-Fiction"
             ],
             "image": "https://image.tmdb.org/t/p/w342/kNKUCNLu1lZDGAHOBEHxR6psYHx.jpg",
             "fichier": "/01_Films/Marvel/2008 a Iron Man 1.avi",
@@ -2158,12 +2086,11 @@
             "titre": "a Iron Man 3",
             "annee": 2013,
             "langue": [
-                "TBD"
+                "VO"
             ],
             "taille": 2095937578,
             "genre": [
-                "Science-Fiction",
-                "Action"
+                "Science-Fiction"
             ],
             "image": "https://image.tmdb.org/t/p/w342/sE71EBrRMfW0NKMHlXPO55Km88X.jpg",
             "fichier": "/01_Films/Marvel/2013 a Iron.Man.3.2013.1080p.BluRay.x264.YIFY.mp4",
@@ -2219,7 +2146,10 @@
                 "sousTitres": []
             },
             "titreOriginal": "Iron Man 3",
-            "langueOriginale": "en"
+            "langueOriginale": "en",
+            "languesAudio": [
+                "EN"
+            ]
         },
         {
             "id": "a_poursuite_demain",
@@ -2233,13 +2163,10 @@
             ],
             "taille": 2860566468,
             "genre": [
-                "Aventure",
-                "Familial",
-                "Mystère",
                 "Science-Fiction"
             ],
             "image": "https://image.tmdb.org/t/p/w342/yO3NvHzHOJjisLBS6oi9rL0fiLd.jpg",
-            "fichier": "/Box_Films/- Nouveaux/A_la_poursuite_de_demain_2015_MULTi_VFF_1080p_HDLight_x264.GHT.mkv",
+            "fichier": "/Box_Films/Science-Fiction/A_la_poursuite_de_demain_2015_MULTi_VFF_1080p_HDLight_x264.GHT.mkv",
             "nomFichier": "A_la_poursuite_de_demain_2015_MULTi_VFF_1080p_HDLight_x264.GHT.mkv",
             "imdbId": null,
             "tmdbId": 158852,
@@ -2322,7 +2249,9 @@
             "languesSousTitres": [
                 "EN",
                 "FR"
-            ]
+            ],
+            "type": "Film",
+            "studio": null
         },
         {
             "id": "a_thor_2011",
@@ -2747,7 +2676,7 @@
                 "Guerre"
             ],
             "image": "https://image.tmdb.org/t/p/w342/9BEN7zRpoLBaBU3t97kPJkHUgnv.jpg",
-            "fichier": "/Box_Films/- Nouveaux/American Sniper 2014 1080p VFF Dts Hdlight x264-T911.mkv",
+            "fichier": "/Box_Films/Guerre/American Sniper 2014 1080p VFF Dts Hdlight x264-T911.mkv",
             "nomFichier": "American Sniper 2014 1080p VFF Dts Hdlight x264-T911.mkv",
             "imdbId": null,
             "tmdbId": 190859,
@@ -3102,7 +3031,7 @@
                 "Science-Fiction"
             ],
             "image": "https://image.tmdb.org/t/p/w342/ghbBIweVDjTyx983GQmnCPGlE3U.jpg",
-            "fichier": "/01_Films/Marvel/2018 Aquaman.2018.VOSTFR.BRRip.XviD.AC3-ACOOL.avi",
+            "fichier": "/Box_Films/Marvel/Aquaman/2018 Aquaman.2018.VOSTFR.BRRip.XviD.AC3-ACOOL.avi",
             "nomFichier": "2018 Aquaman.2018.VOSTFR.BRRip.XviD.AC3-ACOOL.avi",
             "imdbId": null,
             "tmdbId": 297802,
@@ -3169,7 +3098,7 @@
                 "Science-Fiction"
             ],
             "image": "https://image.tmdb.org/t/p/w342/w8r7NAEIGLPH5r3NhiMobEO80PS.jpg",
-            "fichier": "/Box_Films/- Nouveaux/Aquaman.and.the.Lost.Kingdom.2023.CUSTOM.TRUEFRENCH.BDRip.x264-ONLYMOViE.mkv",
+            "fichier": "/Box_Films/Marvel/Aquaman/Aquaman.and.the.Lost.Kingdom.2023.CUSTOM.TRUEFRENCH.BDRip.x264-ONLYMOViE.mkv",
             "nomFichier": "Aquaman.and.the.Lost.Kingdom.2023.CUSTOM.TRUEFRENCH.BDRip.x264-ONLYMOViE.mkv",
             "imdbId": null,
             "tmdbId": 572802,
@@ -3232,8 +3161,8 @@
             "ignoreInCollection": false,
             "titreOriginal": "Aquaman and the Lost Kingdom",
             "langueOriginale": "en",
-            "type": null,
-            "studio": null
+            "type": "Film",
+            "studio": "Marvel"
         },
         {
             "id": "arsene_lupin",
@@ -3627,13 +3556,10 @@
             ],
             "taille": 1521420288,
             "genre": [
-                "Familial",
-                "Fantastique",
-                "Comédie",
-                "Aventure"
+                "Comédie"
             ],
             "image": "https://image.tmdb.org/t/p/w342/2lC9lzozlzVxCsSgPjRz5AWcz00.jpg",
-            "fichier": "/Box_Films/- Nouveaux/Astérix Et Obélix Mission Cléopatre - DVDRip Fr - 1500kbps - Son Dolby AC3 5.1.avi",
+            "fichier": "/Box_Films/Comédie/Astérix & Obélix/Astérix Et Obélix Mission Cléopatre - DVDRip Fr - 1500kbps - Son Dolby AC3 5.1.avi",
             "nomFichier": "Astérix Et Obélix Mission Cléopatre - DVDRip Fr - 1500kbps - Son Dolby AC3 5.1.avi",
             "imdbId": null,
             "tmdbId": 2899,
@@ -3687,7 +3613,9 @@
             "langueOriginale": "fr",
             "languesAudio": [
                 "FR"
-            ]
+            ],
+            "type": "Film",
+            "studio": null
         },
         {
             "id": "au_bout_de_la_nuit",
@@ -3698,7 +3626,7 @@
             ],
             "taille": 735105024,
             "genre": [
-                "Drame"
+                "Policier"
             ],
             "image": "https://image.tmdb.org/t/p/w342/mFPqFjOMhOFMOEYaQAe7a1HxKkG.jpg",
             "fichier": "/Box_Films/Policier/Au bout de la nuit.avi",
@@ -3765,7 +3693,7 @@
             ],
             "taille": 0,
             "genre": [
-                "Espionnage"
+                "Action"
             ],
             "image": "https://image.tmdb.org/t/p/w342/sHYTFChLjBU7TLQwpcX5BHQNUp9.jpg",
             "fichier": null,
@@ -3861,14 +3789,14 @@
             "titre": "Avatar",
             "annee": 2009,
             "langue": [
-                "TBD"
+                "VF"
             ],
             "taille": 7332925087,
             "genre": [
                 "Science-Fiction"
             ],
             "image": "https://image.tmdb.org/t/p/w342/7N8L80OaG8EBTDdRBjGqT8PBzCM.jpg",
-            "fichier": "/Box_Films/- Nouveaux/Avatar.2009.Extended.Collectors.Cut.VFF.BluRay.720p.x264-BigZT.mkv",
+            "fichier": "/Box_Films/Science-Fiction/Avatar/Avatar.2009.Extended.Collectors.Cut.VFF.BluRay.720p.x264-BigZT.mkv",
             "nomFichier": "Avatar.2009.Extended.Collectors.Cut.VFF.BluRay.720p.x264-BigZT.mkv",
             "imdbId": null,
             "tmdbId": 19995,
@@ -4099,70 +4027,10 @@
                 ]
             },
             "titreOriginal": "Avatar",
-            "langueOriginale": "en"
-        },
-        {
-            "id": "avatar_ece_bitloks_2009",
-            "titre": "Avatar",
-            "annee": 2009,
-            "langue": [
-                "TBD"
-            ],
-            "taille": 4295413012,
-            "genre": [
-                "Science-Fiction"
-            ],
-            "image": "https://image.tmdb.org/t/p/w342/7N8L80OaG8EBTDdRBjGqT8PBzCM.jpg",
-            "fichier": "/Box_Films/Check Films/Avatar ECE (2009) [1080p]/Avatar.ECE.2009.1080p.BrRip.x264.bitloks.YIFY.mp4",
-            "nomFichier": "Avatar.ECE.2009.1080p.BrRip.x264.bitloks.YIFY.mp4",
-            "imdbId": null,
-            "tmdbId": 19995,
-            "tmdbUrl": "https://www.themoviedb.org/movie/19995",
-            "doublonExact": false,
-            "doublonProbable": true,
-            "groupeDoublon": "avatar",
-            "dateAjout": "2026-08-22T08:23:33.568Z",
-            "titreTmdb": "Avatar",
-            "anneeTmdb": "2009",
-            "dureeTmdb": 166,
-            "descriptionTmdb": "Un marine paraplégique, envoyé sur la lune Pandora pour une mission unique, est tiraillé entre suivre ses ordres et protéger le monde qu'il considère dorénavant comme le sien.",
-            "collectionId": 87096,
-            "collectionNom": "Avatar - Saga",
-            "type": "Film",
-            "studio": null,
-            "technique": {
-                "largeur": 1920,
-                "hauteur": 1080,
-                "resolution": "1920x1080",
-                "ratioImage": 1.778,
-                "codecVideo": "h264",
-                "profilVideo": "High",
-                "pixelFormat": "yuv420p",
-                "bitsParComposante": 8,
-                "bitrateVideo": 3110508,
-                "framerate": 23.976,
-                "espaceCouleur": null,
-                "transfertCouleur": null,
-                "primairesCouleur": null,
-                "hdr": false,
-                "dureeFichier": 10689.493333,
-                "bitrateGlobal": 3214680,
-                "formatConteneur": "mov,mp4,m4a,3gp,3g2,mj2",
-                "audio": [
-                    {
-                        "codec": "aac",
-                        "profil": "LC",
-                        "canaux": 2,
-                        "disposition": "stereo",
-                        "bitrate": 95970,
-                        "frequence": 48000,
-                        "langue": "eng"
-                    }
-                ],
-                "sousTitres": []
-            },
-            "titreOriginal": "Avatar",
-            "langueOriginale": "en"
+            "langueOriginale": "en",
+            "languesAudio": [
+                "FR"
+            ]
         },
         {
             "id": "avatar",
@@ -4176,7 +4044,7 @@
                 "Science-Fiction"
             ],
             "image": "https://image.tmdb.org/t/p/w342/7N8L80OaG8EBTDdRBjGqT8PBzCM.jpg",
-            "fichier": "/Box_Films/cpy/Avatar.avi",
+            "fichier": "/Box_Films/Science-Fiction/Avatar/Avatar.avi",
             "nomFichier": "Avatar.avi",
             "imdbId": null,
             "tmdbId": 19995,
@@ -4226,6 +4094,72 @@
             },
             "titreOriginal": "Avatar",
             "langueOriginale": "en"
+        },
+        {
+            "id": "avatar_ece_bitloks_2009",
+            "titre": "Avatar",
+            "annee": 2009,
+            "langue": [
+                "VO"
+            ],
+            "taille": 4295413012,
+            "genre": [
+                "Science-Fiction"
+            ],
+            "image": "https://image.tmdb.org/t/p/w342/7N8L80OaG8EBTDdRBjGqT8PBzCM.jpg",
+            "fichier": "/Box_Films/Science-Fiction/Avatar/Avatar.ECE.2009.1080p.BrRip.x264.bitloks.YIFY.mp4",
+            "nomFichier": "Avatar.ECE.2009.1080p.BrRip.x264.bitloks.YIFY.mp4",
+            "imdbId": null,
+            "tmdbId": 19995,
+            "tmdbUrl": "https://www.themoviedb.org/movie/19995",
+            "doublonExact": false,
+            "doublonProbable": true,
+            "groupeDoublon": "avatar",
+            "dateAjout": "2026-08-22T08:23:33.568Z",
+            "titreTmdb": "Avatar",
+            "anneeTmdb": "2009",
+            "dureeTmdb": 166,
+            "descriptionTmdb": "Un marine paraplégique, envoyé sur la lune Pandora pour une mission unique, est tiraillé entre suivre ses ordres et protéger le monde qu'il considère dorénavant comme le sien.",
+            "collectionId": 87096,
+            "collectionNom": "Avatar - Saga",
+            "type": "Film",
+            "studio": null,
+            "technique": {
+                "largeur": 1920,
+                "hauteur": 1080,
+                "resolution": "1920x1080",
+                "ratioImage": 1.778,
+                "codecVideo": "h264",
+                "profilVideo": "High",
+                "pixelFormat": "yuv420p",
+                "bitsParComposante": 8,
+                "bitrateVideo": 3110508,
+                "framerate": 23.976,
+                "espaceCouleur": null,
+                "transfertCouleur": null,
+                "primairesCouleur": null,
+                "hdr": false,
+                "dureeFichier": 10689.493333,
+                "bitrateGlobal": 3214680,
+                "formatConteneur": "mov,mp4,m4a,3gp,3g2,mj2",
+                "audio": [
+                    {
+                        "codec": "aac",
+                        "profil": "LC",
+                        "canaux": 2,
+                        "disposition": "stereo",
+                        "bitrate": 95970,
+                        "frequence": 48000,
+                        "langue": "eng"
+                    }
+                ],
+                "sousTitres": []
+            },
+            "titreOriginal": "Avatar",
+            "langueOriginale": "en",
+            "languesAudio": [
+                "EN"
+            ]
         },
         {
             "id": "tmdb_83533",
@@ -5068,7 +5002,9 @@
                 "VF"
             ],
             "taille": 729157828,
-            "genre": [],
+            "genre": [
+                "Comédie musicale"
+            ],
             "image": "https://image.tmdb.org/t/p/w342/89lmbg1lUQEZYywy9C7NOGJZlL3.jpg",
             "fichier": "/Box_Films/Enfants/Ballerina.2016.FRENCH.BDRip.XviD-EXTREME.avi",
             "nomFichier": "Ballerina.2016.FRENCH.BDRip.XviD-EXTREME.avi",
@@ -5130,7 +5066,9 @@
                 "TBD"
             ],
             "taille": 0,
-            "genre": [],
+            "genre": [
+                "Comédie musicale"
+            ],
             "image": null,
             "fichier": null,
             "nomFichier": null,
@@ -6612,7 +6550,7 @@
             ],
             "taille": 0,
             "genre": [
-                "Espionnage"
+                "Action"
             ],
             "image": "https://image.tmdb.org/t/p/w342/eJgA4Bc1mH51lvurUg75Ghq2lqG.jpg",
             "fichier": null,
@@ -7266,7 +7204,7 @@
                 "Science-Fiction"
             ],
             "image": "https://image.tmdb.org/t/p/w342/l1SP3gyHA5ZEuf72WKx5ihtZZFO.jpg",
-            "fichier": "/Box_Films/- Nouveaux/Captain.America.The.First.Avenger.2011.TRUEFRENCH.BRRiP.XviD-AUTOPSiE.avi",
+            "fichier": "/Box_Films/Marvel/Captain America/Captain.America.The.First.Avenger.2011.TRUEFRENCH.BRRiP.XviD-AUTOPSiE.avi",
             "nomFichier": "Captain.America.The.First.Avenger.2011.TRUEFRENCH.BRRiP.XviD-AUTOPSiE.avi",
             "imdbId": null,
             "tmdbId": 1771,
@@ -7319,7 +7257,7 @@
             "titreOriginal": "Captain America: The First Avenger",
             "langueOriginale": "en",
             "type": "Film",
-            "studio": null
+            "studio": "Marvel"
         },
         {
             "id": "cars_cd1",
@@ -7584,13 +7522,10 @@
             ],
             "taille": 734211648,
             "genre": [
-                "Animation",
-                "Drame",
-                "Familial",
-                "Aventure"
+                "Action"
             ],
             "image": "https://image.tmdb.org/t/p/w342/nouuVzN51YSBsjwJt5WwSVXOuv6.jpg",
-            "fichier": "/Box_Films/- Nouveaux/Cars.3.2017.FRENCH.BDRip.XviD-GZR.avi",
+            "fichier": "/Box_Films/Action/Cars/Cars.3.2017.FRENCH.BDRip.XviD-GZR.avi",
             "nomFichier": "Cars.3.2017.FRENCH.BDRip.XviD-GZR.avi",
             "imdbId": null,
             "tmdbId": 260514,
@@ -7641,7 +7576,9 @@
             "collectionDescription": "Les aventures de Flash McQueen, une voiture de course promise au succès, qui découvre que dans la vie, ce n'est pas de franchir la ligne d'arrivée qui compte, mais le parcours que l'on a suivi.",
             "collectionImage": "https://image.tmdb.org/t/p/w500/uq3N2SFj1Y06zA6LzCQPkmBdaaE.jpg",
             "collectionTmdbUrl": "https://www.themoviedb.org/collection/87118",
-            "ignoreInCollection": false
+            "ignoreInCollection": false,
+            "type": "Animation",
+            "studio": null
         },
         {
             "id": "cash",
@@ -7852,7 +7789,7 @@
             "collectionImage": null,
             "collectionTmdbUrl": null,
             "langueOriginale": "en",
-            "type": null,
+            "type": "Film",
             "studio": null
         },
         {
@@ -8016,7 +7953,9 @@
                 "TBD"
             ],
             "taille": 735167515,
-            "genre": [],
+            "genre": [
+                "Drame"
+            ],
             "image": "https://image.tmdb.org/t/p/w342/qdqOr1AQXXsUZN76K9vPOkn5kvm.jpg",
             "fichier": "/Box_Films/Enfants/02 A tester/Cendrillon 3 - Le Sortilège de Cendrillon (Disney n° 89).mkv",
             "nomFichier": "Cendrillon 3 - Le Sortilège de Cendrillon (Disney n° 89).mkv",
@@ -8131,7 +8070,7 @@
                 "Comédie musicale"
             ],
             "image": "https://image.tmdb.org/t/p/w342/ukaNSLrmzfP3ZHqLcaWCl7ogH0o.jpg",
-            "fichier": "/Box_Films/- Nouveaux/Center.Stage.On.Pointe.2016.DVDRip.XviD-EVO.avi",
+            "fichier": "/Box_Films/Comédie Musicale/Danse ta vie/Center.Stage.On.Pointe.2016.DVDRip.XviD-EVO.avi",
             "nomFichier": "Center.Stage.On.Pointe.2016.DVDRip.XviD-EVO.avi",
             "imdbId": null,
             "tmdbId": 402543,
@@ -8323,11 +8262,10 @@
             ],
             "taille": 1620427041,
             "genre": [
-                "Documentaire",
-                "Musique"
+                "Biopic"
             ],
             "image": "https://image.tmdb.org/t/p/w342/pb09v5koCU7GrxCJNfRnliPRIKD.jpg",
-            "fichier": "/Box_Films/- Nouveaux/Chasing.Trane.The.John.Coltrane.Documentary.2016.1080p.BluRay.x264-.mp4",
+            "fichier": "/Box_Films/Biopic/Chasing.Trane.The.John.Coltrane.Documentary.2016.1080p.BluRay.x264-.mp4",
             "nomFichier": "Chasing.Trane.The.John.Coltrane.Documentary.2016.1080p.BluRay.x264-.mp4",
             "imdbId": null,
             "tmdbId": 411012,
@@ -8377,7 +8315,9 @@
                 "sousTitres": []
             },
             "titreOriginal": "Chasing Trane",
-            "langueOriginale": "en"
+            "langueOriginale": "en",
+            "type": "Film",
+            "studio": null
         },
         {
             "id": "chtite_famille_ox_2018",
@@ -8442,7 +8382,9 @@
             "collectionTmdbUrl": "https://www.themoviedb.org/collection/1530834",
             "ignoreInCollection": false,
             "titreOriginal": "La Ch'tite Famille",
-            "langueOriginale": "fr"
+            "langueOriginale": "fr",
+            "type": "Film",
+            "studio": null
         },
         {
             "id": "le_cinquieme_element",
@@ -8912,7 +8854,9 @@
                 "TBD"
             ],
             "taille": 0,
-            "genre": [],
+            "genre": [
+                "Comédie"
+            ],
             "image": "https://image.tmdb.org/t/p/w342/cn7mFB0sCeQJO8MAyl15yFp0rpc.jpg",
             "fichier": null,
             "nomFichier": null,
@@ -8956,6 +8900,37 @@
             "titreOriginal": "The Secret Life of Pets 2",
             "anneeTmdb": 2019,
             "descriptionTmdb": "Retrouvez la suite des péripéties de Max, Gidget, Chloé, Pompon et le reste de la troupe. Ces nouvelles aventures vont les pousser à trouver le courage de se dépasser pour devenir de véritables héros. Découvrez les émotions de cette joyeuse bande, les liens d'amitié qui les unissent, leur famille qui les aiment et apprenez ce que font réellement vos animaux domestiques lorsque vous n'êtes pas à la maison.",
+            "collectionId": 427084,
+            "collectionNom": "Comme des bêtes - Saga",
+            "type": "Animation",
+            "studio": null,
+            "ignoreInCollection": true,
+            "langueOriginale": "en"
+        },
+        {
+            "id": "tmdb_1109206",
+            "titre": "Comme des bêtes 3",
+            "annee": 2100,
+            "langue": [
+                "TBD"
+            ],
+            "taille": 0,
+            "genre": [
+                "Comédie"
+            ],
+            "image": null,
+            "fichier": null,
+            "nomFichier": null,
+            "tmdbId": 1109206,
+            "tmdbUrl": "https://www.themoviedb.org/movie/1109206",
+            "doublonExact": false,
+            "doublonProbable": false,
+            "groupeDoublon": null,
+            "dateAjout": null,
+            "titreTmdb": "Comme des bêtes 3",
+            "titreOriginal": "The Secret Life of Pets 3",
+            "anneeTmdb": 2100,
+            "descriptionTmdb": "",
             "collectionId": 427084,
             "collectionNom": "Comme des bêtes - Saga",
             "type": "Animation",
@@ -9832,9 +9807,7 @@
             ],
             "taille": 2656424809,
             "genre": [
-                "Science-Fiction",
-                "Action",
-                "Aventure"
+                "Science-Fiction"
             ],
             "image": "https://image.tmdb.org/t/p/w342/iIsMHA3gX9E7ceNgvjfu99vTF7v.jpg",
             "fichier": "/Box_Films/- Nouveaux/Dark.Phoenix.2019.MULTi.1080p.HDLight.x264.AC3.mkv",
@@ -9908,7 +9881,9 @@
             "collectionDescription": "X-Men est une saga cinématographique de super-héros américaine.",
             "collectionImage": "https://image.tmdb.org/t/p/w500/9Z4fKVUqAJ2WEP6pQFTtYPuoknd.jpg",
             "collectionTmdbUrl": "https://www.themoviedb.org/collection/748",
-            "ignoreInCollection": false
+            "ignoreInCollection": false,
+            "type": "Film",
+            "studio": null
         },
         {
             "id": "dead_man_down_2013",
@@ -9986,7 +9961,7 @@
                 "Policier"
             ],
             "image": "https://image.tmdb.org/t/p/w342/e1o8zj0U1bWxbxbNydid86JkIal.jpg",
-            "fichier": "/Box_Films/- Nouveaux/Deja_Vu_2006_Multi-VF2_1080p_Bluray_HDlight.x264~Tonyk.mp4",
+            "fichier": "/Box_Films/Policier/Deja_Vu_2006_Multi-VF2_1080p_Bluray_HDlight.x264~Tonyk.mp4",
             "nomFichier": "Deja_Vu_2006_Multi-VF2_1080p_Bluray_HDlight.x264~Tonyk.mp4",
             "imdbId": null,
             "tmdbId": 7551,
@@ -10061,7 +10036,7 @@
             "collectionImage": null,
             "collectionTmdbUrl": null,
             "langueOriginale": "en",
-            "type": null,
+            "type": "Film",
             "studio": null
         },
         {
@@ -10553,8 +10528,7 @@
             ],
             "taille": 3862529676,
             "genre": [
-                "Action",
-                "Thriller"
+                "Action"
             ],
             "image": "https://image.tmdb.org/t/p/w342/1nOVVjbf8ucbeLmIlK5D2kCQQST.jpg",
             "fichier": "/Box_Films/Action/Die Hard/Die.Hard.1988.MULTi.VFi.1080p.HDLight.AC3.5.1.H264-LiHDL.mkv",
@@ -10633,7 +10607,9 @@
             "collectionDescription": "Une série de films d'action centrés autour du personnage de John McClane, un détective de police de New York City qui se retrouve en lutte contre un groupe de terroristes dans chaque film.",
             "collectionImage": "https://image.tmdb.org/t/p/w500/bFZRGXeLLUjnp3F8zzwkvrvPHWD.jpg",
             "collectionTmdbUrl": "https://www.themoviedb.org/collection/1570",
-            "ignoreInCollection": false
+            "ignoreInCollection": false,
+            "type": "Film",
+            "studio": null
         },
         {
             "id": "die_hard_english_1988",
@@ -10721,8 +10697,7 @@
             ],
             "taille": 3940598609,
             "genre": [
-                "Action",
-                "Thriller"
+                "Action"
             ],
             "image": "https://image.tmdb.org/t/p/w342/5AObtYoyodZluhmJVcidvzzKfiv.jpg",
             "fichier": "/Box_Films/- Nouveaux/Die.Hard.With.A.Vengeance.1995.MULTi.VF2.1080p.HDLight.AC3.5.1.H264-LiHDL.mkv",
@@ -10804,7 +10779,9 @@
             "collectionNom": "Die Hard - Saga",
             "collectionDescription": "Une série de films d'action centrés autour du personnage de John McClane, un détective de police de New York City qui se retrouve en lutte contre un groupe de terroristes dans chaque film.",
             "collectionImage": "https://image.tmdb.org/t/p/w500/bFZRGXeLLUjnp3F8zzwkvrvPHWD.jpg",
-            "collectionTmdbUrl": "https://www.themoviedb.org/collection/1570"
+            "collectionTmdbUrl": "https://www.themoviedb.org/collection/1570",
+            "type": "Film",
+            "studio": null
         },
         {
             "id": "doctor_strange_he_5_1_qtz_2016",
@@ -10819,7 +10796,7 @@
                 "Science-Fiction"
             ],
             "image": "https://image.tmdb.org/t/p/w342/7wZ7mx7tY5SgflQKuJmQvwu3wGm.jpg",
-            "fichier": "/Box_Films/- Nouveaux/Doctor Strange (2016) MULTi VFF 1080p 10bit HDLight BluRay x265 HE-AAC 5.1 - QTZ.mkv",
+            "fichier": "/Box_Films/Marvel/Doctor Strange/Doctor Strange (2016) MULTi VFF 1080p 10bit HDLight BluRay x265 HE-AAC 5.1 - QTZ.mkv",
             "nomFichier": "Doctor Strange (2016) MULTi VFF 1080p 10bit HDLight BluRay x265 HE-AAC 5.1 - QTZ.mkv",
             "imdbId": null,
             "tmdbId": 284052,
@@ -10912,7 +10889,7 @@
             "collectionTmdbUrl": "https://www.themoviedb.org/collection/618529",
             "ignoreInCollection": false,
             "type": "Film",
-            "studio": null
+            "studio": "Marvel"
         },
         {
             "id": "doctor_strange_in_the_of_2022",
@@ -10926,7 +10903,7 @@
                 "Science-Fiction"
             ],
             "image": "https://image.tmdb.org/t/p/w342/arfzjn1tGvXWwkX7eaGVuXsc0mp.jpg",
-            "fichier": "/Box_Films/- Nouveaux/Doctor.Strange.in.the.Multiverse.of.Madness.2022.TRUEFRENCH.BDRip.x264-EXTREME.mkv",
+            "fichier": "/Box_Films/Marvel/Doctor Strange/Doctor.Strange.in.the.Multiverse.of.Madness.2022.TRUEFRENCH.BDRip.x264-EXTREME.mkv",
             "nomFichier": "Doctor.Strange.in.the.Multiverse.of.Madness.2022.TRUEFRENCH.BDRip.x264-EXTREME.mkv",
             "imdbId": null,
             "tmdbId": 453395,
@@ -10990,7 +10967,7 @@
             "collectionTmdbUrl": "https://www.themoviedb.org/collection/618529",
             "ignoreInCollection": false,
             "type": "Film",
-            "studio": null
+            "studio": "Marvel"
         },
         {
             "id": "draft_day_2014",
@@ -11130,7 +11107,7 @@
                 "Aventure"
             ],
             "image": "https://image.tmdb.org/t/p/w342/fD68JTgLp9Sa5tgdYIdvxWgj9I0.jpg",
-            "fichier": "/Box_Films/- Nouveaux/Dragons.Rescue.Riders.2020.MULTi.1080p.WEB.H264-EXTREME.mkv",
+            "fichier": "/Box_Films/Aventure/Dragons Rescue Riders Collection/Dragons.Rescue.Riders.2020.MULTi.1080p.WEB.H264-EXTREME.mkv",
             "nomFichier": "Dragons.Rescue.Riders.2020.MULTi.1080p.WEB.H264-EXTREME.mkv",
             "imdbId": null,
             "tmdbId": 686941,
@@ -11365,7 +11342,6 @@
             ],
             "taille": 1465574530,
             "genre": [
-                "Aventure",
                 "Science-Fiction"
             ],
             "image": "https://image.tmdb.org/t/p/w342/qpyaW4xUPeIiYA5ckg5zAZFHvsb.jpg",
@@ -11436,7 +11412,6 @@
             ],
             "taille": 0,
             "genre": [
-                "Aventure",
                 "Science-Fiction"
             ],
             "image": "https://image.tmdb.org/t/p/w342/zfI58QKzav88liXLsk0lvFSMCdr.jpg",
@@ -11468,7 +11443,6 @@
             ],
             "taille": 1722073295,
             "genre": [
-                "Aventure",
                 "Science-Fiction"
             ],
             "image": "https://image.tmdb.org/t/p/w342/qpyaW4xUPeIiYA5ckg5zAZFHvsb.jpg",
@@ -11545,11 +11519,10 @@
             ],
             "taille": 801563992,
             "genre": [
-                "Science-Fiction",
-                "Aventure"
+                "Science-Fiction"
             ],
             "image": "https://image.tmdb.org/t/p/w342/iRNbRAIGQQr5diGnjpwJFm0dgt4.jpg",
-            "fichier": "/Box_Films/- Nouveaux/dune.part.two.2024.french.bdrip.x264-lypsg.mkv",
+            "fichier": "/Box_Films/Science-Fiction/Dune/dune.part.two.2024.french.bdrip.x264-lypsg.mkv",
             "nomFichier": "dune.part.two.2024.french.bdrip.x264-lypsg.mkv",
             "imdbId": null,
             "tmdbId": 693134,
@@ -11606,7 +11579,9 @@
             "collectionDescription": "La saga en 3 volets de Paul Atréides, et son ascension au pouvoir sur la planète mortelle Arrakis",
             "collectionImage": "https://image.tmdb.org/t/p/w500/m7xCDl5PTG9A5LH7XLuBjGhgLuO.jpg",
             "collectionTmdbUrl": "https://www.themoviedb.org/collection/726871",
-            "ignoreInCollection": false
+            "ignoreInCollection": false,
+            "type": "Film",
+            "studio": null
         },
         {
             "id": "dune_part_two_2024",
@@ -11617,11 +11592,10 @@
             ],
             "taille": 1075079355,
             "genre": [
-                "Science-Fiction",
-                "Aventure"
+                "Science-Fiction"
             ],
             "image": "https://image.tmdb.org/t/p/w342/iRNbRAIGQQr5diGnjpwJFm0dgt4.jpg",
-            "fichier": "/Box_Films/- Nouveaux/Dune.Part.Two.2024.Fansub.Vostfr.HDRIP.mp4",
+            "fichier": "/Box_Films/Science-Fiction/Dune/Dune.Part.Two.2024.Fansub.Vostfr.HDRIP.mp4",
             "nomFichier": "Dune.Part.Two.2024.Fansub.Vostfr.HDRIP.mp4",
             "imdbId": null,
             "tmdbId": 693134,
@@ -11682,7 +11656,9 @@
             "collectionNom": "Dune - Saga",
             "collectionDescription": "La saga en 3 volets de Paul Atréides, et son ascension au pouvoir sur la planète mortelle Arrakis",
             "collectionImage": "https://image.tmdb.org/t/p/w500/m7xCDl5PTG9A5LH7XLuBjGhgLuO.jpg",
-            "collectionTmdbUrl": "https://www.themoviedb.org/collection/726871"
+            "collectionTmdbUrl": "https://www.themoviedb.org/collection/726871",
+            "type": "Film",
+            "studio": null
         },
         {
             "id": "eagle_eye",
@@ -12329,12 +12305,10 @@
             ],
             "taille": 6622295434,
             "genre": [
-                "Aventure",
-                "Crime",
-                "Mystère"
+                "Policier"
             ],
             "image": "https://image.tmdb.org/t/p/w342/ncHImt9szlNQaNM2iY3vcgSdDp.jpg",
-            "fichier": "/Box_Films/- Nouveaux/Enola.Holmes.3.2026.MULTi.AD.1080p.NF.WEB.x264-THESYNDiCATE.mkv",
+            "fichier": "/Box_Films/Policier/Enola Holmes/Enola.Holmes.3.2026.MULTi.AD.1080p.NF.WEB.x264-THESYNDiCATE.mkv",
             "nomFichier": "Enola.Holmes.3.2026.MULTi.AD.1080p.NF.WEB.x264-THESYNDiCATE.mkv",
             "imdbId": null,
             "tmdbId": 1202033,
@@ -12439,7 +12413,9 @@
             "collectionDescription": "Les aventures inédites de la sœur de Sherlock Holmes, Enola.",
             "collectionImage": "https://image.tmdb.org/t/p/w500/9QfsXZTS7gDJwkSmmBPlml3P8ca.jpg",
             "collectionTmdbUrl": "https://www.themoviedb.org/collection/829314",
-            "ignoreInCollection": false
+            "ignoreInCollection": false,
+            "type": "Film",
+            "studio": null
         },
         {
             "id": "ernest_et_celestine_gcjm_2012",
@@ -14186,14 +14162,16 @@
             "titre": "Fast X 1",
             "annee": 2023,
             "langue": [
-                "TBD"
+                "VO",
+                "VOSTFR",
+                "VOST"
             ],
             "taille": 1722561332,
             "genre": [
                 "Action"
             ],
             "image": "https://image.tmdb.org/t/p/w342/v1467wvoQIXlVY5MtAqt3PUtOdH.jpg",
-            "fichier": "/Box_Films/- Nouveaux/Fast.X.2023.1080p.AMZN.WEBRip.1600MB.DD5.1.x264-GalaxyRG.mkv",
+            "fichier": "/Box_Films/Action/Fast and Furious/Fast.X.2023.1080p.AMZN.WEBRip.1600MB.DD5.1.x264-GalaxyRG.mkv",
             "nomFichier": "Fast.X.2023.1080p.AMZN.WEBRip.1600MB.DD5.1.x264-GalaxyRG.mkv",
             "imdbId": null,
             "tmdbId": 385687,
@@ -14259,7 +14237,10 @@
                 ]
             },
             "titreOriginal": "Fast X",
-            "langueOriginale": "en"
+            "langueOriginale": "en",
+            "languesAudio": [
+                "EN"
+            ]
         },
         {
             "id": "flash_danse",
@@ -14525,7 +14506,7 @@
                 "Action"
             ],
             "image": "https://image.tmdb.org/t/p/w342/2KQI0x6AEdbiN6z4LWjKZHukMzZ.jpg",
-            "fichier": "/Box_Films/- Nouveaux/Ford.v.Ferrari.2019.FRENCH.BDRip.XviD-EXTREME.avi",
+            "fichier": "/Box_Films/Action/Ford.v.Ferrari.2019.FRENCH.BDRip.XviD-EXTREME.avi",
             "nomFichier": "Ford.v.Ferrari.2019.FRENCH.BDRip.XviD-EXTREME.avi",
             "imdbId": null,
             "tmdbId": 359724,
@@ -16029,16 +16010,15 @@
             "annee": 2007,
             "langue": [
                 "VO",
-                "VF"
+                "VF",
+                "VOSTFR"
             ],
             "taille": 2907955451,
             "genre": [
-                "Thriller",
-                "Action",
-                "Fantastique"
+                "Science-Fiction"
             ],
             "image": "https://image.tmdb.org/t/p/w342/7kSRmdf80BART95tsOhuZkcmde6.jpg",
-            "fichier": "/Box_Films/- Nouveaux/Ghost.Rider.2007.MULTi.VFF.1080p.HDLight.x264.AC3-T911.mkv",
+            "fichier": "/Box_Films/Marvel/Ghost Rider/Ghost.Rider.2007.MULTi.VFF.1080p.HDLight.x264.AC3-T911.mkv",
             "nomFichier": "Ghost.Rider.2007.MULTi.VFF.1080p.HDLight.x264.AC3-T911.mkv",
             "imdbId": null,
             "tmdbId": 1250,
@@ -16104,7 +16084,13 @@
             "collectionDescription": "Ghost Rider est une série de films d'horreur de super-héros américains basée sur le personnage du même nom qui apparaissait dans Marvel Comics. Les films mettent en vedette Nicolas Cage dans le rôle de Johnny Blaze, un motard cascadeur qui vend son âme au diable et se transforme en Ghost Rider, le justicier.",
             "collectionImage": "https://image.tmdb.org/t/p/w500/feaMFCuO6ToJ6fd4kkTTg2xuAyc.jpg",
             "collectionTmdbUrl": "https://www.themoviedb.org/collection/90306",
-            "ignoreInCollection": false
+            "ignoreInCollection": false,
+            "type": "Film",
+            "studio": "Marvel",
+            "languesAudio": [
+                "EN",
+                "FR"
+            ]
         },
         {
             "id": "tmdb_71676",
@@ -16115,9 +16101,7 @@
             ],
             "taille": 0,
             "genre": [
-                "Thriller",
-                "Action",
-                "Fantastique"
+                "Science-Fiction"
             ],
             "image": "https://image.tmdb.org/t/p/w342/xQkZZ3UpbtmhtSaEfXCFJUx0XL.jpg",
             "fichier": null,
@@ -16527,12 +16511,10 @@
             ],
             "taille": 3800487745,
             "genre": [
-                "Aventure",
-                "Action",
-                "Thriller"
+                "Action"
             ],
             "image": "https://image.tmdb.org/t/p/w342/aMfHCU4Bb2QURqO0rVD06aFs7iq.jpg",
-            "fichier": "/Box_Films/- Nouveaux/Goldeneye.1995.MULTi.VFi.1080p.HDLight.AC3.5.1.H264-LiHDL.mkv",
+            "fichier": "/Box_Films/Action/James Bond 007/Goldeneye.1995.MULTi.VFi.1080p.HDLight.AC3.5.1.H264-LiHDL.mkv",
             "nomFichier": "Goldeneye.1995.MULTi.VFi.1080p.HDLight.AC3.5.1.H264-LiHDL.mkv",
             "imdbId": null,
             "tmdbId": 710,
@@ -16603,7 +16585,9 @@
             },
             "ignoreInCollection": false,
             "titreOriginal": "GoldenEye",
-            "langueOriginale": "en"
+            "langueOriginale": "en",
+            "type": "Film",
+            "studio": null
         },
         {
             "id": "tmdb_658",
@@ -16838,10 +16822,10 @@
             ],
             "taille": 1724776765,
             "genre": [
-                "Drame"
+                "Biopic"
             ],
             "image": "https://image.tmdb.org/t/p/w342/ozXWxrxC6LGI7LMKMCMjLzFzsyr.jpg",
-            "fichier": "/Box_Films/- Nouveaux/Gran.Turismo.2023.1080p.WEBRip.1600MB.DD5.1.x264-GalaxyRG.mkv",
+            "fichier": "/Box_Films/Biopic/Gran.Turismo.2023.1080p.WEBRip.1600MB.DD5.1.x264-GalaxyRG.mkv",
             "nomFichier": "Gran.Turismo.2023.1080p.WEBRip.1600MB.DD5.1.x264-GalaxyRG.mkv",
             "imdbId": null,
             "tmdbId": 980489,
@@ -17247,10 +17231,10 @@
             ],
             "taille": 1464421168,
             "genre": [
-                "Science-Fiction"
+                "Aventure"
             ],
             "image": "https://image.tmdb.org/t/p/w342/eLwUFfGFnffjV331PDfwUKRgW0U.jpg",
-            "fichier": "/Box_Films/- Nouveaux/Green.Snake.2021.FRENCH.HDRip.XviD-EXTREME.avi",
+            "fichier": "/Box_Films/Aventure/White Snake/Green.Snake.2021.FRENCH.HDRip.XviD-EXTREME.avi",
             "nomFichier": "Green.Snake.2021.FRENCH.HDRip.XviD-EXTREME.avi",
             "imdbId": null,
             "tmdbId": 795607,
@@ -17375,99 +17359,19 @@
             "langue": [
                 "VF"
             ],
-            "taille": 1646943957,
-            "genre": [
-                "Science-Fiction",
-                "Action"
-            ],
-            "image": "https://image.tmdb.org/t/p/w342/dnyQnKSSqQ8aOEMiE5hYDNJO4dE.jpg",
-            "fichier": "/Box_Films/- Nouveaux/Guardians.of.the.Galaxy.Vol.3.2023.CUSTOM.TRUEFRENCH.BDRip.x264-ONLYMOViE.mkv",
-            "nomFichier": "Guardians.of.the.Galaxy.Vol.3.2023.CUSTOM.TRUEFRENCH.BDRip.x264-ONLYMOViE.mkv",
-            "imdbId": null,
-            "tmdbId": 447365,
-            "tmdbUrl": "https://www.themoviedb.org/movie/447365",
-            "doublonExact": false,
-            "doublonProbable": true,
-            "groupeDoublon": "guardians_of_the_galaxy_3",
-            "dateAjout": "2026-11-10T08:51:25.697Z",
-            "titreTmdb": "Les Gardiens de la Galaxie : Volume 3",
-            "anneeTmdb": "2023",
-            "dureeTmdb": 149,
-            "descriptionTmdb": "Peter Quill, encore sous le choc d'une terrible perte, doit rallier son équipe et se lancer dans une mission risquée et palpitante pour défendre l'univers et protéger Rocket. Pendant ce temps, une nouvelle force imprévisible menace de faire tomber les Gardiens pour de bon.",
-            "collectionId": 284433,
-            "collectionNom": "Les Gardiens de la Galaxie - Saga",
-            "collectionDescription": "Une série de films de super-héros produite par Marvel Studios qui se base sur l'équipe des Gardiens de la Galaxie issue de l'univers de Marvel Comics. La série met en scène une bande d'anciens bandits unissant leurs forces pour protéger la galaxie des menaces planétaires.",
-            "collectionImage": "https://image.tmdb.org/t/p/w500/hQrNZnlIqB9ccaPoaU5rNoTgZJp.jpg",
-            "collectionTmdbUrl": "https://www.themoviedb.org/collection/284433",
-            "technique": {
-                "largeur": 720,
-                "hauteur": 380,
-                "resolution": "720x380",
-                "ratioImage": 1.895,
-                "codecVideo": "h264",
-                "profilVideo": "Main",
-                "pixelFormat": "yuv420p",
-                "bitsParComposante": 8,
-                "bitrateVideo": null,
-                "framerate": 23.976,
-                "espaceCouleur": "bt709",
-                "transfertCouleur": "bt709",
-                "primairesCouleur": "bt709",
-                "hdr": false,
-                "dureeFichier": 9002.784,
-                "bitrateGlobal": 1463497,
-                "formatConteneur": "matroska,webm",
-                "audio": [
-                    {
-                        "codec": "ac3",
-                        "profil": null,
-                        "canaux": 6,
-                        "disposition": "5.1(side)",
-                        "bitrate": 384000,
-                        "frequence": 48000,
-                        "langue": "fre"
-                    }
-                ],
-                "sousTitres": [
-                    {
-                        "codec": "subrip",
-                        "langue": "fre",
-                        "titre": "French Forced"
-                    },
-                    {
-                        "codec": "subrip",
-                        "langue": "fre",
-                        "titre": "French Full"
-                    }
-                ]
-            },
-            "ignoreInCollection": false,
-            "titreOriginal": "Guardians of the Galaxy Vol. 3",
-            "langueOriginale": "en",
-            "type": "Film",
-            "studio": "Marvel"
-        },
-        {
-            "id": "guardians_of_the_galaxy_3_2023",
-            "titre": "Guardians of the Galaxy 3",
-            "annee": 2023,
-            "langue": [
-                "VF"
-            ],
             "taille": 2815833731,
             "genre": [
-                "Science-Fiction",
-                "Action"
+                "Science-Fiction"
             ],
             "image": "https://image.tmdb.org/t/p/w342/dnyQnKSSqQ8aOEMiE5hYDNJO4dE.jpg",
-            "fichier": "/Box_Films/- Nouveaux/Guardians.of.the.Galaxy.Vol.3.2023.TRUEFRENCH.720p.WEBRip.H264.mkv",
+            "fichier": "/Box_Films/Marvel/Les Gardiens de la Galaxie/Guardians.of.the.Galaxy.Vol.3.2023.TRUEFRENCH.720p.WEBRip.H264.mkv",
             "nomFichier": "Guardians.of.the.Galaxy.Vol.3.2023.TRUEFRENCH.720p.WEBRip.H264.mkv",
             "imdbId": null,
             "tmdbId": 447365,
             "tmdbUrl": "https://www.themoviedb.org/movie/447365",
             "doublonExact": false,
-            "doublonProbable": true,
-            "groupeDoublon": "guardians_of_the_galaxy_3",
+            "doublonProbable": false,
+            "groupeDoublon": null,
             "dateAjout": "2026-11-14T08:28:01.256Z",
             "technique": {
                 "largeur": 1280,
@@ -17518,7 +17422,8 @@
             "collectionTmdbUrl": "https://www.themoviedb.org/collection/284433",
             "langueOriginale": "en",
             "type": "Film",
-            "studio": "Marvel"
+            "studio": "Marvel",
+            "ignoreInCollection": false
         },
         {
             "id": "guns_3_5_2013",
@@ -17596,11 +17501,10 @@
             ],
             "taille": 4087426564,
             "genre": [
-                "Fantastique",
-                "Action"
+                "Science-Fiction"
             ],
             "image": "https://image.tmdb.org/t/p/w342/e2eeuY0FOeOhKNJ9TeTvpDjmUdi.jpg",
-            "fichier": "/Box_Films/- Nouveaux/Hancock.2008.MULTI.VFF.1080p.HDLight.x264-T911.mkv",
+            "fichier": "/Box_Films/Science-Fiction/Hancock.2008.MULTI.VFF.1080p.HDLight.x264-T911.mkv",
             "nomFichier": "Hancock.2008.MULTI.VFF.1080p.HDLight.x264-T911.mkv",
             "imdbId": null,
             "tmdbId": 8960,
@@ -17670,7 +17574,9 @@
             "collectionNom": null,
             "collectionDescription": null,
             "collectionImage": null,
-            "collectionTmdbUrl": null
+            "collectionTmdbUrl": null,
+            "type": "Film",
+            "studio": null
         },
         {
             "id": "harry_potter_1_a_l_ecole_des_sorciers",
@@ -19254,11 +19160,10 @@
             ],
             "taille": 3397406145,
             "genre": [
-                "Action",
                 "Science-Fiction"
             ],
             "image": "https://image.tmdb.org/t/p/w342/5lxgTqmvxazjR9veAUXm1x3mX2o.jpg",
-            "fichier": "/Box_Films/- Nouveaux/I.Robot.2004.MULTi VF i1080p HDlight x264-PopHD.mkv",
+            "fichier": "/Box_Films/Science-Fiction/I.Robot.2004.MULTi VF i1080p HDlight x264-PopHD.mkv",
             "nomFichier": "I.Robot.2004.MULTi VF i1080p HDlight x264-PopHD.mkv",
             "imdbId": null,
             "tmdbId": 2048,
@@ -19346,7 +19251,9 @@
             "languesSousTitres": [
                 "FR",
                 "EN"
-            ]
+            ],
+            "type": "Film",
+            "studio": null
         },
         {
             "id": "in_and_out",
@@ -19833,7 +19740,6 @@
             "titre": "Ip Man 1 GHZ",
             "annee": 2008,
             "langue": [
-                "VO",
                 "VF"
             ],
             "taille": 1478811498,
@@ -19841,7 +19747,7 @@
                 "Action"
             ],
             "image": "https://image.tmdb.org/t/p/w342/7fHSYpgGgPBQKUrvDlhJDPfGZQg.jpg",
-            "fichier": "/Box_Films/- Nouveaux/Ip.Man.1.2008.MULTi.BRrip.x264.AC3-GHZ.mkv",
+            "fichier": "/Box_Films/Action/Ip Man/Ip.Man.1.2008.MULTi.BRrip.x264.AC3-GHZ.mkv",
             "nomFichier": "Ip.Man.1.2008.MULTi.BRrip.x264.AC3-GHZ.mkv",
             "imdbId": null,
             "tmdbId": 14756,
@@ -19914,21 +19820,24 @@
             },
             "ignoreInCollection": false,
             "titreOriginal": "葉問",
-            "langueOriginale": "cn"
+            "langueOriginale": "cn",
+            "languesAudio": [
+                "FR"
+            ]
         },
         {
             "id": "ip_man_2_chi_spa_fre_bymetalh_2010",
             "titre": "Ip Man 2 ( ) Chi Spa Fre byMetalh",
             "annee": 2010,
             "langue": [
-                "TBD"
+                "VF"
             ],
             "taille": 3130788488,
             "genre": [
                 "Action"
             ],
             "image": "https://image.tmdb.org/t/p/w342/7HtZ7U1hfrtZAWOEgEv8x0lP4nr.jpg",
-            "fichier": "/Box_Films/- Nouveaux/Ip.Man.2.(2010).Ita.Chi.Spa.Fre.720p.h264.byMetalh.mkv",
+            "fichier": "/Box_Films/Action/Ip Man/Ip.Man.2.(2010).Ita.Chi.Spa.Fre.720p.h264.byMetalh.mkv",
             "nomFichier": "Ip.Man.2.(2010).Ita.Chi.Spa.Fre.720p.h264.byMetalh.mkv",
             "imdbId": null,
             "tmdbId": 37472,
@@ -20024,7 +19933,10 @@
             },
             "ignoreInCollection": false,
             "titreOriginal": "葉問2",
-            "langueOriginale": "cn"
+            "langueOriginale": "cn",
+            "languesAudio": [
+                "FR"
+            ]
         },
         {
             "id": "ip_man_3_cortex91_2015",
@@ -20305,14 +20217,14 @@
             "titre": "Ip Man The Awakening 1",
             "annee": 2022,
             "langue": [
-                "TBD"
+                "VO"
             ],
             "taille": 1506110934,
             "genre": [
                 "Action"
             ],
             "image": "https://image.tmdb.org/t/p/w342/uD114D4Di7M4sXnBiwaBHepUAZE.jpg",
-            "fichier": "/Box_Films/- Nouveaux/Ip.Man.The.Awakening.2022.1080p.BluRay.1400MB.DD5.1.x264-GalaxyRG.mkv",
+            "fichier": "/Box_Films/Action/Ip.Man.The.Awakening.2022.1080p.BluRay.1400MB.DD5.1.x264-GalaxyRG.mkv",
             "nomFichier": "Ip.Man.The.Awakening.2022.1080p.BluRay.1400MB.DD5.1.x264-GalaxyRG.mkv",
             "imdbId": null,
             "tmdbId": 875104,
@@ -20364,7 +20276,10 @@
             "titreOriginal": "叶问宗师觉醒",
             "langueOriginale": "zh",
             "type": "Film",
-            "studio": null
+            "studio": null,
+            "languesAudio": [
+                "EN"
+            ]
         },
         {
             "id": "ip_man_the_final_fight_1_2013",
@@ -20378,7 +20293,7 @@
                 "Action"
             ],
             "image": "https://image.tmdb.org/t/p/w342/kbC4MWXkwaX8DqRLFYoGTdUZSxm.jpg",
-            "fichier": "/Box_Films/- Nouveaux/Ip.Man.The.Final.Fight.2013.1080p.BluRay.x264.AAC5.1-.mp4",
+            "fichier": "/Box_Films/Action/Ip.Man.The.Final.Fight.2013.1080p.BluRay.x264.AAC5.1-.mp4",
             "nomFichier": "Ip.Man.The.Final.Fight.2013.1080p.BluRay.x264.AAC5.1-.mp4",
             "imdbId": null,
             "tmdbId": 182127,
@@ -20441,8 +20356,7 @@
             ],
             "taille": 1773975793,
             "genre": [
-                "Science-Fiction",
-                "Action"
+                "Science-Fiction"
             ],
             "image": "https://image.tmdb.org/t/p/w342/kNKUCNLu1lZDGAHOBEHxR6psYHx.jpg",
             "fichier": "/01_Films/Marvel/2008 Iron.Man.2008.1080p.BrRip.x264.YIFY.mp4",
@@ -20504,12 +20418,10 @@
             "titre": "Iron man 2",
             "annee": null,
             "langue": [
-                "TBD"
+                "VF"
             ],
             "taille": 1467840546,
             "genre": [
-                "Aventure",
-                "Action",
                 "Science-Fiction"
             ],
             "image": "https://image.tmdb.org/t/p/w342/ghomWlBZtAW5K9zjcAvg4dU62AU.jpg",
@@ -20566,19 +20478,21 @@
             "langueOriginale": "en",
             "ignoreInCollection": false,
             "type": "Film",
-            "studio": null
+            "studio": null,
+            "languesAudio": [
+                "FR"
+            ]
         },
         {
             "id": "iron_man_2_2010",
             "titre": "Iron Man 2",
             "annee": 2010,
             "langue": [
-                "TBD"
+                "VO"
             ],
             "taille": 1722312518,
             "genre": [
-                "Science-Fiction",
-                "Action"
+                "Science-Fiction"
             ],
             "image": "https://image.tmdb.org/t/p/w342/g9DSeSozGi4zpUyeOYZYMNmIv9O.jpg",
             "fichier": "/01_Films/Marvel/2010 Iron.Man.2.2010.1080p.BrRip.x264.YIFY.mp4",
@@ -20634,75 +20548,10 @@
                 "sousTitres": []
             },
             "titreOriginal": "Iron Man 2",
-            "langueOriginale": "en"
-        },
-        {
-            "id": "iron_man_3_2013",
-            "titre": "Iron Man 3",
-            "annee": 2013,
-            "langue": [
-                "VF"
-            ],
-            "taille": 1466058752,
-            "genre": [
-                "Action",
-                "Aventure",
-                "Science-Fiction"
-            ],
-            "image": "https://image.tmdb.org/t/p/w342/sE71EBrRMfW0NKMHlXPO55Km88X.jpg",
-            "fichier": "/Box_Films/- Nouveaux/Iron Man 3 2013 FRENCH BDRiP XviD-CARPEDIEM.avi",
-            "nomFichier": "Iron Man 3 2013 FRENCH BDRiP XviD-CARPEDIEM.avi",
-            "imdbId": null,
-            "tmdbId": 68721,
-            "tmdbUrl": "https://www.themoviedb.org/movie/68721",
-            "doublonExact": false,
-            "doublonProbable": false,
-            "groupeDoublon": null,
-            "dateAjout": "2026-11-14T08:28:02.438Z",
-            "technique": {
-                "largeur": 640,
-                "hauteur": 272,
-                "resolution": "640x272",
-                "ratioImage": 2.353,
-                "codecVideo": "mpeg4",
-                "profilVideo": "Advanced Simple Profile",
-                "pixelFormat": "yuv420p",
-                "bitsParComposante": null,
-                "bitrateVideo": 1360032,
-                "framerate": 23.976,
-                "espaceCouleur": null,
-                "transfertCouleur": null,
-                "primairesCouleur": null,
-                "hdr": false,
-                "dureeFichier": 7832.879228,
-                "bitrateGlobal": 1497338,
-                "formatConteneur": "avi",
-                "audio": [
-                    {
-                        "codec": "mp3",
-                        "profil": null,
-                        "canaux": 2,
-                        "disposition": "stereo",
-                        "bitrate": 128000,
-                        "frequence": 48000,
-                        "langue": null
-                    }
-                ],
-                "sousTitres": []
-            },
-            "titreTmdb": "Iron Man 3",
-            "titreOriginal": "Iron Man 3",
-            "anneeTmdb": "2013",
-            "dureeTmdb": 130,
-            "descriptionTmdb": "Tony Stark, l’industriel flamboyant qui est aussi Iron Man, est confronté cette fois à un ennemi qui va attaquer sur tous les fronts. Lorsque son univers personnel est détruit, Stark se lance dans une quête acharnée pour retrouver les coupables. Plus que jamais, son courage va être mis à l’épreuve, à chaque instant. Dos au mur, il ne peut plus compter que sur ses inventions, son ingéniosité, et son instinct pour protéger ses proches. Alors qu’il se jette dans la bataille, Stark va enfin découvrir la réponse à la question qui le hante secrètement depuis si longtemps : est‐ce l’homme qui fait le costume ou bien le costume qui fait l’homme ?",
-            "collectionId": 131292,
-            "collectionNom": "Iron Man - Saga",
-            "collectionDescription": "Collection des films Iron Man (littéralement l'Homme de Fer), super-héros de comics créé en 1963 par Stan Lee pour Marvel Comics.",
-            "collectionImage": "https://image.tmdb.org/t/p/w500/bQGciwYBe0aG1UNHuIiFkey4pqX.jpg",
-            "collectionTmdbUrl": "https://www.themoviedb.org/collection/131292",
             "langueOriginale": "en",
-            "type": "Film",
-            "studio": null
+            "languesAudio": [
+                "EN"
+            ]
         },
         {
             "id": "jack_et_la_mecanique_du_coeur",
@@ -20893,7 +20742,7 @@
             "ignoreInCollection": false,
             "titreOriginal": "Die Another Day",
             "langueOriginale": "en",
-            "type": null,
+            "type": "Film",
             "studio": null
         },
         {
@@ -22010,7 +21859,7 @@
                 "Aventure"
             ],
             "image": "https://image.tmdb.org/t/p/w342/sC31ja7yVxXwggx3oNuf9hVSg0G.jpg",
-            "fichier": "/Box_Films/- Nouveaux/Jumanji.The.Next.Level.2019.MULTi.1080p.HMAX.WEB.x265-THESYNDiCATE.mkv",
+            "fichier": "/Box_Films/Aventure/Jumanji/Jumanji.The.Next.Level.2019.MULTi.1080p.HMAX.WEB.x265-THESYNDiCATE.mkv",
             "nomFichier": "Jumanji.The.Next.Level.2019.MULTi.1080p.HMAX.WEB.x265-THESYNDiCATE.mkv",
             "imdbId": null,
             "tmdbId": 512200,
@@ -22098,7 +21947,7 @@
                 "Aventure"
             ],
             "image": "https://image.tmdb.org/t/p/w342/cOsomItWDbdwlG6XJUYkiAWoFLW.jpg",
-            "fichier": "/Box_Films/- Nouveaux/Jumanji.Welcome.to.the.Jungle.2017.MULTI.1080p.BluRay.Light.x264.AC3-ACOOL.mkv",
+            "fichier": "/Box_Films/Aventure/Jumanji/Jumanji.Welcome.to.the.Jungle.2017.MULTI.1080p.BluRay.Light.x264.AC3-ACOOL.mkv",
             "nomFichier": "Jumanji.Welcome.to.the.Jungle.2017.MULTI.1080p.BluRay.Light.x264.AC3-ACOOL.mkv",
             "imdbId": null,
             "tmdbId": 353486,
@@ -22612,7 +22461,7 @@
                 "Policier"
             ],
             "image": "https://image.tmdb.org/t/p/w342/mFPqFjOMhOFMOEYaQAe7a1HxKkG.jpg",
-            "fichier": "/Box_Films/- Nouveaux/Street Kings (2008) 1080p-H264-AC 3 (DolbyDigital-5.1) & nickarad.mp4",
+            "fichier": "/Box_Films/Policier/Au bout de la nuit/Street Kings (2008) 1080p-H264-AC 3 (DolbyDigital-5.1) & nickarad.mp4",
             "nomFichier": "Street Kings (2008) 1080p-H264-AC 3 (DolbyDigital-5.1) & nickarad.mp4",
             "imdbId": null,
             "tmdbId": 1266,
@@ -22663,7 +22512,7 @@
             "collectionDescription": "Street Kings est un film d'action et policier de 2008 réalisé par David Ayer, avec Keanu Reeves, Forest Whitaker, Hugh Laurie, Chris Evans, Common et The Game. Street Kings: Motor City est un film d'action et policier sorti directement en DVD en 2011, réalisé par Chris Fisher et avec Ray Liotta. Il s'agit d'une suite du film Street Kings de 2008. Ce n'est une suite que de nom, car l'action se déroule à Detroit et non à Los Angeles, et seul Clifton Powell reprend son rôle du premier film, cette fois-ci dans le rôle de Tyrone Fowler au lieu du sergent Green. Cependant, il aborde des thèmes similaires à ceux du premier film, comme la corruption policière et les enquêtes des affaires internes.",
             "collectionImage": "https://image.tmdb.org/t/p/w500/scwFenIwHJVKIxu0GGQkO9hGb2Y.jpg",
             "collectionTmdbUrl": "https://www.themoviedb.org/collection/124881",
-            "type": null,
+            "type": "Film",
             "studio": null
         },
         {
@@ -22675,12 +22524,10 @@
             ],
             "taille": 835508724,
             "genre": [
-                "Crime",
-                "Drame",
-                "Thriller"
+                "Policier"
             ],
             "image": "https://image.tmdb.org/t/p/w342/aNImLX646JNzXakGSGGHsXhP6Du.jpg",
-            "fichier": "/Box_Films/- Nouveaux/Street.Kings.2.Motor.City.2011.720p.BluRay.800MB.x264-GalaxyRG.mkv",
+            "fichier": "/Box_Films/Policier/Au bout de la nuit/Street.Kings.2.Motor.City.2011.720p.BluRay.800MB.x264-GalaxyRG.mkv",
             "nomFichier": "Street.Kings.2.Motor.City.2011.720p.BluRay.800MB.x264-GalaxyRG.mkv",
             "imdbId": null,
             "tmdbId": 58625,
@@ -22737,7 +22584,9 @@
             "collectionDescription": "Street Kings est un film d'action et policier de 2008 réalisé par David Ayer, avec Keanu Reeves, Forest Whitaker, Hugh Laurie, Chris Evans, Common et The Game. Street Kings: Motor City est un film d'action et policier sorti directement en DVD en 2011, réalisé par Chris Fisher et avec Ray Liotta. Il s'agit d'une suite du film Street Kings de 2008. Ce n'est une suite que de nom, car l'action se déroule à Detroit et non à Los Angeles, et seul Clifton Powell reprend son rôle du premier film, cette fois-ci dans le rôle de Tyrone Fowler au lieu du sergent Green. Cependant, il aborde des thèmes similaires à ceux du premier film, comme la corruption policière et les enquêtes des affaires internes.",
             "collectionImage": "https://image.tmdb.org/t/p/w500/scwFenIwHJVKIxu0GGQkO9hGb2Y.jpg",
             "collectionTmdbUrl": "https://www.themoviedb.org/collection/124881",
-            "ignoreInCollection": false
+            "ignoreInCollection": false,
+            "type": "Film",
+            "studio": null
         },
         {
             "id": "kirikou_et_les_betes_sauvages",
@@ -23825,7 +23674,7 @@
                 "Action"
             ],
             "image": "https://image.tmdb.org/t/p/w342/tZmlUikHctU4qy82HMmkbGWDHfY.jpg",
-            "fichier": "/Box_Films/- Nouveaux/L'Agence tous risquesL'Agence tous risques.2010.MULTi.VFF.1080p.HDLight.x264.AC3-T911.mkv",
+            "fichier": "/Box_Films/Action/L'Agence tous risquesL'Agence tous risques.2010.MULTi.VFF.1080p.HDLight.x264.AC3-T911.mkv",
             "nomFichier": "L'Agence tous risquesL'Agence tous risques.2010.MULTi.VFF.1080p.HDLight.x264.AC3-T911.mkv",
             "imdbId": null,
             "tmdbId": 34544,
@@ -24307,11 +24156,10 @@
             ],
             "taille": 3613950314,
             "genre": [
-                "Action",
-                "Thriller"
+                "Action"
             ],
             "image": "https://image.tmdb.org/t/p/w342/8wUNoQ0Q92dHSXqdq7mceGudasg.jpg",
-            "fichier": "/Box_Films/- Nouveaux/L'arme Fatale IV 1998 Multi-VF2 1080p HDlight.x264-Tonyk.mkv",
+            "fichier": "/Box_Films/Action/L'Arme Fatale/L'arme Fatale IV 1998 Multi-VF2 1080p HDlight.x264-Tonyk.mkv",
             "nomFichier": "L'arme Fatale IV 1998 Multi-VF2 1080p HDlight.x264-Tonyk.mkv",
             "imdbId": null,
             "tmdbId": 944,
@@ -24397,8 +24245,8 @@
             "ignoreInCollection": false,
             "titreOriginal": "Lethal Weapon 4",
             "langueOriginale": "en",
-            "type": null,
-            "studio": "DC"
+            "type": "Film",
+            "studio": null
         },
         {
             "id": "l_assaut",
@@ -24876,11 +24724,10 @@
             ],
             "taille": 2102506462,
             "genre": [
-                "Aventure",
-                "Action"
+                "Aventure"
             ],
             "image": "https://image.tmdb.org/t/p/w342/1UbRvMwbiCrkFHEeFVUiXeGvy7j.jpg",
-            "fichier": "/Box_Films/- Nouveaux/Lara Croft Tomb Raider II The Cradle of Life 2003 1080p REMASTERED BluRay HEVC x265 5.1 BONE.mkv",
+            "fichier": "/Box_Films/Aventure/Lara Croft/Lara Croft Tomb Raider II The Cradle of Life 2003 1080p REMASTERED BluRay HEVC x265 5.1 BONE.mkv",
             "nomFichier": "Lara Croft Tomb Raider II The Cradle of Life 2003 1080p REMASTERED BluRay HEVC x265 5.1 BONE.mkv",
             "imdbId": null,
             "tmdbId": 1996,
@@ -24937,7 +24784,9 @@
             },
             "ignoreInCollection": false,
             "titreOriginal": "Lara Croft: Tomb Raider - The Cradle of Life",
-            "langueOriginale": "en"
+            "langueOriginale": "en",
+            "type": "Film",
+            "studio": null
         },
         {
             "id": "las_vegas",
@@ -27196,19 +27045,18 @@
             ],
             "taille": 3135666007,
             "genre": [
-                "Action",
-                "Thriller"
+                "Action"
             ],
             "image": "https://image.tmdb.org/t/p/w342/mn8bwgfQgNV8bqKnazHAW6C6e0D.jpg",
-            "fichier": "/Box_Films/- Nouveaux/Live Free or Die Hard (2007) MULTi [1080p] BluRay x264-PopHD.mkv",
-            "nomFichier": "Live Free or Die Hard (2007) MULTi [1080p] BluRay x264-PopHD.mkv",
+            "fichier": "/Box_Films/Action/Die Hard/Live Free or Die Hard (2007) MULTi BluRay x264-PopHD.mkv",
+            "nomFichier": "Live Free or Die Hard (2007) MULTi BluRay x264-PopHD.mkv",
             "imdbId": null,
             "tmdbId": 1571,
             "tmdbUrl": "https://www.themoviedb.org/movie/1571",
             "doublonExact": false,
             "doublonProbable": false,
             "groupeDoublon": null,
-            "dateAjout": "2026-11-17T22:20:50.323Z",
+            "dateAjout": "2026-11-18T17:37:55.555Z",
             "technique": {
                 "largeur": 1918,
                 "hauteur": 800,
@@ -27270,6 +27118,8 @@
                     }
                 ]
             },
+            "type": "Film",
+            "studio": null,
             "titreTmdb": "Die Hard 4 : Retour en enfer",
             "titreOriginal": "Live Free or Die Hard",
             "langueOriginale": "en",
@@ -28154,9 +28004,7 @@
             ],
             "taille": 1725073810,
             "genre": [
-                "Science-Fiction",
-                "Action",
-                "Aventure"
+                "Science-Fiction"
             ],
             "image": "https://image.tmdb.org/t/p/w342/6OEtkkzoyusZDm2uMJojlWZSLR9.jpg",
             "fichier": "/Box_Films/- Nouveaux/Spider.Man.Brand.New.Day.2026.Multi.Vf2.WEBRIP.mp4",
@@ -28249,7 +28097,9 @@
             },
             "ignoreInCollection": false,
             "titreOriginal": "Spider-Man: Brand New Day",
-            "langueOriginale": "en"
+            "langueOriginale": "en",
+            "type": "Film",
+            "studio": null
         },
         {
             "id": "spider_man_new_generation_spider_man_into_the_spider_verse_ulhd_2018",
@@ -28468,9 +28318,7 @@
             ],
             "taille": 1028955100,
             "genre": [
-                "Animation",
-                "Drame",
-                "Fantastique"
+                "Drame"
             ],
             "image": "https://image.tmdb.org/t/p/w342/r6Men4NrCj77ROJBrWeddbxe2sI.jpg",
             "fichier": "/Box_Films/Animation/Maquia.When.The.Promised.Flower.Blooms.2018.720p.BluRay.x264-.mp4",
@@ -28523,7 +28371,9 @@
             "collectionNom": null,
             "collectionDescription": null,
             "collectionImage": null,
-            "collectionTmdbUrl": null
+            "collectionTmdbUrl": null,
+            "type": "Anime",
+            "studio": null
         },
         {
             "id": "mary_poppins",
@@ -28919,13 +28769,10 @@
             ],
             "taille": 4706143080,
             "genre": [
-                "Action",
-                "Aventure",
-                "Comédie",
                 "Science-Fiction"
             ],
             "image": "https://image.tmdb.org/t/p/w342/rd0VCTHFFIE7BbZfy0aEIkOYxGA.jpg",
-            "fichier": "/Box_Films/- Nouveaux/Men in Black (1997) MULTi VFF 2160p 10bit 4KLight HDR BluRay x265 AAC 7.1-QTZ.mkv",
+            "fichier": "/Box_Films/Science-Fiction/Men in Black/Men in Black (1997) MULTi VFF 2160p 10bit 4KLight HDR BluRay x265 AAC 7.1-QTZ.mkv",
             "nomFichier": "Men in Black (1997) MULTi VFF 2160p 10bit 4KLight HDR BluRay x265 AAC 7.1-QTZ.mkv",
             "imdbId": null,
             "tmdbId": 607,
@@ -29020,7 +28867,9 @@
                 "EN",
                 "FR"
             ],
-            "ignoreInCollection": false
+            "ignoreInCollection": false,
+            "type": "Film",
+            "studio": null
         },
         {
             "id": "men_in_black_3",
@@ -29032,8 +28881,6 @@
             ],
             "taille": 2695325019,
             "genre": [
-                "Action",
-                "Comédie",
                 "Science-Fiction"
             ],
             "image": "https://image.tmdb.org/t/p/w342/gCFDozeckKAWsaGWL5f190gZRnq.jpg",
@@ -29108,7 +28955,9 @@
             "collectionDescription": "Les M.I.B (Men In Black) sont des agents ultra-secrets qui travaillent pour le gouvernement. Leur tâche, très, très spéciale consiste à contrôler l'immigration extraterrestre sur la Terre, à surveiller les ressortissants, et préserver l'entente avec les autres planètes, dans la plus grande discrétion.",
             "collectionImage": "https://image.tmdb.org/t/p/w500/qB1LRV2RjBy1bfNRwmVN3fW5sQl.jpg",
             "collectionTmdbUrl": "https://www.themoviedb.org/collection/86055",
-            "ignoreInCollection": false
+            "ignoreInCollection": false,
+            "type": "Film",
+            "studio": null
         },
         {
             "id": "men_in_black_ii_2002",
@@ -29121,8 +28970,6 @@
             ],
             "taille": 1172337919,
             "genre": [
-                "Action",
-                "Comédie",
                 "Science-Fiction"
             ],
             "image": "https://image.tmdb.org/t/p/w342/uuCitEX1b1OdWqu8upqoSuIwmoz.jpg",
@@ -29201,7 +29048,9 @@
                 "EN",
                 "FR"
             ],
-            "ignoreInCollection": false
+            "ignoreInCollection": false,
+            "type": "Film",
+            "studio": null
         },
         {
             "id": "merlin_l_enchanteur",
@@ -29775,12 +29624,10 @@
             ],
             "taille": 4364417294,
             "genre": [
-                "Aventure",
-                "Action",
-                "Thriller"
+                "Action"
             ],
             "image": "https://image.tmdb.org/t/p/w342/tf9NnE1P26vtfncWtVQ5P2VE4gl.jpg",
-            "fichier": "/Box_Films/- Nouveaux/[ Torrent911.io ] Mission Impossible - integrale - HEVC-AC3/Mission Impossible 1 - 1080p.mkv",
+            "fichier": "/Box_Films/- Nouveaux/Mission Impossible 1 - 1080p.mkv",
             "nomFichier": "Mission Impossible 1 - 1080p.mkv",
             "imdbId": null,
             "tmdbId": 954,
@@ -29856,7 +29703,9 @@
             "collectionDescription": "Les aventures de l'agent secret Ethan Hunt pour le compte de l'unité IMF (Impossible Missions Force).",
             "collectionImage": "https://image.tmdb.org/t/p/w500/5nUgyjBem5QctwzQoDyJ3kuE7xh.jpg",
             "collectionTmdbUrl": "https://www.themoviedb.org/collection/87359",
-            "ignoreInCollection": false
+            "ignoreInCollection": false,
+            "type": "Film",
+            "studio": null
         },
         {
             "id": "mission_impossible_1",
@@ -29931,12 +29780,10 @@
             ],
             "taille": 4891983873,
             "genre": [
-                "Aventure",
-                "Action",
-                "Thriller"
+                "Action"
             ],
             "image": "https://image.tmdb.org/t/p/w342/70jn233gTq8kvbLtH9EB8Ios26s.jpg",
-            "fichier": "/Box_Films/- Nouveaux/[ Torrent911.io ] Mission Impossible - integrale - HEVC-AC3/Mission Impossible 2 - 1080p.mkv",
+            "fichier": "/Box_Films/- Nouveaux/Mission Impossible 2 - 1080p.mkv",
             "nomFichier": "Mission Impossible 2 - 1080p.mkv",
             "imdbId": null,
             "tmdbId": 955,
@@ -30012,7 +29859,9 @@
             "collectionDescription": "Les aventures de l'agent secret Ethan Hunt pour le compte de l'unité IMF (Impossible Missions Force).",
             "collectionImage": "https://image.tmdb.org/t/p/w500/5nUgyjBem5QctwzQoDyJ3kuE7xh.jpg",
             "collectionTmdbUrl": "https://www.themoviedb.org/collection/87359",
-            "ignoreInCollection": false
+            "ignoreInCollection": false,
+            "type": "Film",
+            "studio": null
         },
         {
             "id": "mission_impossible_2_2000",
@@ -30087,12 +29936,10 @@
             ],
             "taille": 4965924156,
             "genre": [
-                "Aventure",
-                "Action",
-                "Thriller"
+                "Action"
             ],
             "image": "https://image.tmdb.org/t/p/w342/wlesOljZycfrbBCdJLdmumSiNYT.jpg",
-            "fichier": "/Box_Films/- Nouveaux/[ Torrent911.io ] Mission Impossible - integrale - HEVC-AC3/Mission Impossible 3 - 1080p.mkv",
+            "fichier": "/Box_Films/- Nouveaux/Mission Impossible 3 - 1080p.mkv",
             "nomFichier": "Mission Impossible 3 - 1080p.mkv",
             "imdbId": null,
             "tmdbId": 956,
@@ -30168,7 +30015,9 @@
             "collectionDescription": "Les aventures de l'agent secret Ethan Hunt pour le compte de l'unité IMF (Impossible Missions Force).",
             "collectionImage": "https://image.tmdb.org/t/p/w500/5nUgyjBem5QctwzQoDyJ3kuE7xh.jpg",
             "collectionTmdbUrl": "https://www.themoviedb.org/collection/87359",
-            "ignoreInCollection": false
+            "ignoreInCollection": false,
+            "type": "Film",
+            "studio": null
         },
         {
             "id": "mission_impossible_3_2006",
@@ -30537,12 +30386,10 @@
             ],
             "taille": 5266532798,
             "genre": [
-                "Action",
-                "Thriller",
-                "Aventure"
+                "Action"
             ],
             "image": "https://image.tmdb.org/t/p/w342/wMatavrX9HWNKxczKzr2Xy2KnYH.jpg",
-            "fichier": "/Box_Films/- Nouveaux/[ Torrent911.io ] Mission Impossible - integrale - HEVC-AC3/Mission Impossible 4 - Protocole Fantome - 1080p.mkv",
+            "fichier": "/Box_Films/- Nouveaux/Mission Impossible 4 - Protocole Fantome - 1080p.mkv",
             "nomFichier": "Mission Impossible 4 - Protocole Fantome - 1080p.mkv",
             "imdbId": null,
             "tmdbId": 56292,
@@ -30617,7 +30464,9 @@
             "collectionNom": "Mission : Impossible - Saga",
             "collectionDescription": "Les aventures de l'agent secret Ethan Hunt pour le compte de l'unité IMF (Impossible Missions Force).",
             "collectionImage": "https://image.tmdb.org/t/p/w500/5nUgyjBem5QctwzQoDyJ3kuE7xh.jpg",
-            "collectionTmdbUrl": "https://www.themoviedb.org/collection/87359"
+            "collectionTmdbUrl": "https://www.themoviedb.org/collection/87359",
+            "type": "Film",
+            "studio": null
         },
         {
             "id": "mission_impossible_5_rogue_nation",
@@ -30628,11 +30477,10 @@
             ],
             "taille": 5211595534,
             "genre": [
-                "Action",
-                "Aventure"
+                "Action"
             ],
             "image": "https://image.tmdb.org/t/p/w342/v0dj9NVPFTX0bv5NtqxK99i1Ae3.jpg",
-            "fichier": "/Box_Films/- Nouveaux/[ Torrent911.io ] Mission Impossible - integrale - HEVC-AC3/Mission Impossible 5 - Rogue Nation - 1080p.mkv",
+            "fichier": "/Box_Films/- Nouveaux/Mission Impossible 5 - Rogue Nation - 1080p.mkv",
             "nomFichier": "Mission Impossible 5 - Rogue Nation - 1080p.mkv",
             "imdbId": null,
             "tmdbId": 177677,
@@ -30708,7 +30556,9 @@
             "collectionDescription": "Les aventures de l'agent secret Ethan Hunt pour le compte de l'unité IMF (Impossible Missions Force).",
             "collectionImage": "https://image.tmdb.org/t/p/w500/5nUgyjBem5QctwzQoDyJ3kuE7xh.jpg",
             "collectionTmdbUrl": "https://www.themoviedb.org/collection/87359",
-            "ignoreInCollection": false
+            "ignoreInCollection": false,
+            "type": "Film",
+            "studio": null
         },
         {
             "id": "mission_impossible_5_rogue_nation_2015",
@@ -30983,6 +30833,81 @@
             "langueOriginale": "en"
         },
         {
+            "id": "mission_impossible_fallout_imax_2018",
+            "titre": "Mission Impossible Fallout IMAX",
+            "annee": 2018,
+            "langue": [
+                "VF"
+            ],
+            "taille": 3546747003,
+            "genre": [
+                "Action"
+            ],
+            "image": null,
+            "fichier": "/Box_Films/- Nouveaux/Mission.Impossible.Fallout.2018.IMAX.MULTI.TRUEFRENCH.1080p.HDLight.x264.AC3-EXTREME.mkv",
+            "nomFichier": "Mission.Impossible.Fallout.2018.IMAX.MULTI.TRUEFRENCH.1080p.HDLight.x264.AC3-EXTREME.mkv",
+            "imdbId": null,
+            "tmdbId": null,
+            "tmdbUrl": null,
+            "doublonExact": false,
+            "doublonProbable": false,
+            "groupeDoublon": null,
+            "dateAjout": "2026-11-18T11:14:21.881Z",
+            "technique": {
+                "largeur": 1920,
+                "hauteur": 1016,
+                "resolution": "1920x1016",
+                "ratioImage": 1.89,
+                "codecVideo": "h264",
+                "profilVideo": "High",
+                "pixelFormat": "yuv420p",
+                "bitsParComposante": 8,
+                "bitrateVideo": null,
+                "framerate": 23.976,
+                "espaceCouleur": null,
+                "transfertCouleur": null,
+                "primairesCouleur": null,
+                "hdr": false,
+                "dureeFichier": 8844.928,
+                "bitrateGlobal": 3207937,
+                "formatConteneur": "matroska,webm",
+                "audio": [
+                    {
+                        "codec": "ac3",
+                        "profil": null,
+                        "canaux": 6,
+                        "disposition": "5.1(side)",
+                        "bitrate": 384000,
+                        "frequence": 48000,
+                        "langue": "fre"
+                    },
+                    {
+                        "codec": "aac",
+                        "profil": "LC",
+                        "canaux": 2,
+                        "disposition": "stereo",
+                        "bitrate": null,
+                        "frequence": 48000,
+                        "langue": "eng"
+                    }
+                ],
+                "sousTitres": [
+                    {
+                        "codec": "subrip",
+                        "langue": "fre",
+                        "titre": null
+                    },
+                    {
+                        "codec": "subrip",
+                        "langue": "fre",
+                        "titre": "French"
+                    }
+                ]
+            },
+            "type": "Film",
+            "studio": null
+        },
+        {
             "id": "mission_impossible_ghost_protocol_2011",
             "titre": "Mission Impossible Ghost Protocol ( )",
             "annee": 2011,
@@ -30992,20 +30917,18 @@
             ],
             "taille": 3784688324,
             "genre": [
-                "Action",
-                "Thriller",
-                "Aventure"
+                "Action"
             ],
-            "image": "https://image.tmdb.org/t/p/w342/wMatavrX9HWNKxczKzr2Xy2KnYH.jpg",
-            "fichier": "/Box_Films/- Nouveaux/[ Torrent911.tv ] Mission Impossible Ghost Protocol (2011) [1080p] MULTi VF2 BluRay x264 AC3-PopHD.mkv",
-            "nomFichier": "[ Torrent911.tv ] Mission Impossible Ghost Protocol (2011) [1080p] MULTi VF2 BluRay x264 AC3-PopHD.mkv",
+            "image": null,
+            "fichier": "/Box_Films/- Nouveaux/Mission Impossible Ghost Protocol (2011) MULTi VF2 BluRay x264 AC3-PopHD.mkv",
+            "nomFichier": "Mission Impossible Ghost Protocol (2011) MULTi VF2 BluRay x264 AC3-PopHD.mkv",
             "imdbId": null,
-            "tmdbId": 56292,
-            "tmdbUrl": "https://www.themoviedb.org/movie/56292",
+            "tmdbId": null,
+            "tmdbUrl": null,
             "doublonExact": false,
             "doublonProbable": false,
             "groupeDoublon": null,
-            "dateAjout": "2026-11-18T05:03:50.511Z",
+            "dateAjout": "2026-11-18T17:37:56.655Z",
             "technique": {
                 "largeur": 1920,
                 "hauteur": 800,
@@ -31081,17 +31004,8 @@
                     }
                 ]
             },
-            "titreTmdb": "Mission : Impossible - Protocole Fantôme",
-            "titreOriginal": "Mission: Impossible - Ghost Protocol",
-            "langueOriginale": "en",
-            "anneeTmdb": "2011",
-            "dureeTmdb": 133,
-            "descriptionTmdb": "Après avoir été impliquée dans un complot terroriste mondial, l’agence Mission Impossible est contrainte de cesser ses activités. Le « Protocole Fantôme » est mis en place : Ethan Hunt et sa nouvelle équipe doivent opérer dans le secret pour blanchir le nom de leur organisation. Aucune aide, aucun contact, isolation totale. Cette mission va s'avérer être la plus dangereuse et la plus intense qu'ils aient eu à remplir.",
-            "collectionId": 87359,
-            "collectionNom": "Mission : Impossible - Saga",
-            "collectionDescription": "Les aventures de l'agent secret Ethan Hunt pour le compte de l'unité IMF (Impossible Missions Force).",
-            "collectionImage": "https://image.tmdb.org/t/p/w500/5nUgyjBem5QctwzQoDyJ3kuE7xh.jpg",
-            "collectionTmdbUrl": "https://www.themoviedb.org/collection/87359"
+            "type": "Film",
+            "studio": null
         },
         {
             "id": "mission_impossible_the_final_reckoning_2025",
@@ -31102,9 +31016,7 @@
             ],
             "taille": 4781831510,
             "genre": [
-                "Action",
-                "Thriller",
-                "Aventure"
+                "Action"
             ],
             "image": "https://image.tmdb.org/t/p/w342/AozMgdALZuR1hDPZt2a1aXiWmL4.jpg",
             "fichier": "/Box_Films/- Nouveaux/Mission.Impossible.The.Final.Reckoning.2025.Multi.Truefrench.Vf2.720P.-WEBRIP.mkv",
@@ -31202,7 +31114,9 @@
             "collectionDescription": "Les aventures de l'agent secret Ethan Hunt pour le compte de l'unité IMF (Impossible Missions Force).",
             "collectionImage": "https://image.tmdb.org/t/p/w500/5nUgyjBem5QctwzQoDyJ3kuE7xh.jpg",
             "collectionTmdbUrl": "https://www.themoviedb.org/collection/87359",
-            "ignoreInCollection": false
+            "ignoreInCollection": false,
+            "type": "Film",
+            "studio": null
         },
         {
             "id": "mission_impossible_the_final_reckoning_2025",
@@ -31213,8 +31127,7 @@
             ],
             "taille": 2089200624,
             "genre": [
-                "Action",
-                "Aventure"
+                "Action"
             ],
             "image": "https://image.tmdb.org/t/p/w342/AozMgdALZuR1hDPZt2a1aXiWmL4.jpg",
             "fichier": "/Box_Films/- Nouveaux/Mission.Impossible.The.Final.Reckoning.2025.Multi.Truefrench.Vf2.WEBRIP.mp4",
@@ -31313,7 +31226,7 @@
             "ignoreInCollection": false,
             "titreOriginal": "Mission: Impossible - The Final Reckoning",
             "langueOriginale": "en",
-            "type": null,
+            "type": "Film",
             "studio": null
         },
         {
@@ -32266,8 +32179,7 @@
             ],
             "taille": 1808414942,
             "genre": [
-                "Action",
-                "Aventure"
+                "Action"
             ],
             "image": "https://image.tmdb.org/t/p/w342/qseURFLjRBCqFCNCKmS2uwM9IOj.jpg",
             "fichier": "/Box_Films/- Nouveaux/No.Time.To.Die.2021.HDRip.XviD.AC3-EVO.avi",
@@ -32322,7 +32234,7 @@
             "ignoreInCollection": false,
             "titreOriginal": "No Time to Die",
             "langueOriginale": "en",
-            "type": null,
+            "type": "Film",
             "studio": null
         },
         {
@@ -32727,14 +32639,16 @@
             "annee": 2025,
             "langue": [
                 "VO",
-                "VF"
+                "VF",
+                "VOSTFR",
+                "VOST"
             ],
             "taille": 1140377869,
             "genre": [
                 "Action"
             ],
             "image": "https://image.tmdb.org/t/p/w342/rfjuf6kNLVnH8qOk6UZJBHQHKlF.jpg",
-            "fichier": "/Box_Films/- Nouveaux/Now.You.See.Me.Now.You.Dont.2025.MULTi.VFQ.WEBRip.x264-LCTL.mkv",
+            "fichier": "/Box_Films/Action/Insaisissables/Now.You.See.Me.Now.You.Dont.2025.MULTi.VFQ.WEBRip.x264-LCTL.mkv",
             "nomFichier": "Now.You.See.Me.Now.You.Dont.2025.MULTi.VFQ.WEBRip.x264-LCTL.mkv",
             "imdbId": null,
             "tmdbId": 425274,
@@ -32817,7 +32731,11 @@
             },
             "ignoreInCollection": false,
             "titreOriginal": "Now You See Me: Now You Don't",
-            "langueOriginale": "en"
+            "langueOriginale": "en",
+            "languesAudio": [
+                "EN",
+                "FR"
+            ]
         },
         {
             "id": "tmdb_700",
@@ -33120,9 +33038,7 @@
             ],
             "taille": 726071192,
             "genre": [
-                "Comédie",
-                "Aventure",
-                "Action"
+                "Comédie"
             ],
             "image": "https://image.tmdb.org/t/p/w342/m3iAyhvWHyp9xith6ydOeBVh9bq.jpg",
             "fichier": "/Box_Films/- Nouveaux/OSS.117.Alerte.Rouge.en.Afrique.Noire.2021.FRENCH.BDRip.XviD-EXTREME.avi",
@@ -33176,7 +33092,9 @@
             },
             "ignoreInCollection": false,
             "titreOriginal": "OSS 117 : Alerte rouge en Afrique noire",
-            "langueOriginale": "fr"
+            "langueOriginale": "fr",
+            "type": "Film",
+            "studio": null
         },
         {
             "id": "oss_117_rio_ne_repond_plus",
@@ -33523,7 +33441,9 @@
                 "sousTitres": []
             },
             "titreOriginal": "Pay It Forward",
-            "langueOriginale": "en"
+            "langueOriginale": "en",
+            "type": "Film",
+            "studio": null
         },
         {
             "id": "paycheck_2003",
@@ -34829,7 +34749,9 @@
                 "VOST"
             ],
             "taille": 735785881,
-            "genre": [],
+            "genre": [
+                "Comédie"
+            ],
             "image": "https://image.tmdb.org/t/p/w342/iFcWBdTPeHQDS3OQxBcH3QaYXYv.jpg",
             "fichier": "/Box_Films/Enfants/02 A tester/Ratatouille (Disney n° 90).mkv",
             "nomFichier": "Ratatouille (Disney n° 90).mkv",
@@ -34932,7 +34854,9 @@
                 "TBD"
             ],
             "taille": 733955862,
-            "genre": [],
+            "genre": [
+                "Biopic"
+            ],
             "image": "https://image.tmdb.org/t/p/w342/xV6v2KVfB9akAVcMfwfPf8AzOaQ.jpg",
             "fichier": "/Box_Films/Drame/Ray.avi",
             "nomFichier": "Ray.avi",
@@ -35913,7 +35837,9 @@
                 "TBD"
             ],
             "taille": 723685326,
-            "genre": [],
+            "genre": [
+                "Aventure"
+            ],
             "image": "https://image.tmdb.org/t/p/w342/9Dn0gTnPoNgI4DBrVkwNklWF5XD.jpg",
             "fichier": "/Box_Films/Enfants/Le Roi Lion 3.avi",
             "nomFichier": "Le Roi Lion 3.avi",
@@ -36393,7 +36319,7 @@
             },
             "titreOriginal": "Safe House",
             "langueOriginale": "en",
-            "type": null,
+            "type": "Film",
             "studio": null
         },
         {
@@ -37993,7 +37919,7 @@
             },
             "titreOriginal": "Source Code",
             "langueOriginale": "en",
-            "type": null,
+            "type": "Film",
             "studio": null
         },
         {
@@ -38326,45 +38252,7 @@
             "ignoreInCollection": false,
             "titreOriginal": "Speed 2: Cruise Control",
             "langueOriginale": "en",
-            "type": null,
-            "studio": null
-        },
-        {
-            "id": "spider_man_across_the_spider_verse_2023",
-            "titre": "Spider Man Across The Spider Verse",
-            "annee": 2023,
-            "langue": [
-                "VF"
-            ],
-            "taille": 2038575142,
-            "genre": [
-                "Action",
-                "Aventure",
-                "Science-Fiction"
-            ],
-            "image": "https://image.tmdb.org/t/p/w342/hvfwCeSTgsExmz9l31dKkfR83DH.jpg",
-            "fichier": "/Box_Films/- Nouveaux/Spider-Man.Across.The.Spider-Verse.2023.CUSTOM.TRUEFRENCH.BDRip.x264-ONLYMOViE.mkv",
-            "nomFichier": "Spider-Man.Across.The.Spider-Verse.2023.CUSTOM.TRUEFRENCH.BDRip.x264-ONLYMOViE.mkv",
-            "imdbId": null,
-            "tmdbId": 569094,
-            "tmdbUrl": "https://www.themoviedb.org/movie/569094",
-            "doublonExact": false,
-            "doublonProbable": false,
-            "groupeDoublon": null,
-            "dateAjout": "2026-11-14T08:28:04.017Z",
-            "technique": {},
-            "titreTmdb": "Spider-Man : Across the Spider-Verse",
-            "titreOriginal": "Spider-Man: Across the Spider-Verse",
-            "anneeTmdb": "2023",
-            "dureeTmdb": 140,
-            "descriptionTmdb": "Après avoir retrouvé Gwen Stacy, Spider-Man, le sympathique héros originaire de Brooklyn, est catapulté à travers le Multivers, où il rencontre une équipe de Spider-Héros chargée d'en protéger l'existence. Mais lorsque les héros s'opposent sur la façon de gérer une nouvelle menace, Miles se retrouve confronté à eux et doit redéfinir ce que signifie être un héros afin de sauver les personnes qu'il aime le plus.",
-            "collectionId": 573436,
-            "collectionNom": "Spider-Man : New Generation - Saga",
-            "collectionDescription": "Une collection animée qui explore les différentes versions de Spider-Man dans de multiples univers en suivant les premiers pas de Miles Morales...",
-            "collectionImage": "https://image.tmdb.org/t/p/w500/6BiByOXRrMqB3yFVyuPFNZnJlPj.jpg",
-            "collectionTmdbUrl": "https://www.themoviedb.org/collection/573436",
-            "langueOriginale": "en",
-            "type": null,
+            "type": "Film",
             "studio": null
         },
         {
@@ -38630,7 +38518,7 @@
             "collectionTmdbUrl": "https://www.themoviedb.org/collection/115575",
             "langueOriginale": "en",
             "ignoreInCollection": false,
-            "type": null,
+            "type": "Film",
             "studio": null
         },
         {
@@ -38865,7 +38753,7 @@
             "collectionTmdbUrl": "https://www.themoviedb.org/collection/115575",
             "langueOriginale": "en",
             "ignoreInCollection": false,
-            "type": null,
+            "type": "Film",
             "studio": null
         },
         {
@@ -39402,7 +39290,7 @@
                 "Action"
             ],
             "image": "https://image.tmdb.org/t/p/w342/4h9b8E2C9FdIVKbQRDMwZzpSIjL.jpg",
-            "fichier": "/Box_Films/- Nouveaux/01 Taken Extended Cut - Thriller 2008 Eng Rus Multi Subs 720p .mp4",
+            "fichier": "/Box_Films/Action/Taken/01 Taken Extended Cut - Thriller 2008 Eng Rus Multi Subs 720p .mp4",
             "nomFichier": "01 Taken Extended Cut - Thriller 2008 Eng Rus Multi Subs 720p .mp4",
             "imdbId": null,
             "tmdbId": 8681,
@@ -39494,7 +39382,7 @@
             "titre": "Taken 1",
             "annee": null,
             "langue": [
-                "TBD"
+                "VF"
             ],
             "taille": 733724672,
             "genre": [
@@ -39554,7 +39442,10 @@
                 "sousTitres": []
             },
             "titreOriginal": "Taken",
-            "langueOriginale": "en"
+            "langueOriginale": "en",
+            "languesAudio": [
+                "FR"
+            ]
         },
         {
             "id": "taken_2_2012",
@@ -39569,7 +39460,7 @@
                 "Action"
             ],
             "image": "https://image.tmdb.org/t/p/w342/uzfVdeYUAuJNLhIW0kbFrD9PRWc.jpg",
-            "fichier": "/Box_Films/- Nouveaux/02 Taken 2 Extended Cut - Thriller 2012 Eng Rus Multi Subs 720p .mp4",
+            "fichier": "/Box_Films/Action/Taken/02 Taken 2 Extended Cut - Thriller 2012 Eng Rus Multi Subs 720p .mp4",
             "nomFichier": "02 Taken 2 Extended Cut - Thriller 2012 Eng Rus Multi Subs 720p .mp4",
             "imdbId": null,
             "tmdbId": 82675,
@@ -39731,103 +39622,6 @@
             "titre": "Taken 3",
             "annee": 2014,
             "langue": [
-                "VO",
-                "VF"
-            ],
-            "taille": 1740335168,
-            "genre": [
-                "Action"
-            ],
-            "image": "https://image.tmdb.org/t/p/w342/2CZkH6fYKUBq7exixbGcPa4Ksc6.jpg",
-            "fichier": "/Box_Films/- Nouveaux/03 Taken 3 Extended Cut - Thriller 2014 Eng Rus Multi Subs 720p .mp4",
-            "nomFichier": "03 Taken 3 Extended Cut - Thriller 2014 Eng Rus Multi Subs 720p .mp4",
-            "imdbId": null,
-            "tmdbId": 260346,
-            "tmdbUrl": "https://www.themoviedb.org/movie/260346",
-            "doublonExact": false,
-            "doublonProbable": true,
-            "groupeDoublon": "taken_3",
-            "dateAjout": "2026-11-06T19:39:20.772Z",
-            "titreTmdb": "Taken 3",
-            "anneeTmdb": "2014",
-            "dureeTmdb": 104,
-            "descriptionTmdb": "L’ex-agent spécial Bryan Mills voit son retour à une vie tranquille bouleversé lorsqu’il est accusé à tort du meurtre de son ex-femme, chez lui, à Los Angeles. En fuite et traqué par l’inspecteur Dotzler, Mills va devoir employer ses compétences particulières une dernière fois pour trouver le véritable coupable, prouver son innocence et protéger la seule personne qui compte désormais pour lui – sa fille.",
-            "collectionId": 135483,
-            "collectionNom": "Taken - Saga",
-            "collectionDescription": "Les aventures d'un ancien agent des services secrets américains, Bryan Mills, qui devra user de tout son talent pour s'extirper des périls le menaçant lui et sa famille.",
-            "collectionImage": "https://image.tmdb.org/t/p/w500/dObT7wPx4V4ZZ3hwBJws0EHuDlX.jpg",
-            "collectionTmdbUrl": "https://www.themoviedb.org/collection/135483",
-            "technique": {
-                "largeur": 1280,
-                "hauteur": 544,
-                "resolution": "1280x544",
-                "ratioImage": 2.353,
-                "codecVideo": "h264",
-                "profilVideo": "High",
-                "pixelFormat": "yuv420p",
-                "bitsParComposante": 8,
-                "bitrateVideo": 1443344,
-                "framerate": 23.976,
-                "espaceCouleur": "bt709",
-                "transfertCouleur": "bt709",
-                "primairesCouleur": "bt709",
-                "hdr": false,
-                "dureeFichier": 6918.528,
-                "bitrateGlobal": 2012376,
-                "formatConteneur": "mov,mp4,m4a,3gp,3g2,mj2",
-                "audio": [
-                    {
-                        "codec": "aac",
-                        "profil": "LC",
-                        "canaux": 2,
-                        "disposition": "stereo",
-                        "bitrate": 113202,
-                        "frequence": 48000,
-                        "langue": "eng"
-                    },
-                    {
-                        "codec": "ac3",
-                        "profil": null,
-                        "canaux": 6,
-                        "disposition": "5.1(side)",
-                        "bitrate": 320000,
-                        "frequence": 48000,
-                        "langue": "eng"
-                    },
-                    {
-                        "codec": "aac",
-                        "profil": "LC",
-                        "canaux": 2,
-                        "disposition": "stereo",
-                        "bitrate": 113460,
-                        "frequence": 48000,
-                        "langue": "rus"
-                    }
-                ],
-                "sousTitres": [
-                    {
-                        "codec": "mov_text",
-                        "langue": "eng",
-                        "titre": null
-                    },
-                    {
-                        "codec": "mov_text",
-                        "langue": "rus",
-                        "titre": null
-                    }
-                ]
-            },
-            "ignoreInCollection": false,
-            "titreOriginal": "Taken 3",
-            "langueOriginale": "en",
-            "type": "Film",
-            "studio": null
-        },
-        {
-            "id": "taken_3_2014",
-            "titre": "Taken 3",
-            "annee": 2014,
-            "langue": [
                 "VF"
             ],
             "taille": 730881763,
@@ -39835,14 +39629,14 @@
                 "Action"
             ],
             "image": "https://image.tmdb.org/t/p/w342/2CZkH6fYKUBq7exixbGcPa4Ksc6.jpg",
-            "fichier": "/Box_Films/- Nouveaux/Taken.3.2014.EXTENDED.FRENCH.BDRip.XviD.avi",
+            "fichier": "/Box_Films/Action/Taken/Taken.3.2014.EXTENDED.FRENCH.BDRip.XviD.avi",
             "nomFichier": "Taken.3.2014.EXTENDED.FRENCH.BDRip.XviD.avi",
             "imdbId": null,
             "tmdbId": 260346,
             "tmdbUrl": "https://www.themoviedb.org/movie/260346",
             "doublonExact": false,
-            "doublonProbable": true,
-            "groupeDoublon": "taken_3",
+            "doublonProbable": false,
+            "groupeDoublon": null,
             "dateAjout": "2026-11-06T19:39:20.786Z",
             "titreTmdb": "Taken 3",
             "anneeTmdb": "2014",
@@ -39887,21 +39681,25 @@
             "titreOriginal": "Taken 3",
             "langueOriginale": "en",
             "type": "Film",
-            "studio": null
+            "studio": null,
+            "languesAudio": [
+                "FR"
+            ],
+            "ignoreInCollection": false
         },
         {
             "id": "taken_3_6ch_2014",
             "titre": "Taken 3 6CH",
             "annee": 2014,
             "langue": [
-                "TBD"
+                "VO"
             ],
             "taille": 1443445537,
             "genre": [
                 "Action"
             ],
             "image": "https://image.tmdb.org/t/p/w342/2CZkH6fYKUBq7exixbGcPa4Ksc6.jpg",
-            "fichier": "/Box_Films/- Nouveaux/Taken.3.2014.EXTENDED.1080p.BluRay.6CH.x265.HEVC-PSA.mkv",
+            "fichier": "/Box_Films/Action/Taken/Taken.3.2014.EXTENDED.1080p.BluRay.6CH.x265.HEVC-PSA.mkv",
             "nomFichier": "Taken.3.2014.EXTENDED.1080p.BluRay.6CH.x265.HEVC-PSA.mkv",
             "imdbId": null,
             "tmdbId": 260346,
@@ -39964,7 +39762,10 @@
             "titreOriginal": "Taken 3",
             "langueOriginale": "en",
             "type": "Film",
-            "studio": null
+            "studio": null,
+            "languesAudio": [
+                "EN"
+            ]
         },
         {
             "id": "taxi_1_by_naceraz",
@@ -40399,9 +40200,7 @@
             ],
             "taille": 1287950776,
             "genre": [
-                "Mystère",
-                "Crime",
-                "Thriller"
+                "Action"
             ],
             "image": "https://image.tmdb.org/t/p/w342/kgzWQPNZp3byMamRr6Mm1KdgzUl.jpg",
             "fichier": "/Box_Films/- Nouveaux/The.Accountant.2.2025.Multi.Vf2.WEBRIP.mp4",
@@ -40508,7 +40307,9 @@
             "collectionDescription": "Une trilogie de thrillers policiers avec Ben Affleck dans le rôle d'un mathématicien plus affiné avec les chiffres qu'avec les gens. Sous couvert d'un cabinet d'expertise comptable d'une petite ville, il gagne sa vie en tant que comptable indépendant pour de dangereuses organisations criminelles.",
             "collectionImage": "https://image.tmdb.org/t/p/w500/rbTVcWYJp3xjKqirEif530uUACh.jpg",
             "collectionTmdbUrl": "https://www.themoviedb.org/collection/870339",
-            "ignoreInCollection": false
+            "ignoreInCollection": false,
+            "type": "Film",
+            "studio": null
         },
         {
             "id": "the_accountant_2_2025",
@@ -40766,6 +40567,180 @@
             "langueOriginale": "en"
         },
         {
+            "id": "the_amazing_spider_man_2012",
+            "titre": "The Amazing Spider Man ( )",
+            "annee": 2012,
+            "langue": [
+                "TBD"
+            ],
+            "taille": 4000646703,
+            "genre": null,
+            "image": null,
+            "fichier": "/Box_Films/- Nouveaux/The Amazing Spider-Man (2012) VFF-ENG AC3 BluRay 1080p x264.GHT.mkv",
+            "nomFichier": "The Amazing Spider-Man (2012) VFF-ENG AC3 BluRay 1080p x264.GHT.mkv",
+            "imdbId": null,
+            "tmdbId": null,
+            "tmdbUrl": null,
+            "doublonExact": false,
+            "doublonProbable": false,
+            "groupeDoublon": null,
+            "dateAjout": "2026-11-18T20:09:19.434Z",
+            "technique": {
+                "largeur": 1920,
+                "hauteur": 800,
+                "resolution": "1920x800",
+                "ratioImage": 2.4,
+                "codecVideo": "h264",
+                "profilVideo": "High",
+                "pixelFormat": "yuv420p",
+                "bitsParComposante": 8,
+                "bitrateVideo": null,
+                "framerate": 23.976,
+                "espaceCouleur": "bt709",
+                "transfertCouleur": "bt709",
+                "primairesCouleur": "bt709",
+                "hdr": false,
+                "dureeFichier": 8177.152,
+                "bitrateGlobal": 3913975,
+                "formatConteneur": "matroska,webm",
+                "audio": [
+                    {
+                        "codec": "ac3",
+                        "profil": null,
+                        "canaux": 6,
+                        "disposition": "5.1(side)",
+                        "bitrate": 448000,
+                        "frequence": 48000,
+                        "langue": "fre"
+                    },
+                    {
+                        "codec": "ac3",
+                        "profil": null,
+                        "canaux": 6,
+                        "disposition": "5.1(side)",
+                        "bitrate": 448000,
+                        "frequence": 48000,
+                        "langue": "eng"
+                    }
+                ],
+                "sousTitres": [
+                    {
+                        "codec": "subrip",
+                        "langue": "fre",
+                        "titre": "FR Forced"
+                    },
+                    {
+                        "codec": "subrip",
+                        "langue": "fre",
+                        "titre": "FR Full"
+                    },
+                    {
+                        "codec": "subrip",
+                        "langue": "eng",
+                        "titre": "ENG Full"
+                    },
+                    {
+                        "codec": "hdmv_pgs_subtitle",
+                        "langue": "fre",
+                        "titre": "FR Full PGS"
+                    },
+                    {
+                        "codec": "hdmv_pgs_subtitle",
+                        "langue": "eng",
+                        "titre": "ENG Full"
+                    }
+                ],
+                "zoneUtile": {
+                    "largeurUtile": 1920,
+                    "hauteurUtile": 800,
+                    "x": 0,
+                    "y": 0
+                }
+            }
+        },
+        {
+            "id": "the_amazing_spider_man_musketeers_2012",
+            "titre": "The Amazing Spider Man MuskeTeerS",
+            "annee": 2012,
+            "langue": [
+                "VF"
+            ],
+            "taille": 2255992898,
+            "genre": null,
+            "image": null,
+            "fichier": "/Box_Films/- Nouveaux/The.Amazing.Spider-Man.2012.REMASTERED.MULTi.TRUEFRENCH.BRRip.x264.AC3-MuskeTeerS.mkv",
+            "nomFichier": "The.Amazing.Spider-Man.2012.REMASTERED.MULTi.TRUEFRENCH.BRRip.x264.AC3-MuskeTeerS.mkv",
+            "imdbId": null,
+            "tmdbId": null,
+            "tmdbUrl": null,
+            "doublonExact": false,
+            "doublonProbable": false,
+            "groupeDoublon": null,
+            "dateAjout": "2026-11-18T20:09:19.871Z",
+            "technique": {
+                "largeur": 640,
+                "hauteur": 272,
+                "resolution": "640x272",
+                "ratioImage": 2.353,
+                "codecVideo": "h264",
+                "profilVideo": "High",
+                "pixelFormat": "yuv420p",
+                "bitsParComposante": 8,
+                "bitrateVideo": null,
+                "framerate": 23.976,
+                "espaceCouleur": null,
+                "transfertCouleur": null,
+                "primairesCouleur": null,
+                "hdr": false,
+                "dureeFichier": 8177.184,
+                "bitrateGlobal": 2207109,
+                "formatConteneur": "matroska,webm",
+                "audio": [
+                    {
+                        "codec": "ac3",
+                        "profil": null,
+                        "canaux": 6,
+                        "disposition": "5.1(side)",
+                        "bitrate": 448000,
+                        "frequence": 48000,
+                        "langue": "fre"
+                    },
+                    {
+                        "codec": "ac3",
+                        "profil": null,
+                        "canaux": 6,
+                        "disposition": "5.1(side)",
+                        "bitrate": 448000,
+                        "frequence": 48000,
+                        "langue": "eng"
+                    }
+                ],
+                "sousTitres": [
+                    {
+                        "codec": "subrip",
+                        "langue": "fre",
+                        "titre": "Français subforced"
+                    },
+                    {
+                        "codec": "subrip",
+                        "langue": "fre",
+                        "titre": "Français complet"
+                    },
+                    {
+                        "codec": "subrip",
+                        "langue": "eng",
+                        "titre": "Anglais"
+                    }
+                ],
+                "zoneUtile": {
+                    "largeurUtile": 640,
+                    "hauteurUtile": 272,
+                    "x": 0,
+                    "y": 0
+                }
+            }
+        },
+        {
             "id": "the_avengers_s_v_2012",
             "titre": "The Avengers S V",
             "annee": 2012,
@@ -40922,7 +40897,7 @@
             "ignoreInCollection": false,
             "titreOriginal": "The Bad Guys 2",
             "langueOriginale": "en",
-            "type": null,
+            "type": "Animation",
             "studio": null
         },
         {
@@ -42349,37 +42324,6 @@
             "studio": null
         },
         {
-            "id": "tmdb_1109206",
-            "titre": "The Secret Life of Pets 3",
-            "annee": 2100,
-            "langue": [
-                "TBD"
-            ],
-            "taille": 0,
-            "genre": [
-                "Comédie"
-            ],
-            "image": null,
-            "fichier": null,
-            "nomFichier": null,
-            "tmdbId": 1109206,
-            "tmdbUrl": "https://www.themoviedb.org/movie/1109206",
-            "doublonExact": false,
-            "doublonProbable": false,
-            "groupeDoublon": null,
-            "dateAjout": null,
-            "titreTmdb": "The Secret Life of Pets 3",
-            "titreOriginal": "The Secret Life of Pets 3",
-            "anneeTmdb": 2100,
-            "descriptionTmdb": "",
-            "collectionId": 427084,
-            "collectionNom": "Comme des bêtes - Saga",
-            "type": "Animation",
-            "studio": null,
-            "ignoreInCollection": true,
-            "langueOriginale": "en"
-        },
-        {
             "id": "smurfs_2_2013",
             "titre": "The Smurfs 2",
             "annee": 2013,
@@ -42455,7 +42399,6 @@
             ],
             "taille": 0,
             "genre": [
-                "Science-Fiction",
                 "Aventure"
             ],
             "image": "https://image.tmdb.org/t/p/w342/9XkEIX5xpyGn9bOnaECciqxwBes.jpg",
@@ -42554,7 +42497,6 @@
             ],
             "taille": 0,
             "genre": [
-                "Science-Fiction",
                 "Aventure"
             ],
             "image": "https://image.tmdb.org/t/p/w342/8Jwq61gLRlSgIruViNFzx0ttnT7.jpg",
@@ -42912,12 +42854,10 @@
             ],
             "taille": 700547950,
             "genre": [
-                "Aventure",
-                "Animation",
-                "Familial"
+                "Aventure"
             ],
             "image": "https://image.tmdb.org/t/p/w342/1aJsRTVbGfCVS397etGZ5AYOCuF.jpg",
-            "fichier": "/Box_Films/- Nouveaux/Tinker.Bell.and.the.Legend.of.the.Neverbeast.2014.FRENCH.BDRip.x264.mkv",
+            "fichier": "/Box_Films/Aventure/Fée Clochette/Tinker.Bell.and.the.Legend.of.the.Neverbeast.2014.FRENCH.BDRip.x264.mkv",
             "nomFichier": "Tinker.Bell.and.the.Legend.of.the.Neverbeast.2014.FRENCH.BDRip.x264.mkv",
             "imdbId": null,
             "tmdbId": 297270,
@@ -42974,7 +42914,9 @@
             },
             "ignoreInCollection": false,
             "titreOriginal": "Tinker Bell and the Legend of the NeverBeast",
-            "langueOriginale": "en"
+            "langueOriginale": "en",
+            "type": "Animation",
+            "studio": "Disney"
         },
         {
             "id": "tokyo_fast_and_tokyo_drift_2006",
@@ -44223,10 +44165,7 @@
             ],
             "taille": 932875189,
             "genre": [
-                "Animation",
-                "Familial",
-                "Comédie",
-                "Fantastique"
+                "Comédie"
             ],
             "image": "https://image.tmdb.org/t/p/w342/wmcbGp8IbEkYWQmCJWSRfzeCdP9.jpg",
             "fichier": "/Box_Films/Enfants/Turning.Red.2022.TRUEFRENCH.BDRip.x264-EXTREME.mkv",
@@ -44290,7 +44229,9 @@
                 ]
             },
             "titreOriginal": "Turning Red",
-            "langueOriginale": "en"
+            "langueOriginale": "en",
+            "type": "Animation",
+            "studio": null
         },
         {
             "id": "un_monstre_a_paris_2011",
@@ -44543,7 +44484,7 @@
         },
         {
             "id": "tmdb_1184696",
-            "titre": "Bond 26",
+            "titre": "Untitled James Bond Film",
             "annee": 2100,
             "langue": [
                 "TBD"
@@ -44561,8 +44502,8 @@
             "doublonProbable": false,
             "groupeDoublon": null,
             "dateAjout": null,
-            "titreTmdb": "Bond 26",
-            "titreOriginal": "Bond 26",
+            "titreTmdb": "Untitled James Bond Film",
+            "titreOriginal": "Untitled James Bond Film",
             "anneeTmdb": 2100,
             "descriptionTmdb": "Bond 26 sera un reboot de la saga James Bond, confié au réalisateur Denis Villeneuve et au scénariste Steven Knight.",
             "collectionId": 645,
@@ -45386,8 +45327,7 @@
             ],
             "taille": 735332352,
             "genre": [
-                "Science-Fiction",
-                "Drame"
+                "Policier"
             ],
             "image": "https://image.tmdb.org/t/p/w342/iwLR2K4CjRISMAER0Vy2xzhZ0W8.jpg",
             "fichier": "/Box_Films/- Nouveaux/WarGames-The.Dead.CodeDvDrip-aXXo.avi",
@@ -45442,7 +45382,7 @@
             "ignoreInCollection": false,
             "titreOriginal": "WarGames: The Dead Code",
             "langueOriginale": "en",
-            "type": null,
+            "type": "Film",
             "studio": null
         },
         {
@@ -45519,7 +45459,9 @@
                 "TBD"
             ],
             "taille": 0,
-            "genre": [],
+            "genre": [
+                "Aventure"
+            ],
             "image": "https://image.tmdb.org/t/p/w342/5c3bdubkmO9qi1BpudstbIccpXv.jpg",
             "fichier": null,
             "nomFichier": null,
@@ -45548,7 +45490,9 @@
                 "TBD"
             ],
             "taille": 0,
-            "genre": [],
+            "genre": [
+                "Aventure"
+            ],
             "image": "https://image.tmdb.org/t/p/w342/mTszIRmU7zKm4Nl03uEhlcQ5Dkz.jpg",
             "fichier": null,
             "nomFichier": null,
@@ -45737,75 +45681,8 @@
             "ignoreInCollection": false,
             "titreOriginal": "Wonder Woman 1984",
             "langueOriginale": "en",
-            "type": null,
-            "studio": null
-        },
-        {
-            "id": "x_men",
-            "titre": "X Men",
-            "annee": null,
-            "langue": [
-                "VF"
-            ],
-            "taille": 734255254,
-            "genre": [
-                "Science-Fiction"
-            ],
-            "image": "https://image.tmdb.org/t/p/w342/3zgG4m8ZCaR61O6OOZNAsSDn0rv.jpg",
-            "fichier": "/01_Films/Marvel/X-Men.TRUEFRENCH.BRRip.XviD-LKT.avi",
-            "nomFichier": "X-Men.TRUEFRENCH.BRRip.XviD-LKT.avi",
-            "imdbId": null,
-            "tmdbId": 36657,
-            "tmdbUrl": "https://www.themoviedb.org/movie/36657",
-            "doublonExact": false,
-            "doublonProbable": false,
-            "groupeDoublon": null,
-            "dateAjout": "2026-08-27T11:57:48.397Z",
-            "titreTmdb": "X-Men",
-            "anneeTmdb": "2000",
-            "dureeTmdb": 105,
-            "descriptionTmdb": "1944, dans un camp de concentration. Séparé par la force de ses parents, le jeune Erik Magnus Lehnsherr se découvre d'étranges pouvoirs sous le coup de la colère : il peut contrôler les métaux. C'est un mutant. Soixante ans plus tard, l'existence des mutants est reconnue mais provoque toujours un vif émoi au sein de la population. Puissant télépathe, le professeur Charles Xavier dirige une école destinée à recueillir ces êtres différents, souvent rejetés par les humains, et accueille un nouveau venu solitaire au passé mystérieux : Logan, alias Wolverine. En compagnie de Cyclope, Tornade et Jean Grey, les deux hommes forment les X-Men et vont affronter les sombres mutants ralliés à la cause de Erik Lehnsherr / Magnéto, en guerre contre l'humanité.",
-            "collectionId": 748,
-            "collectionNom": "X-Men - Saga",
-            "collectionDescription": "X-Men est une saga cinématographique de super-héros américaine.",
-            "collectionImage": "https://image.tmdb.org/t/p/w500/cTFXJxm054ViQEf0eaLWWN1gdiL.jpg",
-            "collectionTmdbUrl": "https://www.themoviedb.org/collection/748",
             "type": "Film",
-            "studio": "Marvel",
-            "ignoreInCollection": false,
-            "technique": {
-                "largeur": 720,
-                "hauteur": 304,
-                "resolution": "720x304",
-                "ratioImage": 2.368,
-                "codecVideo": "mpeg4",
-                "profilVideo": "Advanced Simple Profile",
-                "pixelFormat": "yuv420p",
-                "bitsParComposante": null,
-                "bitrateVideo": 786802,
-                "framerate": 23.976,
-                "espaceCouleur": null,
-                "transfertCouleur": null,
-                "primairesCouleur": null,
-                "hdr": false,
-                "dureeFichier": 6336.50317,
-                "bitrateGlobal": 927016,
-                "formatConteneur": "avi",
-                "audio": [
-                    {
-                        "codec": "mp3",
-                        "profil": null,
-                        "canaux": 2,
-                        "disposition": "stereo",
-                        "bitrate": 128000,
-                        "frequence": 48000,
-                        "langue": null
-                    }
-                ],
-                "sousTitres": []
-            },
-            "titreOriginal": "X-Men",
-            "langueOriginale": "en"
+            "studio": null
         },
         {
             "id": "x_men_4klight_hdr_5_1_2000",
@@ -45817,12 +45694,10 @@
             ],
             "taille": 4107085590,
             "genre": [
-                "Aventure",
-                "Action",
                 "Science-Fiction"
             ],
             "image": "https://image.tmdb.org/t/p/w342/3zgG4m8ZCaR61O6OOZNAsSDn0rv.jpg",
-            "fichier": "/Box_Films/- Nouveaux/X-Men (2000) MULTi VFF 2160p 10bit 4KLight HDR BluRay x265 AAC 5.1 - QTZ.mkv",
+            "fichier": "/Box_Films/Marvel/X-Men/X-Men (2000) MULTi VFF 2160p 10bit 4KLight HDR BluRay x265 AAC 5.1 - QTZ.mkv",
             "nomFichier": "X-Men (2000) MULTi VFF 2160p 10bit 4KLight HDR BluRay x265 AAC 5.1 - QTZ.mkv",
             "imdbId": null,
             "tmdbId": 36657,
@@ -45912,140 +45787,9 @@
             "collectionNom": "X-Men - Saga",
             "collectionDescription": "X-Men est une saga cinématographique de super-héros américaine.",
             "collectionImage": "https://image.tmdb.org/t/p/w500/9Z4fKVUqAJ2WEP6pQFTtYPuoknd.jpg",
-            "collectionTmdbUrl": "https://www.themoviedb.org/collection/748"
-        },
-        {
-            "id": "x_men_1",
-            "titre": "X Men 1",
-            "annee": null,
-            "langue": [
-                "VF"
-            ],
-            "taille": 730863616,
-            "genre": [
-                "Science-Fiction"
-            ],
-            "image": "https://image.tmdb.org/t/p/w342/3zgG4m8ZCaR61O6OOZNAsSDn0rv.jpg",
-            "fichier": "/01_Films/Marvel/X-Men 1 - VF.avi",
-            "nomFichier": "X-Men 1 - VF.avi",
-            "imdbId": null,
-            "tmdbId": 36657,
-            "tmdbUrl": "https://www.themoviedb.org/movie/36657",
-            "doublonExact": false,
-            "doublonProbable": false,
-            "groupeDoublon": null,
-            "dateAjout": "2026-08-27T11:57:48.367Z",
-            "titreTmdb": "X-Men",
-            "anneeTmdb": "2000",
-            "dureeTmdb": 105,
-            "descriptionTmdb": "1944, dans un camp de concentration. Séparé par la force de ses parents, le jeune Erik Magnus Lehnsherr se découvre d'étranges pouvoirs sous le coup de la colère : il peut contrôler les métaux. C'est un mutant. Soixante ans plus tard, l'existence des mutants est reconnue mais provoque toujours un vif émoi au sein de la population. Puissant télépathe, le professeur Charles Xavier dirige une école destinée à recueillir ces êtres différents, souvent rejetés par les humains, et accueille un nouveau venu solitaire au passé mystérieux : Logan, alias Wolverine. En compagnie de Cyclope, Tornade et Jean Grey, les deux hommes forment les X-Men et vont affronter les sombres mutants ralliés à la cause de Erik Lehnsherr / Magnéto, en guerre contre l'humanité.",
-            "collectionId": 748,
-            "collectionNom": "X-Men - Saga",
-            "collectionDescription": "X-Men est une saga cinématographique de super-héros américaine.",
-            "collectionImage": "https://image.tmdb.org/t/p/w500/cTFXJxm054ViQEf0eaLWWN1gdiL.jpg",
             "collectionTmdbUrl": "https://www.themoviedb.org/collection/748",
             "type": "Film",
-            "studio": "Marvel",
-            "technique": {
-                "largeur": 704,
-                "hauteur": 304,
-                "resolution": "704x304",
-                "ratioImage": 2.316,
-                "codecVideo": "mpeg4",
-                "profilVideo": null,
-                "pixelFormat": "yuv420p",
-                "bitsParComposante": null,
-                "bitrateVideo": 840295,
-                "framerate": 25,
-                "espaceCouleur": null,
-                "transfertCouleur": null,
-                "primairesCouleur": null,
-                "hdr": false,
-                "dureeFichier": 6077.84,
-                "bitrateGlobal": 962004,
-                "formatConteneur": "avi",
-                "audio": [
-                    {
-                        "codec": "mp3",
-                        "profil": null,
-                        "canaux": 2,
-                        "disposition": "stereo",
-                        "bitrate": 112000,
-                        "frequence": 48000,
-                        "langue": null
-                    }
-                ],
-                "sousTitres": []
-            },
-            "titreOriginal": "X-Men",
-            "langueOriginale": "en"
-        },
-        {
-            "id": "x_men_2",
-            "titre": "X Men 2",
-            "annee": null,
-            "langue": [
-                "VF"
-            ],
-            "taille": 734918656,
-            "genre": [
-                "Science-Fiction"
-            ],
-            "image": "https://image.tmdb.org/t/p/w342/xQ9KsoaGNO9fyZiyE6rWfmXzQIL.jpg",
-            "fichier": "/01_Films/Marvel/X-Men 2 - VF.avi",
-            "nomFichier": "X-Men 2 - VF.avi",
-            "imdbId": null,
-            "tmdbId": 36658,
-            "tmdbUrl": "https://www.themoviedb.org/movie/36658",
-            "doublonExact": false,
-            "doublonProbable": true,
-            "groupeDoublon": "x_men_2",
-            "dateAjout": "2026-08-27T11:57:48.378Z",
-            "titreTmdb": "X-Men 2",
-            "anneeTmdb": "2003",
-            "dureeTmdb": 135,
-            "descriptionTmdb": "Toujours considérés comme des monstres par une société qui les rejette, les mutants sont une nouvelle fois au centre des débats alors qu'un crime effroyable commis par l'un d'eux relance la polémique autour de l'Acte d'Enregistrement des Mutants et le mouvement anti-mutants, dirigé par l'ancien militaire William Stryker. Quand ce dernier lance une attaque contre l'école de mutants du Professeur Charles Xavier, les X-Men se préparent à une guerre sans merci pour leur survie, aidés de Magnéto, récemment évadé de sa cellule de plastique. Parallèlement, Wolverine enquête sur son mystérieux passé, auquel Stryker, dont on dit qu'il a mené de nombreuses expériences sur les mutants, ne serait pas étranger…",
-            "collectionId": 748,
-            "collectionNom": "X-Men - Saga",
-            "collectionDescription": "X-Men est une saga cinématographique de super-héros américaine.",
-            "collectionImage": "https://image.tmdb.org/t/p/w500/cTFXJxm054ViQEf0eaLWWN1gdiL.jpg",
-            "collectionTmdbUrl": "https://www.themoviedb.org/collection/748",
-            "type": "Film",
-            "studio": "Marvel",
-            "ignoreInCollection": false,
-            "technique": {
-                "largeur": 720,
-                "hauteur": 296,
-                "resolution": "720x296",
-                "ratioImage": 2.432,
-                "codecVideo": "mpeg4",
-                "profilVideo": "Advanced Simple Profile",
-                "pixelFormat": "yuv420p",
-                "bitsParComposante": null,
-                "bitrateVideo": 704200,
-                "framerate": 25,
-                "espaceCouleur": null,
-                "transfertCouleur": null,
-                "primairesCouleur": null,
-                "hdr": false,
-                "dureeFichier": 7259.28,
-                "bitrateGlobal": 809908,
-                "formatConteneur": "avi",
-                "audio": [
-                    {
-                        "codec": "mp3",
-                        "profil": null,
-                        "canaux": 2,
-                        "disposition": "stereo",
-                        "bitrate": 96000,
-                        "frequence": 24000,
-                        "langue": null
-                    }
-                ],
-                "sousTitres": []
-            },
-            "titreOriginal": "X2",
-            "langueOriginale": "en"
+            "studio": "Marvel"
         },
         {
             "id": "x_men_2_2003",
@@ -46056,12 +45800,10 @@
             ],
             "taille": 8530619087,
             "genre": [
-                "Aventure",
-                "Action",
                 "Science-Fiction"
             ],
             "image": "https://image.tmdb.org/t/p/w342/xQ9KsoaGNO9fyZiyE6rWfmXzQIL.jpg",
-            "fichier": "/Box_Films/- Nouveaux/X-Men 2 (2003) .mkv",
+            "fichier": "/Box_Films/Marvel/X-Men/X-Men 2 (2003) .mkv",
             "nomFichier": "X-Men 2 (2003) .mkv",
             "imdbId": null,
             "tmdbId": 36658,
@@ -46141,139 +45883,9 @@
             "collectionNom": "X-Men - Saga",
             "collectionDescription": "X-Men est une saga cinématographique de super-héros américaine.",
             "collectionImage": "https://image.tmdb.org/t/p/w500/9Z4fKVUqAJ2WEP6pQFTtYPuoknd.jpg",
-            "collectionTmdbUrl": "https://www.themoviedb.org/collection/748"
-        },
-        {
-            "id": "x_men_2_1",
-            "titre": "X Men 2 1",
-            "annee": null,
-            "langue": [
-                "VO"
-            ],
-            "taille": 729763840,
-            "genre": [
-                "Science-Fiction"
-            ],
-            "image": "https://image.tmdb.org/t/p/w342/xQ9KsoaGNO9fyZiyE6rWfmXzQIL.jpg",
-            "fichier": "/01_Films/Marvel/X-Men 2 - CD 1 - VO.avi",
-            "nomFichier": "X-Men 2 - CD 1 - VO.avi",
-            "imdbId": null,
-            "tmdbId": 36658,
-            "tmdbUrl": "https://www.themoviedb.org/movie/36658",
-            "doublonExact": false,
-            "doublonProbable": false,
-            "groupeDoublon": null,
-            "dateAjout": "2026-08-27T11:57:48.370Z",
-            "titreTmdb": "X-Men 2",
-            "anneeTmdb": "2003",
-            "dureeTmdb": 135,
-            "descriptionTmdb": "Toujours considérés comme des monstres par une société qui les rejette, les mutants sont une nouvelle fois au centre des débats alors qu'un crime effroyable commis par l'un d'eux relance la polémique autour de l'Acte d'Enregistrement des Mutants et le mouvement anti-mutants, dirigé par l'ancien militaire William Stryker. Quand ce dernier lance une attaque contre l'école de mutants du Professeur Charles Xavier, les X-Men se préparent à une guerre sans merci pour leur survie, aidés de Magnéto, récemment évadé de sa cellule de plastique. Parallèlement, Wolverine enquête sur son mystérieux passé, auquel Stryker, dont on dit qu'il a mené de nombreuses expériences sur les mutants, ne serait pas étranger…",
-            "collectionId": 748,
-            "collectionNom": "X-Men - Saga",
-            "collectionDescription": "X-Men est une saga cinématographique de super-héros américaine.",
-            "collectionImage": "https://image.tmdb.org/t/p/w500/cTFXJxm054ViQEf0eaLWWN1gdiL.jpg",
             "collectionTmdbUrl": "https://www.themoviedb.org/collection/748",
             "type": "Film",
-            "studio": "Marvel",
-            "technique": {
-                "largeur": 608,
-                "hauteur": 256,
-                "resolution": "608x256",
-                "ratioImage": 2.375,
-                "codecVideo": "mpeg4",
-                "profilVideo": null,
-                "pixelFormat": "yuv420p",
-                "bitsParComposante": null,
-                "bitrateVideo": 1127278,
-                "framerate": 25,
-                "espaceCouleur": null,
-                "transfertCouleur": null,
-                "primairesCouleur": null,
-                "hdr": false,
-                "dureeFichier": 3687.56,
-                "bitrateGlobal": 1583190,
-                "formatConteneur": "avi",
-                "audio": [
-                    {
-                        "codec": "ac3",
-                        "profil": null,
-                        "canaux": 6,
-                        "disposition": "5.1(side)",
-                        "bitrate": 448000,
-                        "frequence": 48000,
-                        "langue": null
-                    }
-                ],
-                "sousTitres": []
-            },
-            "titreOriginal": "X2",
-            "langueOriginale": "en"
-        },
-        {
-            "id": "x_men_2_2",
-            "titre": "X Men 2 2",
-            "annee": null,
-            "langue": [
-                "VO"
-            ],
-            "taille": 728807424,
-            "genre": [
-                "Science-Fiction"
-            ],
-            "image": "https://image.tmdb.org/t/p/w342/xQ9KsoaGNO9fyZiyE6rWfmXzQIL.jpg",
-            "fichier": "/01_Films/Marvel/X-Men 2 - CD 2 - VO.avi",
-            "nomFichier": "X-Men 2 - CD 2 - VO.avi",
-            "imdbId": null,
-            "tmdbId": 36658,
-            "tmdbUrl": "https://www.themoviedb.org/movie/36658",
-            "doublonExact": false,
-            "doublonProbable": false,
-            "groupeDoublon": null,
-            "dateAjout": "2026-08-27T11:57:48.374Z",
-            "titreTmdb": "X-Men 2",
-            "anneeTmdb": "2003",
-            "dureeTmdb": 135,
-            "descriptionTmdb": "Toujours considérés comme des monstres par une société qui les rejette, les mutants sont une nouvelle fois au centre des débats alors qu'un crime effroyable commis par l'un d'eux relance la polémique autour de l'Acte d'Enregistrement des Mutants et le mouvement anti-mutants, dirigé par l'ancien militaire William Stryker. Quand ce dernier lance une attaque contre l'école de mutants du Professeur Charles Xavier, les X-Men se préparent à une guerre sans merci pour leur survie, aidés de Magnéto, récemment évadé de sa cellule de plastique. Parallèlement, Wolverine enquête sur son mystérieux passé, auquel Stryker, dont on dit qu'il a mené de nombreuses expériences sur les mutants, ne serait pas étranger…",
-            "collectionId": 748,
-            "collectionNom": "X-Men - Saga",
-            "collectionDescription": "X-Men est une saga cinématographique de super-héros américaine.",
-            "collectionImage": "https://image.tmdb.org/t/p/w500/cTFXJxm054ViQEf0eaLWWN1gdiL.jpg",
-            "collectionTmdbUrl": "https://www.themoviedb.org/collection/748",
-            "type": "Film",
-            "studio": "Marvel",
-            "technique": {
-                "largeur": 608,
-                "hauteur": 256,
-                "resolution": "608x256",
-                "ratioImage": 2.375,
-                "codecVideo": "mpeg4",
-                "profilVideo": null,
-                "pixelFormat": "yuv420p",
-                "bitsParComposante": null,
-                "bitrateVideo": 998035,
-                "framerate": 25,
-                "espaceCouleur": null,
-                "transfertCouleur": null,
-                "primairesCouleur": null,
-                "hdr": false,
-                "dureeFichier": 4010.08,
-                "bitrateGlobal": 1453950,
-                "formatConteneur": "avi",
-                "audio": [
-                    {
-                        "codec": "ac3",
-                        "profil": null,
-                        "canaux": 6,
-                        "disposition": "5.1(side)",
-                        "bitrate": 448000,
-                        "frequence": 48000,
-                        "langue": null
-                    }
-                ],
-                "sousTitres": []
-            },
-            "titreOriginal": "X2",
-            "langueOriginale": "en"
+            "studio": "Marvel"
         },
         {
             "id": "x_men_3",
@@ -46352,9 +45964,7 @@
             ],
             "taille": 3741349902,
             "genre": [
-                "Science-Fiction",
-                "Fantastique",
-                "Action"
+                "Science-Fiction"
             ],
             "image": "https://image.tmdb.org/t/p/w342/dt9K3vjV6nIttECni7EfXLysDa2.jpg",
             "fichier": "/Box_Films/- Nouveaux/X-Men Apocalypse 2016 MULTi 1080p BluRay x264-ZT.mkv",
@@ -46448,7 +46058,9 @@
             "collectionDescription": "X-Men est une saga cinématographique de super-héros américaine.",
             "collectionImage": "https://image.tmdb.org/t/p/w500/9Z4fKVUqAJ2WEP6pQFTtYPuoknd.jpg",
             "collectionTmdbUrl": "https://www.themoviedb.org/collection/748",
-            "ignoreInCollection": false
+            "ignoreInCollection": false,
+            "type": "Film",
+            "studio": null
         },
         {
             "id": "x_men_apocalypse",
@@ -46515,73 +46127,6 @@
                 "sousTitres": []
             },
             "titreOriginal": "X-Men: Apocalypse",
-            "langueOriginale": "en"
-        },
-        {
-            "id": "x_men_commencement",
-            "titre": "X Men Commencement",
-            "annee": null,
-            "langue": [
-                "VF"
-            ],
-            "taille": 733765632,
-            "genre": [
-                "Science-Fiction"
-            ],
-            "image": "https://image.tmdb.org/t/p/w342/Ato626O1cmOjMlOFvYsgy9SJMbj.jpg",
-            "fichier": "/01_Films/Marvel/X-Men Le Commencement - VF.avi",
-            "nomFichier": "X-Men Le Commencement - VF.avi",
-            "imdbId": null,
-            "tmdbId": 49538,
-            "tmdbUrl": "https://www.themoviedb.org/movie/49538",
-            "doublonExact": false,
-            "doublonProbable": false,
-            "groupeDoublon": null,
-            "dateAjout": "2026-08-27T11:57:48.389Z",
-            "titreTmdb": "X-Men : Le Commencement",
-            "anneeTmdb": "2011",
-            "dureeTmdb": 130,
-            "descriptionTmdb": "\"X-Men : Le Commencement\" nous entraîne aux origines de la saga X-Men, révélant une histoire secrète autour des événements majeurs du XXe siècle. Avant que les mutants n’aient révélé leur existence au monde, et avant que Charles Xavier et Erik Lehnsherr ne deviennent le Professeur X et Magneto, ils n’étaient encore que deux jeunes hommes découvrant leurs pouvoirs pour la première fois. Avant de devenir les pires ennemis, ils étaient encore amis, travaillaient avec d’autres mutants pour empêcher la destruction du monde, l’Armageddon. Au cours de cette opération, le conflit naissant entre les deux hommes s’accentua, et la guerre éternelle entre la Confrérie de Magneto et les X-Men du Professeur X éclata…",
-            "collectionId": 748,
-            "collectionNom": "X-Men - Saga",
-            "collectionDescription": "X-Men est une saga cinématographique de super-héros américaine.",
-            "collectionImage": "https://image.tmdb.org/t/p/w500/cTFXJxm054ViQEf0eaLWWN1gdiL.jpg",
-            "collectionTmdbUrl": "https://www.themoviedb.org/collection/748",
-            "type": "Film",
-            "studio": "Marvel",
-            "ignoreInCollection": false,
-            "technique": {
-                "largeur": 644,
-                "hauteur": 272,
-                "resolution": "644x272",
-                "ratioImage": 2.368,
-                "codecVideo": "mpeg4",
-                "profilVideo": "Advanced Simple Profile",
-                "pixelFormat": "yuv420p",
-                "bitsParComposante": null,
-                "bitrateVideo": 681114,
-                "framerate": 25,
-                "espaceCouleur": null,
-                "transfertCouleur": null,
-                "primairesCouleur": null,
-                "hdr": false,
-                "dureeFichier": 7169.4,
-                "bitrateGlobal": 818774,
-                "formatConteneur": "avi",
-                "audio": [
-                    {
-                        "codec": "mp3",
-                        "profil": null,
-                        "canaux": 2,
-                        "disposition": "stereo",
-                        "bitrate": 128000,
-                        "frequence": 44100,
-                        "langue": null
-                    }
-                ],
-                "sousTitres": []
-            },
-            "titreOriginal": "X-Men: First Class",
             "langueOriginale": "en"
         },
         {
@@ -46660,8 +46205,6 @@
             ],
             "taille": 1042455963,
             "genre": [
-                "Action",
-                "Aventure",
                 "Science-Fiction"
             ],
             "image": "https://image.tmdb.org/t/p/w342/zGSi4NG7SfyILp3SOfBgVo4VoWG.jpg",
@@ -46716,7 +46259,9 @@
             },
             "ignoreInCollection": false,
             "titreOriginal": "X-Men: Days of Future Past",
-            "langueOriginale": "en"
+            "langueOriginale": "en",
+            "type": "Film",
+            "studio": null
         },
         {
             "id": "x_men_days_of_future_past_av1_5_1_dust_2014",
@@ -46727,8 +46272,6 @@
             ],
             "taille": 4556516961,
             "genre": [
-                "Action",
-                "Aventure",
                 "Science-Fiction"
             ],
             "image": "https://image.tmdb.org/t/p/w342/zGSi4NG7SfyILp3SOfBgVo4VoWG.jpg",
@@ -46918,7 +46461,9 @@
             "collectionNom": "X-Men - Saga",
             "collectionDescription": "X-Men est une saga cinématographique de super-héros américaine.",
             "collectionImage": "https://image.tmdb.org/t/p/w500/9Z4fKVUqAJ2WEP6pQFTtYPuoknd.jpg",
-            "collectionTmdbUrl": "https://www.themoviedb.org/collection/748"
+            "collectionTmdbUrl": "https://www.themoviedb.org/collection/748",
+            "type": "Film",
+            "studio": null
         },
         {
             "id": "x_men_first_class_2011",
@@ -46930,12 +46475,10 @@
             ],
             "taille": 4070846405,
             "genre": [
-                "Action",
-                "Science-Fiction",
-                "Aventure"
+                "Science-Fiction"
             ],
             "image": "https://image.tmdb.org/t/p/w342/q9TpnJOMnLYEs702d0ET6YTYw8V.jpg",
-            "fichier": "/Box_Films/- Nouveaux/X-Men First Class 2011 MULTi VFF 1080p HDLight x264.GHT-Shanks.mkv",
+            "fichier": "/Box_Films/Marvel/X-Men/X-Men First Class 2011 MULTi VFF 1080p HDLight x264.GHT-Shanks.mkv",
             "nomFichier": "X-Men First Class 2011 MULTi VFF 1080p HDLight x264.GHT-Shanks.mkv",
             "imdbId": null,
             "tmdbId": 49538,
@@ -47015,73 +46558,9 @@
             "collectionNom": "X-Men - Saga",
             "collectionDescription": "X-Men est une saga cinématographique de super-héros américaine.",
             "collectionImage": "https://image.tmdb.org/t/p/w500/9Z4fKVUqAJ2WEP6pQFTtYPuoknd.jpg",
-            "collectionTmdbUrl": "https://www.themoviedb.org/collection/748"
-        },
-        {
-            "id": "x_men_first_class_2011",
-            "titre": "X Men First Class",
-            "annee": 2011,
-            "langue": [
-                "TBD"
-            ],
-            "taille": 2311772160,
-            "genre": [
-                "Science-Fiction"
-            ],
-            "image": "https://image.tmdb.org/t/p/w342/Ato626O1cmOjMlOFvYsgy9SJMbj.jpg",
-            "fichier": "/01_Films/Marvel/X-Men First Class - 2011.avi",
-            "nomFichier": "X-Men First Class - 2011.avi",
-            "imdbId": null,
-            "tmdbId": 49538,
-            "tmdbUrl": "https://www.themoviedb.org/movie/49538",
-            "doublonExact": false,
-            "doublonProbable": true,
-            "groupeDoublon": "x_men_first_class",
-            "dateAjout": "2026-08-27T11:57:48.385Z",
-            "titreTmdb": "X-Men : Le Commencement",
-            "anneeTmdb": "2011",
-            "dureeTmdb": 130,
-            "descriptionTmdb": "\"X-Men : Le Commencement\" nous entraîne aux origines de la saga X-Men, révélant une histoire secrète autour des événements majeurs du XXe siècle. Avant que les mutants n’aient révélé leur existence au monde, et avant que Charles Xavier et Erik Lehnsherr ne deviennent le Professeur X et Magneto, ils n’étaient encore que deux jeunes hommes découvrant leurs pouvoirs pour la première fois. Avant de devenir les pires ennemis, ils étaient encore amis, travaillaient avec d’autres mutants pour empêcher la destruction du monde, l’Armageddon. Au cours de cette opération, le conflit naissant entre les deux hommes s’accentua, et la guerre éternelle entre la Confrérie de Magneto et les X-Men du Professeur X éclata…",
-            "collectionId": 748,
-            "collectionNom": "X-Men - Saga",
-            "collectionDescription": "X-Men est une saga cinématographique de super-héros américaine.",
-            "collectionImage": "https://image.tmdb.org/t/p/w500/cTFXJxm054ViQEf0eaLWWN1gdiL.jpg",
             "collectionTmdbUrl": "https://www.themoviedb.org/collection/748",
             "type": "Film",
-            "studio": "Marvel",
-            "technique": {
-                "largeur": 720,
-                "hauteur": 304,
-                "resolution": "720x304",
-                "ratioImage": 2.368,
-                "codecVideo": "mpeg4",
-                "profilVideo": "Advanced Simple Profile",
-                "pixelFormat": "yuv420p",
-                "bitsParComposante": null,
-                "bitrateVideo": 1687982,
-                "framerate": 23.976,
-                "espaceCouleur": null,
-                "transfertCouleur": null,
-                "primairesCouleur": null,
-                "hdr": false,
-                "dureeFichier": 7902.94934,
-                "bitrateGlobal": 2340161,
-                "formatConteneur": "avi",
-                "audio": [
-                    {
-                        "codec": "ac3",
-                        "profil": null,
-                        "canaux": 6,
-                        "disposition": "5.1(side)",
-                        "bitrate": 640000,
-                        "frequence": 48000,
-                        "langue": null
-                    }
-                ],
-                "sousTitres": []
-            },
-            "titreOriginal": "X-Men: First Class",
-            "langueOriginale": "en"
+            "studio": "Marvel"
         },
         {
             "id": "x_men_origins",
@@ -47651,8 +47130,7 @@
             ],
             "taille": 1606730568,
             "genre": [
-                "Musique",
-                "Drame"
+                "Comédie musicale"
             ],
             "image": "https://image.tmdb.org/t/p/w342/uyhYtDOOaNaVtaMl6lwcwWI6mhG.jpg",
             "fichier": "/Box_Films/Musique/Street Dancers/You.Got.Served.2004.1080p.BluRay.x264-.mp4",
@@ -47708,7 +47186,9 @@
             "collectionTmdbUrl": "https://www.themoviedb.org/collection/353721",
             "languesAudio": [
                 "EN"
-            ]
+            ],
+            "type": "Film",
+            "studio": null
         },
         {
             "id": "you_got_served_2_beat_the_world_rarbg_2011",
@@ -47719,8 +47199,7 @@
             ],
             "taille": 1872649410,
             "genre": [
-                "Musique",
-                "Drame"
+                "Comédie musicale"
             ],
             "image": "https://image.tmdb.org/t/p/w342/nZCPl2Du2PRkky4Mzb4YiXk9C1Q.jpg",
             "fichier": "/Box_Films/- Nouveaux/You.Got.Served.2.Beat.the.World.2011.1080p.BluRay.H264.AAC-RARBG.mp4",
@@ -47773,7 +47252,9 @@
             "collectionNom": "Street Dancers - Saga",
             "collectionDescription": null,
             "collectionImage": "https://image.tmdb.org/t/p/w500/zQWOUTWPUR0XGgqiQG5zY8lZq2l.jpg",
-            "collectionTmdbUrl": "https://www.themoviedb.org/collection/353721"
+            "collectionTmdbUrl": "https://www.themoviedb.org/collection/353721",
+            "type": "Film",
+            "studio": null
         },
         {
             "id": "tmdb_898230",
@@ -53732,7 +53213,8 @@
                             "doublonProbable": false,
                             "dateAjout": "2026-09-06T18:10:38.716Z"
                         }
-                    ]
+                    ],
+                    "hasMissingEpisodes": false
                 },
                 {
                     "numero": 2,
@@ -53893,7 +53375,8 @@
                             "doublonProbable": false,
                             "dateAjout": "2026-09-06T18:10:38.723Z"
                         }
-                    ]
+                    ],
+                    "hasMissingEpisodes": false
                 }
             ]
         },
@@ -67878,18 +67361,13 @@
     ],
     "stockage": [
         {
-            "lecteur": "E",
-            "espaceLibre": 303894896640,
-            "capaciteTotale": 500001927168
-        },
-        {
             "lecteur": "Y",
-            "espaceLibre": 389614362624,
+            "espaceLibre": 382755889152,
             "capaciteTotale": 2000396742656
         },
         {
             "lecteur": "Z",
-            "espaceLibre": 64355397632,
+            "espaceLibre": 66575978496,
             "capaciteTotale": 1000169533440
         }
     ]

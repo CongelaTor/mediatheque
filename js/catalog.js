@@ -65,12 +65,14 @@ async function reloadCatalog(type = "all") {
   }
 }
 
-function isFilmNouveaute(film) {
+function isFilmNouveau(film) {
   const files = film.groupFiles?.length ? film.groupFiles : [film];
-  const isInNouveauxFolder = files.some((file) =>
+  return files.some((file) =>
     /^\/[^/]+_Films\/- Nouveaux\//i.test(file.fichier || ""),
   );
-  return !film.titreTmdb || isInNouveauxFolder;
+}
+function isFilmNouveaute(film) {
+  return !film.titreTmdb || isFilmNouveau(film);
 }
 
 function updateStats() {
@@ -146,6 +148,7 @@ function updateStats() {
     nouveautesFilms.add(key);
   }
   const nouveautesCount = nouveautesFilms.size;
+  const nouveauxCount = catalog.films.filter(isFilmNouveau).length;
   const seriesCount = catalog.series.length;
   const episodesCount = countEpisodes();
 
@@ -178,7 +181,18 @@ function updateStats() {
   setText("statSeries", seriesCount);
   setText("statEpisodes", episodesCount);
   setText("sideFilms", filmsCount);
-  setText("sideNouveautes", nouveautesCount);
+  const sideNouveautesTextEl = document.getElementById("sideNouveautes");
+  if (sideNouveautesTextEl) {
+    setText("sideNouveautes", nouveautesCount);
+    sideNouveautesTextEl.nextSibling.textContent =
+      nouveautesCount > 1 ? " Nouveautés" : " Nouveauté";
+  }
+  const sideNouveauxTextEl = document.getElementById("sideNouveaux");
+  if (sideNouveauxTextEl) {
+    setText("sideNouveaux", nouveauxCount);
+    sideNouveauxTextEl.nextSibling.textContent =
+      nouveauxCount > 1 ? " Nouveaux" : " Nouveau";
+  }
   setText("sideSeries", seriesCount);
   setText("sideEpisodes", episodesCount);
 
@@ -262,6 +276,22 @@ function updateStats() {
         statRow.title = "";
         statRow.onclick = null;
       }
+    }
+  }
+  const sideErreursEl = document.getElementById("sideErreurs");
+  if (sideErreursEl) {
+    const statRow = sideErreursEl.closest(".sidebar-stat");
+    if (statRow) {
+      statRow.style.cursor = "pointer";
+      statRow.title = "Filtrer par À corriger";
+      statRow.onclick = () => {
+        const erreursButton = document.querySelector(
+          '.sidebar-link[data-ajouts="À corriger"]',
+        );
+        if (erreursButton) {
+          erreursButton.click();
+        }
+      };
     }
   }
   setText(

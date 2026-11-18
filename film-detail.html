@@ -39,7 +39,8 @@
                             <div class="serie-info-image"></div>
                             <div id="filmInfoDescription" class="tmdb-result-description"></div>
                         </div>
-                        <div class="film-detail-actions-row">
+
+                        <div id="filmDetailActionsRow" class="film-detail-actions-row">
                             <div id="languageFilters" class="language-filters">
                                 <button class="language-button active" data-language="VO">VO</button>
                                 <button class="language-button active" data-language="VF">VF</button>
@@ -47,9 +48,17 @@
                                 <button class="language-button active" data-language="VOSTFR">VOSTFR</button>
                                 <button class="language-button active" data-language="TBD">TBD</button>
                             </div>
+                            <div id="filmMetadataButtons" class="language-filters">
+                                <button id="filmTypeButton" class="language-button">Type</button>
+                                <button id="filmGenreButton" class="language-button">Genre</button>
+                                <button id="filmStudioButton" class="language-button">Studio</button>
+                            </div>
                             <button id="filmSearchButton" class="tmdb-associate-button">Rechercher</button>
                         </div>
+                        <div id="filmMetadataChoices" class="film-metadata-choices" hidden></div>
+
                         <div id="filmFilesPanel" class="episodes-panel"></div>
+
                     </section>
                 </div>
             </section>

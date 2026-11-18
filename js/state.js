@@ -148,7 +148,7 @@ function saveToolsButtonsState() {
   localStorage.setItem(toolsButtonsStateKey, JSON.stringify(state));
 }
 function saveToolsFiltersState() {
-  if (currentAjouts !== "ACorriger") {
+  if (currentAjouts !== "À corriger") {
     const state = loadSidebarFiltersState();
     state.ajouts = currentAjouts;
     state.genre = currentGenre;

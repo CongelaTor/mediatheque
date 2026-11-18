@@ -91,9 +91,17 @@ async function initFilmDetailPage() {
   const referenceFilm = films[0];
   document.getElementById("filmSearchButton").onclick = () =>
     showFilmSearchModal(referenceFilm);
+  document.getElementById("filmTypeButton").onclick = () =>
+    showFilmMetadataChoices("type", "Type", FILTER_TYPES, films);
+  document.getElementById("filmGenreButton").onclick = () =>
+    showFilmMetadataChoices("genre", "Genre", FILTER_GENRES, films);
+  document.getElementById("filmStudioButton").onclick = () =>
+    showFilmMetadataChoices("studio", "Studio", FILTER_STUDIOS, films);
+
   console.log("tmdbId =", tmdbId);
   console.log("films =", films);
   console.log("referenceFilm =", referenceFilm);
+
   sessionStorage.setItem(
     "filmDetailInfo",
     JSON.stringify({
@@ -145,8 +153,113 @@ async function initFilmDetailPage() {
   };
 
   updateLanguageFilters(films);
+  updateFilmMetadataButtons(films);
   renderFilmFiles(films);
 }
+
+function updateFilmMetadataButtons(films) {
+  const metadata = [
+    { id: "filmTypeButton", field: "type", label: "Type" },
+    { id: "filmGenreButton", field: "genre", label: "Genre" },
+    { id: "filmStudioButton", field: "studio", label: "Studio" },
+  ];
+  for (const { id, field, label } of metadata) {
+    const button = document.getElementById(id);
+    const values = [
+      ...new Set(
+        films.flatMap((film) => {
+          const value = film[field];
+          return Array.isArray(value) ? value : value ? [value] : [];
+        }),
+      ),
+    ];
+    button.textContent = values[0] || label;
+    button.classList.toggle("metadata-error", values.length > 1);
+  }
+}
+
+function showFilmMetadataChoices(field, label, choices, films) {
+  const choicesContainer = document.getElementById("filmMetadataChoices");
+  if (!choicesContainer.hidden && choicesContainer.dataset.field === field) {
+    choicesContainer.hidden = true;
+    choicesContainer.dataset.field = "";
+    return;
+  }
+  choicesContainer.dataset.field = field;
+  const currentValues = [
+    ...new Set(
+      films.flatMap((film) => {
+        const value = film[field];
+        return Array.isArray(value) ? value : value ? [value] : [];
+      }),
+    ),
+  ];
+  choicesContainer.hidden = false;
+  choicesContainer.innerHTML = "";
+  choicesContainer.classList.toggle(
+    "film-metadata-choices-genres",
+    field === "genre",
+  );
+  for (const choice of choices) {
+    const button = document.createElement("button");
+    button.type = "button";
+    button.textContent = choice;
+    button.className = "language-button";
+    button.classList.toggle("active", currentValues.includes(choice));
+    button.onclick = async () => {
+      const value =
+        field === "studio" &&
+        currentValues.length === 1 &&
+        currentValues[0] === choice
+          ? null
+          : field === "genre"
+            ? [choice]
+            : choice;
+      for (const film of films) {
+        film[field] = value;
+      }
+      const response = await fetch("http://localhost:9876/save-film-metadata", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({
+          fichiers: films.map((film) => ({
+            fichier: film.fichier,
+            tmdbId: film.tmdbId || null,
+            type: film.type || null,
+            genre: film.genre || [],
+            studio: film.studio || null,
+          })),
+        }),
+      });
+      if (!response.ok) {
+        showToast(await response.text(), "error");
+        return;
+      }
+      updateFilmMetadataButtons(films);
+      choicesContainer.hidden = true;
+      choicesContainer.dataset.field = "";
+    };
+    choicesContainer.appendChild(button);
+  }
+}
+
+document.addEventListener("click", (event) => {
+  const choicesContainer = document.getElementById("filmMetadataChoices");
+  if (choicesContainer.hidden) {
+    return;
+  }
+  if (
+    choicesContainer.contains(event.target) ||
+    event.target.closest("#filmMetadataButtons")
+  ) {
+    return;
+  }
+  choicesContainer.hidden = true;
+  choicesContainer.dataset.field = "";
+});
+
 function updateLanguageFilters(films) {
   const availableLanguages = new Set();
   for (const film of films) {
@@ -646,7 +759,7 @@ function createFilmFileCard(film) {
 
   const technique = film.technique;
   const technicalVideo = document.createElement("div");
-  technicalVideo.className = `film-technical-video ${getTechnicalQualityClass(technique?.largeur)}`;
+  technicalVideo.className = `film-technical-video ${getTechnicalQualityClass(technique)}`;
   if (technique) {
     const quality =
       technique.largeur >= 1920
@@ -654,14 +767,23 @@ function createFilmFileCard(film) {
         : technique.largeur >= 960
           ? "Moyenne"
           : "Basse";
+    technicalVideo.textContent = document.body.classList.contains(
+      "no-mediaserver",
+    )
+      ? `Qualité ${quality.toLowerCase()}`
+      : quality;
+    const technicalDetails = document.createElement("span");
+    technicalDetails.className = "mediaserver-only";
     const videoParts = [
-      quality,
       technique.resolution,
       formatTechnicalCodec(technique.codecVideo),
       formatTechnicalBitrate(technique),
       formatTechnicalScreen(technique),
     ].filter(Boolean);
-    technicalVideo.textContent = videoParts.join(" • ");
+    if (videoParts.length) {
+      technicalDetails.textContent = ` • ${videoParts.join(" • ")}`;
+      technicalVideo.appendChild(technicalDetails);
+    }
   }
 
   const leftInfo = document.createElement("div");
@@ -711,9 +833,26 @@ function createFilmFileCard(film) {
   const pathInfo = document.createElement("div");
   pathInfo.className = "film-file-folder";
   pathInfo.textContent = `${getFilmFolder(film.fichier)}/${film.nomFichier}`;
-
+  const normalizedPathInfo = document.createElement("div");
+  normalizedPathInfo.className = "film-file-folder";
+  const extensionIndex = film.nomFichier.lastIndexOf(".");
+  const extension =
+    extensionIndex >= 0 ? film.nomFichier.substring(extensionIndex) : "";
+  const title = (film.titreTmdb || film.titre || "")
+    .replace(/[\\/:*?"<>|]/g, " ")
+    .replace(/\s+/g, " ")
+    .trim();
+  const year = film.anneeTmdb || film.annee || "";
+  const normalizedLanguages = formatFilmLanguages(film.langue).replaceAll(
+    " ",
+    "_",
+  );
+  const normalizedFileName =
+    [title, year, normalizedLanguages].filter(Boolean).join("_") + extension;
+  normalizedPathInfo.textContent = `${getFilmFolder(film.fichier)}/${normalizedFileName}`;
   card.appendChild(playbackRow);
   card.appendChild(pathInfo);
+  card.appendChild(normalizedPathInfo);
   return card;
 }
 function formatFilmFileSize(size) {

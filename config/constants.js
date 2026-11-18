@@ -2,7 +2,7 @@ const FILTER_DOUBLONS_NB_FICHIERS = 3;
 const FILTER_AJOUTS = {
   collections: ["Récents", "À compléter", "Doublons"],
   films: ["Nouveautés", "Récents", "Doublons"],
-  tools: ["Nouveautés", "Récents", "Doublons"],
+  tools: ["Nouveautés", "Récents", "Doublons", "À corriger"],
   series: ["Nouveautés", "Récents", "À compléter"],
 };
 const FILTER_TYPES = ["Animation", "Anime", "Film", "Spectacle"];

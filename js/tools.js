@@ -13,6 +13,10 @@ async function initToolsPage() {
   showUnknownGenres();
 
   updateStats();
+  const erreursCount = getMetadataErrorCount();
+  setText("sideErreurs", erreursCount);
+  document.getElementById("sideErreurs").nextSibling.textContent =
+    erreursCount > 1 ? " Erreurs" : " Erreur";
   initResumeButtons();
   updateResumeButtons();
 
@@ -21,11 +25,16 @@ async function initToolsPage() {
 
   document.getElementById("searchInput").value = loadSearchText();
   currentSearch = loadSearchText();
+  document.getElementById("searchInput").addEventListener("input", (event) => {
+    currentSearch = event.target.value;
+    saveSearchText(currentSearch);
+    renderTools();
+  });
 
   const state = loadSidebarFiltersState();
   const toolsState = loadToolsButtonsState();
   currentAjouts =
-    currentAjouts === "ACorriger" ? currentAjouts : (state.ajouts ?? "all");
+    currentAjouts === "À corriger" ? currentAjouts : (state.ajouts ?? "all");
   currentGenre = state.genre ?? "all";
   currentType = state.type ?? "all";
   currentStudio = state.studio ?? "all";
@@ -48,6 +57,9 @@ async function initToolsPage() {
     document
       .getElementById("applyToAllButton")
       .classList.toggle("active", applyToAll);
+    document.getElementById("applyToAllButton").textContent = applyToAll
+      ? "Appliquer à tous 📌"
+      : "Appliquer à tous";
   };
 
   document.getElementById("showFileButton").onclick = () => {
@@ -174,7 +186,7 @@ function initToolsFilters() {
   document.querySelectorAll(".sidebar-link[data-quality]").forEach((button) => {
     button.onclick = () => selectQuality(button.dataset.quality);
   });
-  
+
   document
     .querySelector(`.sidebar-link[data-ajouts="${currentAjouts}"]`)
     ?.classList.add("active");
@@ -229,7 +241,29 @@ function initToolsLanguageFilters() {
   });
 }
 
+function hasMetadataError(fichier, category) {
+  const categoryValue = fichier[category];
+  const valueCount = Array.isArray(categoryValue)
+    ? categoryValue.length
+    : categoryValue
+      ? 1
+      : 0;
+  return category === "type" || category === "genre"
+    ? valueCount !== 1
+    : category === "studio" && valueCount > 1;
+}
+
+function getMetadataErrorCount() {
+  return catalog.films.filter(
+    (fichier) =>
+      hasMetadataError(fichier, "type") ||
+      hasMetadataError(fichier, "genre") ||
+      hasMetadataError(fichier, "studio"),
+  ).length;
+}
+
 function renderToolButtons(values, category, fichier) {
+  const hasError = hasMetadataError(fichier, category);
   return values
     .map((value) => {
       let isActive = false;
@@ -244,7 +278,7 @@ function renderToolButtons(values, category, fichier) {
       }
       return `
             <button
-                class="language-button ${isActive ? "active" : ""}"
+                class="language-button ${isActive ? "active" : ""} ${hasError ? "metadata-error" : ""}"
                 data-category="${category}"
                 data-value="${value}"
                 data-fichier="${fichier.fichier || ""}"
@@ -254,6 +288,17 @@ function renderToolButtons(values, category, fichier) {
             `;
     })
     .join("");
+}
+
+function filmHasMetadataError(fichier) {
+  const genreCount = Array.isArray(fichier.genre)
+    ? fichier.genre.length
+    : fichier.genre
+      ? 1
+      : 0;
+  const typeCount = fichier.type ? 1 : 0;
+  const studioCount = fichier.studio ? 1 : 0;
+  return genreCount !== 1 || typeCount !== 1 || studioCount > 1;
 }
 
 function getSelectedLanguages() {
@@ -327,31 +372,17 @@ function filmMatchesAjouts(fichier) {
     return true;
   }
   if (currentAjouts === "Nouveautés") {
-    return !fichier.titreTmdb;
+    return isFilmNouveaute(fichier);
   }
   if (currentAjouts === "Récents") {
     return true;
   }
-  if (currentAjouts === "ACorriger") {
-    const genreCount = Array.isArray(fichier.genre)
-      ? fichier.genre.length
-      : fichier.genre
-        ? 1
-        : 0;
-
-    if (showGenre && (genreCount === 0 || genreCount > 1)) {
-      return true;
-    }
-
-    if (showType && !fichier.type) {
-      return true;
-    }
-
-    if (showStudio && !fichier.studio) {
-      return true;
-    }
-
-    return false;
+  if (currentAjouts === "À corriger") {
+    return (
+      (showType && hasMetadataError(fichier, "type")) ||
+      (showGenre && hasMetadataError(fichier, "genre")) ||
+      (showStudio && hasMetadataError(fichier, "studio"))
+    );
   }
   return false;
 }
@@ -573,7 +604,7 @@ function renderTools() {
         if (!fichier) {
           return;
         }
-        
+
         const fichiersToUpdate = applyToAll ? displayedFiles : [fichier];
         const category = button.dataset.category;
         const value = button.dataset.value;
