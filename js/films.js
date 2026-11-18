@@ -137,7 +137,10 @@ function renderFilms() {
     .filter((film) => {
       if (!window.selectedCollectionId) {
         return (
-          (!film.collectionId || !film.collectionNom) && film.fileCount > 0
+          (currentAjouts === "Nouveautés" ||
+            !film.collectionId ||
+            !film.collectionNom) &&
+          film.fileCount > 0
         );
       }
       return String(film.collectionId) === window.selectedCollectionId;
@@ -236,7 +239,10 @@ function renderFilms() {
     }
   } else {
     setText("filmsCount", `${films.length} film${films.length > 1 ? "s" : ""}`);
-    setText("filmsSubtitle", "Hors collections");
+    setText(
+      "filmsSubtitle",
+      currentAjouts === "Nouveautés" ? "Nouveautés" : "Hors collections",
+    );
   }
   for (const film of films) {
     grid.appendChild(createFilmCard(film));
@@ -249,15 +255,16 @@ function filmMatchesAjouts(film) {
     return true;
   }
   if (currentAjouts === "Nouveautés") {
-    if (!film.titreTmdb) {
-      return true;
-    }
+    return isFilmNouveaute(film);
   }
   if (currentAjouts === "Récents") {
     return true;
   }
   if (currentAjouts === "Doublons") {
-    return Boolean(film.hasExactDuplicate) || film.fileCount >= FILTER_DOUBLONS_NB_FICHIERS;
+    return (
+      Boolean(film.hasExactDuplicate) ||
+      film.fileCount >= FILTER_DOUBLONS_NB_FICHIERS
+    );
   }
   return false;
 }
@@ -308,14 +315,14 @@ function createFilmCard(film) {
   posterZone.appendChild(createPosterContent(film.image, film.titre, film.id));
   if (film.fileCount === 0 || film.fileCount > 1) {
     const badge = document.createElement("button");
-          badge.className =
-        film.fileCount === 0
-          ? film.ignoreInCollection
-            ? "play-button film-ignore-in-collection"
-            : "play-button film-missing-in-collection"
-          : currentAjouts === "Doublons"
-            ? "play-button duplicate-badge"
-            : "play-button";
+    badge.className =
+      film.fileCount === 0
+        ? film.ignoreInCollection
+          ? "play-button film-ignore-in-collection"
+          : "play-button film-missing-in-collection"
+        : currentAjouts === "Doublons"
+          ? "play-button duplicate-badge"
+          : "play-button";
     badge.textContent =
       film.fileCount === 0
         ? film.ignoreInCollection

@@ -65,6 +65,14 @@ async function reloadCatalog(type = "all") {
   }
 }
 
+function isFilmNouveaute(film) {
+  const files = film.groupFiles?.length ? film.groupFiles : [film];
+  const isInNouveauxFolder = files.some((file) =>
+    /^\/[^/]+_Films\/- Nouveaux\//i.test(file.fichier || ""),
+  );
+  return !film.titreTmdb || isInNouveauxFolder;
+}
+
 function updateStats() {
   if (!catalog) {
     return;
@@ -129,7 +137,15 @@ function updateStats() {
     0,
   );
 
-  const nouveautesCount = catalog.films.filter((film) => !film.tmdbId).length;
+  const nouveautes = catalog.films.filter(isFilmNouveaute);
+  const nouveautesFilms = new Set();
+  for (const film of nouveautes) {
+    const key = film.tmdbId
+      ? `tmdb:${film.tmdbId}`
+      : `title:${film.titre}|${film.annee || ""}`;
+    nouveautesFilms.add(key);
+  }
+  const nouveautesCount = nouveautesFilms.size;
   const seriesCount = catalog.series.length;
   const episodesCount = countEpisodes();
 
@@ -151,7 +167,14 @@ function updateStats() {
   );
   setText("sideCollections", collectionsCount);
   setText("statFilms", filmsCount);
-  setText("statNouveautes", nouveautesCount);
+  setText("statNouveautes", `${nouveautesCount} nouveautés`);
+  const statNouveautesEl = document.getElementById("statNouveautes");
+  if (statNouveautesEl) {
+    const statRow = statNouveautesEl.closest(".sidebar-stat");
+    if (statRow) {
+      statRow.style.display = nouveautesCount > 0 ? "" : "none";
+    }
+  }
   setText("statSeries", seriesCount);
   setText("statEpisodes", episodesCount);
   setText("sideFilms", filmsCount);
@@ -200,60 +223,44 @@ function updateStats() {
   const sideNouveautesEl = document.getElementById("sideNouveautes");
   if (sideNouveautesEl) {
     const statRow = sideNouveautesEl.closest(".sidebar-stat");
-    const isCollectionContext =
-      currentPage === "collections" ||
-      (typeof isCollectionContextActive === "function" &&
-        isCollectionContextActive());
-
     if (statRow) {
-      if (isCollectionContext) {
-        // Reste masqué dans le contexte collection (pas de clignotement)
-        statRow.style.display = "none";
-      } else {
-        // Hors contexte collection : on l'affiche et on gère son interactivité
-        statRow.style.display = "";
-        if (nouveautesCount > 0) {
-          statRow.style.cursor = "pointer";
-          statRow.title = "Filtrer par Nouveautés";
-          statRow.onclick = () => {
-            const nouveautesButton =
-              document.querySelector(
-                '.sidebar-link[data-ajouts="Nouveautés"]',
-              ) ||
-              [
-                ...document.querySelectorAll(
-                  ".sidebar-link, .filter-button, [data-ajouts]",
-                ),
-              ].find((el) => el.textContent.includes("Nouveautés"));
+      statRow.style.display = nouveautesCount > 0 ? "" : "none";
+      if (nouveautesCount > 0) {
+        statRow.style.cursor = "pointer";
+        statRow.title = "Filtrer par Nouveautés";
+        statRow.onclick = () => {
+          const nouveautesButton =
+            document.querySelector('.sidebar-link[data-ajouts="Nouveautés"]') ||
+            [
+              ...document.querySelectorAll(
+                ".sidebar-link, .filter-button, [data-ajouts]",
+              ),
+            ].find((el) => el.textContent.includes("Nouveautés"));
 
-            if (nouveautesButton) {
-              nouveautesButton.click();
-            } else if (typeof currentAjouts !== "undefined") {
-              currentAjouts = "Nouveautés";
-              if (typeof updateSidebarTitle === "function") {
-                updateSidebarTitle("ajoutsTitle", "SELECTION", currentAjouts);
-              }
-              if (typeof saveSidebarFiltersState === "function") {
-                saveSidebarFiltersState({ ajouts: currentAjouts });
-              }
-              if (
-                currentPage === "films" &&
-                typeof renderFilms === "function"
-              ) {
-                renderFilms();
-              } else if (
-                currentPage === "collections" &&
-                typeof renderCollections === "function"
-              ) {
-                renderCollections();
-              }
+          if (nouveautesButton) {
+            nouveautesButton.click();
+          } else if (typeof currentAjouts !== "undefined") {
+            currentAjouts = "Nouveautés";
+            if (typeof updateSidebarTitle === "function") {
+              updateSidebarTitle("ajoutsTitle", "SELECTION", currentAjouts);
             }
-          };
-        } else {
-          statRow.style.cursor = "default";
-          statRow.title = "";
-          statRow.onclick = null;
-        }
+            if (typeof saveSidebarFiltersState === "function") {
+              saveSidebarFiltersState({ ajouts: currentAjouts });
+            }
+            if (currentPage === "films" && typeof renderFilms === "function") {
+              renderFilms();
+            } else if (
+              currentPage === "collections" &&
+              typeof renderCollections === "function"
+            ) {
+              renderCollections();
+            }
+          }
+        };
+      } else {
+        statRow.style.cursor = "default";
+        statRow.title = "";
+        statRow.onclick = null;
       }
     }
   }

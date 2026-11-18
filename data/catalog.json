@@ -1,6 +1,6 @@
 {
     "version": 1,
-    "dateDernierScan": "2026-11-17T22:20:53.290Z",
+    "dateDernierScan": "2026-11-18T05:42:34.374Z",
     "collections": [
         {
             "collectionId": 9485,
@@ -43,6 +43,13 @@
             "collectionImage": "/isByUBmngXghxH8MFhJAKOgVdiB.jpg",
             "collectionDescription": "Steven « Steve » Rogers, alias Captain America est un super-héros évoluant dans l'univers Marvel de la maison d'édition Marvel Comics. Créé par scénariste Joe Simon et le dessinateur Jack Kirby, le personnage de fiction apparaît pour la première fois dans le comic book Captain America Comics #1 en décembre 1940",
             "collectionFilmCount": 4
+        },
+        {
+            "collectionId": 1570,
+            "collectionNom": "Die Hard - Saga",
+            "collectionImage": "/bFZRGXeLLUjnp3F8zzwkvrvPHWD.jpg",
+            "collectionDescription": "Une série de films d'action centrés autour du personnage de John McClane, un détective de police de New York City qui se retrouve en lutte contre un groupe de terroristes dans chaque film.",
+            "collectionFilmCount": 5
         },
         {
             "collectionId": 284433,
@@ -234,18 +241,18 @@
             "collectionFilmCount": 3
         },
         {
+            "collectionId": 748,
+            "collectionNom": "X-Men - Saga",
+            "collectionImage": "/9Z4fKVUqAJ2WEP6pQFTtYPuoknd.jpg",
+            "collectionDescription": "X-Men est une saga cinématographique de super-héros américaine.",
+            "collectionFilmCount": 7
+        },
+        {
             "collectionId": 86066,
             "collectionNom": "Moi, moche et méchant - Saga",
             "collectionImage": "/wOBgRb2Fa0axJVsW7tQC3oNRLrf.jpg",
             "collectionDescription": "Les aventures de Gru et des mignons.",
             "collectionFilmCount": 4
-        },
-        {
-            "collectionId": 1570,
-            "collectionNom": "Die Hard - Saga",
-            "collectionImage": "/bFZRGXeLLUjnp3F8zzwkvrvPHWD.jpg",
-            "collectionDescription": "Une série de films d'action centrés autour du personnage de John McClane, un détective de police de New York City qui se retrouve en lutte contre un groupe de terroristes dans chaque film.",
-            "collectionFilmCount": 5
         },
         {
             "collectionId": 618529,
@@ -850,13 +857,6 @@
             "collectionFilmCount": 2
         },
         {
-            "collectionId": 748,
-            "collectionNom": "X-Men - Saga",
-            "collectionImage": "/9Z4fKVUqAJ2WEP6pQFTtYPuoknd.jpg",
-            "collectionDescription": "X-Men est une saga cinématographique de super-héros américaine.",
-            "collectionFilmCount": 7
-        },
-        {
             "collectionId": 52785,
             "collectionNom": "xXx - Saga",
             "collectionImage": "/wca7mxkpJwfJNOoHllonrSqePsq.jpg",
@@ -993,7 +993,8 @@
             "collectionNom": "12 Rounds - Saga",
             "collectionDescription": "12 Rounds est un film d'action américain de 2009 réalisé par Renny Harlin et produit par WWE Studios. Le casting est dirigé par John Cena, aux côtés d'Aidan Gillen, Steve Harris, Gonzalo Menendez, Brian J. White, Ashley Scott et Taylor Cole. Le film est sorti le 27 mars 2009 dans les salles américaines. Randy Orton joue dans une suite autonome intitulée 12 Rounds 2: Reloaded. La suite est sortie en 2013. Il a été annoncé en 2014 que Dean Ambrose allait jouer dans le troisième film de la franchise intitulé 12 Rounds 3 : Lockdown.",
             "collectionImage": "https://image.tmdb.org/t/p/w500/5ra91krahJv3CKklkxb01Yo74r5.jpg",
-            "collectionTmdbUrl": "https://www.themoviedb.org/collection/221622"
+            "collectionTmdbUrl": "https://www.themoviedb.org/collection/221622",
+            "ignoreInCollection": false
         },
         {
             "id": "12_rounds_2_reloaded_1_2013",
@@ -1059,7 +1060,8 @@
             "collectionImage": "https://image.tmdb.org/t/p/w500/5ra91krahJv3CKklkxb01Yo74r5.jpg",
             "collectionTmdbUrl": "https://www.themoviedb.org/collection/221622",
             "type": "Film",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "12_rounds_3_lockdown_blu_ray_audio_hin_tam_tel_esub_shadow_2015",
@@ -1159,7 +1161,8 @@
             "collectionImage": "https://image.tmdb.org/t/p/w500/5ra91krahJv3CKklkxb01Yo74r5.jpg",
             "collectionTmdbUrl": "https://www.themoviedb.org/collection/221622",
             "type": "Film",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "2_fast_2",
@@ -1838,6 +1841,112 @@
             "langueOriginale": "en"
         },
         {
+            "id": "a_good_day_to_die_hard_5_1_2013",
+            "titre": "A Good Day To Die Hard 5 1",
+            "annee": 2013,
+            "langue": [
+                "VO",
+                "VF"
+            ],
+            "taille": 3297655380,
+            "genre": [
+                "Action",
+                "Thriller"
+            ],
+            "image": "https://image.tmdb.org/t/p/w342/aBo2EsfKCdcZelx1uFoTg6l0fA2.jpg",
+            "fichier": "/Box_Films/- Nouveaux/A.Good.Day.To.Die.Hard.2013.MULTi.VF2.1080p.HDLight.AC3.5.1.H264-LiHDL.mkv",
+            "nomFichier": "A.Good.Day.To.Die.Hard.2013.MULTi.VF2.1080p.HDLight.AC3.5.1.H264-LiHDL.mkv",
+            "imdbId": null,
+            "tmdbId": 47964,
+            "tmdbUrl": "https://www.themoviedb.org/movie/47964",
+            "doublonExact": false,
+            "doublonProbable": false,
+            "groupeDoublon": null,
+            "dateAjout": "2026-11-18T05:03:39.706Z",
+            "technique": {
+                "largeur": 1920,
+                "hauteur": 1040,
+                "resolution": "1920x1040",
+                "ratioImage": 1.846,
+                "codecVideo": "h264",
+                "profilVideo": "High",
+                "pixelFormat": "yuv420p",
+                "bitsParComposante": 8,
+                "bitrateVideo": null,
+                "framerate": 23.976,
+                "espaceCouleur": "bt709",
+                "transfertCouleur": "bt709",
+                "primairesCouleur": "bt709",
+                "hdr": false,
+                "dureeFichier": 6071.264,
+                "bitrateGlobal": 4345263,
+                "formatConteneur": "matroska,webm",
+                "audio": [
+                    {
+                        "codec": "ac3",
+                        "profil": null,
+                        "canaux": 6,
+                        "disposition": "5.1(side)",
+                        "bitrate": 448000,
+                        "frequence": 48000,
+                        "langue": "fre"
+                    },
+                    {
+                        "codec": "ac3",
+                        "profil": null,
+                        "canaux": 6,
+                        "disposition": "5.1(side)",
+                        "bitrate": 448000,
+                        "frequence": 48000,
+                        "langue": "fre"
+                    },
+                    {
+                        "codec": "ac3",
+                        "profil": null,
+                        "canaux": 6,
+                        "disposition": "5.1(side)",
+                        "bitrate": 448000,
+                        "frequence": 48000,
+                        "langue": "eng"
+                    }
+                ],
+                "sousTitres": [
+                    {
+                        "codec": "subrip",
+                        "langue": "fre",
+                        "titre": "FR Forced : SRT"
+                    },
+                    {
+                        "codec": "subrip",
+                        "langue": "fre",
+                        "titre": "FR Full : SRT"
+                    },
+                    {
+                        "codec": "subrip",
+                        "langue": "eng",
+                        "titre": "ENG Forced : SRT"
+                    },
+                    {
+                        "codec": "subrip",
+                        "langue": "eng",
+                        "titre": "ENG Full : SRT"
+                    }
+                ]
+            },
+            "titreTmdb": "Die Hard : Belle journée pour mourir",
+            "titreOriginal": "A Good Day to Die Hard",
+            "langueOriginale": "en",
+            "anneeTmdb": "2013",
+            "dureeTmdb": 96,
+            "descriptionTmdb": "John McClane, le flic sans état d’âme, est vraiment au mauvais endroit au mauvais moment, à Moscou, pour aider son fils Jack qu’il ne voit plus. Entre la mafia russe qui veut leur faire la peau et leur combat pour éviter le déclenchement d’une guerre, les McClane découvrent que leurs méthodes pourtant bien différentes font d’eux des héros que rien ne peut arrêter.",
+            "collectionId": 1570,
+            "collectionNom": "Die Hard - Saga",
+            "collectionDescription": "Une série de films d'action centrés autour du personnage de John McClane, un détective de police de New York City qui se retrouve en lutte contre un groupe de terroristes dans chaque film.",
+            "collectionImage": "https://image.tmdb.org/t/p/w500/bFZRGXeLLUjnp3F8zzwkvrvPHWD.jpg",
+            "collectionTmdbUrl": "https://www.themoviedb.org/collection/1570",
+            "ignoreInCollection": false
+        },
+        {
             "id": "a_good_day_to_die_hard_english_2013",
             "titre": "A Good Day To Die Hard English",
             "annee": 2013,
@@ -1849,7 +1958,7 @@
                 "Action"
             ],
             "image": "https://image.tmdb.org/t/p/w342/aBo2EsfKCdcZelx1uFoTg6l0fA2.jpg",
-            "fichier": "/03_Films/05 A Good Day To Die Hard Extended - Bruce Willis Action 2013 1080p English.mp4",
+            "fichier": "/Box_Films/- Nouveaux/05 A Good Day To Die Hard Extended - Bruce Willis Action 2013 1080p English.mp4",
             "nomFichier": "05 A Good Day To Die Hard Extended - Bruce Willis Action 2013 1080p English.mp4",
             "imdbId": null,
             "tmdbId": 47964,
@@ -2130,7 +2239,7 @@
                 "Science-Fiction"
             ],
             "image": "https://image.tmdb.org/t/p/w342/yO3NvHzHOJjisLBS6oi9rL0fiLd.jpg",
-            "fichier": "/03_Films/A_la_poursuite_de_demain_2015_MULTi_VFF_1080p_HDLight_x264.GHT.mkv",
+            "fichier": "/Box_Films/- Nouveaux/A_la_poursuite_de_demain_2015_MULTi_VFF_1080p_HDLight_x264.GHT.mkv",
             "nomFichier": "A_la_poursuite_de_demain_2015_MULTi_VFF_1080p_HDLight_x264.GHT.mkv",
             "imdbId": null,
             "tmdbId": 158852,
@@ -2638,7 +2747,7 @@
                 "Guerre"
             ],
             "image": "https://image.tmdb.org/t/p/w342/9BEN7zRpoLBaBU3t97kPJkHUgnv.jpg",
-            "fichier": "/03_Films/American Sniper 2014 1080p VFF Dts Hdlight x264-T911.mkv",
+            "fichier": "/Box_Films/- Nouveaux/American Sniper 2014 1080p VFF Dts Hdlight x264-T911.mkv",
             "nomFichier": "American Sniper 2014 1080p VFF Dts Hdlight x264-T911.mkv",
             "imdbId": null,
             "tmdbId": 190859,
@@ -3060,7 +3169,7 @@
                 "Science-Fiction"
             ],
             "image": "https://image.tmdb.org/t/p/w342/w8r7NAEIGLPH5r3NhiMobEO80PS.jpg",
-            "fichier": "/03_Films/Aquaman.and.the.Lost.Kingdom.2023.CUSTOM.TRUEFRENCH.BDRip.x264-ONLYMOViE.mkv",
+            "fichier": "/Box_Films/- Nouveaux/Aquaman.and.the.Lost.Kingdom.2023.CUSTOM.TRUEFRENCH.BDRip.x264-ONLYMOViE.mkv",
             "nomFichier": "Aquaman.and.the.Lost.Kingdom.2023.CUSTOM.TRUEFRENCH.BDRip.x264-ONLYMOViE.mkv",
             "imdbId": null,
             "tmdbId": 572802,
@@ -3121,72 +3230,6 @@
                 ]
             },
             "ignoreInCollection": false,
-            "titreOriginal": "Aquaman and the Lost Kingdom",
-            "langueOriginale": "en",
-            "type": null,
-            "studio": null
-        },
-        {
-            "id": "aquaman_and_the_lost_kingdom_2023",
-            "titre": "Aquaman And The Lost Kingdom",
-            "annee": 2023,
-            "langue": [
-                "TBD"
-            ],
-            "taille": 1655998402,
-            "genre": [
-                "Science-Fiction"
-            ],
-            "image": "https://image.tmdb.org/t/p/w342/w8r7NAEIGLPH5r3NhiMobEO80PS.jpg",
-            "fichier": "/03_Films/Aquaman.And.The.Lost.Kingdom.2023.VFQ.HDrip.x264.mp4",
-            "nomFichier": "Aquaman.And.The.Lost.Kingdom.2023.VFQ.HDrip.x264.mp4",
-            "imdbId": null,
-            "tmdbId": 572802,
-            "tmdbUrl": "https://www.themoviedb.org/movie/572802",
-            "doublonExact": false,
-            "doublonProbable": false,
-            "groupeDoublon": null,
-            "dateAjout": "2026-11-10T08:51:25.692Z",
-            "titreTmdb": "Aquaman et le Royaume perdu",
-            "anneeTmdb": "2023",
-            "dureeTmdb": 124,
-            "descriptionTmdb": "Alors qu'Arthur Curry affronte ses responsabilités de Roi des Sept Mers, un pouvoir antique enfoui depuis longtemps se déchaîne. Après avoir été témoin de l'effet de ces forces obscures, Aquaman doit forger une alliance difficile avec un vieil ennemi et se lancer dans un voyage périlleux pour protéger sa famille, son royaume et le monde d'une dévastation irréversible.",
-            "collectionId": 573693,
-            "collectionNom": "Aquaman - Saga",
-            "collectionDescription": "Série de films centrée sur le personnage d'Aquaman de DC Comics.",
-            "collectionImage": "https://image.tmdb.org/t/p/w500/2k754gEz4uL3j1GhjitTOJ6Rcbm.jpg",
-            "collectionTmdbUrl": "https://www.themoviedb.org/collection/573693",
-            "technique": {
-                "largeur": 720,
-                "hauteur": 406,
-                "resolution": "720x406",
-                "ratioImage": 1.773,
-                "codecVideo": "h264",
-                "profilVideo": "High",
-                "pixelFormat": "yuv420p",
-                "bitsParComposante": 8,
-                "bitrateVideo": 1609765,
-                "framerate": 23.976,
-                "espaceCouleur": "bt709",
-                "transfertCouleur": "bt709",
-                "primairesCouleur": "bt709",
-                "hdr": false,
-                "dureeFichier": 7446.230444,
-                "bitrateGlobal": 1779153,
-                "formatConteneur": "mov,mp4,m4a,3gp,3g2,mj2",
-                "audio": [
-                    {
-                        "codec": "aac",
-                        "profil": "LC",
-                        "canaux": 2,
-                        "disposition": "stereo",
-                        "bitrate": 162314,
-                        "frequence": 44100,
-                        "langue": "fra"
-                    }
-                ],
-                "sousTitres": []
-            },
             "titreOriginal": "Aquaman and the Lost Kingdom",
             "langueOriginale": "en",
             "type": null,
@@ -3590,7 +3633,7 @@
                 "Aventure"
             ],
             "image": "https://image.tmdb.org/t/p/w342/2lC9lzozlzVxCsSgPjRz5AWcz00.jpg",
-            "fichier": "/03_Films/Astérix Et Obélix Mission Cléopatre - DVDRip Fr - 1500kbps - Son Dolby AC3 5.1.avi",
+            "fichier": "/Box_Films/- Nouveaux/Astérix Et Obélix Mission Cléopatre - DVDRip Fr - 1500kbps - Son Dolby AC3 5.1.avi",
             "nomFichier": "Astérix Et Obélix Mission Cléopatre - DVDRip Fr - 1500kbps - Son Dolby AC3 5.1.avi",
             "imdbId": null,
             "tmdbId": 2899,
@@ -7223,7 +7266,7 @@
                 "Science-Fiction"
             ],
             "image": "https://image.tmdb.org/t/p/w342/l1SP3gyHA5ZEuf72WKx5ihtZZFO.jpg",
-            "fichier": "/03_Films/Captain.America.The.First.Avenger.2011.TRUEFRENCH.BRRiP.XviD-AUTOPSiE.avi",
+            "fichier": "/Box_Films/- Nouveaux/Captain.America.The.First.Avenger.2011.TRUEFRENCH.BRRiP.XviD-AUTOPSiE.avi",
             "nomFichier": "Captain.America.The.First.Avenger.2011.TRUEFRENCH.BRRiP.XviD-AUTOPSiE.avi",
             "imdbId": null,
             "tmdbId": 1771,
@@ -7547,7 +7590,7 @@
                 "Aventure"
             ],
             "image": "https://image.tmdb.org/t/p/w342/nouuVzN51YSBsjwJt5WwSVXOuv6.jpg",
-            "fichier": "/03_Films/Cars.3.2017.FRENCH.BDRip.XviD-GZR.avi",
+            "fichier": "/Box_Films/- Nouveaux/Cars.3.2017.FRENCH.BDRip.XviD-GZR.avi",
             "nomFichier": "Cars.3.2017.FRENCH.BDRip.XviD-GZR.avi",
             "imdbId": null,
             "tmdbId": 260514,
@@ -8088,7 +8131,7 @@
                 "Comédie musicale"
             ],
             "image": "https://image.tmdb.org/t/p/w342/ukaNSLrmzfP3ZHqLcaWCl7ogH0o.jpg",
-            "fichier": "/03_Films/Center.Stage.On.Pointe.2016.DVDRip.XviD-EVO.avi",
+            "fichier": "/Box_Films/- Nouveaux/Center.Stage.On.Pointe.2016.DVDRip.XviD-EVO.avi",
             "nomFichier": "Center.Stage.On.Pointe.2016.DVDRip.XviD-EVO.avi",
             "imdbId": null,
             "tmdbId": 402543,
@@ -8284,7 +8327,7 @@
                 "Musique"
             ],
             "image": "https://image.tmdb.org/t/p/w342/pb09v5koCU7GrxCJNfRnliPRIKD.jpg",
-            "fichier": "/03_Films/Chasing.Trane.The.John.Coltrane.Documentary.2016.1080p.BluRay.x264-.mp4",
+            "fichier": "/Box_Films/- Nouveaux/Chasing.Trane.The.John.Coltrane.Documentary.2016.1080p.BluRay.x264-.mp4",
             "nomFichier": "Chasing.Trane.The.John.Coltrane.Documentary.2016.1080p.BluRay.x264-.mp4",
             "imdbId": null,
             "tmdbId": 411012,
@@ -8348,7 +8391,7 @@
                 "Comédie"
             ],
             "image": "https://image.tmdb.org/t/p/w342/nm2L53AHKX2aju50reUfRmzMksn.jpg",
-            "fichier": "/03_Films/La.Chtite.Famille.2018.FRENCH.BDRip.XviD-Ox.avi",
+            "fichier": "/Box_Films/- Nouveaux/La.Chtite.Famille.2018.FRENCH.BDRip.XviD-Ox.avi",
             "nomFichier": "La.Chtite.Famille.2018.FRENCH.BDRip.XviD-Ox.avi",
             "imdbId": null,
             "tmdbId": 456165,
@@ -9864,7 +9907,8 @@
             "collectionNom": "X-Men - Saga",
             "collectionDescription": "X-Men est une saga cinématographique de super-héros américaine.",
             "collectionImage": "https://image.tmdb.org/t/p/w500/9Z4fKVUqAJ2WEP6pQFTtYPuoknd.jpg",
-            "collectionTmdbUrl": "https://www.themoviedb.org/collection/748"
+            "collectionTmdbUrl": "https://www.themoviedb.org/collection/748",
+            "ignoreInCollection": false
         },
         {
             "id": "dead_man_down_2013",
@@ -9942,7 +9986,7 @@
                 "Policier"
             ],
             "image": "https://image.tmdb.org/t/p/w342/e1o8zj0U1bWxbxbNydid86JkIal.jpg",
-            "fichier": "/03_Films/Deja_Vu_2006_Multi-VF2_1080p_Bluray_HDlight.x264~Tonyk.mp4",
+            "fichier": "/Box_Films/- Nouveaux/Deja_Vu_2006_Multi-VF2_1080p_Bluray_HDlight.x264~Tonyk.mp4",
             "nomFichier": "Deja_Vu_2006_Multi-VF2_1080p_Bluray_HDlight.x264~Tonyk.mp4",
             "imdbId": null,
             "tmdbId": 7551,
@@ -10496,7 +10540,8 @@
             "collectionImage": "https://image.tmdb.org/t/p/w500/bFZRGXeLLUjnp3F8zzwkvrvPHWD.jpg",
             "collectionTmdbUrl": "https://www.themoviedb.org/collection/1570",
             "type": "Film",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "die_hard_5_1_1988",
@@ -10512,7 +10557,7 @@
                 "Thriller"
             ],
             "image": "https://image.tmdb.org/t/p/w342/1nOVVjbf8ucbeLmIlK5D2kCQQST.jpg",
-            "fichier": "/Box_Films/- Nouveaux/Die.Hard.1988.MULTi.VFi.1080p.HDLight.AC3.5.1.H264-LiHDL.mkv",
+            "fichier": "/Box_Films/Action/Die Hard/Die.Hard.1988.MULTi.VFi.1080p.HDLight.AC3.5.1.H264-LiHDL.mkv",
             "nomFichier": "Die.Hard.1988.MULTi.VFi.1080p.HDLight.AC3.5.1.H264-LiHDL.mkv",
             "imdbId": null,
             "tmdbId": 562,
@@ -10587,7 +10632,8 @@
             "collectionNom": "Die Hard - Saga",
             "collectionDescription": "Une série de films d'action centrés autour du personnage de John McClane, un détective de police de New York City qui se retrouve en lutte contre un groupe de terroristes dans chaque film.",
             "collectionImage": "https://image.tmdb.org/t/p/w500/bFZRGXeLLUjnp3F8zzwkvrvPHWD.jpg",
-            "collectionTmdbUrl": "https://www.themoviedb.org/collection/1570"
+            "collectionTmdbUrl": "https://www.themoviedb.org/collection/1570",
+            "ignoreInCollection": false
         },
         {
             "id": "die_hard_english_1988",
@@ -10773,7 +10819,7 @@
                 "Science-Fiction"
             ],
             "image": "https://image.tmdb.org/t/p/w342/7wZ7mx7tY5SgflQKuJmQvwu3wGm.jpg",
-            "fichier": "/03_Films/Doctor Strange (2016) MULTi VFF 1080p 10bit HDLight BluRay x265 HE-AAC 5.1 - QTZ.mkv",
+            "fichier": "/Box_Films/- Nouveaux/Doctor Strange (2016) MULTi VFF 1080p 10bit HDLight BluRay x265 HE-AAC 5.1 - QTZ.mkv",
             "nomFichier": "Doctor Strange (2016) MULTi VFF 1080p 10bit HDLight BluRay x265 HE-AAC 5.1 - QTZ.mkv",
             "imdbId": null,
             "tmdbId": 284052,
@@ -10880,7 +10926,7 @@
                 "Science-Fiction"
             ],
             "image": "https://image.tmdb.org/t/p/w342/arfzjn1tGvXWwkX7eaGVuXsc0mp.jpg",
-            "fichier": "/03_Films/Doctor.Strange.in.the.Multiverse.of.Madness.2022.TRUEFRENCH.BDRip.x264-EXTREME.mkv",
+            "fichier": "/Box_Films/- Nouveaux/Doctor.Strange.in.the.Multiverse.of.Madness.2022.TRUEFRENCH.BDRip.x264-EXTREME.mkv",
             "nomFichier": "Doctor.Strange.in.the.Multiverse.of.Madness.2022.TRUEFRENCH.BDRip.x264-EXTREME.mkv",
             "imdbId": null,
             "tmdbId": 453395,
@@ -11503,7 +11549,7 @@
                 "Aventure"
             ],
             "image": "https://image.tmdb.org/t/p/w342/iRNbRAIGQQr5diGnjpwJFm0dgt4.jpg",
-            "fichier": "/03_Films/dune.part.two.2024.french.bdrip.x264-lypsg.mkv",
+            "fichier": "/Box_Films/- Nouveaux/dune.part.two.2024.french.bdrip.x264-lypsg.mkv",
             "nomFichier": "dune.part.two.2024.french.bdrip.x264-lypsg.mkv",
             "imdbId": null,
             "tmdbId": 693134,
@@ -11575,7 +11621,7 @@
                 "Aventure"
             ],
             "image": "https://image.tmdb.org/t/p/w342/iRNbRAIGQQr5diGnjpwJFm0dgt4.jpg",
-            "fichier": "/03_Films/Dune.Part.Two.2024.Fansub.Vostfr.HDRIP.mp4",
+            "fichier": "/Box_Films/- Nouveaux/Dune.Part.Two.2024.Fansub.Vostfr.HDRIP.mp4",
             "nomFichier": "Dune.Part.Two.2024.Fansub.Vostfr.HDRIP.mp4",
             "imdbId": null,
             "tmdbId": 693134,
@@ -12274,35 +12320,126 @@
             "studio": null
         },
         {
-            "id": "tmdb_1202033",
-            "titre": "Enola Holmes 3",
+            "id": "enola_holmes_3_ad_nf_2026",
+            "titre": "Enola Holmes 3 AD NF",
             "annee": 2026,
             "langue": [
-                "TBD"
+                "VO",
+                "VF"
             ],
-            "taille": 0,
+            "taille": 6622295434,
             "genre": [
-                "Policier"
+                "Aventure",
+                "Crime",
+                "Mystère"
             ],
             "image": "https://image.tmdb.org/t/p/w342/ncHImt9szlNQaNM2iY3vcgSdDp.jpg",
-            "fichier": null,
-            "nomFichier": null,
+            "fichier": "/Box_Films/- Nouveaux/Enola.Holmes.3.2026.MULTi.AD.1080p.NF.WEB.x264-THESYNDiCATE.mkv",
+            "nomFichier": "Enola.Holmes.3.2026.MULTi.AD.1080p.NF.WEB.x264-THESYNDiCATE.mkv",
+            "imdbId": null,
             "tmdbId": 1202033,
             "tmdbUrl": "https://www.themoviedb.org/movie/1202033",
             "doublonExact": false,
             "doublonProbable": false,
             "groupeDoublon": null,
-            "dateAjout": null,
+            "dateAjout": "2026-11-18T05:03:41.284Z",
+            "technique": {
+                "largeur": 1920,
+                "hauteur": 1080,
+                "resolution": "1920x1080",
+                "ratioImage": 1.778,
+                "codecVideo": "h264",
+                "profilVideo": "High",
+                "pixelFormat": "yuv420p",
+                "bitsParComposante": 8,
+                "bitrateVideo": null,
+                "framerate": 24,
+                "espaceCouleur": null,
+                "transfertCouleur": null,
+                "primairesCouleur": null,
+                "hdr": false,
+                "dureeFichier": 6484.544,
+                "bitrateGlobal": 8169944,
+                "formatConteneur": "matroska,webm",
+                "audio": [
+                    {
+                        "codec": "eac3",
+                        "profil": "Dolby Digital Plus + Dolby Atmos",
+                        "canaux": 6,
+                        "disposition": "5.1(side)",
+                        "bitrate": 768000,
+                        "frequence": 48000,
+                        "langue": "fre"
+                    },
+                    {
+                        "codec": "eac3",
+                        "profil": "Dolby Digital Plus + Dolby Atmos",
+                        "canaux": 6,
+                        "disposition": "5.1(side)",
+                        "bitrate": 768000,
+                        "frequence": 48000,
+                        "langue": "eng"
+                    },
+                    {
+                        "codec": "eac3",
+                        "profil": null,
+                        "canaux": 6,
+                        "disposition": "5.1(side)",
+                        "bitrate": 640000,
+                        "frequence": 48000,
+                        "langue": "fre"
+                    }
+                ],
+                "sousTitres": [
+                    {
+                        "codec": "subrip",
+                        "langue": "fre",
+                        "titre": "French (Forced)"
+                    },
+                    {
+                        "codec": "subrip",
+                        "langue": "fre",
+                        "titre": "French"
+                    },
+                    {
+                        "codec": "subrip",
+                        "langue": "fre",
+                        "titre": "French (CC)"
+                    },
+                    {
+                        "codec": "subrip",
+                        "langue": "fre",
+                        "titre": "French (SDH)"
+                    },
+                    {
+                        "codec": "subrip",
+                        "langue": "eng",
+                        "titre": "English (Forced)"
+                    },
+                    {
+                        "codec": "subrip",
+                        "langue": "eng",
+                        "titre": "English (CC)"
+                    },
+                    {
+                        "codec": "subrip",
+                        "langue": "eng",
+                        "titre": "English (SDH)"
+                    }
+                ]
+            },
             "titreTmdb": "Enola Holmes 3",
             "titreOriginal": "Enola Holmes 3",
-            "anneeTmdb": 2026,
+            "langueOriginale": "en",
+            "anneeTmdb": "2026",
+            "dureeTmdb": 109,
             "descriptionTmdb": "La détective Enola Holmes poursuit ses aventures à Malte, où son projet de mariage se complique quand elle doit résoudre une périlleuse affaire liée à la disparition de Sherlock.",
             "collectionId": 829314,
             "collectionNom": "Enola Holmes - Saga",
-            "type": "Film",
-            "studio": null,
-            "ignoreInCollection": false,
-            "langueOriginale": "en"
+            "collectionDescription": "Les aventures inédites de la sœur de Sherlock Holmes, Enola.",
+            "collectionImage": "https://image.tmdb.org/t/p/w500/9QfsXZTS7gDJwkSmmBPlml3P8ca.jpg",
+            "collectionTmdbUrl": "https://www.themoviedb.org/collection/829314",
+            "ignoreInCollection": false
         },
         {
             "id": "ernest_et_celestine_gcjm_2012",
@@ -12453,7 +12590,7 @@
                 "Aventure"
             ],
             "image": "https://image.tmdb.org/t/p/w342/e2C0ElYfdvuGylhyCHbY2VzqFHY.jpg",
-            "fichier": "/03_Films/ernest.et.celestine.le.voyage.en.charabie.2022.french.bdrip.x264-ulysse.mkv",
+            "fichier": "/Box_Films/- Nouveaux/ernest.et.celestine.le.voyage.en.charabie.2022.french.bdrip.x264-ulysse.mkv",
             "nomFichier": "ernest.et.celestine.le.voyage.en.charabie.2022.french.bdrip.x264-ulysse.mkv",
             "imdbId": null,
             "tmdbId": 947219,
@@ -12520,7 +12657,7 @@
                 "Aventure"
             ],
             "image": "https://image.tmdb.org/t/p/w342/e2C0ElYfdvuGylhyCHbY2VzqFHY.jpg",
-            "fichier": "/03_Films/Ernest.et.Celestine.Le.Voyage.en.Charabie.2022.FRENCH.720p.BluRay.x264-Ulysse.mkv",
+            "fichier": "/Box_Films/- Nouveaux/Ernest.et.Celestine.Le.Voyage.en.Charabie.2022.FRENCH.720p.BluRay.x264-Ulysse.mkv",
             "nomFichier": "Ernest.et.Celestine.Le.Voyage.en.Charabie.2022.FRENCH.720p.BluRay.x264-Ulysse.mkv",
             "imdbId": null,
             "tmdbId": 947219,
@@ -14388,7 +14525,7 @@
                 "Action"
             ],
             "image": "https://image.tmdb.org/t/p/w342/2KQI0x6AEdbiN6z4LWjKZHukMzZ.jpg",
-            "fichier": "/03_Films/Ford.v.Ferrari.2019.FRENCH.BDRip.XviD-EXTREME.avi",
+            "fichier": "/Box_Films/- Nouveaux/Ford.v.Ferrari.2019.FRENCH.BDRip.XviD-EXTREME.avi",
             "nomFichier": "Ford.v.Ferrari.2019.FRENCH.BDRip.XviD-EXTREME.avi",
             "imdbId": null,
             "tmdbId": 359724,
@@ -15901,7 +16038,7 @@
                 "Fantastique"
             ],
             "image": "https://image.tmdb.org/t/p/w342/7kSRmdf80BART95tsOhuZkcmde6.jpg",
-            "fichier": "/03_Films/Ghost.Rider.2007.MULTi.VFF.1080p.HDLight.x264.AC3-T911.mkv",
+            "fichier": "/Box_Films/- Nouveaux/Ghost.Rider.2007.MULTi.VFF.1080p.HDLight.x264.AC3-T911.mkv",
             "nomFichier": "Ghost.Rider.2007.MULTi.VFF.1080p.HDLight.x264.AC3-T911.mkv",
             "imdbId": null,
             "tmdbId": 1250,
@@ -16395,7 +16532,7 @@
                 "Thriller"
             ],
             "image": "https://image.tmdb.org/t/p/w342/aMfHCU4Bb2QURqO0rVD06aFs7iq.jpg",
-            "fichier": "/03_Films/Goldeneye.1995.MULTi.VFi.1080p.HDLight.AC3.5.1.H264-LiHDL.mkv",
+            "fichier": "/Box_Films/- Nouveaux/Goldeneye.1995.MULTi.VFi.1080p.HDLight.AC3.5.1.H264-LiHDL.mkv",
             "nomFichier": "Goldeneye.1995.MULTi.VFi.1080p.HDLight.AC3.5.1.H264-LiHDL.mkv",
             "imdbId": null,
             "tmdbId": 710,
@@ -16514,7 +16651,7 @@
                 "Action"
             ],
             "image": "https://image.tmdb.org/t/p/w342/jY1qVXHz3IDGoajFivOhXgpBxHE.jpg",
-            "fichier": "/03_Films/Gone.in.60.Seconds.2000.MULTi VFF VFQ VOA HDlight AAC LC x264.mkv",
+            "fichier": "/Box_Films/Action/Gone.in.60.Seconds.2000.MULTi VFF VFQ VOA HDlight AAC LC x264.mkv",
             "nomFichier": "Gone.in.60.Seconds.2000.MULTi VFF VFQ VOA HDlight AAC LC x264.mkv",
             "imdbId": null,
             "tmdbId": 9679,
@@ -17244,7 +17381,7 @@
                 "Action"
             ],
             "image": "https://image.tmdb.org/t/p/w342/dnyQnKSSqQ8aOEMiE5hYDNJO4dE.jpg",
-            "fichier": "/03_Films/Guardians.of.the.Galaxy.Vol.3.2023.CUSTOM.TRUEFRENCH.BDRip.x264-ONLYMOViE.mkv",
+            "fichier": "/Box_Films/- Nouveaux/Guardians.of.the.Galaxy.Vol.3.2023.CUSTOM.TRUEFRENCH.BDRip.x264-ONLYMOViE.mkv",
             "nomFichier": "Guardians.of.the.Galaxy.Vol.3.2023.CUSTOM.TRUEFRENCH.BDRip.x264-ONLYMOViE.mkv",
             "imdbId": null,
             "tmdbId": 447365,
@@ -17323,7 +17460,7 @@
                 "Action"
             ],
             "image": "https://image.tmdb.org/t/p/w342/dnyQnKSSqQ8aOEMiE5hYDNJO4dE.jpg",
-            "fichier": "/03_Films/Guardians.of.the.Galaxy.Vol.3.2023.TRUEFRENCH.720p.WEBRip.H264.mkv",
+            "fichier": "/Box_Films/- Nouveaux/Guardians.of.the.Galaxy.Vol.3.2023.TRUEFRENCH.720p.WEBRip.H264.mkv",
             "nomFichier": "Guardians.of.the.Galaxy.Vol.3.2023.TRUEFRENCH.720p.WEBRip.H264.mkv",
             "imdbId": null,
             "tmdbId": 447365,
@@ -17463,7 +17600,7 @@
                 "Action"
             ],
             "image": "https://image.tmdb.org/t/p/w342/e2eeuY0FOeOhKNJ9TeTvpDjmUdi.jpg",
-            "fichier": "/03_Films/Hancock.2008.MULTI.VFF.1080p.HDLight.x264-T911.mkv",
+            "fichier": "/Box_Films/- Nouveaux/Hancock.2008.MULTI.VFF.1080p.HDLight.x264-T911.mkv",
             "nomFichier": "Hancock.2008.MULTI.VFF.1080p.HDLight.x264-T911.mkv",
             "imdbId": null,
             "tmdbId": 8960,
@@ -19121,7 +19258,7 @@
                 "Science-Fiction"
             ],
             "image": "https://image.tmdb.org/t/p/w342/5lxgTqmvxazjR9veAUXm1x3mX2o.jpg",
-            "fichier": "/03_Films/I.Robot.2004.MULTi VF i1080p HDlight x264-PopHD.mkv",
+            "fichier": "/Box_Films/- Nouveaux/I.Robot.2004.MULTi VF i1080p HDlight x264-PopHD.mkv",
             "nomFichier": "I.Robot.2004.MULTi VF i1080p HDlight x264-PopHD.mkv",
             "imdbId": null,
             "tmdbId": 2048,
@@ -19349,7 +19486,7 @@
                 "Action"
             ],
             "image": "https://image.tmdb.org/t/p/w342/Apish2YD3QIAepzxZ96VLkqEZo3.jpg",
-            "fichier": "/03_Films/Incredibles.2.2018.TRUEFRENCH.BDRip.XviD-T911.avi",
+            "fichier": "/Box_Films/- Nouveaux/Incredibles.2.2018.TRUEFRENCH.BDRip.XviD-T911.avi",
             "nomFichier": "Incredibles.2.2018.TRUEFRENCH.BDRip.XviD-T911.avi",
             "imdbId": null,
             "tmdbId": 260513,
@@ -19704,7 +19841,7 @@
                 "Action"
             ],
             "image": "https://image.tmdb.org/t/p/w342/7fHSYpgGgPBQKUrvDlhJDPfGZQg.jpg",
-            "fichier": "/03_Films/Ip.Man.1.2008.MULTi.BRrip.x264.AC3-GHZ.mkv",
+            "fichier": "/Box_Films/- Nouveaux/Ip.Man.1.2008.MULTi.BRrip.x264.AC3-GHZ.mkv",
             "nomFichier": "Ip.Man.1.2008.MULTi.BRrip.x264.AC3-GHZ.mkv",
             "imdbId": null,
             "tmdbId": 14756,
@@ -19791,7 +19928,7 @@
                 "Action"
             ],
             "image": "https://image.tmdb.org/t/p/w342/7HtZ7U1hfrtZAWOEgEv8x0lP4nr.jpg",
-            "fichier": "/03_Films/Ip.Man.2.(2010).Ita.Chi.Spa.Fre.720p.h264.byMetalh.mkv",
+            "fichier": "/Box_Films/- Nouveaux/Ip.Man.2.(2010).Ita.Chi.Spa.Fre.720p.h264.byMetalh.mkv",
             "nomFichier": "Ip.Man.2.(2010).Ita.Chi.Spa.Fre.720p.h264.byMetalh.mkv",
             "imdbId": null,
             "tmdbId": 37472,
@@ -19965,7 +20102,7 @@
                 "Action"
             ],
             "image": "https://image.tmdb.org/t/p/w342/36zQcTVrOm69fgn34GuTX2NHTsF.jpg",
-            "fichier": "/03_Films/Ip.Man.4.The.Finale.2019.FRENCH.720p.BluRay.x264.AC3-EXTREME.mkv",
+            "fichier": "/Box_Films/- Nouveaux/Ip.Man.4.The.Finale.2019.FRENCH.720p.BluRay.x264.AC3-EXTREME.mkv",
             "nomFichier": "Ip.Man.4.The.Finale.2019.FRENCH.720p.BluRay.x264.AC3-EXTREME.mkv",
             "imdbId": null,
             "tmdbId": 449924,
@@ -20043,7 +20180,7 @@
                 "Action"
             ],
             "image": "https://image.tmdb.org/t/p/w342/36zQcTVrOm69fgn34GuTX2NHTsF.jpg",
-            "fichier": "/03_Films/Ip.Man.4.The.Finale.2019.1080p.BluRay.x264.AAC5.1-.mp4",
+            "fichier": "/Box_Films/- Nouveaux/Ip.Man.4.The.Finale.2019.1080p.BluRay.x264.AAC5.1-.mp4",
             "nomFichier": "Ip.Man.4.The.Finale.2019.1080p.BluRay.x264.AAC5.1-.mp4",
             "imdbId": null,
             "tmdbId": 449924,
@@ -20109,7 +20246,7 @@
                 "Action"
             ],
             "image": "https://image.tmdb.org/t/p/w342/36zQcTVrOm69fgn34GuTX2NHTsF.jpg",
-            "fichier": "/03_Films/Ip Man 4 The Finale 2019 1080p HC HDRip x264 1.8GB - MkvHub.Com.mkv",
+            "fichier": "/Box_Films/- Nouveaux/Ip Man 4 The Finale 2019 1080p HC HDRip x264 1.8GB - MkvHub.Com.mkv",
             "nomFichier": "Ip Man 4 The Finale 2019 1080p HC HDRip x264 1.8GB - MkvHub.Com.mkv",
             "imdbId": null,
             "tmdbId": 449924,
@@ -20175,7 +20312,7 @@
                 "Action"
             ],
             "image": "https://image.tmdb.org/t/p/w342/uD114D4Di7M4sXnBiwaBHepUAZE.jpg",
-            "fichier": "/03_Films/Ip.Man.The.Awakening.2022.1080p.BluRay.1400MB.DD5.1.x264-GalaxyRG.mkv",
+            "fichier": "/Box_Films/- Nouveaux/Ip.Man.The.Awakening.2022.1080p.BluRay.1400MB.DD5.1.x264-GalaxyRG.mkv",
             "nomFichier": "Ip.Man.The.Awakening.2022.1080p.BluRay.1400MB.DD5.1.x264-GalaxyRG.mkv",
             "imdbId": null,
             "tmdbId": 875104,
@@ -20241,7 +20378,7 @@
                 "Action"
             ],
             "image": "https://image.tmdb.org/t/p/w342/kbC4MWXkwaX8DqRLFYoGTdUZSxm.jpg",
-            "fichier": "/03_Films/Ip.Man.The.Final.Fight.2013.1080p.BluRay.x264.AAC5.1-.mp4",
+            "fichier": "/Box_Films/- Nouveaux/Ip.Man.The.Final.Fight.2013.1080p.BluRay.x264.AAC5.1-.mp4",
             "nomFichier": "Ip.Man.The.Final.Fight.2013.1080p.BluRay.x264.AAC5.1-.mp4",
             "imdbId": null,
             "tmdbId": 182127,
@@ -20376,7 +20513,7 @@
                 "Science-Fiction"
             ],
             "image": "https://image.tmdb.org/t/p/w342/ghomWlBZtAW5K9zjcAvg4dU62AU.jpg",
-            "fichier": "/03_Films/Iron man 2.avi",
+            "fichier": "/Box_Films/- Nouveaux/Iron man 2.avi",
             "nomFichier": "Iron man 2.avi",
             "imdbId": null,
             "tmdbId": 10138,
@@ -20513,7 +20650,7 @@
                 "Science-Fiction"
             ],
             "image": "https://image.tmdb.org/t/p/w342/sE71EBrRMfW0NKMHlXPO55Km88X.jpg",
-            "fichier": "/03_Films/Iron Man 3 2013 FRENCH BDRiP XviD-CARPEDIEM.avi",
+            "fichier": "/Box_Films/- Nouveaux/Iron Man 3 2013 FRENCH BDRiP XviD-CARPEDIEM.avi",
             "nomFichier": "Iron Man 3 2013 FRENCH BDRiP XviD-CARPEDIEM.avi",
             "imdbId": null,
             "tmdbId": 68721,
@@ -20704,7 +20841,7 @@
                 "Action"
             ],
             "image": "https://image.tmdb.org/t/p/w342/d3HapjTNnR3mg7dugz47aQZ8rUS.jpg",
-            "fichier": "/03_Films/James.Bond.Die.Another.Day.2002.1080p.BRrip.x264.YIFY.mp4",
+            "fichier": "/Box_Films/- Nouveaux/James.Bond.Die.Another.Day.2002.1080p.BRrip.x264.YIFY.mp4",
             "nomFichier": "James.Bond.Die.Another.Day.2002.1080p.BRrip.x264.YIFY.mp4",
             "imdbId": null,
             "tmdbId": 36669,
@@ -20771,7 +20908,7 @@
                 "Action"
             ],
             "image": "https://image.tmdb.org/t/p/w342/uoffFMywnkbxQ9Q9FSnyDfuXFEW.jpg",
-            "fichier": "/03_Films/James.Bond.The.World.Is.Not.Enough.1999.1080p.BRrip.x264.YIFY.mp4",
+            "fichier": "/Box_Films/- Nouveaux/James.Bond.The.World.Is.Not.Enough.1999.1080p.BRrip.x264.YIFY.mp4",
             "nomFichier": "James.Bond.The.World.Is.Not.Enough.1999.1080p.BRrip.x264.YIFY.mp4",
             "imdbId": null,
             "tmdbId": 36643,
@@ -21680,7 +21817,7 @@
                 "Action"
             ],
             "image": "https://image.tmdb.org/t/p/w342/lkYOD4vYsuhRKQ8grKjUY9acWdF.jpg",
-            "fichier": "/03_Films/Johnny.English.Strikes.Again.2018.1080p.BluRay.x264-.mp4",
+            "fichier": "/Box_Films/- Nouveaux/Johnny.English.Strikes.Again.2018.1080p.BluRay.x264-.mp4",
             "nomFichier": "Johnny.English.Strikes.Again.2018.1080p.BluRay.x264-.mp4",
             "imdbId": null,
             "tmdbId": 463272,
@@ -21873,7 +22010,7 @@
                 "Aventure"
             ],
             "image": "https://image.tmdb.org/t/p/w342/sC31ja7yVxXwggx3oNuf9hVSg0G.jpg",
-            "fichier": "/03_Films/Jumanji.The.Next.Level.2019.MULTi.1080p.HMAX.WEB.x265-THESYNDiCATE.mkv",
+            "fichier": "/Box_Films/- Nouveaux/Jumanji.The.Next.Level.2019.MULTi.1080p.HMAX.WEB.x265-THESYNDiCATE.mkv",
             "nomFichier": "Jumanji.The.Next.Level.2019.MULTi.1080p.HMAX.WEB.x265-THESYNDiCATE.mkv",
             "imdbId": null,
             "tmdbId": 512200,
@@ -21961,7 +22098,7 @@
                 "Aventure"
             ],
             "image": "https://image.tmdb.org/t/p/w342/cOsomItWDbdwlG6XJUYkiAWoFLW.jpg",
-            "fichier": "/03_Films/Jumanji.Welcome.to.the.Jungle.2017.MULTI.1080p.BluRay.Light.x264.AC3-ACOOL.mkv",
+            "fichier": "/Box_Films/- Nouveaux/Jumanji.Welcome.to.the.Jungle.2017.MULTI.1080p.BluRay.Light.x264.AC3-ACOOL.mkv",
             "nomFichier": "Jumanji.Welcome.to.the.Jungle.2017.MULTI.1080p.BluRay.Light.x264.AC3-ACOOL.mkv",
             "imdbId": null,
             "tmdbId": 353486,
@@ -22315,7 +22452,7 @@
                 "Action"
             ],
             "image": "https://image.tmdb.org/t/p/w342/h6pD4G2ogPnzACofNIdjERsbnTZ.jpg",
-            "fichier": "/03_Films/Karate Kid 1984 French DvDRip X264 AC3-T911.avi",
+            "fichier": "/Box_Films/- Nouveaux/Karate Kid 1984 French DvDRip X264 AC3-T911.avi",
             "nomFichier": "Karate Kid 1984 French DvDRip X264 AC3-T911.avi",
             "imdbId": null,
             "tmdbId": 1885,
@@ -22475,7 +22612,7 @@
                 "Policier"
             ],
             "image": "https://image.tmdb.org/t/p/w342/mFPqFjOMhOFMOEYaQAe7a1HxKkG.jpg",
-            "fichier": "/03_Films/Street Kings (2008) 1080p-H264-AC 3 (DolbyDigital-5.1) & nickarad.mp4",
+            "fichier": "/Box_Films/- Nouveaux/Street Kings (2008) 1080p-H264-AC 3 (DolbyDigital-5.1) & nickarad.mp4",
             "nomFichier": "Street Kings (2008) 1080p-H264-AC 3 (DolbyDigital-5.1) & nickarad.mp4",
             "imdbId": null,
             "tmdbId": 1266,
@@ -22543,7 +22680,7 @@
                 "Thriller"
             ],
             "image": "https://image.tmdb.org/t/p/w342/aNImLX646JNzXakGSGGHsXhP6Du.jpg",
-            "fichier": "/03_Films/Street.Kings.2.Motor.City.2011.720p.BluRay.800MB.x264-GalaxyRG.mkv",
+            "fichier": "/Box_Films/- Nouveaux/Street.Kings.2.Motor.City.2011.720p.BluRay.800MB.x264-GalaxyRG.mkv",
             "nomFichier": "Street.Kings.2.Motor.City.2011.720p.BluRay.800MB.x264-GalaxyRG.mkv",
             "imdbId": null,
             "tmdbId": 58625,
@@ -23688,7 +23825,7 @@
                 "Action"
             ],
             "image": "https://image.tmdb.org/t/p/w342/tZmlUikHctU4qy82HMmkbGWDHfY.jpg",
-            "fichier": "/03_Films/L'Agence tous risquesL'Agence tous risques.2010.MULTi.VFF.1080p.HDLight.x264.AC3-T911.mkv",
+            "fichier": "/Box_Films/- Nouveaux/L'Agence tous risquesL'Agence tous risques.2010.MULTi.VFF.1080p.HDLight.x264.AC3-T911.mkv",
             "nomFichier": "L'Agence tous risquesL'Agence tous risques.2010.MULTi.VFF.1080p.HDLight.x264.AC3-T911.mkv",
             "imdbId": null,
             "tmdbId": 34544,
@@ -24174,7 +24311,7 @@
                 "Thriller"
             ],
             "image": "https://image.tmdb.org/t/p/w342/8wUNoQ0Q92dHSXqdq7mceGudasg.jpg",
-            "fichier": "/03_Films/L'arme Fatale IV 1998 Multi-VF2 1080p HDlight.x264-Tonyk.mkv",
+            "fichier": "/Box_Films/- Nouveaux/L'arme Fatale IV 1998 Multi-VF2 1080p HDlight.x264-Tonyk.mkv",
             "nomFichier": "L'arme Fatale IV 1998 Multi-VF2 1080p HDlight.x264-Tonyk.mkv",
             "imdbId": null,
             "tmdbId": 944,
@@ -24743,7 +24880,7 @@
                 "Action"
             ],
             "image": "https://image.tmdb.org/t/p/w342/1UbRvMwbiCrkFHEeFVUiXeGvy7j.jpg",
-            "fichier": "/03_Films/Lara Croft Tomb Raider II The Cradle of Life 2003 1080p REMASTERED BluRay HEVC x265 5.1 BONE.mkv",
+            "fichier": "/Box_Films/- Nouveaux/Lara Croft Tomb Raider II The Cradle of Life 2003 1080p REMASTERED BluRay HEVC x265 5.1 BONE.mkv",
             "nomFichier": "Lara Croft Tomb Raider II The Cradle of Life 2003 1080p REMASTERED BluRay HEVC x265 5.1 BONE.mkv",
             "imdbId": null,
             "tmdbId": 1996,
@@ -26509,7 +26646,7 @@
                 "Comédie"
             ],
             "image": "https://image.tmdb.org/t/p/w342/kvILcin1mGcEyu0rrME8MlmD9b3.jpg",
-            "fichier": "/03_Films/Les.Ripoux.FRENCH.DVDRIP.XVID-PARADIS.avi",
+            "fichier": "/Box_Films/- Nouveaux/Les.Ripoux.FRENCH.DVDRIP.XVID-PARADIS.avi",
             "nomFichier": "Les.Ripoux.FRENCH.DVDRIP.XVID-PARADIS.avi",
             "imdbId": null,
             "tmdbId": 10260,
@@ -27058,13 +27195,16 @@
                 "VF"
             ],
             "taille": 3135666007,
-            "genre": null,
-            "image": null,
+            "genre": [
+                "Action",
+                "Thriller"
+            ],
+            "image": "https://image.tmdb.org/t/p/w342/mn8bwgfQgNV8bqKnazHAW6C6e0D.jpg",
             "fichier": "/Box_Films/- Nouveaux/Live Free or Die Hard (2007) MULTi [1080p] BluRay x264-PopHD.mkv",
             "nomFichier": "Live Free or Die Hard (2007) MULTi [1080p] BluRay x264-PopHD.mkv",
             "imdbId": null,
-            "tmdbId": null,
-            "tmdbUrl": null,
+            "tmdbId": 1571,
+            "tmdbUrl": "https://www.themoviedb.org/movie/1571",
             "doublonExact": false,
             "doublonProbable": false,
             "groupeDoublon": null,
@@ -27128,14 +27268,19 @@
                         "langue": "eng",
                         "titre": "Full SDH"
                     }
-                ],
-                "zoneUtile": {
-                    "largeurUtile": 1904,
-                    "hauteurUtile": 800,
-                    "x": 6,
-                    "y": 0
-                }
-            }
+                ]
+            },
+            "titreTmdb": "Die Hard 4 : Retour en enfer",
+            "titreOriginal": "Live Free or Die Hard",
+            "langueOriginale": "en",
+            "anneeTmdb": "2007",
+            "dureeTmdb": 128,
+            "descriptionTmdb": "Pour sa quatrième aventure, l’inspecteur John McClane se trouve confronté à un nouveau genre de terrorisme. Le réseau informatique national qui contrôle absolument toutes les communications, les transports et l’énergie des États‐Unis, est détruit de façon systématique, plongeant le pays dans le chaos. Le cerveau qui est derrière le complot a tout calculé à la perfection. Ou presque… Il n’avait pas prévu McClane, un flic de la vieille école qui connaît deux ou trois trucs efficaces pour déjouer les attaques terroristes.",
+            "collectionId": 1570,
+            "collectionNom": "Die Hard - Saga",
+            "collectionDescription": "Une série de films d'action centrés autour du personnage de John McClane, un détective de police de New York City qui se retrouve en lutte contre un groupe de terroristes dans chaque film.",
+            "collectionImage": "https://image.tmdb.org/t/p/w500/bFZRGXeLLUjnp3F8zzwkvrvPHWD.jpg",
+            "collectionTmdbUrl": "https://www.themoviedb.org/collection/1570"
         },
         {
             "id": "le_livre_de_la_jungle",
@@ -28014,7 +28159,7 @@
                 "Aventure"
             ],
             "image": "https://image.tmdb.org/t/p/w342/6OEtkkzoyusZDm2uMJojlWZSLR9.jpg",
-            "fichier": "/03_Films/Spider.Man.Brand.New.Day.2026.Multi.Vf2.WEBRIP.mp4",
+            "fichier": "/Box_Films/- Nouveaux/Spider.Man.Brand.New.Day.2026.Multi.Vf2.WEBRIP.mp4",
             "nomFichier": "Spider.Man.Brand.New.Day.2026.Multi.Vf2.WEBRIP.mp4",
             "imdbId": null,
             "tmdbId": 969681,
@@ -28456,7 +28601,7 @@
                 "Action"
             ],
             "image": "https://image.tmdb.org/t/p/w342/AoyxxB7fEMsioFkqjl3yexnCzbP.jpg",
-            "fichier": "/03_Films/Master.Z.Ip.Man.Legacy.2018.1080p.BluRay.x264-.mp4",
+            "fichier": "/Box_Films/- Nouveaux/Master.Z.Ip.Man.Legacy.2018.1080p.BluRay.x264-.mp4",
             "nomFichier": "Master.Z.Ip.Man.Legacy.2018.1080p.BluRay.x264-.mp4",
             "imdbId": null,
             "tmdbId": 450001,
@@ -28874,7 +29019,8 @@
             "languesAudio": [
                 "EN",
                 "FR"
-            ]
+            ],
+            "ignoreInCollection": false
         },
         {
             "id": "men_in_black_3",
@@ -28961,7 +29107,8 @@
             "collectionNom": "Men in Black - Saga",
             "collectionDescription": "Les M.I.B (Men In Black) sont des agents ultra-secrets qui travaillent pour le gouvernement. Leur tâche, très, très spéciale consiste à contrôler l'immigration extraterrestre sur la Terre, à surveiller les ressortissants, et préserver l'entente avec les autres planètes, dans la plus grande discrétion.",
             "collectionImage": "https://image.tmdb.org/t/p/w500/qB1LRV2RjBy1bfNRwmVN3fW5sQl.jpg",
-            "collectionTmdbUrl": "https://www.themoviedb.org/collection/86055"
+            "collectionTmdbUrl": "https://www.themoviedb.org/collection/86055",
+            "ignoreInCollection": false
         },
         {
             "id": "men_in_black_ii_2002",
@@ -29053,7 +29200,8 @@
             "languesAudio": [
                 "EN",
                 "FR"
-            ]
+            ],
+            "ignoreInCollection": false
         },
         {
             "id": "merlin_l_enchanteur",
@@ -29291,7 +29439,7 @@
                 "Action"
             ],
             "image": "https://image.tmdb.org/t/p/w342/fmimhXqKUmpwaOrYS2TAcEWvcMv.jpg",
-            "fichier": "/03_Films/Mike.And.Nick.And.Nick.And.Alice.2026.Multi.WEBRIP.mp4",
+            "fichier": "/Box_Films/- Nouveaux/Mike.And.Nick.And.Nick.And.Alice.2026.Multi.WEBRIP.mp4",
             "nomFichier": "Mike.And.Nick.And.Nick.And.Alice.2026.Multi.WEBRIP.mp4",
             "imdbId": null,
             "tmdbId": 1115544,
@@ -29625,6 +29773,98 @@
             "langue": [
                 "TBD"
             ],
+            "taille": 4364417294,
+            "genre": [
+                "Aventure",
+                "Action",
+                "Thriller"
+            ],
+            "image": "https://image.tmdb.org/t/p/w342/tf9NnE1P26vtfncWtVQ5P2VE4gl.jpg",
+            "fichier": "/Box_Films/- Nouveaux/[ Torrent911.io ] Mission Impossible - integrale - HEVC-AC3/Mission Impossible 1 - 1080p.mkv",
+            "nomFichier": "Mission Impossible 1 - 1080p.mkv",
+            "imdbId": null,
+            "tmdbId": 954,
+            "tmdbUrl": "https://www.themoviedb.org/movie/954",
+            "doublonExact": false,
+            "doublonProbable": true,
+            "groupeDoublon": "mission_impossible_1",
+            "dateAjout": "2026-11-18T05:03:44.243Z",
+            "technique": {
+                "largeur": 1916,
+                "hauteur": 796,
+                "resolution": "1916x796",
+                "ratioImage": 2.407,
+                "codecVideo": "hevc",
+                "profilVideo": "Main",
+                "pixelFormat": "yuv420p",
+                "bitsParComposante": null,
+                "bitrateVideo": null,
+                "framerate": 23.976,
+                "espaceCouleur": "bt709",
+                "transfertCouleur": "bt709",
+                "primairesCouleur": "bt709",
+                "hdr": false,
+                "dureeFichier": 6612.608,
+                "bitrateGlobal": 5280116,
+                "formatConteneur": "matroska,webm",
+                "audio": [
+                    {
+                        "codec": "ac3",
+                        "profil": null,
+                        "canaux": 6,
+                        "disposition": "5.1(side)",
+                        "bitrate": 640000,
+                        "frequence": 48000,
+                        "langue": "fre"
+                    },
+                    {
+                        "codec": "ac3",
+                        "profil": null,
+                        "canaux": 6,
+                        "disposition": "5.1(side)",
+                        "bitrate": 640000,
+                        "frequence": 48000,
+                        "langue": "eng"
+                    }
+                ],
+                "sousTitres": [
+                    {
+                        "codec": "subrip",
+                        "langue": "fre",
+                        "titre": "Français"
+                    },
+                    {
+                        "codec": "subrip",
+                        "langue": "eng",
+                        "titre": "English"
+                    },
+                    {
+                        "codec": "subrip",
+                        "langue": "fre",
+                        "titre": "Forced"
+                    }
+                ]
+            },
+            "titreTmdb": "Mission : Impossible",
+            "titreOriginal": "Mission: Impossible",
+            "langueOriginale": "en",
+            "anneeTmdb": "1996",
+            "dureeTmdb": 110,
+            "descriptionTmdb": "Ethan Hunt, un agent secret de haut niveau, est accusé de la mort de son équipe d'espionnage. Alors qu'il fuit les criminels du gouvernement, qu'il s'introduit dans la chambre forte la plus impénétrable de la CIA et qu'il se cramponne au toit d'un train à grande vitesse, Hunt se retrouve dans une course effrénée pour devancer ceux qui le poursuivent… et se rapprocher petit à petit d'une vérité bouleversante.",
+            "collectionId": 87359,
+            "collectionNom": "Mission : Impossible - Saga",
+            "collectionDescription": "Les aventures de l'agent secret Ethan Hunt pour le compte de l'unité IMF (Impossible Missions Force).",
+            "collectionImage": "https://image.tmdb.org/t/p/w500/5nUgyjBem5QctwzQoDyJ3kuE7xh.jpg",
+            "collectionTmdbUrl": "https://www.themoviedb.org/collection/87359",
+            "ignoreInCollection": false
+        },
+        {
+            "id": "mission_impossible_1",
+            "titre": "Mission Impossible 1",
+            "annee": null,
+            "langue": [
+                "TBD"
+            ],
             "taille": 740083626,
             "genre": [
                 "Action"
@@ -29636,8 +29876,8 @@
             "tmdbId": 954,
             "tmdbUrl": "https://www.themoviedb.org/movie/954",
             "doublonExact": false,
-            "doublonProbable": false,
-            "groupeDoublon": null,
+            "doublonProbable": true,
+            "groupeDoublon": "mission_impossible_1",
             "dateAjout": "2026-08-22T08:23:33.539Z",
             "titreTmdb": "Mission : Impossible",
             "anneeTmdb": "1996",
@@ -29683,6 +29923,98 @@
             "langueOriginale": "en"
         },
         {
+            "id": "mission_impossible_2",
+            "titre": "Mission Impossible 2",
+            "annee": null,
+            "langue": [
+                "TBD"
+            ],
+            "taille": 4891983873,
+            "genre": [
+                "Aventure",
+                "Action",
+                "Thriller"
+            ],
+            "image": "https://image.tmdb.org/t/p/w342/70jn233gTq8kvbLtH9EB8Ios26s.jpg",
+            "fichier": "/Box_Films/- Nouveaux/[ Torrent911.io ] Mission Impossible - integrale - HEVC-AC3/Mission Impossible 2 - 1080p.mkv",
+            "nomFichier": "Mission Impossible 2 - 1080p.mkv",
+            "imdbId": null,
+            "tmdbId": 955,
+            "tmdbUrl": "https://www.themoviedb.org/movie/955",
+            "doublonExact": false,
+            "doublonProbable": true,
+            "groupeDoublon": "mission_impossible_2",
+            "dateAjout": "2026-11-18T05:03:45.676Z",
+            "technique": {
+                "largeur": 1916,
+                "hauteur": 796,
+                "resolution": "1916x796",
+                "ratioImage": 2.407,
+                "codecVideo": "hevc",
+                "profilVideo": "Main",
+                "pixelFormat": "yuv420p",
+                "bitsParComposante": null,
+                "bitrateVideo": null,
+                "framerate": 23.976,
+                "espaceCouleur": "bt709",
+                "transfertCouleur": "bt709",
+                "primairesCouleur": "bt709",
+                "hdr": false,
+                "dureeFichier": 7415.392,
+                "bitrateGlobal": 5277653,
+                "formatConteneur": "matroska,webm",
+                "audio": [
+                    {
+                        "codec": "ac3",
+                        "profil": null,
+                        "canaux": 6,
+                        "disposition": "5.1(side)",
+                        "bitrate": 640000,
+                        "frequence": 48000,
+                        "langue": "fre"
+                    },
+                    {
+                        "codec": "ac3",
+                        "profil": null,
+                        "canaux": 6,
+                        "disposition": "5.1(side)",
+                        "bitrate": 640000,
+                        "frequence": 48000,
+                        "langue": "eng"
+                    }
+                ],
+                "sousTitres": [
+                    {
+                        "codec": "subrip",
+                        "langue": "fre",
+                        "titre": "Français"
+                    },
+                    {
+                        "codec": "subrip",
+                        "langue": "eng",
+                        "titre": "English"
+                    },
+                    {
+                        "codec": "subrip",
+                        "langue": "fre",
+                        "titre": "Forced"
+                    }
+                ]
+            },
+            "titreTmdb": "Mission : Impossible 2",
+            "titreOriginal": "Mission: Impossible II",
+            "langueOriginale": "en",
+            "anneeTmdb": "2000",
+            "dureeTmdb": 123,
+            "descriptionTmdb": "L'agent Ethan Hunt doit récupérer et détruire un virus mortel, baptisé « la Chimère », qui a été dérobé par son ancien collègue Sean Ambrose. Ce dernier détient l'antidote et se terre dans un laboratoire de Sydney. Pour infiltrer son quartier général hautement sécurisé, Hunt et son assistant Luther Stickell tentent d'approcher Nyah Hall, l'ancienne petite amie de Sean.",
+            "collectionId": 87359,
+            "collectionNom": "Mission : Impossible - Saga",
+            "collectionDescription": "Les aventures de l'agent secret Ethan Hunt pour le compte de l'unité IMF (Impossible Missions Force).",
+            "collectionImage": "https://image.tmdb.org/t/p/w500/5nUgyjBem5QctwzQoDyJ3kuE7xh.jpg",
+            "collectionTmdbUrl": "https://www.themoviedb.org/collection/87359",
+            "ignoreInCollection": false
+        },
+        {
             "id": "mission_impossible_2_2000",
             "titre": "Mission Impossible 2",
             "annee": 2000,
@@ -29700,8 +30032,8 @@
             "tmdbId": 955,
             "tmdbUrl": "https://www.themoviedb.org/movie/955",
             "doublonExact": false,
-            "doublonProbable": false,
-            "groupeDoublon": null,
+            "doublonProbable": true,
+            "groupeDoublon": "mission_impossible_2",
             "dateAjout": "2026-08-22T08:23:33.540Z",
             "titreTmdb": "Mission : Impossible 2",
             "anneeTmdb": "2000",
@@ -29745,6 +30077,98 @@
             },
             "titreOriginal": "Mission: Impossible II",
             "langueOriginale": "en"
+        },
+        {
+            "id": "mission_impossible_3",
+            "titre": "Mission Impossible 3",
+            "annee": null,
+            "langue": [
+                "TBD"
+            ],
+            "taille": 4965924156,
+            "genre": [
+                "Aventure",
+                "Action",
+                "Thriller"
+            ],
+            "image": "https://image.tmdb.org/t/p/w342/wlesOljZycfrbBCdJLdmumSiNYT.jpg",
+            "fichier": "/Box_Films/- Nouveaux/[ Torrent911.io ] Mission Impossible - integrale - HEVC-AC3/Mission Impossible 3 - 1080p.mkv",
+            "nomFichier": "Mission Impossible 3 - 1080p.mkv",
+            "imdbId": null,
+            "tmdbId": 956,
+            "tmdbUrl": "https://www.themoviedb.org/movie/956",
+            "doublonExact": false,
+            "doublonProbable": true,
+            "groupeDoublon": "mission_impossible_3",
+            "dateAjout": "2026-11-18T05:03:46.917Z",
+            "technique": {
+                "largeur": 1920,
+                "hauteur": 820,
+                "resolution": "1920x820",
+                "ratioImage": 2.341,
+                "codecVideo": "hevc",
+                "profilVideo": "Main",
+                "pixelFormat": "yuv420p",
+                "bitsParComposante": null,
+                "bitrateVideo": null,
+                "framerate": 23.976,
+                "espaceCouleur": "bt709",
+                "transfertCouleur": "bt709",
+                "primairesCouleur": "bt709",
+                "hdr": false,
+                "dureeFichier": 7524.544,
+                "bitrateGlobal": 5279707,
+                "formatConteneur": "matroska,webm",
+                "audio": [
+                    {
+                        "codec": "ac3",
+                        "profil": null,
+                        "canaux": 6,
+                        "disposition": "5.1(side)",
+                        "bitrate": 640000,
+                        "frequence": 48000,
+                        "langue": "fre"
+                    },
+                    {
+                        "codec": "ac3",
+                        "profil": null,
+                        "canaux": 6,
+                        "disposition": "5.1(side)",
+                        "bitrate": 640000,
+                        "frequence": 48000,
+                        "langue": "eng"
+                    }
+                ],
+                "sousTitres": [
+                    {
+                        "codec": "subrip",
+                        "langue": "fre",
+                        "titre": "Français"
+                    },
+                    {
+                        "codec": "subrip",
+                        "langue": "eng",
+                        "titre": "English"
+                    },
+                    {
+                        "codec": "subrip",
+                        "langue": "fre",
+                        "titre": "Forced"
+                    }
+                ]
+            },
+            "titreTmdb": "Mission : Impossible 3",
+            "titreOriginal": "Mission: Impossible III",
+            "langueOriginale": "en",
+            "anneeTmdb": "2006",
+            "dureeTmdb": 125,
+            "descriptionTmdb": "Ethan Hunt a quitté Mission Impossible. Il forme désormais les futurs agents du gouvernement américain. Un poste qui devrait enfin lui permettre de mener une existence tranquille auprès de sa femme Julia. Mais quand Lindsey, l'une de ses élèves, est kidnappée à Berlin par Owen Davian, un trafiquant d'armes, Ethan se sent obligé de lui porter secours et repart, sans hésiter, en mission pour la libérer.",
+            "collectionId": 87359,
+            "collectionNom": "Mission : Impossible - Saga",
+            "collectionDescription": "Les aventures de l'agent secret Ethan Hunt pour le compte de l'unité IMF (Impossible Missions Force).",
+            "collectionImage": "https://image.tmdb.org/t/p/w500/5nUgyjBem5QctwzQoDyJ3kuE7xh.jpg",
+            "collectionTmdbUrl": "https://www.themoviedb.org/collection/87359",
+            "ignoreInCollection": false
         },
         {
             "id": "mission_impossible_3_2006",
@@ -30105,6 +30529,188 @@
             ]
         },
         {
+            "id": "mission_impossible_4_protocole_fantome",
+            "titre": "Mission Impossible 4 Protocole Fantome",
+            "annee": null,
+            "langue": [
+                "TBD"
+            ],
+            "taille": 5266532798,
+            "genre": [
+                "Action",
+                "Thriller",
+                "Aventure"
+            ],
+            "image": "https://image.tmdb.org/t/p/w342/wMatavrX9HWNKxczKzr2Xy2KnYH.jpg",
+            "fichier": "/Box_Films/- Nouveaux/[ Torrent911.io ] Mission Impossible - integrale - HEVC-AC3/Mission Impossible 4 - Protocole Fantome - 1080p.mkv",
+            "nomFichier": "Mission Impossible 4 - Protocole Fantome - 1080p.mkv",
+            "imdbId": null,
+            "tmdbId": 56292,
+            "tmdbUrl": "https://www.themoviedb.org/movie/56292",
+            "doublonExact": false,
+            "doublonProbable": false,
+            "groupeDoublon": null,
+            "dateAjout": "2026-11-18T05:03:48.244Z",
+            "technique": {
+                "largeur": 1920,
+                "hauteur": 800,
+                "resolution": "1920x800",
+                "ratioImage": 2.4,
+                "codecVideo": "hevc",
+                "profilVideo": "Main",
+                "pixelFormat": "yuv420p",
+                "bitsParComposante": null,
+                "bitrateVideo": null,
+                "framerate": 23.976,
+                "espaceCouleur": "bt709",
+                "transfertCouleur": "bt709",
+                "primairesCouleur": "bt709",
+                "hdr": false,
+                "dureeFichier": 7976.32,
+                "bitrateGlobal": 5282168,
+                "formatConteneur": "matroska,webm",
+                "audio": [
+                    {
+                        "codec": "ac3",
+                        "profil": null,
+                        "canaux": 6,
+                        "disposition": "5.1(side)",
+                        "bitrate": 640000,
+                        "frequence": 48000,
+                        "langue": "fre"
+                    },
+                    {
+                        "codec": "ac3",
+                        "profil": null,
+                        "canaux": 6,
+                        "disposition": "5.1(side)",
+                        "bitrate": 640000,
+                        "frequence": 48000,
+                        "langue": "eng"
+                    }
+                ],
+                "sousTitres": [
+                    {
+                        "codec": "subrip",
+                        "langue": "fre",
+                        "titre": "Français"
+                    },
+                    {
+                        "codec": "subrip",
+                        "langue": "eng",
+                        "titre": "English"
+                    },
+                    {
+                        "codec": "subrip",
+                        "langue": "fre",
+                        "titre": "Forced"
+                    }
+                ]
+            },
+            "titreTmdb": "Mission : Impossible - Protocole Fantôme",
+            "titreOriginal": "Mission: Impossible - Ghost Protocol",
+            "langueOriginale": "en",
+            "anneeTmdb": "2011",
+            "dureeTmdb": 133,
+            "descriptionTmdb": "Après avoir été impliquée dans un complot terroriste mondial, l’agence Mission Impossible est contrainte de cesser ses activités. Le « Protocole Fantôme » est mis en place : Ethan Hunt et sa nouvelle équipe doivent opérer dans le secret pour blanchir le nom de leur organisation. Aucune aide, aucun contact, isolation totale. Cette mission va s'avérer être la plus dangereuse et la plus intense qu'ils aient eu à remplir.",
+            "collectionId": 87359,
+            "collectionNom": "Mission : Impossible - Saga",
+            "collectionDescription": "Les aventures de l'agent secret Ethan Hunt pour le compte de l'unité IMF (Impossible Missions Force).",
+            "collectionImage": "https://image.tmdb.org/t/p/w500/5nUgyjBem5QctwzQoDyJ3kuE7xh.jpg",
+            "collectionTmdbUrl": "https://www.themoviedb.org/collection/87359"
+        },
+        {
+            "id": "mission_impossible_5_rogue_nation",
+            "titre": "Mission Impossible 5 Rogue Nation",
+            "annee": null,
+            "langue": [
+                "TBD"
+            ],
+            "taille": 5211595534,
+            "genre": [
+                "Action",
+                "Aventure"
+            ],
+            "image": "https://image.tmdb.org/t/p/w342/v0dj9NVPFTX0bv5NtqxK99i1Ae3.jpg",
+            "fichier": "/Box_Films/- Nouveaux/[ Torrent911.io ] Mission Impossible - integrale - HEVC-AC3/Mission Impossible 5 - Rogue Nation - 1080p.mkv",
+            "nomFichier": "Mission Impossible 5 - Rogue Nation - 1080p.mkv",
+            "imdbId": null,
+            "tmdbId": 177677,
+            "tmdbUrl": "https://www.themoviedb.org/movie/177677",
+            "doublonExact": false,
+            "doublonProbable": true,
+            "groupeDoublon": "mission_impossible_5_rogue_nation",
+            "dateAjout": "2026-11-18T05:03:49.446Z",
+            "technique": {
+                "largeur": 1920,
+                "hauteur": 804,
+                "resolution": "1920x804",
+                "ratioImage": 2.388,
+                "codecVideo": "hevc",
+                "profilVideo": "Main",
+                "pixelFormat": "yuv420p",
+                "bitsParComposante": null,
+                "bitrateVideo": null,
+                "framerate": 23.976,
+                "espaceCouleur": "bt709",
+                "transfertCouleur": "bt709",
+                "primairesCouleur": "bt709",
+                "hdr": false,
+                "dureeFichier": 7893.792,
+                "bitrateGlobal": 5281715,
+                "formatConteneur": "matroska,webm",
+                "audio": [
+                    {
+                        "codec": "ac3",
+                        "profil": null,
+                        "canaux": 6,
+                        "disposition": "5.1(side)",
+                        "bitrate": 640000,
+                        "frequence": 48000,
+                        "langue": "fre"
+                    },
+                    {
+                        "codec": "ac3",
+                        "profil": null,
+                        "canaux": 6,
+                        "disposition": "5.1(side)",
+                        "bitrate": 640000,
+                        "frequence": 48000,
+                        "langue": "eng"
+                    }
+                ],
+                "sousTitres": [
+                    {
+                        "codec": "subrip",
+                        "langue": "fre",
+                        "titre": "Français"
+                    },
+                    {
+                        "codec": "subrip",
+                        "langue": "eng",
+                        "titre": "English"
+                    },
+                    {
+                        "codec": "subrip",
+                        "langue": "fre",
+                        "titre": "Forced"
+                    }
+                ]
+            },
+            "titreTmdb": "Mission : Impossible - Rogue Nation",
+            "titreOriginal": "Mission: Impossible - Rogue Nation",
+            "langueOriginale": "en",
+            "anneeTmdb": "2015",
+            "dureeTmdb": 131,
+            "descriptionTmdb": "L'agence Mission Impossible est dissoute et Ethan Hunt se retrouve désormais isolé. Il doit affronter un réseau d’agents spéciaux particulièrement entraînés, le Syndicat. Cette organisation sans scrupules est déterminée à mettre en place un nouvel ordre mondial, à travers des attaques terroristes de plus en plus violentes. Ethan regroupe alors son équipe et fait alliance avec Ilsa Faust, agent britannique révoquée, dont les liens avec le Syndicat restent mystérieux.",
+            "collectionId": 87359,
+            "collectionNom": "Mission : Impossible - Saga",
+            "collectionDescription": "Les aventures de l'agent secret Ethan Hunt pour le compte de l'unité IMF (Impossible Missions Force).",
+            "collectionImage": "https://image.tmdb.org/t/p/w500/5nUgyjBem5QctwzQoDyJ3kuE7xh.jpg",
+            "collectionTmdbUrl": "https://www.themoviedb.org/collection/87359",
+            "ignoreInCollection": false
+        },
+        {
             "id": "mission_impossible_5_rogue_nation_2015",
             "titre": "Mission Impossible 5 Rogue Nation",
             "annee": 2015,
@@ -30377,6 +30983,228 @@
             "langueOriginale": "en"
         },
         {
+            "id": "mission_impossible_ghost_protocol_2011",
+            "titre": "Mission Impossible Ghost Protocol ( )",
+            "annee": 2011,
+            "langue": [
+                "VO",
+                "VF"
+            ],
+            "taille": 3784688324,
+            "genre": [
+                "Action",
+                "Thriller",
+                "Aventure"
+            ],
+            "image": "https://image.tmdb.org/t/p/w342/wMatavrX9HWNKxczKzr2Xy2KnYH.jpg",
+            "fichier": "/Box_Films/- Nouveaux/[ Torrent911.tv ] Mission Impossible Ghost Protocol (2011) [1080p] MULTi VF2 BluRay x264 AC3-PopHD.mkv",
+            "nomFichier": "[ Torrent911.tv ] Mission Impossible Ghost Protocol (2011) [1080p] MULTi VF2 BluRay x264 AC3-PopHD.mkv",
+            "imdbId": null,
+            "tmdbId": 56292,
+            "tmdbUrl": "https://www.themoviedb.org/movie/56292",
+            "doublonExact": false,
+            "doublonProbable": false,
+            "groupeDoublon": null,
+            "dateAjout": "2026-11-18T05:03:50.511Z",
+            "technique": {
+                "largeur": 1920,
+                "hauteur": 800,
+                "resolution": "1920x800",
+                "ratioImage": 2.4,
+                "codecVideo": "h264",
+                "profilVideo": "High",
+                "pixelFormat": "yuv420p",
+                "bitsParComposante": 8,
+                "bitrateVideo": null,
+                "framerate": 23.976,
+                "espaceCouleur": "bt709",
+                "transfertCouleur": "bt709",
+                "primairesCouleur": "bt709",
+                "hdr": false,
+                "dureeFichier": 7976.398,
+                "bitrateGlobal": 3795887,
+                "formatConteneur": "matroska,webm",
+                "audio": [
+                    {
+                        "codec": "ac3",
+                        "profil": null,
+                        "canaux": 6,
+                        "disposition": "5.1(side)",
+                        "bitrate": 448000,
+                        "frequence": 48000,
+                        "langue": "fre"
+                    },
+                    {
+                        "codec": "ac3",
+                        "profil": null,
+                        "canaux": 6,
+                        "disposition": "5.1(side)",
+                        "bitrate": 448000,
+                        "frequence": 48000,
+                        "langue": "eng"
+                    },
+                    {
+                        "codec": "ac3",
+                        "profil": null,
+                        "canaux": 6,
+                        "disposition": "5.1(side)",
+                        "bitrate": 448000,
+                        "frequence": 48000,
+                        "langue": "fre"
+                    }
+                ],
+                "sousTitres": [
+                    {
+                        "codec": "subrip",
+                        "langue": "fre",
+                        "titre": "French Forced"
+                    },
+                    {
+                        "codec": "subrip",
+                        "langue": "fre",
+                        "titre": "French Full"
+                    },
+                    {
+                        "codec": "subrip",
+                        "langue": "eng",
+                        "titre": "English Forced"
+                    },
+                    {
+                        "codec": "subrip",
+                        "langue": "eng",
+                        "titre": "English Full"
+                    },
+                    {
+                        "codec": "subrip",
+                        "langue": "eng",
+                        "titre": "English Full SDH"
+                    }
+                ]
+            },
+            "titreTmdb": "Mission : Impossible - Protocole Fantôme",
+            "titreOriginal": "Mission: Impossible - Ghost Protocol",
+            "langueOriginale": "en",
+            "anneeTmdb": "2011",
+            "dureeTmdb": 133,
+            "descriptionTmdb": "Après avoir été impliquée dans un complot terroriste mondial, l’agence Mission Impossible est contrainte de cesser ses activités. Le « Protocole Fantôme » est mis en place : Ethan Hunt et sa nouvelle équipe doivent opérer dans le secret pour blanchir le nom de leur organisation. Aucune aide, aucun contact, isolation totale. Cette mission va s'avérer être la plus dangereuse et la plus intense qu'ils aient eu à remplir.",
+            "collectionId": 87359,
+            "collectionNom": "Mission : Impossible - Saga",
+            "collectionDescription": "Les aventures de l'agent secret Ethan Hunt pour le compte de l'unité IMF (Impossible Missions Force).",
+            "collectionImage": "https://image.tmdb.org/t/p/w500/5nUgyjBem5QctwzQoDyJ3kuE7xh.jpg",
+            "collectionTmdbUrl": "https://www.themoviedb.org/collection/87359"
+        },
+        {
+            "id": "mission_impossible_the_final_reckoning_2025",
+            "titre": "Mission Impossible The Final Reckoning",
+            "annee": 2025,
+            "langue": [
+                "VF"
+            ],
+            "taille": 4781831510,
+            "genre": [
+                "Action",
+                "Thriller",
+                "Aventure"
+            ],
+            "image": "https://image.tmdb.org/t/p/w342/AozMgdALZuR1hDPZt2a1aXiWmL4.jpg",
+            "fichier": "/Box_Films/- Nouveaux/Mission.Impossible.The.Final.Reckoning.2025.Multi.Truefrench.Vf2.720P.-WEBRIP.mkv",
+            "nomFichier": "Mission.Impossible.The.Final.Reckoning.2025.Multi.Truefrench.Vf2.720P.-WEBRIP.mkv",
+            "imdbId": null,
+            "tmdbId": 575265,
+            "tmdbUrl": "https://www.themoviedb.org/movie/575265",
+            "doublonExact": false,
+            "doublonProbable": true,
+            "groupeDoublon": "mission_impossible_the_final_reckoning",
+            "dateAjout": "2026-11-18T05:03:42.018Z",
+            "technique": {
+                "largeur": 1280,
+                "hauteur": 720,
+                "resolution": "1280x720",
+                "ratioImage": 1.778,
+                "codecVideo": "h264",
+                "profilVideo": "High",
+                "pixelFormat": "yuv420p",
+                "bitsParComposante": 8,
+                "bitrateVideo": null,
+                "framerate": 23.976,
+                "espaceCouleur": "bt709",
+                "transfertCouleur": "bt709",
+                "primairesCouleur": "bt709",
+                "hdr": false,
+                "dureeFichier": 10374.997,
+                "bitrateGlobal": 3687196,
+                "formatConteneur": "matroska,webm",
+                "audio": [
+                    {
+                        "codec": "aac",
+                        "profil": "LC",
+                        "canaux": 2,
+                        "disposition": "stereo",
+                        "bitrate": null,
+                        "frequence": 48000,
+                        "langue": "fre"
+                    },
+                    {
+                        "codec": "aac",
+                        "profil": "LC",
+                        "canaux": 2,
+                        "disposition": "stereo",
+                        "bitrate": null,
+                        "frequence": 48000,
+                        "langue": "fre"
+                    },
+                    {
+                        "codec": "aac",
+                        "profil": "LC",
+                        "canaux": 2,
+                        "disposition": "stereo",
+                        "bitrate": null,
+                        "frequence": 48000,
+                        "langue": "eng"
+                    }
+                ],
+                "sousTitres": [
+                    {
+                        "codec": "ass",
+                        "langue": "fre",
+                        "titre": "French (France) Forced"
+                    },
+                    {
+                        "codec": "ass",
+                        "langue": "fre",
+                        "titre": "French (France)"
+                    },
+                    {
+                        "codec": "ass",
+                        "langue": "fre",
+                        "titre": "French (Canadien) Forced"
+                    },
+                    {
+                        "codec": "ass",
+                        "langue": "fre",
+                        "titre": "French (Canadien)"
+                    },
+                    {
+                        "codec": "ass",
+                        "langue": "eng",
+                        "titre": "English"
+                    }
+                ]
+            },
+            "titreTmdb": "Mission : Impossible - The Final Reckoning",
+            "titreOriginal": "Mission: Impossible - The Final Reckoning",
+            "langueOriginale": "en",
+            "anneeTmdb": "2025",
+            "dureeTmdb": 173,
+            "descriptionTmdb": "Ethan Hunt se rend à Londres avec son équipe dans l'espoir de remonter la piste du mystérieux Gabriel, qu'il a affronté deux mois auparavant à bord de l'Orient-Express et qui détient la clé contrôlant l’intelligence artificielle toute puissante surnommée l'Entité. Adulée par les uns, redoutée par les autres, l’Entité se distingue par sa capacité à prédire toutes les éventualités possibles. Elle connaît parfaitement les forces et faiblesses d’Ethan et de son équipe. Gabriel compte l'utiliser pour mettre en œuvre son plan ultime : annihiler Ethan et son équipe, s’emparer de tous les systèmes de défense planétaires et déclencher la Troisième Guerre mondiale.",
+            "collectionId": 87359,
+            "collectionNom": "Mission : Impossible - Saga",
+            "collectionDescription": "Les aventures de l'agent secret Ethan Hunt pour le compte de l'unité IMF (Impossible Missions Force).",
+            "collectionImage": "https://image.tmdb.org/t/p/w500/5nUgyjBem5QctwzQoDyJ3kuE7xh.jpg",
+            "collectionTmdbUrl": "https://www.themoviedb.org/collection/87359",
+            "ignoreInCollection": false
+        },
+        {
             "id": "mission_impossible_the_final_reckoning_2025",
             "titre": "Mission Impossible The Final Reckoning",
             "annee": 2025,
@@ -30389,14 +31217,14 @@
                 "Aventure"
             ],
             "image": "https://image.tmdb.org/t/p/w342/AozMgdALZuR1hDPZt2a1aXiWmL4.jpg",
-            "fichier": "/03_Films/Mission.Impossible.The.Final.Reckoning.2025.Multi.Truefrench.Vf2.WEBRIP.mp4",
+            "fichier": "/Box_Films/- Nouveaux/Mission.Impossible.The.Final.Reckoning.2025.Multi.Truefrench.Vf2.WEBRIP.mp4",
             "nomFichier": "Mission.Impossible.The.Final.Reckoning.2025.Multi.Truefrench.Vf2.WEBRIP.mp4",
             "imdbId": null,
             "tmdbId": 575265,
             "tmdbUrl": "https://www.themoviedb.org/movie/575265",
             "doublonExact": false,
-            "doublonProbable": false,
-            "groupeDoublon": null,
+            "doublonProbable": true,
+            "groupeDoublon": "mission_impossible_the_final_reckoning",
             "dateAjout": "2026-11-06T19:39:20.781Z",
             "titreTmdb": "Mission : Impossible - The Final Reckoning",
             "anneeTmdb": "2025",
@@ -30564,7 +31392,7 @@
                 "Aventure"
             ],
             "image": "https://image.tmdb.org/t/p/w342/zdVxpaoQdpheQqWWd6b82eY9Pid.jpg",
-            "fichier": "/03_Films/Moana.2.2024.French.WEBRIP.mp4",
+            "fichier": "/Box_Films/- Nouveaux/Moana.2.2024.French.WEBRIP.mp4",
             "nomFichier": "Moana.2.2024.French.WEBRIP.mp4",
             "imdbId": null,
             "tmdbId": 1241982,
@@ -30995,73 +31823,6 @@
             },
             "titreOriginal": "Moneyball",
             "langueOriginale": "en"
-        },
-        {
-            "id": "moonbound_custom_onlymovie_2021",
-            "titre": "Moonbound",
-            "annee": 2021,
-            "langue": [
-                "VF"
-            ],
-            "taille": 1078614824,
-            "genre": [],
-            "image": "https://image.tmdb.org/t/p/w342/hYl2iYrXNCfxhvsrGJyutzouJCR.jpg",
-            "fichier": "/Box_Films/- Nouveaux/Moonbound.2021.CUSTOM.FRENCH.BDRip.x264-ONLYMOViE.mkv",
-            "nomFichier": "Moonbound.2021.CUSTOM.FRENCH.BDRip.x264-ONLYMOViE.mkv",
-            "imdbId": null,
-            "tmdbId": 809717,
-            "tmdbUrl": "https://www.themoviedb.org/movie/809717",
-            "doublonExact": false,
-            "doublonProbable": false,
-            "groupeDoublon": null,
-            "dateAjout": "2026-08-22T08:23:33.490Z",
-            "titreTmdb": "Le Royaume des Étoiles",
-            "anneeTmdb": "2021",
-            "dureeTmdb": 85,
-            "descriptionTmdb": "Et si votre petite sœur disparaissait soudainement au beau milieu de la nuit ? Et si vous deviez partir sur la lune et la rechercher dans le royaume des étoiles ? C’est ce qui arrive à Peter, et le temps est compté pour la retrouver avant le lever du jour… À bord du traîneau magique du Marchand de sable, que la grande course commence !",
-            "collectionId": null,
-            "collectionNom": null,
-            "type": "Animation",
-            "studio": null,
-            "technique": {
-                "largeur": 720,
-                "hauteur": 390,
-                "resolution": "720x390",
-                "ratioImage": 1.846,
-                "codecVideo": "h264",
-                "profilVideo": "Main",
-                "pixelFormat": "yuv420p",
-                "bitsParComposante": 8,
-                "bitrateVideo": null,
-                "framerate": 24,
-                "espaceCouleur": "bt709",
-                "transfertCouleur": "bt709",
-                "primairesCouleur": "bt709",
-                "hdr": false,
-                "dureeFichier": 5080.959,
-                "bitrateGlobal": 1698285,
-                "formatConteneur": "matroska,webm",
-                "audio": [
-                    {
-                        "codec": "eac3",
-                        "profil": null,
-                        "canaux": 6,
-                        "disposition": null,
-                        "bitrate": null,
-                        "frequence": 48000,
-                        "langue": "fre"
-                    }
-                ],
-                "sousTitres": [
-                    {
-                        "codec": "subrip",
-                        "langue": "fre",
-                        "titre": "French Forced"
-                    }
-                ]
-            },
-            "titreOriginal": "Peterchens Mondfahrt",
-            "langueOriginale": "de"
         },
         {
             "id": "tmdb_698",
@@ -31509,7 +32270,7 @@
                 "Aventure"
             ],
             "image": "https://image.tmdb.org/t/p/w342/qseURFLjRBCqFCNCKmS2uwM9IOj.jpg",
-            "fichier": "/03_Films/No.Time.To.Die.2021.HDRip.XviD.AC3-EVO.avi",
+            "fichier": "/Box_Films/- Nouveaux/No.Time.To.Die.2021.HDRip.XviD.AC3-EVO.avi",
             "nomFichier": "No.Time.To.Die.2021.HDRip.XviD.AC3-EVO.avi",
             "imdbId": null,
             "tmdbId": 370172,
@@ -31973,7 +32734,7 @@
                 "Action"
             ],
             "image": "https://image.tmdb.org/t/p/w342/rfjuf6kNLVnH8qOk6UZJBHQHKlF.jpg",
-            "fichier": "/03_Films/Now.You.See.Me.Now.You.Dont.2025.MULTi.VFQ.WEBRip.x264-LCTL.mkv",
+            "fichier": "/Box_Films/- Nouveaux/Now.You.See.Me.Now.You.Dont.2025.MULTi.VFQ.WEBRip.x264-LCTL.mkv",
             "nomFichier": "Now.You.See.Me.Now.You.Dont.2025.MULTi.VFQ.WEBRip.x264-LCTL.mkv",
             "imdbId": null,
             "tmdbId": 425274,
@@ -32364,7 +33125,7 @@
                 "Action"
             ],
             "image": "https://image.tmdb.org/t/p/w342/m3iAyhvWHyp9xith6ydOeBVh9bq.jpg",
-            "fichier": "/03_Films/OSS.117.Alerte.Rouge.en.Afrique.Noire.2021.FRENCH.BDRip.XviD-EXTREME.avi",
+            "fichier": "/Box_Films/- Nouveaux/OSS.117.Alerte.Rouge.en.Afrique.Noire.2021.FRENCH.BDRip.XviD-EXTREME.avi",
             "nomFichier": "OSS.117.Alerte.Rouge.en.Afrique.Noire.2021.FRENCH.BDRip.XviD-EXTREME.avi",
             "imdbId": null,
             "tmdbId": 604563,
@@ -32712,7 +33473,7 @@
                 "Drame"
             ],
             "image": "https://image.tmdb.org/t/p/w342/tUxBr7IJerxpmUa7AEO3hEhwLDx.jpg",
-            "fichier": "/03_Films/Pay.It.Forward.2000.1080P.WEBDL.x265.10bit.h3llg0d.mkv",
+            "fichier": "/Box_Films/- Nouveaux/Pay.It.Forward.2000.1080P.WEBDL.x265.10bit.h3llg0d.mkv",
             "nomFichier": "Pay.It.Forward.2000.1080P.WEBDL.x265.10bit.h3llg0d.mkv",
             "imdbId": null,
             "tmdbId": 10647,
@@ -34417,7 +35178,7 @@
                 "Comédie musicale"
             ],
             "image": "https://image.tmdb.org/t/p/w342/7eBLd6LkxrN8MJ0wdg3xeCU2HFL.jpg",
-            "fichier": "/03_Films/La.Reine.Des.Neiges.Une.Fête.Givrée.2015.TRUEFRENCH.1080p.HD.x264-NoTag.mkv",
+            "fichier": "/Box_Films/- Nouveaux/La.Reine.Des.Neiges.Une.Fête.Givrée.2015.TRUEFRENCH.1080p.HD.x264-NoTag.mkv",
             "nomFichier": "La.Reine.Des.Neiges.Une.Fête.Givrée.2015.TRUEFRENCH.1080p.HD.x264-NoTag.mkv",
             "imdbId": null,
             "tmdbId": 326359,
@@ -35581,7 +36342,7 @@
                 "Action"
             ],
             "image": "https://image.tmdb.org/t/p/w342/yyl2AXjLfpyYHY7b0SQPYULu42.jpg",
-            "fichier": "/03_Films/Safe.House.1080p.BluRay.x264.YIFY.mp4",
+            "fichier": "/Box_Films/- Nouveaux/Safe.House.1080p.BluRay.x264.YIFY.mp4",
             "nomFichier": "Safe.House.1080p.BluRay.x264.YIFY.mp4",
             "imdbId": null,
             "tmdbId": 59961,
@@ -35699,70 +36460,6 @@
                 "sousTitres": []
             },
             "titreOriginal": "Salt",
-            "langueOriginale": "en"
-        },
-        {
-            "id": "seal_team_2021",
-            "titre": "Seal Team",
-            "annee": 2021,
-            "langue": [
-                "VF"
-            ],
-            "taille": 730946144,
-            "genre": [],
-            "image": "https://image.tmdb.org/t/p/w342/yPZ3I27oeSm4zVesgMxXlhW8GDe.jpg",
-            "fichier": "/Box_Films/- Nouveaux/Seal.Team.2021.FRENCH.HDRip.XviD-EXTREME.avi",
-            "nomFichier": "Seal.Team.2021.FRENCH.HDRip.XviD-EXTREME.avi",
-            "imdbId": null,
-            "tmdbId": 823610,
-            "tmdbUrl": "https://www.themoviedb.org/movie/823610",
-            "doublonExact": false,
-            "doublonProbable": false,
-            "groupeDoublon": null,
-            "dateAjout": "2026-08-22T08:23:33.491Z",
-            "titreTmdb": "Seal Team : Une équipe de phoques !",
-            "anneeTmdb": "2021",
-            "dureeTmdb": 98,
-            "descriptionTmdb": "Quinn est un phoque qui passe la plupart de ses journées à barboter au large des côtes du Cap, en Afrique du Sud. Quand il ne nage pas pour sauver sa vie des grands requins blancs. Il décide un jour qu'il est temps de se venger de ces prédateurs et recrute une équipe hétéroclite de phoques pour donner une leçon à ces requins.",
-            "collectionId": null,
-            "collectionNom": null,
-            "collectionDescription": null,
-            "collectionImage": null,
-            "collectionTmdbUrl": null,
-            "type": "Animation",
-            "studio": null,
-            "technique": {
-                "largeur": 720,
-                "hauteur": 304,
-                "resolution": "720x304",
-                "ratioImage": 2.368,
-                "codecVideo": "mpeg4",
-                "profilVideo": "Advanced Simple Profile",
-                "pixelFormat": "yuv420p",
-                "bitsParComposante": null,
-                "bitrateVideo": 833166,
-                "framerate": 24,
-                "espaceCouleur": null,
-                "transfertCouleur": null,
-                "primairesCouleur": null,
-                "hdr": false,
-                "dureeFichier": 6046.990325,
-                "bitrateGlobal": 967021,
-                "formatConteneur": "avi",
-                "audio": [
-                    {
-                        "codec": "mp3",
-                        "profil": null,
-                        "canaux": 2,
-                        "disposition": "stereo",
-                        "bitrate": 128000,
-                        "frequence": 48000,
-                        "langue": null
-                    }
-                ],
-                "sousTitres": []
-            },
-            "titreOriginal": "Seal Team",
             "langueOriginale": "en"
         },
         {
@@ -36043,7 +36740,7 @@
                 "Comédie musicale"
             ],
             "image": "https://image.tmdb.org/t/p/w342/kRNZT9NZIdm3Mom4HHTBPH2bmY5.jpg",
-            "fichier": "/03_Films/Sexy Dancer.FRENCH.DVDRip.XviD-LOST.avi",
+            "fichier": "/Box_Films/- Nouveaux/Sexy Dancer.FRENCH.DVDRip.XviD-LOST.avi",
             "nomFichier": "Sexy Dancer.FRENCH.DVDRip.XviD-LOST.avi",
             "imdbId": null,
             "tmdbId": 9762,
@@ -36670,7 +37367,7 @@
                 "Comédie musicale"
             ],
             "image": "https://image.tmdb.org/t/p/w342/4RPuvJ2IhF9EQkUGOa0jr7idlRP.jpg",
-            "fichier": "/03_Films/Sister Act (1992) MULTi 1080p BluRay x264-PopHD.mkv",
+            "fichier": "/Box_Films/- Nouveaux/Sister Act (1992) MULTi 1080p BluRay x264-PopHD.mkv",
             "nomFichier": "Sister Act (1992) MULTi 1080p BluRay x264-PopHD.mkv",
             "imdbId": null,
             "tmdbId": 2005,
@@ -36767,7 +37464,7 @@
                 "Comédie musicale"
             ],
             "image": "https://image.tmdb.org/t/p/w342/x195QLkSpAPzGa76vkK7FIpZ16x.jpg",
-            "fichier": "/03_Films/Sister Act 2 Back in the Habit (1993) MULTi 1080p BluRay x264-PopHD.mkv",
+            "fichier": "/Box_Films/- Nouveaux/Sister Act 2 Back in the Habit (1993) MULTi 1080p BluRay x264-PopHD.mkv",
             "nomFichier": "Sister Act 2 Back in the Habit (1993) MULTi 1080p BluRay x264-PopHD.mkv",
             "imdbId": null,
             "tmdbId": 6279,
@@ -37245,7 +37942,7 @@
                 "Science-Fiction"
             ],
             "image": "https://image.tmdb.org/t/p/w342/4z8PEhDJ38OepZcKaDN38GJ0jXv.jpg",
-            "fichier": "/03_Films/Source.Code.2011.DVDRIP.VFF-T911.avi",
+            "fichier": "/Box_Films/- Nouveaux/Source.Code.2011.DVDRIP.VFF-T911.avi",
             "nomFichier": "Source.Code.2011.DVDRIP.VFF-T911.avi",
             "imdbId": null,
             "tmdbId": 45612,
@@ -37577,7 +38274,7 @@
                 "Action"
             ],
             "image": "https://image.tmdb.org/t/p/w342/rqhKm4GdFABBvYv6eDXeWiv4h7k.jpg",
-            "fichier": "/03_Films/Speed.2.Cruise.Control.1997.1080p.BluRay.x264.YIFY.mp4",
+            "fichier": "/Box_Films/- Nouveaux/Speed.2.Cruise.Control.1997.1080p.BluRay.x264.YIFY.mp4",
             "nomFichier": "Speed.2.Cruise.Control.1997.1080p.BluRay.x264.YIFY.mp4",
             "imdbId": null,
             "tmdbId": 1639,
@@ -37646,7 +38343,7 @@
                 "Science-Fiction"
             ],
             "image": "https://image.tmdb.org/t/p/w342/hvfwCeSTgsExmz9l31dKkfR83DH.jpg",
-            "fichier": "/03_Films/Spider-Man.Across.The.Spider-Verse.2023.CUSTOM.TRUEFRENCH.BDRip.x264-ONLYMOViE.mkv",
+            "fichier": "/Box_Films/- Nouveaux/Spider-Man.Across.The.Spider-Verse.2023.CUSTOM.TRUEFRENCH.BDRip.x264-ONLYMOViE.mkv",
             "nomFichier": "Spider-Man.Across.The.Spider-Verse.2023.CUSTOM.TRUEFRENCH.BDRip.x264-ONLYMOViE.mkv",
             "imdbId": null,
             "tmdbId": 569094,
@@ -37847,7 +38544,7 @@
                 "Science-Fiction"
             ],
             "image": "https://image.tmdb.org/t/p/w342/uS0YI879KkgUCk5tvbqDZXLb8mU.jpg",
-            "fichier": "/03_Films/Star Trek 2009 MULTi VF2 1080p BluRay x264-PopHD.mkv",
+            "fichier": "/Box_Films/- Nouveaux/Star Trek 2009 MULTi VF2 1080p BluRay x264-PopHD.mkv",
             "nomFichier": "Star Trek 2009 MULTi VF2 1080p BluRay x264-PopHD.mkv",
             "imdbId": null,
             "tmdbId": 13475,
@@ -38082,7 +38779,7 @@
                 "Science-Fiction"
             ],
             "image": "https://image.tmdb.org/t/p/w342/g9XEl6WP5IFixRhpQBezZ6TDbk4.jpg",
-            "fichier": "/03_Films/Star Trek Into Darkness (2013) MULTi VF2 1080p BluRay x264-PopHD.mkv",
+            "fichier": "/Box_Films/- Nouveaux/Star Trek Into Darkness (2013) MULTi VF2 1080p BluRay x264-PopHD.mkv",
             "nomFichier": "Star Trek Into Darkness (2013) MULTi VF2 1080p BluRay x264-PopHD.mkv",
             "imdbId": null,
             "tmdbId": 54138,
@@ -38705,7 +39402,7 @@
                 "Action"
             ],
             "image": "https://image.tmdb.org/t/p/w342/4h9b8E2C9FdIVKbQRDMwZzpSIjL.jpg",
-            "fichier": "/03_Films/01 Taken Extended Cut - Thriller 2008 Eng Rus Multi Subs 720p .mp4",
+            "fichier": "/Box_Films/- Nouveaux/01 Taken Extended Cut - Thriller 2008 Eng Rus Multi Subs 720p .mp4",
             "nomFichier": "01 Taken Extended Cut - Thriller 2008 Eng Rus Multi Subs 720p .mp4",
             "imdbId": null,
             "tmdbId": 8681,
@@ -38872,7 +39569,7 @@
                 "Action"
             ],
             "image": "https://image.tmdb.org/t/p/w342/uzfVdeYUAuJNLhIW0kbFrD9PRWc.jpg",
-            "fichier": "/03_Films/02 Taken 2 Extended Cut - Thriller 2012 Eng Rus Multi Subs 720p .mp4",
+            "fichier": "/Box_Films/- Nouveaux/02 Taken 2 Extended Cut - Thriller 2012 Eng Rus Multi Subs 720p .mp4",
             "nomFichier": "02 Taken 2 Extended Cut - Thriller 2012 Eng Rus Multi Subs 720p .mp4",
             "imdbId": null,
             "tmdbId": 82675,
@@ -39042,7 +39739,7 @@
                 "Action"
             ],
             "image": "https://image.tmdb.org/t/p/w342/2CZkH6fYKUBq7exixbGcPa4Ksc6.jpg",
-            "fichier": "/03_Films/03 Taken 3 Extended Cut - Thriller 2014 Eng Rus Multi Subs 720p .mp4",
+            "fichier": "/Box_Films/- Nouveaux/03 Taken 3 Extended Cut - Thriller 2014 Eng Rus Multi Subs 720p .mp4",
             "nomFichier": "03 Taken 3 Extended Cut - Thriller 2014 Eng Rus Multi Subs 720p .mp4",
             "imdbId": null,
             "tmdbId": 260346,
@@ -39138,7 +39835,7 @@
                 "Action"
             ],
             "image": "https://image.tmdb.org/t/p/w342/2CZkH6fYKUBq7exixbGcPa4Ksc6.jpg",
-            "fichier": "/03_Films/Taken.3.2014.EXTENDED.FRENCH.BDRip.XviD.avi",
+            "fichier": "/Box_Films/- Nouveaux/Taken.3.2014.EXTENDED.FRENCH.BDRip.XviD.avi",
             "nomFichier": "Taken.3.2014.EXTENDED.FRENCH.BDRip.XviD.avi",
             "imdbId": null,
             "tmdbId": 260346,
@@ -39204,7 +39901,7 @@
                 "Action"
             ],
             "image": "https://image.tmdb.org/t/p/w342/2CZkH6fYKUBq7exixbGcPa4Ksc6.jpg",
-            "fichier": "/03_Films/Taken.3.2014.EXTENDED.1080p.BluRay.6CH.x265.HEVC-PSA.mkv",
+            "fichier": "/Box_Films/- Nouveaux/Taken.3.2014.EXTENDED.1080p.BluRay.6CH.x265.HEVC-PSA.mkv",
             "nomFichier": "Taken.3.2014.EXTENDED.1080p.BluRay.6CH.x265.HEVC-PSA.mkv",
             "imdbId": null,
             "tmdbId": 260346,
@@ -39549,7 +40246,7 @@
                 "Action"
             ],
             "image": "https://image.tmdb.org/t/p/w342/cRY6NShGF0FFDnRHEDTj0spUGHU.jpg",
-            "fichier": "/03_Films/Taxi.5.2018.1080p.BluRay.x264.AAC5.1-.mp4",
+            "fichier": "/Box_Films/- Nouveaux/Taxi.5.2018.1080p.BluRay.x264.AAC5.1-.mp4",
             "nomFichier": "Taxi.5.2018.1080p.BluRay.x264.AAC5.1-.mp4",
             "imdbId": null,
             "tmdbId": 434355,
@@ -39700,6 +40397,127 @@
                 "VO",
                 "VF"
             ],
+            "taille": 1287950776,
+            "genre": [
+                "Mystère",
+                "Crime",
+                "Thriller"
+            ],
+            "image": "https://image.tmdb.org/t/p/w342/kgzWQPNZp3byMamRr6Mm1KdgzUl.jpg",
+            "fichier": "/Box_Films/- Nouveaux/The.Accountant.2.2025.Multi.Vf2.WEBRIP.mp4",
+            "nomFichier": "The.Accountant.2.2025.Multi.Vf2.WEBRIP.mp4",
+            "imdbId": null,
+            "tmdbId": 870028,
+            "tmdbUrl": "https://www.themoviedb.org/movie/870028",
+            "doublonExact": false,
+            "doublonProbable": true,
+            "groupeDoublon": "the_accountant_2",
+            "dateAjout": "2026-11-18T05:03:42.931Z",
+            "technique": {
+                "largeur": 712,
+                "hauteur": 296,
+                "resolution": "712x296",
+                "ratioImage": 2.405,
+                "codecVideo": "h264",
+                "profilVideo": "High",
+                "pixelFormat": "yuv420p",
+                "bitsParComposante": 8,
+                "bitrateVideo": 617243,
+                "framerate": 24,
+                "espaceCouleur": "bt709",
+                "transfertCouleur": "bt709",
+                "primairesCouleur": "bt709",
+                "hdr": false,
+                "dureeFichier": 8060,
+                "bitrateGlobal": 1278363,
+                "formatConteneur": "mov,mp4,m4a,3gp,3g2,mj2",
+                "audio": [
+                    {
+                        "codec": "aac",
+                        "profil": "LC",
+                        "canaux": 2,
+                        "disposition": "stereo",
+                        "bitrate": 161710,
+                        "frequence": 48000,
+                        "langue": "fra"
+                    },
+                    {
+                        "codec": "aac",
+                        "profil": "LC",
+                        "canaux": 2,
+                        "disposition": "stereo",
+                        "bitrate": 160877,
+                        "frequence": 48000,
+                        "langue": "fra"
+                    },
+                    {
+                        "codec": "aac",
+                        "profil": "LC",
+                        "canaux": 2,
+                        "disposition": "stereo",
+                        "bitrate": 161095,
+                        "frequence": 48000,
+                        "langue": "eng"
+                    },
+                    {
+                        "codec": "aac",
+                        "profil": "LC",
+                        "canaux": 2,
+                        "disposition": "stereo",
+                        "bitrate": 161714,
+                        "frequence": 48000,
+                        "langue": "eng"
+                    }
+                ],
+                "sousTitres": [
+                    {
+                        "codec": "mov_text",
+                        "langue": "fra",
+                        "titre": null
+                    },
+                    {
+                        "codec": "mov_text",
+                        "langue": "fra",
+                        "titre": null
+                    },
+                    {
+                        "codec": "mov_text",
+                        "langue": "fra",
+                        "titre": null
+                    },
+                    {
+                        "codec": "mov_text",
+                        "langue": "fra",
+                        "titre": null
+                    },
+                    {
+                        "codec": "mov_text",
+                        "langue": "eng",
+                        "titre": null
+                    }
+                ]
+            },
+            "titreTmdb": "Mr Wolff 2",
+            "titreOriginal": "The Accountant²",
+            "langueOriginale": "en",
+            "anneeTmdb": "2025",
+            "dureeTmdb": 125,
+            "descriptionTmdb": "Christian Wolff est doué pour résoudre les problèmes. Quand une vieille connaissance est tuée en laissant un message énigmatique disant de \"trouver le comptable\", Wolff doit recruter son dangereux frère Brax pour élucider l'affaire. En partenariat avec la directrice adjointe du Trésor américain, Medina, ils découvrent une conspiration mortelle et deviennent les cibles d'un réseau de tueurs.",
+            "collectionId": 870339,
+            "collectionNom": "Mr Wolff - Saga",
+            "collectionDescription": "Une trilogie de thrillers policiers avec Ben Affleck dans le rôle d'un mathématicien plus affiné avec les chiffres qu'avec les gens. Sous couvert d'un cabinet d'expertise comptable d'une petite ville, il gagne sa vie en tant que comptable indépendant pour de dangereuses organisations criminelles.",
+            "collectionImage": "https://image.tmdb.org/t/p/w500/rbTVcWYJp3xjKqirEif530uUACh.jpg",
+            "collectionTmdbUrl": "https://www.themoviedb.org/collection/870339",
+            "ignoreInCollection": false
+        },
+        {
+            "id": "the_accountant_2_2025",
+            "titre": "The Accountant 2",
+            "annee": 2025,
+            "langue": [
+                "VO",
+                "VF"
+            ],
             "taille": 3573871858,
             "genre": [
                 "Action"
@@ -39711,8 +40529,8 @@
             "tmdbId": 870028,
             "tmdbUrl": "https://www.themoviedb.org/movie/870028",
             "doublonExact": false,
-            "doublonProbable": false,
-            "groupeDoublon": null,
+            "doublonProbable": true,
+            "groupeDoublon": "the_accountant_2",
             "dateAjout": "2026-11-14T08:28:07.458Z",
             "technique": {
                 "largeur": 712,
@@ -40027,7 +40845,7 @@
                 "Action"
             ],
             "image": "https://image.tmdb.org/t/p/w342/1heUoLYAHVAKn0ehIF9ASOg2jUv.jpg",
-            "fichier": "/03_Films/The.Bad.Guys.2.2025.Multi.WEBRIP.mp4",
+            "fichier": "/Box_Films/- Nouveaux/The.Bad.Guys.2.2025.Multi.WEBRIP.mp4",
             "nomFichier": "The.Bad.Guys.2.2025.Multi.WEBRIP.mp4",
             "imdbId": null,
             "tmdbId": 1175942,
@@ -41476,7 +42294,7 @@
                 "Biopic"
             ],
             "image": "https://image.tmdb.org/t/p/w342/2RJiZzzfG3dT6rNrJnNFTG8GQiQ.jpg",
-            "fichier": "/03_Films/The.Ron.Clark.Story.2006.1080p.WEBRip.x264-.mp4",
+            "fichier": "/Box_Films/- Nouveaux/The.Ron.Clark.Story.2006.1080p.WEBRip.x264-.mp4",
             "nomFichier": "The.Ron.Clark.Story.2006.1080p.WEBRip.x264-.mp4",
             "imdbId": null,
             "tmdbId": 25527,
@@ -42099,7 +42917,7 @@
                 "Familial"
             ],
             "image": "https://image.tmdb.org/t/p/w342/1aJsRTVbGfCVS397etGZ5AYOCuF.jpg",
-            "fichier": "/03_Films/Tinker.Bell.and.the.Legend.of.the.Neverbeast.2014.FRENCH.BDRip.x264.mkv",
+            "fichier": "/Box_Films/- Nouveaux/Tinker.Bell.and.the.Legend.of.the.Neverbeast.2014.FRENCH.BDRip.x264.mkv",
             "nomFichier": "Tinker.Bell.and.the.Legend.of.the.Neverbeast.2014.FRENCH.BDRip.x264.mkv",
             "imdbId": null,
             "tmdbId": 297270,
@@ -43322,7 +44140,7 @@
                 "Biopic"
             ],
             "image": "https://image.tmdb.org/t/p/w342/z9sxdWvYJDyZeKHhBSU8Kczw7yC.jpg",
-            "fichier": "/03_Films/Tuner.2025.Multi.Ca.720P. WEBRIP.mkv",
+            "fichier": "/Box_Films/- Nouveaux/Tuner.2025.Multi.Ca.720P. WEBRIP.mkv",
             "nomFichier": "Tuner.2025.Multi.Ca.720P. WEBRIP.mkv",
             "imdbId": null,
             "tmdbId": 1340206,
@@ -43725,7 +44543,7 @@
         },
         {
             "id": "tmdb_1184696",
-            "titre": "Untitled James Bond Film",
+            "titre": "Bond 26",
             "annee": 2100,
             "langue": [
                 "TBD"
@@ -43743,8 +44561,8 @@
             "doublonProbable": false,
             "groupeDoublon": null,
             "dateAjout": null,
-            "titreTmdb": "Untitled James Bond Film",
-            "titreOriginal": "Untitled James Bond Film",
+            "titreTmdb": "Bond 26",
+            "titreOriginal": "Bond 26",
             "anneeTmdb": 2100,
             "descriptionTmdb": "Bond 26 sera un reboot de la saga James Bond, confié au réalisateur Denis Villeneuve et au scénariste Steven Knight.",
             "collectionId": 645,
@@ -43766,7 +44584,7 @@
                 "Comédie musicale"
             ],
             "image": "https://image.tmdb.org/t/p/w342/kRNZT9NZIdm3Mom4HHTBPH2bmY5.jpg",
-            "fichier": "/03_Films/Step Up 2006 MULTi VFI TrueFrench 1080p HDLight x264.mkv",
+            "fichier": "/Box_Films/- Nouveaux/Step Up 2006 MULTi VFI TrueFrench 1080p HDLight x264.mkv",
             "nomFichier": "Step Up 2006 MULTi VFI TrueFrench 1080p HDLight x264.mkv",
             "imdbId": null,
             "tmdbId": 9762,
@@ -44396,86 +45214,6 @@
             "langueOriginale": "ja"
         },
         {
-            "id": "vivo_2021",
-            "titre": "Vivo",
-            "annee": 2021,
-            "langue": [
-                "VF"
-            ],
-            "taille": 806480646,
-            "genre": [],
-            "image": "https://image.tmdb.org/t/p/w342/eRLlrhbdYE7XN6VtcZKy6o2BsOw.jpg",
-            "fichier": "/Box_Films/- Nouveaux/Vivo.2021.FRENCH.BDRip.x264-EXTREME.mkv",
-            "nomFichier": "Vivo.2021.FRENCH.BDRip.x264-EXTREME.mkv",
-            "imdbId": null,
-            "tmdbId": 449406,
-            "tmdbUrl": "https://www.themoviedb.org/movie/449406",
-            "doublonExact": false,
-            "doublonProbable": false,
-            "groupeDoublon": null,
-            "dateAjout": "2026-08-22T08:23:33.491Z",
-            "titreTmdb": "Vivo",
-            "anneeTmdb": "2021",
-            "dureeTmdb": 95,
-            "descriptionTmdb": "Un kinkajou mélomane se lance dans un incroyable périple afin de livrer une chanson d'amour au nom d'un vieil ami et ainsi accomplir sa destinée.",
-            "collectionId": null,
-            "collectionNom": null,
-            "collectionDescription": null,
-            "collectionImage": null,
-            "collectionTmdbUrl": null,
-            "type": "Animation",
-            "studio": null,
-            "technique": {
-                "largeur": 720,
-                "hauteur": 304,
-                "resolution": "720x304",
-                "ratioImage": 2.368,
-                "codecVideo": "h264",
-                "profilVideo": "High",
-                "pixelFormat": "yuv420p",
-                "bitsParComposante": 8,
-                "bitrateVideo": null,
-                "framerate": 23.976,
-                "espaceCouleur": null,
-                "transfertCouleur": null,
-                "primairesCouleur": null,
-                "hdr": false,
-                "dureeFichier": 5740.735,
-                "bitrateGlobal": 1123870,
-                "formatConteneur": "matroska,webm",
-                "audio": [
-                    {
-                        "codec": "aac",
-                        "profil": "LC",
-                        "canaux": 2,
-                        "disposition": "stereo",
-                        "bitrate": null,
-                        "frequence": 48000,
-                        "langue": "fre"
-                    }
-                ],
-                "sousTitres": [
-                    {
-                        "codec": "subrip",
-                        "langue": "fre",
-                        "titre": "Forced"
-                    },
-                    {
-                        "codec": "subrip",
-                        "langue": "fre",
-                        "titre": "French"
-                    },
-                    {
-                        "codec": "hdmv_pgs_subtitle",
-                        "langue": "fre",
-                        "titre": "French (chansons)"
-                    }
-                ]
-            },
-            "titreOriginal": "Vivo",
-            "langueOriginale": "en"
-        },
-        {
             "id": "tmdb_253",
             "titre": "Vivre et laisser mourir",
             "annee": 1973,
@@ -44652,7 +45390,7 @@
                 "Drame"
             ],
             "image": "https://image.tmdb.org/t/p/w342/iwLR2K4CjRISMAER0Vy2xzhZ0W8.jpg",
-            "fichier": "/03_Films/WarGames-The.Dead.CodeDvDrip-aXXo.avi",
+            "fichier": "/Box_Films/- Nouveaux/WarGames-The.Dead.CodeDvDrip-aXXo.avi",
             "nomFichier": "WarGames-The.Dead.CodeDvDrip-aXXo.avi",
             "imdbId": null,
             "tmdbId": 14154,
@@ -44941,7 +45679,7 @@
                 "Science-Fiction"
             ],
             "image": "https://image.tmdb.org/t/p/w342/kdEorjrPno4Cn7HYVN2DA0f3ocr.jpg",
-            "fichier": "/03_Films/Wonder Woman 1984.2020.WEB-DL.x264-STVFRV.mkv",
+            "fichier": "/Box_Films/- Nouveaux/Wonder Woman 1984.2020.WEB-DL.x264-STVFRV.mkv",
             "nomFichier": "Wonder Woman 1984.2020.WEB-DL.x264-STVFRV.mkv",
             "imdbId": null,
             "tmdbId": 464052,
@@ -45084,7 +45822,7 @@
                 "Science-Fiction"
             ],
             "image": "https://image.tmdb.org/t/p/w342/3zgG4m8ZCaR61O6OOZNAsSDn0rv.jpg",
-            "fichier": "/03_Films/X-Men (2000) MULTi VFF 2160p 10bit 4KLight HDR BluRay x265 AAC 5.1 - QTZ.mkv",
+            "fichier": "/Box_Films/- Nouveaux/X-Men (2000) MULTi VFF 2160p 10bit 4KLight HDR BluRay x265 AAC 5.1 - QTZ.mkv",
             "nomFichier": "X-Men (2000) MULTi VFF 2160p 10bit 4KLight HDR BluRay x265 AAC 5.1 - QTZ.mkv",
             "imdbId": null,
             "tmdbId": 36657,
@@ -45323,7 +46061,7 @@
                 "Science-Fiction"
             ],
             "image": "https://image.tmdb.org/t/p/w342/xQ9KsoaGNO9fyZiyE6rWfmXzQIL.jpg",
-            "fichier": "/03_Films/X-Men 2 (2003) .mkv",
+            "fichier": "/Box_Films/- Nouveaux/X-Men 2 (2003) .mkv",
             "nomFichier": "X-Men 2 (2003) .mkv",
             "imdbId": null,
             "tmdbId": 36658,
@@ -45709,7 +46447,8 @@
             "collectionNom": "X-Men - Saga",
             "collectionDescription": "X-Men est une saga cinématographique de super-héros américaine.",
             "collectionImage": "https://image.tmdb.org/t/p/w500/9Z4fKVUqAJ2WEP6pQFTtYPuoknd.jpg",
-            "collectionTmdbUrl": "https://www.themoviedb.org/collection/748"
+            "collectionTmdbUrl": "https://www.themoviedb.org/collection/748",
+            "ignoreInCollection": false
         },
         {
             "id": "x_men_apocalypse",
@@ -45926,7 +46665,7 @@
                 "Science-Fiction"
             ],
             "image": "https://image.tmdb.org/t/p/w342/zGSi4NG7SfyILp3SOfBgVo4VoWG.jpg",
-            "fichier": "/03_Films/X-Men.Days.of.Future.Past.2014.TRUEFRENCH.DVDRiP-T911.mp4",
+            "fichier": "/Box_Films/- Nouveaux/X-Men.Days.of.Future.Past.2014.TRUEFRENCH.DVDRiP-T911.mp4",
             "nomFichier": "X-Men.Days.of.Future.Past.2014.TRUEFRENCH.DVDRiP-T911.mp4",
             "imdbId": null,
             "tmdbId": 127585,
@@ -46624,7 +47363,7 @@
                 "Action"
             ],
             "image": "https://image.tmdb.org/t/p/w342/4nLTMNCGQ4rKsrlPVMPG4YnxV0k.jpg",
-            "fichier": "/03_Films/xXx.2002.Multi TF 1080p HDL.mkv",
+            "fichier": "/Box_Films/- Nouveaux/xXx.2002.Multi TF 1080p HDL.mkv",
             "nomFichier": "xXx.2002.Multi TF 1080p HDL.mkv",
             "imdbId": null,
             "tmdbId": 7451,
@@ -46716,7 +47455,7 @@
                 "Action"
             ],
             "image": "https://image.tmdb.org/t/p/w342/YRsXykyaXm3ABsfdfzxV59c17K.jpg",
-            "fichier": "/03_Films/Yamakasi-Les Samouraï des Temps Modernes (2001) DVDR(xvid) NL Subs DMT.avi",
+            "fichier": "/Box_Films/- Nouveaux/Yamakasi-Les Samouraï des Temps Modernes (2001) DVDR(xvid) NL Subs DMT.avi",
             "nomFichier": "Yamakasi-Les Samouraï des Temps Modernes (2001) DVDR(xvid) NL Subs DMT.avi",
             "imdbId": null,
             "tmdbId": 6935,
@@ -46838,63 +47577,6 @@
             "langueOriginale": "en"
         },
         {
-            "id": "you_got_served_2004",
-            "titre": "You Got Served",
-            "annee": 2004,
-            "langue": [
-                "TBD"
-            ],
-            "taille": 1606730568,
-            "genre": null,
-            "image": null,
-            "fichier": "/Box_Films/- Nouveaux/You.Got.Served.2004.1080p.BluRay.x264-.mp4",
-            "nomFichier": "You.Got.Served.2004.1080p.BluRay.x264-.mp4",
-            "imdbId": null,
-            "tmdbId": null,
-            "tmdbUrl": null,
-            "doublonExact": false,
-            "doublonProbable": false,
-            "groupeDoublon": null,
-            "dateAjout": "2026-11-17T22:20:51.238Z",
-            "technique": {
-                "largeur": 1920,
-                "hauteur": 1040,
-                "resolution": "1920x1040",
-                "ratioImage": 1.846,
-                "codecVideo": "h264",
-                "profilVideo": "High",
-                "pixelFormat": "yuv420p",
-                "bitsParComposante": 8,
-                "bitrateVideo": 2148621,
-                "framerate": 23.976,
-                "espaceCouleur": null,
-                "transfertCouleur": null,
-                "primairesCouleur": null,
-                "hdr": false,
-                "dureeFichier": 5676.796125,
-                "bitrateGlobal": 2264277,
-                "formatConteneur": "mov,mp4,m4a,3gp,3g2,mj2",
-                "audio": [
-                    {
-                        "codec": "aac",
-                        "profil": "LC",
-                        "canaux": 2,
-                        "disposition": "stereo",
-                        "bitrate": 110260,
-                        "frequence": 48000,
-                        "langue": "und"
-                    }
-                ],
-                "sousTitres": [],
-                "zoneUtile": {
-                    "largeurUtile": 1920,
-                    "hauteurUtile": 1040,
-                    "x": 0,
-                    "y": 0
-                }
-            }
-        },
-        {
             "id": "you_got_served_cm",
             "titre": "You Got Served",
             "annee": null,
@@ -46912,8 +47594,8 @@
             "tmdbId": 14114,
             "tmdbUrl": "https://www.themoviedb.org/movie/14114",
             "doublonExact": false,
-            "doublonProbable": false,
-            "groupeDoublon": null,
+            "doublonProbable": true,
+            "groupeDoublon": "you_got_served",
             "dateAjout": "2026-08-22T08:23:33.611Z",
             "titreTmdb": "Street Dancers",
             "anneeTmdb": "2004",
@@ -46959,6 +47641,74 @@
             },
             "titreOriginal": "You Got Served",
             "langueOriginale": "en"
+        },
+        {
+            "id": "you_got_served_2004",
+            "titre": "You Got Served",
+            "annee": 2004,
+            "langue": [
+                "VO"
+            ],
+            "taille": 1606730568,
+            "genre": [
+                "Musique",
+                "Drame"
+            ],
+            "image": "https://image.tmdb.org/t/p/w342/uyhYtDOOaNaVtaMl6lwcwWI6mhG.jpg",
+            "fichier": "/Box_Films/Musique/Street Dancers/You.Got.Served.2004.1080p.BluRay.x264-.mp4",
+            "nomFichier": "You.Got.Served.2004.1080p.BluRay.x264-.mp4",
+            "imdbId": null,
+            "tmdbId": 14114,
+            "tmdbUrl": "https://www.themoviedb.org/movie/14114",
+            "doublonExact": false,
+            "doublonProbable": true,
+            "groupeDoublon": "you_got_served",
+            "dateAjout": "2026-11-17T22:20:51.238Z",
+            "technique": {
+                "largeur": 1920,
+                "hauteur": 1040,
+                "resolution": "1920x1040",
+                "ratioImage": 1.846,
+                "codecVideo": "h264",
+                "profilVideo": "High",
+                "pixelFormat": "yuv420p",
+                "bitsParComposante": 8,
+                "bitrateVideo": 2148621,
+                "framerate": 23.976,
+                "espaceCouleur": null,
+                "transfertCouleur": null,
+                "primairesCouleur": null,
+                "hdr": false,
+                "dureeFichier": 5676.796125,
+                "bitrateGlobal": 2264277,
+                "formatConteneur": "mov,mp4,m4a,3gp,3g2,mj2",
+                "audio": [
+                    {
+                        "codec": "aac",
+                        "profil": "LC",
+                        "canaux": 2,
+                        "disposition": "stereo",
+                        "bitrate": 110260,
+                        "frequence": 48000,
+                        "langue": "und"
+                    }
+                ],
+                "sousTitres": []
+            },
+            "titreTmdb": "Street Dancers",
+            "titreOriginal": "You Got Served",
+            "langueOriginale": "en",
+            "anneeTmdb": "2004",
+            "dureeTmdb": 95,
+            "descriptionTmdb": "Elgin et David sont deux très bons copains et font partie d'une petite troupe qui souhaite ouvrir son propre studio de hip-hop. Lorsqu'une autre formation les provoque dans un duel de break dancing, David, Elgin et les autres membres décident de créer et de perfectionner des mouvements hors du commun. La rumeur de ce duel se propage très vite dans la rue et les enchères montent. David et Elgin vont devoir se dépasser pour prouver qu'ils sont les meilleurs.",
+            "collectionId": 353721,
+            "collectionNom": "Street Dancers - Saga",
+            "collectionDescription": null,
+            "collectionImage": "https://image.tmdb.org/t/p/w500/zQWOUTWPUR0XGgqiQG5zY8lZq2l.jpg",
+            "collectionTmdbUrl": "https://www.themoviedb.org/collection/353721",
+            "languesAudio": [
+                "EN"
+            ]
         },
         {
             "id": "you_got_served_2_beat_the_world_rarbg_2011",
@@ -67129,17 +67879,17 @@
     "stockage": [
         {
             "lecteur": "E",
-            "espaceLibre": 140864733184,
+            "espaceLibre": 303894896640,
             "capaciteTotale": 500001927168
         },
         {
             "lecteur": "Y",
-            "espaceLibre": 603505577984,
+            "espaceLibre": 389614362624,
             "capaciteTotale": 2000396742656
         },
         {
             "lecteur": "Z",
-            "espaceLibre": 64355426304,
+            "espaceLibre": 64355397632,
             "capaciteTotale": 1000169533440
         }
     ]
