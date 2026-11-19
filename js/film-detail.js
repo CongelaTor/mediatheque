@@ -311,6 +311,22 @@ function renderFilmFiles(films) {
 
   panel.appendChild(filesList);
 }
+function getNormalizedFilmFileName(film) {
+  const extensionIndex = film.nomFichier.lastIndexOf(".");
+  const extension =
+    extensionIndex >= 0 ? film.nomFichier.substring(extensionIndex) : "";
+  const title = (film.titreTmdb || film.titre || "")
+    .replace(/[\\/:*?"<>|]/g, " ")
+    .replace(/\s+/g, " ")
+    .trim();
+  const year = film.anneeTmdb || film.annee || "";
+  const languages = formatFilmLanguages(film.langue).replaceAll(" ", "_");
+  const parts =
+    film.collectionNom && !film.ignoreInCollection
+      ? [year, title, languages]
+      : [title, year, languages];
+  return parts.filter(Boolean).join("_") + extension;
+}
 function formatFilmLanguages(languages) {
   const order = ["VO", "VF", "VOST", "VOSTFR"];
   const values = Array.isArray(languages)
@@ -759,7 +775,7 @@ function createFilmFileCard(film) {
 
   const technique = film.technique;
   const technicalVideo = document.createElement("div");
-  technicalVideo.className = `film-technical-video ${getTechnicalQualityClass(technique)}`;
+  technicalVideo.className = `film-technical-video ${getTechnicalQualityClass(technique?.largeur)}`;
   if (technique) {
     const quality =
       technique.largeur >= 1920
@@ -830,29 +846,27 @@ function createFilmFileCard(film) {
   playbackRow.appendChild(centerColumn);
   playbackRow.appendChild(rightColumn);
 
+  const originalPathInfo = document.createElement("div");
+  originalPathInfo.className = "film-file-folder mediaserver-only";
+  originalPathInfo.textContent = film.fichierOriginal || film.nomFichier;
+  originalPathInfo.hidden = true;
   const pathInfo = document.createElement("div");
-  pathInfo.className = "film-file-folder";
-  pathInfo.textContent = `${getFilmFolder(film.fichier)}/${film.nomFichier}`;
-  const normalizedPathInfo = document.createElement("div");
-  normalizedPathInfo.className = "film-file-folder";
-  const extensionIndex = film.nomFichier.lastIndexOf(".");
-  const extension =
-    extensionIndex >= 0 ? film.nomFichier.substring(extensionIndex) : "";
-  const title = (film.titreTmdb || film.titre || "")
-    .replace(/[\\/:*?"<>|]/g, " ")
-    .replace(/\s+/g, " ")
-    .trim();
-  const year = film.anneeTmdb || film.annee || "";
-  const normalizedLanguages = formatFilmLanguages(film.langue).replaceAll(
-    " ",
-    "_",
-  );
-  const normalizedFileName =
-    [title, year, normalizedLanguages].filter(Boolean).join("_") + extension;
-  normalizedPathInfo.textContent = `${getFilmFolder(film.fichier)}/${normalizedFileName}`;
+  pathInfo.className = "film-file-folder mediaserver-only";
+  pathInfo.textContent = film.fichier;
+  const normalizedFileName = getNormalizedFilmFileName(film);
+  const normalizedPath = `${getFilmFolder(film.fichier)}/${normalizedFileName || film.nomFichier}`;
+  if (
+    film.fichier.replaceAll("\\", "/") === normalizedPath.replaceAll("\\", "/")
+  ) {
+    pathInfo.style.color = "#22c55e";
+  }
+  pathInfo.onclick = () => {
+    originalPathInfo.hidden = !originalPathInfo.hidden;
+  };
   card.appendChild(playbackRow);
+  card.appendChild(originalPathInfo);
   card.appendChild(pathInfo);
-  card.appendChild(normalizedPathInfo);
+
   return card;
 }
 function formatFilmFileSize(size) {
@@ -874,11 +888,38 @@ function getFilmFolder(filePath) {
   if (!filePath) {
     return "Dossier inconnu";
   }
-
   const separatorIndex = filePath.lastIndexOf("/");
-
   return separatorIndex >= 0 ? filePath.substring(0, separatorIndex) : filePath;
 }
+
+// async function updateFilmFilePathStatus(film, pathInfo) {
+//   const normalizedFileName = getNormalizedFilmFileName(film);
+//   const currentPath = film.fichier.replaceAll("\\", "/");
+//   const currentFileName = currentPath.substring(
+//     currentPath.lastIndexOf("/") + 1,
+//   );
+//   if (currentFileName !== normalizedFileName) {
+//     return;
+//   }
+//   const response = await fetch("http://localhost:9876/move-film-file", {
+//     method: "POST",
+//     headers: {
+//       "Content-Type": "application/json",
+//     },
+//     body: JSON.stringify({
+//       fichier: film.fichier,
+//       preview: true,
+//     }),
+//   });
+//   if (!response.ok) {
+//     return;
+//   }
+//   const preview = await response.json();
+//   const destinationPath = preview.destination.replaceAll("\\", "/");
+//   if (currentPath === destinationPath) {
+//     pathInfo.style.color = "#22c55e";
+//   }
+// }
 
 async function openFilmLocation(film) {
   const folder = film.fichier.substring(0, film.fichier.lastIndexOf("/"));
@@ -898,6 +939,31 @@ async function openFilmLocation(film) {
 }
 
 async function moveFilmFile(film) {
+  console.log("moveFilmFile appelé", film);
+  const normalizedFileName = getNormalizedFilmFileName(film);
+  if (film.nomFichier !== normalizedFileName) {
+    const renameResponse = await fetch(
+      "http://localhost:9876/rename-film-file",
+      {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({
+          fichier: film.fichier,
+          nomFichier: normalizedFileName,
+        }),
+      },
+    );
+    if (!renameResponse.ok) {
+      showToast(await renameResponse.text(), "error", 5000);
+      return;
+    }
+    const renameResult = await renameResponse.json();
+    film.fichier = renameResult.fichier;
+    film.nomFichier = renameResult.nomFichier;
+    film.fichierOriginal = renameResult.fichierOriginal;
+  }
   const previewResponse = await fetch("http://localhost:9876/move-film-file", {
     method: "POST",
     headers: {

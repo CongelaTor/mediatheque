@@ -1,6 +1,6 @@
 {
     "version": 1,
-    "dateDernierScan": "2026-11-18T20:09:21.897Z",
+    "dateDernierScan": "2026-11-19T08:54:46.927Z",
     "collections": [
         {
             "collectionId": 9485,
@@ -194,7 +194,7 @@
         {
             "collectionId": 87118,
             "collectionNom": "Cars - Saga",
-            "collectionImage": "/uq3N2SFj1Y06zA6LzCQPkmBdaaE.jpg",
+            "collectionImage": "/hKoj871AjvqkQWral8llVeGD9H.jpg",
             "collectionDescription": "Les aventures de Flash McQueen, une voiture de course promise au succès, qui découvre que dans la vie, ce n'est pas de franchir la ligne d'arrivée qui compte, mais le parcours que l'on a suivi.",
             "collectionFilmCount": 3
         },
@@ -20414,8 +20414,78 @@
             "langueOriginale": "en"
         },
         {
+            "id": "iron_man_2_2010",
+            "titre": "Iron Man 2",
+            "annee": 2010,
+            "langue": [
+                "VO"
+            ],
+            "taille": 1722312518,
+            "genre": [
+                "Science-Fiction"
+            ],
+            "image": "https://image.tmdb.org/t/p/w342/ghomWlBZtAW5K9zjcAvg4dU62AU.jpg",
+            "fichier": "/Box_Films/Marvel/Iron Man/2010_Iron Man 2_VO.mp4",
+            "nomFichier": "2010_Iron Man 2_VO.mp4",
+            "imdbId": null,
+            "tmdbId": 10138,
+            "tmdbUrl": "https://www.themoviedb.org/movie/10138",
+            "doublonExact": false,
+            "doublonProbable": true,
+            "groupeDoublon": "iron_man_2",
+            "dateAjout": "2026-11-19T08:43:02.577Z",
+            "technique": {
+                "largeur": 1920,
+                "hauteur": 816,
+                "resolution": "1920x816",
+                "ratioImage": 2.353,
+                "codecVideo": "h264",
+                "profilVideo": "High",
+                "pixelFormat": "yuv420p",
+                "bitsParComposante": 8,
+                "bitrateVideo": 1746704,
+                "framerate": 23.976,
+                "espaceCouleur": null,
+                "transfertCouleur": null,
+                "primairesCouleur": null,
+                "hdr": false,
+                "dureeFichier": 7479.22175,
+                "bitrateGlobal": 1842237,
+                "formatConteneur": "mov,mp4,m4a,3gp,3g2,mj2",
+                "audio": [
+                    {
+                        "codec": "aac",
+                        "profil": "LC",
+                        "canaux": 2,
+                        "disposition": "stereo",
+                        "bitrate": 91999,
+                        "frequence": 48000,
+                        "langue": "und"
+                    }
+                ],
+                "sousTitres": []
+            },
+            "titreTmdb": "Iron Man 2",
+            "titreOriginal": "Iron Man 2",
+            "langueOriginale": "en",
+            "anneeTmdb": "2010",
+            "dureeTmdb": 117,
+            "descriptionTmdb": "Le monde sait désormais que l'inventeur milliardaire Tony Stark et le super-héros Iron Man ne font qu'un. Malgré la pression du gouvernement, de la presse et du public pour qu'il partage sa technologie avec l'armée, Tony n'est pas disposé à divulguer les secrets de son armure, redoutant que l'information atterrisse dans de mauvaises mains. Avec Pepper Potts et James \"Rhodey\" Rhodes à ses côtés, Tony va forger de nouvelles alliances et affronter de nouvelles forces toutes-puissantes...",
+            "collectionId": 131292,
+            "collectionNom": "Iron Man - Saga",
+            "collectionDescription": "Collection des films Iron Man (littéralement l'Homme de Fer), super-héros de comics créé en 1963 par Stan Lee pour Marvel Comics.",
+            "collectionImage": "https://image.tmdb.org/t/p/w500/bQGciwYBe0aG1UNHuIiFkey4pqX.jpg",
+            "collectionTmdbUrl": "https://www.themoviedb.org/collection/131292",
+            "type": null,
+            "studio": "Marvel",
+            "fichierOriginal": "Iron.Man.2.2010.1080p.BrRip.x264.YIFY.mp4",
+            "languesAudio": [
+                "EN"
+            ]
+        },
+        {
             "id": "iron_man_2",
-            "titre": "Iron man 2",
+            "titre": "Iron Man 2",
             "annee": null,
             "langue": [
                 "VF"
@@ -20425,15 +20495,15 @@
                 "Science-Fiction"
             ],
             "image": "https://image.tmdb.org/t/p/w342/ghomWlBZtAW5K9zjcAvg4dU62AU.jpg",
-            "fichier": "/Box_Films/- Nouveaux/Iron man 2.avi",
-            "nomFichier": "Iron man 2.avi",
+            "fichier": "/Box_Films/Marvel/Iron Man/2010_Iron Man 2_VF.avi",
+            "nomFichier": "2010_Iron Man 2_VF.avi",
             "imdbId": null,
             "tmdbId": 10138,
             "tmdbUrl": "https://www.themoviedb.org/movie/10138",
             "doublonExact": false,
             "doublonProbable": true,
             "groupeDoublon": "iron_man_2",
-            "dateAjout": "2026-11-14T08:28:01.903Z",
+            "dateAjout": "2026-11-19T08:43:01.752Z",
             "technique": {
                 "largeur": 640,
                 "hauteur": 272,
@@ -20467,6 +20537,7 @@
             },
             "titreTmdb": "Iron Man 2",
             "titreOriginal": "Iron Man 2",
+            "langueOriginale": "en",
             "anneeTmdb": "2010",
             "dureeTmdb": 117,
             "descriptionTmdb": "Le monde sait désormais que l'inventeur milliardaire Tony Stark et le super-héros Iron Man ne font qu'un. Malgré la pression du gouvernement, de la presse et du public pour qu'il partage sa technologie avec l'armée, Tony n'est pas disposé à divulguer les secrets de son armure, redoutant que l'information atterrisse dans de mauvaises mains. Avec Pepper Potts et James \"Rhodey\" Rhodes à ses côtés, Tony va forger de nouvelles alliances et affronter de nouvelles forces toutes-puissantes...",
@@ -20475,82 +20546,11 @@
             "collectionDescription": "Collection des films Iron Man (littéralement l'Homme de Fer), super-héros de comics créé en 1963 par Stan Lee pour Marvel Comics.",
             "collectionImage": "https://image.tmdb.org/t/p/w500/bQGciwYBe0aG1UNHuIiFkey4pqX.jpg",
             "collectionTmdbUrl": "https://www.themoviedb.org/collection/131292",
-            "langueOriginale": "en",
-            "ignoreInCollection": false,
-            "type": "Film",
-            "studio": null,
+            "type": null,
+            "studio": "Marvel",
+            "fichierOriginal": "Iron Man 2.avi",
             "languesAudio": [
                 "FR"
-            ]
-        },
-        {
-            "id": "iron_man_2_2010",
-            "titre": "Iron Man 2",
-            "annee": 2010,
-            "langue": [
-                "VO"
-            ],
-            "taille": 1722312518,
-            "genre": [
-                "Science-Fiction"
-            ],
-            "image": "https://image.tmdb.org/t/p/w342/g9DSeSozGi4zpUyeOYZYMNmIv9O.jpg",
-            "fichier": "/01_Films/Marvel/2010 Iron.Man.2.2010.1080p.BrRip.x264.YIFY.mp4",
-            "nomFichier": "2010 Iron.Man.2.2010.1080p.BrRip.x264.YIFY.mp4",
-            "imdbId": null,
-            "tmdbId": 10138,
-            "tmdbUrl": "https://www.themoviedb.org/movie/10138",
-            "doublonExact": false,
-            "doublonProbable": true,
-            "groupeDoublon": "iron_man_2",
-            "dateAjout": "2026-08-27T11:57:48.103Z",
-            "titreTmdb": "Iron Man 2",
-            "anneeTmdb": "2010",
-            "dureeTmdb": 117,
-            "descriptionTmdb": "Le monde sait désormais que l'inventeur milliardaire Tony Stark et le super-héros Iron Man ne font qu'un. Malgré la pression du gouvernement, de la presse et du public pour qu'il partage sa technologie avec l'armée, Tony n'est pas disposé à divulguer les secrets de son armure, redoutant que l'information atterrisse dans de mauvaises mains. Avec Pepper Potts et James \"Rhodey\" Rhodes à ses côtés, Tony va forger de nouvelles alliances et affronter de nouvelles forces toutes-puissantes...",
-            "collectionId": 131292,
-            "collectionNom": "Iron Man - Saga",
-            "collectionDescription": "Collection des films Iron Man (littéralement l'Homme de Fer), super-héros de comics créé en 1963 par Stan Lee pour Marvel Comics.",
-            "collectionImage": "https://image.tmdb.org/t/p/w500/bQGciwYBe0aG1UNHuIiFkey4pqX.jpg",
-            "collectionTmdbUrl": "https://www.themoviedb.org/collection/131292",
-            "type": "Film",
-            "studio": "Marvel",
-            "ignoreInCollection": false,
-            "technique": {
-                "largeur": 1920,
-                "hauteur": 816,
-                "resolution": "1920x816",
-                "ratioImage": 2.353,
-                "codecVideo": "h264",
-                "profilVideo": "High",
-                "pixelFormat": "yuv420p",
-                "bitsParComposante": 8,
-                "bitrateVideo": 1746704,
-                "framerate": 23.976,
-                "espaceCouleur": null,
-                "transfertCouleur": null,
-                "primairesCouleur": null,
-                "hdr": false,
-                "dureeFichier": 7479.22175,
-                "bitrateGlobal": 1842237,
-                "formatConteneur": "mov,mp4,m4a,3gp,3g2,mj2",
-                "audio": [
-                    {
-                        "codec": "aac",
-                        "profil": "LC",
-                        "canaux": 2,
-                        "disposition": "stereo",
-                        "bitrate": 91999,
-                        "frequence": 48000,
-                        "langue": "und"
-                    }
-                ],
-                "sousTitres": []
-            },
-            "titreOriginal": "Iron Man 2",
-            "langueOriginale": "en",
-            "languesAudio": [
-                "EN"
             ]
         },
         {
@@ -20683,7 +20683,7 @@
             "titre": "James Bond Die Another Day",
             "annee": 2002,
             "langue": [
-                "TBD"
+                "VO"
             ],
             "taille": 2038218264,
             "genre": [
@@ -20743,7 +20743,10 @@
             "titreOriginal": "Die Another Day",
             "langueOriginale": "en",
             "type": "Film",
-            "studio": null
+            "studio": null,
+            "languesAudio": [
+                "EN"
+            ]
         },
         {
             "id": "james_bond_the_world_is_not_enough_1999",
@@ -24159,7 +24162,7 @@
                 "Action"
             ],
             "image": "https://image.tmdb.org/t/p/w342/8wUNoQ0Q92dHSXqdq7mceGudasg.jpg",
-            "fichier": "/Box_Films/Action/L'Arme Fatale/L'arme Fatale IV 1998 Multi-VF2 1080p HDlight.x264-Tonyk.mkv",
+            "fichier": "/Box_Films/Action/L'arme fatale/L'arme Fatale IV 1998 Multi-VF2 1080p HDlight.x264-Tonyk.mkv",
             "nomFichier": "L'arme Fatale IV 1998 Multi-VF2 1080p HDlight.x264-Tonyk.mkv",
             "imdbId": null,
             "tmdbId": 944,
@@ -40649,13 +40652,98 @@
                         "langue": "eng",
                         "titre": "ENG Full"
                     }
+                ]
+            }
+        },
+        {
+            "id": "the_amazing_spider_man_2_destin_d_un_heros_2014",
+            "titre": "The Amazing Spider Man 2 Destin d'un héros",
+            "annee": 2014,
+            "langue": [
+                "VO",
+                "VF"
+            ],
+            "taille": 3869406094,
+            "genre": null,
+            "image": null,
+            "fichier": "/Box_Films/- Nouveaux/The Amazing Spider-Man 2 -Le Destin d'un héros 2014 Multi-VF2 1080p Bluray HDlight.x264~Tonyk.mkv",
+            "nomFichier": "The Amazing Spider-Man 2 -Le Destin d'un héros 2014 Multi-VF2 1080p Bluray HDlight.x264~Tonyk.mkv",
+            "imdbId": null,
+            "tmdbId": null,
+            "tmdbUrl": null,
+            "doublonExact": false,
+            "doublonProbable": false,
+            "groupeDoublon": null,
+            "dateAjout": "2026-11-18T21:12:02.353Z",
+            "technique": {
+                "largeur": 1920,
+                "hauteur": 1080,
+                "resolution": "1920x1080",
+                "ratioImage": 1.778,
+                "codecVideo": "h264",
+                "profilVideo": "High",
+                "pixelFormat": "yuv420p",
+                "bitsParComposante": 8,
+                "bitrateVideo": null,
+                "framerate": 23.976,
+                "espaceCouleur": null,
+                "transfertCouleur": null,
+                "primairesCouleur": null,
+                "hdr": false,
+                "dureeFichier": 8494.783,
+                "bitrateGlobal": 3644030,
+                "formatConteneur": "matroska,webm",
+                "audio": [
+                    {
+                        "codec": "ac3",
+                        "profil": null,
+                        "canaux": 6,
+                        "disposition": "5.1(side)",
+                        "bitrate": 448000,
+                        "frequence": 48000,
+                        "langue": "fre"
+                    },
+                    {
+                        "codec": "ac3",
+                        "profil": null,
+                        "canaux": 6,
+                        "disposition": "5.1(side)",
+                        "bitrate": 448000,
+                        "frequence": 48000,
+                        "langue": "eng"
+                    },
+                    {
+                        "codec": "ac3",
+                        "profil": null,
+                        "canaux": 6,
+                        "disposition": "5.1(side)",
+                        "bitrate": 448000,
+                        "frequence": 48000,
+                        "langue": "fre"
+                    }
                 ],
-                "zoneUtile": {
-                    "largeurUtile": 1920,
-                    "hauteurUtile": 800,
-                    "x": 0,
-                    "y": 0
-                }
+                "sousTitres": [
+                    {
+                        "codec": "subrip",
+                        "langue": "fre",
+                        "titre": "forcé"
+                    },
+                    {
+                        "codec": "subrip",
+                        "langue": "fre",
+                        "titre": "complet"
+                    },
+                    {
+                        "codec": "subrip",
+                        "langue": "eng",
+                        "titre": "complet"
+                    },
+                    {
+                        "codec": "subrip",
+                        "langue": "spa",
+                        "titre": "complet"
+                    }
+                ]
             }
         },
         {
@@ -40731,13 +40819,7 @@
                         "langue": "eng",
                         "titre": "Anglais"
                     }
-                ],
-                "zoneUtile": {
-                    "largeurUtile": 640,
-                    "hauteurUtile": 272,
-                    "x": 0,
-                    "y": 0
-                }
+                ]
             }
         },
         {
@@ -45789,7 +45871,8 @@
             "collectionImage": "https://image.tmdb.org/t/p/w500/9Z4fKVUqAJ2WEP6pQFTtYPuoknd.jpg",
             "collectionTmdbUrl": "https://www.themoviedb.org/collection/748",
             "type": "Film",
-            "studio": "Marvel"
+            "studio": "Marvel",
+            "ignoreInCollection": false
         },
         {
             "id": "x_men_2_2003",
@@ -45809,8 +45892,8 @@
             "tmdbId": 36658,
             "tmdbUrl": "https://www.themoviedb.org/movie/36658",
             "doublonExact": false,
-            "doublonProbable": true,
-            "groupeDoublon": "x_men_2",
+            "doublonProbable": false,
+            "groupeDoublon": null,
             "dateAjout": "2026-11-17T13:42:57.796Z",
             "technique": {
                 "largeur": 3840,
@@ -45885,7 +45968,8 @@
             "collectionImage": "https://image.tmdb.org/t/p/w500/9Z4fKVUqAJ2WEP6pQFTtYPuoknd.jpg",
             "collectionTmdbUrl": "https://www.themoviedb.org/collection/748",
             "type": "Film",
-            "studio": "Marvel"
+            "studio": "Marvel",
+            "ignoreInCollection": false
         },
         {
             "id": "x_men_3",
@@ -46484,8 +46568,8 @@
             "tmdbId": 49538,
             "tmdbUrl": "https://www.themoviedb.org/movie/49538",
             "doublonExact": false,
-            "doublonProbable": true,
-            "groupeDoublon": "x_men_first_class",
+            "doublonProbable": false,
+            "groupeDoublon": null,
             "dateAjout": "2026-11-17T18:26:29.596Z",
             "technique": {
                 "largeur": 1920,
@@ -46560,7 +46644,8 @@
             "collectionImage": "https://image.tmdb.org/t/p/w500/9Z4fKVUqAJ2WEP6pQFTtYPuoknd.jpg",
             "collectionTmdbUrl": "https://www.themoviedb.org/collection/748",
             "type": "Film",
-            "studio": "Marvel"
+            "studio": "Marvel",
+            "ignoreInCollection": false
         },
         {
             "id": "x_men_origins",
@@ -67362,12 +67447,12 @@
     "stockage": [
         {
             "lecteur": "Y",
-            "espaceLibre": 382755889152,
+            "espaceLibre": 380668796928,
             "capaciteTotale": 2000396742656
         },
         {
             "lecteur": "Z",
-            "espaceLibre": 66575978496,
+            "espaceLibre": 75002413056,
             "capaciteTotale": 1000169533440
         }
     ]

@@ -196,6 +196,9 @@ function buildExistingFilmByPath(catalog) {
     if (film.fichier) {
       map.set(pathKey(film.fichier.replace(/^[A-Z]:/i, "")), film);
     }
+    if (film.fichierOriginal) {
+      map.set(pathKey(film.fichierOriginal.replace(/^[A-Z]:/i, "")), film);
+    }
   }
   return map;
 }
@@ -574,6 +577,8 @@ function syncFilm(catalog, analyse, sourceFilePath) {
     catalog.films.push({
       ...existing,
       fichier: analyse.fichier,
+      nomFichier: analyse.nomFichier,
+      taille: analyse.taille,
       technique: {
         ...existing.technique,
         zoneUtile: analyse.zoneUtile,
