@@ -2372,8 +2372,8 @@
                 "Aventure"
             ],
             "image": "https://image.tmdb.org/t/p/w342/fU54mG8yvk7VBA6BI6TDeyrzt5d.jpg",
-            "fichier": "/Box_Films/Enfants/Abominable.2019.FRENCH.720p.WEB.H264-EXTREME.mkv",
-            "nomFichier": "Abominable.2019.FRENCH.720p.WEB.H264-EXTREME.mkv",
+            "fichier": "/Box_Films/Aventure/Abominable_2019_VF.mkv",
+            "nomFichier": "Abominable_2019_VF.mkv",
             "imdbId": null,
             "tmdbId": 431580,
             "tmdbUrl": "https://www.themoviedb.org/movie/431580",
@@ -2432,7 +2432,8 @@
                 ]
             },
             "titreOriginal": "Abominable",
-            "langueOriginale": "en"
+            "langueOriginale": "en",
+            "fichierOriginal": "Abominable.2019.FRENCH.720p.WEB.H264-EXTREME.mkv"
         },
         {
             "id": "tmdb_394253",
@@ -3629,8 +3630,8 @@
                 "Policier"
             ],
             "image": "https://image.tmdb.org/t/p/w342/mFPqFjOMhOFMOEYaQAe7a1HxKkG.jpg",
-            "fichier": "/Box_Films/Policier/Au bout de la nuit.avi",
-            "nomFichier": "Au bout de la nuit.avi",
+            "fichier": "/Box_Films/Policier/Au bout de la nuit/2008_Au bout de la nuit_VF.avi",
+            "nomFichier": "2008_Au bout de la nuit_VF.avi",
             "imdbId": null,
             "tmdbId": 1266,
             "tmdbUrl": "https://www.themoviedb.org/movie/1266",
@@ -3682,7 +3683,8 @@
             "langueOriginale": "en",
             "languesAudio": [
                 "FR"
-            ]
+            ],
+            "fichierOriginal": "Au bout de la nuit.avi"
         },
         {
             "id": "tmdb_668",
@@ -18222,7 +18224,7 @@
             "titre": "Highlander",
             "annee": 1986,
             "langue": [
-                "TBD"
+                "VF"
             ],
             "taille": 1897818513,
             "genre": [
@@ -18279,7 +18281,10 @@
                 "sousTitres": []
             },
             "titreOriginal": "Highlander",
-            "langueOriginale": "en"
+            "langueOriginale": "en",
+            "languesAudio": [
+                "FR"
+            ]
         },
         {
             "id": "tmdb_13360",
@@ -21662,7 +21667,7 @@
             "titre": "Johnny Strikes Again",
             "annee": 2018,
             "langue": [
-                "TBD"
+                "VO"
             ],
             "taille": 1527929996,
             "genre": [
@@ -21722,7 +21727,10 @@
             "titreOriginal": "Johnny English Strikes Again",
             "langueOriginale": "en",
             "type": "Film",
-            "studio": null
+            "studio": null,
+            "languesAudio": [
+                "EN"
+            ]
         },
         {
             "id": "le_jour_d_apres",
@@ -22457,15 +22465,15 @@
             "titre": "Kings ( ) 3 5 &",
             "annee": 2008,
             "langue": [
-                "TBD"
+                "VO"
             ],
             "taille": 2050489717,
             "genre": [
                 "Policier"
             ],
             "image": "https://image.tmdb.org/t/p/w342/mFPqFjOMhOFMOEYaQAe7a1HxKkG.jpg",
-            "fichier": "/Box_Films/Policier/Au bout de la nuit/Street Kings (2008) 1080p-H264-AC 3 (DolbyDigital-5.1) & nickarad.mp4",
-            "nomFichier": "Street Kings (2008) 1080p-H264-AC 3 (DolbyDigital-5.1) & nickarad.mp4",
+            "fichier": "/Box_Films/Policier/Au bout de la nuit/2008_Au bout de la nuit_VO.mp4",
+            "nomFichier": "2008_Au bout de la nuit_VO.mp4",
             "imdbId": null,
             "tmdbId": 1266,
             "tmdbUrl": "https://www.themoviedb.org/movie/1266",
@@ -22516,22 +22524,27 @@
             "collectionImage": "https://image.tmdb.org/t/p/w500/scwFenIwHJVKIxu0GGQkO9hGb2Y.jpg",
             "collectionTmdbUrl": "https://www.themoviedb.org/collection/124881",
             "type": "Film",
-            "studio": null
+            "studio": null,
+            "languesAudio": [
+                "EN"
+            ],
+            "fichierOriginal": "Street Kings (2008) 1080p-H264-AC 3 (DolbyDigital-5.1) & nickarad.mp4"
         },
         {
             "id": "kings_2_motor_city_800mb_2011",
             "titre": "Kings 2 Motor City 800MB",
             "annee": 2011,
             "langue": [
-                "TBD"
+                "VO",
+                "VOST"
             ],
             "taille": 835508724,
             "genre": [
                 "Policier"
             ],
             "image": "https://image.tmdb.org/t/p/w342/aNImLX646JNzXakGSGGHsXhP6Du.jpg",
-            "fichier": "/Box_Films/Policier/Au bout de la nuit/Street.Kings.2.Motor.City.2011.720p.BluRay.800MB.x264-GalaxyRG.mkv",
-            "nomFichier": "Street.Kings.2.Motor.City.2011.720p.BluRay.800MB.x264-GalaxyRG.mkv",
+            "fichier": "/Box_Films/Policier/Au bout de la nuit/2011_Au bout de la nuit 2_VO_VOST.mkv",
+            "nomFichier": "2011_Au bout de la nuit 2_VO_VOST.mkv",
             "imdbId": null,
             "tmdbId": 58625,
             "tmdbUrl": "https://www.themoviedb.org/movie/58625",
@@ -22589,7 +22602,11 @@
             "collectionTmdbUrl": "https://www.themoviedb.org/collection/124881",
             "ignoreInCollection": false,
             "type": "Film",
-            "studio": null
+            "studio": null,
+            "languesAudio": [
+                "EN"
+            ],
+            "fichierOriginal": "Street.Kings.2.Motor.City.2011.720p.BluRay.800MB.x264-GalaxyRG.mkv"
         },
         {
             "id": "kirikou_et_les_betes_sauvages",
@@ -30844,14 +30861,15 @@
             ],
             "taille": 3546747003,
             "genre": [
-                "Action"
+                "Action",
+                "Aventure"
             ],
-            "image": null,
+            "image": "https://image.tmdb.org/t/p/w342/6JO3Oz685phBaADyJtf4wmaafYj.jpg",
             "fichier": "/Box_Films/- Nouveaux/Mission.Impossible.Fallout.2018.IMAX.MULTI.TRUEFRENCH.1080p.HDLight.x264.AC3-EXTREME.mkv",
             "nomFichier": "Mission.Impossible.Fallout.2018.IMAX.MULTI.TRUEFRENCH.1080p.HDLight.x264.AC3-EXTREME.mkv",
             "imdbId": null,
-            "tmdbId": null,
-            "tmdbUrl": null,
+            "tmdbId": 353081,
+            "tmdbUrl": "https://www.themoviedb.org/movie/353081",
             "doublonExact": false,
             "doublonProbable": false,
             "groupeDoublon": null,
@@ -30908,7 +30926,18 @@
                 ]
             },
             "type": "Film",
-            "studio": null
+            "studio": null,
+            "titreTmdb": "Mission : Impossible - Fallout",
+            "titreOriginal": "Mission: Impossible - Fallout",
+            "langueOriginale": "en",
+            "anneeTmdb": "2018",
+            "dureeTmdb": 147,
+            "descriptionTmdb": "Alors qu'Ethan Hunt est chargé de récupérer du plutonium volé, il décide de sauver son équipe plutôt que de mener à bien cette mission. Les armes nucléaires se retrouvent ainsi dans les mains d'un groupe terroriste nommé « les Apôtres », formé après l'arrestation de Solomon Lane sur les restes du Syndicat. Ethan et son équipe de Mission Impossible doivent, contre leur gré, s'associer à un agent de la CIA pour retrouver le plutonium avant qu'il ne soit trop tard…",
+            "collectionId": 87359,
+            "collectionNom": "Mission : Impossible - Saga",
+            "collectionDescription": "Les aventures de l'agent secret Ethan Hunt pour le compte de l'unité IMF (Impossible Missions Force).",
+            "collectionImage": "https://image.tmdb.org/t/p/w500/5nUgyjBem5QctwzQoDyJ3kuE7xh.jpg",
+            "collectionTmdbUrl": "https://www.themoviedb.org/collection/87359"
         },
         {
             "id": "mission_impossible_ghost_protocol_2011",
@@ -30920,14 +30949,16 @@
             ],
             "taille": 3784688324,
             "genre": [
-                "Action"
+                "Action",
+                "Thriller",
+                "Aventure"
             ],
-            "image": null,
+            "image": "https://image.tmdb.org/t/p/w342/wMatavrX9HWNKxczKzr2Xy2KnYH.jpg",
             "fichier": "/Box_Films/- Nouveaux/Mission Impossible Ghost Protocol (2011) MULTi VF2 BluRay x264 AC3-PopHD.mkv",
             "nomFichier": "Mission Impossible Ghost Protocol (2011) MULTi VF2 BluRay x264 AC3-PopHD.mkv",
             "imdbId": null,
-            "tmdbId": null,
-            "tmdbUrl": null,
+            "tmdbId": 56292,
+            "tmdbUrl": "https://www.themoviedb.org/movie/56292",
             "doublonExact": false,
             "doublonProbable": false,
             "groupeDoublon": null,
@@ -31008,7 +31039,18 @@
                 ]
             },
             "type": "Film",
-            "studio": null
+            "studio": null,
+            "titreTmdb": "Mission : Impossible - Protocole Fantôme",
+            "titreOriginal": "Mission: Impossible - Ghost Protocol",
+            "langueOriginale": "en",
+            "anneeTmdb": "2011",
+            "dureeTmdb": 133,
+            "descriptionTmdb": "Après avoir été impliquée dans un complot terroriste mondial, l’agence Mission Impossible est contrainte de cesser ses activités. Le « Protocole Fantôme » est mis en place : Ethan Hunt et sa nouvelle équipe doivent opérer dans le secret pour blanchir le nom de leur organisation. Aucune aide, aucun contact, isolation totale. Cette mission va s'avérer être la plus dangereuse et la plus intense qu'ils aient eu à remplir.",
+            "collectionId": 87359,
+            "collectionNom": "Mission : Impossible - Saga",
+            "collectionDescription": "Les aventures de l'agent secret Ethan Hunt pour le compte de l'unité IMF (Impossible Missions Force).",
+            "collectionImage": "https://image.tmdb.org/t/p/w500/5nUgyjBem5QctwzQoDyJ3kuE7xh.jpg",
+            "collectionTmdbUrl": "https://www.themoviedb.org/collection/87359"
         },
         {
             "id": "mission_impossible_the_final_reckoning_2025",

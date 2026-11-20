@@ -19,6 +19,27 @@ const config = readJson(configPath);
 const ignoreWordsConfig = readJson(ignoreWordsPath);
 const languageAliases = readJson(languageAliasesPath);
 const existingCatalog = readJson(jsonCatalogPath);
+const calculChemins = require(
+  path.join(mediaServerDir, "js", "calculChemins.js"),
+);
+const mediaServerPaths = calculChemins.calculatePaths(
+  {
+    platform: process.platform === "linux" ? "linux" : "windows",
+    mediaServerAvailable: true,
+  },
+  {
+    currentDir: mediaServerDir,
+    fs,
+  },
+);
+const targetDriveEntry = Object.entries(mediaServerPaths.driveMappings).find(
+  ([, drive]) =>
+    drive &&
+    drive.replaceAll("/", "\\").replace(/\\+$/, "").toUpperCase() === "Y:",
+);
+const targetFilmsRootName = targetDriveEntry
+  ? `${targetDriveEntry[0]}_Films`
+  : null;
 
 normalizeIgnoreWordsConfig(ignoreWordsConfig);
 writeJson(ignoreWordsPath, ignoreWordsConfig);
@@ -559,6 +580,74 @@ function findAssociatedImage(videoPath) {
   return null;
 }
 
+function sanitizeFolderName(value) {
+  return String(value || "")
+    .replace(/[<>:"/\\|?*]/g, " ")
+    .replace(/\s+/g, " ")
+    .trim()
+    .replace(/[. ]+$/g, "");
+}
+function formatFilmLanguages(languages) {
+  const order = ["VO", "VF", "VOST", "VOSTFR"];
+  const values = Array.isArray(languages)
+    ? [...languages]
+    : [languages || "TBD"];
+  return values
+    .sort((a, b) => {
+      const indexA = order.indexOf(a);
+      const indexB = order.indexOf(b);
+      return (
+        (indexA === -1 ? order.length : indexA) -
+        (indexB === -1 ? order.length : indexB)
+      );
+    })
+    .join(" ");
+}
+function getNormalizedFilmFileName(film) {
+  const extensionIndex = film.nomFichier.lastIndexOf(".");
+  const extension =
+    extensionIndex >= 0 ? film.nomFichier.substring(extensionIndex) : "";
+  const title = (film.titreTmdb || film.titre || "")
+    .replace(/[\\/:*?"<>|]/g, " ")
+    .replace(/\s+/g, " ")
+    .trim();
+  const year = film.anneeTmdb || film.annee || "";
+  const languages = formatFilmLanguages(film.langue).replaceAll(" ", "_");
+  const parts =
+    film.collectionNom && !film.ignoreInCollection
+      ? [year, title, languages]
+      : [title, year, languages];
+  return parts.filter(Boolean).join("_") + extension;
+}
+function getNormalizedFilmPath(film) {
+  if (!targetFilmsRootName || !film.fichier || !film.nomFichier) {
+    return null;
+  }
+  const isMarvel =
+    String(film.studio || "")
+      .trim()
+      .toLowerCase() === "marvel";
+  const genres = Array.isArray(film.genre)
+    ? film.genre.filter(Boolean)
+    : film.genre
+      ? [film.genre]
+      : [];
+  if (!isMarvel && genres.length !== 1) {
+    return null;
+  }
+  const destinationCategory = isMarvel
+    ? "Marvel"
+    : sanitizeFolderName(genres[0]);
+  const collectionName = sanitizeFolderName(
+    String(film.collectionNom || "").replace(/\s*-\s*saga\s*$/i, ""),
+  );
+  const normalizedFileName = getNormalizedFilmFileName(film);
+  const destinationFolder = collectionName
+    ? `/${targetFilmsRootName}/${destinationCategory}/${collectionName}`
+    : `/${targetFilmsRootName}/${destinationCategory}`;
+  return `${destinationFolder}/${normalizedFileName}`;
+}
+
 function syncFilm(catalog, analyse, sourceFilePath) {
   let existing = existingFilmByPath.get(
     pathKey(analyse.fichier.replace(/^[A-Z]:/i, "")),
@@ -574,7 +663,7 @@ function syncFilm(catalog, analyse, sourceFilePath) {
     }
   }
   if (existing) {
-    catalog.films.push({
+    const syncedFilm = {
       ...existing,
       fichier: analyse.fichier,
       nomFichier: analyse.nomFichier,
@@ -583,12 +672,16 @@ function syncFilm(catalog, analyse, sourceFilePath) {
         ...existing.technique,
         zoneUtile: analyse.zoneUtile,
       },
-    });
+    };
+    if (!Object.hasOwn(syncedFilm, "fichierNormalise")) {
+      syncedFilm.fichierNormalise = getNormalizedFilmPath(syncedFilm);
+    }
+    catalog.films.push(syncedFilm);
     return "kept";
   }
   const technique = extractVideoMetadata(probeVideoFile(sourceFilePath)) || {};
   technique.zoneUtile = detectUsefulVideoArea(sourceFilePath);
-  catalog.films.push({
+  const newFilm = {
     id: analyse.id,
     titre: analyse.titre,
     annee: analyse.annee,
@@ -606,7 +699,9 @@ function syncFilm(catalog, analyse, sourceFilePath) {
     groupeDoublon: null,
     dateAjout: new Date().toISOString(),
     technique: technique,
-  });
+  };
+  newFilm.fichierNormalise = getNormalizedFilmPath(newFilm);
+  catalog.films.push(newFilm);
   return "new";
 }
 
