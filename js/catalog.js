@@ -4,6 +4,35 @@ async function loadCatalog() {
 }
 
 async function reloadCatalog(type = "all") {
+  if (type === "films") {
+    const checkResponse = await fetch(
+      "http://localhost:9876/check-nouveaux-films-files",
+      {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({}),
+      },
+    );
+    const checkResult = await checkResponse.json();
+    if (
+      checkResult.blockingFiles.length > 0 &&
+      checkResult.subtitleFiles.length > 0
+    ) {
+      alert("Pensez à vérifier les fichiers et les fichiers de sous-titres.");
+      return;
+    }
+    if (checkResult.blockingFiles.length > 0) {
+      alert("Pensez à vérifier les fichiers.");
+      return;
+    }
+    if (checkResult.subtitleFiles.length > 0) {
+      alert(
+        "Attention, il y a des fichiers de sous-titres. Pensez à vérifier qu'ils correspondent bien aux films.",
+      );
+    }
+  }
   openScanModal();
   document.getElementById("scanTitle").textContent =
     type === "films"
