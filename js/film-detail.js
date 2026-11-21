@@ -281,23 +281,13 @@ function updateLanguageFilters(films) {
       );
     });
 }
+
 function renderFilmFiles(films) {
   const panel = document.getElementById("filmFilesPanel");
   panel.innerHTML = "";
-
-  const selectedLanguages = [
-    ...document.querySelectorAll(".language-button.active"),
-  ].map((button) => button.dataset.language);
-
-  const filteredFilms = films
-    .filter((film) => {
-      const languages = Array.isArray(film.langue)
-        ? film.langue
-        : [film.langue || "TBD"];
-
-      return languages.some((language) => selectedLanguages.includes(language));
-    })
-    .sort((a, b) => (a.taille || 0) - (b.taille || 0));
+  const filteredFilms = [...films].sort(
+    (a, b) => (a.taille || 0) - (b.taille || 0),
+  );
 
   setText(
     "film",

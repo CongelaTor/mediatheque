@@ -1,6 +1,6 @@
 {
     "version": 1,
-    "dateDernierScan": "2026-11-20T15:42:59.290Z",
+    "dateDernierScan": "2026-11-21T10:10:08.521Z",
     "collections": [
         {
             "collectionId": 221622,
@@ -99,13 +99,6 @@
             "collectionImage": "/gPZyaRcmkfABVIFM1GdVNcL2UDj.jpg",
             "collectionDescription": "La saga Arthur et les Minimoys.",
             "collectionFilmCount": 3
-        },
-        {
-            "collectionId": 2396,
-            "collectionNom": "Astérix & Obélix - Saga",
-            "collectionImage": "/lF0VfeCBPWbulAFW0KcISgPquuJ.jpg",
-            "collectionDescription": "L’univers d’Astérix prend vie sur grand écran ! Adaptations fidèles et pleines d’humour, les live action réunissent des acteurs talentueux, des décors spectaculaires et des aventures inoubliables. Entre batailles épiques contre les Romains et quêtes hilarantes, plongez dans l’énergie et la magie des aventures gauloises comme vous ne les avez jamais vues !",
-            "collectionFilmCount": 6
         },
         {
             "collectionId": 124881,
@@ -2945,15 +2938,15 @@
             "titre": "Antitrust",
             "annee": null,
             "langue": [
-                "TBD"
+                "VF"
             ],
             "taille": 699688960,
             "genre": [
                 "Policier"
             ],
             "image": "https://image.tmdb.org/t/p/w342/epm4ofl609n5kj2XPLDvf802ge8.jpg",
-            "fichier": "/Box_Films/Policier/Antitrust.avi",
-            "nomFichier": "Antitrust.avi",
+            "fichier": "/Box_Films/Policier/Antitrust_2001_VF.avi",
+            "nomFichier": "Antitrust_2001_VF.avi",
             "imdbId": null,
             "tmdbId": 9989,
             "tmdbUrl": "https://www.themoviedb.org/movie/9989",
@@ -3002,7 +2995,10 @@
             },
             "titreOriginal": "Antitrust",
             "langueOriginale": "en",
-            "fichierNormalise": "Antitrust_2001_TBD.avi"
+            "fichierNormalise": "Antitrust_2001_TBD.avi",
+            "languesAudio": [
+                "FR"
+            ]
         },
         {
             "id": "aquaman_2018",
@@ -3281,162 +3277,32 @@
             "langueOriginale": "fr"
         },
         {
-            "id": "arthur_et_les_minimoys_uncensored_others",
-            "titre": "Arthur Et Les Minimoys",
-            "annee": null,
+            "id": "tmdb_9992",
+            "titre": "Arthur et les Minimoys",
+            "annee": 2006,
             "langue": [
-                "VF"
+                "TBD"
             ],
-            "taille": 733566976,
-            "genre": [
-                "Aventure"
-            ],
+            "taille": 0,
+            "genre": [],
             "image": "https://image.tmdb.org/t/p/w342/xdaRZK4PkO1Kb8umran3xf4AaLo.jpg",
-            "fichier": "/Box_Films/Enfants/Arthur.Et.Les.Minimoys.Uncensored.FRENCH.DVDRip.XviD-OTHERS.avi",
-            "nomFichier": "Arthur.Et.Les.Minimoys.Uncensored.FRENCH.DVDRip.XviD-OTHERS.avi",
-            "imdbId": null,
+            "fichier": null,
+            "nomFichier": null,
             "tmdbId": 9992,
             "tmdbUrl": "https://www.themoviedb.org/movie/9992",
             "doublonExact": false,
             "doublonProbable": false,
             "groupeDoublon": null,
-            "dateAjout": "2026-08-22T08:23:33.657Z",
+            "dateAjout": null,
             "titreTmdb": "Arthur et les Minimoys",
-            "anneeTmdb": "2006",
-            "dureeTmdb": 103,
+            "titreOriginal": "Arthur et les Minimoys",
+            "anneeTmdb": 2006,
             "descriptionTmdb": "Comme tous les enfants de son âge, Arthur est fasciné par les histoires que lui raconte sa grand-mère pour l'endormir : ses rêves sont peuplés de tribus africaines et d'inventions incroyables, tirées d'un vieux grimoire, souvenir de son grand-père mystérieusement disparu depuis quatre ans. Et si toutes ces histoires étaient vraies ? Et si un trésor était véritablement caché dans le jardin de la maison ? Et si les Minimoys, ces adorables petites créatures dessinées par son grand-père, existaient en chair et en os ? Voilà qui aiderait à sauver la maison familiale, menacée par un promoteur sans scrupule ! Du haut de ses dix ans, Arthur est bien décidé à suivre les indices laissés par son grand-père pour passer dans l'autre monde, celui des Minimoys, et découvrir les sept terres qui constituent leur royaume...",
             "collectionId": 85817,
             "collectionNom": "Arthur et les Minimoys - Saga",
             "type": "Film",
             "studio": null,
-            "ignoreInCollection": false,
-            "technique": {
-                "largeur": 624,
-                "hauteur": 256,
-                "resolution": "624x256",
-                "ratioImage": 2.438,
-                "codecVideo": "mpeg4",
-                "profilVideo": "Advanced Simple Profile",
-                "pixelFormat": "yuv420p",
-                "bitsParComposante": null,
-                "bitrateVideo": 842221,
-                "framerate": 25,
-                "espaceCouleur": null,
-                "transfertCouleur": null,
-                "primairesCouleur": null,
-                "hdr": false,
-                "dureeFichier": 5969.52,
-                "bitrateGlobal": 983083,
-                "formatConteneur": "avi",
-                "audio": [
-                    {
-                        "codec": "mp3",
-                        "profil": null,
-                        "canaux": 2,
-                        "disposition": "stereo",
-                        "bitrate": 127952,
-                        "frequence": 48000,
-                        "langue": null
-                    }
-                ],
-                "sousTitres": []
-            },
-            "titreOriginal": "Arthur et les Minimoys",
-            "langueOriginale": "fr",
-            "fichierNormalise": "2006_Arthur et les Minimoys_VF.avi"
-        },
-        {
-            "id": "tmdb_99770",
-            "titre": "Astérix & Obélix : Au service de Sa Majesté",
-            "annee": 2012,
-            "langue": [
-                "TBD"
-            ],
-            "taille": 0,
-            "genre": [
-                "Comédie"
-            ],
-            "image": "https://image.tmdb.org/t/p/w342/6evgdfGc3omSNf4hh0vOJXH1ygD.jpg",
-            "fichier": null,
-            "nomFichier": null,
-            "tmdbId": 99770,
-            "tmdbUrl": "https://www.themoviedb.org/movie/99770",
-            "doublonExact": false,
-            "doublonProbable": false,
-            "groupeDoublon": null,
-            "dateAjout": null,
-            "titreTmdb": "Astérix & Obélix : Au service de Sa Majesté",
-            "titreOriginal": "Astérix & Obélix : Au service de Sa Majesté",
-            "anneeTmdb": 2012,
-            "descriptionTmdb": "50 avant Jésus Christ. César a soif de conquêtes. À la tête de ses glorieuses légions il décide d'envahir cette île située aux limites du monde connu, ce pays mystérieux appelé Britania, la Bretagne. La victoire est rapide et totale. Enfin… presque. Un petit village breton parvient à lui résister, mais ses forces faiblissent. Cordelia, la reine des Bretons, décide donc d’envoyer son plus fidèle officier, Jolitorax, chercher de l’aide en Gaule, auprès d’un autre petit village, connu pour son opiniâtre résistance aux Romains… Dans le village gaulois en question, Astérix et Obélix sont déjà bien occupés. Le chef leur a en effet confié son neveu Goudurix, une jeune tête à claques fraîchement débarquée de Lutèce, dont ils sont censés faire un homme. Et c'est loin d'être gagné…",
-            "collectionId": 2396,
-            "collectionNom": "Astérix & Obélix - Saga",
-            "type": "Film",
-            "studio": null,
-            "ignoreInCollection": true,
-            "langueOriginale": "fr"
-        },
-        {
-            "id": "tmdb_643215",
-            "titre": "Astérix & Obélix : L'Empire du Milieu",
-            "annee": 2023,
-            "langue": [
-                "TBD"
-            ],
-            "taille": 0,
-            "genre": [
-                "Comédie"
-            ],
-            "image": "https://image.tmdb.org/t/p/w342/hZvqv0iRg5S3Aqw3HjXw7gShG6g.jpg",
-            "fichier": null,
-            "nomFichier": null,
-            "tmdbId": 643215,
-            "tmdbUrl": "https://www.themoviedb.org/movie/643215",
-            "doublonExact": false,
-            "doublonProbable": false,
-            "groupeDoublon": null,
-            "dateAjout": null,
-            "titreTmdb": "Astérix & Obélix : L'Empire du Milieu",
-            "titreOriginal": "Astérix & Obélix : L'Empire du Milieu",
-            "anneeTmdb": 2023,
-            "descriptionTmdb": "Nous sommes en 50 avant J.C. L’Impératrice de Chine est emprisonnée suite à un coup d’État fomenté par Deng Tsin Quin, un prince félon.  Aidée par Graindemaïs, le marchand phénicien, et par sa fidèle guerrière Tat Han, la princesse Fu-Yi, fille unique de l’impératrice, s’enfuit en Gaule pour demander de l’aide aux deux valeureux guerriers Astérix et Obélix, dotés d’une force surhumaine grâce à leur potion magique. Nos deux inséparables Gaulois acceptent bien sûr de venir en aide à la Princesse pour sauver sa mère et libérer son pays. Et les voici tous en route pour une grande aventure vers la Chine. Mais César et sa puissante armée, toujours en soif de conquêtes, ont eux aussi pris la direction de l’Empire du Milieu…",
-            "collectionId": 2396,
-            "collectionNom": "Astérix & Obélix - Saga",
-            "type": "Film",
-            "studio": null,
-            "ignoreInCollection": true,
-            "langueOriginale": "fr"
-        },
-        {
-            "id": "tmdb_9564",
-            "titre": "Astérix & Obélix contre César",
-            "annee": 1999,
-            "langue": [
-                "TBD"
-            ],
-            "taille": 0,
-            "genre": [
-                "Comédie"
-            ],
-            "image": "https://image.tmdb.org/t/p/w342/2xFo4wO4zAGb3KcyvBsC2igLLdF.jpg",
-            "fichier": null,
-            "nomFichier": null,
-            "tmdbId": 9564,
-            "tmdbUrl": "https://www.themoviedb.org/movie/9564",
-            "doublonExact": false,
-            "doublonProbable": false,
-            "groupeDoublon": null,
-            "dateAjout": null,
-            "titreTmdb": "Astérix & Obélix contre César",
-            "titreOriginal": "Astérix & Obélix contre César",
-            "anneeTmdb": 1999,
-            "descriptionTmdb": "La Gaule en l'an 50 avant Jésus-Christ, est occupée par les Romains. Un seul village résiste, grâce à la potion magique, préparée par le druide Panoramix, qui rend ses habitants invincibles pendant plusieurs minutes. Parmi eux, nos héros Astérix et Obélix, ridiculisent n'importe quel assaillant. Au moment où César se prépare à envahir l'Angleterre, il apprend que ce village tient en échec ses troupes et refuse de payer l'impôt.",
-            "collectionId": 2396,
-            "collectionNom": "Astérix & Obélix - Saga",
-            "type": "Film",
-            "studio": null,
-            "ignoreInCollection": true,
-            "langueOriginale": "fr"
+            "ignoreInCollection": false
         },
         {
             "id": "asterix_aux_jeux_olympiques",
@@ -3463,8 +3329,8 @@
             "anneeTmdb": "2008",
             "dureeTmdb": 113,
             "descriptionTmdb": "Astérix et Obélix, dans de nouvelles aventures où ils devront remporter les Jeux olympiques, permettre au jeune Gaulois, Alafolix, d’épouser la Princesse Irina et lutter contre le terrible Brutus, prêt à tous les stratagèmes, pour lui aussi gagner les Jeux olympiques et se débarrasser de son père : Jules César.",
-            "collectionId": 2396,
-            "collectionNom": "Astérix & Obélix - Saga",
+            "collectionId": null,
+            "collectionNom": null,
             "type": "Film",
             "studio": null,
             "ignoreInCollection": false,
@@ -3507,37 +3373,6 @@
             "fichierNormalise": "2008_Astérix aux Jeux olympiques_VF.avi"
         },
         {
-            "id": "tmdb_1282171",
-            "titre": "Astérix et les Douze Travaux",
-            "annee": 2100,
-            "langue": [
-                "TBD"
-            ],
-            "taille": 0,
-            "genre": [
-                "Comédie"
-            ],
-            "image": "https://image.tmdb.org/t/p/w342/mSkWSVEOQYduZnGY3oTAsTNQ0A.jpg",
-            "fichier": null,
-            "nomFichier": null,
-            "tmdbId": 1282171,
-            "tmdbUrl": "https://www.themoviedb.org/movie/1282171",
-            "doublonExact": false,
-            "doublonProbable": false,
-            "groupeDoublon": null,
-            "dateAjout": null,
-            "titreTmdb": "Astérix et les Douze Travaux",
-            "titreOriginal": "Astérix et les Douze Travaux",
-            "anneeTmdb": 2100,
-            "descriptionTmdb": "Sixième opus en « live-action » des héros gaulois inspiré du film d'animation du même nom.",
-            "collectionId": 2396,
-            "collectionNom": "Astérix & Obélix - Saga",
-            "type": "Film",
-            "studio": null,
-            "ignoreInCollection": true,
-            "langueOriginale": "fr"
-        },
-        {
             "id": "asterix_et_obelix_mission_cleopatre_1500kbps_son_dolby_5_1",
             "titre": "Astérix Et Obélix Mission Cléopatre 1500kbps Son Dolby 5 1",
             "annee": 2002,
@@ -3561,12 +3396,8 @@
             "titreTmdb": "Astérix & Obélix : Mission Cléopâtre",
             "anneeTmdb": "2002",
             "dureeTmdb": 107,
-            "descriptionTmdb": "Cléopâtre, la reine d’Égypte, décide, pour défier l’empereur romain Jules César, de construire en trois mois un palais somptueux en plein désert. Si elle y parvient, celui‐ci devra concéder publiquement que le peuple égyptien est le plus grand de tous les peuples. Pour ce faire, Cléopâtre fait appel à Numérobis, un architecte d’avant‐garde plein d’énergie. S’il réussit, elle le couvrira d’or. S’il échoue, elle le jettera aux crocodiles. Celui‐ci, conscient du défi à relever, cherche de l’aide auprès de son vieil ami Panoramix. Le druide fait le voyage en Égypte avec Astérix et Obélix. De son côté, Amonbofis, l’architecte officiel de Cléopâtre, jaloux que la reine ait choisi Numérobis pour construire le palais, va tout mettre en œuvre pour faire échouer son concurrent.",
-            "collectionId": 2396,
-            "collectionNom": "Astérix & Obélix - Saga",
-            "collectionDescription": "L’univers d’Astérix prend vie sur grand écran ! Adaptations fidèles et pleines d’humour, les live action réunissent des acteurs talentueux, des décors spectaculaires et des aventures inoubliables. Entre batailles épiques contre les Romains et quêtes hilarantes, plongez dans l’énergie et la magie des aventures gauloises comme vous ne les avez jamais vues !",
-            "collectionImage": "https://image.tmdb.org/t/p/w500/lF0VfeCBPWbulAFW0KcISgPquuJ.jpg",
-            "collectionTmdbUrl": "https://www.themoviedb.org/collection/2396",
+            "collectionId": null,
+            "collectionNom": null,
             "technique": {
                 "largeur": 716,
                 "hauteur": 304,
@@ -5167,15 +4998,15 @@
             "titre": "Basic",
             "annee": null,
             "langue": [
-                "TBD"
+                "VF"
             ],
             "taille": 730701824,
             "genre": [
                 "Policier"
             ],
             "image": "https://image.tmdb.org/t/p/w342/2YEHLUIzKsqezQTRPxdojRBAQ3I.jpg",
-            "fichier": "/Box_Films/Policier/Basic.avi",
-            "nomFichier": "Basic.avi",
+            "fichier": "/Box_Films/Policier/Basic_2003_VF.avi",
+            "nomFichier": "Basic_2003_VF.avi",
             "imdbId": null,
             "tmdbId": 10782,
             "tmdbUrl": "https://www.themoviedb.org/movie/10782",
@@ -5224,7 +5055,10 @@
             },
             "titreOriginal": "Basic",
             "langueOriginale": "en",
-            "fichierNormalise": "Basic_2003_TBD.avi"
+            "fichierNormalise": "Basic_2003_TBD.avi",
+            "languesAudio": [
+                "FR"
+            ]
         },
         {
             "id": "batman_begins_multi_truefrench_2005",
@@ -8649,6 +8483,126 @@
             "fichierNormalise": "2012_Clochette et le secret des fées_VF.avi"
         },
         {
+            "id": "coach_carter_me7alh_2005",
+            "titre": "Coach Carter Me7alh",
+            "annee": 2005,
+            "langue": [
+                "VO",
+                "VOST"
+            ],
+            "taille": 2833275816,
+            "genre": [
+                "Biopic"
+            ],
+            "image": "https://image.tmdb.org/t/p/w342/8wbwNiKyostoqs0DLx0dqBhlDvy.jpg",
+            "fichier": "/Box_Films/Biopic/Coach Carter_2005_VO_VOST.mkv",
+            "nomFichier": "Coach Carter_2005_VO_VOST.mkv",
+            "imdbId": null,
+            "tmdbId": 7214,
+            "tmdbUrl": "https://www.themoviedb.org/movie/7214",
+            "doublonExact": false,
+            "doublonProbable": false,
+            "groupeDoublon": null,
+            "dateAjout": "2026-11-21T07:53:29.983Z",
+            "technique": {
+                "largeur": 1916,
+                "hauteur": 804,
+                "resolution": "1916x804",
+                "ratioImage": 2.383,
+                "codecVideo": "hevc",
+                "profilVideo": "Main 10",
+                "pixelFormat": "yuv420p10le",
+                "bitsParComposante": null,
+                "bitrateVideo": null,
+                "framerate": 23.976,
+                "espaceCouleur": null,
+                "transfertCouleur": null,
+                "primairesCouleur": null,
+                "hdr": false,
+                "dureeFichier": 8180.107,
+                "bitrateGlobal": 2770893,
+                "formatConteneur": "matroska,webm",
+                "audio": [
+                    {
+                        "codec": "ac3",
+                        "profil": null,
+                        "canaux": 2,
+                        "disposition": "stereo",
+                        "bitrate": 256000,
+                        "frequence": 48000,
+                        "langue": "ita"
+                    },
+                    {
+                        "codec": "ac3",
+                        "profil": null,
+                        "canaux": 2,
+                        "disposition": "stereo",
+                        "bitrate": 256000,
+                        "frequence": 48000,
+                        "langue": "eng"
+                    },
+                    {
+                        "codec": "ac3",
+                        "profil": null,
+                        "canaux": 2,
+                        "disposition": "stereo",
+                        "bitrate": 256000,
+                        "frequence": 48000,
+                        "langue": "spa"
+                    }
+                ],
+                "sousTitres": [
+                    {
+                        "codec": "subrip",
+                        "langue": "ita",
+                        "titre": "Forced"
+                    },
+                    {
+                        "codec": "subrip",
+                        "langue": "ita",
+                        "titre": null
+                    },
+                    {
+                        "codec": "subrip",
+                        "langue": "eng",
+                        "titre": "Forced"
+                    },
+                    {
+                        "codec": "subrip",
+                        "langue": "eng",
+                        "titre": null
+                    },
+                    {
+                        "codec": "subrip",
+                        "langue": "spa",
+                        "titre": "Forced"
+                    },
+                    {
+                        "codec": "subrip",
+                        "langue": "spa",
+                        "titre": null
+                    }
+                ]
+            },
+            "fichierNormalise": "Coach Carter Me7alh_2005_TBD.mkv",
+            "titreTmdb": "Coach Carter",
+            "titreOriginal": "Coach Carter",
+            "langueOriginale": "en",
+            "anneeTmdb": "2005",
+            "dureeTmdb": 137,
+            "descriptionTmdb": "L'histoire vraie de Ken Carter, l'entraîneur de basket d'une équipe de lycée, qui devint célèbre en 1999 après avoir renvoyé ses joueurs à leurs chères études, déclarant forfait deux matchs de suite alors que l'équipe était invaincue, parce que ces derniers n'avaient pas obtenu des résultats scolaires suffisants.",
+            "collectionId": null,
+            "collectionNom": null,
+            "collectionDescription": null,
+            "collectionImage": null,
+            "collectionTmdbUrl": null,
+            "languesAudio": [
+                "EN"
+            ],
+            "type": "Film",
+            "studio": null
+        },
+        {
             "id": "coco_2017",
             "titre": "Coco",
             "annee": 2017,
@@ -10315,15 +10269,16 @@
             "titre": "Die Hard 2 Die Harder Bruce Willis Action",
             "annee": 1990,
             "langue": [
-                "TBD"
+                "VO",
+                "VOST"
             ],
             "taille": 2168278501,
             "genre": [
                 "Action"
             ],
             "image": "https://image.tmdb.org/t/p/w342/1gphGfZKKnxEVJRLYT9VyyDaOaV.jpg",
-            "fichier": "/Box_Films/Action/Die Hard/02 Die Hard 2 Die Harder - Bruce Willis Action 1990 Eng Subs 1080p .mp4",
-            "nomFichier": "02 Die Hard 2 Die Harder - Bruce Willis Action 1990 Eng Subs 1080p .mp4",
+            "fichier": "/Box_Films/Action/Die Hard/1990_58 minutes pour vivre_VO_VOST.mp4",
+            "nomFichier": "1990_58 minutes pour vivre_VO_VOST.mp4",
             "imdbId": null,
             "tmdbId": 1573,
             "tmdbUrl": "https://www.themoviedb.org/movie/1573",
@@ -10382,7 +10337,10 @@
             "langueOriginale": "en",
             "type": "Film",
             "studio": null,
-            "fichierNormalise": "1990_58 minutes pour vivre_TBD.mp4"
+            "fichierNormalise": "1990_58 minutes pour vivre_TBD.mp4",
+            "languesAudio": [
+                "EN"
+            ]
         },
         {
             "id": "die_hard_5_1_1988",
@@ -11551,15 +11509,15 @@
             "titre": "Ecrire pour exister",
             "annee": null,
             "langue": [
-                "TBD"
+                "VF"
             ],
             "taille": 731727872,
             "genre": [
                 "Biopic"
             ],
             "image": "https://image.tmdb.org/t/p/w342/1HaYZGlHmQxuBjUngTCO6U32Drc.jpg",
-            "fichier": "/Box_Films/Drame/Ecrire pour exister - DR.avi",
-            "nomFichier": "Ecrire pour exister - DR.avi",
+            "fichier": "/Box_Films/Biopic/Écrire pour exister_2007_VF.avi",
+            "nomFichier": "Écrire pour exister_2007_VF.avi",
             "imdbId": null,
             "tmdbId": 1646,
             "tmdbUrl": "https://www.themoviedb.org/movie/1646",
@@ -11608,7 +11566,10 @@
             },
             "titreOriginal": "Freedom Writers",
             "langueOriginale": "en",
-            "fichierNormalise": "Écrire pour exister_2007_TBD.avi"
+            "fichierNormalise": "Écrire pour exister_2007_TBD.avi",
+            "languesAudio": [
+                "FR"
+            ]
         },
         {
             "id": "edge_of_tomorrow_2014",
@@ -12389,74 +12350,6 @@
         },
         {
             "id": "ernest_et_celestine_voyage_charabie_ulysse_2022",
-            "titre": "ernest et celestine voyage charabie ulysse",
-            "annee": 2022,
-            "langue": [
-                "VF"
-            ],
-            "taille": 438458425,
-            "genre": [
-                "Aventure"
-            ],
-            "image": "https://image.tmdb.org/t/p/w342/e2C0ElYfdvuGylhyCHbY2VzqFHY.jpg",
-            "fichier": "/Box_Films/- Nouveaux/ernest.et.celestine.le.voyage.en.charabie.2022.french.bdrip.x264-ulysse.mkv",
-            "nomFichier": "ernest.et.celestine.le.voyage.en.charabie.2022.french.bdrip.x264-ulysse.mkv",
-            "imdbId": null,
-            "tmdbId": 947219,
-            "tmdbUrl": "https://www.themoviedb.org/movie/947219",
-            "doublonExact": false,
-            "doublonProbable": true,
-            "groupeDoublon": "ernest_et_celestine_voyage_charabie_ulysse",
-            "dateAjout": "2026-11-06T19:39:20.776Z",
-            "titreTmdb": "Ernest et Célestine : Le Voyage en Charabie",
-            "anneeTmdb": "2022",
-            "dureeTmdb": 80,
-            "descriptionTmdb": "Ernest et Célestine retournent au pays d’Ernest, la Charabie, pour faire réparer son précieux violon cassé. Ils découvrent alors que la musique est bannie dans tout le pays depuis plusieurs années. Pour nos deux héros, il est impensable de vivre sans musique ! Accompagnés de complices, dont un mystérieux justicier masqué, Ernest et Célestine vont tenter de réparer cette injustice afin de ramener la joie au pays des ours.",
-            "collectionId": 989657,
-            "collectionNom": "Ernest & Célestine - Saga",
-            "collectionDescription": null,
-            "collectionImage": "https://image.tmdb.org/t/p/w500/jmAErbJ777sNlEiFpdd6oglsBhg.jpg",
-            "collectionTmdbUrl": "https://www.themoviedb.org/collection/989657",
-            "technique": {
-                "largeur": 720,
-                "hauteur": 388,
-                "resolution": "720x388",
-                "ratioImage": 1.856,
-                "codecVideo": "h264",
-                "profilVideo": "High",
-                "pixelFormat": "yuv420p",
-                "bitsParComposante": 8,
-                "bitrateVideo": null,
-                "framerate": 24,
-                "espaceCouleur": "bt709",
-                "transfertCouleur": null,
-                "primairesCouleur": null,
-                "hdr": false,
-                "dureeFichier": 4823.988,
-                "bitrateGlobal": 727130,
-                "formatConteneur": "matroska,webm",
-                "audio": [
-                    {
-                        "codec": "aac",
-                        "profil": "LC",
-                        "canaux": 2,
-                        "disposition": "stereo",
-                        "bitrate": null,
-                        "frequence": 48000,
-                        "langue": "fre"
-                    }
-                ],
-                "sousTitres": []
-            },
-            "ignoreInCollection": false,
-            "titreOriginal": "Ernest et Célestine : Le Voyage en Charabie",
-            "langueOriginale": "fr",
-            "type": "Animation",
-            "studio": null,
-            "fichierNormalise": "2022_Ernest et Célestine Le Voyage en Charabie_VF.mkv"
-        },
-        {
-            "id": "ernest_et_celestine_voyage_charabie_ulysse_2022",
             "titre": "Ernest et Celestine Voyage Charabie Ulysse",
             "annee": 2022,
             "langue": [
@@ -12467,14 +12360,14 @@
                 "Aventure"
             ],
             "image": "https://image.tmdb.org/t/p/w342/e2C0ElYfdvuGylhyCHbY2VzqFHY.jpg",
-            "fichier": "/Box_Films/- Nouveaux/Ernest.et.Celestine.Le.Voyage.en.Charabie.2022.FRENCH.720p.BluRay.x264-Ulysse.mkv",
-            "nomFichier": "Ernest.et.Celestine.Le.Voyage.en.Charabie.2022.FRENCH.720p.BluRay.x264-Ulysse.mkv",
+            "fichier": "/Box_Films/Aventure/Ernest & Célestine/2022_Ernest et Célestine Le Voyage en Charabie_VF.mkv",
+            "nomFichier": "2022_Ernest et Célestine Le Voyage en Charabie_VF.mkv",
             "imdbId": null,
             "tmdbId": 947219,
             "tmdbUrl": "https://www.themoviedb.org/movie/947219",
             "doublonExact": false,
-            "doublonProbable": true,
-            "groupeDoublon": "ernest_et_celestine_voyage_charabie_ulysse",
+            "doublonProbable": false,
+            "groupeDoublon": null,
             "dateAjout": "2026-11-06T19:39:20.776Z",
             "titreTmdb": "Ernest et Célestine : Le Voyage en Charabie",
             "anneeTmdb": "2022",
@@ -13256,8 +13149,8 @@
             "tmdbId": 13804,
             "tmdbUrl": "https://www.themoviedb.org/movie/13804",
             "doublonExact": false,
-            "doublonProbable": true,
-            "groupeDoublon": "fast_and_furious_4",
+            "doublonProbable": false,
+            "groupeDoublon": null,
             "dateAjout": "2026-08-22T08:23:33.505Z",
             "titreTmdb": "Fast & Furious 4",
             "anneeTmdb": "2009",
@@ -14279,6 +14172,80 @@
                 "EN"
             ],
             "fichierNormalise": "Free Guy_2021_VO_VF_VOST_VOSTFR.mkv"
+        },
+        {
+            "id": "freedom_writers_2007",
+            "titre": "Freedom Writers",
+            "annee": 2007,
+            "langue": [
+                "VO",
+                "VOST"
+            ],
+            "taille": 1773931309,
+            "genre": [
+                "Biopic"
+            ],
+            "image": "https://image.tmdb.org/t/p/w342/1HaYZGlHmQxuBjUngTCO6U32Drc.jpg",
+            "fichier": "/Box_Films/Biopic/Écrire pour exister_2007_VO_VOST.mp4",
+            "nomFichier": "Écrire pour exister_2007_VO_VOST.mp4",
+            "imdbId": null,
+            "tmdbId": 1646,
+            "tmdbUrl": "https://www.themoviedb.org/movie/1646",
+            "doublonExact": false,
+            "doublonProbable": false,
+            "groupeDoublon": null,
+            "dateAjout": "2026-11-21T09:58:25.507Z",
+            "technique": {
+                "largeur": 1920,
+                "hauteur": 1072,
+                "resolution": "1920x1072",
+                "ratioImage": 1.791,
+                "codecVideo": "h264",
+                "profilVideo": "High",
+                "pixelFormat": "yuv420p",
+                "bitsParComposante": 8,
+                "bitrateVideo": 1823679,
+                "framerate": 23.976,
+                "espaceCouleur": null,
+                "transfertCouleur": null,
+                "primairesCouleur": null,
+                "hdr": false,
+                "dureeFichier": 7377.386667,
+                "bitrateGlobal": 1923641,
+                "formatConteneur": "mov,mp4,m4a,3gp,3g2,mj2",
+                "audio": [
+                    {
+                        "codec": "aac",
+                        "profil": "LC",
+                        "canaux": 2,
+                        "disposition": "stereo",
+                        "bitrate": 95857,
+                        "frequence": 48000,
+                        "langue": "und"
+                    }
+                ],
+                "sousTitres": []
+            },
+            "fichierNormalise": "Freedom Writers_2007_TBD.mp4",
+            "titreTmdb": "Écrire pour exister",
+            "titreOriginal": "Freedom Writers",
+            "langueOriginale": "en",
+            "anneeTmdb": "2007",
+            "dureeTmdb": 124,
+            "descriptionTmdb": "Erin Gruwell, enseignante novice de 23 ans, a choisi comme premier poste un lycée difficile de Long Beach. Ses élèves l'ignorent superbement et se regroupent en clans, prêts à s'affronter au moindre prétexte. L'ambiance empire au fil des jours, en dépit des efforts sincères et maladroits d'Erin pour prendre en main cette classe d'«irrécupérables». Un incident mineur met finalement le feu aux poudres, donnant du même coup à Erin l'occasion d'ouvrir le dialogue avec les jeunes. Avec tact et humour, en évitant d'instinct le piège du paternalisme, Erin parvient à instaurer avec la classe un vrai rapport de confiance.",
+            "collectionId": null,
+            "collectionNom": null,
+            "collectionDescription": null,
+            "collectionImage": null,
+            "collectionTmdbUrl": null,
+            "type": null,
+            "studio": null,
+            "languesAudio": [
+                "EN"
+            ],
+            "languesSousTitres": [
+                "EN"
+            ]
         },
         {
             "id": "frequence_interdite",
@@ -17962,7 +17929,7 @@
                 "Comédie musicale"
             ],
             "image": "https://image.tmdb.org/t/p/w342/w7aTfx7hSr4aK7Q7pvL8HczoxDh.jpg",
-            "fichier": "/Box_Films/Comédie musicale/Honey/2011_Honey 2 Dance Battle_VF.avi",
+            "fichier": "/Box_Films/Comédie Musicale/Honey/2011_Honey 2 Dance Battle_VF.avi",
             "nomFichier": "2011_Honey 2 Dance Battle_VF.avi",
             "imdbId": null,
             "tmdbId": 63710,
@@ -18027,7 +17994,7 @@
                 "Comédie musicale"
             ],
             "image": "https://image.tmdb.org/t/p/w342/w7aTfx7hSr4aK7Q7pvL8HczoxDh.jpg",
-            "fichier": "/Box_Films/Comédie musicale/Honey/2011_Honey 2 Dance Battle_VO.avi",
+            "fichier": "/Box_Films/Comédie Musicale/Honey/2011_Honey 2 Dance Battle_VO.avi",
             "nomFichier": "2011_Honey 2 Dance Battle_VO.avi",
             "imdbId": null,
             "tmdbId": 63710,
@@ -18094,7 +18061,7 @@
                 "Comédie musicale"
             ],
             "image": "https://image.tmdb.org/t/p/w342/m4K7iMnPRL6wGpwrGuFtCFv8h3M.jpg",
-            "fichier": "/Box_Films/Comédie musicale/Honey/2016_Honey 3 Dare to Dance_VF.avi",
+            "fichier": "/Box_Films/Comédie Musicale/Honey/2016_Honey 3 Dare to Dance_VF.avi",
             "nomFichier": "2016_Honey 3 Dare to Dance_VF.avi",
             "imdbId": null,
             "tmdbId": 412519,
@@ -18162,7 +18129,7 @@
                 "Comédie musicale"
             ],
             "image": "https://image.tmdb.org/t/p/w342/gzxUNGk79dHk2mUb5HrhvooHScV.jpg",
-            "fichier": "/Box_Films/Comédie musicale/Honey/2018_Honey Rise Up and Dance_VF.avi",
+            "fichier": "/Box_Films/Comédie Musicale/Honey/2018_Honey Rise Up and Dance_VF.avi",
             "nomFichier": "2018_Honey Rise Up and Dance_VF.avi",
             "imdbId": null,
             "tmdbId": 515114,
@@ -18833,8 +18800,8 @@
                 "Action"
             ],
             "image": "https://image.tmdb.org/t/p/w342/Apish2YD3QIAepzxZ96VLkqEZo3.jpg",
-            "fichier": "/Box_Films/- Nouveaux/Incredibles.2.2018.TRUEFRENCH.BDRip.XviD-T911.avi",
-            "nomFichier": "Incredibles.2.2018.TRUEFRENCH.BDRip.XviD-T911.avi",
+            "fichier": "/Box_Films/Action/Les Indestructibles/2018_Les Indestructibles 2_VF.avi",
+            "nomFichier": "2018_Les Indestructibles 2_VF.avi",
             "imdbId": null,
             "tmdbId": 260513,
             "tmdbUrl": "https://www.themoviedb.org/movie/260513",
@@ -24266,6 +24233,36 @@
             "studio": null,
             "ignoreInCollection": false,
             "langueOriginale": "en"
+        },
+        {
+            "id": "tmdb_1777575",
+            "titre": "Le Noël d'Ernest et Célestine",
+            "annee": 2026,
+            "langue": [
+                "TBD"
+            ],
+            "taille": 0,
+            "genre": [
+                "Comédie"
+            ],
+            "image": "https://image.tmdb.org/t/p/w342/7MkyPjYtscKP5oxPVZT6XjZJU99.jpg",
+            "fichier": null,
+            "nomFichier": null,
+            "tmdbId": 1777575,
+            "tmdbUrl": "https://www.themoviedb.org/movie/1777575",
+            "doublonExact": false,
+            "doublonProbable": false,
+            "groupeDoublon": null,
+            "dateAjout": null,
+            "titreTmdb": "Le Noël d'Ernest et Célestine",
+            "titreOriginal": "Le Noël d'Ernest et Célestine",
+            "anneeTmdb": 2026,
+            "descriptionTmdb": "La vie d’Ernest et Célestine est toujours pleine de surprises et de fantaisie : cuisiner de délicieuses charabiettes au miel, chercher le cadeau parfait ou encore préparer un spectacle de patinage… les deux complices ne s’ennuient jamais. Et au moment de préparer Noël, tout devient encore plus palpitant ! Avec Ernest et Célestine, Noël est une célébration pleine de poésie, de douceur et de tendresse !",
+            "collectionId": 989657,
+            "collectionNom": "Ernest & Célestine - Saga",
+            "type": "Animation",
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "tmdb_400650",
@@ -29804,8 +29801,8 @@
                 "Aventure"
             ],
             "image": "https://image.tmdb.org/t/p/w342/zdVxpaoQdpheQqWWd6b82eY9Pid.jpg",
-            "fichier": "/Box_Films/- Nouveaux/Moana.2.2024.French.WEBRIP.mp4",
-            "nomFichier": "Moana.2.2024.French.WEBRIP.mp4",
+            "fichier": "/Box_Films/Aventure/Vaiana/2024_Vaiana 2_VF.mp4",
+            "nomFichier": "2024_Vaiana 2_VF.mp4",
             "imdbId": null,
             "tmdbId": 1241982,
             "tmdbUrl": "https://www.themoviedb.org/movie/1241982",
@@ -33662,8 +33659,8 @@
                 "Comédie musicale"
             ],
             "image": "https://image.tmdb.org/t/p/w342/7eBLd6LkxrN8MJ0wdg3xeCU2HFL.jpg",
-            "fichier": "/Box_Films/- Nouveaux/La.Reine.Des.Neiges.Une.Fête.Givrée.2015.TRUEFRENCH.1080p.HD.x264-NoTag.mkv",
-            "nomFichier": "La.Reine.Des.Neiges.Une.Fête.Givrée.2015.TRUEFRENCH.1080p.HD.x264-NoTag.mkv",
+            "fichier": "/Box_Films/Comédie Musicale/La Reine des Neiges Une fête givrée_2015_VF.mkv",
+            "nomFichier": "La Reine des Neiges Une fête givrée_2015_VF.mkv",
             "imdbId": null,
             "tmdbId": 326359,
             "tmdbUrl": "https://www.themoviedb.org/movie/326359",
@@ -33715,7 +33712,10 @@
             },
             "titreOriginal": "Frozen Fever",
             "langueOriginale": "en",
-            "fichierNormalise": "La Reine des Neiges Une fête givrée_2015_VF.mkv"
+            "fichierNormalise": "La Reine des Neiges Une fête givrée_2015_VF.mkv",
+            "languesAudio": [
+                "FR"
+            ]
         },
         {
             "id": "la_reine_des_neiges",
@@ -37523,8 +37523,8 @@
                 "Comédie musicale"
             ],
             "image": "https://image.tmdb.org/t/p/w342/ttwEygvi7j1TNhDTvfBROEHtHEY.jpg",
-            "fichier": "/Box_Films/Comédie Musicale/Steppin 2 - VF.avi",
-            "nomFichier": "Steppin 2 - VF.avi",
+            "fichier": "/Box_Films/Comédie musicale/Steppin'/2010_Steppin' 2_VF.avi",
+            "nomFichier": "2010_Steppin' 2_VF.avi",
             "imdbId": null,
             "tmdbId": 33473,
             "tmdbUrl": "https://www.themoviedb.org/movie/33473",
@@ -37744,6 +37744,36 @@
             "titreOriginal": "Storks",
             "langueOriginale": "en",
             "fichierNormalise": "Cigognes et compagnie_2016_VF.avi"
+        },
+        {
+            "id": "tmdb_85373",
+            "titre": "StreetDance 2",
+            "annee": 2012,
+            "langue": [
+                "TBD"
+            ],
+            "taille": 0,
+            "genre": [
+                "Comédie musicale"
+            ],
+            "image": "https://image.tmdb.org/t/p/w342/bwg8qnQKAbT3EJubK8qyWfi9hTl.jpg",
+            "fichier": null,
+            "nomFichier": null,
+            "tmdbId": 85373,
+            "tmdbUrl": "https://www.themoviedb.org/movie/85373",
+            "doublonExact": false,
+            "doublonProbable": false,
+            "groupeDoublon": null,
+            "dateAjout": null,
+            "titreTmdb": "StreetDance 2",
+            "titreOriginal": "StreetDance 2",
+            "anneeTmdb": 2012,
+            "descriptionTmdb": "Ash, un street dancer exceptionnel, se fait humilier à Paris par l'une des meilleures équipes américaines, les Invincibles. Bien décidé à ne pas rester sur cet échec cuisant, il se met en tête de réunir les meilleurs danseurs d'Europe. Parcourant les pays, l'équipe s'enrichit de personnalités et de styles tous plus surprenants les uns que les autres. Lorsque Ash rencontre une sublime danseuse de salsa, son projet prend encore une nouvelle dimension. Emporté par la passion, Ash va découvrir la troublante puissance d'une danse « à deux »...",
+            "collectionId": 206559,
+            "collectionNom": "StreetDance - Saga",
+            "type": "Film",
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "sunday_school_musical",
@@ -39231,15 +39261,17 @@
             "annee": 2025,
             "langue": [
                 "VO",
-                "VF"
+                "VF",
+                "VOSTFR",
+                "VOST"
             ],
             "taille": 1344536007,
             "genre": [
                 "Action"
             ],
             "image": "https://image.tmdb.org/t/p/w342/1heUoLYAHVAKn0ehIF9ASOg2jUv.jpg",
-            "fichier": "/Box_Films/- Nouveaux/The.Bad.Guys.2.2025.Multi.WEBRIP.mp4",
-            "nomFichier": "The.Bad.Guys.2.2025.Multi.WEBRIP.mp4",
+            "fichier": "/Box_Films/Action/Les Bad Guys/2025_Les Bad Guys 2_VO_VF_VOST_VOSTFR.mp4",
+            "nomFichier": "2025_Les Bad Guys 2_VO_VF_VOST_VOSTFR.mp4",
             "imdbId": null,
             "tmdbId": 1175942,
             "tmdbUrl": "https://www.themoviedb.org/movie/1175942",
@@ -39317,7 +39349,11 @@
             "langueOriginale": "en",
             "type": "Animation",
             "studio": null,
-            "fichierNormalise": "2025_Les Bad Guys 2_VO_VF.mp4"
+            "fichierNormalise": "2025_Les Bad Guys 2_VO_VF.mp4",
+            "languesSousTitres": [
+                "EN",
+                "FR"
+            ]
         },
         {
             "id": "bang_bang_club",
@@ -41249,6 +41285,76 @@
             "fichierNormalise": "Into the Wild_2007_TBD.avi"
         },
         {
+            "id": "the_yard_2_homecoming_2010",
+            "titre": "The Yard 2 Homecoming",
+            "annee": 2010,
+            "langue": [
+                "VO"
+            ],
+            "taille": 1393597867,
+            "genre": [
+                "Comédie musicale"
+            ],
+            "image": "https://image.tmdb.org/t/p/w342/ttwEygvi7j1TNhDTvfBROEHtHEY.jpg",
+            "fichier": "/Box_Films/Comédie musicale/Steppin'/2010_Steppin' 2_VO.mp4",
+            "nomFichier": "2010_Steppin' 2_VO.mp4",
+            "imdbId": null,
+            "tmdbId": 33473,
+            "tmdbUrl": "https://www.themoviedb.org/movie/33473",
+            "doublonExact": false,
+            "doublonProbable": false,
+            "groupeDoublon": null,
+            "dateAjout": "2026-11-21T07:53:30.962Z",
+            "technique": {
+                "largeur": 1920,
+                "hauteur": 1080,
+                "resolution": "1920x1080",
+                "ratioImage": 1.778,
+                "codecVideo": "h264",
+                "profilVideo": "High",
+                "pixelFormat": "yuv420p",
+                "bitsParComposante": 8,
+                "bitrateVideo": 2019197,
+                "framerate": 23.976,
+                "espaceCouleur": null,
+                "transfertCouleur": null,
+                "primairesCouleur": null,
+                "hdr": false,
+                "dureeFichier": 5262.314667,
+                "bitrateGlobal": 2118608,
+                "formatConteneur": "mov,mp4,m4a,3gp,3g2,mj2",
+                "audio": [
+                    {
+                        "codec": "aac",
+                        "profil": "LC",
+                        "canaux": 2,
+                        "disposition": "stereo",
+                        "bitrate": 95964,
+                        "frequence": 48000,
+                        "langue": "eng"
+                    }
+                ],
+                "sousTitres": []
+            },
+            "fichierNormalise": "The Yard 2 Homecoming_2010_TBD.mp4",
+            "titreTmdb": "Steppin' 2",
+            "titreOriginal": "Stomp the Yard 2: Homecoming",
+            "langueOriginale": "en",
+            "anneeTmdb": "2010",
+            "dureeTmdb": 84,
+            "descriptionTmdb": "Le compte à rebours pour les championnats nationaux de stepping a commencé et les rivalités au sein de la Truth University vont bon train. La fraternité Theta Nu Theta compte sur son nouvel arrivant, Chance Harris, pour les mener à la victoire, mais ce dernier est trop préoccupé par ses propres problèmes...",
+            "collectionId": 160727,
+            "collectionNom": "Steppin' - Saga",
+            "collectionDescription": "DJ, un incroyable danseur de rue underground, n’est pas allé à l’université depuis le jour  où il est fasciné par la charmante April. Travaillant comme jardinier pour payer les factures, DJ ne s’intègre pas aux étudiants les plus riches du campus, mais une chose attire son attention : les compétitions de fraternité rivales connues sous le nom de « stepping ». Avec l’aide d’April, DJ découvre l’héritage des fraternités et décide de les rejoindre. Faisant désormais partie d’un groupe de step officiel, DJ doit concilier les répétitions, le travail et l’école, tout en gagnant le cœur de la fille de ses rêves.",
+            "collectionImage": "https://image.tmdb.org/t/p/w500/2qAqDHlxVS4wOf1Z8mBGpTgp7PB.jpg",
+            "collectionTmdbUrl": "https://www.themoviedb.org/collection/160727",
+            "languesAudio": [
+                "EN"
+            ],
+            "type": null,
+            "studio": null
+        },
+        {
             "id": "thor_love_and_thunder_2022",
             "titre": "Thor Love and Thunder ( )",
             "annee": 2022,
@@ -41388,15 +41494,15 @@
             "titre": "Tinker Bell",
             "annee": 2008,
             "langue": [
-                "TBD"
+                "VO"
             ],
             "taille": 629138849,
             "genre": [
                 "Aventure"
             ],
             "image": "https://image.tmdb.org/t/p/w342/pipDbSUyH0xABjlKJyPaPSJ1N1I.jpg",
-            "fichier": "/Box_Films/- Nouveaux/Tinker.Bell.2008.720p.BRrip.x264.GAZ.YIFY.mp4",
-            "nomFichier": "Tinker.Bell.2008.720p.BRrip.x264.GAZ.YIFY.mp4",
+            "fichier": "/Box_Films/Aventure/Fée Clochette/2008_La Fée Clochette_VO.mp4",
+            "nomFichier": "2008_La Fée Clochette_VO.mp4",
             "imdbId": null,
             "tmdbId": 13179,
             "tmdbUrl": "https://www.themoviedb.org/movie/13179",
@@ -41414,7 +41520,7 @@
             "collectionImage": "https://image.tmdb.org/t/p/w500/mEbblIsTckiyDcBXk72jPFmOrXz.jpg",
             "collectionTmdbUrl": "https://www.themoviedb.org/collection/315595",
             "type": "Animation",
-            "studio": null,
+            "studio": "Disney",
             "ignoreInCollection": false,
             "technique": {
                 "largeur": 1280,
@@ -41449,7 +41555,10 @@
             },
             "titreOriginal": "Tinker Bell",
             "langueOriginale": "en",
-            "fichierNormalise": "2008_La Fée Clochette_TBD.mp4"
+            "fichierNormalise": "2008_La Fée Clochette_TBD.mp4",
+            "languesAudio": [
+                "EN"
+            ]
         },
         {
             "id": "tinker_bell_and_the_legend_of_the_neverbeast_2014",
@@ -45639,14 +45748,14 @@
                 "Comédie musicale"
             ],
             "image": "https://image.tmdb.org/t/p/w342/uyhYtDOOaNaVtaMl6lwcwWI6mhG.jpg",
-            "fichier": "/Box_Films/Comédie musicale/Street Dancers/2004_Street Dancers_VO.mp4",
+            "fichier": "/Box_Films/Comédie Musicale/Street Dancers/2004_Street Dancers_VO.mp4",
             "nomFichier": "2004_Street Dancers_VO.mp4",
             "imdbId": null,
             "tmdbId": 14114,
             "tmdbUrl": "https://www.themoviedb.org/movie/14114",
             "doublonExact": false,
-            "doublonProbable": true,
-            "groupeDoublon": "you_got_served",
+            "doublonProbable": false,
+            "groupeDoublon": null,
             "dateAjout": "2026-11-17T22:20:51.238Z",
             "technique": {
                 "largeur": 1920,
@@ -45798,66 +45907,6 @@
             "studio": null,
             "ignoreInCollection": false,
             "langueOriginale": "ru"
-        },
-        {
-            "id": "tmdb_85373",
-            "titre": "StreetDance 2",
-            "annee": 2012,
-            "langue": [
-                "TBD"
-            ],
-            "taille": 0,
-            "genre": [
-                "Comédie musicale"
-            ],
-            "image": "https://image.tmdb.org/t/p/w342/bwg8qnQKAbT3EJubK8qyWfi9hTl.jpg",
-            "fichier": null,
-            "nomFichier": null,
-            "tmdbId": 85373,
-            "tmdbUrl": "https://www.themoviedb.org/movie/85373",
-            "doublonExact": false,
-            "doublonProbable": false,
-            "groupeDoublon": null,
-            "dateAjout": null,
-            "titreTmdb": "StreetDance 2",
-            "titreOriginal": "StreetDance 2",
-            "anneeTmdb": 2012,
-            "descriptionTmdb": "Ash, un street dancer exceptionnel, se fait humilier à Paris par l'une des meilleures équipes américaines, les Invincibles. Bien décidé à ne pas rester sur cet échec cuisant, il se met en tête de réunir les meilleurs danseurs d'Europe. Parcourant les pays, l'équipe s'enrichit de personnalités et de styles tous plus surprenants les uns que les autres. Lorsque Ash rencontre une sublime danseuse de salsa, son projet prend encore une nouvelle dimension. Emporté par la passion, Ash va découvrir la troublante puissance d'une danse « à deux »...",
-            "collectionId": 206559,
-            "collectionNom": "StreetDance - Saga",
-            "type": "Film",
-            "studio": null,
-            "ignoreInCollection": false
-        },
-        {
-            "id": "tmdb_1777575",
-            "titre": "Le Noël d'Ernest et Célestine",
-            "annee": 2026,
-            "langue": [
-                "TBD"
-            ],
-            "taille": 0,
-            "genre": [
-                "Comédie"
-            ],
-            "image": "https://image.tmdb.org/t/p/w342/7MkyPjYtscKP5oxPVZT6XjZJU99.jpg",
-            "fichier": null,
-            "nomFichier": null,
-            "tmdbId": 1777575,
-            "tmdbUrl": "https://www.themoviedb.org/movie/1777575",
-            "doublonExact": false,
-            "doublonProbable": false,
-            "groupeDoublon": null,
-            "dateAjout": null,
-            "titreTmdb": "Le Noël d'Ernest et Célestine",
-            "titreOriginal": "Le Noël d'Ernest et Célestine",
-            "anneeTmdb": 2026,
-            "descriptionTmdb": "La vie d’Ernest et Célestine est toujours pleine de surprises et de fantaisie : cuisiner de délicieuses charabiettes au miel, chercher le cadeau parfait ou encore préparer un spectacle de patinage… les deux complices ne s’ennuient jamais. Et au moment de préparer Noël, tout devient encore plus palpitant ! Avec Ernest et Célestine, Noël est une célébration pleine de poésie, de douceur et de tendresse !",
-            "collectionId": 989657,
-            "collectionNom": "Ernest & Célestine - Saga",
-            "type": "Animation",
-            "studio": null,
-            "ignoreInCollection": false
         }
     ],
     "series": [
@@ -65934,12 +65983,12 @@
     "stockage": [
         {
             "lecteur": "Y",
-            "espaceLibre": 393389957120,
+            "espaceLibre": 408453578752,
             "capaciteTotale": 2000396742656
         },
         {
             "lecteur": "Z",
-            "espaceLibre": 95477022720,
+            "espaceLibre": 95476961280,
             "capaciteTotale": 1000169533440
         }
     ]

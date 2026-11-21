@@ -2,6 +2,7 @@ const scanType = process.argv[2] || "all";
 const fs = require("fs");
 const path = require("path");
 const { execFileSync, spawnSync } = require("child_process");
+process.stdout._handle?.setBlocking?.(true);
 const mediathequeRoot = path.join(__dirname, "..");
 const { getNormalizedFilmFileName } = require(
   path.join(mediathequeRoot, "modules", "filmNormalization.js"),
@@ -16,11 +17,6 @@ const languageAliasesPath = path.join(
 );
 
 const jsonCatalogPath = path.join(mediathequeRoot, "data", "catalog.json");
-
-const config = readJson(configPath);
-const ignoreWordsConfig = readJson(ignoreWordsPath);
-const languageAliases = readJson(languageAliasesPath);
-const existingCatalog = readJson(jsonCatalogPath);
 const calculChemins = require(
   path.join(mediaServerDir, "js", "calculChemins.js"),
 );
@@ -34,6 +30,12 @@ const mediaServerPaths = calculChemins.calculatePaths(
     fs,
   },
 );
+
+const config = readJson(configPath);
+const ignoreWordsConfig = readJson(ignoreWordsPath);
+const languageAliases = readJson(languageAliasesPath);
+const existingCatalog = readJson(jsonCatalogPath);
+
 const targetDriveEntry = Object.entries(mediaServerPaths.driveMappings).find(
   ([, drive]) =>
     drive &&

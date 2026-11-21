@@ -154,12 +154,7 @@ function renderFilms() {
     .filter((film) =>
       matchesSearch(film.titreTmdb ? film.titreTmdb : film.titre),
     );
-  if (currentAjouts === "Récents") {
-    films = films.sort(
-      (a, b) =>
-        new Date(b.dateAjout).getTime() - new Date(a.dateAjout).getTime(),
-    );
-  } else if (window.selectedCollectionId) {
+  if (window.selectedCollectionId) {
     films = films.sort((a, b) => {
       const anneeA = a.anneeTmdb || a.annee || 0;
       const anneeB = b.anneeTmdb || b.annee || 0;
@@ -170,6 +165,11 @@ function renderFilms() {
       const titreB = b.titreTmdb || b.titre;
       return titreA.localeCompare(titreB, "fr");
     });
+  } else if (currentAjouts === "Récents") {
+    films = films.sort(
+      (a, b) =>
+        new Date(b.dateAjout).getTime() - new Date(a.dateAjout).getTime(),
+    );
   } else {
     films = films.sort((a, b) =>
       (a.titreTmdb || a.titre).localeCompare(b.titreTmdb || b.titre, "fr"),
