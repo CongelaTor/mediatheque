@@ -175,6 +175,8 @@ function updateFilmMetadataButtons(films) {
     ];
     button.textContent = values[0] || label;
     button.classList.toggle("metadata-error", values.length > 1);
+    button.style.background =
+      id === "filmStudioButton" && values.length === 0 ? "#64748b" : "";
   }
 }
 
@@ -311,38 +313,8 @@ function renderFilmFiles(films) {
 
   panel.appendChild(filesList);
 }
-function getNormalizedFilmFileName(film) {
-  const extensionIndex = film.nomFichier.lastIndexOf(".");
-  const extension =
-    extensionIndex >= 0 ? film.nomFichier.substring(extensionIndex) : "";
-  const title = (film.titreTmdb || film.titre || "")
-    .replace(/[\\/:*?"<>|]/g, " ")
-    .replace(/\s+/g, " ")
-    .trim();
-  const year = film.anneeTmdb || film.annee || "";
-  const languages = formatFilmLanguages(film.langue).replaceAll(" ", "_");
-  const parts =
-    film.collectionNom && !film.ignoreInCollection
-      ? [year, title, languages]
-      : [title, year, languages];
-  return parts.filter(Boolean).join("_") + extension;
-}
-function formatFilmLanguages(languages) {
-  const order = ["VO", "VF", "VOST", "VOSTFR"];
-  const values = Array.isArray(languages)
-    ? [...languages]
-    : [languages || "TBD"];
-  return values
-    .sort((a, b) => {
-      const indexA = order.indexOf(a);
-      const indexB = order.indexOf(b);
-      return (
-        (indexA === -1 ? order.length : indexA) -
-        (indexB === -1 ? order.length : indexB)
-      );
-    })
-    .join(" ");
-}
+const { getNormalizedFilmFileName, formatFilmLanguages } = filmNormalization;
+
 function formatTechnicalCodec(codec) {
   const codecs = {
     h264: "H.264",
@@ -406,15 +378,45 @@ function formatTechnicalDuration(seconds) {
   return `${hours} h ${String(minutes).padStart(2, "0")} min ${String(remainingSeconds).padStart(2, "0")} s`;
 }
 function getTechnicalQualityClass(width) {
-  if (width >= 1920) {
+  if (width >= 1800) {
     return "film-technical-good";
   }
-  if (width >= 960) {
+  if (width >= 900) {
     return "film-technical-medium";
   }
   return "film-technical-low";
 }
-
+function getFilmNormalizationClass(film) {
+  const languages = formatFilmLanguages(film.langue);
+  const audioLanguages = Array.isArray(film.languesAudio)
+    ? film.languesAudio
+    : getTechnicalLanguages(film.technique?.audio);
+  const subtitleLanguages = Array.isArray(film.languesSousTitres)
+    ? film.languesSousTitres
+    : getTechnicalLanguages(film.technique?.sousTitres);
+  if (languages.includes("TBD")) {
+    return "film-technical-low";
+  }
+  const hasFrenchAudio = audioLanguages.includes("FR");
+  const hasOriginalAudio = audioLanguages.some((language) => language !== "FR");
+  if (
+    languages.includes("VO") &&
+    languages.includes("VF") &&
+    hasFrenchAudio &&
+    hasOriginalAudio
+  ) {
+    return "film-technical-good";
+  }
+  return "film-technical-medium";
+}
+function updateFilmNormalizationClass(metadata, film) {
+  metadata.classList.remove(
+    "film-technical-good",
+    "film-technical-medium",
+    "film-technical-low",
+  );
+  metadata.classList.add(getFilmNormalizationClass(film));
+}
 function renderAudioLanguages(audioInfo, audioLanguages, metadata, film) {
   audioInfo.innerHTML = "";
   audioInfo.classList.remove("language-editor");
@@ -488,6 +490,7 @@ function renderAudioLanguageEditor(
     film.langue = result.langue;
     const languages = formatFilmLanguages(film.langue);
     metadata.textContent = `${languages} • ${formatFilmFileSize(film.taille)}`;
+    updateFilmNormalizationClass(metadata, film);
     const imageContainer = document.querySelector(
       "#filmInfoCard .serie-info-image",
     );
@@ -590,6 +593,7 @@ function renderSubtitleLanguageEditor(
     film.langue = result.langue;
     const languages = formatFilmLanguages(film.langue);
     metadata.textContent = `${languages} • ${formatFilmFileSize(film.taille)}`;
+    updateFilmNormalizationClass(metadata, film);
     const films = catalog.films.filter((item) => item.tmdbId === film.tmdbId);
     updateLanguageFilters(films);
     document.removeEventListener("click", closeEditor);
@@ -624,6 +628,7 @@ function createFilmFileCard(film) {
   const metadata = document.createElement("div");
   metadata.className = "film-file-meta";
   metadata.textContent = `${languages} • ${formatFilmFileSize(film.taille)}`;
+  updateFilmNormalizationClass(metadata, film);
 
   const playButton = document.createElement("button");
   playButton.className =
@@ -687,12 +692,6 @@ function createFilmFileCard(film) {
   locationButton.title = "Ouvrir l'emplacement";
   locationButton.onclick = () => openFilmLocation(film);
 
-  // const moveButton = document.createElement("button");
-  // moveButton.className =
-  //   "tmdb-associate-button film-file-action-button linux-hidden mediaserver-only";
-  // moveButton.innerHTML = '<span class="play-icon">↪</span>';
-  // moveButton.title = "Déplacer le fichier";
-
   const moveButton = document.createElement("button");
   moveButton.className =
     "tmdb-associate-button film-file-action-button linux-hidden mediaserver-only";
@@ -710,8 +709,16 @@ function createFilmFileCard(film) {
         <path d="M5 5v14"/>
       </svg>`;
   moveButton.title = "Déplacer le fichier";
-  moveButton.onclick = () => moveFilmFile(film);
-
+  moveButton.onclick = async () => {
+    moveButton.disabled = true;
+    moveButton.style.backgroundColor = "#f9a8d4";
+    try {
+      await moveFilmFile(film, pathInfo);
+    } finally {
+      moveButton.disabled = false;
+      moveButton.style.removeProperty("background-color");
+    }
+  };
   const tmdbButton = document.createElement("button");
   tmdbButton.className =
     "tmdb-associate-button film-file-action-button linux-hidden mediaserver-only";
@@ -778,9 +785,9 @@ function createFilmFileCard(film) {
   technicalVideo.className = `film-technical-video ${getTechnicalQualityClass(technique?.largeur)}`;
   if (technique) {
     const quality =
-      technique.largeur >= 1920
+      technique.largeur >= 1800
         ? "Haute"
-        : technique.largeur >= 960
+        : technique.largeur >= 900
           ? "Moyenne"
           : "Basse";
     technicalVideo.textContent = document.body.classList.contains(
@@ -854,19 +861,31 @@ function createFilmFileCard(film) {
   pathInfo.className = "film-file-folder mediaserver-only";
   pathInfo.textContent = film.fichier;
   const normalizedFileName = getNormalizedFilmFileName(film);
+  const normalizedPathInfo = document.createElement("div");
+  normalizedPathInfo.className = "film-file-folder mediaserver-only";
+  normalizedPathInfo.textContent = normalizedFileName;
+  normalizedPathInfo.hidden = true;
   const normalizedPath = `${getFilmFolder(film.fichier)}/${normalizedFileName || film.nomFichier}`;
-  if (
-    film.fichier.replaceAll("\\", "/") === normalizedPath.replaceAll("\\", "/")
-  ) {
-    pathInfo.style.color = "#22c55e";
-  }
+
+  const isCurrentPathCorrect =
+    film.fichier.replaceAll("\\", "/") === normalizedPath.replaceAll("\\", "/");
+  const hasValidDestination = Array.isArray(film.genre)
+    ? film.genre.length === 1 && Boolean(film.genre[0])
+    : Boolean(film.genre);
+  const hasValidType = Boolean(film.type);
+  pathInfo.style.color = isCurrentPathCorrect ? "#1ec98b" : "#ef4444";
+  moveButton.classList.toggle(
+    "move-available",
+    !isCurrentPathCorrect && hasValidDestination && hasValidType,
+  );
   pathInfo.onclick = () => {
     originalPathInfo.hidden = !originalPathInfo.hidden;
+    normalizedPathInfo.hidden = originalPathInfo.hidden;
   };
   card.appendChild(playbackRow);
   card.appendChild(originalPathInfo);
   card.appendChild(pathInfo);
-
+  card.appendChild(normalizedPathInfo);
   return card;
 }
 function formatFilmFileSize(size) {
@@ -938,54 +957,9 @@ async function openFilmLocation(film) {
   }
 }
 
-async function moveFilmFile(film) {
+async function moveFilmFile(film, pathInfo) {
   console.log("moveFilmFile appelé", film);
   const normalizedFileName = getNormalizedFilmFileName(film);
-  if (film.nomFichier !== normalizedFileName) {
-    const renameResponse = await fetch(
-      "http://localhost:9876/rename-film-file",
-      {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify({
-          fichier: film.fichier,
-          nomFichier: normalizedFileName,
-        }),
-      },
-    );
-    if (!renameResponse.ok) {
-      showToast(await renameResponse.text(), "error", 5000);
-      return;
-    }
-    const renameResult = await renameResponse.json();
-    film.fichier = renameResult.fichier;
-    film.nomFichier = renameResult.nomFichier;
-    film.fichierOriginal = renameResult.fichierOriginal;
-  }
-  const previewResponse = await fetch("http://localhost:9876/move-film-file", {
-    method: "POST",
-    headers: {
-      "Content-Type": "application/json",
-    },
-    body: JSON.stringify({
-      fichier: film.fichier,
-      preview: true,
-    }),
-  });
-  if (!previewResponse.ok) {
-    showToast(await previewResponse.text(), "error");
-    return;
-  }
-
-  const preview = await previewResponse.json();
-  const destinationFolder = preview.destination.substring(
-    0,
-    preview.destination.lastIndexOf("\\"),
-  );
-  // showToast("Déplacement vers ${destinationFolder}", "success", 5000);
-
   const response = await fetch("http://localhost:9876/move-film-file", {
     method: "POST",
     headers: {
@@ -993,6 +967,7 @@ async function moveFilmFile(film) {
     },
     body: JSON.stringify({
       fichier: film.fichier,
+      nomFichier: normalizedFileName,
     }),
   });
   if (!response.ok) {
@@ -1000,12 +975,12 @@ async function moveFilmFile(film) {
     return;
   }
   const result = await response.json();
+  film.fichierOriginal = film.fichierOriginal || film.nomFichier;
   film.fichier = result.fichier;
   film.nomFichier = result.nomFichier;
+  const card = pathInfo.closest(".film-file-card");
+  card.replaceWith(createFilmFileCard(film));
   showToast("Fichier déplacé");
-  setTimeout(() => {
-    window.location.reload();
-  }, 1500);
 }
 
 function requestFilmDownload(film) {
@@ -1038,3 +1013,9 @@ function requestFilmDownload(film) {
   // `&entry.287740096=${pathFichier}`;
   window.open(urlGoogleForm, "_blank");
 }
+
+window.addEventListener("pageshow", (event) => {
+  if (event.persisted) {
+    window.location.reload();
+  }
+});

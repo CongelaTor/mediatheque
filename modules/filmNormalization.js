@@ -31,9 +31,54 @@
         : [title, year, languages];
     return parts.filter(Boolean).join("_") + extension;
   }
+  function sanitizeFolderName(value) {
+    return String(value || "")
+      .replace(/[<>:"/\\|?*]/g, " ")
+      .replace(/\s+/g, " ")
+      .trim()
+      .replace(/[. ]+$/g, "");
+  }
+  function getNormalizedFilmPath(film) {
+    const isMarvel =
+      String(film.studio || "")
+        .trim()
+        .toLowerCase() === "marvel";
+    const filmType = String(film.type || "")
+      .trim()
+      .toLowerCase();
+    const isAnimation = filmType === "animation";
+    const isAnime = filmType === "anime";
+    const genres = Array.isArray(film.genre)
+      ? film.genre.filter(Boolean)
+      : film.genre
+        ? [film.genre]
+        : [];
+    if (!isMarvel && !isAnimation && !isAnime && genres.length !== 1) {
+      return null;
+    }
+    const destinationCategory = isMarvel
+      ? "Marvel"
+      : isAnimation
+        ? "Animation"
+        : isAnime
+          ? "Anime"
+          : sanitizeFolderName(genres[0]);
+    const collectionName = sanitizeFolderName(
+      String(film.collectionNom || "").replace(/\s*-\s*saga\s*$/i, ""),
+    );
+    const filmsRootName = String(film.fichier || "").split("/")[1];
+    if (!filmsRootName || !destinationCategory) {
+      return null;
+    }
+    const fileName = getNormalizedFilmFileName(film);
+    return collectionName
+      ? `/${filmsRootName}/${destinationCategory}/${collectionName}/${fileName}`
+      : `/${filmsRootName}/${destinationCategory}/${fileName}`;
+  }
   const filmNormalization = {
     formatFilmLanguages,
     getNormalizedFilmFileName,
+    getNormalizedFilmPath,
   };
   if (typeof module !== "undefined" && module.exports) {
     module.exports = filmNormalization;

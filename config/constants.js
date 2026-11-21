@@ -439,13 +439,13 @@ function matchesQuality(film) {
   }
   const width = film.technique?.largeur;
   if (currentQuality === "Haute") {
-    return width >= 1920;
+    return width >= 1800;
   }
   if (currentQuality === "Moyenne") {
-    return width >= 960 && width < 1920;
+    return width >= 900 && width < 1800;
   }
   if (currentQuality === "Basse") {
-    return width < 960;
+    return width < 900;
   }
   return true;
 }

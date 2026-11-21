@@ -1301,7 +1301,8 @@ max-width: var(--cadres-max-width);
 }
 .film-technical-low {
     color: #ef4444;
-}.film-file-right-actions {
+}
+.film-file-right-actions {
     margin-left: auto;
     display: flex;
     flex-direction: row;
@@ -1321,6 +1322,9 @@ max-width: var(--cadres-max-width);
 
 .film-file-right-actions .film-file-action-button {
     background: #616A7A;
+}
+.film-file-right-actions .film-file-action-button.move-available {
+    background: linear-gradient(135deg, #243d5a 0%, #294668 45%, #2c4a6e 100%);
 }
 
 .film-link-icon svg {

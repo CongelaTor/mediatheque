@@ -64,9 +64,9 @@ function getFilmBorderClasses(files) {
     const width = file.technique?.largeur;
     if (width !== undefined && width !== null) {
       hasFiles = true;
-      if (width >= 1920) {
+      if (width >= 1800) {
         hasHigh = true;
-      } else if (width >= 960) {
+      } else if (width >= 900) {
         hasMedium = true;
       } else {
         hasLow = true;
