@@ -1,6 +1,6 @@
 {
     "version": 1,
-    "dateDernierScan": "2026-11-21T10:10:08.521Z",
+    "dateDernierScan": "2026-11-21T15:47:05.706Z",
     "collections": [
         {
             "collectionId": 221622,
@@ -865,6 +865,107 @@
         }
     ],
     "films": [
+        {
+            "id": "_1997",
+            "titre": "( )",
+            "annee": 1997,
+            "langue": [
+                "VF"
+            ],
+            "taille": 2428808284,
+            "genre": [
+                "Action"
+            ],
+            "image": "https://image.tmdb.org/t/p/w342/6sHUh1Zvz5QXDJbSvGErfNatwBD.jpg",
+            "fichier": "/Box_Films/Action/James Bond 007/1997_Demain ne meurt jamais_VF.mkv",
+            "nomFichier": "1997_Demain ne meurt jamais_VF.mkv",
+            "imdbId": null,
+            "tmdbId": 714,
+            "tmdbUrl": "https://www.themoviedb.org/movie/714",
+            "doublonExact": false,
+            "doublonProbable": false,
+            "groupeDoublon": null,
+            "dateAjout": "2026-11-21T15:47:03.711Z",
+            "technique": {
+                "largeur": 1920,
+                "hauteur": 820,
+                "resolution": "1920x820",
+                "ratioImage": 2.341,
+                "codecVideo": "h264",
+                "profilVideo": "High",
+                "pixelFormat": "yuv420p",
+                "bitsParComposante": 8,
+                "bitrateVideo": null,
+                "framerate": 23.976,
+                "espaceCouleur": "bt709",
+                "transfertCouleur": "bt709",
+                "primairesCouleur": "bt709",
+                "hdr": false,
+                "dureeFichier": 7160.612,
+                "bitrateGlobal": 2713520,
+                "formatConteneur": "matroska,webm",
+                "audio": [
+                    {
+                        "codec": "ac3",
+                        "profil": null,
+                        "canaux": 6,
+                        "disposition": "5.1(side)",
+                        "bitrate": 384000,
+                        "frequence": 48000,
+                        "langue": "fre"
+                    },
+                    {
+                        "codec": "aac",
+                        "profil": "HE-AAC",
+                        "canaux": 2,
+                        "disposition": "stereo",
+                        "bitrate": null,
+                        "frequence": 48000,
+                        "langue": "fre"
+                    }
+                ],
+                "sousTitres": [
+                    {
+                        "codec": "subrip",
+                        "langue": "fre",
+                        "titre": "Forced"
+                    },
+                    {
+                        "codec": "subrip",
+                        "langue": "fre",
+                        "titre": "Full"
+                    },
+                    {
+                        "codec": "subrip",
+                        "langue": "eng",
+                        "titre": "Full"
+                    }
+                ],
+                "zoneUtile": {
+                    "largeurUtile": 1920,
+                    "hauteurUtile": 816,
+                    "x": 0,
+                    "y": 2
+                }
+            },
+            "fichierNormalise": "( )_1997_TBD.mkv",
+            "titreTmdb": "Demain ne meurt jamais",
+            "titreOriginal": "Tomorrow Never Dies",
+            "langueOriginale": "en",
+            "anneeTmdb": "1997",
+            "dureeTmdb": 115,
+            "descriptionTmdb": "L’agent 007, alias James Bond, a pour mission de localiser l’épave du « Devonshire », une frégate de la Royal Navy, perdue dans les eaux territoriales chinoises. Il doit également retrouver le coupable de l’attentat, un certain Henry Gupta, ancien gauchiste activement recherché par le FBI et, enfin, remonter jusqu’au cerveau de l’opération, Elliot Carver, propriétaire du quotidien « Tomorrow » et patron du plus grand empire médiatique de tous les temps.",
+            "collectionId": 645,
+            "collectionNom": "James Bond 007 - Saga",
+            "collectionDescription": "James Bond, agent 007, autorisé à tuer, est le héros de la plus longue saga cinématographique de tous les temps, au succès sans égal. Armé de son Walther PPK, accompagné des plus jolies filles de la terre et opposé aux plus cyniques des méchants, il a poursuivi le mal aux quatre coins du monde, survécu à la guerre froide et à la chute du mur de Berlin.",
+            "collectionImage": "https://image.tmdb.org/t/p/w500/ammkAiFPUQhqrWAdzNZSXR8VMpy.jpg",
+            "collectionTmdbUrl": "https://www.themoviedb.org/collection/645",
+            "type": "Film",
+            "studio": null,
+            "languesAudio": [
+                "FR"
+            ]
+        },
         {
             "id": "12_rounds_1_2009",
             "titre": "12 Rounds 1",
@@ -3284,7 +3385,9 @@
                 "TBD"
             ],
             "taille": 0,
-            "genre": [],
+            "genre": [
+                "Aventure"
+            ],
             "image": "https://image.tmdb.org/t/p/w342/xdaRZK4PkO1Kb8umran3xf4AaLo.jpg",
             "fichier": null,
             "nomFichier": null,
@@ -5161,7 +5264,7 @@
             "collectionDescription": "La trilogie très acclamée « The Dark Knight » de Christopher Nolan se compose de BATMAN BEGINS, THE DARK KNIGHT et THE DARK KNIGHT RISES. BATMAN BEGINS explore les origines de la légende de Batman et l’émergence du Dark Knight comme puissance au service du bien. Dans THE DARK KNIGHT, Batman s’efforce de démanteler les dernières organisations criminelles qui sévissent à Gotham, mais se retrouve rapidement au centre d’un chaos total orchestré par un nouveau génie du crime, le Joker. Dans THE DARK KNIGHT RISES, Batman a disparu dans la nuit. Le héros est devenu fugitif après avoir été rendu responsable de la mort de Harvey Dent. L’émergence de Bane, un terroriste masqué qui a préparé un plan diabolique pour Gotham, le force à sortir de son exil volontaire. Mais même s’il porte à nouveau le costume, Batman n’est peut être pas de taille face à cette nouvelle menace.",
             "collectionImage": "https://image.tmdb.org/t/p/w500/ee1TdZpvSJ2O1fda2orJvLiJ74R.jpg",
             "collectionTmdbUrl": "https://www.themoviedb.org/collection/263",
-            "type": null,
+            "type": "Film",
             "studio": null,
             "languesAudio": [
                 "EN",
@@ -6006,8 +6109,8 @@
                 "Espionnage"
             ],
             "image": "https://image.tmdb.org/t/p/w342/1ST7phuvQsaAIIkRyAtESZFLMx9.jpg",
-            "fichier": "/Box_Films/cpy/Bond 1 - Casino.Royale.FRENCH.DVDRiP.REPACK.1CD.DivX-SDX.avi",
-            "nomFichier": "Bond 1 - Casino.Royale.FRENCH.DVDRiP.REPACK.1CD.DivX-SDX.avi",
+            "fichier": "/Box_Films/Espionnage/James Bond 007/2006_Casino Royale_VF.avi",
+            "nomFichier": "2006_Casino Royale_VF.avi",
             "imdbId": null,
             "tmdbId": 36557,
             "tmdbUrl": "https://www.themoviedb.org/movie/36557",
@@ -6057,72 +6160,10 @@
             },
             "titreOriginal": "Casino Royale",
             "langueOriginale": "en",
-            "fichierNormalise": "2006_Casino Royale_VF.avi"
-        },
-        {
-            "id": "bond_2_quantum_solace_gks_by_yatta69",
-            "titre": "Bond 2 Quantum Of Solace",
-            "annee": null,
-            "langue": [
-                "TBD"
-            ],
-            "taille": 731160576,
-            "genre": [
-                "Action"
-            ],
-            "image": "https://image.tmdb.org/t/p/w342/bKOyotUkapx8dZ2WOOnuoIEBr7l.jpg",
-            "fichier": "/Box_Films/Action/James Bond/Bond 2 - Quantum Of Solace DVDRiP XviD-GKS By YATTA69.avi",
-            "nomFichier": "Bond 2 - Quantum Of Solace DVDRiP XviD-GKS By YATTA69.avi",
-            "imdbId": null,
-            "tmdbId": 10764,
-            "tmdbUrl": "https://www.themoviedb.org/movie/10764",
-            "doublonExact": false,
-            "doublonProbable": true,
-            "groupeDoublon": "bond_2_quantum_of_solace",
-            "dateAjout": "2026-08-22T08:23:33.520Z",
-            "titreTmdb": "Quantum of Solace",
-            "anneeTmdb": "2008",
-            "dureeTmdb": 107,
-            "descriptionTmdb": "Même s’il lutte pour ne pas faire de sa dernière mission une affaire personnelle, James Bond est décidé à traquer ceux qui ont forcé Vesper à le trahir. En interrogeant Mr White, 007 et M apprennent que l’organisation à laquelle il appartient est bien plus complexe et dangereuse que tout ce qu’ils avaient imaginé… Bond croise alors la route de la belle et pugnace Camille, qui cherche à se venger elle aussi. Elle le conduit sur la piste de Dominic Greene, un homme d’affaires impitoyable et un des piliers de la mystérieuse organisation. Au cours d’une mission qui l’entraîne en Autriche, en Italie et en Amérique du Sud, Bond découvre que Greene manœuvre pour prendre le contrôle de l’une des ressources naturelles les plus importantes au monde en utilisant la puissance de l’organisation, et en manipulant la CIA et le gouvernement britannique…",
-            "collectionId": 645,
-            "collectionNom": "James Bond 007 - Saga",
-            "type": "Film",
-            "studio": null,
-            "ignoreInCollection": false,
-            "technique": {
-                "largeur": 672,
-                "hauteur": 272,
-                "resolution": "672x272",
-                "ratioImage": 2.471,
-                "codecVideo": "mpeg4",
-                "profilVideo": "Advanced Simple Profile",
-                "pixelFormat": "yuv420p",
-                "bitsParComposante": null,
-                "bitrateVideo": 819285,
-                "framerate": 25,
-                "espaceCouleur": null,
-                "transfertCouleur": null,
-                "primairesCouleur": null,
-                "hdr": false,
-                "dureeFichier": 6112.44,
-                "bitrateGlobal": 956947,
-                "formatConteneur": "avi",
-                "audio": [
-                    {
-                        "codec": "mp3",
-                        "profil": null,
-                        "canaux": 2,
-                        "disposition": "stereo",
-                        "bitrate": 128000,
-                        "frequence": 48000,
-                        "langue": null
-                    }
-                ],
-                "sousTitres": []
-            },
-            "titreOriginal": "Quantum of Solace",
-            "langueOriginale": "en",
-            "fichierNormalise": "2008_Quantum of Solace_TBD.avi"
+            "fichierNormalise": "2006_Casino Royale_VF.avi",
+            "languesAudio": [
+                "FR"
+            ]
         },
         {
             "id": "bond_2_quantum_solace_proper_putch",
@@ -6136,14 +6177,14 @@
                 "Action"
             ],
             "image": "https://image.tmdb.org/t/p/w342/bKOyotUkapx8dZ2WOOnuoIEBr7l.jpg",
-            "fichier": "/Box_Films/Action/James Bond/Bond 2 - Quantum.Of.Solace.FRENCH.PROPER.TS.MD.XViD-PUTCH.avi",
-            "nomFichier": "Bond 2 - Quantum.Of.Solace.FRENCH.PROPER.TS.MD.XViD-PUTCH.avi",
+            "fichier": "/Box_Films/Action/James Bond 007/2008_Quantum of Solace_VF.avi",
+            "nomFichier": "2008_Quantum of Solace_VF.avi",
             "imdbId": null,
             "tmdbId": 10764,
             "tmdbUrl": "https://www.themoviedb.org/movie/10764",
             "doublonExact": false,
-            "doublonProbable": true,
-            "groupeDoublon": "bond_2_quantum_of_solace",
+            "doublonProbable": false,
+            "groupeDoublon": null,
             "dateAjout": "2026-08-22T08:23:33.520Z",
             "titreTmdb": "Quantum of Solace",
             "anneeTmdb": "2008",
@@ -6186,136 +6227,10 @@
             },
             "titreOriginal": "Quantum of Solace",
             "langueOriginale": "en",
-            "fichierNormalise": "2008_Quantum of Solace_VF.avi"
-        },
-        {
-            "id": "bond_3_skyfall_cd1",
-            "titre": "Bond 3 Skyfall",
-            "annee": null,
-            "langue": [
-                "TBD"
-            ],
-            "taille": 731920384,
-            "genre": [
-                "Action"
-            ],
-            "image": "https://image.tmdb.org/t/p/w342/nNFECkwmrYoUQ17EnPTcSlRictV.jpg",
-            "fichier": "/Box_Films/Action/James Bond/Bond 3 - Skyfall CD1.avi",
-            "nomFichier": "Bond 3 - Skyfall CD1.avi",
-            "imdbId": null,
-            "tmdbId": 37724,
-            "tmdbUrl": "https://www.themoviedb.org/movie/37724",
-            "doublonExact": false,
-            "doublonProbable": true,
-            "groupeDoublon": "bond_3_skyfall",
-            "dateAjout": "2026-08-22T08:23:33.521Z",
-            "titreTmdb": "Skyfall",
-            "anneeTmdb": "2012",
-            "dureeTmdb": 143,
-            "descriptionTmdb": "Lorsque la dernière mission de Bond tourne mal, plusieurs agents infiltrés se retrouvent exposés dans le monde entier. Le MI6 est attaqué, et M est obligée de relocaliser l’Agence. Ces événements ébranlent son autorité, et elle est remise en cause par Mallory, le nouveau président de l’ISC, le comité chargé du renseignement et de la sécurité. Le MI6 est à présent sous le coup d’une double menace, intérieure et extérieure. Il ne reste à M qu’un seul allié de confiance vers qui se tourner: Bond. Plus que jamais, 007 va devoir agir dans l’ombre. Avec l’aide d’Ève, un agent de terrain, il se lance sur la piste du mystérieux Silva, dont il doit identifier coûte que coûte l’objectif secret et mortel.",
-            "collectionId": 645,
-            "collectionNom": "James Bond 007 - Saga",
-            "type": "Film",
-            "studio": null,
-            "ignoreInCollection": false,
-            "technique": {
-                "largeur": 640,
-                "hauteur": 272,
-                "resolution": "640x272",
-                "ratioImage": 2.353,
-                "codecVideo": "mpeg4",
-                "profilVideo": "Advanced Simple Profile",
-                "pixelFormat": "yuv420p",
-                "bitsParComposante": null,
-                "bitrateVideo": 969026,
-                "framerate": 23.976,
-                "espaceCouleur": null,
-                "transfertCouleur": null,
-                "primairesCouleur": null,
-                "hdr": false,
-                "dureeFichier": 4104.892458,
-                "bitrateGlobal": 1426435,
-                "formatConteneur": "avi",
-                "audio": [
-                    {
-                        "codec": "ac3",
-                        "profil": null,
-                        "canaux": 6,
-                        "disposition": "5.1(side)",
-                        "bitrate": 448000,
-                        "frequence": 48000,
-                        "langue": null
-                    }
-                ],
-                "sousTitres": []
-            },
-            "titreOriginal": "Skyfall",
-            "langueOriginale": "en",
-            "fichierNormalise": "2012_Skyfall_TBD.avi"
-        },
-        {
-            "id": "bond_3_skyfall_cd2",
-            "titre": "Bond 3 Skyfall",
-            "annee": null,
-            "langue": [
-                "TBD"
-            ],
-            "taille": 727476224,
-            "genre": [
-                "Action"
-            ],
-            "image": "https://image.tmdb.org/t/p/w342/nNFECkwmrYoUQ17EnPTcSlRictV.jpg",
-            "fichier": "/Box_Films/Action/James Bond/Bond 3 - Skyfall CD2.avi",
-            "nomFichier": "Bond 3 - Skyfall CD2.avi",
-            "imdbId": null,
-            "tmdbId": 37724,
-            "tmdbUrl": "https://www.themoviedb.org/movie/37724",
-            "doublonExact": false,
-            "doublonProbable": true,
-            "groupeDoublon": "bond_3_skyfall",
-            "dateAjout": "2026-08-22T08:23:33.521Z",
-            "titreTmdb": "Skyfall",
-            "anneeTmdb": "2012",
-            "dureeTmdb": 143,
-            "descriptionTmdb": "Lorsque la dernière mission de Bond tourne mal, plusieurs agents infiltrés se retrouvent exposés dans le monde entier. Le MI6 est attaqué, et M est obligée de relocaliser l’Agence. Ces événements ébranlent son autorité, et elle est remise en cause par Mallory, le nouveau président de l’ISC, le comité chargé du renseignement et de la sécurité. Le MI6 est à présent sous le coup d’une double menace, intérieure et extérieure. Il ne reste à M qu’un seul allié de confiance vers qui se tourner: Bond. Plus que jamais, 007 va devoir agir dans l’ombre. Avec l’aide d’Ève, un agent de terrain, il se lance sur la piste du mystérieux Silva, dont il doit identifier coûte que coûte l’objectif secret et mortel.",
-            "collectionId": 645,
-            "collectionNom": "James Bond 007 - Saga",
-            "type": "Film",
-            "studio": null,
-            "technique": {
-                "largeur": 640,
-                "hauteur": 272,
-                "resolution": "640x272",
-                "ratioImage": 2.353,
-                "codecVideo": "mpeg4",
-                "profilVideo": "Advanced Simple Profile",
-                "pixelFormat": "yuv420p",
-                "bitsParComposante": null,
-                "bitrateVideo": 837743,
-                "framerate": 23.976,
-                "espaceCouleur": null,
-                "transfertCouleur": null,
-                "primairesCouleur": null,
-                "hdr": false,
-                "dureeFichier": 4498.035208,
-                "bitrateGlobal": 1293855,
-                "formatConteneur": "avi",
-                "audio": [
-                    {
-                        "codec": "ac3",
-                        "profil": null,
-                        "canaux": 6,
-                        "disposition": "5.1(side)",
-                        "bitrate": 448000,
-                        "frequence": 48000,
-                        "langue": null
-                    }
-                ],
-                "sousTitres": []
-            },
-            "titreOriginal": "Skyfall",
-            "langueOriginale": "en",
-            "fichierNormalise": "2012_Skyfall_TBD.avi"
+            "fichierNormalise": "2008_Quantum of Solace_VF.avi",
+            "languesAudio": [
+                "FR"
+            ]
         },
         {
             "id": "tmdb_657",
@@ -7045,180 +6960,43 @@
             "fichierNormalise": "2011_Captain America First Avenger_VF.avi"
         },
         {
-            "id": "cars_cd1",
-            "titre": "Cars",
-            "annee": null,
-            "langue": [
-                "TBD"
-            ],
-            "taille": 733485056,
-            "genre": [
-                "Action"
-            ],
-            "image": "https://image.tmdb.org/t/p/w342/hvHw7ASXEK8x3EawlOtwYXrovdo.jpg",
-            "fichier": "/Box_Films/Enfants/Cars CD1.avi",
-            "nomFichier": "Cars CD1.avi",
-            "imdbId": null,
-            "tmdbId": 920,
-            "tmdbUrl": "https://www.themoviedb.org/movie/920",
-            "doublonExact": false,
-            "doublonProbable": true,
-            "groupeDoublon": "cars",
-            "dateAjout": "2026-08-22T08:23:33.659Z",
-            "titreTmdb": "Cars : Quatre roues",
-            "anneeTmdb": "2006",
-            "dureeTmdb": 111,
-            "descriptionTmdb": "Un champion de course, Flash McQueen vit à cent à l'heure jusqu’à ce qu’un détour le mène à Radiator Springs, une petite ville oubliée sur la Route 66. Il y rencontre Sally, Martin, Doc Hudson et un tas de personnages amusants qui l’aident à découvrir que la vie vaut plus que les trophées et la célébrité.",
-            "collectionId": 87118,
-            "collectionNom": "Cars - Saga",
-            "type": "Animation",
-            "studio": null,
-            "ignoreInCollection": false,
-            "technique": {
-                "largeur": 592,
-                "hauteur": 240,
-                "resolution": "592x240",
-                "ratioImage": 2.467,
-                "codecVideo": "mpeg4",
-                "profilVideo": "Advanced Simple Profile",
-                "pixelFormat": "yuv420p",
-                "bitsParComposante": null,
-                "bitrateVideo": 1333027,
-                "framerate": 23.976,
-                "espaceCouleur": null,
-                "transfertCouleur": null,
-                "primairesCouleur": null,
-                "hdr": false,
-                "dureeFichier": 3398.940607,
-                "bitrateGlobal": 1726385,
-                "formatConteneur": "avi",
-                "audio": [
-                    {
-                        "codec": "ac3",
-                        "profil": null,
-                        "canaux": 6,
-                        "disposition": "5.1(side)",
-                        "bitrate": 384000,
-                        "frequence": 48000,
-                        "langue": null
-                    }
-                ],
-                "sousTitres": []
-            },
-            "titreOriginal": "Cars",
-            "langueOriginale": "en",
-            "fichierNormalise": "2006_Cars Quatre roues_TBD.avi"
-        },
-        {
-            "id": "cars_cd2",
-            "titre": "Cars",
-            "annee": null,
-            "langue": [
-                "TBD"
-            ],
-            "taille": 732284928,
-            "genre": [
-                "Action"
-            ],
-            "image": "https://image.tmdb.org/t/p/w342/hvHw7ASXEK8x3EawlOtwYXrovdo.jpg",
-            "fichier": "/Box_Films/Enfants/Cars CD2.avi",
-            "nomFichier": "Cars CD2.avi",
-            "imdbId": null,
-            "tmdbId": 920,
-            "tmdbUrl": "https://www.themoviedb.org/movie/920",
-            "doublonExact": false,
-            "doublonProbable": true,
-            "groupeDoublon": "cars",
-            "dateAjout": "2026-08-22T08:23:33.660Z",
-            "titreTmdb": "Cars : Quatre roues",
-            "anneeTmdb": "2006",
-            "dureeTmdb": 111,
-            "descriptionTmdb": "Un champion de course, Flash McQueen vit à cent à l'heure jusqu’à ce qu’un détour le mène à Radiator Springs, une petite ville oubliée sur la Route 66. Il y rencontre Sally, Martin, Doc Hudson et un tas de personnages amusants qui l’aident à découvrir que la vie vaut plus que les trophées et la célébrité.",
-            "collectionId": 87118,
-            "collectionNom": "Cars - Saga",
-            "type": "Animation",
-            "studio": null,
-            "technique": {
-                "largeur": 592,
-                "hauteur": 240,
-                "resolution": "592x240",
-                "ratioImage": 2.467,
-                "codecVideo": "mpeg4",
-                "profilVideo": "Advanced Simple Profile",
-                "pixelFormat": "yuv420p",
-                "bitsParComposante": null,
-                "bitrateVideo": 1237587,
-                "framerate": 23.976,
-                "espaceCouleur": null,
-                "transfertCouleur": null,
-                "primairesCouleur": null,
-                "hdr": false,
-                "dureeFichier": 3592.050384,
-                "bitrateGlobal": 1630901,
-                "formatConteneur": "avi",
-                "audio": [
-                    {
-                        "codec": "ac3",
-                        "profil": null,
-                        "canaux": 6,
-                        "disposition": "5.1(side)",
-                        "bitrate": 384000,
-                        "frequence": 48000,
-                        "langue": null
-                    }
-                ],
-                "sousTitres": []
-            },
-            "titreOriginal": "Cars",
-            "langueOriginale": "en",
-            "fichierNormalise": "2006_Cars Quatre roues_TBD.avi"
-        },
-        {
             "id": "cars",
             "titre": "Cars",
             "annee": null,
             "langue": [
-                "TBD"
+                "VF"
             ],
-            "taille": 727429120,
+            "taille": 733620224,
             "genre": [
                 "Action"
             ],
             "image": "https://image.tmdb.org/t/p/w342/hvHw7ASXEK8x3EawlOtwYXrovdo.jpg",
-            "fichier": "/Box_Films/Enfants/Cars.avi",
-            "nomFichier": "Cars.avi",
+            "fichier": "/Box_Films/Animation/Cars/2006_Cars Quatre roues_VF.avi",
+            "nomFichier": "2006_Cars Quatre roues_VF.avi",
             "imdbId": null,
             "tmdbId": 920,
             "tmdbUrl": "https://www.themoviedb.org/movie/920",
             "doublonExact": false,
-            "doublonProbable": true,
-            "groupeDoublon": "cars",
-            "dateAjout": "2026-08-22T08:23:33.660Z",
-            "titreTmdb": "Cars : Quatre roues",
-            "anneeTmdb": "2006",
-            "dureeTmdb": 111,
-            "descriptionTmdb": "Un champion de course, Flash McQueen vit à cent à l'heure jusqu’à ce qu’un détour le mène à Radiator Springs, une petite ville oubliée sur la Route 66. Il y rencontre Sally, Martin, Doc Hudson et un tas de personnages amusants qui l’aident à découvrir que la vie vaut plus que les trophées et la célébrité.",
-            "collectionId": 87118,
-            "collectionNom": "Cars - Saga",
-            "type": "Animation",
-            "studio": null,
+            "doublonProbable": false,
+            "groupeDoublon": null,
+            "dateAjout": "2026-11-21T11:26:48.975Z",
             "technique": {
-                "largeur": 704,
-                "hauteur": 320,
-                "resolution": "704x320",
-                "ratioImage": 2.2,
+                "largeur": 608,
+                "hauteur": 272,
+                "resolution": "608x272",
+                "ratioImage": 2.235,
                 "codecVideo": "mpeg4",
                 "profilVideo": "Advanced Simple Profile",
                 "pixelFormat": "yuv420p",
                 "bitsParComposante": null,
-                "bitrateVideo": 715124,
+                "bitrateVideo": 737823,
                 "framerate": 25,
                 "espaceCouleur": null,
                 "transfertCouleur": null,
                 "primairesCouleur": null,
                 "hdr": false,
-                "dureeFichier": 6824.04,
-                "bitrateGlobal": 852784,
+                "dureeFichier": 6703.68,
+                "bitrateGlobal": 875483,
                 "formatConteneur": "avi",
                 "audio": [
                     {
@@ -7227,63 +7005,69 @@
                         "canaux": 2,
                         "disposition": "stereo",
                         "bitrate": 128000,
-                        "frequence": 44100,
+                        "frequence": 48000,
                         "langue": null
                     }
                 ],
                 "sousTitres": []
             },
+            "fichierNormalise": "Cars_TBD.avi",
+            "titreTmdb": "Cars : Quatre roues",
             "titreOriginal": "Cars",
             "langueOriginale": "en",
-            "fichierNormalise": "2006_Cars Quatre roues_TBD.avi"
+            "anneeTmdb": "2006",
+            "dureeTmdb": 111,
+            "descriptionTmdb": "Un champion de course, Flash McQueen vit à cent à l'heure jusqu’à ce qu’un détour le mène à Radiator Springs, une petite ville oubliée sur la Route 66. Il y rencontre Sally, Martin, Doc Hudson et un tas de personnages amusants qui l’aident à découvrir que la vie vaut plus que les trophées et la célébrité.",
+            "collectionId": 87118,
+            "collectionNom": "Cars - Saga",
+            "collectionDescription": "Les aventures de Flash McQueen, une voiture de course promise au succès, qui découvre que dans la vie, ce n'est pas de franchir la ligne d'arrivée qui compte, mais le parcours que l'on a suivi.",
+            "collectionImage": "https://image.tmdb.org/t/p/w500/hKoj871AjvqkQWral8llVeGD9H.jpg",
+            "collectionTmdbUrl": "https://www.themoviedb.org/collection/87118",
+            "type": "Animation",
+            "studio": "Pixar",
+            "languesAudio": [
+                "FR"
+            ],
+            "ignoreInCollection": false
         },
         {
-            "id": "cars_2",
+            "id": "cars_2_2011",
             "titre": "Cars 2",
-            "annee": null,
+            "annee": 2011,
             "langue": [
                 "VF"
             ],
-            "taille": 733941760,
+            "taille": 738768896,
             "genre": [
                 "Action"
             ],
             "image": "https://image.tmdb.org/t/p/w342/qCoaNNfH6lS7qkZDYhWkQpiQpnM.jpg",
-            "fichier": "/Box_Films/Enfants/Cars 2 - VF.avi",
-            "nomFichier": "Cars 2 - VF.avi",
+            "fichier": "/Box_Films/Animation/Cars/2011_Cars 2_VF.avi",
+            "nomFichier": "2011_Cars 2_VF.avi",
             "imdbId": null,
             "tmdbId": 49013,
             "tmdbUrl": "https://www.themoviedb.org/movie/49013",
             "doublonExact": false,
             "doublonProbable": false,
             "groupeDoublon": null,
-            "dateAjout": "2026-08-22T08:23:33.659Z",
-            "titreTmdb": "Cars 2",
-            "anneeTmdb": "2011",
-            "dureeTmdb": 106,
-            "descriptionTmdb": "La célèbre voiture de course Flash McQueen et l'incomparable dépanneuse Martin quittent Radiator Springs pour courir le tout premier Grand Prix mondial qui sacrera la voiture la plus rapide du monde. Mais la route est pleine d'imprévus, de déviations et de surprises, surtout lorsque Martin se retrouve entraîné dans une affaire d'espionnage international !",
-            "collectionId": 87118,
-            "collectionNom": "Cars - Saga",
-            "type": "Animation",
-            "studio": null,
-            "ignoreInCollection": false,
+            "dateAjout": "2026-11-21T11:26:48.332Z",
             "technique": {
-                "largeur": 640,
-                "hauteur": 272,
-                "resolution": "640x272",
-                "ratioImage": 2.353,
+                "largeur": 720,
+                "hauteur": 304,
+                "resolution": "720x304",
+                "ratioImage": 2.368,
                 "codecVideo": "mpeg4",
                 "profilVideo": "Advanced Simple Profile",
                 "pixelFormat": "yuv420p",
                 "bitsParComposante": null,
-                "bitrateVideo": 777083,
+                "bitrateVideo": 783011,
                 "framerate": 23.976,
                 "espaceCouleur": null,
                 "transfertCouleur": null,
                 "primairesCouleur": null,
                 "hdr": false,
-                "dureeFichier": 6422.881215,
-                "bitrateGlobal": 914158,
+                "dureeFichier": 6421.508681,
+                "bitrateGlobal": 920368,
                 "formatConteneur": "avi",
                 "audio": [
                     {
@@ -7298,9 +7082,21 @@
                 ],
                 "sousTitres": []
             },
+            "fichierNormalise": "Cars 2_2011_VF.avi",
+            "titreTmdb": "Cars 2",
             "titreOriginal": "Cars 2",
             "langueOriginale": "en",
-            "fichierNormalise": "2011_Cars 2_VF.avi"
+            "anneeTmdb": "2011",
+            "dureeTmdb": 106,
+            "descriptionTmdb": "La célèbre voiture de course Flash McQueen et l'incomparable dépanneuse Martin quittent Radiator Springs pour courir le tout premier Grand Prix mondial qui sacrera la voiture la plus rapide du monde. Mais la route est pleine d'imprévus, de déviations et de surprises, surtout lorsque Martin se retrouve entraîné dans une affaire d'espionnage international !",
+            "collectionId": 87118,
+            "collectionNom": "Cars - Saga",
+            "collectionDescription": "Les aventures de Flash McQueen, une voiture de course promise au succès, qui découvre que dans la vie, ce n'est pas de franchir la ligne d'arrivée qui compte, mais le parcours que l'on a suivi.",
+            "collectionImage": "https://image.tmdb.org/t/p/w500/hKoj871AjvqkQWral8llVeGD9H.jpg",
+            "collectionTmdbUrl": "https://www.themoviedb.org/collection/87118",
+            "type": "Animation",
+            "studio": "Pixar",
+            "ignoreInCollection": false
         },
         {
             "id": "cars_3_2017",
@@ -7314,8 +7110,8 @@
                 "Action"
             ],
             "image": "https://image.tmdb.org/t/p/w342/nouuVzN51YSBsjwJt5WwSVXOuv6.jpg",
-            "fichier": "/Box_Films/Action/Cars/Cars.3.2017.FRENCH.BDRip.XviD-GZR.avi",
-            "nomFichier": "Cars.3.2017.FRENCH.BDRip.XviD-GZR.avi",
+            "fichier": "/Box_Films/Animation/Cars/2017_Cars 3_VF.avi",
+            "nomFichier": "2017_Cars 3_VF.avi",
             "imdbId": null,
             "tmdbId": 260514,
             "tmdbUrl": "https://www.themoviedb.org/movie/260514",
@@ -7439,15 +7235,15 @@
             "titre": "Casino Royale",
             "annee": 2006,
             "langue": [
-                "TBD"
+                "VO"
             ],
             "taille": 2252612302,
             "genre": [
                 "Espionnage"
             ],
             "image": "https://image.tmdb.org/t/p/w342/1ST7phuvQsaAIIkRyAtESZFLMx9.jpg",
-            "fichier": "/Box_Films/Action/James Bond/James Bond Casino Royale (2006) [1080p]/Casino.Royale.2006.1080p.BRrip.x264.YIFY.mp4",
-            "nomFichier": "Casino.Royale.2006.1080p.BRrip.x264.YIFY.mp4",
+            "fichier": "/Box_Films/Espionnage/James Bond 007/2006_Casino Royale_VO.mp4",
+            "nomFichier": "2006_Casino Royale_VO.mp4",
             "imdbId": null,
             "tmdbId": 36557,
             "tmdbUrl": "https://www.themoviedb.org/movie/36557",
@@ -7496,7 +7292,10 @@
             },
             "titreOriginal": "Casino Royale",
             "langueOriginale": "en",
-            "fichierNormalise": "2006_Casino Royale_TBD.mp4"
+            "fichierNormalise": "2006_Casino Royale_TBD.mp4",
+            "languesAudio": [
+                "EN"
+            ]
         },
         {
             "id": "catwoman_2004",
@@ -9687,15 +9486,15 @@
             "titre": "Daredevil",
             "annee": null,
             "langue": [
-                "TBD"
+                "VF"
             ],
             "taille": 728690688,
             "genre": [
                 "Science-Fiction"
             ],
             "image": "https://image.tmdb.org/t/p/w342/kupZzKFhFApvNjtBVB7JlQ6MjeI.jpg",
-            "fichier": "/01_Films/Marvel/Daredevil.avi",
-            "nomFichier": "Daredevil.avi",
+            "fichier": "/Box_Films/Marvel/Daredevil_2003_VF.avi",
+            "nomFichier": "Daredevil_2003_VF.avi",
             "imdbId": null,
             "tmdbId": 9480,
             "tmdbUrl": "https://www.themoviedb.org/movie/9480",
@@ -9747,7 +9546,10 @@
             },
             "titreOriginal": "Daredevil",
             "langueOriginale": "en",
-            "fichierNormalise": "Daredevil_2003_TBD.avi"
+            "fichierNormalise": "Daredevil_2003_TBD.avi",
+            "languesAudio": [
+                "FR"
+            ]
         },
         {
             "id": "dark_phoenix_2019",
@@ -9849,15 +9651,15 @@
             "titre": "Dead Man Down",
             "annee": 2013,
             "langue": [
-                "TBD"
+                "VO"
             ],
             "taille": 913589681,
             "genre": [
                 "Drame"
             ],
             "image": "https://image.tmdb.org/t/p/w342/m50lzEE7VyScfawGDQIIMVRCQTC.jpg",
-            "fichier": "/Box_Films/Check Films/Dead Man Down (2013)/Dead.Man.Down.2013.720p.BluRay.x264.YIFY.mp4",
-            "nomFichier": "Dead.Man.Down.2013.720p.BluRay.x264.YIFY.mp4",
+            "fichier": "/Box_Films/Drame/Dead Man Down_2013_VO.mp4",
+            "nomFichier": "Dead Man Down_2013_VO.mp4",
             "imdbId": null,
             "tmdbId": 102362,
             "tmdbUrl": "https://www.themoviedb.org/movie/102362",
@@ -9906,7 +9708,10 @@
             },
             "titreOriginal": "Dead Man Down",
             "langueOriginale": "en",
-            "fichierNormalise": "Dead Man Down_2013_TBD.mp4"
+            "fichierNormalise": "Dead Man Down_2013_TBD.mp4",
+            "languesAudio": [
+                "EN"
+            ]
         },
         {
             "id": "deja_vu",
@@ -10001,84 +9806,20 @@
             "fichierNormalise": "Déjà vu_2006_VO_VF.mp4"
         },
         {
-            "id": "demain_ne_meurt_jamais_cd1",
-            "titre": "Demain ne meurt jamais",
-            "annee": null,
-            "langue": [
-                "VO"
-            ],
-            "taille": 734302208,
-            "genre": [
-                "Action"
-            ],
-            "image": "https://image.tmdb.org/t/p/w342/6sHUh1Zvz5QXDJbSvGErfNatwBD.jpg",
-            "fichier": "/Box_Films/Action/James Bond/Demain ne meurt jamais - AC - VO - CD1.avi",
-            "nomFichier": "Demain ne meurt jamais - AC - VO - CD1.avi",
-            "imdbId": null,
-            "tmdbId": 714,
-            "tmdbUrl": "https://www.themoviedb.org/movie/714",
-            "doublonExact": false,
-            "doublonProbable": true,
-            "groupeDoublon": "demain_ne_meurt_jamais",
-            "dateAjout": "2026-08-22T08:23:33.522Z",
-            "titreTmdb": "Demain ne meurt jamais",
-            "anneeTmdb": "1997",
-            "dureeTmdb": 115,
-            "descriptionTmdb": "L’agent 007, alias James Bond, a pour mission de localiser l’épave du « Devonshire », une frégate de la Royal Navy, perdue dans les eaux territoriales chinoises. Il doit également retrouver le coupable de l’attentat, un certain Henry Gupta, ancien gauchiste activement recherché par le FBI et, enfin, remonter jusqu’au cerveau de l’opération, Elliot Carver, propriétaire du quotidien « Tomorrow » et patron du plus grand empire médiatique de tous les temps.",
-            "collectionId": 645,
-            "collectionNom": "James Bond 007 - Saga",
-            "type": "Film",
-            "studio": null,
-            "ignoreInCollection": false,
-            "technique": {
-                "largeur": 640,
-                "hauteur": 272,
-                "resolution": "640x272",
-                "ratioImage": 2.353,
-                "codecVideo": "msmpeg4v3",
-                "profilVideo": null,
-                "pixelFormat": "yuv420p",
-                "bitsParComposante": null,
-                "bitrateVideo": 1186429,
-                "framerate": 23.976,
-                "espaceCouleur": null,
-                "transfertCouleur": null,
-                "primairesCouleur": null,
-                "hdr": false,
-                "dureeFichier": 3718.593594,
-                "bitrateGlobal": 1579741,
-                "formatConteneur": "avi",
-                "audio": [
-                    {
-                        "codec": "ac3",
-                        "profil": null,
-                        "canaux": 6,
-                        "disposition": "5.1(side)",
-                        "bitrate": 384000,
-                        "frequence": 48000,
-                        "langue": null
-                    }
-                ],
-                "sousTitres": []
-            },
-            "titreOriginal": "Tomorrow Never Dies",
-            "langueOriginale": "en",
-            "fichierNormalise": "1997_Demain ne meurt jamais_VO.avi"
-        },
-        {
             "id": "demain_ne_meurt_jamais_cd2",
             "titre": "Demain ne meurt jamais",
             "annee": null,
             "langue": [
-                "VO"
+                "VO",
+                "VOST"
             ],
             "taille": 734105600,
             "genre": [
                 "Action"
             ],
             "image": "https://image.tmdb.org/t/p/w342/6sHUh1Zvz5QXDJbSvGErfNatwBD.jpg",
-            "fichier": "/Box_Films/Action/James Bond/Demain ne meurt jamais - AC - VO - CD2.avi",
-            "nomFichier": "Demain ne meurt jamais - AC - VO - CD2.avi",
+            "fichier": "/Box_Films/Action/James Bond 007/1997_Demain ne meurt jamais_VO_VOST.avi",
+            "nomFichier": "1997_Demain ne meurt jamais_VO_VOST.avi",
             "imdbId": null,
             "tmdbId": 714,
             "tmdbUrl": "https://www.themoviedb.org/movie/714",
@@ -10127,7 +9868,13 @@
             },
             "titreOriginal": "Tomorrow Never Dies",
             "langueOriginale": "en",
-            "fichierNormalise": "1997_Demain ne meurt jamais_VO.avi"
+            "fichierNormalise": "1997_Demain ne meurt jamais_VO.avi",
+            "languesSousTitres": [
+                "EN"
+            ],
+            "languesAudio": [
+                "EN"
+            ]
         },
         {
             "id": "despicable_me_3_2017",
@@ -12413,7 +12160,8 @@
             "langueOriginale": "fr",
             "type": "Animation",
             "studio": null,
-            "fichierNormalise": "2022_Ernest et Célestine Le Voyage en Charabie_VF.mkv"
+            "fichierNormalise": "2022_Ernest et Célestine Le Voyage en Charabie_VF.mkv",
+            "ignoreInCollection": false
         },
         {
             "id": "eternals_1_2021",
@@ -14238,7 +13986,7 @@
             "collectionDescription": null,
             "collectionImage": null,
             "collectionTmdbUrl": null,
-            "type": null,
+            "type": "Film",
             "studio": null,
             "languesAudio": [
                 "EN"
@@ -15476,7 +15224,7 @@
                 "EN",
                 "FR"
             ],
-            "type": null,
+            "type": "Film",
             "studio": "Marvel",
             "fichierOriginal": "[ Torrent911.pw ] Ghost.Rider.Spirit.of.Vengeance.2011.MULTi.VFF.HDLight.1080p.x264-AC3-T911.mkv",
             "ignoreInCollection": false
@@ -15871,15 +15619,17 @@
             "annee": 1995,
             "langue": [
                 "VO",
-                "VF"
+                "VF",
+                "VOSTFR",
+                "VOST"
             ],
             "taille": 3800487745,
             "genre": [
                 "Action"
             ],
             "image": "https://image.tmdb.org/t/p/w342/aMfHCU4Bb2QURqO0rVD06aFs7iq.jpg",
-            "fichier": "/Box_Films/Action/James Bond 007/Goldeneye.1995.MULTi.VFi.1080p.HDLight.AC3.5.1.H264-LiHDL.mkv",
-            "nomFichier": "Goldeneye.1995.MULTi.VFi.1080p.HDLight.AC3.5.1.H264-LiHDL.mkv",
+            "fichier": "/Box_Films/Action/James Bond 007/1995_GoldenEye_VO_VF_VOST_VOSTFR.mkv",
+            "nomFichier": "1995_GoldenEye_VO_VF_VOST_VOSTFR.mkv",
             "imdbId": null,
             "tmdbId": 710,
             "tmdbUrl": "https://www.themoviedb.org/movie/710",
@@ -15952,7 +15702,11 @@
             "langueOriginale": "en",
             "type": "Film",
             "studio": null,
-            "fichierNormalise": "1995_GoldenEye_VO_VF.mkv"
+            "fichierNormalise": "1995_GoldenEye_VO_VF.mkv",
+            "languesAudio": [
+                "EN",
+                "FR"
+            ]
         },
         {
             "id": "tmdb_658",
@@ -17695,7 +17449,7 @@
             "collectionNom": "Highlander - Saga",
             "type": "Film",
             "studio": null,
-            "ignoreInCollection": false,
+            "ignoreInCollection": true,
             "langueOriginale": "en"
         },
         {
@@ -17726,7 +17480,7 @@
             "collectionNom": "Highlander - Saga",
             "type": "Film",
             "studio": null,
-            "ignoreInCollection": false,
+            "ignoreInCollection": true,
             "langueOriginale": "en"
         },
         {
@@ -17757,7 +17511,7 @@
             "collectionNom": "Highlander - Saga",
             "type": "Film",
             "studio": null,
-            "ignoreInCollection": false,
+            "ignoreInCollection": true,
             "langueOriginale": "en"
         },
         {
@@ -17788,7 +17542,7 @@
             "collectionNom": "Highlander - Saga",
             "type": "Film",
             "studio": null,
-            "ignoreInCollection": false,
+            "ignoreInCollection": true,
             "langueOriginale": "en"
         },
         {
@@ -18800,7 +18554,7 @@
                 "Action"
             ],
             "image": "https://image.tmdb.org/t/p/w342/Apish2YD3QIAepzxZ96VLkqEZo3.jpg",
-            "fichier": "/Box_Films/Action/Les Indestructibles/2018_Les Indestructibles 2_VF.avi",
+            "fichier": "/Box_Films/Animation/Les Indestructibles/2018_Les Indestructibles 2_VF.avi",
             "nomFichier": "2018_Les Indestructibles 2_VF.avi",
             "imdbId": null,
             "tmdbId": 260513,
@@ -19756,7 +19510,7 @@
             "collectionDescription": "Collection des films Iron Man (littéralement l'Homme de Fer), super-héros de comics créé en 1963 par Stan Lee pour Marvel Comics.",
             "collectionImage": "https://image.tmdb.org/t/p/w500/bQGciwYBe0aG1UNHuIiFkey4pqX.jpg",
             "collectionTmdbUrl": "https://www.themoviedb.org/collection/131292",
-            "type": null,
+            "type": "Film",
             "studio": "Marvel",
             "fichierOriginal": "Iron Man 2.avi",
             "languesAudio": [
@@ -19828,7 +19582,7 @@
             "collectionDescription": "Collection des films Iron Man (littéralement l'Homme de Fer), super-héros de comics créé en 1963 par Stan Lee pour Marvel Comics.",
             "collectionImage": "https://image.tmdb.org/t/p/w500/bQGciwYBe0aG1UNHuIiFkey4pqX.jpg",
             "collectionTmdbUrl": "https://www.themoviedb.org/collection/131292",
-            "type": null,
+            "type": "Film",
             "studio": "Marvel",
             "fichierOriginal": "Iron.Man.2.2010.1080p.BrRip.x264.YIFY.mp4",
             "languesAudio": [
@@ -20121,8 +19875,8 @@
                 "Action"
             ],
             "image": "https://image.tmdb.org/t/p/w342/i3q8u4UgOjCufGJwfMbQHU4DbJj.jpg",
-            "fichier": "/Box_Films/Action/Jason Bourne/Jason Bourne 2016.mkv",
-            "nomFichier": "Jason Bourne 2016.mkv",
+            "fichier": "/Box_Films/Action/Jason Bourne/2016_Jason Bourne_VO_VF_VOST_VOSTFR.mkv",
+            "nomFichier": "2016_Jason Bourne_VO_VF_VOST_VOSTFR.mkv",
             "imdbId": null,
             "tmdbId": 324668,
             "tmdbUrl": "https://www.themoviedb.org/movie/324668",
@@ -20223,8 +19977,8 @@
                 "Action"
             ],
             "image": "https://image.tmdb.org/t/p/w342/nFVQqnlBQq0UGZESobzgT6ipy7B.jpg",
-            "fichier": "/Box_Films/Action/Jason Bourne/Jason Bourne 2004 La mort dans la peau (2004).mkv",
-            "nomFichier": "Jason Bourne 2004 La mort dans la peau (2004).mkv",
+            "fichier": "/Box_Films/Action/Jason Bourne/2004_La Mort dans la peau_VO_VF_VOST_VOSTFR.mkv",
+            "nomFichier": "2004_La Mort dans la peau_VO_VF_VOST_VOSTFR.mkv",
             "imdbId": null,
             "tmdbId": 2502,
             "tmdbUrl": "https://www.themoviedb.org/movie/2502",
@@ -20329,8 +20083,8 @@
                 "Action"
             ],
             "image": "https://image.tmdb.org/t/p/w342/7OUVM57BOCGbhQ6UerNrb9Zar26.jpg",
-            "fichier": "/Box_Films/Action/Jason Bourne/Jason Bourne 2012 L'Héritage (2012).mkv",
-            "nomFichier": "Jason Bourne 2012 L'Héritage (2012).mkv",
+            "fichier": "/Box_Films/Action/Jason Bourne/2012_Jason Bourne L'Héritage_VO_VF_VOST_VOSTFR.mkv",
+            "nomFichier": "2012_Jason Bourne L'Héritage_VO_VF_VOST_VOSTFR.mkv",
             "imdbId": null,
             "tmdbId": 49040,
             "tmdbUrl": "https://www.themoviedb.org/movie/49040",
@@ -20426,8 +20180,8 @@
                 "Action"
             ],
             "image": "https://image.tmdb.org/t/p/w342/osEb1avYb9MvGUCOIIX0fiXUXDN.jpg",
-            "fichier": "/Box_Films/Action/Jason Bourne/Jason Bourne 2002 La memoire dans la peau (2002).mkv",
-            "nomFichier": "Jason Bourne 2002 La memoire dans la peau (2002).mkv",
+            "fichier": "/Box_Films/Action/Jason Bourne/2002_La Mémoire dans la peau_VO_VF_VOST_VOSTFR.mkv",
+            "nomFichier": "2002_La Mémoire dans la peau_VO_VF_VOST_VOSTFR.mkv",
             "imdbId": null,
             "tmdbId": 2501,
             "tmdbUrl": "https://www.themoviedb.org/movie/2501",
@@ -20523,8 +20277,8 @@
                 "Action"
             ],
             "image": "https://image.tmdb.org/t/p/w342/9b3pgWTwERTRYzaKgzgmcQBIEqS.jpg",
-            "fichier": "/Box_Films/Action/Jason Bourne/Jason Bourne 2007 La vengeance dans la peau (2007).mkv",
-            "nomFichier": "Jason Bourne 2007 La vengeance dans la peau (2007).mkv",
+            "fichier": "/Box_Films/Action/Jason Bourne/2007_La Vengeance dans la peau_VO_VF_VOST_VOSTFR.mkv",
+            "nomFichier": "2007_La Vengeance dans la peau_VO_VF_VOST_VOSTFR.mkv",
             "imdbId": null,
             "tmdbId": 2503,
             "tmdbUrl": "https://www.themoviedb.org/movie/2503",
@@ -23007,15 +22761,17 @@
             "annee": 2010,
             "langue": [
                 "VO",
-                "VF"
+                "VF",
+                "VOSTFR",
+                "VOST"
             ],
             "taille": 3835973938,
             "genre": [
                 "Action"
             ],
             "image": "https://image.tmdb.org/t/p/w342/tZmlUikHctU4qy82HMmkbGWDHfY.jpg",
-            "fichier": "/Box_Films/Action/L'Agence tous risquesL'Agence tous risques.2010.MULTi.VFF.1080p.HDLight.x264.AC3-T911.mkv",
-            "nomFichier": "L'Agence tous risquesL'Agence tous risques.2010.MULTi.VFF.1080p.HDLight.x264.AC3-T911.mkv",
+            "fichier": "/Box_Films/Action/L'Agence tous risques_2010_VO_VF_VOST_VOSTFR.mkv",
+            "nomFichier": "L'Agence tous risques_2010_VO_VF_VOST_VOSTFR.mkv",
             "imdbId": null,
             "tmdbId": 34544,
             "tmdbUrl": "https://www.themoviedb.org/movie/34544",
@@ -23092,7 +22848,11 @@
             "langueOriginale": "en",
             "type": "Film",
             "studio": null,
-            "fichierNormalise": "L'Agence tous risques_2010_VO_VF.mkv"
+            "fichierNormalise": "L'Agence tous risques_2010_VO_VF.mkv",
+            "languesAudio": [
+                "EN",
+                "FR"
+            ]
         },
         {
             "id": "l_apprenti_sorcier",
@@ -23234,8 +22994,8 @@
                 "Action"
             ],
             "image": "https://image.tmdb.org/t/p/w342/uh1ImPGPySZ0bKEVgPDIXHLt22.jpg",
-            "fichier": "/Box_Films/Action/L'arme fatale/L'arme fatale 1.mkv",
-            "nomFichier": "L'arme fatale 1.mkv",
+            "fichier": "/Box_Films/Action/L'arme fatale/1987_L'Arme fatale_TBD.mkv",
+            "nomFichier": "1987_L'Arme fatale_TBD.mkv",
             "imdbId": null,
             "tmdbId": 941,
             "tmdbUrl": "https://www.themoviedb.org/movie/941",
@@ -23324,8 +23084,8 @@
                 "Action"
             ],
             "image": "https://image.tmdb.org/t/p/w342/z4Vd5YgIztiLOkpcmAlj7yhhD6R.jpg",
-            "fichier": "/Box_Films/Action/L'arme fatale/L'arme fatale 2.mkv",
-            "nomFichier": "L'arme fatale 2.mkv",
+            "fichier": "/Box_Films/Action/L'arme fatale/1989_L'Arme fatale 2_TBD.mkv",
+            "nomFichier": "1989_L'Arme fatale 2_TBD.mkv",
             "imdbId": null,
             "tmdbId": 942,
             "tmdbUrl": "https://www.themoviedb.org/movie/942",
@@ -23414,8 +23174,8 @@
                 "Action"
             ],
             "image": "https://image.tmdb.org/t/p/w342/zsrpmK8H9LokswJYJaUKLL6yHEB.jpg",
-            "fichier": "/Box_Films/Action/L'arme fatale/L'arme fatale 3.mkv",
-            "nomFichier": "L'arme fatale 3.mkv",
+            "fichier": "/Box_Films/Action/L'arme fatale/1992_L'Arme fatale 3_TBD.mkv",
+            "nomFichier": "1992_L'Arme fatale 3_TBD.mkv",
             "imdbId": null,
             "tmdbId": 943,
             "tmdbUrl": "https://www.themoviedb.org/movie/943",
@@ -23505,8 +23265,8 @@
                 "Action"
             ],
             "image": "https://image.tmdb.org/t/p/w342/8wUNoQ0Q92dHSXqdq7mceGudasg.jpg",
-            "fichier": "/Box_Films/Action/L'arme fatale/L'arme Fatale IV 1998 Multi-VF2 1080p HDlight.x264-Tonyk.mkv",
-            "nomFichier": "L'arme Fatale IV 1998 Multi-VF2 1080p HDlight.x264-Tonyk.mkv",
+            "fichier": "/Box_Films/Action/L'arme fatale/1998_L'Arme fatale 4_VO_VF.mkv",
+            "nomFichier": "1998_L'Arme fatale 4_VO_VF.mkv",
             "imdbId": null,
             "tmdbId": 944,
             "tmdbUrl": "https://www.themoviedb.org/movie/944",
@@ -27628,7 +27388,7 @@
                 "Drame"
             ],
             "image": "https://image.tmdb.org/t/p/w342/r6Men4NrCj77ROJBrWeddbxe2sI.jpg",
-            "fichier": "/Box_Films/Drame/Maquia When the Promised Flower Blooms_2018_VO.mp4",
+            "fichier": "/Box_Films/Anime/Maquia When the Promised Flower Blooms_2018_VO.mp4",
             "nomFichier": "Maquia When the Promised Flower Blooms_2018_VO.mp4",
             "imdbId": null,
             "tmdbId": 476292,
@@ -30270,73 +30030,6 @@
             "langueOriginale": "en"
         },
         {
-            "id": "morning_glory_avec_harisson_ford",
-            "titre": "Morning glory avec Harisson Ford",
-            "annee": null,
-            "langue": [
-                "TBD"
-            ],
-            "taille": 735475712,
-            "genre": [
-                "Action"
-            ],
-            "image": "https://image.tmdb.org/t/p/w342/pbj7kiFwUP5qSGcsqc7wIvKUfUM.jpg",
-            "fichier": "/Box_Films/Action/Morning glory avec Harisson Ford.avi",
-            "nomFichier": "Morning glory avec Harisson Ford.avi",
-            "imdbId": null,
-            "tmdbId": 38357,
-            "tmdbUrl": "https://www.themoviedb.org/movie/38357",
-            "doublonExact": false,
-            "doublonProbable": false,
-            "groupeDoublon": null,
-            "dateAjout": "2026-08-22T08:23:33.545Z",
-            "titreTmdb": "Morning Glory",
-            "anneeTmdb": "2010",
-            "dureeTmdb": 107,
-            "descriptionTmdb": "Bien qu’elle soit jeune, jolie, dynamique et ambitieuse, Becky Fuller est en pleine traversée du désert professionnelle et sentimentale. Aussi, lorsqu’on propose à cette productrice TV de reprendre \"Daybreak\", la matinale la moins regardée du pays, elle accepte le défi sans hésiter. Pour booster l’audience, elle décide d’engager Mike Pomeroy, le journaliste de légende de la chaîne. Mais le charisme de Mike n'a d'égal que ses caprices de star, et ses relations sont électriques avec Colleen Peck, sa co-présentatrice. Les coups bas hors-plateau s’accompagnent très vite de petites phrases assassines à l’antenne…Dans le même temps, Becky craque pour un producteur de la chaîne, mais sentiments et travail ne font pas toujours bon ménage. Parviendra-t-elle à sortir l’émission de l’impasse et à trouver l’amour ?",
-            "collectionId": null,
-            "collectionNom": null,
-            "collectionDescription": null,
-            "collectionImage": null,
-            "collectionTmdbUrl": null,
-            "type": "Film",
-            "studio": null,
-            "technique": {
-                "largeur": 640,
-                "hauteur": 272,
-                "resolution": "640x272",
-                "ratioImage": 2.353,
-                "codecVideo": "mpeg4",
-                "profilVideo": "Advanced Simple Profile",
-                "pixelFormat": "yuv420p",
-                "bitsParComposante": null,
-                "bitrateVideo": 770209,
-                "framerate": 23.976,
-                "espaceCouleur": null,
-                "transfertCouleur": null,
-                "primairesCouleur": null,
-                "hdr": false,
-                "dureeFichier": 6448.990657,
-                "bitrateGlobal": 912360,
-                "formatConteneur": "avi",
-                "audio": [
-                    {
-                        "codec": "mp3",
-                        "profil": null,
-                        "canaux": 2,
-                        "disposition": "stereo",
-                        "bitrate": 129432,
-                        "frequence": 48000,
-                        "langue": null
-                    }
-                ],
-                "sousTitres": []
-            },
-            "titreOriginal": "Morning Glory",
-            "langueOriginale": "en",
-            "fichierNormalise": "Morning Glory_2010_TBD.avi"
-        },
-        {
             "id": "mr_mrs_smith",
             "titre": "Mr & Mrs Smith",
             "annee": null,
@@ -30959,8 +30652,8 @@
                 "Action"
             ],
             "image": "https://image.tmdb.org/t/p/w342/q8JJ7vKuV7IFE6TIbViuPokqIpr.jpg",
-            "fichier": "/Box_Films/Action/Now you see me/Now.You.See.Me.1.2013.FRENCH.DVDRip.XviD-TMB.avi",
-            "nomFichier": "Now.You.See.Me.1.2013.FRENCH.DVDRip.XviD-TMB.avi",
+            "fichier": "/Box_Films/Action/Insaisissables/2013_Insaisissables_VF.avi",
+            "nomFichier": "2013_Insaisissables_VF.avi",
             "imdbId": null,
             "tmdbId": 75656,
             "tmdbUrl": "https://www.themoviedb.org/movie/75656",
@@ -31027,8 +30720,8 @@
                 "Action"
             ],
             "image": "https://image.tmdb.org/t/p/w342/w7Q9BAqpbPHSeo6ZDYRpFGpGUxn.jpg",
-            "fichier": "/Box_Films/Action/Now you see me/Now.You.See.Me.2.2016.TRUEFRENCH.BDRip.XViD-FUNKKY.avi",
-            "nomFichier": "Now.You.See.Me.2.2016.TRUEFRENCH.BDRip.XViD-FUNKKY.avi",
+            "fichier": "/Box_Films/Action/Insaisissables/2016_Insaisissables 2_VF.avi",
+            "nomFichier": "2016_Insaisissables 2_VF.avi",
             "imdbId": null,
             "tmdbId": 291805,
             "tmdbUrl": "https://www.themoviedb.org/movie/291805",
@@ -31095,8 +30788,8 @@
                 "Action"
             ],
             "image": "https://image.tmdb.org/t/p/w342/w7Q9BAqpbPHSeo6ZDYRpFGpGUxn.jpg",
-            "fichier": "/Box_Films/Action/Now.You.See.Me.2.2016.FANSUB.VOSTFR.BRRiP.XviD-ToRo.avi",
-            "nomFichier": "Now.You.See.Me.2.2016.FANSUB.VOSTFR.BRRiP.XviD-ToRo.avi",
+            "fichier": "/Box_Films/Action/Insaisissables/2016_Insaisissables 2_VOSTFR.avi",
+            "nomFichier": "2016_Insaisissables 2_VOSTFR.avi",
             "imdbId": null,
             "tmdbId": 291805,
             "tmdbUrl": "https://www.themoviedb.org/movie/291805",
@@ -31165,8 +30858,8 @@
                 "Action"
             ],
             "image": "https://image.tmdb.org/t/p/w342/rfjuf6kNLVnH8qOk6UZJBHQHKlF.jpg",
-            "fichier": "/Box_Films/Action/Insaisissables/Now.You.See.Me.Now.You.Dont.2025.MULTi.VFQ.WEBRip.x264-LCTL.mkv",
-            "nomFichier": "Now.You.See.Me.Now.You.Dont.2025.MULTi.VFQ.WEBRip.x264-LCTL.mkv",
+            "fichier": "/Box_Films/Action/Insaisissables/2025_Insaisissables 3_VO_VF_VOST_VOSTFR.mkv",
+            "nomFichier": "2025_Insaisissables 3_VO_VF_VOST_VOSTFR.mkv",
             "imdbId": null,
             "tmdbId": 425274,
             "tmdbUrl": "https://www.themoviedb.org/movie/425274",
@@ -31981,73 +31674,6 @@
             ]
         },
         {
-            "id": "paycheck_2003",
-            "titre": "Paycheck",
-            "annee": 2003,
-            "langue": [
-                "TBD"
-            ],
-            "taille": 734673496,
-            "genre": [
-                "Action"
-            ],
-            "image": "https://image.tmdb.org/t/p/w342/1uCDk42ayyjEtIsHIgR6yBy8DlM.jpg",
-            "fichier": "/Box_Films/Action/Paycheck (2003)/Paycheck.2003.720p.BrRip.x264.YIFY.mp4",
-            "nomFichier": "Paycheck.2003.720p.BrRip.x264.YIFY.mp4",
-            "imdbId": null,
-            "tmdbId": 9620,
-            "tmdbUrl": "https://www.themoviedb.org/movie/9620",
-            "doublonExact": false,
-            "doublonProbable": true,
-            "groupeDoublon": "paycheck",
-            "dateAjout": "2026-08-22T08:23:33.549Z",
-            "titreTmdb": "Paycheck",
-            "anneeTmdb": "2003",
-            "dureeTmdb": 119,
-            "descriptionTmdb": "L'ingénieur Michael Jennings travaille sur des projets top-secrets, commandités par des sociétés de haute technologie. À l'issue de chaque mission, sa mémoire est \"effacée\" par contrat pour l'empêcher de divulguer la moindre information confidentielle. Puis un chèque substantiel lui est remis. Mais cette fois, l'enveloppe ne contient aucun argent, que des objets hétéroclites : à en croire l'employeur, Jennings aurai renoncé par avance à ses honoraires habituels. Celui-ci découvre que ces objets sont autant d'indices relatifs à son passé - un passé \"remis à zéro\" dont sa mémoire n'a gardé que d'infimes traces. Un seul espoir pour percer ce mystère : la femme avec qui il travaille et qu'il aime depuis trois ans : Rachel. Une course contre la montre s'engage. Jennings n'a que quelques heures pour recomposer le puzzle de sa vie et échapper à la vengeance de son implacable employeur.",
-            "collectionId": null,
-            "collectionNom": null,
-            "collectionDescription": null,
-            "collectionImage": null,
-            "collectionTmdbUrl": null,
-            "type": "Film",
-            "studio": null,
-            "technique": {
-                "largeur": 1280,
-                "hauteur": 544,
-                "resolution": "1280x544",
-                "ratioImage": 2.353,
-                "codecVideo": "h264",
-                "profilVideo": "High",
-                "pixelFormat": "yuv420p",
-                "bitsParComposante": 8,
-                "bitrateVideo": 756866,
-                "framerate": 23.976,
-                "espaceCouleur": null,
-                "transfertCouleur": null,
-                "primairesCouleur": null,
-                "hdr": false,
-                "dureeFichier": 7126.126122,
-                "bitrateGlobal": 824766,
-                "formatConteneur": "mov,mp4,m4a,3gp,3g2,mj2",
-                "audio": [
-                    {
-                        "codec": "aac",
-                        "profil": "HE-AAC",
-                        "canaux": 2,
-                        "disposition": "stereo",
-                        "bitrate": 64223,
-                        "frequence": 48000,
-                        "langue": "eng"
-                    }
-                ],
-                "sousTitres": []
-            },
-            "titreOriginal": "Paycheck",
-            "langueOriginale": "en",
-            "fichierNormalise": "Paycheck_2003_TBD.mp4"
-        },
-        {
             "id": "paycheck_paglop",
             "titre": "Paycheck",
             "annee": null,
@@ -32056,17 +31682,17 @@
             ],
             "taille": 728369152,
             "genre": [
-                "Policier"
+                "Action"
             ],
             "image": "https://image.tmdb.org/t/p/w342/1uCDk42ayyjEtIsHIgR6yBy8DlM.jpg",
-            "fichier": "/Box_Films/Policier/Paycheck.TRUEFRENCH.DVDRip.Xvid-PaGlop.avi",
-            "nomFichier": "Paycheck.TRUEFRENCH.DVDRip.Xvid-PaGlop.avi",
+            "fichier": "/Box_Films/Action/Paycheck_2003_VF.avi",
+            "nomFichier": "Paycheck_2003_VF.avi",
             "imdbId": null,
             "tmdbId": 9620,
             "tmdbUrl": "https://www.themoviedb.org/movie/9620",
             "doublonExact": false,
-            "doublonProbable": true,
-            "groupeDoublon": "paycheck",
+            "doublonProbable": false,
+            "groupeDoublon": null,
             "dateAjout": "2026-08-22T08:23:33.737Z",
             "titreTmdb": "Paycheck",
             "anneeTmdb": "2003",
@@ -36822,7 +36448,7 @@
             "collectionDescription": "Cette saga nous dépeint la vie de Peter Parker, partagé entre se vie de lycéen lambda et ses aspirations de justicier, tout d'abord à l'échelle de son quartier et plus tard à une échelle planétaire au sein de la prestigieuse équipe des Avengers, chaperonné par Iron-Man, alias Tony Stark...",
             "collectionImage": "https://image.tmdb.org/t/p/w500/3BVng0lmJyYIUqm5dxLS2eZ2625.jpg",
             "collectionTmdbUrl": "https://www.themoviedb.org/collection/531241",
-            "type": null,
+            "type": "Film",
             "studio": "Marvel",
             "languesAudio": [
                 "FR"
@@ -36997,141 +36623,6 @@
             "fichierNormalise": "MI-5 Infiltration_2015_VF.avi"
         },
         {
-            "id": "star_trek_beyond_2016",
-            "titre": "Star Trek",
-            "annee": 2016,
-            "langue": [
-                "VF"
-            ],
-            "taille": 1480494002,
-            "genre": [
-                "Science-Fiction"
-            ],
-            "image": "https://image.tmdb.org/t/p/w342/aerpiFz3XsTg6ICP2qSxRriKTPd.jpg",
-            "fichier": "/Box_Films/Action/Star Trek/Star.Trek.2016.Beyond.2016.FRENCH.avi",
-            "nomFichier": "Star.Trek.2016.Beyond.2016.FRENCH.avi",
-            "imdbId": null,
-            "tmdbId": 188927,
-            "tmdbUrl": "https://www.themoviedb.org/movie/188927",
-            "doublonExact": false,
-            "doublonProbable": true,
-            "groupeDoublon": "star_trek",
-            "dateAjout": "2026-08-22T08:23:33.554Z",
-            "titreTmdb": "Star Trek : Sans limites",
-            "anneeTmdb": "2016",
-            "dureeTmdb": 123,
-            "descriptionTmdb": "L'équipage de l'USS Enterprise explore les confins de l'espace inconnu où ils rencontrent un nouvel ennemi impitoyable qui les met à l'épreuve, ainsi que tout ce que la Fédération représente.",
-            "collectionId": 115575,
-            "collectionNom": "Star Trek - Saga",
-            "collectionDescription": "Saga cinématographique Star Trek, troisième du nom.",
-            "collectionImage": "https://image.tmdb.org/t/p/w500/A8Y0BFIXpKv3AxbueUNnK6CdNCu.jpg",
-            "collectionTmdbUrl": "https://www.themoviedb.org/collection/115575",
-            "type": "Film",
-            "studio": null,
-            "technique": {
-                "largeur": 720,
-                "hauteur": 300,
-                "resolution": "720x300",
-                "ratioImage": 2.4,
-                "codecVideo": "mpeg4",
-                "profilVideo": "Simple Profile",
-                "pixelFormat": "yuv420p",
-                "bitsParComposante": null,
-                "bitrateVideo": 1467938,
-                "framerate": 23.976,
-                "espaceCouleur": null,
-                "transfertCouleur": null,
-                "primairesCouleur": null,
-                "hdr": false,
-                "dureeFichier": 7353.971625,
-                "bitrateGlobal": 1610551,
-                "formatConteneur": "avi",
-                "audio": [
-                    {
-                        "codec": "mp3",
-                        "profil": null,
-                        "canaux": 2,
-                        "disposition": "stereo",
-                        "bitrate": 128000,
-                        "frequence": 48000,
-                        "langue": null
-                    }
-                ],
-                "sousTitres": []
-            },
-            "titreOriginal": "Star Trek Beyond",
-            "ignoreInCollection": false,
-            "langueOriginale": "en",
-            "fichierNormalise": "2016_Star Trek Sans limites_VF.avi"
-        },
-        {
-            "id": "star_trek_beyond_2016",
-            "titre": "Star Trek",
-            "annee": 2016,
-            "langue": [
-                "TBD"
-            ],
-            "taille": 1995545915,
-            "genre": [
-                "Science-Fiction"
-            ],
-            "image": "https://image.tmdb.org/t/p/w342/aerpiFz3XsTg6ICP2qSxRriKTPd.jpg",
-            "fichier": "/Box_Films/Check Films/Star Trek Beyond (2016) [1080p] [YTS.AG]/Star.Trek.Beyond.2016.1080p.BluRay.x264-[YTS.AG].mp4",
-            "nomFichier": "Star.Trek.Beyond.2016.1080p.BluRay.x264-[YTS.AG].mp4",
-            "imdbId": null,
-            "tmdbId": 188927,
-            "tmdbUrl": "https://www.themoviedb.org/movie/188927",
-            "doublonExact": false,
-            "doublonProbable": true,
-            "groupeDoublon": "star_trek",
-            "dateAjout": "2026-08-22T08:23:33.584Z",
-            "titreTmdb": "Star Trek : Sans limites",
-            "anneeTmdb": "2016",
-            "dureeTmdb": 123,
-            "descriptionTmdb": "L'équipage de l'USS Enterprise explore les confins de l'espace inconnu où ils rencontrent un nouvel ennemi impitoyable qui les met à l'épreuve, ainsi que tout ce que la Fédération représente.",
-            "collectionId": 115575,
-            "collectionNom": "Star Trek - Saga",
-            "collectionDescription": "Saga cinématographique Star Trek, troisième du nom.",
-            "collectionImage": "https://image.tmdb.org/t/p/w500/A8Y0BFIXpKv3AxbueUNnK6CdNCu.jpg",
-            "collectionTmdbUrl": "https://www.themoviedb.org/collection/115575",
-            "type": "Film",
-            "studio": null,
-            "technique": {
-                "largeur": 1920,
-                "hauteur": 800,
-                "resolution": "1920x800",
-                "ratioImage": 2.4,
-                "codecVideo": "h264",
-                "profilVideo": "High",
-                "pixelFormat": "yuv420p",
-                "bitsParComposante": 8,
-                "bitrateVideo": 2049300,
-                "framerate": 23.976,
-                "espaceCouleur": null,
-                "transfertCouleur": null,
-                "primairesCouleur": null,
-                "hdr": false,
-                "dureeFichier": 7342.176,
-                "bitrateGlobal": 2174337,
-                "formatConteneur": "mov,mp4,m4a,3gp,3g2,mj2",
-                "audio": [
-                    {
-                        "codec": "aac",
-                        "profil": "LC",
-                        "canaux": 2,
-                        "disposition": "stereo",
-                        "bitrate": 119715,
-                        "frequence": 48000,
-                        "langue": "und"
-                    }
-                ],
-                "sousTitres": []
-            },
-            "titreOriginal": "Star Trek Beyond",
-            "langueOriginale": "en",
-            "fichierNormalise": "2016_Star Trek Sans limites_TBD.mp4"
-        },
-        {
             "id": "star_trek_2009",
             "titre": "Star Trek",
             "annee": 2009,
@@ -37240,6 +36731,144 @@
                 "FR"
             ],
             "fichierOriginal": "Star Trek 2009 MULTi VF2 1080p BluRay x264-PopHD.mkv"
+        },
+        {
+            "id": "star_trek_beyond_2016",
+            "titre": "Star Trek",
+            "annee": 2016,
+            "langue": [
+                "VF"
+            ],
+            "taille": 1480494002,
+            "genre": [
+                "Science-Fiction"
+            ],
+            "image": "https://image.tmdb.org/t/p/w342/aerpiFz3XsTg6ICP2qSxRriKTPd.jpg",
+            "fichier": "/Box_Films/Science-Fiction/Star Trek/2016_Star Trek Sans limites_VF.avi",
+            "nomFichier": "2016_Star Trek Sans limites_VF.avi",
+            "imdbId": null,
+            "tmdbId": 188927,
+            "tmdbUrl": "https://www.themoviedb.org/movie/188927",
+            "doublonExact": false,
+            "doublonProbable": true,
+            "groupeDoublon": "star_trek",
+            "dateAjout": "2026-08-22T08:23:33.554Z",
+            "titreTmdb": "Star Trek : Sans limites",
+            "anneeTmdb": "2016",
+            "dureeTmdb": 123,
+            "descriptionTmdb": "L'équipage de l'USS Enterprise explore les confins de l'espace inconnu où ils rencontrent un nouvel ennemi impitoyable qui les met à l'épreuve, ainsi que tout ce que la Fédération représente.",
+            "collectionId": 115575,
+            "collectionNom": "Star Trek - Saga",
+            "collectionDescription": "Saga cinématographique Star Trek, troisième du nom.",
+            "collectionImage": "https://image.tmdb.org/t/p/w500/A8Y0BFIXpKv3AxbueUNnK6CdNCu.jpg",
+            "collectionTmdbUrl": "https://www.themoviedb.org/collection/115575",
+            "type": "Film",
+            "studio": null,
+            "technique": {
+                "largeur": 720,
+                "hauteur": 300,
+                "resolution": "720x300",
+                "ratioImage": 2.4,
+                "codecVideo": "mpeg4",
+                "profilVideo": "Simple Profile",
+                "pixelFormat": "yuv420p",
+                "bitsParComposante": null,
+                "bitrateVideo": 1467938,
+                "framerate": 23.976,
+                "espaceCouleur": null,
+                "transfertCouleur": null,
+                "primairesCouleur": null,
+                "hdr": false,
+                "dureeFichier": 7353.971625,
+                "bitrateGlobal": 1610551,
+                "formatConteneur": "avi",
+                "audio": [
+                    {
+                        "codec": "mp3",
+                        "profil": null,
+                        "canaux": 2,
+                        "disposition": "stereo",
+                        "bitrate": 128000,
+                        "frequence": 48000,
+                        "langue": null
+                    }
+                ],
+                "sousTitres": []
+            },
+            "titreOriginal": "Star Trek Beyond",
+            "ignoreInCollection": false,
+            "langueOriginale": "en",
+            "fichierNormalise": "2016_Star Trek Sans limites_VF.avi"
+        },
+        {
+            "id": "star_trek_beyond_2016",
+            "titre": "Star Trek",
+            "annee": 2016,
+            "langue": [
+                "VO"
+            ],
+            "taille": 1995545915,
+            "genre": [
+                "Science-Fiction"
+            ],
+            "image": "https://image.tmdb.org/t/p/w342/aerpiFz3XsTg6ICP2qSxRriKTPd.jpg",
+            "fichier": "/Box_Films/Science-Fiction/Star Trek/2016_Star Trek Sans limites_VO.mp4",
+            "nomFichier": "2016_Star Trek Sans limites_VO.mp4",
+            "imdbId": null,
+            "tmdbId": 188927,
+            "tmdbUrl": "https://www.themoviedb.org/movie/188927",
+            "doublonExact": false,
+            "doublonProbable": true,
+            "groupeDoublon": "star_trek",
+            "dateAjout": "2026-08-22T08:23:33.584Z",
+            "titreTmdb": "Star Trek : Sans limites",
+            "anneeTmdb": "2016",
+            "dureeTmdb": 123,
+            "descriptionTmdb": "L'équipage de l'USS Enterprise explore les confins de l'espace inconnu où ils rencontrent un nouvel ennemi impitoyable qui les met à l'épreuve, ainsi que tout ce que la Fédération représente.",
+            "collectionId": 115575,
+            "collectionNom": "Star Trek - Saga",
+            "collectionDescription": "Saga cinématographique Star Trek, troisième du nom.",
+            "collectionImage": "https://image.tmdb.org/t/p/w500/A8Y0BFIXpKv3AxbueUNnK6CdNCu.jpg",
+            "collectionTmdbUrl": "https://www.themoviedb.org/collection/115575",
+            "type": "Film",
+            "studio": null,
+            "technique": {
+                "largeur": 1920,
+                "hauteur": 800,
+                "resolution": "1920x800",
+                "ratioImage": 2.4,
+                "codecVideo": "h264",
+                "profilVideo": "High",
+                "pixelFormat": "yuv420p",
+                "bitsParComposante": 8,
+                "bitrateVideo": 2049300,
+                "framerate": 23.976,
+                "espaceCouleur": null,
+                "transfertCouleur": null,
+                "primairesCouleur": null,
+                "hdr": false,
+                "dureeFichier": 7342.176,
+                "bitrateGlobal": 2174337,
+                "formatConteneur": "mov,mp4,m4a,3gp,3g2,mj2",
+                "audio": [
+                    {
+                        "codec": "aac",
+                        "profil": "LC",
+                        "canaux": 2,
+                        "disposition": "stereo",
+                        "bitrate": 119715,
+                        "frequence": 48000,
+                        "langue": "und"
+                    }
+                ],
+                "sousTitres": []
+            },
+            "titreOriginal": "Star Trek Beyond",
+            "langueOriginale": "en",
+            "fichierNormalise": "2016_Star Trek Sans limites_TBD.mp4",
+            "languesAudio": [
+                "EN"
+            ]
         },
         {
             "id": "star_trek_2013",
@@ -37523,7 +37152,7 @@
                 "Comédie musicale"
             ],
             "image": "https://image.tmdb.org/t/p/w342/ttwEygvi7j1TNhDTvfBROEHtHEY.jpg",
-            "fichier": "/Box_Films/Comédie musicale/Steppin'/2010_Steppin' 2_VF.avi",
+            "fichier": "/Box_Films/Comédie Musicale/Steppin'/2010_Steppin' 2_VF.avi",
             "nomFichier": "2010_Steppin' 2_VF.avi",
             "imdbId": null,
             "tmdbId": 33473,
@@ -38410,15 +38039,15 @@
             "titre": "Taxi 1",
             "annee": null,
             "langue": [
-                "TBD"
+                "VF"
             ],
             "taille": 735076352,
             "genre": [
                 "Action"
             ],
             "image": "https://image.tmdb.org/t/p/w342/5d16tJ2DLImAwCY2w0LYZjgWZA1.jpg",
-            "fichier": "/Box_Films/Action/Taxi/Taxi_1_by_naceraz.avi",
-            "nomFichier": "Taxi_1_by_naceraz.avi",
+            "fichier": "/Box_Films/Action/Taxi/1998_Taxi_VF.avi",
+            "nomFichier": "1998_Taxi_VF.avi",
             "imdbId": null,
             "tmdbId": 2330,
             "tmdbUrl": "https://www.themoviedb.org/movie/2330",
@@ -38471,22 +38100,25 @@
             },
             "titreOriginal": "Taxi",
             "langueOriginale": "fr",
-            "fichierNormalise": "1998_Taxi_TBD.avi"
+            "fichierNormalise": "1998_Taxi_TBD.avi",
+            "languesAudio": [
+                "FR"
+            ]
         },
         {
             "id": "taxi_2_by_naceraz",
             "titre": "Taxi 2",
             "annee": null,
             "langue": [
-                "TBD"
+                "VF"
             ],
             "taille": 729001984,
             "genre": [
                 "Action"
             ],
             "image": "https://image.tmdb.org/t/p/w342/ykpuFTUtnpqJqIvmEOMCZtTwaeg.jpg",
-            "fichier": "/Box_Films/Action/Taxi/Taxi_2_by_naceraz.avi",
-            "nomFichier": "Taxi_2_by_naceraz.avi",
+            "fichier": "/Box_Films/Action/Taxi/2000_Taxi 2_VF.avi",
+            "nomFichier": "2000_Taxi 2_VF.avi",
             "imdbId": null,
             "tmdbId": 2332,
             "tmdbUrl": "https://www.themoviedb.org/movie/2332",
@@ -38539,22 +38171,25 @@
             },
             "titreOriginal": "Taxi 2",
             "langueOriginale": "fr",
-            "fichierNormalise": "2000_Taxi 2_TBD.avi"
+            "fichierNormalise": "2000_Taxi 2_TBD.avi",
+            "languesAudio": [
+                "FR"
+            ]
         },
         {
             "id": "taxi_3_by_naceraz",
             "titre": "Taxi 3",
             "annee": null,
             "langue": [
-                "TBD"
+                "VF"
             ],
             "taille": 721797120,
             "genre": [
                 "Action"
             ],
             "image": "https://image.tmdb.org/t/p/w342/7WFk7RUzVpOgd8v2SExD7XHjd1y.jpg",
-            "fichier": "/Box_Films/Action/Taxi/Taxi_3_by_naceraz.avi",
-            "nomFichier": "Taxi_3_by_naceraz.avi",
+            "fichier": "/Box_Films/Action/Taxi/2003_Taxi 3_VF.avi",
+            "nomFichier": "2003_Taxi 3_VF.avi",
             "imdbId": null,
             "tmdbId": 2334,
             "tmdbUrl": "https://www.themoviedb.org/movie/2334",
@@ -38607,22 +38242,25 @@
             },
             "titreOriginal": "Taxi 3",
             "langueOriginale": "fr",
-            "fichierNormalise": "2003_Taxi 3_TBD.avi"
+            "fichierNormalise": "2003_Taxi 3_TBD.avi",
+            "languesAudio": [
+                "FR"
+            ]
         },
         {
             "id": "taxi_4_by_naceraz",
             "titre": "Taxi 4",
             "annee": null,
             "langue": [
-                "TBD"
+                "VF"
             ],
             "taille": 734343168,
             "genre": [
                 "Action"
             ],
             "image": "https://image.tmdb.org/t/p/w342/w24fH10gcaX1pf2VkViBzNgHVt5.jpg",
-            "fichier": "/Box_Films/Action/Taxi/Taxi_4_by-naceraz.avi",
-            "nomFichier": "Taxi_4_by-naceraz.avi",
+            "fichier": "/Box_Films/Action/Taxi/2007_Taxi 4_VF.avi",
+            "nomFichier": "2007_Taxi 4_VF.avi",
             "imdbId": null,
             "tmdbId": 2335,
             "tmdbUrl": "https://www.themoviedb.org/movie/2335",
@@ -38675,7 +38313,10 @@
             },
             "titreOriginal": "Taxi 4",
             "langueOriginale": "fr",
-            "fichierNormalise": "2007_Taxi 4_TBD.avi"
+            "fichierNormalise": "2007_Taxi 4_TBD.avi",
+            "languesAudio": [
+                "FR"
+            ]
         },
         {
             "id": "taxi_5_1_2018",
@@ -39063,7 +38704,7 @@
             "collectionDescription": "Série de films de super-héros basée sur le personnage de Marvel Comics Spider-Man. Il s'agit d'un redémarrage de la franchise de films Spider-Man. La première trilogie a eu lieu de 2002 à 2007.",
             "collectionImage": "https://image.tmdb.org/t/p/w500/60aoW1EVSXLACkHn0lqeKlW6LhS.jpg",
             "collectionTmdbUrl": "https://www.themoviedb.org/collection/125574",
-            "type": null,
+            "type": "Film",
             "studio": "Marvel",
             "languesAudio": [
                 "EN",
@@ -39178,7 +38819,7 @@
             "collectionDescription": "Série de films de super-héros basée sur le personnage de Marvel Comics Spider-Man. Il s'agit d'un redémarrage de la franchise de films Spider-Man. La première trilogie a eu lieu de 2002 à 2007.",
             "collectionImage": "https://image.tmdb.org/t/p/w500/60aoW1EVSXLACkHn0lqeKlW6LhS.jpg",
             "collectionTmdbUrl": "https://www.themoviedb.org/collection/125574",
-            "type": null,
+            "type": "Film",
             "studio": null,
             "languesAudio": [
                 "EN",
@@ -39270,7 +38911,7 @@
                 "Action"
             ],
             "image": "https://image.tmdb.org/t/p/w342/1heUoLYAHVAKn0ehIF9ASOg2jUv.jpg",
-            "fichier": "/Box_Films/Action/Les Bad Guys/2025_Les Bad Guys 2_VO_VF_VOST_VOSTFR.mp4",
+            "fichier": "/Box_Films/Animation/Les Bad Guys/2025_Les Bad Guys 2_VO_VF_VOST_VOSTFR.mp4",
             "nomFichier": "2025_Les Bad Guys 2_VO_VF_VOST_VOSTFR.mp4",
             "imdbId": null,
             "tmdbId": 1175942,
@@ -39523,7 +39164,7 @@
             "collectionDescription": "La trilogie très acclamée « The Dark Knight » de Christopher Nolan se compose de BATMAN BEGINS, THE DARK KNIGHT et THE DARK KNIGHT RISES. BATMAN BEGINS explore les origines de la légende de Batman et l’émergence du Dark Knight comme puissance au service du bien. Dans THE DARK KNIGHT, Batman s’efforce de démanteler les dernières organisations criminelles qui sévissent à Gotham, mais se retrouve rapidement au centre d’un chaos total orchestré par un nouveau génie du crime, le Joker. Dans THE DARK KNIGHT RISES, Batman a disparu dans la nuit. Le héros est devenu fugitif après avoir été rendu responsable de la mort de Harvey Dent. L’émergence de Bane, un terroriste masqué qui a préparé un plan diabolique pour Gotham, le force à sortir de son exil volontaire. Mais même s’il porte à nouveau le costume, Batman n’est peut être pas de taille face à cette nouvelle menace.",
             "collectionImage": "https://image.tmdb.org/t/p/w500/ee1TdZpvSJ2O1fda2orJvLiJ74R.jpg",
             "collectionTmdbUrl": "https://www.themoviedb.org/collection/263",
-            "type": null,
+            "type": "Film",
             "studio": "Marvel",
             "languesAudio": [
                 "EN",
@@ -39633,7 +39274,7 @@
             "collectionDescription": "La trilogie très acclamée « The Dark Knight » de Christopher Nolan se compose de BATMAN BEGINS, THE DARK KNIGHT et THE DARK KNIGHT RISES. BATMAN BEGINS explore les origines de la légende de Batman et l’émergence du Dark Knight comme puissance au service du bien. Dans THE DARK KNIGHT, Batman s’efforce de démanteler les dernières organisations criminelles qui sévissent à Gotham, mais se retrouve rapidement au centre d’un chaos total orchestré par un nouveau génie du crime, le Joker. Dans THE DARK KNIGHT RISES, Batman a disparu dans la nuit. Le héros est devenu fugitif après avoir été rendu responsable de la mort de Harvey Dent. L’émergence de Bane, un terroriste masqué qui a préparé un plan diabolique pour Gotham, le force à sortir de son exil volontaire. Mais même s’il porte à nouveau le costume, Batman n’est peut être pas de taille face à cette nouvelle menace.",
             "collectionImage": "https://image.tmdb.org/t/p/w500/ee1TdZpvSJ2O1fda2orJvLiJ74R.jpg",
             "collectionTmdbUrl": "https://www.themoviedb.org/collection/263",
-            "type": null,
+            "type": "Film",
             "studio": "Marvel",
             "languesAudio": [
                 "EN",
@@ -40315,8 +39956,8 @@
                 "Science-Fiction"
             ],
             "image": "https://image.tmdb.org/t/p/w342/kCF43aQ77ShTfKyY8vAJBVHN5j3.jpg",
-            "fichier": "/Box_Films/Action/Matrix/The.Matrix.4.Resurrections.2021.FRENCH.HDRip.XviD-EXTREME.avi",
-            "nomFichier": "The.Matrix.4.Resurrections.2021.FRENCH.HDRip.XviD-EXTREME.avi",
+            "fichier": "/Box_Films/Science-Fiction/Matrix/2021_Matrix Resurrections_VF.avi",
+            "nomFichier": "2021_Matrix Resurrections_VF.avi",
             "imdbId": null,
             "tmdbId": 624860,
             "tmdbUrl": "https://www.themoviedb.org/movie/624860",
@@ -41296,7 +40937,7 @@
                 "Comédie musicale"
             ],
             "image": "https://image.tmdb.org/t/p/w342/ttwEygvi7j1TNhDTvfBROEHtHEY.jpg",
-            "fichier": "/Box_Films/Comédie musicale/Steppin'/2010_Steppin' 2_VO.mp4",
+            "fichier": "/Box_Films/Comédie Musicale/Steppin'/2010_Steppin' 2_VO.mp4",
             "nomFichier": "2010_Steppin' 2_VO.mp4",
             "imdbId": null,
             "tmdbId": 33473,
@@ -41351,7 +40992,7 @@
             "languesAudio": [
                 "EN"
             ],
-            "type": null,
+            "type": "Film",
             "studio": null
         },
         {
@@ -65983,12 +65624,12 @@
     "stockage": [
         {
             "lecteur": "Y",
-            "espaceLibre": 408453578752,
+            "espaceLibre": 410405220352,
             "capaciteTotale": 2000396742656
         },
         {
             "lecteur": "Z",
-            "espaceLibre": 95476961280,
+            "espaceLibre": 95476932608,
             "capaciteTotale": 1000169533440
         }
     ]

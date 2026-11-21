@@ -307,22 +307,25 @@ function updateStats() {
 }
 
 function updateStorageStats() {
-  const container = document.getElementById("homeStorageStats");
-  if (!container || !catalog.stockage) {
+  const containers = document.querySelectorAll(
+    "#homeStorageStats, #sidebarStorageStats",
+  );
+  if (!containers.length || !catalog.stockage) {
     return;
   }
-  container.innerHTML = "";
-  for (const stockage of catalog.stockage) {
-    const gigaBytes = stockage.espaceLibre / (1024 * 1024 * 1024);
-    const level =
-      gigaBytes >= 150 ? "green" : gigaBytes >= 40 ? "orange" : "red";
-    const item = document.createElement("span");
-    item.className = `storage-item storage-${level}`;
-    item.innerHTML = `${stockage.lecteur}: ${formatMediaSize(stockage.espaceLibre)}`;
-    container.appendChild(item);
+  for (const container of containers) {
+    container.innerHTML = "";
+    for (const stockage of catalog.stockage) {
+      const gigaBytes = stockage.espaceLibre / (1024 * 1024 * 1024);
+      const level =
+        gigaBytes >= 150 ? "green" : gigaBytes >= 40 ? "orange" : "red";
+      const item = document.createElement("span");
+      item.className = `storage-item storage-${level}`;
+      item.innerHTML = `${stockage.lecteur}: ${formatMediaSize(stockage.espaceLibre)}`;
+      container.appendChild(item);
+    }
   }
 }
-
 function formatMediaSize(size) {
   const megaBytes = size / (1024 * 1024);
   const gigaBytes = size / (1024 * 1024 * 1024);

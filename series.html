@@ -21,9 +21,13 @@
                         <div class="sidebar-title">Statistiques</div>
                         <div class="sidebar-stat"><span id="sideSeries">0</span> Séries</div>
                         <div class="sidebar-stat"><span id="sideEpisodes">0</span> Épisodes</div>
-                        <div class="sidebar-stat"><span></span></div>
                         <div class="sidebar-section"></div>
                     
+                        <div class="sidebar-title">Espace disponible</div>
+                        <div id="sidebarStorageStats"></div>
+                        <div class="sidebar-stat" style="cursor: pointer;" onclick="reloadCatalog('series')">Scan des séries</div>                
+                        <div class="sidebar-section"></div>
+
                         <div class="sidebar-title" id="ajoutsTitle">Selection</div>
                         <div id="ajoutsFilters"></div>
                         <div class="sidebar-section"></div>
@@ -104,8 +108,6 @@
             .then(html => {
                 document.getElementById("topbarContainer").innerHTML = html;
                 updateUserGreeting();
-                document.getElementById("topbarScanText").textContent = "Scan des séries";
-                document.getElementById("topbarScanButton").onclick = () => reloadCatalog("series");
             });
     </script>
 

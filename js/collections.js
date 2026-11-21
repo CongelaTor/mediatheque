@@ -320,8 +320,8 @@ function renderCollections() {
 }
 
 async function scanCollectionsTmdb() {
-  const button = document.getElementById("topbarScanButton");
-  const buttonText = document.getElementById("topbarScanText");
+  const progress = document.getElementById("collectionScanProgress");
+  const current = document.getElementById("collectionScanCurrent");
   const collectionIds = [
     ...new Set(
       catalog.films
@@ -333,13 +333,15 @@ async function scanCollectionsTmdb() {
     alert("Aucune collection à mettre à jour.");
     return;
   }
-  button.disabled = true;
-  buttonText.textContent = `Scan 0/${collectionIds.length}`;
+  document.getElementById("collectionScanTotal").textContent =
+    collectionIds.length;
+  current.textContent = "0";
+  progress.classList.add("visible");
   try {
     const collections = [];
     for (let index = 0; index < collectionIds.length; index += 1) {
       const collectionId = collectionIds[index];
-      buttonText.textContent = `Scan ${index + 1}/${collectionIds.length}`;
+      current.textContent = index + 1;
       const response = await fetch(
         `https://api.themoviedb.org/3/collection/${collectionId}?api_key=${appConstants.tmdbApiKey}&language=fr-FR`,
       );
@@ -384,12 +386,10 @@ async function scanCollectionsTmdb() {
     alert(
       `${result.updatedCollections} collections mises à jour.\n${result.addedFilms} films manquants ajoutés.`,
     );
-    buttonText.textContent = "Scan terminé";
   } catch (error) {
     console.error(error);
     alert(`Échec du scan : ${error.message}`);
   } finally {
-    button.disabled = false;
-    buttonText.textContent = "Scan des collections";
+    progress.classList.remove("visible");
   }
 }

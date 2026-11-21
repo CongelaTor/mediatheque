@@ -303,7 +303,11 @@ function renderFilmFiles(films) {
 
   panel.appendChild(filesList);
 }
-const { getNormalizedFilmFileName, formatFilmLanguages } = filmNormalization;
+const {
+  getNormalizedFilmFileName,
+  getNormalizedFilmPath,
+  formatFilmLanguages,
+} = filmNormalization;
 
 function formatTechnicalCodec(codec) {
   const codecs = {
@@ -376,6 +380,7 @@ function getTechnicalQualityClass(width) {
   }
   return "film-technical-low";
 }
+
 function getFilmNormalizationClass(film) {
   const languages = formatFilmLanguages(film.langue);
   const audioLanguages = Array.isArray(film.languesAudio)
@@ -390,15 +395,19 @@ function getFilmNormalizationClass(film) {
   const hasFrenchAudio = audioLanguages.includes("FR");
   const hasOriginalAudio = audioLanguages.some((language) => language !== "FR");
   if (
-    languages.includes("VO") &&
-    languages.includes("VF") &&
-    hasFrenchAudio &&
-    hasOriginalAudio
+    (film.langueOriginale === "fr" &&
+      languages.includes("VF") &&
+      hasFrenchAudio) ||
+    (languages.includes("VO") &&
+      languages.includes("VF") &&
+      hasFrenchAudio &&
+      hasOriginalAudio)
   ) {
     return "film-technical-good";
   }
   return "film-technical-medium";
 }
+
 function updateFilmNormalizationClass(metadata, film) {
   metadata.classList.remove(
     "film-technical-good",
@@ -855,10 +864,10 @@ function createFilmFileCard(film) {
   normalizedPathInfo.className = "film-file-folder mediaserver-only";
   normalizedPathInfo.textContent = normalizedFileName;
   normalizedPathInfo.hidden = true;
-  const normalizedPath = `${getFilmFolder(film.fichier)}/${normalizedFileName || film.nomFichier}`;
-
+  const normalizedPath = getNormalizedFilmPath(film);
   const isCurrentPathCorrect =
-    film.fichier.replaceAll("\\", "/") === normalizedPath.replaceAll("\\", "/");
+    film.fichier.replaceAll("\\", "/") ===
+    normalizedPath?.replaceAll("\\", "/");
   const hasValidDestination = Array.isArray(film.genre)
     ? film.genre.length === 1 && Boolean(film.genre[0])
     : Boolean(film.genre);

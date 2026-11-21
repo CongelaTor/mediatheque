@@ -138,6 +138,7 @@ function renderFilms() {
       if (!window.selectedCollectionId) {
         return (
           (currentAjouts === "Nouveautés" ||
+            currentStudio !== "all" ||
             !film.collectionId ||
             !film.collectionNom) &&
           film.fileCount > 0
@@ -155,6 +156,17 @@ function renderFilms() {
       matchesSearch(film.titreTmdb ? film.titreTmdb : film.titre),
     );
   if (window.selectedCollectionId) {
+    films = films.sort((a, b) => {
+      const anneeA = a.anneeTmdb || a.annee || 0;
+      const anneeB = b.anneeTmdb || b.annee || 0;
+      if (anneeA !== anneeB) {
+        return anneeA - anneeB;
+      }
+      const titreA = a.titreTmdb || a.titre;
+      const titreB = b.titreTmdb || b.titre;
+      return titreA.localeCompare(titreB, "fr");
+    });
+  } else if (currentStudio !== "all") {
     films = films.sort((a, b) => {
       const anneeA = a.anneeTmdb || a.annee || 0;
       const anneeB = b.anneeTmdb || b.annee || 0;
@@ -405,30 +417,42 @@ function showFilmSearchModal(film) {
     originalTitle.localeCompare(frenchTitle, "fr", {
       sensitivity: "base",
     }) === 0;
+  const savedTitle = localStorage.getItem("filmSearchTitle") || "original";
+  const savedYear = localStorage.getItem("filmSearchYear") !== "false";
   originalTitleButton.textContent = originalTitle;
   originalTitleButton.dataset.title = originalTitle;
-  originalTitleButton.classList.add("active");
+  originalTitleButton.classList.toggle(
+    "active",
+    savedTitle === "original" || sameTitle,
+  );
   frenchTitleButton.textContent = frenchTitle;
   frenchTitleButton.dataset.title = frenchTitle;
-  frenchTitleButton.classList.remove("active");
+  frenchTitleButton.classList.toggle(
+    "active",
+    savedTitle === "french" && !sameTitle,
+  );
   frenchTitleButton.style.display = sameTitle ? "none" : "";
-
   const hasValidYear = year && String(year) !== "2100";
   yearButton.textContent = hasValidYear ? year : "";
   yearButton.dataset.year = hasValidYear ? year : "";
-  yearButton.classList.toggle("active", Boolean(hasValidYear));
+  yearButton.classList.toggle("active", Boolean(hasValidYear) && savedYear);
   yearButton.style.display = hasValidYear ? "" : "none";
-
   originalTitleButton.onclick = () => {
     originalTitleButton.classList.add("active");
     frenchTitleButton.classList.remove("active");
+    localStorage.setItem("filmSearchTitle", "original");
   };
   frenchTitleButton.onclick = () => {
     frenchTitleButton.classList.add("active");
     originalTitleButton.classList.remove("active");
+    localStorage.setItem("filmSearchTitle", "french");
   };
   yearButton.onclick = () => {
     yearButton.classList.toggle("active");
+    localStorage.setItem(
+      "filmSearchYear",
+      yearButton.classList.contains("active"),
+    );
   };
   renderFilmSearchButtons(buttonsContainer);
   document.getElementById("filmSearchModal").classList.remove("hidden");
@@ -459,8 +483,8 @@ function renderFilmSearchButtons(container) {
         "%20",
         separator,
       );
-      window.open(`${site.url}${encodedSearchText}`, "_blank", "noopener");
-      // window.open(`${site.url}${encodedSearchText}`, 'FilmSearchWindow', 'noopener,noreferrer');
+      // window.open(`${site.url}${encodedSearchText}`, "_blank", "noopener");
+      window.location.href = `${site.url}${encodedSearchText}`;
       closeFilmSearchModal();
     };
     container.appendChild(button);

@@ -21,7 +21,13 @@
                         <div class="sidebar-stat"><span id="sideCollections">0</span> Collections</div>
                         <div class="sidebar-stat"><span id="sideFilms">0</span> Films</div>
                         <div class="sidebar-section"></div>
-                        
+
+                        <div class="sidebar-title">Espace disponible</div>
+                        <div id="sidebarStorageStats"></div>
+                        <div class="sidebar-stat" style="cursor: pointer;" onclick="scanCollectionsTmdb()">Scan des collections</div>
+                        <div class="sidebar-stat" style="cursor: pointer;" onclick="reloadCatalog('films')">Scan des films</div>                
+                        <div class="sidebar-section"></div>
+
                         <div class="sidebar-title" id="ajoutsTitle">Selection</div>
                         <div id="ajoutsFilters"></div>
                         <div class="sidebar-section"></div>
@@ -71,6 +77,13 @@
         </main>
     </div>
 
+    <div id="collectionScanProgress"  class="toast">
+        Scan des collections : 
+        <span id="collectionScanCurrent">0</span>
+        /
+        <span id="collectionScanTotal">0</span>
+    </div>
+
     <div id="scanModal" class="tmdb-modal hidden linux-hidden">
         <div class="tmdb-modal-panel">
             <div class="tmdb-modal-header">
@@ -92,8 +105,6 @@
             .then(html => {
                 document.getElementById("topbarContainer").innerHTML = html;
                 updateUserGreeting();
-                document.getElementById("topbarScanText").textContent = "Scan des collections";
-                document.getElementById("topbarScanButton").onclick = scanCollectionsTmdb;
             });
     </script>
 

@@ -22,6 +22,12 @@
                         <div class="sidebar-stat"><span id="sideFilms">0</span> Films</div>
                         <div class="sidebar-stat" style="display: none;"><span id="sideNouveautes">0</span> Nouveautés</div>
                         <div class="sidebar-section"></div>
+
+                        <div class="sidebar-title">Espace disponible</div>
+                        <div id="sidebarStorageStats"></div>
+                        <div class="sidebar-stat" style="cursor: pointer;" onclick="scanCollectionsTmdb()">Scan des collections</div>
+                        <div class="sidebar-stat" style="cursor: pointer;" onclick="reloadCatalog('films')">Scan des films</div>                
+                        <div class="sidebar-section"></div>
                     </aside>
                     <section class="content">
                         <div class="content-header">
@@ -41,11 +47,11 @@
                         </div>
 
                         <div id="filmDetailActionsRow" class="film-detail-actions-row">
-                            <button id="filmSearchButton" class="tmdb-associate-button">Rechercher</button>
                             <div id="filmMetadataButtons" class="language-filters">
                                 <button id="filmTypeButton" class="language-button">Type</button>
                                 <button id="filmGenreButton" class="language-button">Genre</button>
                                 <button id="filmStudioButton" class="language-button">Studio</button>
+                                <button id="filmSearchButton" class="tmdb-associate-button">Rechercher</button>
                             </div>
                         </div>
                         <div id="filmMetadataChoices" class="film-metadata-choices" hidden></div>
@@ -76,6 +82,13 @@
             <div id="tmdbSearchTokens" class="tmdb-search-tokens"></div>
             <div id="tmdbResults" class="tmdb-results"></div>
         </div>
+    </div>
+
+    <div id="collectionScanProgress"  class="toast">
+        Scan des collections : 
+        <span id="collectionScanCurrent">0</span>
+        /
+        <span id="collectionScanTotal">0</span>
     </div>
 
     <div id="filmSearchModal" class="tmdb-modal hidden">
@@ -120,8 +133,6 @@
             .then(html => {
                 document.getElementById("topbarContainer").innerHTML = html;
                 updateUserGreeting();
-                document.getElementById("topbarScanText").textContent = "Scan des films";
-                document.getElementById("topbarScanButton").onclick = () => reloadCatalog("films");
             });
     </script>
 
