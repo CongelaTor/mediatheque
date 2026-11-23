@@ -351,7 +351,9 @@ function getTechnicalQualityClass(width) {
 }
 
 function getFilmNormalizationClass(film) {
-  const languages = formatFilmLanguages(film.langue);
+  const languages = Array.isArray(film.langue)
+    ? film.langue
+    : [film.langue || "TBD"];
   const audioLanguages = Array.isArray(film.languesAudio)
     ? film.languesAudio
     : getTechnicalLanguages(film.technique?.audio);
@@ -363,6 +365,12 @@ function getFilmNormalizationClass(film) {
   }
   const hasFrenchAudio = audioLanguages.includes("FR");
   const hasOriginalAudio = audioLanguages.some((language) => language !== "FR");
+  const hasMatchingSubtitles =
+    languages.includes("VOST") === subtitleLanguages.includes("eng") &&
+    languages.includes("VOSTFR") === subtitleLanguages.includes("fre");
+  if (!hasMatchingSubtitles) {
+    return "film-technical-low";
+  }
   if (
     (film.langueOriginale === "fr" &&
       languages.includes("VF") &&

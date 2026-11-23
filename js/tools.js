@@ -52,6 +52,14 @@ async function initToolsPage() {
     ? sessionStorage.getItem("selectedCollectionId")
     : null;
 
+  // Déplacement des fichiers de la liste au clic sur le bouton "Déplacer"
+  const moveFilesButton = document.getElementById("moveFilesButton");
+  if (moveFilesButton) {
+    moveFilesButton.onclick = async () => {
+      await moveDisplayedFilmFiles(moveFilesButton);
+    };
+  }
+
   document.getElementById("applyToAllButton").onclick = () => {
     applyToAll = !applyToAll;
     document
@@ -384,6 +392,10 @@ function filmMatchesAjouts(fichier) {
       (showStudio && hasMetadataError(fichier, "studio"))
     );
   }
+  if (currentAjouts === "À déplacer") {
+    const normalizedPath = filmNormalization.getNormalizedFilmPath(fichier);
+    return normalizedPath && fichier.fichier !== normalizedPath;
+  }
   return false;
 }
 
@@ -436,6 +448,77 @@ async function saveFilmMetadata(fichiers) {
 }
 
 let displayedFiles = [];
+
+// Déplacement d'un fichier de film
+async function moveToolFilmFile(film) {
+  if (!film?.fichier) {
+    return;
+  }
+  const previousFileName =
+    film.nomFichier ||
+    film.fichier.substring(film.fichier.lastIndexOf("/") + 1);
+
+  const previousPath = film.fichier;
+  const normalizedFileName = filmNormalization.getNormalizedFilmFileName(film);
+  const response = await fetch("http://localhost:9876/move-film-file", {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/json",
+    },
+    body: JSON.stringify({
+      fichier: film.fichier,
+      nomFichier: normalizedFileName,
+    }),
+  });
+  if (!response.ok) {
+    showToast(await response.text(), "error", 5000);
+    return;
+  }
+  const result = await response.json();
+  film.fichierOriginal = film.fichierOriginal || film.nomFichier;
+  film.fichier = result.fichier;
+  film.nomFichier = result.nomFichier;
+  console.log("Déplacer", {
+    nomFichierAvant: previousFileName,
+    nomFichierApres: film.nomFichier,
+    cheminAvant: previousPath,
+    cheminApres: film.fichier,
+  });
+  return true;
+}
+
+async function moveDisplayedFilmFiles(button) {
+  const filesToMove = applyToAll
+    ? [...displayedFiles]
+    : displayedFiles.slice(0, 1);
+  if (filesToMove.length === 0) {
+    showToast("Aucun fichier à déplacer");
+    return;
+  }
+  if (button) {
+    button.disabled = true;
+    button.style.backgroundColor = "#f9a8d4";
+  }
+  let movedCount = 0;
+  try {
+    for (let index = 0; index < filesToMove.length; index += 1) {
+      const film = filesToMove[index];
+      const moved = await moveToolFilmFile(film);
+      if (moved) {
+        movedCount += 1;
+      }
+    }
+    renderTools();
+    showToast(
+      `${movedCount} fichier${movedCount > 1 ? "s" : ""} déplacé${movedCount > 1 ? "s" : ""} sur ${filesToMove.length}`,
+    );
+  } finally {
+    if (button) {
+      button.disabled = false;
+      button.style.removeProperty("background-color");
+    }
+  }
+}
 
 function findUnknownGenres() {
   const knownGenres = new Set([...FILTER_GENRES, ...TMDB_IGNORE_GENRES]);

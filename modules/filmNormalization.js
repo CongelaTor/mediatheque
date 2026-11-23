@@ -48,12 +48,19 @@
       .toLowerCase();
     const isAnimation = filmType === "animation";
     const isAnime = filmType === "anime";
+    const isSpectacle = filmType === "spectacle";
     const genres = Array.isArray(film.genre)
       ? film.genre.filter(Boolean)
       : film.genre
         ? [film.genre]
         : [];
-    if (!isMarvel && !isAnimation && !isAnime && genres.length !== 1) {
+    if (
+      !isMarvel &&
+      !isAnimation &&
+      !isAnime &&
+      !isSpectacle &&
+      genres.length !== 1
+    ) {
       return null;
     }
     const destinationCategory = isMarvel
@@ -62,7 +69,10 @@
         ? "Animation"
         : isAnime
           ? "Anime"
-          : sanitizeFolderName(genres[0]);
+          : isSpectacle
+            ? "Spectacle"
+            : sanitizeFolderName(genres[0]);
+            
     const collectionName = sanitizeFolderName(
       String(film.collectionNom || "").replace(/\s*-\s*saga\s*$/i, ""),
     );

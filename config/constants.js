@@ -2,7 +2,7 @@ const FILTER_DOUBLONS_NB_FICHIERS = 3;
 const FILTER_AJOUTS = {
   collections: ["Récents", "À compléter", "Doublons"],
   films: ["Nouveautés", "Récents", "Doublons", "À déplacer"],
-  tools: ["Nouveautés", "Récents", "Doublons", "À corriger"],
+  tools: ["Nouveautés", "Récents", "Doublons", "À corriger", "À déplacer"],
   series: ["Nouveautés", "Récents", "À compléter"],
 };
 const FILTER_TYPES = ["Animation", "Anime", "Film", "Spectacle"];
@@ -32,7 +32,7 @@ const TMDB_IGNORE_GENRES = [
   "Thriller",
   "Western",
 ];
-const FILTER_STUDIOS = ["DC", "Disney", "Disney Classic", "Marvel", "Pixar"];
+const FILTER_STUDIOS = ["Disney", "Disney Classic", "Marvel", "Pixar"];
 
 const FILTER_QUALITIES = ["Haute", "Moyenne", "Basse"];
 

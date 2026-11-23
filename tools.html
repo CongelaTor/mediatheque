@@ -42,7 +42,8 @@
                                 onclick="selectAjouts('Récents')">Récents</button>
                             <button class="sidebar-link" data-ajouts="À corriger"
                                 onclick="selectAjouts('À corriger')">À corriger</button>
-                        </div>
+                            <button class="sidebar-link" data-ajouts="À déplacer"
+                                onclick="selectAjouts('À déplacer')">À déplacer</button>                        </div>
                         <div class="sidebar-section"></div>
 
                         <div class="sidebar-title" id="genreTitle">Genre</div>
@@ -72,6 +73,8 @@
                         </div>
       
                         <div id="languageFilters" class="language-filters">
+                            <button id="moveFilesButton" class="language-button">Déplacer</button>
+                            <span class="tools-filter-separator"></span>
                             <button class="language-button active" data-language="VO">VO</button>
                             <button class="language-button active" data-language="VF">VF</button>
                             <button class="language-button active" data-language="VOST">VOST</button>
@@ -154,6 +157,7 @@
     <script src="js/media.js"></script>
     <script src="js/playback.js"></script>
     <script src="js/tmdb.js"></script>
+    <script src="modules/filmNormalization.js"></script>
     <script src="js/tools.js"></script>
     <script src="js/collections.js"></script>
     <script src="js/app-init.js"></script>
