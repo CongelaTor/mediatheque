@@ -91,12 +91,6 @@ async function initFilmDetailPage() {
   const referenceFilm = films[0];
   document.getElementById("filmSearchButton").onclick = () =>
     showFilmSearchModal(referenceFilm);
-  document.getElementById("filmTypeButton").onclick = () =>
-    showFilmMetadataChoices("type", "Type", FILTER_TYPES, films);
-  document.getElementById("filmGenreButton").onclick = () =>
-    showFilmMetadataChoices("genre", "Genre", FILTER_GENRES, films);
-  document.getElementById("filmStudioButton").onclick = () =>
-    showFilmMetadataChoices("studio", "Studio", FILTER_STUDIOS, films);
 
   console.log("tmdbId =", tmdbId);
   console.log("films =", films);
@@ -153,31 +147,7 @@ async function initFilmDetailPage() {
   };
 
   updateLanguageFilters(films);
-  updateFilmMetadataButtons(films);
   renderFilmFiles(films);
-}
-
-function updateFilmMetadataButtons(films) {
-  const metadata = [
-    { id: "filmTypeButton", field: "type", label: "Type" },
-    { id: "filmGenreButton", field: "genre", label: "Genre" },
-    { id: "filmStudioButton", field: "studio", label: "Studio" },
-  ];
-  for (const { id, field, label } of metadata) {
-    const button = document.getElementById(id);
-    const values = [
-      ...new Set(
-        films.flatMap((film) => {
-          const value = film[field];
-          return Array.isArray(value) ? value : value ? [value] : [];
-        }),
-      ),
-    ];
-    button.textContent = values[0] || label;
-    button.classList.toggle("metadata-error", values.length > 1);
-    button.style.background =
-      id === "filmStudioButton" && values.length === 0 ? "#64748b" : "";
-  }
 }
 
 function showFilmMetadataChoices(field, label, choices, films) {
@@ -239,7 +209,6 @@ function showFilmMetadataChoices(field, label, choices, films) {
         showToast(await response.text(), "error");
         return;
       }
-      updateFilmMetadataButtons(films);
       choicesContainer.hidden = true;
       choicesContainer.dataset.field = "";
     };
@@ -860,11 +829,106 @@ function createFilmFileCard(film) {
   pathInfo.className = "film-file-folder mediaserver-only";
   pathInfo.textContent = film.fichier;
   const normalizedFileName = getNormalizedFilmFileName(film);
+
   const normalizedPathInfo = document.createElement("div");
   normalizedPathInfo.className = "film-file-folder mediaserver-only";
   normalizedPathInfo.textContent = normalizedFileName;
   normalizedPathInfo.hidden = true;
+
+  const fileMetadataButtons = document.createElement("div");
+  fileMetadataButtons.className = "language-filters";
+  const fileTypeButton = document.createElement("button");
+  fileTypeButton.className = "language-button";
+  fileTypeButton.textContent = film.type || "Type";
+  const fileGenreButton = document.createElement("button");
+  fileGenreButton.className = "language-button";
+  fileGenreButton.textContent = Array.isArray(film.genre)
+    ? film.genre[0] || "Genre"
+    : film.genre || "Genre";
+  const fileStudioButton = document.createElement("button");
+  fileStudioButton.className = "language-button";
+  fileStudioButton.textContent = film.studio || "Studio";
+  fileStudioButton.style.background = film.studio ? "" : "#64748b";
+  const fileMetadataChoices = document.createElement("div");
+  fileMetadataChoices.className = "film-metadata-choices";
+  fileMetadataChoices.hidden = true;
+  const showFileMetadataChoices = (field, choices) => {
+    if (
+      !fileMetadataChoices.hidden &&
+      fileMetadataChoices.dataset.field === field
+    ) {
+      fileMetadataChoices.hidden = true;
+      fileMetadataChoices.dataset.field = "";
+      return;
+    }
+    const currentValue = film[field];
+    const currentValues = Array.isArray(currentValue)
+      ? currentValue
+      : currentValue
+        ? [currentValue]
+        : [];
+    fileMetadataChoices.dataset.field = field;
+    fileMetadataChoices.innerHTML = "";
+    fileMetadataChoices.hidden = false;
+    fileMetadataChoices.classList.toggle(
+      "film-metadata-choices-genres",
+      field === "genre",
+    );
+    for (const choice of choices) {
+      const button = document.createElement("button");
+      button.type = "button";
+      button.textContent = choice;
+      button.className = "language-button";
+      button.classList.toggle("active", currentValues.includes(choice));
+      button.onclick = async () => {
+        const value =
+          field === "studio" &&
+          currentValues.length === 1 &&
+          currentValues[0] === choice
+            ? null
+            : field === "genre"
+              ? [choice]
+              : choice;
+        film[field] = value;
+        const response = await fetch(
+          "http://localhost:9876/save-film-metadata",
+          {
+            method: "POST",
+            headers: {
+              "Content-Type": "application/json",
+            },
+            body: JSON.stringify({
+              fichiers: [
+                {
+                  fichier: film.fichier,
+                  tmdbId: film.tmdbId || null,
+                  type: film.type || null,
+                  genre: film.genre || [],
+                  studio: film.studio || null,
+                },
+              ],
+            }),
+          },
+        );
+        if (!response.ok) {
+          showToast(await response.text(), "error");
+          return;
+        }
+        card.replaceWith(createFilmFileCard(film));
+      };
+      fileMetadataChoices.appendChild(button);
+    }
+  };
+  fileTypeButton.onclick = () => showFileMetadataChoices("type", FILTER_TYPES);
+  fileGenreButton.onclick = () =>
+    showFileMetadataChoices("genre", FILTER_GENRES);
+  fileStudioButton.onclick = () =>
+    showFileMetadataChoices("studio", FILTER_STUDIOS);
+  fileMetadataButtons.appendChild(fileTypeButton);
+  fileMetadataButtons.appendChild(fileGenreButton);
+  fileMetadataButtons.appendChild(fileStudioButton);
   const normalizedPath = getNormalizedFilmPath(film);
+
   const isCurrentPathCorrect =
     film.fichier.replaceAll("\\", "/") ===
     normalizedPath?.replaceAll("\\", "/");
@@ -872,19 +936,42 @@ function createFilmFileCard(film) {
     ? film.genre.length === 1 && Boolean(film.genre[0])
     : Boolean(film.genre);
   const hasValidType = Boolean(film.type);
+  const films = catalog.films.filter((item) => item.tmdbId === film.tmdbId);
+  const hasTypeError =
+    !FILTER_TYPES.includes(film.type) ||
+    new Set(films.map((item) => item.type).filter(Boolean)).size > 1;
+  const hasGenreError =
+    new Set(
+      films.flatMap((item) =>
+        Array.isArray(item.genre) ? item.genre : item.genre ? [item.genre] : [],
+      ),
+    ).size > 1;
+  const hasStudioError =
+    new Set(films.map((item) => item.studio).filter(Boolean)).size > 1;
+  const hasMetadataError = hasTypeError || hasGenreError || hasStudioError;
+  fileTypeButton.classList.toggle("metadata-error", hasTypeError);
+  fileGenreButton.classList.toggle("metadata-error", hasGenreError);
+  fileStudioButton.classList.toggle("metadata-error", hasStudioError);
+  fileMetadataButtons.hidden = !hasMetadataError && isCurrentPathCorrect;
   pathInfo.style.color = isCurrentPathCorrect ? "#1ec98b" : "#ef4444";
   moveButton.classList.toggle(
     "move-available",
     !isCurrentPathCorrect && hasValidDestination && hasValidType,
   );
   pathInfo.onclick = () => {
-    originalPathInfo.hidden = !originalPathInfo.hidden;
-    normalizedPathInfo.hidden = originalPathInfo.hidden;
+    const showDetails = originalPathInfo.hidden;
+    originalPathInfo.hidden = !showDetails;
+    normalizedPathInfo.hidden = !showDetails;
+    fileMetadataButtons.hidden = !showDetails && !hasMetadataError;
+    fileMetadataChoices.hidden = true;
+    fileMetadataChoices.dataset.field = "";
   };
   card.appendChild(playbackRow);
-  card.appendChild(originalPathInfo);
   card.appendChild(pathInfo);
+  card.appendChild(originalPathInfo);
   card.appendChild(normalizedPathInfo);
+  card.appendChild(fileMetadataButtons);
+  card.appendChild(fileMetadataChoices);
   return card;
 }
 function formatFilmFileSize(size) {

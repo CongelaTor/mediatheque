@@ -1,6 +1,6 @@
 {
     "version": 1,
-    "dateDernierScan": "2026-11-23T08:58:24.879Z",
+    "dateDernierScan": "2026-11-23T12:29:04.450Z",
     "collections": [
         {
             "collectionId": 645,
@@ -973,8 +973,8 @@
                 "Action"
             ],
             "image": "https://image.tmdb.org/t/p/w342/soOzhbIggxpBvxcFTJy5hvRJs37.jpg",
-            "fichier": "/Box_Films/Action/12 Rounds/12.Rounds.1.2009.1080p.BluRay.x264-[YTS.AG].mp4",
-            "nomFichier": "12.Rounds.1.2009.1080p.BluRay.x264-[YTS.AG].mp4",
+            "fichier": "/Box_Films/Action/12 Rounds/2009_12 Rounds_TBD.mp4",
+            "nomFichier": "2009_12 Rounds_TBD.mp4",
             "imdbId": null,
             "tmdbId": 17134,
             "tmdbUrl": "https://www.themoviedb.org/movie/17134",
@@ -1103,15 +1103,15 @@
             "annee": 2015,
             "langue": [
                 "VO",
-                "VF"
+                "VOST"
             ],
             "taille": 1021548047,
             "genre": [
                 "Action"
             ],
             "image": "https://image.tmdb.org/t/p/w342/3wAIu7q72mINXVplVnU6pMbZmQQ.jpg",
-            "fichier": "/Box_Films/Action/12 Rounds/12.Rounds.3.Lockdown.2015.720p.Blu-Ray.Multi.Audio.Hin.Eng.Tam.Tel.ESub.x264.Shadow.mkv",
-            "nomFichier": "12.Rounds.3.Lockdown.2015.720p.Blu-Ray.Multi.Audio.Hin.Eng.Tam.Tel.ESub.x264.Shadow.mkv",
+            "fichier": "/Box_Films/Action/12 Rounds/2015_12 Rounds 3 Lockdown_VO_VOST.mkv",
+            "nomFichier": "2015_12 Rounds 3 Lockdown_VO_VOST.mkv",
             "imdbId": null,
             "tmdbId": 351901,
             "tmdbUrl": "https://www.themoviedb.org/movie/351901",
@@ -1197,7 +1197,10 @@
             "type": "Film",
             "studio": null,
             "ignoreInCollection": false,
-            "fichierNormalise": "2015_12 Rounds 3 Lockdown_VO_VF.mkv"
+            "fichierNormalise": "2015_12 Rounds 3 Lockdown_VO_VF.mkv",
+            "languesSousTitres": [
+                "EN"
+            ]
         },
         {
             "id": "2_fast_2",
@@ -1318,7 +1321,7 @@
                 "Science-Fiction"
             ],
             "image": "https://image.tmdb.org/t/p/w342/A0tw88n1byyR2vodhJMlFPQGQgF.jpg",
-            "fichier": "/01_Films/Marvel/2015 a Avengers.Age.Of.Ultron.2015.TRUEFRENCH.720p.BluRay.x264-AViTECH.mkv",
+            "fichier": "/Box_Films/- Nouveaux/2015 a Avengers.Age.Of.Ultron.2015.TRUEFRENCH.720p.BluRay.x264-AViTECH.mkv",
             "nomFichier": "2015 a Avengers.Age.Of.Ultron.2015.TRUEFRENCH.720p.BluRay.x264-AViTECH.mkv",
             "imdbId": null,
             "tmdbId": 99861,
@@ -1392,7 +1395,7 @@
                 "Science-Fiction"
             ],
             "image": "https://image.tmdb.org/t/p/w342/A0tw88n1byyR2vodhJMlFPQGQgF.jpg",
-            "fichier": "/01_Films/Marvel/2015 a Avengers.Age.Of.Ultron.2015.TRUEFRENCH.BDRiP.XViD-AViTECH.avi",
+            "fichier": "/Box_Films/- Nouveaux/2015 a Avengers.Age.Of.Ultron.2015.TRUEFRENCH.BDRiP.XViD-AViTECH.avi",
             "nomFichier": "2015 a Avengers.Age.Of.Ultron.2015.TRUEFRENCH.BDRiP.XViD-AViTECH.avi",
             "imdbId": null,
             "tmdbId": 99861,
@@ -1453,14 +1456,15 @@
             "annee": 2018,
             "langue": [
                 "VO",
-                "VF"
+                "VF",
+                "VOSTFR"
             ],
             "taille": 3731661516,
             "genre": [
                 "Science-Fiction"
             ],
             "image": "https://image.tmdb.org/t/p/w342/g94IcdzPswTYl1ISdgn2EwvaZtt.jpg",
-            "fichier": "/01_Films/Marvel/2018 a Black.Panther.2018.MULTi.1080p.BluRay.Light.x264.AC3-ACOOL.mkv",
+            "fichier": "/Box_Films/- Nouveaux/2018 a Black.Panther.2018.MULTi.1080p.BluRay.Light.x264.AC3-ACOOL.mkv",
             "nomFichier": "2018 a Black.Panther.2018.MULTi.1080p.BluRay.Light.x264.AC3-ACOOL.mkv",
             "imdbId": null,
             "tmdbId": 284054,
@@ -1534,7 +1538,10 @@
             "titreOriginal": "Black Panther",
             "langueOriginale": "en",
             "ignoreInCollection": false,
-            "fichierNormalise": "2018_Black Panther_VO_VF.mkv"
+            "fichierNormalise": "2018_Black Panther_VO_VF.mkv",
+            "languesSousTitres": [
+                "FR"
+            ]
         },
         {
             "id": "a_captain_2019",
@@ -1549,7 +1556,7 @@
                 "Science-Fiction"
             ],
             "image": "https://image.tmdb.org/t/p/w342/aRJAoQ6mqPHAKXjP3CqNyLC8FAh.jpg",
-            "fichier": "/01_Films/Marvel/2019 a Captain.Marvel.2019.MULTi.1080p.HDLight.x264.AC3-EXTREME.mkv",
+            "fichier": "/Box_Films/- Nouveaux/2019 a Captain.Marvel.2019.MULTi.1080p.HDLight.x264.AC3-EXTREME.mkv",
             "nomFichier": "2019 a Captain.Marvel.2019.MULTi.1080p.HDLight.x264.AC3-EXTREME.mkv",
             "imdbId": null,
             "tmdbId": 299537,
@@ -1640,7 +1647,7 @@
                 "Science-Fiction"
             ],
             "image": "https://image.tmdb.org/t/p/w342/i2nc9IAP1xRWoa3MgeR7ldsshkV.jpg",
-            "fichier": "/01_Films/Marvel/2016 a Captain America Civil War (2016) VF2-ENG AC3 BluRay 1080p x264.GHT.mkv",
+            "fichier": "/Box_Films/- Nouveaux/2016 a Captain America Civil War (2016) VF2-ENG AC3 BluRay 1080p x264.GHT.mkv",
             "nomFichier": "2016 a Captain America Civil War (2016) VF2-ENG AC3 BluRay 1080p x264.GHT.mkv",
             "imdbId": null,
             "tmdbId": 271110,
@@ -1761,7 +1768,7 @@
                 "Science-Fiction"
             ],
             "image": "https://image.tmdb.org/t/p/w342/n3Xa8g1sWrUVUal6zk0OoC9ARo1.jpg",
-            "fichier": "/01_Films/Marvel/2014 a Captain.America.The.Winter.Soldier.2014.FRENCH.720p.BluRay.x264.DTS-EXTREME.mkv",
+            "fichier": "/Box_Films/- Nouveaux/2014 a Captain.America.The.Winter.Soldier.2014.FRENCH.720p.BluRay.x264.DTS-EXTREME.mkv",
             "nomFichier": "2014 a Captain.America.The.Winter.Soldier.2014.FRENCH.720p.BluRay.x264.DTS-EXTREME.mkv",
             "imdbId": null,
             "tmdbId": 100402,
@@ -1835,7 +1842,7 @@
                 "Science-Fiction"
             ],
             "image": "https://image.tmdb.org/t/p/w342/37BOdZZUajNHrytfrE5iOeboCxR.jpg",
-            "fichier": "/01_Films/Marvel/A Funny Thing Happened on the Way to Thor's Hammer (2011).mp4",
+            "fichier": "/Box_Films/- Nouveaux/A Funny Thing Happened on the Way to Thor's Hammer (2011).mp4",
             "nomFichier": "A Funny Thing Happened on the Way to Thor's Hammer (2011).mp4",
             "imdbId": null,
             "tmdbId": 76535,
@@ -2010,7 +2017,7 @@
                 "Science-Fiction"
             ],
             "image": "https://image.tmdb.org/t/p/w342/brgkPEPQJNGLuKRy8omRTcDfDuL.jpg",
-            "fichier": "/01_Films/Marvel/2017 a Guardians.of.the.Galaxy.Vol.2.2017.FRENCH.BDRip.XviD-GZR.avi",
+            "fichier": "/Box_Films/- Nouveaux/2017 a Guardians.of.the.Galaxy.Vol.2.2017.FRENCH.BDRip.XviD-GZR.avi",
             "nomFichier": "2017 a Guardians.of.the.Galaxy.Vol.2.2017.FRENCH.BDRip.XviD-GZR.avi",
             "imdbId": null,
             "tmdbId": 283995,
@@ -2081,8 +2088,8 @@
                 "Science-Fiction"
             ],
             "image": "https://image.tmdb.org/t/p/w342/yO3NvHzHOJjisLBS6oi9rL0fiLd.jpg",
-            "fichier": "/Box_Films/Science-Fiction/A_la_poursuite_de_demain_2015_MULTi_VFF_1080p_HDLight_x264.GHT.mkv",
-            "nomFichier": "A_la_poursuite_de_demain_2015_MULTi_VFF_1080p_HDLight_x264.GHT.mkv",
+            "fichier": "/Box_Films/Science-Fiction/À la poursuite de demain_2015_VO_VF_VOST_VOSTFR.mkv",
+            "nomFichier": "À la poursuite de demain_2015_VO_VF_VOST_VOSTFR.mkv",
             "imdbId": null,
             "tmdbId": 158852,
             "tmdbUrl": "https://www.themoviedb.org/movie/158852",
@@ -2182,7 +2189,7 @@
                 "Science-Fiction"
             ],
             "image": "https://image.tmdb.org/t/p/w342/q8pF6s9b9veTQvxTqMDIQf9nJKi.jpg",
-            "fichier": "/01_Films/Marvel/2011 a Thor 2011 MULTi FR2 1080p HDLight x264.GHT-ZT.mkv",
+            "fichier": "/Box_Films/- Nouveaux/2011 a Thor 2011 MULTi FR2 1080p HDLight x264.GHT-ZT.mkv",
             "nomFichier": "2011 a Thor 2011 MULTi FR2 1080p HDLight x264.GHT-ZT.mkv",
             "imdbId": null,
             "tmdbId": 10195,
@@ -2396,7 +2403,7 @@
                 "Science-Fiction"
             ],
             "image": "https://image.tmdb.org/t/p/w342/7HQwVOFeEZexIahUnJ3LIbrCxsc.jpg",
-            "fichier": "/01_Films/Marvel/Albator corsaire de l'espace.avi",
+            "fichier": "/Box_Films/- Nouveaux/Albator corsaire de l'espace.avi",
             "nomFichier": "Albator corsaire de l'espace.avi",
             "imdbId": null,
             "tmdbId": 192577,
@@ -2738,7 +2745,7 @@
                 "Policier"
             ],
             "image": "https://image.tmdb.org/t/p/w342/68aijpvaZoP4TtBhMlYXVraakcE.jpg",
-            "fichier": "/01_Films/Action/Angles d'attaque - VF.avi",
+            "fichier": "/Box_Films/- Nouveaux/Angles d'attaque - VF.avi",
             "nomFichier": "Angles d'attaque - VF.avi",
             "imdbId": null,
             "tmdbId": 7461,
@@ -4216,28 +4223,16 @@
             "genre": [
                 "Science-Fiction"
             ],
-            "image": "https://image.tmdb.org/t/p/w342/wF7jv3x51hXgkl7t5KHePuRjXc8.jpg",
-            "fichier": "/01_Films/Marvel/2019 b Marvel - Avengers 04 - Endgame [ATG 2019] French 1080p x265 AAC.mp4",
-            "nomFichier": "2019 b Marvel - Avengers 04 - Endgame [ATG 2019] French 1080p x265 AAC.mp4",
+            "image": "https://image.tmdb.org/t/p/w342/qXekTarZKRrVfnBwhS6xevt6BGU.jpg",
+            "fichier": "/Box_Films/Marvel/Avengers/2019_Avengers Endgame_VF.mp4",
+            "nomFichier": "2019_Avengers Endgame_VF.mp4",
             "imdbId": null,
             "tmdbId": 299534,
             "tmdbUrl": "https://www.themoviedb.org/movie/299534",
             "doublonExact": false,
             "doublonProbable": false,
             "groupeDoublon": null,
-            "dateAjout": "2026-08-27T11:57:48.221Z",
-            "titreTmdb": "Avengers : Endgame",
-            "anneeTmdb": "2019",
-            "dureeTmdb": 181,
-            "descriptionTmdb": "Après leur défaite face au Titan Thanos qui dans le film précédent s'est approprié toutes les pierres du Gant de l'infini, les Avengers et les Gardiens de la Galaxie ayant survécu à son claquement de doigts qui a pulvérisé « la moitié de toute forme de vie dans l'Univers », Captain America, Thor, Bruce Banner, Natasha Romanoff, War Machine, Tony Stark, Nébula et Rocket, vont essayer de trouver une solution pour ramener leurs coéquipiers disparus et vaincre Thanos en se faisant aider par Ronin alias Clint Barton, Captain Marvel et Ant-Man.",
-            "collectionId": 86311,
-            "collectionNom": "Avengers - Saga",
-            "collectionDescription": "Une série de films de super-héros produite par Marvel Studios qui se base sur l'équipe de super-héros issue de l'univers de Marvel Comics. La série met en scène des super-héros unissant leurs forces pour aider l'organisation de maintien de la paix SHIELD dirigée par Nick Fury.",
-            "collectionImage": "https://image.tmdb.org/t/p/w500/qvWDDPlo2MT7YCU4NSVxCgStxqu.jpg",
-            "collectionTmdbUrl": "https://www.themoviedb.org/collection/86311",
-            "type": "Film",
-            "studio": "Marvel",
-            "ignoreInCollection": false,
+            "dateAjout": "2026-11-23T12:17:14.003Z",
             "technique": {
                 "largeur": 1920,
                 "hauteur": 804,
@@ -4269,9 +4264,20 @@
                 ],
                 "sousTitres": []
             },
+            "fichierNormalise": "b Avengers Endgame_2019_VF.mp4",
+            "titreTmdb": "Avengers : Endgame",
             "titreOriginal": "Avengers: Endgame",
             "langueOriginale": "en",
-            "fichierNormalise": "2019_Avengers Endgame_VF.mp4"
+            "anneeTmdb": "2019",
+            "dureeTmdb": 181,
+            "descriptionTmdb": "Après leur défaite face au Titan Thanos qui dans le film précédent s'est approprié toutes les pierres du Gant de l'infini, les Avengers et les Gardiens de la Galaxie ayant survécu à son claquement de doigts qui a pulvérisé « la moitié de toute forme de vie dans l'Univers », Captain America, Thor, Bruce Banner, Natasha Romanoff, War Machine, Tony Stark, Nébula et Rocket, vont essayer de trouver une solution pour ramener leurs coéquipiers disparus et vaincre Thanos en se faisant aider par Ronin alias Clint Barton, Captain Marvel et Ant-Man.",
+            "collectionId": 86311,
+            "collectionNom": "Avengers - Saga",
+            "collectionDescription": "Une série de films de super-héros produite par Marvel Studios qui se base sur l'équipe de super-héros issue de l'univers de Marvel Comics. La série met en scène des super-héros unissant leurs forces pour aider l'organisation de maintien de la paix SHIELD dirigée par Nick Fury.",
+            "collectionImage": "https://image.tmdb.org/t/p/w500/qvWDDPlo2MT7YCU4NSVxCgStxqu.jpg",
+            "collectionTmdbUrl": "https://www.themoviedb.org/collection/86311",
+            "type": "Film",
+            "studio": "Marvel"
         },
         {
             "id": "b_avengers_infinity_war_2018",
@@ -4279,15 +4285,16 @@
             "annee": 2018,
             "langue": [
                 "VO",
-                "VF"
+                "VF",
+                "VOSTFR"
             ],
             "taille": 4366311293,
             "genre": [
                 "Science-Fiction"
             ],
             "image": "https://image.tmdb.org/t/p/w342/hSfuKPtyEryeFzapZ8UgZd4aESu.jpg",
-            "fichier": "/01_Films/Marvel/2018 b Avengers.Infinity.War.2018.MULTi.1080p.HDLight.x264-RDH.mkv",
-            "nomFichier": "2018 b Avengers.Infinity.War.2018.MULTi.1080p.HDLight.x264-RDH.mkv",
+            "fichier": "/Box_Films/Marvel/Avengers/2018_Avengers Infinity War_VO_VF_VOSTFR.mkv",
+            "nomFichier": "2018_Avengers Infinity War_VO_VF_VOSTFR.mkv",
             "imdbId": null,
             "tmdbId": 299536,
             "tmdbUrl": "https://www.themoviedb.org/movie/299536",
@@ -4360,7 +4367,10 @@
             "titreOriginal": "Avengers: Infinity War",
             "langueOriginale": "en",
             "ignoreInCollection": false,
-            "fichierNormalise": "2018_Avengers Infinity War_VO_VF.mkv"
+            "fichierNormalise": "2018_Avengers Infinity War_VO_VF.mkv",
+            "languesSousTitres": [
+                "FR"
+            ]
         },
         {
             "id": "b_girl_stv_slim_2009",
@@ -4438,7 +4448,7 @@
                 "Science-Fiction"
             ],
             "image": "https://image.tmdb.org/t/p/w342/9a6fGeSV5kffyNPPMWCPhLOhLdJ.jpg",
-            "fichier": "/01_Films/Marvel/2014 b Guardians.of.the.Galaxy.2014.FRENCH.BDRip.XviD-GLUPS.avi",
+            "fichier": "/Box_Films/- Nouveaux/2014 b Guardians.of.the.Galaxy.2014.FRENCH.BDRip.XviD-GLUPS.avi",
             "nomFichier": "2014 b Guardians.of.the.Galaxy.2014.FRENCH.BDRip.XviD-GLUPS.avi",
             "imdbId": null,
             "tmdbId": 118340,
@@ -4506,7 +4516,7 @@
                 "Science-Fiction"
             ],
             "image": "https://image.tmdb.org/t/p/w342/wFNNv1ZHglNdXJLYiEgpLY5sa9S.jpg",
-            "fichier": "/01_Films/Marvel/2017 b SpiderMan Home Coming 2017 1080p VFF EN X264 AC3-mHDgz.mkv",
+            "fichier": "/Box_Films/- Nouveaux/2017 b SpiderMan Home Coming 2017 1080p VFF EN X264 AC3-mHDgz.mkv",
             "nomFichier": "2017 b SpiderMan Home Coming 2017 1080p VFF EN X264 AC3-mHDgz.mkv",
             "imdbId": null,
             "tmdbId": 315635,
@@ -4603,7 +4613,7 @@
                 "Science-Fiction"
             ],
             "image": "https://image.tmdb.org/t/p/w342/eAIGX0nlwlb5sMb4uDRGNFqMyG9.jpg",
-            "fichier": "/01_Films/Marvel/2013 b Thor.The.Dark.World.2013.FANSUB.VOSTFR.HDRiP.XviD.AC3-NIKOo.avi",
+            "fichier": "/Box_Films/- Nouveaux/2013 b Thor.The.Dark.World.2013.FANSUB.VOSTFR.HDRiP.XviD.AC3-NIKOo.avi",
             "nomFichier": "2013 b Thor.The.Dark.World.2013.FANSUB.VOSTFR.HDRiP.XviD.AC3-NIKOo.avi",
             "imdbId": null,
             "tmdbId": 76338,
@@ -4671,7 +4681,7 @@
                 "Science-Fiction"
             ],
             "image": "https://image.tmdb.org/t/p/w342/eAIGX0nlwlb5sMb4uDRGNFqMyG9.jpg",
-            "fichier": "/01_Films/Marvel/2013 b  Thor.The.Dark.World.2013.FRENCH.BRRip.XviD.AC3-S.V.avi",
+            "fichier": "/Box_Films/- Nouveaux/2013 b  Thor.The.Dark.World.2013.FRENCH.BRRip.XviD.AC3-S.V.avi",
             "nomFichier": "2013 b  Thor.The.Dark.World.2013.FRENCH.BRRip.XviD.AC3-S.V.avi",
             "imdbId": null,
             "tmdbId": 76338,
@@ -5729,7 +5739,7 @@
                 "Science-Fiction"
             ],
             "image": "https://image.tmdb.org/t/p/w342/rNTKgJdJ8tyfpiUug5ittECK8CS.jpg",
-            "fichier": "/01_Films/Marvel/2021 Black.Panther.Wakanda.Forever.HDRIP.Truefrench-T911.mp4",
+            "fichier": "/Box_Films/- Nouveaux/2021 Black.Panther.Wakanda.Forever.HDRIP.Truefrench-T911.mp4",
             "nomFichier": "2021 Black.Panther.Wakanda.Forever.HDRIP.Truefrench-T911.mp4",
             "imdbId": null,
             "tmdbId": 505642,
@@ -6271,7 +6281,7 @@
                 "Science-Fiction"
             ],
             "image": "https://image.tmdb.org/t/p/w342/9FkewgPxlMPjgKhFN7LaRJEqmCI.jpg",
-            "fichier": "/01_Films/Marvel/2019 c Spider-Man.Far.From.Home.2019.FRENCH.720p.BluRay.x264.AC3-EXTREME.mkv",
+            "fichier": "/Box_Films/- Nouveaux/2019 c Spider-Man.Far.From.Home.2019.FRENCH.720p.BluRay.x264.AC3-EXTREME.mkv",
             "nomFichier": "2019 c Spider-Man.Far.From.Home.2019.FRENCH.720p.BluRay.x264.AC3-EXTREME.mkv",
             "imdbId": null,
             "tmdbId": 429617,
@@ -6350,7 +6360,7 @@
                 "Science-Fiction"
             ],
             "image": "https://image.tmdb.org/t/p/w342/9FkewgPxlMPjgKhFN7LaRJEqmCI.jpg",
-            "fichier": "/01_Films/Marvel/2019 c Spiderman.Far.From.Home.720p.BluRay.HEVC.x265.AAC.2CH-SixTYnInE.mkv",
+            "fichier": "/Box_Films/- Nouveaux/2019 c Spiderman.Far.From.Home.720p.BluRay.HEVC.x265.AAC.2CH-SixTYnInE.mkv",
             "nomFichier": "2019 c Spiderman.Far.From.Home.720p.BluRay.HEVC.x265.AAC.2CH-SixTYnInE.mkv",
             "imdbId": null,
             "tmdbId": 429617,
@@ -6467,7 +6477,7 @@
                 "Science-Fiction"
             ],
             "image": "https://image.tmdb.org/t/p/w342/mAA8RXkgF87jSWWMSf6hgLl73mk.jpg",
-            "fichier": "/01_Films/Marvel/2017 c Thor.Ragnarok.2017.FRENCH.BDRip.XviD-FuN.avi",
+            "fichier": "/Box_Films/- Nouveaux/2017 c Thor.Ragnarok.2017.FRENCH.BDRip.XviD-FuN.avi",
             "nomFichier": "2017 c Thor.Ragnarok.2017.FRENCH.BDRip.XviD-FuN.avi",
             "imdbId": null,
             "tmdbId": 284053,
@@ -6535,7 +6545,7 @@
                 "Science-Fiction"
             ],
             "image": "https://image.tmdb.org/t/p/w342/mAA8RXkgF87jSWWMSf6hgLl73mk.jpg",
-            "fichier": "/01_Films/Marvel/2017 c Thor.Ragnarok.2017.VOSTFR.BRRip.XviD.AC3-ACOOL.avi",
+            "fichier": "/Box_Films/- Nouveaux/2017 c Thor.Ragnarok.2017.VOSTFR.BRRip.XviD.AC3-ACOOL.avi",
             "nomFichier": "2017 c Thor.Ragnarok.2017.VOSTFR.BRRip.XviD.AC3-ACOOL.avi",
             "imdbId": null,
             "tmdbId": 284053,
@@ -7131,7 +7141,7 @@
                 "Action"
             ],
             "image": "https://image.tmdb.org/t/p/w342/k2nCH7FrNM88CV0LsJ555WZhU55.jpg",
-            "fichier": "/01_Films/Marvel/Catwoman.2004.MULTi.TRUEFRENCH.1080p.BluRay.mHD.x264.AC3-RiFiFi.mkv",
+            "fichier": "/Box_Films/- Nouveaux/Catwoman.2004.MULTi.TRUEFRENCH.1080p.BluRay.mHD.x264.AC3-RiFiFi.mkv",
             "nomFichier": "Catwoman.2004.MULTi.TRUEFRENCH.1080p.BluRay.mHD.x264.AC3-RiFiFi.mkv",
             "imdbId": null,
             "tmdbId": 314,
@@ -9635,77 +9645,6 @@
             "fichierNormalise": "Déjà vu_2006_VO_VF.mp4"
         },
         {
-            "id": "demain_ne_meurt_jamais_cd2",
-            "titre": "Demain ne meurt jamais",
-            "annee": null,
-            "langue": [
-                "VO",
-                "VOST"
-            ],
-            "taille": 734105600,
-            "genre": [
-                "Action"
-            ],
-            "image": "https://image.tmdb.org/t/p/w342/6sHUh1Zvz5QXDJbSvGErfNatwBD.jpg",
-            "fichier": "/Box_Films/Action/James Bond 007/1997_Demain ne meurt jamais_VO_VOST.avi",
-            "nomFichier": "1997_Demain ne meurt jamais_VO_VOST.avi",
-            "imdbId": null,
-            "tmdbId": 714,
-            "tmdbUrl": "https://www.themoviedb.org/movie/714",
-            "doublonExact": false,
-            "doublonProbable": false,
-            "groupeDoublon": null,
-            "dateAjout": "2026-08-22T08:23:33.522Z",
-            "titreTmdb": "Demain ne meurt jamais",
-            "anneeTmdb": "1997",
-            "dureeTmdb": 115,
-            "descriptionTmdb": "L’agent 007, alias James Bond, a pour mission de localiser l’épave du « Devonshire », une frégate de la Royal Navy, perdue dans les eaux territoriales chinoises. Il doit également retrouver le coupable de l’attentat, un certain Henry Gupta, ancien gauchiste activement recherché par le FBI et, enfin, remonter jusqu’au cerveau de l’opération, Elliot Carver, propriétaire du quotidien « Tomorrow » et patron du plus grand empire médiatique de tous les temps.",
-            "collectionId": 645,
-            "collectionNom": "James Bond 007 - Saga",
-            "type": "Film",
-            "studio": null,
-            "technique": {
-                "largeur": 640,
-                "hauteur": 272,
-                "resolution": "640x272",
-                "ratioImage": 2.353,
-                "codecVideo": "msmpeg4v3",
-                "profilVideo": null,
-                "pixelFormat": "yuv420p",
-                "bitsParComposante": null,
-                "bitrateVideo": 1318527,
-                "framerate": 23.976,
-                "espaceCouleur": null,
-                "transfertCouleur": null,
-                "primairesCouleur": null,
-                "hdr": false,
-                "dureeFichier": 3430.722389,
-                "bitrateGlobal": 1711839,
-                "formatConteneur": "avi",
-                "audio": [
-                    {
-                        "codec": "ac3",
-                        "profil": null,
-                        "canaux": 6,
-                        "disposition": "5.1(side)",
-                        "bitrate": 384000,
-                        "frequence": 48000,
-                        "langue": null
-                    }
-                ],
-                "sousTitres": []
-            },
-            "titreOriginal": "Tomorrow Never Dies",
-            "langueOriginale": "en",
-            "fichierNormalise": "1997_Demain ne meurt jamais_VO.avi",
-            "languesSousTitres": [
-                "EN"
-            ],
-            "languesAudio": [
-                "EN"
-            ]
-        },
-        {
             "id": "despicable_me_3_2017",
             "titre": "Despicable Me 3",
             "annee": 2017,
@@ -11297,7 +11236,7 @@
                 "Science-Fiction"
             ],
             "image": "https://image.tmdb.org/t/p/w342/jSu4kzc5kpzLgTeVuYkvKBmAY6v.jpg",
-            "fichier": "/01_Films/Marvel/Elektra.DIRECTORS.CUT.2005.1080p.BrRip.x264.BOKUTOX.YIFY.mp4",
+            "fichier": "/Box_Films/- Nouveaux/Elektra.DIRECTORS.CUT.2005.1080p.BrRip.x264.BOKUTOX.YIFY.mp4",
             "nomFichier": "Elektra.DIRECTORS.CUT.2005.1080p.BrRip.x264.BOKUTOX.YIFY.mp4",
             "imdbId": null,
             "tmdbId": 9947,
@@ -12014,7 +11953,7 @@
                 "Science-Fiction"
             ],
             "image": "https://image.tmdb.org/t/p/w342/vV7TrS7PNRZJHCxNmiYN1SU7s1w.jpg",
-            "fichier": "/01_Films/Marvel/Eternals 1 2021 BR EAC3 VFF VFQ ENG 1080p x265 10Bits T0M.mkv",
+            "fichier": "/Box_Films/- Nouveaux/Eternals 1 2021 BR EAC3 VFF VFQ ENG 1080p x265 10Bits T0M.mkv",
             "nomFichier": "Eternals 1 2021 BR EAC3 VFF VFQ ENG 1080p x265 10Bits T0M.mkv",
             "imdbId": null,
             "tmdbId": 524434,
@@ -13612,7 +13551,7 @@
                 "Science-Fiction"
             ],
             "image": "https://image.tmdb.org/t/p/w342/lG7Rv88OANLVbeR6Zymlid1cRuk.jpg",
-            "fichier": "/01_Films/Action/Free.Guy.2021.MULTi.TRUEFRENCH.1080p.BluRay.x264.AC3-EXTREME.mkv",
+            "fichier": "/Box_Films/- Nouveaux/Free.Guy.2021.MULTi.TRUEFRENCH.1080p.BluRay.x264.AC3-EXTREME.mkv",
             "nomFichier": "Free.Guy.2021.MULTi.TRUEFRENCH.1080p.BluRay.x264.AC3-EXTREME.mkv",
             "imdbId": null,
             "tmdbId": 550988,
@@ -16069,7 +16008,7 @@
                 "Science-Fiction"
             ],
             "image": "https://image.tmdb.org/t/p/w342/hbQsanZqt1Nuo48o9q6ZR3pFvk6.jpg",
-            "fichier": "/01_Films/Marvel/Green Hornet - VF.avi",
+            "fichier": "/Box_Films/- Nouveaux/Green Hornet - VF.avi",
             "nomFichier": "Green Hornet - VF.avi",
             "imdbId": null,
             "tmdbId": 40805,
@@ -16201,7 +16140,7 @@
                 "Science-Fiction"
             ],
             "image": "https://image.tmdb.org/t/p/w342/9a6fGeSV5kffyNPPMWCPhLOhLdJ.jpg",
-            "fichier": "/01_Films/Marvel/2014 Guardians.of.the.Galaxy.2014.1080p.BluRay.x264.YIFY.mp4",
+            "fichier": "/Box_Films/- Nouveaux/2014 Guardians.of.the.Galaxy.2014.1080p.BluRay.x264.YIFY.mp4",
             "nomFichier": "2014 Guardians.of.the.Galaxy.2014.1080p.BluRay.x264.YIFY.mp4",
             "imdbId": null,
             "tmdbId": 118340,
@@ -17071,30 +17010,17 @@
                 "TBD"
             ],
             "taille": 2060207022,
-            "genre": [
-                "Biopic"
-            ],
-            "image": "https://image.tmdb.org/t/p/w342/A7sbYhUGBYSycTfhj2CV4mz7Fuk.jpg",
-            "fichier": "/01_Films/Drame/Hidden.Figures.2016.1080p.BluRay.x264-[YTS.AG].mp4",
-            "nomFichier": "Hidden.Figures.2016.1080p.BluRay.x264-[YTS.AG].mp4",
+            "genre": null,
+            "image": null,
+            "fichier": "/Box_Films/- Nouveaux/Hidden.Figures.2016.1080p.BluRay.x264-.mp4",
+            "nomFichier": "Hidden.Figures.2016.1080p.BluRay.x264-.mp4",
             "imdbId": null,
-            "tmdbId": 381284,
-            "tmdbUrl": "https://www.themoviedb.org/movie/381284",
+            "tmdbId": null,
+            "tmdbUrl": null,
             "doublonExact": false,
             "doublonProbable": false,
             "groupeDoublon": null,
-            "dateAjout": "2026-08-27T11:57:48.093Z",
-            "titreTmdb": "Les Figures de l'ombre",
-            "anneeTmdb": "2016",
-            "dureeTmdb": 127,
-            "descriptionTmdb": "L’histoire de Katherine Johnson, Dorothy Vaughn et Mary Jackson, les cerveaux derrière le premier voyage spatial habité réussi par les Américains en 1962. Ces trois Afro‐Américaines travaillaient pour la NASA et ont permis à l’astronaute John Glenn de réaliser son premier vol en orbite, tout juste 10 mois après le Russe Yuri Gagarine. Cet exploit a redonné confiance à l’Amérique et a relancé la course à l’espace entre les deux grandes puissances politiques de l’époque. Le trio visionnaire a su surpasser les questions raciales et de genre et a jeté les bases du programme spatial qui a abouti à la vision de Kennedy du premier homme sur la Lune.",
-            "collectionId": null,
-            "collectionNom": null,
-            "collectionDescription": null,
-            "collectionImage": null,
-            "collectionTmdbUrl": null,
-            "type": "Film",
-            "studio": null,
+            "dateAjout": "2026-11-23T12:29:02.740Z",
             "technique": {
                 "largeur": 1920,
                 "hauteur": 800,
@@ -17124,11 +17050,15 @@
                         "langue": "und"
                     }
                 ],
-                "sousTitres": []
+                "sousTitres": [],
+                "zoneUtile": {
+                    "largeurUtile": 1920,
+                    "hauteurUtile": 800,
+                    "x": 0,
+                    "y": 0
+                }
             },
-            "titreOriginal": "Hidden Figures",
-            "langueOriginale": "en",
-            "fichierNormalise": "Les Figures de l'ombre_2016_TBD.mp4"
+            "fichierNormalise": "Hidden Figures_2016_TBD.mp4"
         },
         {
             "id": "highlander_1986",
@@ -21006,7 +20936,7 @@
                 "Action"
             ],
             "image": "https://image.tmdb.org/t/p/w342/l6xYBnfWcAnuMhQtzDlUnNWfuyQ.jpg",
-            "fichier": "/01_Films/Action/Jumper.2008.1080p.BRrip.x264.mp4",
+            "fichier": "/Box_Films/- Nouveaux/Jumper.2008.1080p.BRrip.x264.mp4",
             "nomFichier": "Jumper.2008.1080p.BRrip.x264.mp4",
             "imdbId": null,
             "tmdbId": 8247,
@@ -21073,7 +21003,7 @@
                 "Action"
             ],
             "image": "https://image.tmdb.org/t/p/w342/l6xYBnfWcAnuMhQtzDlUnNWfuyQ.jpg",
-            "fichier": "/01_Films/Action/Jumper.avi",
+            "fichier": "/Box_Films/- Nouveaux/Jumper.avi",
             "nomFichier": "Jumper.avi",
             "imdbId": null,
             "tmdbId": 8247,
@@ -21140,7 +21070,7 @@
                 "Science-Fiction"
             ],
             "image": "https://image.tmdb.org/t/p/w342/eMlVBnd5NPHDJ3DkhMzokfnymAB.jpg",
-            "fichier": "/01_Films/Marvel/Justice.League.2017.FRENCH.BDRip.x264-VENUE.mkv",
+            "fichier": "/Box_Films/- Nouveaux/Justice.League.2017.FRENCH.BDRip.x264-VENUE.mkv",
             "nomFichier": "Justice.League.2017.FRENCH.BDRip.x264-VENUE.mkv",
             "imdbId": null,
             "tmdbId": 141052,
@@ -22766,186 +22696,6 @@
             "fichierNormalise": "L'Apprenti sorcier_2010_TBD.avi"
         },
         {
-            "id": "l_arme_fatale_1",
-            "titre": "L'arme fatale 1",
-            "annee": null,
-            "langue": [
-                "TBD"
-            ],
-            "taille": 732459858,
-            "genre": [
-                "Action"
-            ],
-            "image": "https://image.tmdb.org/t/p/w342/uh1ImPGPySZ0bKEVgPDIXHLt22.jpg",
-            "fichier": "/Box_Films/Action/L'arme fatale/1987_L'Arme fatale_TBD.mkv",
-            "nomFichier": "1987_L'Arme fatale_TBD.mkv",
-            "imdbId": null,
-            "tmdbId": 941,
-            "tmdbUrl": "https://www.themoviedb.org/movie/941",
-            "doublonExact": false,
-            "doublonProbable": false,
-            "groupeDoublon": null,
-            "dateAjout": "2026-08-22T08:23:33.533Z",
-            "titreTmdb": "L'Arme fatale",
-            "anneeTmdb": "1987",
-            "dureeTmdb": 109,
-            "descriptionTmdb": "Roger Murtaugh, policier noir proche de la retraite et père de famille, se voit adjoindre comme coéquipier Martin Riggs dit \"L'arme fatale\", policier exemplaire qui joue au trompe-la-mort depuis le décès de sa femme, et qui l'entraîne dans le démantèlement d'un réseau de trafiquants. En retour, ces derniers kidnappent la fille de Roger…",
-            "collectionId": 945,
-            "collectionNom": "L'Arme Fatale - Saga",
-            "type": "Film",
-            "studio": null,
-            "ignoreInCollection": false,
-            "technique": {
-                "largeur": 704,
-                "hauteur": 400,
-                "resolution": "704x400",
-                "ratioImage": 1.76,
-                "codecVideo": "rv40",
-                "profilVideo": null,
-                "pixelFormat": "yuv420p",
-                "bitsParComposante": null,
-                "bitrateVideo": null,
-                "framerate": 25,
-                "espaceCouleur": null,
-                "transfertCouleur": null,
-                "primairesCouleur": null,
-                "hdr": false,
-                "dureeFichier": 6305.786,
-                "bitrateGlobal": 929254,
-                "formatConteneur": "matroska,webm",
-                "audio": [
-                    {
-                        "codec": "vorbis",
-                        "profil": null,
-                        "canaux": 2,
-                        "disposition": "stereo",
-                        "bitrate": null,
-                        "frequence": 48000,
-                        "langue": "fre"
-                    },
-                    {
-                        "codec": "vorbis",
-                        "profil": null,
-                        "canaux": 2,
-                        "disposition": "stereo",
-                        "bitrate": null,
-                        "frequence": 48000,
-                        "langue": "eng"
-                    }
-                ],
-                "sousTitres": [
-                    {
-                        "codec": "subrip",
-                        "langue": "mul",
-                        "titre": "Présentation"
-                    },
-                    {
-                        "codec": "dvd_subtitle",
-                        "langue": "fre",
-                        "titre": "Français"
-                    },
-                    {
-                        "codec": "dvd_subtitle",
-                        "langue": "eng",
-                        "titre": "Anglais"
-                    }
-                ]
-            },
-            "titreOriginal": "Lethal Weapon",
-            "langueOriginale": "en",
-            "fichierNormalise": "1987_L'Arme fatale_TBD.mkv"
-        },
-        {
-            "id": "l_arme_fatale_2",
-            "titre": "L'arme fatale 2",
-            "annee": null,
-            "langue": [
-                "TBD"
-            ],
-            "taille": 733657216,
-            "genre": [
-                "Action"
-            ],
-            "image": "https://image.tmdb.org/t/p/w342/z4Vd5YgIztiLOkpcmAlj7yhhD6R.jpg",
-            "fichier": "/Box_Films/Action/L'arme fatale/1989_L'Arme fatale 2_TBD.mkv",
-            "nomFichier": "1989_L'Arme fatale 2_TBD.mkv",
-            "imdbId": null,
-            "tmdbId": 942,
-            "tmdbUrl": "https://www.themoviedb.org/movie/942",
-            "doublonExact": false,
-            "doublonProbable": false,
-            "groupeDoublon": null,
-            "dateAjout": "2026-08-22T08:23:33.533Z",
-            "titreTmdb": "L'Arme fatale 2",
-            "anneeTmdb": "1989",
-            "dureeTmdb": 114,
-            "descriptionTmdb": "Les explosifs Riggs et Murtaugh mettent à jour un énorme trafic de drogue dirigé par Arjen Rudd, de l'ambassade sudafricaine. Ce n'est certainement pas l'immunité diplomatique qui va les géner, mais peut-être plutôt ce bavard de Léo Getz, petit comptable magouilleur dont ils sont chargés de la protection.",
-            "collectionId": 945,
-            "collectionNom": "L'Arme Fatale - Saga",
-            "type": "Film",
-            "studio": null,
-            "ignoreInCollection": false,
-            "technique": {
-                "largeur": 688,
-                "hauteur": 288,
-                "resolution": "688x288",
-                "ratioImage": 2.389,
-                "codecVideo": "rv40",
-                "profilVideo": null,
-                "pixelFormat": "yuv420p",
-                "bitsParComposante": null,
-                "bitrateVideo": null,
-                "framerate": 25,
-                "espaceCouleur": null,
-                "transfertCouleur": null,
-                "primairesCouleur": null,
-                "hdr": false,
-                "dureeFichier": 6585.522,
-                "bitrateGlobal": 891236,
-                "formatConteneur": "matroska,webm",
-                "audio": [
-                    {
-                        "codec": "vorbis",
-                        "profil": null,
-                        "canaux": 2,
-                        "disposition": "stereo",
-                        "bitrate": null,
-                        "frequence": 48000,
-                        "langue": "fre"
-                    },
-                    {
-                        "codec": "vorbis",
-                        "profil": null,
-                        "canaux": 2,
-                        "disposition": "stereo",
-                        "bitrate": null,
-                        "frequence": 48000,
-                        "langue": "eng"
-                    }
-                ],
-                "sousTitres": [
-                    {
-                        "codec": "subrip",
-                        "langue": "mul",
-                        "titre": "Présentation"
-                    },
-                    {
-                        "codec": "dvd_subtitle",
-                        "langue": "fre",
-                        "titre": "Français"
-                    },
-                    {
-                        "codec": "dvd_subtitle",
-                        "langue": "eng",
-                        "titre": "Anglais"
-                    }
-                ]
-            },
-            "titreOriginal": "Lethal Weapon 2",
-            "langueOriginale": "en",
-            "fichierNormalise": "1989_L'Arme fatale 2_TBD.mkv"
-        },
-        {
             "id": "l_arme_fatale_3",
             "titre": "L'arme fatale 3",
             "annee": null,
@@ -23041,16 +22791,20 @@
             "annee": 1987,
             "langue": [
                 "VO",
-                "VF"
+                "VF",
+                "VOSTFR",
+                "VOST"
             ],
             "taille": 2950422476,
-            "genre": null,
-            "image": null,
-            "fichier": "/Box_Films/- Nouveaux/L'arme Fatale I 1987 Multi-VF2 1080p HDlight.x264-Tonyk.mkv",
-            "nomFichier": "L'arme Fatale I 1987 Multi-VF2 1080p HDlight.x264-Tonyk.mkv",
+            "genre": [
+                "Action"
+            ],
+            "image": "https://image.tmdb.org/t/p/w342/uh1ImPGPySZ0bKEVgPDIXHLt22.jpg",
+            "fichier": "/Box_Films/Action/L'arme fatale/1987_L'Arme fatale_VO_VF_VOST_VOSTFR.mkv",
+            "nomFichier": "1987_L'Arme fatale_VO_VF_VOST_VOSTFR.mkv",
             "imdbId": null,
-            "tmdbId": null,
-            "tmdbUrl": null,
+            "tmdbId": 941,
+            "tmdbUrl": "https://www.themoviedb.org/movie/941",
             "doublonExact": false,
             "doublonProbable": false,
             "groupeDoublon": null,
@@ -23118,15 +22872,26 @@
                         "langue": "eng",
                         "titre": "complet"
                     }
-                ],
-                "zoneUtile": {
-                    "largeurUtile": 1920,
-                    "hauteurUtile": 1072,
-                    "x": 0,
-                    "y": 4
-                }
+                ]
             },
-            "fichierNormalise": "L'arme Fatale I_1987_VO_VF.mkv"
+            "fichierNormalise": "L'arme Fatale I_1987_VO_VF.mkv",
+            "titreTmdb": "L'Arme fatale",
+            "titreOriginal": "Lethal Weapon",
+            "langueOriginale": "en",
+            "anneeTmdb": "1987",
+            "dureeTmdb": 109,
+            "descriptionTmdb": "Roger Murtaugh, policier noir proche de la retraite et père de famille, se voit adjoindre comme coéquipier Martin Riggs dit \"L'arme fatale\", policier exemplaire qui joue au trompe-la-mort depuis le décès de sa femme, et qui l'entraîne dans le démantèlement d'un réseau de trafiquants. En retour, ces derniers kidnappent la fille de Roger…",
+            "collectionId": 945,
+            "collectionNom": "L'Arme Fatale - Saga",
+            "collectionDescription": "De leur première rencontre à leur dernière aventure 10 ans plus tard, Riggs et Murtaugh ont accumulé une somme incroyable de catastrophes, de coups de gueule, de balles perdues et de bons gros fous rires…",
+            "collectionImage": "https://image.tmdb.org/t/p/w500/cIfobGg5oDbc1Tk5uRwBYW4L3BO.jpg",
+            "collectionTmdbUrl": "https://www.themoviedb.org/collection/945",
+            "languesAudio": [
+                "EN",
+                "FR"
+            ],
+            "type": null,
+            "studio": null
         },
         {
             "id": "l_arme_fatale_ii_1989",
@@ -23134,16 +22899,20 @@
             "annee": 1989,
             "langue": [
                 "VO",
-                "VF"
+                "VF",
+                "VOSTFR",
+                "VOST"
             ],
             "taille": 2915717223,
-            "genre": null,
-            "image": null,
-            "fichier": "/Box_Films/- Nouveaux/L'arme Fatale II 1989 Multi 1080p HDlight.x264-Tonyk.mkv",
-            "nomFichier": "L'arme Fatale II 1989 Multi 1080p HDlight.x264-Tonyk.mkv",
+            "genre": [
+                "Action"
+            ],
+            "image": "https://image.tmdb.org/t/p/w342/z4Vd5YgIztiLOkpcmAlj7yhhD6R.jpg",
+            "fichier": "/Box_Films/Action/L'arme fatale/1989_L'Arme fatale 2_VO_VF_VOST_VOSTFR.mkv",
+            "nomFichier": "1989_L'Arme fatale 2_VO_VF_VOST_VOSTFR.mkv",
             "imdbId": null,
-            "tmdbId": null,
-            "tmdbUrl": null,
+            "tmdbId": 942,
+            "tmdbUrl": "https://www.themoviedb.org/movie/942",
             "doublonExact": false,
             "doublonProbable": false,
             "groupeDoublon": null,
@@ -23202,15 +22971,26 @@
                         "langue": "eng",
                         "titre": "complet"
                     }
-                ],
-                "zoneUtile": {
-                    "largeurUtile": 1920,
-                    "hauteurUtile": 800,
-                    "x": 0,
-                    "y": 0
-                }
+                ]
             },
-            "fichierNormalise": "L'arme Fatale II_1989_VO_VF.mkv"
+            "fichierNormalise": "L'arme Fatale II_1989_VO_VF.mkv",
+            "titreTmdb": "L'Arme fatale 2",
+            "titreOriginal": "Lethal Weapon 2",
+            "langueOriginale": "en",
+            "anneeTmdb": "1989",
+            "dureeTmdb": 114,
+            "descriptionTmdb": "Les explosifs Riggs et Murtaugh mettent à jour un énorme trafic de drogue dirigé par Arjen Rudd, de l'ambassade sudafricaine. Ce n'est certainement pas l'immunité diplomatique qui va les géner, mais peut-être plutôt ce bavard de Léo Getz, petit comptable magouilleur dont ils sont chargés de la protection.",
+            "collectionId": 945,
+            "collectionNom": "L'Arme Fatale - Saga",
+            "collectionDescription": "De leur première rencontre à leur dernière aventure 10 ans plus tard, Riggs et Murtaugh ont accumulé une somme incroyable de catastrophes, de coups de gueule, de balles perdues et de bons gros fous rires…",
+            "collectionImage": "https://image.tmdb.org/t/p/w500/cIfobGg5oDbc1Tk5uRwBYW4L3BO.jpg",
+            "collectionTmdbUrl": "https://www.themoviedb.org/collection/945",
+            "type": null,
+            "studio": null,
+            "languesSousTitres": [
+                "EN",
+                "FR"
+            ]
         },
         {
             "id": "l_arme_fatale_iv_tonyk_1998",
@@ -24434,71 +24214,6 @@
             "titreOriginal": "One Hundred and One Dalmatians",
             "langueOriginale": "en",
             "fichierNormalise": "1961_Les 101 Dalmatiens_TBD.avi"
-        },
-        {
-            "id": "les_101_dalmatiens_2",
-            "titre": "Les 101 Dalmatiens 2",
-            "annee": null,
-            "langue": [
-                "TBD"
-            ],
-            "taille": 731887616,
-            "genre": [
-                "Aventure"
-            ],
-            "image": "https://image.tmdb.org/t/p/w342/o02DhgYjczigl4QTGnSmfRqqFkd.jpg",
-            "fichier": "/Box_Films/Enfants/02 A tester/Les 101 Dalmatiens 2.avi",
-            "nomFichier": "Les 101 Dalmatiens 2.avi",
-            "imdbId": null,
-            "tmdbId": 13654,
-            "tmdbUrl": "https://www.themoviedb.org/movie/13654",
-            "doublonExact": false,
-            "doublonProbable": false,
-            "groupeDoublon": null,
-            "dateAjout": "2026-08-22T08:23:33.650Z",
-            "titreTmdb": "101 Dalmatiens 2 : Sur la Trace des Héros",
-            "anneeTmdb": "2003",
-            "dureeTmdb": 70,
-            "descriptionTmdb": "Patch, le chiot de Pongo et Perdita, a l’opportunité de rencontrer son idole, Ouragan. Lorsqu’ils apprennent qu’il sera remplacé, Ouragan et Patch se transforment en vrais héros. Et quand Cruella d’Enfer refait surface, c’est le travail d’équipe de Patch et d’Ouragan qui les sauvera.",
-            "collectionId": 100693,
-            "collectionNom": "Les 101 Dalmatiens (Animation) - Saga",
-            "type": "Animation",
-            "studio": null,
-            "ignoreInCollection": false,
-            "technique": {
-                "largeur": 640,
-                "hauteur": 368,
-                "resolution": "640x368",
-                "ratioImage": 1.739,
-                "codecVideo": "mpeg4",
-                "profilVideo": null,
-                "pixelFormat": "yuv420p",
-                "bitsParComposante": null,
-                "bitrateVideo": 1238603,
-                "framerate": 25,
-                "espaceCouleur": null,
-                "transfertCouleur": null,
-                "primairesCouleur": null,
-                "hdr": false,
-                "dureeFichier": 4246.52,
-                "bitrateGlobal": 1378799,
-                "formatConteneur": "avi",
-                "audio": [
-                    {
-                        "codec": "mp3",
-                        "profil": null,
-                        "canaux": 2,
-                        "disposition": "stereo",
-                        "bitrate": 127992,
-                        "frequence": 44100,
-                        "langue": null
-                    }
-                ],
-                "sousTitres": []
-            },
-            "titreOriginal": "101 Dalmatians II: Patch's London Adventure",
-            "langueOriginale": "en",
-            "fichierNormalise": "2003_101 Dalmatiens 2 Sur la Trace des Héros_TBD.avi"
         },
         {
             "id": "les_4_fantastiques_et_surfer_d_argent_2008",
@@ -26725,7 +26440,7 @@
                 "Science-Fiction"
             ],
             "image": "https://image.tmdb.org/t/p/w342/pNz1NREgddPdlzytlR8mW4B26fW.jpg",
-            "fichier": "/01_Films/Marvel/Spider-Man 1 - VF.avi",
+            "fichier": "/Box_Films/- Nouveaux/Spider-Man 1 - VF.avi",
             "nomFichier": "Spider-Man 1 - VF.avi",
             "imdbId": null,
             "tmdbId": 557,
@@ -26793,7 +26508,7 @@
                 "Science-Fiction"
             ],
             "image": "https://image.tmdb.org/t/p/w342/mxU2Czx4KT2fxRbRHpB1MNFXAGb.jpg",
-            "fichier": "/01_Films/Marvel/Spider-man 2 - VF.avi",
+            "fichier": "/Box_Films/- Nouveaux/Spider-man 2 - VF.avi",
             "nomFichier": "Spider-man 2 - VF.avi",
             "imdbId": null,
             "tmdbId": 558,
@@ -26861,7 +26576,7 @@
                 "Science-Fiction"
             ],
             "image": "https://image.tmdb.org/t/p/w342/mxU2Czx4KT2fxRbRHpB1MNFXAGb.jpg",
-            "fichier": "/01_Films/Marvel/Spider-man 2.avi",
+            "fichier": "/Box_Films/- Nouveaux/Spider-man 2.avi",
             "nomFichier": "Spider-man 2.avi",
             "imdbId": null,
             "tmdbId": 558,
@@ -26928,7 +26643,7 @@
                 "Science-Fiction"
             ],
             "image": "https://image.tmdb.org/t/p/w342/hvfwCeSTgsExmz9l31dKkfR83DH.jpg",
-            "fichier": "/01_Films/Marvel/2023 Spider-Man.Across.The.Spider-Verse.2023.FRENCH.WEB.H264-LOST.mkv",
+            "fichier": "/Box_Films/- Nouveaux/2023 Spider-Man.Across.The.Spider-Verse.2023.FRENCH.WEB.H264-LOST.mkv",
             "nomFichier": "2023 Spider-Man.Across.The.Spider-Verse.2023.FRENCH.WEB.H264-LOST.mkv",
             "imdbId": null,
             "tmdbId": 569094,
@@ -27109,74 +26824,6 @@
                 "FR"
             ],
             "fichierOriginal": "Spider.Man.Brand.New.Day.2026.Multi.Vf2.WEBRIP.mp4"
-        },
-        {
-            "id": "spider_man_new_generation_spider_man_into_the_spider_verse_ulhd_2018",
-            "titre": "Man New Generation {Spider Man the Verse}",
-            "annee": 2018,
-            "langue": [
-                "VF"
-            ],
-            "taille": 1241145361,
-            "genre": [
-                "Science-Fiction"
-            ],
-            "image": "https://image.tmdb.org/t/p/w342/3bSWpsB2PqoTrJhW9cM6tJMDxIm.jpg",
-            "fichier": "/01_Films/Marvel/2018 Spider-Man New Generation {Spider-Man Into the Spider-Verse} (2018) VF [1080p] ULHD x264-AnonCmtanoym.mp4",
-            "nomFichier": "2018 Spider-Man New Generation {Spider-Man Into the Spider-Verse} (2018) VF [1080p] ULHD x264-AnonCmtanoym.mp4",
-            "imdbId": null,
-            "tmdbId": 324857,
-            "tmdbUrl": "https://www.themoviedb.org/movie/324857",
-            "doublonExact": false,
-            "doublonProbable": false,
-            "groupeDoublon": null,
-            "dateAjout": "2026-08-27T11:57:48.214Z",
-            "titreTmdb": "Spider-Man : New Generation",
-            "anneeTmdb": "2018",
-            "dureeTmdb": 117,
-            "descriptionTmdb": "Spider-Man : New Generation suit les aventures de Miles Morales, un adolescent afro-américain et portoricain qui vit à Brooklyn et s’efforce de s’intégrer dans son nouveau collège à Manhattan. Mais la vie de Miles se complique quand il se fait mordre par une araignée radioactive et se découvre des super-pouvoirs : il est désormais capable d’empoisonner ses adversaires, de se camoufler, de coller littéralement aux murs et aux plafonds ; son ouïe est démultipliée... Dans le même temps, le plus redoutable cerveau criminel de la ville, le Caïd, a mis au point un accélérateur de particules nucléaires capable d’ouvrir un portail sur d’autres univers. Son invention va provoquer l’arrivée de plusieurs autres versions de Spider-Man dans le monde de Miles, dont un Peter Parker plus âgé, Spider-Gwen, Spider-Man Noir, Spider-Cochon et Peni Parker, venue d’un dessin animé japonais.",
-            "collectionId": 573436,
-            "collectionNom": "Spider-Man : New Generation - Saga",
-            "collectionDescription": "Une collection animée qui explore les différentes versions de Spider-Man dans de multiples univers en suivant les premiers pas de Miles Morales...",
-            "collectionImage": "https://image.tmdb.org/t/p/w500/zIpnyk3DVX2gX6spZiRX75bGkkg.jpg",
-            "collectionTmdbUrl": "https://www.themoviedb.org/collection/573436",
-            "type": "Film",
-            "studio": "Marvel",
-            "ignoreInCollection": false,
-            "technique": {
-                "largeur": 1920,
-                "hauteur": 808,
-                "resolution": "1920x808",
-                "ratioImage": 2.376,
-                "codecVideo": "h264",
-                "profilVideo": "High",
-                "pixelFormat": "yuv420p",
-                "bitsParComposante": 8,
-                "bitrateVideo": 1282225,
-                "framerate": 23.976,
-                "espaceCouleur": null,
-                "transfertCouleur": null,
-                "primairesCouleur": null,
-                "hdr": false,
-                "dureeFichier": 7010.112,
-                "bitrateGlobal": 1416405,
-                "formatConteneur": "mov,mp4,m4a,3gp,3g2,mj2",
-                "audio": [
-                    {
-                        "codec": "aac",
-                        "profil": "LC",
-                        "canaux": 2,
-                        "disposition": "stereo",
-                        "bitrate": 130174,
-                        "frequence": 48000,
-                        "langue": "fre"
-                    }
-                ],
-                "sousTitres": []
-            },
-            "titreOriginal": "Spider-Man: Into the Spider-Verse",
-            "langueOriginale": "en",
-            "fichierNormalise": "2018_Spider-Man New Generation_VF.mp4"
         },
         {
             "id": "manipulation",
@@ -27555,52 +27202,25 @@
             "ignoreInCollection": false
         },
         {
-            "id": "tmdb_605",
-            "titre": "Matrix Revolutions",
-            "annee": 2003,
-            "langue": [
-                "TBD"
-            ],
-            "taille": 0,
-            "genre": [
-                "Science-Fiction"
-            ],
-            "image": "https://image.tmdb.org/t/p/w342/xOCeckuZDzqydvt3vLlzftZkef1.jpg",
-            "fichier": null,
-            "nomFichier": null,
-            "tmdbId": 605,
-            "tmdbUrl": "https://www.themoviedb.org/movie/605",
-            "doublonExact": false,
-            "doublonProbable": false,
-            "groupeDoublon": null,
-            "dateAjout": null,
-            "titreTmdb": "Matrix Revolutions",
-            "titreOriginal": "The Matrix Revolutions",
-            "anneeTmdb": 2003,
-            "descriptionTmdb": "La longue quête de liberté des rebelles culmine en une bataille finale explosive. Tandis que l'armée des Machines sème la désolation sur Sion, ses citoyens organisent une défense acharnée. Mais pourront-ils retenir les nuées implacables des Sentinelles en attendant que Neo s'approprie l'ensemble de ses pouvoirs et mette fin à la guerre ? L'agent Smith est quant à lui parvenu à prendre possession de l'esprit de Bane, l'un des membres de l'équipage de l'aéroglisseur. De plus en plus puissant, il est désormais incontrôlable et n'obéit plus aux Machines : il menace de détruire leur empire ainsi que le monde réel et la Matrice…",
-            "collectionId": 2344,
-            "collectionNom": "Matrix - Saga",
-            "type": "Film",
-            "studio": null,
-            "ignoreInCollection": false,
-            "langueOriginale": "en"
-        },
-        {
             "id": "matrix_revolutions_2003",
             "titre": "Matrix Revolutions ( )",
             "annee": 2003,
             "langue": [
                 "VO",
-                "VF"
+                "VF",
+                "VOSTFR",
+                "VOST"
             ],
             "taille": 2603569854,
-            "genre": null,
-            "image": null,
-            "fichier": "/Box_Films/- Nouveaux/Matrix Revolutions (2003) MULTi 1080p BluRay x264-PopHD.mkv",
-            "nomFichier": "Matrix Revolutions (2003) MULTi 1080p BluRay x264-PopHD.mkv",
+            "genre": [
+                "Science-Fiction"
+            ],
+            "image": "https://image.tmdb.org/t/p/w342/xOCeckuZDzqydvt3vLlzftZkef1.jpg",
+            "fichier": "/Box_Films/Science-Fiction/Matrix/2003_Matrix Revolutions_VO_VF_VOST_VOSTFR.mkv",
+            "nomFichier": "2003_Matrix Revolutions_VO_VF_VOST_VOSTFR.mkv",
             "imdbId": null,
-            "tmdbId": null,
-            "tmdbUrl": null,
+            "tmdbId": 605,
+            "tmdbUrl": "https://www.themoviedb.org/movie/605",
             "doublonExact": false,
             "doublonProbable": false,
             "groupeDoublon": null,
@@ -27668,15 +27288,26 @@
                         "langue": "eng",
                         "titre": "complet"
                     }
-                ],
-                "zoneUtile": {
-                    "largeurUtile": 1920,
-                    "hauteurUtile": 800,
-                    "x": 0,
-                    "y": 0
-                }
+                ]
             },
-            "fichierNormalise": "Matrix Revolutions ( )_2003_VO_VF.mkv"
+            "fichierNormalise": "Matrix Revolutions ( )_2003_VO_VF.mkv",
+            "titreTmdb": "Matrix Revolutions",
+            "titreOriginal": "The Matrix Revolutions",
+            "langueOriginale": "en",
+            "anneeTmdb": "2003",
+            "dureeTmdb": 128,
+            "descriptionTmdb": "La longue quête de liberté des rebelles culmine en une bataille finale explosive. Tandis que l'armée des Machines sème la désolation sur Sion, ses citoyens organisent une défense acharnée. Mais pourront-ils retenir les nuées implacables des Sentinelles en attendant que Neo s'approprie l'ensemble de ses pouvoirs et mette fin à la guerre ? L'agent Smith est quant à lui parvenu à prendre possession de l'esprit de Bane, l'un des membres de l'équipage de l'aéroglisseur. De plus en plus puissant, il est désormais incontrôlable et n'obéit plus aux Machines : il menace de détruire leur empire ainsi que le monde réel et la Matrice…",
+            "collectionId": 2344,
+            "collectionNom": "Matrix - Saga",
+            "collectionDescription": "La collection Matrix représente une histoire de science-fiction complexe intégrant de nombreux éléments philosophiques. Écrit et réalisé par les sœurs Wachowski et produit par Joel Silver.",
+            "collectionImage": "https://image.tmdb.org/t/p/w500/alQ1yfJR9cxAPOx0WsTYj37HawI.jpg",
+            "collectionTmdbUrl": "https://www.themoviedb.org/collection/2344",
+            "type": null,
+            "studio": null,
+            "languesSousTitres": [
+                "EN",
+                "FR"
+            ]
         },
         {
             "id": "maverick_1994",
@@ -30460,19 +30091,22 @@
             "titre": "No Time To Die",
             "annee": 2021,
             "langue": [
+                "VO",
                 "VOSTFR"
             ],
             "taille": 1720499159,
-            "genre": null,
-            "image": null,
-            "fichier": "/Box_Films/- Nouveaux/No.Time.To.Die.2021.1080p.VOSTFR.WEB.x264-STVFRV.mkv",
-            "nomFichier": "No.Time.To.Die.2021.1080p.VOSTFR.WEB.x264-STVFRV.mkv",
+            "genre": [
+                "Action"
+            ],
+            "image": "https://image.tmdb.org/t/p/w342/qseURFLjRBCqFCNCKmS2uwM9IOj.jpg",
+            "fichier": "/Box_Films/Action/James Bond 007/2021_Mourir peut attendre_VO_VOSTFR.mkv",
+            "nomFichier": "2021_Mourir peut attendre_VO_VOSTFR.mkv",
             "imdbId": null,
-            "tmdbId": null,
-            "tmdbUrl": null,
+            "tmdbId": 370172,
+            "tmdbUrl": "https://www.themoviedb.org/movie/370172",
             "doublonExact": false,
-            "doublonProbable": false,
-            "groupeDoublon": null,
+            "doublonProbable": true,
+            "groupeDoublon": "no_time_to_die",
             "dateAjout": "2026-11-23T08:58:11.326Z",
             "technique": {
                 "largeur": 1920,
@@ -30509,87 +30143,25 @@
                         "langue": "fre",
                         "titre": null
                     }
-                ],
-                "zoneUtile": {
-                    "largeurUtile": 1920,
-                    "hauteurUtile": 800,
-                    "x": 0,
-                    "y": 0
-                }
+                ]
             },
-            "fichierNormalise": "No Time To Die_2021_VOSTFR.mkv"
-        },
-        {
-            "id": "no_time_to_die_2021",
-            "titre": "No Time To Die",
-            "annee": 2021,
-            "langue": [
-                "VO"
-            ],
-            "taille": 1808414942,
-            "genre": [
-                "Action"
-            ],
-            "image": "https://image.tmdb.org/t/p/w342/qseURFLjRBCqFCNCKmS2uwM9IOj.jpg",
-            "fichier": "/Box_Films/Action/James Bond 007/2021_Mourir peut attendre_VO.avi",
-            "nomFichier": "2021_Mourir peut attendre_VO.avi",
-            "imdbId": null,
-            "tmdbId": 370172,
-            "tmdbUrl": "https://www.themoviedb.org/movie/370172",
-            "doublonExact": false,
-            "doublonProbable": true,
-            "groupeDoublon": "no_time_to_die",
-            "dateAjout": "2026-11-06T19:39:20.782Z",
+            "fichierNormalise": "No Time To Die_2021_VOSTFR.mkv",
             "titreTmdb": "Mourir peut attendre",
+            "titreOriginal": "No Time to Die",
+            "langueOriginale": "en",
             "anneeTmdb": "2021",
             "dureeTmdb": 163,
             "descriptionTmdb": "James Bond a quitté les services secrets et coule des jours heureux en Jamaïque. Mais sa tranquillité est de courte durée car son vieil ami Felix Leiter de la CIA débarque pour solliciter son aide : il s'agit de sauver un scientifique qui vient d'être kidnappé. Mais la mission se révèle bien plus dangereuse que prévu et Bond se retrouve aux trousses d'un mystérieux ennemi détenant de redoutables armes technologiques…",
             "collectionId": 645,
             "collectionNom": "James Bond 007 - Saga",
             "collectionDescription": "James Bond, agent 007, autorisé à tuer, est le héros de la plus longue saga cinématographique de tous les temps, au succès sans égal. Armé de son Walther PPK, accompagné des plus jolies filles de la terre et opposé aux plus cyniques des méchants, il a poursuivi le mal aux quatre coins du monde, survécu à la guerre froide et à la chute du mur de Berlin.",
-            "collectionImage": "https://image.tmdb.org/t/p/w500/ammkAiFPUQhqrWAdzNZSXR8VMpy.jpg",
+            "collectionImage": "https://image.tmdb.org/t/p/w500/5KhvmlY1tvwrhDbfx2TvL8mYyFn.jpg",
             "collectionTmdbUrl": "https://www.themoviedb.org/collection/645",
-            "technique": {
-                "largeur": 720,
-                "hauteur": 300,
-                "resolution": "720x300",
-                "ratioImage": 2.4,
-                "codecVideo": "h264",
-                "profilVideo": "High",
-                "pixelFormat": "yuv420p",
-                "bitsParComposante": 8,
-                "bitrateVideo": null,
-                "framerate": 23.976,
-                "espaceCouleur": null,
-                "transfertCouleur": null,
-                "primairesCouleur": null,
-                "hdr": false,
-                "dureeFichier": 9803.808,
-                "bitrateGlobal": 1475683,
-                "formatConteneur": "matroska,webm",
-                "audio": [
-                    {
-                        "codec": "ac3",
-                        "profil": null,
-                        "canaux": 6,
-                        "disposition": "5.1(side)",
-                        "bitrate": 384000,
-                        "frequence": 48000,
-                        "langue": "eng"
-                    }
-                ],
-                "sousTitres": []
-            },
-            "ignoreInCollection": false,
-            "titreOriginal": "No Time to Die",
-            "langueOriginale": "en",
-            "type": "Film",
+            "type": null,
             "studio": null,
-            "fichierNormalise": "2021_Mourir peut attendre_TBD.avi",
-            "languesAudio": [
-                "EN"
-            ],
-            "fichierOriginal": "No.Time.To.Die.2021.HDRip.XviD.AC3-EVO.avi"
+            "languesSousTitres": [
+                "FR"
+            ]
         },
         {
             "id": "le_nom_de_la_rose",
@@ -35906,50 +35478,23 @@
             "langueOriginale": "en"
         },
         {
-            "id": "tmdb_37724",
-            "titre": "Skyfall",
-            "annee": 2012,
-            "langue": [
-                "TBD"
-            ],
-            "taille": 0,
-            "genre": [
-                "Action"
-            ],
-            "image": "https://image.tmdb.org/t/p/w342/nNFECkwmrYoUQ17EnPTcSlRictV.jpg",
-            "fichier": null,
-            "nomFichier": null,
-            "tmdbId": 37724,
-            "tmdbUrl": "https://www.themoviedb.org/movie/37724",
-            "doublonExact": false,
-            "doublonProbable": false,
-            "groupeDoublon": null,
-            "dateAjout": null,
-            "titreTmdb": "Skyfall",
-            "titreOriginal": "Skyfall",
-            "anneeTmdb": 2012,
-            "descriptionTmdb": "Lorsque la dernière mission de Bond tourne mal, plusieurs agents infiltrés se retrouvent exposés dans le monde entier. Le MI6 est attaqué, et M est obligée de relocaliser l’Agence. Ces événements ébranlent son autorité, et elle est remise en cause par Mallory, le nouveau président de l’ISC, le comité chargé du renseignement et de la sécurité. Le MI6 est à présent sous le coup d’une double menace, intérieure et extérieure. Il ne reste à M qu’un seul allié de confiance vers qui se tourner: Bond. Plus que jamais, 007 va devoir agir dans l’ombre. Avec l’aide d’Ève, un agent de terrain, il se lance sur la piste du mystérieux Silva, dont il doit identifier coûte que coûte l’objectif secret et mortel.",
-            "collectionId": 645,
-            "collectionNom": "James Bond 007 - Saga",
-            "type": "Film",
-            "studio": null,
-            "ignoreInCollection": false
-        },
-        {
             "id": "skyfall_2012",
             "titre": "Skyfall",
             "annee": 2012,
             "langue": [
-                "TBD"
+                "VO",
+                "VOST"
             ],
             "taille": 2148905797,
-            "genre": null,
-            "image": null,
-            "fichier": "/Box_Films/- Nouveaux/Skyfall.2012.1080p.BrRip.x264.YIFY.mp4",
-            "nomFichier": "Skyfall.2012.1080p.BrRip.x264.YIFY.mp4",
+            "genre": [
+                "Action"
+            ],
+            "image": "https://image.tmdb.org/t/p/w342/nNFECkwmrYoUQ17EnPTcSlRictV.jpg",
+            "fichier": "/Box_Films/Action/James Bond 007/2012_Skyfall_VO_VOST.mp4",
+            "nomFichier": "2012_Skyfall_VO_VOST.mp4",
             "imdbId": null,
-            "tmdbId": null,
-            "tmdbUrl": null,
+            "tmdbId": 37724,
+            "tmdbUrl": "https://www.themoviedb.org/movie/37724",
             "doublonExact": false,
             "doublonProbable": false,
             "groupeDoublon": null,
@@ -35983,15 +35528,25 @@
                         "langue": "eng"
                     }
                 ],
-                "sousTitres": [],
-                "zoneUtile": {
-                    "largeurUtile": 1904,
-                    "hauteurUtile": 800,
-                    "x": 10,
-                    "y": 0
-                }
+                "sousTitres": []
             },
-            "fichierNormalise": "Skyfall_2012_TBD.mp4"
+            "fichierNormalise": "Skyfall_2012_TBD.mp4",
+            "titreTmdb": "Skyfall",
+            "titreOriginal": "Skyfall",
+            "langueOriginale": "en",
+            "anneeTmdb": "2012",
+            "dureeTmdb": 143,
+            "descriptionTmdb": "Lorsque la dernière mission de Bond tourne mal, plusieurs agents infiltrés se retrouvent exposés dans le monde entier. Le MI6 est attaqué, et M est obligée de relocaliser l’Agence. Ces événements ébranlent son autorité, et elle est remise en cause par Mallory, le nouveau président de l’ISC, le comité chargé du renseignement et de la sécurité. Le MI6 est à présent sous le coup d’une double menace, intérieure et extérieure. Il ne reste à M qu’un seul allié de confiance vers qui se tourner: Bond. Plus que jamais, 007 va devoir agir dans l’ombre. Avec l’aide d’Ève, un agent de terrain, il se lance sur la piste du mystérieux Silva, dont il doit identifier coûte que coûte l’objectif secret et mortel.",
+            "collectionId": 645,
+            "collectionNom": "James Bond 007 - Saga",
+            "collectionDescription": "James Bond, agent 007, autorisé à tuer, est le héros de la plus longue saga cinématographique de tous les temps, au succès sans égal. Armé de son Walther PPK, accompagné des plus jolies filles de la terre et opposé aux plus cyniques des méchants, il a poursuivi le mal aux quatre coins du monde, survécu à la guerre froide et à la chute du mur de Berlin.",
+            "collectionImage": "https://image.tmdb.org/t/p/w500/5KhvmlY1tvwrhDbfx2TvL8mYyFn.jpg",
+            "collectionTmdbUrl": "https://www.themoviedb.org/collection/645",
+            "type": null,
+            "studio": null,
+            "languesSousTitres": [
+                "EN"
+            ]
         },
         {
             "id": "sleepless_2017",
@@ -36269,30 +35824,17 @@
                 "TBD"
             ],
             "taille": 4009223467,
-            "genre": [
-                "Science-Fiction"
-            ],
-            "image": "https://image.tmdb.org/t/p/w342/oMCIfJMezZeJvLK124uj4T0BpAy.jpg",
-            "fichier": "/01_Films/Marvel/Solo A Star Wars Story (2018) [1080p] BluRay x264-Nyu.mkv",
-            "nomFichier": "Solo A Star Wars Story (2018) [1080p] BluRay x264-Nyu.mkv",
+            "genre": null,
+            "image": null,
+            "fichier": "/Box_Films/- Nouveaux/Solo A Star Wars Story (2018) BluRay x264-Nyu.mkv",
+            "nomFichier": "Solo A Star Wars Story (2018) BluRay x264-Nyu.mkv",
             "imdbId": null,
-            "tmdbId": 348350,
-            "tmdbUrl": "https://www.themoviedb.org/movie/348350",
+            "tmdbId": null,
+            "tmdbUrl": null,
             "doublonExact": false,
             "doublonProbable": false,
             "groupeDoublon": null,
-            "dateAjout": "2026-08-27T11:57:48.321Z",
-            "titreTmdb": "Solo: A Star Wars Story",
-            "anneeTmdb": "2018",
-            "dureeTmdb": 135,
-            "descriptionTmdb": "Embarquez à bord du Faucon Millenium et partez à l’aventure en compagnie du plus célèbre vaurien de la galaxie. Au cours de périlleuses aventures dans les bas-fonds d’un monde criminel, Han Solo va faire la connaissance de son imposant futur copilote Chewbacca et croiser la route du charmant escroc Lando Calrissian… Ce voyage initiatique révèlera la personnalité d’un des héros les plus marquants de la saga Star Wars.",
-            "collectionId": null,
-            "collectionNom": null,
-            "collectionDescription": null,
-            "collectionImage": null,
-            "collectionTmdbUrl": null,
-            "type": "Film",
-            "studio": "Marvel",
+            "dateAjout": "2026-11-23T12:17:17.099Z",
             "technique": {
                 "largeur": 1920,
                 "hauteur": 800,
@@ -36349,9 +35891,7 @@
                     }
                 ]
             },
-            "titreOriginal": "Solo: A Star Wars Story",
-            "langueOriginale": "en",
-            "fichierNormalise": "Solo A Star Wars Story_2018_TBD.mkv"
+            "fichierNormalise": "Solo A Star Wars Story ( )_2018_TBD.mkv"
         },
         {
             "id": "soyez_sympas_rembobinez",
@@ -36696,6 +36236,58 @@
             "fichierOriginal": "Speed.2.Cruise.Control.1997.1080p.BluRay.x264.YIFY.mp4"
         },
         {
+            "id": "spider_man_new_generation_spider_man_into_the_spider_verse_2018",
+            "titre": "Spider Man New Generation {Spider Man Into the Spider Verse}",
+            "annee": 2018,
+            "langue": [
+                "VF"
+            ],
+            "taille": 1241145361,
+            "genre": null,
+            "image": null,
+            "fichier": "/Box_Films/- Nouveaux/2018 Spider-Man New Generation {Spider-Man Into the Spider-Verse} (2018) VF ULHD x264-AnonCmtanoym.mp4",
+            "nomFichier": "2018 Spider-Man New Generation {Spider-Man Into the Spider-Verse} (2018) VF ULHD x264-AnonCmtanoym.mp4",
+            "imdbId": null,
+            "tmdbId": null,
+            "tmdbUrl": null,
+            "doublonExact": false,
+            "doublonProbable": false,
+            "groupeDoublon": null,
+            "dateAjout": "2026-11-23T12:17:10.219Z",
+            "technique": {
+                "largeur": 1920,
+                "hauteur": 808,
+                "resolution": "1920x808",
+                "ratioImage": 2.376,
+                "codecVideo": "h264",
+                "profilVideo": "High",
+                "pixelFormat": "yuv420p",
+                "bitsParComposante": 8,
+                "bitrateVideo": 1282225,
+                "framerate": 23.976,
+                "espaceCouleur": null,
+                "transfertCouleur": null,
+                "primairesCouleur": null,
+                "hdr": false,
+                "dureeFichier": 7010.112,
+                "bitrateGlobal": 1416405,
+                "formatConteneur": "mov,mp4,m4a,3gp,3g2,mj2",
+                "audio": [
+                    {
+                        "codec": "aac",
+                        "profil": "LC",
+                        "canaux": 2,
+                        "disposition": "stereo",
+                        "bitrate": 130174,
+                        "frequence": 48000,
+                        "langue": "fre"
+                    }
+                ],
+                "sousTitres": []
+            },
+            "fichierNormalise": "Spider Man New Generation {Spider Man Into the Spider Verse}_2018_VF.mp4"
+        },
+        {
             "id": "spider_man_no_way_home_2021",
             "titre": "Spider Man No Way Home",
             "annee": 2021,
@@ -36821,7 +36413,7 @@
                 "Science-Fiction"
             ],
             "image": "https://image.tmdb.org/t/p/w342/gR5ik0feky6Al8YKmam7O4nboNZ.jpg",
-            "fichier": "/01_Films/Marvel/Spiderman 3 - VF.avi",
+            "fichier": "/Box_Films/- Nouveaux/Spiderman 3 - VF.avi",
             "nomFichier": "Spiderman 3 - VF.avi",
             "imdbId": null,
             "tmdbId": 559,
@@ -37055,74 +36647,6 @@
             "fichierOriginal": "Star Trek 2009 MULTi VF2 1080p BluRay x264-PopHD.mkv"
         },
         {
-            "id": "star_trek_beyond_2016",
-            "titre": "Star Trek",
-            "annee": 2016,
-            "langue": [
-                "VF"
-            ],
-            "taille": 1480494002,
-            "genre": [
-                "Science-Fiction"
-            ],
-            "image": "https://image.tmdb.org/t/p/w342/aerpiFz3XsTg6ICP2qSxRriKTPd.jpg",
-            "fichier": "/Box_Films/Science-Fiction/Star Trek/2016_Star Trek Sans limites_VF.avi",
-            "nomFichier": "2016_Star Trek Sans limites_VF.avi",
-            "imdbId": null,
-            "tmdbId": 188927,
-            "tmdbUrl": "https://www.themoviedb.org/movie/188927",
-            "doublonExact": false,
-            "doublonProbable": false,
-            "groupeDoublon": null,
-            "dateAjout": "2026-08-22T08:23:33.554Z",
-            "titreTmdb": "Star Trek : Sans limites",
-            "anneeTmdb": "2016",
-            "dureeTmdb": 123,
-            "descriptionTmdb": "L'équipage de l'USS Enterprise explore les confins de l'espace inconnu où ils rencontrent un nouvel ennemi impitoyable qui les met à l'épreuve, ainsi que tout ce que la Fédération représente.",
-            "collectionId": 115575,
-            "collectionNom": "Star Trek - Saga",
-            "collectionDescription": "Saga cinématographique Star Trek, troisième du nom.",
-            "collectionImage": "https://image.tmdb.org/t/p/w500/A8Y0BFIXpKv3AxbueUNnK6CdNCu.jpg",
-            "collectionTmdbUrl": "https://www.themoviedb.org/collection/115575",
-            "type": "Film",
-            "studio": null,
-            "technique": {
-                "largeur": 720,
-                "hauteur": 300,
-                "resolution": "720x300",
-                "ratioImage": 2.4,
-                "codecVideo": "mpeg4",
-                "profilVideo": "Simple Profile",
-                "pixelFormat": "yuv420p",
-                "bitsParComposante": null,
-                "bitrateVideo": 1467938,
-                "framerate": 23.976,
-                "espaceCouleur": null,
-                "transfertCouleur": null,
-                "primairesCouleur": null,
-                "hdr": false,
-                "dureeFichier": 7353.971625,
-                "bitrateGlobal": 1610551,
-                "formatConteneur": "avi",
-                "audio": [
-                    {
-                        "codec": "mp3",
-                        "profil": null,
-                        "canaux": 2,
-                        "disposition": "stereo",
-                        "bitrate": 128000,
-                        "frequence": 48000,
-                        "langue": null
-                    }
-                ],
-                "sousTitres": []
-            },
-            "titreOriginal": "Star Trek Beyond",
-            "ignoreInCollection": false,
-            "langueOriginale": "en",
-            "fichierNormalise": "2016_Star Trek Sans limites_VF.avi"
-        },
-        {
             "id": "star_trek_2013",
             "titre": "Star Trek ( )",
             "annee": 2013,
@@ -37237,16 +36761,18 @@
             "titre": "Star Trek Beyond ( )",
             "annee": 2016,
             "langue": [
-                "TBD"
+                "VF"
             ],
             "taille": 3807492619,
-            "genre": null,
-            "image": null,
-            "fichier": "/Box_Films/- Nouveaux/Star Trek Beyond (2016).mkv",
-            "nomFichier": "Star Trek Beyond (2016).mkv",
+            "genre": [
+                "Science-Fiction"
+            ],
+            "image": "https://image.tmdb.org/t/p/w342/aerpiFz3XsTg6ICP2qSxRriKTPd.jpg",
+            "fichier": "/Box_Films/Science-Fiction/Star Trek/2016_Star Trek Sans limites_VF.mkv",
+            "nomFichier": "2016_Star Trek Sans limites_VF.mkv",
             "imdbId": null,
-            "tmdbId": null,
-            "tmdbUrl": null,
+            "tmdbId": 188927,
+            "tmdbUrl": "https://www.themoviedb.org/movie/188927",
             "doublonExact": false,
             "doublonProbable": false,
             "groupeDoublon": null,
@@ -37301,15 +36827,25 @@
                         "langue": "fre",
                         "titre": "PGS Full"
                     }
-                ],
-                "zoneUtile": {
-                    "largeurUtile": 1920,
-                    "hauteurUtile": 800,
-                    "x": 0,
-                    "y": 140
-                }
+                ]
             },
-            "fichierNormalise": "Star Trek Beyond ( )_2016_TBD.mkv"
+            "fichierNormalise": "Star Trek Beyond ( )_2016_TBD.mkv",
+            "titreTmdb": "Star Trek : Sans limites",
+            "titreOriginal": "Star Trek Beyond",
+            "langueOriginale": "en",
+            "anneeTmdb": "2016",
+            "dureeTmdb": 123,
+            "descriptionTmdb": "L'équipage de l'USS Enterprise explore les confins de l'espace inconnu où ils rencontrent un nouvel ennemi impitoyable qui les met à l'épreuve, ainsi que tout ce que la Fédération représente.",
+            "collectionId": 115575,
+            "collectionNom": "Star Trek - Saga",
+            "collectionDescription": "Saga cinématographique Star Trek, troisième du nom.",
+            "collectionImage": "https://image.tmdb.org/t/p/w500/A8Y0BFIXpKv3AxbueUNnK6CdNCu.jpg",
+            "collectionTmdbUrl": "https://www.themoviedb.org/collection/115575",
+            "type": null,
+            "studio": null,
+            "languesAudio": [
+                "FR"
+            ]
         },
         {
             "id": "star_trek_jyk_2016",
@@ -39248,8 +38784,8 @@
                 "Science-Fiction"
             ],
             "image": "https://image.tmdb.org/t/p/w342/ylsAO88v2tF0iXRFojPa0UaAJf1.jpg",
-            "fichier": "/01_Films/Marvel/2012 The.Avengers.2012.FRENCH.DVDRiP.XViD.AC3-S.V.avi",
-            "nomFichier": "2012 The.Avengers.2012.FRENCH.DVDRiP.XViD.AC3-S.V.avi",
+            "fichier": "/Box_Films/Marvel/Avengers/2012_Avengers_VF.avi",
+            "nomFichier": "2012_Avengers_VF.avi",
             "imdbId": null,
             "tmdbId": 24428,
             "tmdbUrl": "https://www.themoviedb.org/movie/24428",
@@ -39305,8 +38841,8 @@
             "fichierNormalise": "2012_Avengers_VF.avi"
         },
         {
-            "id": "the_bad_guys_2_2025",
-            "titre": "The Bad Guys 2",
+            "id": "the_bad_guys_2_supply_2025",
+            "titre": "The Bad Guys 2 SUPPLY",
             "annee": 2025,
             "langue": [
                 "VO",
@@ -39314,189 +38850,19 @@
                 "VOSTFR",
                 "VOST"
             ],
-            "taille": 1344536007,
+            "taille": 8429321124,
             "genre": [
                 "Action"
             ],
             "image": "https://image.tmdb.org/t/p/w342/1heUoLYAHVAKn0ehIF9ASOg2jUv.jpg",
-            "fichier": "/Box_Films/Animation/Les Bad Guys/2025_Les Bad Guys 2_VO_VF_VOST_VOSTFR.mp4",
-            "nomFichier": "2025_Les Bad Guys 2_VO_VF_VOST_VOSTFR.mp4",
+            "fichier": "/Box_Films/Action/Les Bad Guys/2025_Les Bad Guys 2_VO_VF_VOST_VOSTFR.mkv",
+            "nomFichier": "2025_Les Bad Guys 2_VO_VF_VOST_VOSTFR.mkv",
             "imdbId": null,
             "tmdbId": 1175942,
             "tmdbUrl": "https://www.themoviedb.org/movie/1175942",
             "doublonExact": false,
             "doublonProbable": false,
             "groupeDoublon": null,
-            "dateAjout": "2026-11-10T08:51:25.710Z",
-            "titreTmdb": "Les Bad Guys 2",
-            "anneeTmdb": "2025",
-            "dureeTmdb": 104,
-            "descriptionTmdb": "Un loup, un serpent, une tarentule, un requin et un piranha sont une ancienne bande de criminels repentis tentant une réinsertion dans la société. Cependant, leur mauvaise réputation les précède et ils peinent à trouver du travail. Lorsqu'une série de cambriolages sont perpétrés dans la ville, ils en deviennent les principaux suspects. Pour prouver leurs bonnes intentions, ils offrent à la commissaire de police d'utiliser leurs habiletés uniques pour identifier le véritable coupable.",
-            "collectionId": 1231053,
-            "collectionNom": "Les Bad Guys - Saga",
-            "collectionDescription": "Collection de films d'animation des Bad Guys",
-            "collectionImage": "https://image.tmdb.org/t/p/w500/OADNVTiVWT9lcuOSapQ9KlTX1D.jpg",
-            "collectionTmdbUrl": "https://www.themoviedb.org/collection/1231053",
-            "technique": {
-                "largeur": 720,
-                "hauteur": 406,
-                "resolution": "720x406",
-                "ratioImage": 1.773,
-                "codecVideo": "h264",
-                "profilVideo": "High",
-                "pixelFormat": "yuv420p",
-                "bitsParComposante": 8,
-                "bitrateVideo": 1389273,
-                "framerate": 23.976,
-                "espaceCouleur": "bt709",
-                "transfertCouleur": "bt709",
-                "primairesCouleur": "bt709",
-                "hdr": false,
-                "dureeFichier": 6231.957,
-                "bitrateGlobal": 1725988,
-                "formatConteneur": "mov,mp4,m4a,3gp,3g2,mj2",
-                "audio": [
-                    {
-                        "codec": "aac",
-                        "profil": "LC",
-                        "canaux": 2,
-                        "disposition": "stereo",
-                        "bitrate": 163077,
-                        "frequence": 48000,
-                        "langue": "fra"
-                    },
-                    {
-                        "codec": "aac",
-                        "profil": "LC",
-                        "canaux": 2,
-                        "disposition": "stereo",
-                        "bitrate": 163389,
-                        "frequence": 48000,
-                        "langue": "eng"
-                    }
-                ],
-                "sousTitres": [
-                    {
-                        "codec": "mov_text",
-                        "langue": "fra",
-                        "titre": null
-                    },
-                    {
-                        "codec": "mov_text",
-                        "langue": "fra",
-                        "titre": null
-                    },
-                    {
-                        "codec": "mov_text",
-                        "langue": "eng",
-                        "titre": null
-                    }
-                ]
-            },
-            "ignoreInCollection": false,
-            "titreOriginal": "The Bad Guys 2",
-            "langueOriginale": "en",
-            "type": "Animation",
-            "studio": null,
-            "fichierNormalise": "2025_Les Bad Guys 2_VO_VF.mp4",
-            "languesSousTitres": [
-                "EN",
-                "FR"
-            ]
-        },
-        {
-            "id": "the_bad_guys_2_supply_2025",
-            "titre": "The Bad Guys 2 SUPPLY",
-            "annee": 2025,
-            "langue": [
-                "VF"
-            ],
-            "taille": 4405302357,
-            "genre": null,
-            "image": null,
-            "fichier": "/Box_Films/- Nouveaux/The.Bad.Guys.2.2025.FRENCH.720p.WEB.H264-SUPPLY.mkv",
-            "nomFichier": "The.Bad.Guys.2.2025.FRENCH.720p.WEB.H264-SUPPLY.mkv",
-            "imdbId": null,
-            "tmdbId": null,
-            "tmdbUrl": null,
-            "doublonExact": false,
-            "doublonProbable": true,
-            "groupeDoublon": "the_bad_guys_2_supply",
-            "dateAjout": "2026-11-23T08:58:15.476Z",
-            "technique": {
-                "largeur": 1248,
-                "hauteur": 520,
-                "resolution": "1248x520",
-                "ratioImage": 2.4,
-                "codecVideo": "h264",
-                "profilVideo": "High",
-                "pixelFormat": "yuv420p",
-                "bitsParComposante": 8,
-                "bitrateVideo": null,
-                "framerate": 23.976,
-                "espaceCouleur": "bt709",
-                "transfertCouleur": "bt709",
-                "primairesCouleur": "bt709",
-                "hdr": false,
-                "dureeFichier": 6231.968,
-                "bitrateGlobal": 5655102,
-                "formatConteneur": "matroska,webm",
-                "audio": [
-                    {
-                        "codec": "eac3",
-                        "profil": null,
-                        "canaux": 6,
-                        "disposition": "5.1(side)",
-                        "bitrate": 640000,
-                        "frequence": 48000,
-                        "langue": "fre"
-                    }
-                ],
-                "sousTitres": [
-                    {
-                        "codec": "subrip",
-                        "langue": "fre",
-                        "titre": "French (Canadien) Forced"
-                    },
-                    {
-                        "codec": "subrip",
-                        "langue": "fre",
-                        "titre": "French (Canadien)"
-                    },
-                    {
-                        "codec": "subrip",
-                        "langue": "eng",
-                        "titre": "English"
-                    }
-                ],
-                "zoneUtile": {
-                    "largeurUtile": 1248,
-                    "hauteurUtile": 512,
-                    "x": 0,
-                    "y": 4
-                }
-            },
-            "fichierNormalise": "The Bad Guys 2 SUPPLY_2025_VF.mkv"
-        },
-        {
-            "id": "the_bad_guys_2_supply_2025",
-            "titre": "The Bad Guys 2 SUPPLY",
-            "annee": 2025,
-            "langue": [
-                "VO",
-                "VF"
-            ],
-            "taille": 8429321124,
-            "genre": null,
-            "image": null,
-            "fichier": "/Box_Films/- Nouveaux/The.Bad.Guys.2.2025.MULTi.1080p.WEB.H264-SUPPLY.mkv",
-            "nomFichier": "The.Bad.Guys.2.2025.MULTi.1080p.WEB.H264-SUPPLY.mkv",
-            "imdbId": null,
-            "tmdbId": null,
-            "tmdbUrl": null,
-            "doublonExact": false,
-            "doublonProbable": true,
-            "groupeDoublon": "the_bad_guys_2_supply",
             "dateAjout": "2026-11-23T08:58:17.288Z",
             "technique": {
                 "largeur": 1920,
@@ -39552,15 +38918,26 @@
                         "langue": "eng",
                         "titre": "English"
                     }
-                ],
-                "zoneUtile": {
-                    "largeurUtile": 1920,
-                    "hauteurUtile": 800,
-                    "x": 0,
-                    "y": 0
-                }
+                ]
             },
-            "fichierNormalise": "The Bad Guys 2 SUPPLY_2025_VO_VF.mkv"
+            "fichierNormalise": "The Bad Guys 2 SUPPLY_2025_VO_VF.mkv",
+            "titreTmdb": "Les Bad Guys 2",
+            "titreOriginal": "The Bad Guys 2",
+            "langueOriginale": "en",
+            "anneeTmdb": "2025",
+            "dureeTmdb": 104,
+            "descriptionTmdb": "Un loup, un serpent, une tarentule, un requin et un piranha sont une ancienne bande de criminels repentis tentant une réinsertion dans la société. Cependant, leur mauvaise réputation les précède et ils peinent à trouver du travail. Lorsqu'une série de cambriolages sont perpétrés dans la ville, ils en deviennent les principaux suspects. Pour prouver leurs bonnes intentions, ils offrent à la commissaire de police d'utiliser leurs habiletés uniques pour identifier le véritable coupable.",
+            "collectionId": 1231053,
+            "collectionNom": "Les Bad Guys - Saga",
+            "collectionDescription": "Collection de films d'animation des Bad Guys",
+            "collectionImage": "https://image.tmdb.org/t/p/w500/OADNVTiVWT9lcuOSapQ9KlTX1D.jpg",
+            "collectionTmdbUrl": "https://www.themoviedb.org/collection/1231053",
+            "type": null,
+            "studio": null,
+            "languesAudio": [
+                "EN",
+                "FR"
+            ]
         },
         {
             "id": "bang_bang_club",
@@ -40428,7 +39805,7 @@
                 "Science-Fiction"
             ],
             "image": "https://image.tmdb.org/t/p/w342/mqAQO6j5gkq6iwCXNbXpzf0RXBU.jpg",
-            "fichier": "/01_Films/Marvel/2023 The.Marvels.2023.1080p.WEBRip.1400MB.DD5.1.x264-GalaxyRG.mkv",
+            "fichier": "/Box_Films/- Nouveaux/2023 The.Marvels.2023.1080p.WEBRip.1400MB.DD5.1.x264-GalaxyRG.mkv",
             "nomFichier": "2023 The.Marvels.2023.1080p.WEBRip.1400MB.DD5.1.x264-GalaxyRG.mkv",
             "imdbId": null,
             "tmdbId": 609681,
@@ -41050,7 +40427,7 @@
                 "Action"
             ],
             "image": "https://image.tmdb.org/t/p/w342/5TU2NRk8aP40o7IDck0RF24TCyj.jpg",
-            "fichier": "/01_Films/Action/The.Rock.1996.1080p.BrRip.x264.YIFY.mp4",
+            "fichier": "/Box_Films/- Nouveaux/The.Rock.1996.1080p.BrRip.x264.YIFY.mp4",
             "nomFichier": "The.Rock.1996.1080p.BrRip.x264.YIFY.mp4",
             "imdbId": null,
             "tmdbId": 9802,
@@ -41584,7 +40961,7 @@
                 "Science-Fiction"
             ],
             "image": "https://image.tmdb.org/t/p/w342/kSMarEm3ESOOr11dzsep2RZ1ClD.jpg",
-            "fichier": "/01_Films/Marvel/Thor Love and Thunder (2022) 1080p HDTS x264 - ProLover.mp4",
+            "fichier": "/Box_Films/- Nouveaux/Thor Love and Thunder (2022) 1080p HDTS x264 - ProLover.mp4",
             "nomFichier": "Thor Love and Thunder (2022) 1080p HDTS x264 - ProLover.mp4",
             "imdbId": null,
             "tmdbId": 616037,
@@ -41652,7 +41029,7 @@
                 "Science-Fiction"
             ],
             "image": "https://image.tmdb.org/t/p/w342/kSMarEm3ESOOr11dzsep2RZ1ClD.jpg",
-            "fichier": "/01_Films/Marvel/Thor.Love.and.Thunder.2022.1080p.WEBRip.1400MB.DD5.1.x264-GalaxyRG.mkv",
+            "fichier": "/Box_Films/- Nouveaux/Thor.Love.and.Thunder.2022.1080p.WEBRip.1400MB.DD5.1.x264-GalaxyRG.mkv",
             "nomFichier": "Thor.Love.and.Thunder.2022.1080p.WEBRip.1400MB.DD5.1.x264-GalaxyRG.mkv",
             "imdbId": null,
             "tmdbId": 616037,
@@ -42101,16 +41478,19 @@
             "titre": "Tomorrow Never Dies HazMatt",
             "annee": 1997,
             "langue": [
-                "TBD"
+                "VO",
+                "VOST"
             ],
             "taille": 3454284558,
-            "genre": null,
-            "image": null,
-            "fichier": "/Box_Films/- Nouveaux/Tomorrow.Never.Dies.1997.1080p.BluRay.10bit.x265-HazMatt.mkv",
-            "nomFichier": "Tomorrow.Never.Dies.1997.1080p.BluRay.10bit.x265-HazMatt.mkv",
+            "genre": [
+                "Action"
+            ],
+            "image": "https://image.tmdb.org/t/p/w342/6sHUh1Zvz5QXDJbSvGErfNatwBD.jpg",
+            "fichier": "/Box_Films/Action/James Bond 007/1997_Demain ne meurt jamais_VO_VOST.mkv",
+            "nomFichier": "1997_Demain ne meurt jamais_VO_VOST.mkv",
             "imdbId": null,
-            "tmdbId": null,
-            "tmdbUrl": null,
+            "tmdbId": 714,
+            "tmdbUrl": "https://www.themoviedb.org/movie/714",
             "doublonExact": false,
             "doublonProbable": false,
             "groupeDoublon": null,
@@ -42150,15 +41530,25 @@
                         "langue": "eng",
                         "titre": null
                     }
-                ],
-                "zoneUtile": {
-                    "largeurUtile": 1920,
-                    "hauteurUtile": 816,
-                    "x": 0,
-                    "y": 2
-                }
+                ]
             },
-            "fichierNormalise": "Tomorrow Never Dies HazMatt_1997_TBD.mkv"
+            "fichierNormalise": "Tomorrow Never Dies HazMatt_1997_TBD.mkv",
+            "titreTmdb": "Demain ne meurt jamais",
+            "titreOriginal": "Tomorrow Never Dies",
+            "langueOriginale": "en",
+            "anneeTmdb": "1997",
+            "dureeTmdb": 115,
+            "descriptionTmdb": "L’agent 007, alias James Bond, a pour mission de localiser l’épave du « Devonshire », une frégate de la Royal Navy, perdue dans les eaux territoriales chinoises. Il doit également retrouver le coupable de l’attentat, un certain Henry Gupta, ancien gauchiste activement recherché par le FBI et, enfin, remonter jusqu’au cerveau de l’opération, Elliot Carver, propriétaire du quotidien « Tomorrow » et patron du plus grand empire médiatique de tous les temps.",
+            "collectionId": 645,
+            "collectionNom": "James Bond 007 - Saga",
+            "collectionDescription": "James Bond, agent 007, autorisé à tuer, est le héros de la plus longue saga cinématographique de tous les temps, au succès sans égal. Armé de son Walther PPK, accompagné des plus jolies filles de la terre et opposé aux plus cyniques des méchants, il a poursuivi le mal aux quatre coins du monde, survécu à la guerre froide et à la chute du mur de Berlin.",
+            "collectionImage": "https://image.tmdb.org/t/p/w500/5KhvmlY1tvwrhDbfx2TvL8mYyFn.jpg",
+            "collectionTmdbUrl": "https://www.themoviedb.org/collection/645",
+            "languesSousTitres": [
+                "EN"
+            ],
+            "type": null,
+            "studio": null
         },
         {
             "id": "tonnerre_sous_les_tropiques_tropic_thunder",
@@ -43800,7 +43190,7 @@
                 "Science-Fiction"
             ],
             "image": "https://image.tmdb.org/t/p/w342/rcFafbWECDkXQyHNphNSfWh6WQw.jpg",
-            "fichier": "/01_Films/Marvel/Valerian.and.the.City.of.a.Thousand.Planets.2017.FRENCH.BDRip.XviD.ACOOL.avi",
+            "fichier": "/Box_Films/- Nouveaux/Valerian.and.the.City.of.a.Thousand.Planets.2017.FRENCH.BDRip.XviD.ACOOL.avi",
             "nomFichier": "Valerian.and.the.City.of.a.Thousand.Planets.2017.FRENCH.BDRip.XviD.ACOOL.avi",
             "imdbId": null,
             "tmdbId": 339964,
@@ -44604,7 +43994,7 @@
                 "Science-Fiction"
             ],
             "image": "https://image.tmdb.org/t/p/w342/oomdTdke7dqffdDoDV1fFBV4fJY.jpg",
-            "fichier": "/01_Films/Marvel/2017 Wonder.Woman.2017.FRENCH.BDRip.XviD-Shanks.avi",
+            "fichier": "/Box_Films/- Nouveaux/2017 Wonder.Woman.2017.FRENCH.BDRip.XviD-Shanks.avi",
             "nomFichier": "2017 Wonder.Woman.2017.FRENCH.BDRip.XviD-Shanks.avi",
             "imdbId": null,
             "tmdbId": 297762,
@@ -44958,7 +44348,7 @@
                 "Science-Fiction"
             ],
             "image": "https://image.tmdb.org/t/p/w342/fX00d6L2NrWyFzCJEQr0pSNhElT.jpg",
-            "fichier": "/01_Films/Marvel/X-Men 3 - VF.avi",
+            "fichier": "/Box_Films/- Nouveaux/X-Men 3 - VF.avi",
             "nomFichier": "X-Men 3 - VF.avi",
             "imdbId": null,
             "tmdbId": 36668,
@@ -45522,7 +44912,7 @@
                 "Science-Fiction"
             ],
             "image": "https://image.tmdb.org/t/p/w342/ucJroLJ6RCqXY6hjYeLCW6jbWwE.jpg",
-            "fichier": "/01_Films/Marvel/X-Men Origins - VF.Avi",
+            "fichier": "/Box_Films/- Nouveaux/X-Men Origins - VF.Avi",
             "nomFichier": "X-Men Origins - VF.Avi",
             "imdbId": null,
             "tmdbId": 2080,
@@ -66268,12 +65658,12 @@
     "stockage": [
         {
             "lecteur": "Y",
-            "espaceLibre": 344213196800,
+            "espaceLibre": 247498006528,
             "capaciteTotale": 2000396742656
         },
         {
             "lecteur": "Z",
-            "espaceLibre": 109724528640,
+            "espaceLibre": 211538755584,
             "capaciteTotale": 1000169533440
         }
     ]

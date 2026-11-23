@@ -4,6 +4,7 @@ async function loadCatalog() {
 }
 
 async function reloadCatalog(type = "all") {
+  let hasSubtitleFiles = false;
   if (type === "films") {
     const checkResponse = await fetch(
       "http://localhost:9876/check-nouveaux-films-files",
@@ -20,9 +21,7 @@ async function reloadCatalog(type = "all") {
       alert("Pensez à vérifier les fichiers.");
       return;
     }
-    if (checkResult.subtitleFiles.length > 0) {
-      alert("Attention, vérifier les fichiers de sous-titres.");
-    }
+    hasSubtitleFiles = checkResult.subtitleFiles.length > 0;
   }
   openScanModal();
   document.getElementById("scanTitle").textContent =
@@ -33,7 +32,9 @@ async function reloadCatalog(type = "all") {
         : "Scan des disques en cours...";
   await new Promise((resolve) => setTimeout(resolve, 500));
   const scanLog = document.getElementById("scanLog");
-  scanLog.textContent = "";
+  scanLog.textContent = hasSubtitleFiles
+    ? "Attention : pensez à vérifier les sous-titres.\n\n"
+    : "";
   const response = await fetch("http://localhost:9876/refresh-catalog", {
     method: "POST",
     headers: {
