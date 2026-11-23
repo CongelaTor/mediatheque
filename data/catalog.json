@@ -1,6 +1,6 @@
 {
     "version": 1,
-    "dateDernierScan": "2026-11-23T18:18:19.642Z",
+    "dateDernierScan": "2026-11-23T18:41:28.217Z",
     "collections": [
         {
             "collectionId": 645,
@@ -7840,15 +7840,15 @@
             "titre": "cinquième element",
             "annee": null,
             "langue": [
-                "TBD"
+                "VF"
             ],
             "taille": 731961850,
             "genre": [
                 "Science-Fiction"
             ],
             "image": "https://image.tmdb.org/t/p/w342/8nx8sttha1Zidt73SbNncVfSwqk.jpg",
-            "fichier": "/Box_Films/Science-Fiction/Le Cinquième Élément_1997_TBD.avi",
-            "nomFichier": "Le Cinquième Élément_1997_TBD.avi",
+            "fichier": "/Box_Films/Science-Fiction/Le Cinquième Élément_1997_VF.avi",
+            "nomFichier": "Le Cinquième Élément_1997_VF.avi",
             "imdbId": null,
             "tmdbId": 18,
             "tmdbUrl": "https://www.themoviedb.org/movie/18",
@@ -7895,9 +7895,12 @@
                 ],
                 "sousTitres": []
             },
-            "titreOriginal": "Le Cinquième Élément",
-            "langueOriginale": "fr",
-            "fichierNormalise": "Le Cinquième Élément_1997_TBD.avi"
+            "titreOriginal": "The Fifth Element",
+            "langueOriginale": "en",
+            "fichierNormalise": "Le Cinquième Élément_1997_TBD.avi",
+            "languesAudio": [
+                "FR"
+            ]
         },
         {
             "id": "cirque_du_worlds_away_gaz_2012",
@@ -26003,70 +26006,6 @@
             "fichierNormalise": "2003_Le Livre de la Jungle 2_TBD.avi"
         },
         {
-            "id": "le_livre_de_la_jungle2",
-            "titre": "Livre de Jungle2",
-            "annee": null,
-            "langue": [
-                "TBD"
-            ],
-            "taille": 720433152,
-            "genre": [
-                "Comédie musicale"
-            ],
-            "image": "https://image.tmdb.org/t/p/w342/5Bj9f2MJSMc5wojx6Ygoq1BkQUo.jpg",
-            "fichier": "/Box_Films/Enfants/Le Livre de la Jungle2.avi",
-            "nomFichier": "Le Livre de la Jungle2.avi",
-            "imdbId": null,
-            "tmdbId": 14873,
-            "tmdbUrl": "https://www.themoviedb.org/movie/14873",
-            "doublonExact": false,
-            "doublonProbable": false,
-            "groupeDoublon": null,
-            "dateAjout": "2026-08-22T08:23:33.688Z",
-            "titreTmdb": "Le Livre de la Jungle 2",
-            "anneeTmdb": "2003",
-            "dureeTmdb": 72,
-            "descriptionTmdb": "Mowgli, Baloo, Bagheera et le reste de vos personnages préférés reviennent pour une aventure musicale. Mowgli vit au village des humains avec son demi-frère, Ranjan et sa meilleure amie, Shanti. Mais son vieil ami Baloo lui manque alors Mowgli décide de retourner dans la jungle. Shere Khan, son ennemi juré, compte bien profiter de la situation pour se venger.",
-            "collectionId": 97459,
-            "collectionNom": "Le Livre de la Jungle - Saga",
-            "type": "Animation",
-            "studio": "Disney Classic",
-            "technique": {
-                "largeur": 720,
-                "hauteur": 416,
-                "resolution": "720x416",
-                "ratioImage": 1.731,
-                "codecVideo": "mpeg4",
-                "profilVideo": null,
-                "pixelFormat": "yuv420p",
-                "bitsParComposante": null,
-                "bitrateVideo": 1248031,
-                "framerate": 25,
-                "espaceCouleur": null,
-                "transfertCouleur": null,
-                "primairesCouleur": null,
-                "hdr": false,
-                "dureeFichier": 4159.12,
-                "bitrateGlobal": 1385741,
-                "formatConteneur": "avi",
-                "audio": [
-                    {
-                        "codec": "mp3",
-                        "profil": null,
-                        "canaux": 2,
-                        "disposition": "stereo",
-                        "bitrate": 128000,
-                        "frequence": 44100,
-                        "langue": null
-                    }
-                ],
-                "sousTitres": []
-            },
-            "titreOriginal": "The Jungle Book 2",
-            "langueOriginale": "en",
-            "fichierNormalise": "2003_Le Livre de la Jungle 2_TBD.avi"
-        },
-        {
             "id": "tmdb_263115",
             "titre": "Logan",
             "annee": 2017,
@@ -35599,21 +35538,21 @@
             "titre": "Sleepless",
             "annee": 2017,
             "langue": [
-                "TBD"
+                "VO"
             ],
             "taille": 1564108250,
             "genre": [
                 "Action"
             ],
             "image": "https://image.tmdb.org/t/p/w342/9a6b0ZMrWrMmD6yrh6vvB6bMSZN.jpg",
-            "fichier": "/Box_Films/Action/Sleepless_2017_TBD.mp4",
-            "nomFichier": "Sleepless_2017_TBD.mp4",
+            "fichier": "/Box_Films/Action/Sleepless_2017_VO.mp4",
+            "nomFichier": "Sleepless_2017_VO.mp4",
             "imdbId": null,
             "tmdbId": 324542,
             "tmdbUrl": "https://www.themoviedb.org/movie/324542",
             "doublonExact": false,
-            "doublonProbable": true,
-            "groupeDoublon": "sleepless",
+            "doublonProbable": false,
+            "groupeDoublon": null,
             "dateAjout": "2026-08-22T08:23:33.582Z",
             "titreTmdb": "Sleepless",
             "anneeTmdb": "2017",
@@ -35659,141 +35598,10 @@
             },
             "titreOriginal": "Sleepless",
             "langueOriginale": "en",
-            "fichierNormalise": "Sleepless_2017_TBD.mp4"
-        },
-        {
-            "id": "sleepless_2017",
-            "titre": "Sleepless",
-            "annee": 2017,
-            "langue": [
-                "TBD"
-            ],
-            "taille": 743322883,
-            "genre": [
-                "Action"
-            ],
-            "image": "https://image.tmdb.org/t/p/w342/9a6b0ZMrWrMmD6yrh6vvB6bMSZN.jpg",
-            "fichier": "/Box_Films/Check Films/Sleepless (2017) [YTS.AG]/Sleepless.2017.720p.BluRay.x264-[YTS.AG].mp4",
-            "nomFichier": "Sleepless.2017.720p.BluRay.x264-[YTS.AG].mp4",
-            "imdbId": null,
-            "tmdbId": 324542,
-            "tmdbUrl": "https://www.themoviedb.org/movie/324542",
-            "doublonExact": false,
-            "doublonProbable": true,
-            "groupeDoublon": "sleepless",
-            "dateAjout": "2026-08-22T08:23:33.582Z",
-            "titreTmdb": "Sleepless",
-            "anneeTmdb": "2017",
-            "dureeTmdb": 95,
-            "descriptionTmdb": "Une grosse livraison de cocaïne destinée à la mafia est détournée. Vincent Downs et Sean Tip, deux flics de Las Vegas, sont rapidement suspectés. La police des polices les met sous pression. La mafia aussi. En kidnappant le fils de Downs, la mafia franchit la ligne blanche : blessé et traqué, Downs va devenir un adversaire brutal et impitoyable. Il est prêt à tout pour sauver son fils et il n’a qu’une nuit devant lui.",
-            "collectionId": null,
-            "collectionNom": null,
-            "collectionDescription": null,
-            "collectionImage": null,
-            "collectionTmdbUrl": null,
-            "type": "Film",
-            "studio": null,
-            "technique": {
-                "largeur": 1280,
-                "hauteur": 534,
-                "resolution": "1280x534",
-                "ratioImage": 2.397,
-                "codecVideo": "h264",
-                "profilVideo": "High",
-                "pixelFormat": "yuv420p",
-                "bitsParComposante": 8,
-                "bitrateVideo": 899656,
-                "framerate": 23.976,
-                "espaceCouleur": null,
-                "transfertCouleur": null,
-                "primairesCouleur": null,
-                "hdr": false,
-                "dureeFichier": 5712.629,
-                "bitrateGlobal": 1040953,
-                "formatConteneur": "mov,mp4,m4a,3gp,3g2,mj2",
-                "audio": [
-                    {
-                        "codec": "aac",
-                        "profil": "LC",
-                        "canaux": 2,
-                        "disposition": "stereo",
-                        "bitrate": 134434,
-                        "frequence": 48000,
-                        "langue": "und"
-                    }
-                ],
-                "sousTitres": []
-            },
-            "titreOriginal": "Sleepless",
-            "langueOriginale": "en",
-            "fichierNormalise": "Sleepless_2017_TBD.mp4"
-        },
-        {
-            "id": "slumdog_millionaire",
-            "titre": "Slumdog Millionaire",
-            "annee": null,
-            "langue": [
-                "TBD"
-            ],
-            "taille": 721022976,
-            "genre": [
-                "Drame"
-            ],
-            "image": "https://image.tmdb.org/t/p/w342/r9zN2ZwT2nuUew4r9oApWRkiyIm.jpg",
-            "fichier": "/Box_Films/Drame/Slumdog Millionaire_2008_TBD.avi",
-            "nomFichier": "Slumdog Millionaire_2008_TBD.avi",
-            "imdbId": null,
-            "tmdbId": 12405,
-            "tmdbUrl": "https://www.themoviedb.org/movie/12405",
-            "doublonExact": false,
-            "doublonProbable": false,
-            "groupeDoublon": null,
-            "dateAjout": "2026-08-22T18:10:23.645Z",
-            "titreTmdb": "Slumdog Millionaire",
-            "anneeTmdb": "2008",
-            "dureeTmdb": 120,
-            "descriptionTmdb": "Jamal Malik, 18 ans, orphelin vivant dans les taudis de Mumbai, est sur le point de remporter la somme colossale de 20 millions de roupies lors de la version indienne de l’émission «Qui veut gagner des millions ?». Il n’est plus qu’à une question de la victoire lorsque la police l’arrête sur un soupçon de tricherie. Sommé de justifier ses bonnes réponses, Jamal explique d’où lui viennent ses connaissances et raconte sa vie dans la rue, ses histoires de famille et même celle de cette fille dont il est tombé amoureux et qu’il a perdue. Mais comment ce jeune homme est‐il parvenu en finale d’une émission de télévision ? La réponse ne fait pas partie du jeu, mais elle est passionnante.",
-            "collectionId": null,
-            "collectionNom": null,
-            "collectionDescription": null,
-            "collectionImage": null,
-            "collectionTmdbUrl": null,
-            "type": "Film",
-            "studio": null,
-            "technique": {
-                "largeur": 688,
-                "hauteur": 288,
-                "resolution": "688x288",
-                "ratioImage": 2.389,
-                "codecVideo": "mpeg4",
-                "profilVideo": "Advanced Simple Profile",
-                "pixelFormat": "yuv420p",
-                "bitsParComposante": null,
-                "bitrateVideo": 725755,
-                "framerate": 25.009,
-                "espaceCouleur": null,
-                "transfertCouleur": null,
-                "primairesCouleur": null,
-                "hdr": false,
-                "dureeFichier": 6679.6613,
-                "bitrateGlobal": 863544,
-                "formatConteneur": "avi",
-                "audio": [
-                    {
-                        "codec": "mp3",
-                        "profil": null,
-                        "canaux": 2,
-                        "disposition": "stereo",
-                        "bitrate": 128000,
-                        "frequence": 44100,
-                        "langue": null
-                    }
-                ],
-                "sousTitres": []
-            },
-            "titreOriginal": "Slumdog Millionaire",
-            "langueOriginale": "en",
-            "fichierNormalise": "Slumdog Millionaire_2008_TBD.avi"
+            "fichierNormalise": "Sleepless_2017_TBD.mp4",
+            "languesAudio": [
+                "EN"
+            ]
         },
         {
             "id": "snake_eyes",
@@ -39339,13 +39147,7 @@
                         "langue": "eng",
                         "titre": "Complets"
                     }
-                ],
-                "zoneUtile": {
-                    "largeurUtile": 1920,
-                    "hauteurUtile": 800,
-                    "x": 0,
-                    "y": 0
-                }
+                ]
             },
             "fichierNormalise": "The Fantastic Four First Steps 5 1 TyHD_2025_VO_VF.mkv",
             "titreTmdb": "Les 4 Fantastiques : Premiers Pas",
@@ -39516,8 +39318,8 @@
                 ],
                 "sousTitres": []
             },
-            "titreOriginal": "Le Cinquième Élément",
-            "langueOriginale": "fr",
+            "titreOriginal": "The Fifth Element",
+            "langueOriginale": "en",
             "languesAudio": [
                 "EN"
             ],
@@ -65670,12 +65472,12 @@
     "stockage": [
         {
             "lecteur": "Y",
-            "espaceLibre": 298658684928,
+            "espaceLibre": 298659889152,
             "capaciteTotale": 2000396742656
         },
         {
             "lecteur": "Z",
-            "espaceLibre": 164155346944,
+            "espaceLibre": 164155310080,
             "capaciteTotale": 1000169533440
         }
     ]
