@@ -16,21 +16,12 @@ async function reloadCatalog(type = "all") {
       },
     );
     const checkResult = await checkResponse.json();
-    if (
-      checkResult.blockingFiles.length > 0 &&
-      checkResult.subtitleFiles.length > 0
-    ) {
-      alert("Pensez à vérifier les fichiers et les fichiers de sous-titres.");
-      return;
-    }
     if (checkResult.blockingFiles.length > 0) {
       alert("Pensez à vérifier les fichiers.");
       return;
     }
     if (checkResult.subtitleFiles.length > 0) {
-      alert(
-        "Attention, il y a des fichiers de sous-titres. Pensez à vérifier qu'ils correspondent bien aux films.",
-      );
+      alert("Attention, vérifier les fichiers de sous-titres.");
     }
   }
   openScanModal();
@@ -270,8 +261,15 @@ function updateStats() {
       statRow.style.display = nouveautesCount > 0 ? "" : "none";
       if (nouveautesCount > 0) {
         statRow.style.cursor = "pointer";
-        statRow.title = "Filtrer par Nouveautés";
+        statRow.title =
+          currentPage === "collections"
+            ? "Afficher les nouveautés dans Films"
+            : "Filtrer par Nouveautés";
         statRow.onclick = () => {
+          if (currentPage === "collections") {
+            openFilmsNouveautes();
+            return;
+          }
           const nouveautesButton =
             document.querySelector('.sidebar-link[data-ajouts="Nouveautés"]') ||
             [
@@ -279,7 +277,6 @@ function updateStats() {
                 ".sidebar-link, .filter-button, [data-ajouts]",
               ),
             ].find((el) => el.textContent.includes("Nouveautés"));
-
           if (nouveautesButton) {
             nouveautesButton.click();
           } else if (typeof currentAjouts !== "undefined") {
@@ -292,11 +289,6 @@ function updateStats() {
             }
             if (currentPage === "films" && typeof renderFilms === "function") {
               renderFilms();
-            } else if (
-              currentPage === "collections" &&
-              typeof renderCollections === "function"
-            ) {
-              renderCollections();
             }
           }
         };

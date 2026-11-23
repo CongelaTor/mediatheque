@@ -1,7 +1,14 @@
 {
     "version": 1,
-    "dateDernierScan": "2026-11-21T15:47:05.706Z",
+    "dateDernierScan": "2026-11-23T08:58:24.879Z",
     "collections": [
+        {
+            "collectionId": 645,
+            "collectionNom": "James Bond 007 - Saga",
+            "collectionImage": "/5KhvmlY1tvwrhDbfx2TvL8mYyFn.jpg",
+            "collectionDescription": "James Bond, agent 007, autorisé à tuer, est le héros de la plus longue saga cinématographique de tous les temps, au succès sans égal. Armé de son Walther PPK, accompagné des plus jolies filles de la terre et opposé aux plus cyniques des méchants, il a poursuivi le mal aux quatre coins du monde, survécu à la guerre froide et à la chute du mur de Berlin.",
+            "collectionFilmCount": 27
+        },
         {
             "collectionId": 221622,
             "collectionNom": "12 Rounds - Saga",
@@ -59,13 +66,6 @@
             "collectionFilmCount": 3
         },
         {
-            "collectionId": 131292,
-            "collectionNom": "Iron Man - Saga",
-            "collectionImage": "/bQGciwYBe0aG1UNHuIiFkey4pqX.jpg",
-            "collectionDescription": "Collection des films Iron Man (littéralement l'Homme de Fer), super-héros de comics créé en 1963 par Stan Lee pour Marvel Comics.",
-            "collectionFilmCount": 3
-        },
-        {
             "collectionId": 131296,
             "collectionNom": "Thor - Saga",
             "collectionImage": "/i464FnkIvidmW7h7fw3upIDvaGo.jpg",
@@ -106,13 +106,6 @@
             "collectionImage": "/scwFenIwHJVKIxu0GGQkO9hGb2Y.jpg",
             "collectionDescription": "Street Kings est un film d'action et policier de 2008 réalisé par David Ayer, avec Keanu Reeves, Forest Whitaker, Hugh Laurie, Chris Evans, Common et The Game. Street Kings: Motor City est un film d'action et policier sorti directement en DVD en 2011, réalisé par Chris Fisher et avec Ray Liotta. Il s'agit d'une suite du film Street Kings de 2008. Ce n'est une suite que de nom, car l'action se déroule à Detroit et non à Los Angeles, et seul Clifton Powell reprend son rôle du premier film, cette fois-ci dans le rôle de Tyrone Fowler au lieu du sergent Green. Cependant, il aborde des thèmes similaires à ceux du premier film, comme la corruption policière et les enquêtes des affaires internes.",
             "collectionFilmCount": 2
-        },
-        {
-            "collectionId": 645,
-            "collectionNom": "James Bond 007 - Saga",
-            "collectionImage": "/ammkAiFPUQhqrWAdzNZSXR8VMpy.jpg",
-            "collectionDescription": "James Bond, agent 007, autorisé à tuer, est le héros de la plus longue saga cinématographique de tous les temps, au succès sans égal. Armé de son Walther PPK, accompagné des plus jolies filles de la terre et opposé aux plus cyniques des méchants, il a poursuivi le mal aux quatre coins du monde, survécu à la guerre froide et à la chute du mur de Berlin.",
-            "collectionFilmCount": 27
         },
         {
             "collectionId": 87096,
@@ -421,6 +414,13 @@
             "collectionImage": "/yTxAElaa7j7o1GmpEWgmMSiGYFp.jpg",
             "collectionDescription": "Ip-Man est une série de films réalisé par le Hongkongais Wilson Yip mettant en scène Donnie Yen. Ce dernier interprète le célèbre maître chinois de wing chun \"Yip Man\" qui a notamment été le maître du mythique Bruce Lee !  Avec un premier film sorti en 2008 Ip Man avait tout simplement relancé le film d'art Martiaux made in Hongkong. Produit pour un peu moins de 12 millions de dollars le premier films avait tout simplement fait trembler les chiffres du Box Office. En 2019 la sortie de Ip Man 4 est attendu par les fans du monde entier et réunit plus de 180 millions de dollars de recette mondiale ! Pour ma part les deux premiers films sortent vraiment du lot. Malgré la présence de Mike Tyson Ip Man 3 manque, au final, un peu d'originalité scénaristique... Coté critique, Ip Man 4 a, apparemment, mis tout le monde d'accord....",
             "collectionFilmCount": 4
+        },
+        {
+            "collectionId": 131292,
+            "collectionNom": "Iron Man - Saga",
+            "collectionImage": "/bQGciwYBe0aG1UNHuIiFkey4pqX.jpg",
+            "collectionDescription": "Collection des films Iron Man (littéralement l'Homme de Fer), super-héros de comics créé en 1963 par Stan Lee pour Marvel Comics.",
+            "collectionFilmCount": 3
         },
         {
             "collectionId": 31562,
@@ -940,13 +940,7 @@
                         "langue": "eng",
                         "titre": "Full"
                     }
-                ],
-                "zoneUtile": {
-                    "largeurUtile": 1920,
-                    "hauteurUtile": 816,
-                    "x": 0,
-                    "y": 2
-                }
+                ]
             },
             "fichierNormalise": "( )_1997_TBD.mkv",
             "titreTmdb": "Demain ne meurt jamais",
@@ -964,7 +958,8 @@
             "studio": null,
             "languesAudio": [
                 "FR"
-            ]
+            ],
+            "ignoreInCollection": false
         },
         {
             "id": "12_rounds_1_2009",
@@ -2072,145 +2067,6 @@
             "fichierNormalise": "2017_Les Gardiens de la Galaxie Vol. 2_VF.avi"
         },
         {
-            "id": "a_iron_man_1_2008",
-            "titre": "a Iron Man 1",
-            "annee": 2008,
-            "langue": [
-                "TBD"
-            ],
-            "taille": 734613504,
-            "genre": [
-                "Science-Fiction"
-            ],
-            "image": "https://image.tmdb.org/t/p/w342/kNKUCNLu1lZDGAHOBEHxR6psYHx.jpg",
-            "fichier": "/01_Films/Marvel/2008 a Iron Man 1.avi",
-            "nomFichier": "2008 a Iron Man 1.avi",
-            "imdbId": null,
-            "tmdbId": 1726,
-            "tmdbUrl": "https://www.themoviedb.org/movie/1726",
-            "doublonExact": false,
-            "doublonProbable": false,
-            "groupeDoublon": null,
-            "dateAjout": "2026-08-27T11:57:48.097Z",
-            "titreTmdb": "Iron Man",
-            "anneeTmdb": "2008",
-            "dureeTmdb": 125,
-            "descriptionTmdb": "Tony Stark, inventeur de génie, vendeur d'armes et playboy milliardaire, est kidnappé. Forcé par ses ravisseurs de fabriquer une arme redoutable, il construit en secret une armure high-tech révolutionnaire qu'il utilise pour s'échapper. Comprenant la puissance de cette armure, il décide de l'améliorer et de l'utiliser pour faire régner la justice et protéger les innocents.",
-            "collectionId": 131292,
-            "collectionNom": "Iron Man - Saga",
-            "collectionDescription": "Collection des films Iron Man (littéralement l'Homme de Fer), super-héros de comics créé en 1963 par Stan Lee pour Marvel Comics.",
-            "collectionImage": "https://image.tmdb.org/t/p/w500/bQGciwYBe0aG1UNHuIiFkey4pqX.jpg",
-            "collectionTmdbUrl": "https://www.themoviedb.org/collection/131292",
-            "type": "Film",
-            "studio": "Marvel",
-            "ignoreInCollection": false,
-            "technique": {
-                "largeur": 672,
-                "hauteur": 272,
-                "resolution": "672x272",
-                "ratioImage": 2.471,
-                "codecVideo": "mpeg4",
-                "profilVideo": null,
-                "pixelFormat": "yuv420p",
-                "bitsParComposante": null,
-                "bitrateVideo": 689405,
-                "framerate": 25,
-                "espaceCouleur": null,
-                "transfertCouleur": null,
-                "primairesCouleur": null,
-                "hdr": false,
-                "dureeFichier": 7246,
-                "bitrateGlobal": 811055,
-                "formatConteneur": "avi",
-                "audio": [
-                    {
-                        "codec": "mp3",
-                        "profil": null,
-                        "canaux": 2,
-                        "disposition": "stereo",
-                        "bitrate": 112000,
-                        "frequence": 48000,
-                        "langue": null
-                    }
-                ],
-                "sousTitres": []
-            },
-            "titreOriginal": "Iron Man",
-            "langueOriginale": "en",
-            "fichierNormalise": "2008_Iron Man_TBD.avi"
-        },
-        {
-            "id": "a_iron_man_3_2013",
-            "titre": "a Iron Man 3",
-            "annee": 2013,
-            "langue": [
-                "VO"
-            ],
-            "taille": 2095937578,
-            "genre": [
-                "Science-Fiction"
-            ],
-            "image": "https://image.tmdb.org/t/p/w342/sE71EBrRMfW0NKMHlXPO55Km88X.jpg",
-            "fichier": "/01_Films/Marvel/2013 a Iron.Man.3.2013.1080p.BluRay.x264.YIFY.mp4",
-            "nomFichier": "2013 a Iron.Man.3.2013.1080p.BluRay.x264.YIFY.mp4",
-            "imdbId": null,
-            "tmdbId": 68721,
-            "tmdbUrl": "https://www.themoviedb.org/movie/68721",
-            "doublonExact": false,
-            "doublonProbable": false,
-            "groupeDoublon": null,
-            "dateAjout": "2026-08-27T11:57:48.115Z",
-            "titreTmdb": "Iron Man 3",
-            "anneeTmdb": "2013",
-            "dureeTmdb": 130,
-            "descriptionTmdb": "Tony Stark, l’industriel flamboyant qui est aussi Iron Man, est confronté cette fois à un ennemi qui va attaquer sur tous les fronts. Lorsque son univers personnel est détruit, Stark se lance dans une quête acharnée pour retrouver les coupables. Plus que jamais, son courage va être mis à l’épreuve, à chaque instant. Dos au mur, il ne peut plus compter que sur ses inventions, son ingéniosité, et son instinct pour protéger ses proches. Alors qu’il se jette dans la bataille, Stark va enfin découvrir la réponse à la question qui le hante secrètement depuis si longtemps : est‐ce l’homme qui fait le costume ou bien le costume qui fait l’homme ?",
-            "collectionId": 131292,
-            "collectionNom": "Iron Man - Saga",
-            "collectionDescription": "Collection des films Iron Man (littéralement l'Homme de Fer), super-héros de comics créé en 1963 par Stan Lee pour Marvel Comics.",
-            "collectionImage": "https://image.tmdb.org/t/p/w500/bQGciwYBe0aG1UNHuIiFkey4pqX.jpg",
-            "collectionTmdbUrl": "https://www.themoviedb.org/collection/131292",
-            "type": "Film",
-            "studio": "Marvel",
-            "ignoreInCollection": false,
-            "technique": {
-                "largeur": 1920,
-                "hauteur": 800,
-                "resolution": "1920x800",
-                "ratioImage": 2.4,
-                "codecVideo": "h264",
-                "profilVideo": "High",
-                "pixelFormat": "yuv420p",
-                "bitsParComposante": 8,
-                "bitrateVideo": 2042773,
-                "framerate": 23.976,
-                "espaceCouleur": "bt709",
-                "transfertCouleur": null,
-                "primairesCouleur": "bt709",
-                "hdr": false,
-                "dureeFichier": 7832.950125,
-                "bitrateGlobal": 2140636,
-                "formatConteneur": "mov,mp4,m4a,3gp,3g2,mj2",
-                "audio": [
-                    {
-                        "codec": "aac",
-                        "profil": "LC",
-                        "canaux": 2,
-                        "disposition": "stereo",
-                        "bitrate": 93772,
-                        "frequence": 48000,
-                        "langue": "eng"
-                    }
-                ],
-                "sousTitres": []
-            },
-            "titreOriginal": "Iron Man 3",
-            "langueOriginale": "en",
-            "languesAudio": [
-                "EN"
-            ],
-            "fichierNormalise": "2013_Iron Man 3_VO.mp4"
-        },
-        {
             "id": "a_poursuite_demain",
             "titre": "A poursuite demain",
             "annee": null,
@@ -2433,7 +2289,7 @@
                 "Aventure"
             ],
             "image": "https://image.tmdb.org/t/p/w342/fU54mG8yvk7VBA6BI6TDeyrzt5d.jpg",
-            "fichier": "/Box_Films/Aventure/Abominable_2019_VF.mkv",
+            "fichier": "/Box_Films/Animation/Abominable_2019_VF.mkv",
             "nomFichier": "Abominable_2019_VF.mkv",
             "imdbId": null,
             "tmdbId": 431580,
@@ -2818,8 +2674,8 @@
                 "Policier"
             ],
             "image": "https://image.tmdb.org/t/p/w342/9NmwtFgS1IsPotRqlUUCwguIwka.jpg",
-            "fichier": "/Box_Films/Policier/Angel Eyes - VO.avi",
-            "nomFichier": "Angel Eyes - VO.avi",
+            "fichier": "/Box_Films/Policier/Angel Eyes_2001_VO.avi",
+            "nomFichier": "Angel Eyes_2001_VO.avi",
             "imdbId": null,
             "tmdbId": 5852,
             "tmdbUrl": "https://www.themoviedb.org/movie/5852",
@@ -3260,8 +3116,8 @@
                 "Policier"
             ],
             "image": "https://image.tmdb.org/t/p/w342/dKGSgxqCzrK6X4OahlRBTWTOYdK.jpg",
-            "fichier": "/Box_Films/Policier/Arsene Lupin.avi",
-            "nomFichier": "Arsene Lupin.avi",
+            "fichier": "/Box_Films/Policier/Arsène Lupin_2004_VF.avi",
+            "nomFichier": "Arsène Lupin_2004_VF.avi",
             "imdbId": null,
             "tmdbId": 11540,
             "tmdbUrl": "https://www.themoviedb.org/movie/11540",
@@ -3622,7 +3478,7 @@
             "genre": [
                 "Action"
             ],
-            "image": "https://image.tmdb.org/t/p/w342/sHYTFChLjBU7TLQwpcX5BHQNUp9.jpg",
+            "image": "https://image.tmdb.org/t/p/w342/hn2jAXnvPy2hS4OLti1RnHgaSeg.jpg",
             "fichier": null,
             "nomFichier": null,
             "tmdbId": 668,
@@ -4518,8 +4374,8 @@
                 "Comédie musicale"
             ],
             "image": "https://image.tmdb.org/t/p/w342/kgPoFMvfrvNBT0HQtqZ5vcMzT.jpg",
-            "fichier": "/Box_Films/Comédie Musicale/B-Girl.2009.STV.FRENCH.DVDRiP.XviD-SLiM.avi",
-            "nomFichier": "B-Girl.2009.STV.FRENCH.DVDRiP.XviD-SLiM.avi",
+            "fichier": "/Box_Films/Comédie Musicale/B-Girl_2009_VF.avi",
+            "nomFichier": "B-Girl_2009_VF.avi",
             "imdbId": null,
             "tmdbId": 26837,
             "tmdbUrl": "https://www.themoviedb.org/movie/26837",
@@ -6230,7 +6086,8 @@
             "fichierNormalise": "2008_Quantum of Solace_VF.avi",
             "languesAudio": [
                 "FR"
-            ]
+            ],
+            "ignoreInCollection": false
         },
         {
             "id": "tmdb_657",
@@ -6734,69 +6591,34 @@
             "fichierNormalise": "2017_Thor Ragnarok_VOSTFR.avi"
         },
         {
-            "id": "camping",
+            "id": "tmdb_13043",
             "titre": "Camping",
-            "annee": null,
+            "annee": 2006,
             "langue": [
-                "VF"
+                "TBD"
             ],
-            "taille": 734099456,
+            "taille": 0,
             "genre": [
                 "Comédie"
             ],
             "image": "https://image.tmdb.org/t/p/w342/7flI2OwTuWKQdZiWRZ6tw6ijvEB.jpg",
-            "fichier": "/Box_Films/Comédie/Camping - VF.avi",
-            "nomFichier": "Camping - VF.avi",
-            "imdbId": null,
+            "fichier": null,
+            "nomFichier": null,
             "tmdbId": 13043,
             "tmdbUrl": "https://www.themoviedb.org/movie/13043",
             "doublonExact": false,
             "doublonProbable": false,
             "groupeDoublon": null,
-            "dateAjout": "2026-08-22T08:23:33.587Z",
+            "dateAjout": null,
             "titreTmdb": "Camping",
-            "anneeTmdb": "2006",
-            "dureeTmdb": 95,
+            "titreOriginal": "Camping",
+            "anneeTmdb": 2006,
             "descriptionTmdb": "Au camping des Flots Bleus, ça débarque de toute la France. Comme tous les ans, c'est le moment des retrouvailles autour de l'apéro d'usage pour les familles d'habitués. Sauf que cette année, les Pic n'ont plus leur emplacement 17, les Gatineau font tente à part, et Patrick Chirac, le playboy de Dijon, se fait plaquer par sa femme. C'est dans ce camping que Michel Saint Josse, chirurgien esthétique à Paris, se retrouve bien malgré lui pour y subir les problèmes existentiels d'une espèce jusqu'alors inconnue de lui : le campeur…",
             "collectionId": 52097,
             "collectionNom": "Camping - Saga",
             "type": "Film",
             "studio": null,
-            "ignoreInCollection": false,
-            "technique": {
-                "largeur": 608,
-                "hauteur": 256,
-                "resolution": "608x256",
-                "ratioImage": 2.375,
-                "codecVideo": "mpeg4",
-                "profilVideo": "Advanced Simple Profile",
-                "pixelFormat": "yuv420p",
-                "bitsParComposante": null,
-                "bitrateVideo": 805471,
-                "framerate": 25,
-                "espaceCouleur": null,
-                "transfertCouleur": null,
-                "primairesCouleur": null,
-                "hdr": false,
-                "dureeFichier": 6089.32,
-                "bitrateGlobal": 964441,
-                "formatConteneur": "avi",
-                "audio": [
-                    {
-                        "codec": "mp3",
-                        "profil": null,
-                        "canaux": 2,
-                        "disposition": "stereo",
-                        "bitrate": 146112,
-                        "frequence": 48000,
-                        "langue": null
-                    }
-                ],
-                "sousTitres": []
-            },
-            "titreOriginal": "Camping",
-            "langueOriginale": "fr",
-            "fichierNormalise": "2006_Camping_VF.avi"
+            "ignoreInCollection": false
         },
         {
             "id": "tmdb_38277",
@@ -7389,15 +7211,18 @@
             "titre": "Cendrillon 1",
             "annee": null,
             "langue": [
-                "TBD"
+                "VO",
+                "VF",
+                "VOSTFR",
+                "VOST"
             ],
             "taille": 736914616,
             "genre": [
                 "Drame"
             ],
             "image": "https://image.tmdb.org/t/p/w342/nqSJwBdvG89uHRpDDdaAy5YhogZ.jpg",
-            "fichier": "/Box_Films/Enfants/02 A tester/Cendrillon 1 (Disney n° 16).mkv",
-            "nomFichier": "Cendrillon 1 (Disney n° 16).mkv",
+            "fichier": "/Box_Films/Animation/Cendrillon/1950_Cendrillon_VO_VF_VOST_VOSTFR.mkv",
+            "nomFichier": "1950_Cendrillon_VO_VF_VOST_VOSTFR.mkv",
             "imdbId": null,
             "tmdbId": 11224,
             "tmdbUrl": "https://www.themoviedb.org/movie/11224",
@@ -7472,7 +7297,11 @@
             },
             "titreOriginal": "Cinderella",
             "langueOriginale": "en",
-            "fichierNormalise": "1950_Cendrillon_TBD.mkv"
+            "fichierNormalise": "1950_Cendrillon_TBD.mkv",
+            "languesAudio": [
+                "EN",
+                "FR"
+            ]
         },
         {
             "id": "cendrillon_2_une_vie_de_princesse_disney_n_75",
@@ -8943,8 +8772,8 @@
                 "Comédie musicale"
             ],
             "image": "https://image.tmdb.org/t/p/w342/k62tzeWUu5zFtlJxCQZOP3MHdg4.jpg",
-            "fichier": "/Box_Films/Comédie Musicale/Coyotte Girls - VF.avi",
-            "nomFichier": "Coyotte Girls - VF.avi",
+            "fichier": "/Box_Films/Comédie Musicale/Coyote Girls_2000_VF.avi",
+            "nomFichier": "Coyote Girls_2000_VF.avi",
             "imdbId": null,
             "tmdbId": 6282,
             "tmdbUrl": "https://www.themoviedb.org/movie/6282",
@@ -9824,8 +9653,8 @@
             "tmdbId": 714,
             "tmdbUrl": "https://www.themoviedb.org/movie/714",
             "doublonExact": false,
-            "doublonProbable": true,
-            "groupeDoublon": "demain_ne_meurt_jamais",
+            "doublonProbable": false,
+            "groupeDoublon": null,
             "dateAjout": "2026-08-22T08:23:33.522Z",
             "titreTmdb": "Demain ne meurt jamais",
             "anneeTmdb": "1997",
@@ -10614,15 +10443,16 @@
             "annee": 2020,
             "langue": [
                 "VO",
-                "VF"
+                "VF",
+                "VOSTFR"
             ],
             "taille": 1751066379,
             "genre": [
                 "Aventure"
             ],
             "image": "https://image.tmdb.org/t/p/w342/fD68JTgLp9Sa5tgdYIdvxWgj9I0.jpg",
-            "fichier": "/Box_Films/Aventure/Dragons Rescue Riders Collection/Dragons.Rescue.Riders.2020.MULTi.1080p.WEB.H264-EXTREME.mkv",
-            "nomFichier": "Dragons.Rescue.Riders.2020.MULTi.1080p.WEB.H264-EXTREME.mkv",
+            "fichier": "/Box_Films/Animation/Dragons Rescue Riders Collection/2020_Dragons Les Gardiens du ciel À la poursuite du dragon d'or_VO_VF_VOSTFR.mkv",
+            "nomFichier": "2020_Dragons Les Gardiens du ciel À la poursuite du dragon d'or_VO_VF_VOSTFR.mkv",
             "imdbId": null,
             "tmdbId": 686941,
             "tmdbUrl": "https://www.themoviedb.org/movie/686941",
@@ -10692,7 +10522,11 @@
             },
             "titreOriginal": "Dragons: Rescue Riders: Hunt for the Golden Dragon",
             "langueOriginale": "en",
-            "fichierNormalise": "2020_Dragons Les Gardiens du ciel À la poursuite du dragon d'or_VO_VF.mkv"
+            "fichierNormalise": "2020_Dragons Les Gardiens du ciel À la poursuite du dragon d'or_VO_VF.mkv",
+            "languesAudio": [
+                "EN",
+                "FR"
+            ]
         },
         {
             "id": "dubai_seven_2015",
@@ -10868,8 +10702,8 @@
                 "Science-Fiction"
             ],
             "image": "https://image.tmdb.org/t/p/w342/qpyaW4xUPeIiYA5ckg5zAZFHvsb.jpg",
-            "fichier": "/01_Films/Marvel/Dune.2021.TRUEFRENCH.BDRip.XviD-EXTREME.avi",
-            "nomFichier": "Dune.2021.TRUEFRENCH.BDRip.XviD-EXTREME.avi",
+            "fichier": "/Box_Films/Marvel/Dune/2021_Dune_VF.avi",
+            "nomFichier": "2021_Dune_VF.avi",
             "imdbId": null,
             "tmdbId": 438631,
             "tmdbUrl": "https://www.themoviedb.org/movie/438631",
@@ -10970,8 +10804,8 @@
                 "Science-Fiction"
             ],
             "image": "https://image.tmdb.org/t/p/w342/qpyaW4xUPeIiYA5ckg5zAZFHvsb.jpg",
-            "fichier": "/01_Films/Marvel/Dune.2021.1080p.HDRip.1600MB.DD5.1.x264-GalaxyRG[TGx]/Dune.2021.1080p.HDRip.1600MB.DD5.1.x264-GalaxyRG.mkv",
-            "nomFichier": "Dune.2021.1080p.HDRip.1600MB.DD5.1.x264-GalaxyRG.mkv",
+            "fichier": "/Box_Films/Marvel/Dune/2021_Dune_VO.mkv",
+            "nomFichier": "2021_Dune_VO.mkv",
             "imdbId": null,
             "tmdbId": 438631,
             "tmdbUrl": "https://www.themoviedb.org/movie/438631",
@@ -11047,8 +10881,8 @@
                 "Science-Fiction"
             ],
             "image": "https://image.tmdb.org/t/p/w342/iRNbRAIGQQr5diGnjpwJFm0dgt4.jpg",
-            "fichier": "/Box_Films/Science-Fiction/Dune/dune.part.two.2024.french.bdrip.x264-lypsg.mkv",
-            "nomFichier": "dune.part.two.2024.french.bdrip.x264-lypsg.mkv",
+            "fichier": "/Box_Films/Science-Fiction/Dune/2024_Dune Deuxième partie_VF.mkv",
+            "nomFichier": "2024_Dune Deuxième partie_VF.mkv",
             "imdbId": null,
             "tmdbId": 693134,
             "tmdbUrl": "https://www.themoviedb.org/movie/693134",
@@ -11114,15 +10948,17 @@
             "titre": "Dune Part Two",
             "annee": 2024,
             "langue": [
-                "VOSTFR"
+                "VO",
+                "VOSTFR",
+                "VOST"
             ],
             "taille": 1075079355,
             "genre": [
                 "Science-Fiction"
             ],
             "image": "https://image.tmdb.org/t/p/w342/iRNbRAIGQQr5diGnjpwJFm0dgt4.jpg",
-            "fichier": "/Box_Films/Science-Fiction/Dune/Dune.Part.Two.2024.Fansub.Vostfr.HDRIP.mp4",
-            "nomFichier": "Dune.Part.Two.2024.Fansub.Vostfr.HDRIP.mp4",
+            "fichier": "/Box_Films/Science-Fiction/Dune/2024_Dune Deuxième partie_VO_VOST_VOSTFR.mp4",
+            "nomFichier": "2024_Dune Deuxième partie_VO_VOST_VOSTFR.mp4",
             "imdbId": null,
             "tmdbId": 693134,
             "tmdbUrl": "https://www.themoviedb.org/movie/693134",
@@ -11185,7 +11021,10 @@
             "collectionTmdbUrl": "https://www.themoviedb.org/collection/726871",
             "type": "Film",
             "studio": null,
-            "fichierNormalise": "2024_Dune Deuxième partie_VOSTFR.mp4"
+            "fichierNormalise": "2024_Dune Deuxième partie_VOSTFR.mp4",
+            "languesAudio": [
+                "EN"
+            ]
         },
         {
             "id": "eagle_eye",
@@ -12107,7 +11946,7 @@
                 "Aventure"
             ],
             "image": "https://image.tmdb.org/t/p/w342/e2C0ElYfdvuGylhyCHbY2VzqFHY.jpg",
-            "fichier": "/Box_Films/Aventure/Ernest & Célestine/2022_Ernest et Célestine Le Voyage en Charabie_VF.mkv",
+            "fichier": "/Box_Films/Animation/Ernest & Célestine/2022_Ernest et Célestine Le Voyage en Charabie_VF.mkv",
             "nomFichier": "2022_Ernest et Célestine Le Voyage en Charabie_VF.mkv",
             "imdbId": null,
             "tmdbId": 947219,
@@ -12641,87 +12480,19 @@
             "fichierNormalise": "Fame_1980_VF.avi"
         },
         {
-            "id": "fantastic_four_2005",
-            "titre": "Fantastic Four",
-            "annee": 2005,
-            "langue": [
-                "TBD"
-            ],
-            "taille": 680626817,
-            "genre": [
-                "Science-Fiction"
-            ],
-            "image": "https://image.tmdb.org/t/p/w342/tnJ3WyJwVbQhBQV5fmFmpcnyi5J.jpg",
-            "fichier": "/01_Films/Marvel/Fantastic Four (2005)/Fantastic Four 2005.720p.BrRip.x264.YIFY.mp4",
-            "nomFichier": "Fantastic Four 2005.720p.BrRip.x264.YIFY.mp4",
-            "imdbId": null,
-            "tmdbId": 9738,
-            "tmdbUrl": "https://www.themoviedb.org/movie/9738",
-            "doublonExact": false,
-            "doublonProbable": false,
-            "groupeDoublon": null,
-            "dateAjout": "2026-08-27T11:57:48.299Z",
-            "titreTmdb": "Les 4 Fantastiques",
-            "anneeTmdb": "2005",
-            "dureeTmdb": 110,
-            "descriptionTmdb": "Reed Richards tente de persuader Victor Fatalis, un riche industriel originaire de Latverie, en Europe centrale, de financer une mission au cœur du cosmos pour arriver à percer les mystères de l'origine du monde. Le projet accepté, il embarque avec l'astronaute Ben Grimm, Sue Storm, son ancienne petite amie, et Johnny Storm, le frère de Sue, un pilote casse-cou. Mais une tempête cosmique fonce tout droit sur la station spatiale, répandant un nuage de particules radioactives. Les codes génétiques des astronautes en sont à tout jamais modifiés. De retour sur Terre, ils commencent à muter. La presse les considère comme des super-héros et les baptise « les 4 Fantastiques »...",
-            "collectionId": 9744,
-            "collectionNom": "Les 4 Fantastiques - Saga",
-            "collectionDescription": "Encore une très bonne adaptation des Comics Marvel au cinéma. Mr Fantastique, La Femme Invisible, La Torche Humaine et La Chose vont lutter contre les forces extra-terrestres qui menacent notre belle planète, tout un programme !",
-            "collectionImage": "https://image.tmdb.org/t/p/w500/elBBDmc8mVLtgmfsI6UMzOEAyIC.jpg",
-            "collectionTmdbUrl": "https://www.themoviedb.org/collection/9744",
-            "type": "Film",
-            "studio": "Marvel",
-            "ignoreInCollection": false,
-            "technique": {
-                "largeur": 1280,
-                "hauteur": 544,
-                "resolution": "1280x544",
-                "ratioImage": 2.353,
-                "codecVideo": "h264",
-                "profilVideo": "High",
-                "pixelFormat": "yuv420p",
-                "bitsParComposante": 8,
-                "bitrateVideo": 761360,
-                "framerate": 23.976,
-                "espaceCouleur": null,
-                "transfertCouleur": null,
-                "primairesCouleur": null,
-                "hdr": false,
-                "dureeFichier": 6329.472,
-                "bitrateGlobal": 860263,
-                "formatConteneur": "mov,mp4,m4a,3gp,3g2,mj2",
-                "audio": [
-                    {
-                        "codec": "aac",
-                        "profil": "HE-AAC",
-                        "canaux": 2,
-                        "disposition": "stereo",
-                        "bitrate": 96000,
-                        "frequence": 48000,
-                        "langue": "und"
-                    }
-                ],
-                "sousTitres": []
-            },
-            "titreOriginal": "Fantastic Four",
-            "langueOriginale": "en",
-            "fichierNormalise": "2005_Les 4 Fantastiques_TBD.mp4"
-        },
-        {
             "id": "fantastic_four_rise_of_the_silver_surfer_2007",
             "titre": "Fantastic Four Rise Of The Silver Surfer",
             "annee": 2007,
             "langue": [
-                "TBD"
+                "VO"
             ],
             "taille": 1494215052,
             "genre": [
                 "Science-Fiction"
             ],
             "image": "https://image.tmdb.org/t/p/w342/9Ejo1jwcq4T3CtB2fbUd2qLZOS6.jpg",
-            "fichier": "/01_Films/Marvel/Fantastic Four Rise Of The Silver Surfer (2007) [1080p] [YTS.AG]/Fantastic.Four.Rise.Of.The.Silver.Surfer.2007.1080p.BluRay.x264-[YTS.AG].mp4",
-            "nomFichier": "Fantastic.Four.Rise.Of.The.Silver.Surfer.2007.1080p.BluRay.x264-[YTS.AG].mp4",
+            "fichier": "/Box_Films/Marvel/Les 4 Fantastiques/2007_Les 4 Fantastiques et le Surfer d'argent_VO.mp4",
+            "nomFichier": "2007_Les 4 Fantastiques et le Surfer d'argent_VO.mp4",
             "imdbId": null,
             "tmdbId": 1979,
             "tmdbUrl": "https://www.themoviedb.org/movie/1979",
@@ -12774,7 +12545,10 @@
             },
             "titreOriginal": "Fantastic Four: Rise of the Silver Surfer",
             "langueOriginale": "en",
-            "fichierNormalise": "2007_Les 4 Fantastiques et le Surfer d'argent_TBD.mp4"
+            "fichierNormalise": "2007_Les 4 Fantastiques et le Surfer d'argent_TBD.mp4",
+            "languesAudio": [
+                "EN"
+            ]
         },
         {
             "id": "fast_and_2001",
@@ -14730,15 +14504,15 @@
             "titre": "Gad Elmaleh Papa est haut",
             "annee": null,
             "langue": [
-                "TBD"
+                "VF"
             ],
             "taille": 734083072,
             "genre": [
                 "Comédie"
             ],
             "image": "https://image.tmdb.org/t/p/w342/cffHkXRfOCTKZKedpM6hCICE2NH.jpg",
-            "fichier": "/Box_Films/Spectacle/Gad Elmaleh - Papa est en haut.avi",
-            "nomFichier": "Gad Elmaleh - Papa est en haut.avi",
+            "fichier": "/Box_Films/Comédie/Gad Elmaleh - Papa est en haut_2008_VF.avi",
+            "nomFichier": "Gad Elmaleh - Papa est en haut_2008_VF.avi",
             "imdbId": null,
             "tmdbId": 30273,
             "tmdbUrl": "https://www.themoviedb.org/movie/30273",
@@ -14787,7 +14561,10 @@
             },
             "titreOriginal": "Gad Elmaleh - Papa est en haut",
             "langueOriginale": "fr",
-            "fichierNormalise": "Gad Elmaleh - Papa est en haut_2008_TBD.avi"
+            "fichierNormalise": "Gad Elmaleh - Papa est en haut_2008_TBD.avi",
+            "languesAudio": [
+                "FR"
+            ]
         },
         {
             "id": "gad_elmaleh_sans_tambour_krine_2014",
@@ -15434,8 +15211,8 @@
                 "Comédie musicale"
             ],
             "image": "https://image.tmdb.org/t/p/w342/kF1HCDZ3pBLwVDyD8c4KvrUO3le.jpg",
-            "fichier": "/Box_Films/Comédie Musicale/Go for It - VF.avi",
-            "nomFichier": "Go for It - VF.avi",
+            "fichier": "/Box_Films/Comédie Musicale/Dance for it !_2011_VF.avi",
+            "nomFichier": "Dance for it !_2011_VF.avi",
             "imdbId": null,
             "tmdbId": 61038,
             "tmdbUrl": "https://www.themoviedb.org/movie/61038",
@@ -15754,8 +15531,8 @@
                 "Action"
             ],
             "image": "https://image.tmdb.org/t/p/w342/jY1qVXHz3IDGoajFivOhXgpBxHE.jpg",
-            "fichier": "/Box_Films/Action/Gone.in.60.Seconds.2000.MULTi VFF VFQ VOA HDlight AAC LC x264.mkv",
-            "nomFichier": "Gone.in.60.Seconds.2000.MULTi VFF VFQ VOA HDlight AAC LC x264.mkv",
+            "fichier": "/Box_Films/Action/60 secondes chrono_2000_VO_VF_VOST_VOSTFR.mkv",
+            "nomFichier": "60 secondes chrono_2000_VO_VF_VOST_VOSTFR.mkv",
             "imdbId": null,
             "tmdbId": 9679,
             "tmdbUrl": "https://www.themoviedb.org/movie/9679",
@@ -16424,7 +16201,7 @@
                 "Science-Fiction"
             ],
             "image": "https://image.tmdb.org/t/p/w342/9a6fGeSV5kffyNPPMWCPhLOhLdJ.jpg",
-            "fichier": "/01_Films/Marvel/Guardians of the Galaxy (2014) [1080p]/2014 Guardians.of.the.Galaxy.2014.1080p.BluRay.x264.YIFY.mp4",
+            "fichier": "/01_Films/Marvel/2014 Guardians.of.the.Galaxy.2014.1080p.BluRay.x264.YIFY.mp4",
             "nomFichier": "2014 Guardians.of.the.Galaxy.2014.1080p.BluRay.x264.YIFY.mp4",
             "imdbId": null,
             "tmdbId": 118340,
@@ -16565,8 +16342,8 @@
                 "Action"
             ],
             "image": "https://image.tmdb.org/t/p/w342/pe0nFoI9w8kRUiJRBOE7ArcyqZL.jpg",
-            "fichier": "/Box_Films/Action/2 Guns (2013) 1080p-H264-AC 3 (DolbyDigital-5.1) Remastered & nickarad.mp4",
-            "nomFichier": "2 Guns (2013) 1080p-H264-AC 3 (DolbyDigital-5.1) Remastered & nickarad.mp4",
+            "fichier": "/Box_Films/Action/2 Guns_2013_VO.mp4",
+            "nomFichier": "2 Guns_2013_VO.mp4",
             "imdbId": null,
             "tmdbId": 136400,
             "tmdbUrl": "https://www.themoviedb.org/movie/136400",
@@ -18547,54 +18324,74 @@
             "titre": "Incredibles 2",
             "annee": 2018,
             "langue": [
-                "VF"
+                "VO",
+                "VF",
+                "VOSTFR"
             ],
-            "taille": 728018814,
+            "taille": 2748722402,
             "genre": [
                 "Action"
             ],
             "image": "https://image.tmdb.org/t/p/w342/Apish2YD3QIAepzxZ96VLkqEZo3.jpg",
-            "fichier": "/Box_Films/Animation/Les Indestructibles/2018_Les Indestructibles 2_VF.avi",
-            "nomFichier": "2018_Les Indestructibles 2_VF.avi",
+            "fichier": "/Box_Films/Action/Les Indestructibles/2018_Les Indestructibles 2_VO_VF_VOSTFR.mkv",
+            "nomFichier": "2018_Les Indestructibles 2_VO_VF_VOSTFR.mkv",
             "imdbId": null,
             "tmdbId": 260513,
             "tmdbUrl": "https://www.themoviedb.org/movie/260513",
             "doublonExact": false,
             "doublonProbable": false,
             "groupeDoublon": null,
-            "dateAjout": "2026-11-11T16:04:34.415Z",
+            "dateAjout": "2026-11-22T10:39:41.201Z",
             "technique": {
-                "largeur": 720,
-                "hauteur": 304,
-                "resolution": "720x304",
-                "ratioImage": 2.368,
-                "codecVideo": "mpeg4",
-                "profilVideo": "Advanced Simple Profile",
+                "largeur": 1920,
+                "hauteur": 808,
+                "resolution": "1920x808",
+                "ratioImage": 2.376,
+                "codecVideo": "h264",
+                "profilVideo": "High",
                 "pixelFormat": "yuv420p",
-                "bitsParComposante": null,
-                "bitrateVideo": 689917,
+                "bitsParComposante": 8,
+                "bitrateVideo": null,
                 "framerate": 23.976,
                 "espaceCouleur": null,
                 "transfertCouleur": null,
                 "primairesCouleur": null,
                 "hdr": false,
-                "dureeFichier": 7070.140766,
-                "bitrateGlobal": 823767,
-                "formatConteneur": "avi",
+                "dureeFichier": 7070.196,
+                "bitrateGlobal": 3110207,
+                "formatConteneur": "matroska,webm",
                 "audio": [
                     {
-                        "codec": "mp3",
+                        "codec": "ac3",
                         "profil": null,
-                        "canaux": 2,
-                        "disposition": "stereo",
-                        "bitrate": 128000,
+                        "canaux": 6,
+                        "disposition": "5.1(side)",
+                        "bitrate": 384000,
                         "frequence": 48000,
-                        "langue": null
+                        "langue": "fre"
+                    },
+                    {
+                        "codec": "aac",
+                        "profil": "LC",
+                        "canaux": 6,
+                        "disposition": "5.1",
+                        "bitrate": null,
+                        "frequence": 48000,
+                        "langue": "eng"
                     }
                 ],
-                "sousTitres": []
+                "sousTitres": [
+                    {
+                        "codec": "subrip",
+                        "langue": "fre",
+                        "titre": null
+                    }
+                ]
             },
+            "fichierNormalise": "Incredibles 2_2018_VF.mkv",
             "titreTmdb": "Les Indestructibles 2",
+            "titreOriginal": "Incredibles 2",
+            "langueOriginale": "en",
             "anneeTmdb": "2018",
             "dureeTmdb": 118,
             "descriptionTmdb": "Les Parr reprennent du service ! Alors qu'Hélène est appelée pour redorer le blason des super-héros, Bob découvre la vie \"normale\" avec Violette, Flèche et le bébé Jack-Jack, dont les super pouvoirs sont sur le point de se révéler. Leur mission tourne court lorsqu'un nouveau méchant débarque avec un plan brillant. Mais les Parr ne fuient jamais les défis, surtout avec Frozone à leurs côtés.",
@@ -18603,12 +18400,13 @@
             "collectionDescription": "Les Indestructibles Collection est une série de films d'animation américains produite par Disney et créée par Pixar Animation Studios.",
             "collectionImage": "https://image.tmdb.org/t/p/w500/aPgZIiQCnjfyBKK3b8A2vha8sp.jpg",
             "collectionTmdbUrl": "https://www.themoviedb.org/collection/468222",
-            "ignoreInCollection": false,
-            "titreOriginal": "Incredibles 2",
-            "langueOriginale": "en",
             "type": "Animation",
-            "studio": "Pixar",
-            "fichierNormalise": "2018_Les Indestructibles 2_VF.avi"
+            "studio": null,
+            "languesAudio": [
+                "EN",
+                "FR"
+            ],
+            "ignoreInCollection": false
         },
         {
             "id": "indestructibles",
@@ -19381,37 +19179,29 @@
             "fichierNormalise": "Ip Man Le Combat final_2013_TBD.mp4"
         },
         {
-            "id": "iron_man_2008",
-            "titre": "Iron Man",
+            "id": "iron_man_i_2008",
+            "titre": "Iron Man I ( )",
             "annee": 2008,
             "langue": [
-                "TBD"
+                "VO",
+                "VF",
+                "VOSTFR",
+                "VOST"
             ],
-            "taille": 1773975793,
+            "taille": 3216179465,
             "genre": [
                 "Science-Fiction"
             ],
-            "image": "https://image.tmdb.org/t/p/w342/kNKUCNLu1lZDGAHOBEHxR6psYHx.jpg",
-            "fichier": "/01_Films/Marvel/2008 Iron.Man.2008.1080p.BrRip.x264.YIFY.mp4",
-            "nomFichier": "2008 Iron.Man.2008.1080p.BrRip.x264.YIFY.mp4",
+            "image": "https://image.tmdb.org/t/p/w342/uZrsDJkn0PPnGc51fQhtCqwPPVM.jpg",
+            "fichier": "/Box_Films/Science-Fiction/Iron Man/2008_Iron Man_VO_VF_VOST_VOSTFR.mkv",
+            "nomFichier": "2008_Iron Man_VO_VF_VOST_VOSTFR.mkv",
             "imdbId": null,
             "tmdbId": 1726,
             "tmdbUrl": "https://www.themoviedb.org/movie/1726",
             "doublonExact": false,
             "doublonProbable": false,
             "groupeDoublon": null,
-            "dateAjout": "2026-08-27T11:57:48.100Z",
-            "titreTmdb": "Iron Man",
-            "anneeTmdb": "2008",
-            "dureeTmdb": 125,
-            "descriptionTmdb": "Tony Stark, inventeur de génie, vendeur d'armes et playboy milliardaire, est kidnappé. Forcé par ses ravisseurs de fabriquer une arme redoutable, il construit en secret une armure high-tech révolutionnaire qu'il utilise pour s'échapper. Comprenant la puissance de cette armure, il décide de l'améliorer et de l'utiliser pour faire régner la justice et protéger les innocents.",
-            "collectionId": 131292,
-            "collectionNom": "Iron Man - Saga",
-            "collectionDescription": "Collection des films Iron Man (littéralement l'Homme de Fer), super-héros de comics créé en 1963 par Stan Lee pour Marvel Comics.",
-            "collectionImage": "https://image.tmdb.org/t/p/w500/bQGciwYBe0aG1UNHuIiFkey4pqX.jpg",
-            "collectionTmdbUrl": "https://www.themoviedb.org/collection/131292",
-            "type": "Film",
-            "studio": "Marvel",
+            "dateAjout": "2026-11-22T19:56:52.231Z",
             "technique": {
                 "largeur": 1920,
                 "hauteur": 800,
@@ -19421,71 +19211,15 @@
                 "profilVideo": "High",
                 "pixelFormat": "yuv420p",
                 "bitsParComposante": 8,
-                "bitrateVideo": 1781421,
+                "bitrateVideo": null,
                 "framerate": 23.976,
-                "espaceCouleur": null,
-                "transfertCouleur": null,
-                "primairesCouleur": null,
+                "espaceCouleur": "bt709",
+                "transfertCouleur": "bt709",
+                "primairesCouleur": "bt709",
                 "hdr": false,
-                "dureeFichier": 7561.770667,
-                "bitrateGlobal": 1876783,
-                "formatConteneur": "mov,mp4,m4a,3gp,3g2,mj2",
-                "audio": [
-                    {
-                        "codec": "aac",
-                        "profil": "LC",
-                        "canaux": 2,
-                        "disposition": "stereo",
-                        "bitrate": 91999,
-                        "frequence": 48000,
-                        "langue": "und"
-                    }
-                ],
-                "sousTitres": []
-            },
-            "titreOriginal": "Iron Man",
-            "langueOriginale": "en",
-            "fichierNormalise": "2008_Iron Man_TBD.mp4"
-        },
-        {
-            "id": "iron_man_2",
-            "titre": "Iron Man 2",
-            "annee": null,
-            "langue": [
-                "VF"
-            ],
-            "taille": 1467840546,
-            "genre": [
-                "Science-Fiction"
-            ],
-            "image": "https://image.tmdb.org/t/p/w342/ghomWlBZtAW5K9zjcAvg4dU62AU.jpg",
-            "fichier": "/Box_Films/Marvel/Iron Man/2010_Iron Man 2_VF.avi",
-            "nomFichier": "2010_Iron Man 2_VF.avi",
-            "imdbId": null,
-            "tmdbId": 10138,
-            "tmdbUrl": "https://www.themoviedb.org/movie/10138",
-            "doublonExact": false,
-            "doublonProbable": true,
-            "groupeDoublon": "iron_man_2",
-            "dateAjout": "2026-11-19T08:43:01.752Z",
-            "technique": {
-                "largeur": 640,
-                "hauteur": 272,
-                "resolution": "640x272",
-                "ratioImage": 2.353,
-                "codecVideo": "mpeg4",
-                "profilVideo": "Simple Profile",
-                "pixelFormat": "yuv420p",
-                "bitsParComposante": null,
-                "bitrateVideo": 1112652,
-                "framerate": 23.976,
-                "espaceCouleur": null,
-                "transfertCouleur": null,
-                "primairesCouleur": null,
-                "hdr": false,
-                "dureeFichier": 7485.823632,
-                "bitrateGlobal": 1568661,
-                "formatConteneur": "avi",
+                "dureeFichier": 7573.53,
+                "bitrateGlobal": 3397284,
+                "formatConteneur": "matroska,webm",
                 "audio": [
                     {
                         "codec": "ac3",
@@ -19494,52 +19228,85 @@
                         "disposition": "5.1(side)",
                         "bitrate": 448000,
                         "frequence": 48000,
-                        "langue": null
+                        "langue": "fre"
+                    },
+                    {
+                        "codec": "ac3",
+                        "profil": null,
+                        "canaux": 6,
+                        "disposition": "5.1(side)",
+                        "bitrate": 448000,
+                        "frequence": 48000,
+                        "langue": "eng"
                     }
                 ],
-                "sousTitres": []
+                "sousTitres": [
+                    {
+                        "codec": "subrip",
+                        "langue": "fre",
+                        "titre": "forcés"
+                    },
+                    {
+                        "codec": "subrip",
+                        "langue": "eng",
+                        "titre": "forcés"
+                    },
+                    {
+                        "codec": "subrip",
+                        "langue": "fre",
+                        "titre": "complets"
+                    },
+                    {
+                        "codec": "subrip",
+                        "langue": "eng",
+                        "titre": "complets"
+                    }
+                ]
             },
-            "titreTmdb": "Iron Man 2",
-            "titreOriginal": "Iron Man 2",
+            "fichierNormalise": "Iron Man I ( )_2008_VO_VF.mkv",
+            "titreTmdb": "Iron Man",
+            "titreOriginal": "Iron Man",
             "langueOriginale": "en",
-            "anneeTmdb": "2010",
-            "dureeTmdb": 117,
-            "descriptionTmdb": "Le monde sait désormais que l'inventeur milliardaire Tony Stark et le super-héros Iron Man ne font qu'un. Malgré la pression du gouvernement, de la presse et du public pour qu'il partage sa technologie avec l'armée, Tony n'est pas disposé à divulguer les secrets de son armure, redoutant que l'information atterrisse dans de mauvaises mains. Avec Pepper Potts et James \"Rhodey\" Rhodes à ses côtés, Tony va forger de nouvelles alliances et affronter de nouvelles forces toutes-puissantes...",
+            "anneeTmdb": "2008",
+            "dureeTmdb": 125,
+            "descriptionTmdb": "Tony Stark, inventeur de génie, vendeur d'armes et playboy milliardaire, est kidnappé. Forcé par ses ravisseurs de fabriquer une arme redoutable, il construit en secret une armure high-tech révolutionnaire qu'il utilise pour s'échapper. Comprenant la puissance de cette armure, il décide de l'améliorer et de l'utiliser pour faire régner la justice et protéger les innocents.",
             "collectionId": 131292,
             "collectionNom": "Iron Man - Saga",
             "collectionDescription": "Collection des films Iron Man (littéralement l'Homme de Fer), super-héros de comics créé en 1963 par Stan Lee pour Marvel Comics.",
             "collectionImage": "https://image.tmdb.org/t/p/w500/bQGciwYBe0aG1UNHuIiFkey4pqX.jpg",
             "collectionTmdbUrl": "https://www.themoviedb.org/collection/131292",
             "type": "Film",
-            "studio": "Marvel",
-            "fichierOriginal": "Iron Man 2.avi",
+            "studio": null,
             "languesAudio": [
+                "EN",
                 "FR"
             ],
-            "fichierNormalise": "2010_Iron Man 2_VF.avi",
             "ignoreInCollection": false
         },
         {
-            "id": "iron_man_2_2010",
-            "titre": "Iron Man 2",
+            "id": "iron_man_ii_2010",
+            "titre": "Iron Man II ( )",
             "annee": 2010,
             "langue": [
-                "VO"
+                "VO",
+                "VF",
+                "VOSTFR",
+                "VOST"
             ],
-            "taille": 1722312518,
+            "taille": 3595618655,
             "genre": [
                 "Science-Fiction"
             ],
             "image": "https://image.tmdb.org/t/p/w342/ghomWlBZtAW5K9zjcAvg4dU62AU.jpg",
-            "fichier": "/Box_Films/Marvel/Iron Man/2010_Iron Man 2_VO.mp4",
-            "nomFichier": "2010_Iron Man 2_VO.mp4",
+            "fichier": "/Box_Films/Marvel/Iron Man/2010_Iron Man 2_VO_VF_VOST_VOSTFR.mkv",
+            "nomFichier": "2010_Iron Man 2_VO_VF_VOST_VOSTFR.mkv",
             "imdbId": null,
             "tmdbId": 10138,
             "tmdbUrl": "https://www.themoviedb.org/movie/10138",
             "doublonExact": false,
-            "doublonProbable": true,
-            "groupeDoublon": "iron_man_2",
-            "dateAjout": "2026-11-19T08:43:02.577Z",
+            "doublonProbable": false,
+            "groupeDoublon": null,
+            "dateAjout": "2026-11-22T19:56:54.217Z",
             "technique": {
                 "largeur": 1920,
                 "hauteur": 816,
@@ -19549,28 +19316,63 @@
                 "profilVideo": "High",
                 "pixelFormat": "yuv420p",
                 "bitsParComposante": 8,
-                "bitrateVideo": 1746704,
+                "bitrateVideo": null,
                 "framerate": 23.976,
-                "espaceCouleur": null,
-                "transfertCouleur": null,
-                "primairesCouleur": null,
+                "espaceCouleur": "bt709",
+                "transfertCouleur": "bt709",
+                "primairesCouleur": "bt709",
                 "hdr": false,
-                "dureeFichier": 7479.22175,
-                "bitrateGlobal": 1842237,
-                "formatConteneur": "mov,mp4,m4a,3gp,3g2,mj2",
+                "dureeFichier": 7479.222,
+                "bitrateGlobal": 3845981,
+                "formatConteneur": "matroska,webm",
                 "audio": [
                     {
-                        "codec": "aac",
-                        "profil": "LC",
-                        "canaux": 2,
-                        "disposition": "stereo",
-                        "bitrate": 91999,
+                        "codec": "ac3",
+                        "profil": null,
+                        "canaux": 6,
+                        "disposition": "5.1(side)",
+                        "bitrate": 448000,
                         "frequence": 48000,
-                        "langue": "und"
+                        "langue": "fre"
+                    },
+                    {
+                        "codec": "ac3",
+                        "profil": null,
+                        "canaux": 6,
+                        "disposition": "5.1(side)",
+                        "bitrate": 448000,
+                        "frequence": 48000,
+                        "langue": "eng"
+                    },
+                    {
+                        "codec": "ac3",
+                        "profil": null,
+                        "canaux": 6,
+                        "disposition": "5.1(side)",
+                        "bitrate": 448000,
+                        "frequence": 48000,
+                        "langue": "fre"
                     }
                 ],
-                "sousTitres": []
+                "sousTitres": [
+                    {
+                        "codec": "subrip",
+                        "langue": "fre",
+                        "titre": "forcés"
+                    },
+                    {
+                        "codec": "subrip",
+                        "langue": "fre",
+                        "titre": "complets"
+                    },
+                    {
+                        "codec": "subrip",
+                        "langue": "eng",
+                        "titre": "complets"
+                    }
+                ]
             },
+            "fichierNormalise": "Iron Man II ( )_2010_VO_VF.mkv",
             "titreTmdb": "Iron Man 2",
             "titreOriginal": "Iron Man 2",
             "langueOriginale": "en",
@@ -19584,11 +19386,120 @@
             "collectionTmdbUrl": "https://www.themoviedb.org/collection/131292",
             "type": "Film",
             "studio": "Marvel",
-            "fichierOriginal": "Iron.Man.2.2010.1080p.BrRip.x264.YIFY.mp4",
             "languesAudio": [
-                "EN"
+                "EN",
+                "FR"
             ],
-            "fichierNormalise": "2010_Iron Man 2_VO.mp4"
+            "ignoreInCollection": false
+        },
+        {
+            "id": "iron_man_iii_2013",
+            "titre": "Iron Man III ( )",
+            "annee": 2013,
+            "langue": [
+                "VO",
+                "VF",
+                "VOSTFR",
+                "VOST"
+            ],
+            "taille": 3765835743,
+            "genre": [
+                "Science-Fiction"
+            ],
+            "image": "https://image.tmdb.org/t/p/w342/sE71EBrRMfW0NKMHlXPO55Km88X.jpg",
+            "fichier": "/Box_Films/Marvel/Iron Man/2013_Iron Man 3_VO_VF_VOST_VOSTFR.mkv",
+            "nomFichier": "2013_Iron Man 3_VO_VF_VOST_VOSTFR.mkv",
+            "imdbId": null,
+            "tmdbId": 68721,
+            "tmdbUrl": "https://www.themoviedb.org/movie/68721",
+            "doublonExact": false,
+            "doublonProbable": false,
+            "groupeDoublon": null,
+            "dateAjout": "2026-11-22T19:56:55.628Z",
+            "technique": {
+                "largeur": 1920,
+                "hauteur": 800,
+                "resolution": "1920x800",
+                "ratioImage": 2.4,
+                "codecVideo": "h264",
+                "profilVideo": "High",
+                "pixelFormat": "yuv420p",
+                "bitsParComposante": 8,
+                "bitrateVideo": null,
+                "framerate": 23.976,
+                "espaceCouleur": null,
+                "transfertCouleur": null,
+                "primairesCouleur": null,
+                "hdr": false,
+                "dureeFichier": 7832.971,
+                "bitrateGlobal": 3846137,
+                "formatConteneur": "matroska,webm",
+                "audio": [
+                    {
+                        "codec": "ac3",
+                        "profil": null,
+                        "canaux": 6,
+                        "disposition": "5.1(side)",
+                        "bitrate": 448000,
+                        "frequence": 48000,
+                        "langue": "fre"
+                    },
+                    {
+                        "codec": "ac3",
+                        "profil": null,
+                        "canaux": 6,
+                        "disposition": "5.1(side)",
+                        "bitrate": 448000,
+                        "frequence": 48000,
+                        "langue": "eng"
+                    },
+                    {
+                        "codec": "ac3",
+                        "profil": null,
+                        "canaux": 6,
+                        "disposition": "5.1(side)",
+                        "bitrate": 448000,
+                        "frequence": 48000,
+                        "langue": "fre"
+                    }
+                ],
+                "sousTitres": [
+                    {
+                        "codec": "subrip",
+                        "langue": "fre",
+                        "titre": "forcés"
+                    },
+                    {
+                        "codec": "subrip",
+                        "langue": "fre",
+                        "titre": "complets"
+                    },
+                    {
+                        "codec": "subrip",
+                        "langue": "eng",
+                        "titre": "complets"
+                    }
+                ]
+            },
+            "fichierNormalise": "Iron Man III ( )_2013_VO_VF.mkv",
+            "titreTmdb": "Iron Man 3",
+            "titreOriginal": "Iron Man 3",
+            "langueOriginale": "en",
+            "anneeTmdb": "2013",
+            "dureeTmdb": 130,
+            "descriptionTmdb": "Tony Stark, l’industriel flamboyant qui est aussi Iron Man, est confronté cette fois à un ennemi qui va attaquer sur tous les fronts. Lorsque son univers personnel est détruit, Stark se lance dans une quête acharnée pour retrouver les coupables. Plus que jamais, son courage va être mis à l’épreuve, à chaque instant. Dos au mur, il ne peut plus compter que sur ses inventions, son ingéniosité, et son instinct pour protéger ses proches. Alors qu’il se jette dans la bataille, Stark va enfin découvrir la réponse à la question qui le hante secrètement depuis si longtemps : est‐ce l’homme qui fait le costume ou bien le costume qui fait l’homme ?",
+            "collectionId": 131292,
+            "collectionNom": "Iron Man - Saga",
+            "collectionDescription": "Collection des films Iron Man (littéralement l'Homme de Fer), super-héros de comics créé en 1963 par Stan Lee pour Marvel Comics.",
+            "collectionImage": "https://image.tmdb.org/t/p/w500/bQGciwYBe0aG1UNHuIiFkey4pqX.jpg",
+            "collectionTmdbUrl": "https://www.themoviedb.org/collection/131292",
+            "type": "Film",
+            "studio": "Marvel",
+            "languesAudio": [
+                "EN",
+                "FR"
+            ],
+            "ignoreInCollection": false
         },
         {
             "id": "jack_et_la_mecanique_du_coeur",
@@ -21834,135 +21745,6 @@
         },
         {
             "id": "kung_fu_panda",
-            "titre": "kung fu panda",
-            "annee": null,
-            "langue": [
-                "TBD"
-            ],
-            "taille": 733691904,
-            "genre": [
-                "Action"
-            ],
-            "image": "https://image.tmdb.org/t/p/w342/pxZNY88UWH0uic83QHBSh2yFEYL.jpg",
-            "fichier": "/Box_Films/Enfants/kung fu panda.avi",
-            "nomFichier": "kung fu panda.avi",
-            "imdbId": null,
-            "tmdbId": 9502,
-            "tmdbUrl": "https://www.themoviedb.org/movie/9502",
-            "doublonExact": false,
-            "doublonProbable": true,
-            "groupeDoublon": "kung_fu_panda",
-            "dateAjout": "2026-08-22T18:10:23.674Z",
-            "titreTmdb": "Kung Fu Panda",
-            "anneeTmdb": "2008",
-            "dureeTmdb": 82,
-            "descriptionTmdb": "Passionné, costaud et quelque peu maladroit, Po est sans conteste le plus grand fan de kung‐fu. Serveur dans le restaurant de nouilles de son père, son habileté reste encore à prouver. Élu pour accomplir une ancienne prophétie, Po rejoint le monde du kung‐fu afin d'apprendre les arts martiaux auprès de ses idoles, les légendaires Cinq Cyclones : Tigresse, Grue, Mante, Vipère et Singe, sous les ordres de leur professeur et entraîneur, Maître Shifu. Mais Taï Lung, le léopard des neiges fourbe et animé d'un désir de vengeance, approche à grands pas, et c'est Po qui sera chargé de défendre la vallée face à cette menace grandissante.",
-            "collectionId": 77816,
-            "collectionNom": "Kung Fu Panda - Saga",
-            "type": "Animation",
-            "studio": null,
-            "ignoreInCollection": false,
-            "technique": {
-                "largeur": 512,
-                "hauteur": 384,
-                "resolution": "512x384",
-                "ratioImage": 1.333,
-                "codecVideo": "mpeg4",
-                "profilVideo": "Advanced Simple Profile",
-                "pixelFormat": "yuv420p",
-                "bitsParComposante": null,
-                "bitrateVideo": 945455,
-                "framerate": 25,
-                "espaceCouleur": null,
-                "transfertCouleur": null,
-                "primairesCouleur": null,
-                "hdr": false,
-                "dureeFichier": 5301.8,
-                "bitrateGlobal": 1107083,
-                "formatConteneur": "avi",
-                "audio": [
-                    {
-                        "codec": "mp3",
-                        "profil": null,
-                        "canaux": 2,
-                        "disposition": "stereo",
-                        "bitrate": 148728,
-                        "frequence": 48000,
-                        "langue": null
-                    }
-                ],
-                "sousTitres": []
-            },
-            "titreOriginal": "Kung Fu Panda",
-            "langueOriginale": "en",
-            "fichierNormalise": "2008_Kung Fu Panda_TBD.avi"
-        },
-        {
-            "id": "kung_fu_panda",
-            "titre": "Kung Fu Panda",
-            "annee": null,
-            "langue": [
-                "TBD"
-            ],
-            "taille": 734210048,
-            "genre": [
-                "Action"
-            ],
-            "image": "https://image.tmdb.org/t/p/w342/pxZNY88UWH0uic83QHBSh2yFEYL.jpg",
-            "fichier": "/Box_Films/Enfants/02 A tester/Kung Fu Panda.avi",
-            "nomFichier": "Kung Fu Panda.avi",
-            "imdbId": null,
-            "tmdbId": 9502,
-            "tmdbUrl": "https://www.themoviedb.org/movie/9502",
-            "doublonExact": false,
-            "doublonProbable": true,
-            "groupeDoublon": "kung_fu_panda",
-            "dateAjout": "2026-08-22T08:23:33.645Z",
-            "titreTmdb": "Kung Fu Panda",
-            "anneeTmdb": "2008",
-            "dureeTmdb": 82,
-            "descriptionTmdb": "Passionné, costaud et quelque peu maladroit, Po est sans conteste le plus grand fan de kung‐fu. Serveur dans le restaurant de nouilles de son père, son habileté reste encore à prouver. Élu pour accomplir une ancienne prophétie, Po rejoint le monde du kung‐fu afin d'apprendre les arts martiaux auprès de ses idoles, les légendaires Cinq Cyclones : Tigresse, Grue, Mante, Vipère et Singe, sous les ordres de leur professeur et entraîneur, Maître Shifu. Mais Taï Lung, le léopard des neiges fourbe et animé d'un désir de vengeance, approche à grands pas, et c'est Po qui sera chargé de défendre la vallée face à cette menace grandissante.",
-            "collectionId": 77816,
-            "collectionNom": "Kung Fu Panda - Saga",
-            "type": "Animation",
-            "studio": null,
-            "technique": {
-                "largeur": 512,
-                "hauteur": 384,
-                "resolution": "512x384",
-                "ratioImage": 1.333,
-                "codecVideo": "mpeg4",
-                "profilVideo": "Advanced Simple Profile",
-                "pixelFormat": "yuv420p",
-                "bitsParComposante": null,
-                "bitrateVideo": 945455,
-                "framerate": 25,
-                "espaceCouleur": null,
-                "transfertCouleur": null,
-                "primairesCouleur": null,
-                "hdr": false,
-                "dureeFichier": 5301.8,
-                "bitrateGlobal": 1107865,
-                "formatConteneur": "avi",
-                "audio": [
-                    {
-                        "codec": "mp3",
-                        "profil": null,
-                        "canaux": 2,
-                        "disposition": "stereo",
-                        "bitrate": 149512,
-                        "frequence": 48000,
-                        "langue": null
-                    }
-                ],
-                "sousTitres": []
-            },
-            "titreOriginal": "Kung Fu Panda",
-            "langueOriginale": "en",
-            "fichierNormalise": "2008_Kung Fu Panda_TBD.avi"
-        },
-        {
-            "id": "kung_fu_panda",
             "titre": "Kung Fu Panda",
             "annee": null,
             "langue": [
@@ -21973,14 +21755,14 @@
                 "Action"
             ],
             "image": "https://image.tmdb.org/t/p/w342/pxZNY88UWH0uic83QHBSh2yFEYL.jpg",
-            "fichier": "/Box_Films/Enfants/Kung Fu Panda - VF.avi",
-            "nomFichier": "Kung Fu Panda - VF.avi",
+            "fichier": "/Box_Films/Animation/Kung Fu Panda/2008_Kung Fu Panda_VF.avi",
+            "nomFichier": "2008_Kung Fu Panda_VF.avi",
             "imdbId": null,
             "tmdbId": 9502,
             "tmdbUrl": "https://www.themoviedb.org/movie/9502",
             "doublonExact": false,
-            "doublonProbable": true,
-            "groupeDoublon": "kung_fu_panda",
+            "doublonProbable": false,
+            "groupeDoublon": null,
             "dateAjout": "2026-08-22T08:23:33.679Z",
             "titreTmdb": "Kung Fu Panda",
             "anneeTmdb": "2008",
@@ -22023,7 +21805,8 @@
             },
             "titreOriginal": "Kung Fu Panda",
             "langueOriginale": "en",
-            "fichierNormalise": "2008_Kung Fu Panda_VF.avi"
+            "fichierNormalise": "2008_Kung Fu Panda_VF.avi",
+            "ignoreInCollection": false
         },
         {
             "id": "tmdb_49444",
@@ -23253,6 +23036,183 @@
             "fichierNormalise": "1992_L'Arme fatale 3_TBD.mkv"
         },
         {
+            "id": "l_arme_fatale_i_1987",
+            "titre": "L'arme Fatale I",
+            "annee": 1987,
+            "langue": [
+                "VO",
+                "VF"
+            ],
+            "taille": 2950422476,
+            "genre": null,
+            "image": null,
+            "fichier": "/Box_Films/- Nouveaux/L'arme Fatale I 1987 Multi-VF2 1080p HDlight.x264-Tonyk.mkv",
+            "nomFichier": "L'arme Fatale I 1987 Multi-VF2 1080p HDlight.x264-Tonyk.mkv",
+            "imdbId": null,
+            "tmdbId": null,
+            "tmdbUrl": null,
+            "doublonExact": false,
+            "doublonProbable": false,
+            "groupeDoublon": null,
+            "dateAjout": "2026-11-23T08:58:06.836Z",
+            "technique": {
+                "largeur": 1920,
+                "hauteur": 1080,
+                "resolution": "1920x1080",
+                "ratioImage": 1.778,
+                "codecVideo": "h264",
+                "profilVideo": "High",
+                "pixelFormat": "yuv420p",
+                "bitsParComposante": 8,
+                "bitrateVideo": null,
+                "framerate": 23.976,
+                "espaceCouleur": null,
+                "transfertCouleur": null,
+                "primairesCouleur": null,
+                "hdr": false,
+                "dureeFichier": 6577.134,
+                "bitrateGlobal": 3588702,
+                "formatConteneur": "matroska,webm",
+                "audio": [
+                    {
+                        "codec": "ac3",
+                        "profil": null,
+                        "canaux": 2,
+                        "disposition": "stereo",
+                        "bitrate": 192000,
+                        "frequence": 48000,
+                        "langue": "fre"
+                    },
+                    {
+                        "codec": "ac3",
+                        "profil": null,
+                        "canaux": 6,
+                        "disposition": "5.1(side)",
+                        "bitrate": 448000,
+                        "frequence": 48000,
+                        "langue": "eng"
+                    },
+                    {
+                        "codec": "ac3",
+                        "profil": null,
+                        "canaux": 6,
+                        "disposition": "5.1(side)",
+                        "bitrate": 448000,
+                        "frequence": 48000,
+                        "langue": "fre"
+                    }
+                ],
+                "sousTitres": [
+                    {
+                        "codec": "subrip",
+                        "langue": "fre",
+                        "titre": "forcé"
+                    },
+                    {
+                        "codec": "subrip",
+                        "langue": "fre",
+                        "titre": "complet"
+                    },
+                    {
+                        "codec": "subrip",
+                        "langue": "eng",
+                        "titre": "complet"
+                    }
+                ],
+                "zoneUtile": {
+                    "largeurUtile": 1920,
+                    "hauteurUtile": 1072,
+                    "x": 0,
+                    "y": 4
+                }
+            },
+            "fichierNormalise": "L'arme Fatale I_1987_VO_VF.mkv"
+        },
+        {
+            "id": "l_arme_fatale_ii_1989",
+            "titre": "L'arme Fatale II",
+            "annee": 1989,
+            "langue": [
+                "VO",
+                "VF"
+            ],
+            "taille": 2915717223,
+            "genre": null,
+            "image": null,
+            "fichier": "/Box_Films/- Nouveaux/L'arme Fatale II 1989 Multi 1080p HDlight.x264-Tonyk.mkv",
+            "nomFichier": "L'arme Fatale II 1989 Multi 1080p HDlight.x264-Tonyk.mkv",
+            "imdbId": null,
+            "tmdbId": null,
+            "tmdbUrl": null,
+            "doublonExact": false,
+            "doublonProbable": false,
+            "groupeDoublon": null,
+            "dateAjout": "2026-11-23T08:58:08.731Z",
+            "technique": {
+                "largeur": 1920,
+                "hauteur": 800,
+                "resolution": "1920x800",
+                "ratioImage": 2.4,
+                "codecVideo": "h264",
+                "profilVideo": "High",
+                "pixelFormat": "yuv420p",
+                "bitsParComposante": 8,
+                "bitrateVideo": null,
+                "framerate": 23.976,
+                "espaceCouleur": null,
+                "transfertCouleur": null,
+                "primairesCouleur": null,
+                "hdr": false,
+                "dureeFichier": 6867.168,
+                "bitrateGlobal": 3396704,
+                "formatConteneur": "matroska,webm",
+                "audio": [
+                    {
+                        "codec": "ac3",
+                        "profil": null,
+                        "canaux": 6,
+                        "disposition": "5.1(side)",
+                        "bitrate": 448000,
+                        "frequence": 48000,
+                        "langue": "fre"
+                    },
+                    {
+                        "codec": "ac3",
+                        "profil": null,
+                        "canaux": 6,
+                        "disposition": "5.1(side)",
+                        "bitrate": 448000,
+                        "frequence": 48000,
+                        "langue": "eng"
+                    }
+                ],
+                "sousTitres": [
+                    {
+                        "codec": "subrip",
+                        "langue": "fre",
+                        "titre": "forcé"
+                    },
+                    {
+                        "codec": "subrip",
+                        "langue": "fre",
+                        "titre": "complet"
+                    },
+                    {
+                        "codec": "subrip",
+                        "langue": "eng",
+                        "titre": "complet"
+                    }
+                ],
+                "zoneUtile": {
+                    "largeurUtile": 1920,
+                    "hauteurUtile": 800,
+                    "x": 0,
+                    "y": 0
+                }
+            },
+            "fichierNormalise": "L'arme Fatale II_1989_VO_VF.mkv"
+        },
+        {
             "id": "l_arme_fatale_iv_tonyk_1998",
             "titre": "L'arme Fatale IV Tonyk",
             "annee": 1998,
@@ -23494,7 +23454,7 @@
             "genre": [
                 "Action"
             ],
-            "image": "https://image.tmdb.org/t/p/w342/nIjqzDyGwPtM4gFTOXXgidNzcBL.jpg",
+            "image": "https://image.tmdb.org/t/p/w342/mq3BJJn2XChWlYeACjqJk639sAa.jpg",
             "fichier": null,
             "nomFichier": null,
             "tmdbId": 691,
@@ -23733,35 +23693,75 @@
             "langueOriginale": "en"
         },
         {
-            "id": "tmdb_39385",
-            "titre": "La Vérité si je mens !",
-            "annee": 1997,
+            "id": "la_verite_si_je_mens",
+            "titre": "La vérité si je mens",
+            "annee": null,
             "langue": [
-                "TBD"
+                "VF"
             ],
-            "taille": 0,
+            "taille": 733476864,
             "genre": [
                 "Comédie"
             ],
             "image": "https://image.tmdb.org/t/p/w342/z1JRKYnac2SvvQsCbHaVM2E5x0v.jpg",
-            "fichier": null,
-            "nomFichier": null,
+            "fichier": "/Box_Films/Comédie/La Vérité si je mens !/1997_La Vérité si je mens !_VF.avi",
+            "nomFichier": "1997_La Vérité si je mens !_VF.avi",
+            "imdbId": null,
             "tmdbId": 39385,
             "tmdbUrl": "https://www.themoviedb.org/movie/39385",
             "doublonExact": false,
             "doublonProbable": false,
             "groupeDoublon": null,
-            "dateAjout": null,
+            "dateAjout": "2026-11-22T10:39:41.877Z",
+            "technique": {
+                "largeur": 640,
+                "hauteur": 336,
+                "resolution": "640x336",
+                "ratioImage": 1.905,
+                "codecVideo": "mpeg4",
+                "profilVideo": null,
+                "pixelFormat": "yuv420p",
+                "bitsParComposante": null,
+                "bitrateVideo": 887709,
+                "framerate": 25,
+                "espaceCouleur": null,
+                "transfertCouleur": null,
+                "primairesCouleur": null,
+                "hdr": false,
+                "dureeFichier": 5797.92,
+                "bitrateGlobal": 1012055,
+                "formatConteneur": "avi",
+                "audio": [
+                    {
+                        "codec": "mp3",
+                        "profil": null,
+                        "canaux": 2,
+                        "disposition": "stereo",
+                        "bitrate": 112000,
+                        "frequence": 44100,
+                        "langue": null
+                    }
+                ],
+                "sousTitres": []
+            },
+            "fichierNormalise": "La vérité si je mens_TBD.avi",
             "titreTmdb": "La Vérité si je mens !",
             "titreOriginal": "La Vérité si je mens !",
-            "anneeTmdb": 1997,
+            "langueOriginale": "fr",
+            "anneeTmdb": "1997",
+            "dureeTmdb": 100,
             "descriptionTmdb": "Édouard Vuibert est au bout du rouleau. Victor Benzakem, entrepreneur prospère du quartier du Sentier, le prend sous son aile quand une bagarre l'oppose à deux joueurs de bonneteau. Le prenant pour un Juif, il décide de l'embaucher comme manutentionnaire. Eddie laisse le quiproquo s'installer sur ses origines et il va faire son chemin dans une communauté chaleureuse jusqu'à séduire Sandra, la fille de son patron. Mais au cours de la préparation du mariage, Eddie se démasque involontairement. Il n'est pas juif ! Il déchaine alors le scandale et la colère de la belle Sandra.",
             "collectionId": 115840,
             "collectionNom": "La Vérité si je mens ! - Saga",
-            "type": "Film",
-            "studio": null,
+            "collectionDescription": "La Vérité si je mens ! est une série de films français qui a débuté à partir de 1997 en France. Elle montre les aventures d'Édouard « Eddie » Vuibert et de ses amis Juifs séfarades dans le monde du commerce de textile face à un commerçant rival, un patron de grandes surfaces sans scrupules ou un redoutable mafieux.",
+            "collectionImage": "https://image.tmdb.org/t/p/w500/cXPiFI9nu1wYIKVvjw8v2iltKkF.jpg",
+            "collectionTmdbUrl": "https://www.themoviedb.org/collection/115840",
+            "languesAudio": [
+                "FR"
+            ],
             "ignoreInCollection": false,
-            "langueOriginale": "fr"
+            "type": "Film",
+            "studio": null
         },
         {
             "id": "tmdb_31359",
@@ -24501,140 +24501,6 @@
             "fichierNormalise": "2003_101 Dalmatiens 2 Sur la Trace des Héros_TBD.avi"
         },
         {
-            "id": "les_4_fantastiques",
-            "titre": "Les 4 fantastiques",
-            "annee": null,
-            "langue": [
-                "TBD"
-            ],
-            "taille": 734038016,
-            "genre": [
-                "Science-Fiction"
-            ],
-            "image": "https://image.tmdb.org/t/p/w342/tnJ3WyJwVbQhBQV5fmFmpcnyi5J.jpg",
-            "fichier": "/01_Films/Marvel/Les 4 fantastiques .avi",
-            "nomFichier": "Les 4 fantastiques .avi",
-            "imdbId": null,
-            "tmdbId": 9738,
-            "tmdbUrl": "https://www.themoviedb.org/movie/9738",
-            "doublonExact": false,
-            "doublonProbable": false,
-            "groupeDoublon": null,
-            "dateAjout": "2026-08-27T11:57:48.312Z",
-            "titreTmdb": "Les 4 Fantastiques",
-            "anneeTmdb": "2005",
-            "dureeTmdb": 110,
-            "descriptionTmdb": "Reed Richards tente de persuader Victor Fatalis, un riche industriel originaire de Latverie, en Europe centrale, de financer une mission au cœur du cosmos pour arriver à percer les mystères de l'origine du monde. Le projet accepté, il embarque avec l'astronaute Ben Grimm, Sue Storm, son ancienne petite amie, et Johnny Storm, le frère de Sue, un pilote casse-cou. Mais une tempête cosmique fonce tout droit sur la station spatiale, répandant un nuage de particules radioactives. Les codes génétiques des astronautes en sont à tout jamais modifiés. De retour sur Terre, ils commencent à muter. La presse les considère comme des super-héros et les baptise « les 4 Fantastiques »...",
-            "collectionId": 9744,
-            "collectionNom": "Les 4 Fantastiques - Saga",
-            "collectionDescription": "Encore une très bonne adaptation des Comics Marvel au cinéma. Mr Fantastique, La Femme Invisible, La Torche Humaine et La Chose vont lutter contre les forces extra-terrestres qui menacent notre belle planète, tout un programme !",
-            "collectionImage": "https://image.tmdb.org/t/p/w500/elBBDmc8mVLtgmfsI6UMzOEAyIC.jpg",
-            "collectionTmdbUrl": "https://www.themoviedb.org/collection/9744",
-            "type": "Film",
-            "studio": "Marvel",
-            "technique": {
-                "largeur": 624,
-                "hauteur": 256,
-                "resolution": "624x256",
-                "ratioImage": 2.438,
-                "codecVideo": "mpeg4",
-                "profilVideo": "Simple Profile",
-                "pixelFormat": "yuv420p",
-                "bitsParComposante": null,
-                "bitrateVideo": 823810,
-                "framerate": 25,
-                "espaceCouleur": null,
-                "transfertCouleur": null,
-                "primairesCouleur": null,
-                "hdr": false,
-                "dureeFichier": 5985.64,
-                "bitrateGlobal": 981065,
-                "formatConteneur": "avi",
-                "audio": [
-                    {
-                        "codec": "mp3",
-                        "profil": null,
-                        "canaux": 2,
-                        "disposition": "stereo",
-                        "bitrate": 144336,
-                        "frequence": 48000,
-                        "langue": null
-                    }
-                ],
-                "sousTitres": []
-            },
-            "titreOriginal": "Fantastic Four",
-            "langueOriginale": "en",
-            "fichierNormalise": "2005_Les 4 Fantastiques_TBD.avi"
-        },
-        {
-            "id": "les_4_fantastiques_et_surfeur_d_argent",
-            "titre": "Les 4 fantastiques et",
-            "annee": null,
-            "langue": [
-                "TBD"
-            ],
-            "taille": 722282496,
-            "genre": [
-                "Science-Fiction"
-            ],
-            "image": "https://image.tmdb.org/t/p/w342/9Ejo1jwcq4T3CtB2fbUd2qLZOS6.jpg",
-            "fichier": "/01_Films/Marvel/Les 4 fantastiques et le surfeur d'argent.avi",
-            "nomFichier": "Les 4 fantastiques et le surfeur d'argent.avi",
-            "imdbId": null,
-            "tmdbId": 1979,
-            "tmdbUrl": "https://www.themoviedb.org/movie/1979",
-            "doublonExact": false,
-            "doublonProbable": false,
-            "groupeDoublon": null,
-            "dateAjout": "2026-08-27T11:57:48.316Z",
-            "titreTmdb": "Les 4 Fantastiques et le Surfer d'argent",
-            "anneeTmdb": "2007",
-            "dureeTmdb": 92,
-            "descriptionTmdb": "Alors que le mariage de Mr. Fantastic et de la femme invisible s'annonce comme l'événement de l'année, un mystérieux surfer d'argent surgit de l'espace et provoque d'étranges phénomènes sur la Terre. Rapidement, les quatre fantastiques vont découvrir le dessein secret de cet être aux pouvoirs surprenants et la menace qu'il fait peser sur notre planète, mais ils vont aussi voir ressurgir leur ennemi juré… Face au danger, amis et ennemis vont devoir unir leurs forces comme jamais…",
-            "collectionId": 9744,
-            "collectionNom": "Les 4 Fantastiques - Saga",
-            "collectionDescription": "Encore une très bonne adaptation des Comics Marvel au cinéma. Mr Fantastique, La Femme Invisible, La Torche Humaine et La Chose vont lutter contre les forces extra-terrestres qui menacent notre belle planète, tout un programme !",
-            "collectionImage": "https://image.tmdb.org/t/p/w500/elBBDmc8mVLtgmfsI6UMzOEAyIC.jpg",
-            "collectionTmdbUrl": "https://www.themoviedb.org/collection/9744",
-            "type": "Film",
-            "studio": "Marvel",
-            "technique": {
-                "largeur": 640,
-                "hauteur": 272,
-                "resolution": "640x272",
-                "ratioImage": 2.353,
-                "codecVideo": "mpeg4",
-                "profilVideo": "Advanced Simple Profile",
-                "pixelFormat": "yuv420p",
-                "bitsParComposante": null,
-                "bitrateVideo": 934204,
-                "framerate": 23.976,
-                "espaceCouleur": null,
-                "transfertCouleur": null,
-                "primairesCouleur": null,
-                "hdr": false,
-                "dureeFichier": 5392.350684,
-                "bitrateGlobal": 1071566,
-                "formatConteneur": "avi",
-                "audio": [
-                    {
-                        "codec": "mp3",
-                        "profil": null,
-                        "canaux": 2,
-                        "disposition": "stereo",
-                        "bitrate": 133224,
-                        "frequence": 44100,
-                        "langue": null
-                    }
-                ],
-                "sousTitres": []
-            },
-            "titreOriginal": "Fantastic Four: Rise of the Silver Surfer",
-            "langueOriginale": "en",
-            "fichierNormalise": "2007_Les 4 Fantastiques et le Surfer d'argent_TBD.avi"
-        },
-        {
             "id": "les_4_fantastiques_et_surfer_d_argent_2008",
             "titre": "Les 4 Fantastiques Et Surfer D Argent",
             "annee": 2008,
@@ -24646,8 +24512,8 @@
                 "Science-Fiction"
             ],
             "image": "https://image.tmdb.org/t/p/w342/9Ejo1jwcq4T3CtB2fbUd2qLZOS6.jpg",
-            "fichier": "/01_Films/Marvel/Les.4.Fantastiques.Et.Le.Surfer.D.Argent.2008.TRUEFRENCH.DVDRip.XviD.AC3-SKUNKK/Les.4.Fantastiques.Et.Le.Surfer.D.Argent.2008.TRUEFRENCH.DVDRip.XviD.AC3-SKUNKK.avi",
-            "nomFichier": "Les.4.Fantastiques.Et.Le.Surfer.D.Argent.2008.TRUEFRENCH.DVDRip.XviD.AC3-SKUNKK.avi",
+            "fichier": "/Box_Films/Marvel/Les 4 Fantastiques/2007_Les 4 Fantastiques et le Surfer d'argent_VF.avi",
+            "nomFichier": "2007_Les 4 Fantastiques et le Surfer d'argent_VF.avi",
             "imdbId": null,
             "tmdbId": 1979,
             "tmdbUrl": "https://www.themoviedb.org/movie/1979",
@@ -25088,7 +24954,7 @@
             "genre": [
                 "Action"
             ],
-            "image": "https://image.tmdb.org/t/p/w342/22xB7pVrfnpbN7W7UWD7Adn9UfQ.jpg",
+            "image": "https://image.tmdb.org/t/p/w342/pV2JxZmmLP76AIOQPQaOee5cXDU.jpg",
             "fichier": null,
             "nomFichier": null,
             "tmdbId": 681,
@@ -27580,66 +27446,113 @@
             "fichierOriginal": "Master.Z.Ip.Man.Legacy.2018.1080p.BluRay.x264-.mp4"
         },
         {
-            "id": "tmdb_603",
-            "titre": "Matrix",
+            "id": "matrix_1999",
+            "titre": "Matrix ( )",
             "annee": 1999,
             "langue": [
-                "TBD"
+                "VO",
+                "VF",
+                "VOSTFR",
+                "VOST"
             ],
-            "taille": 0,
+            "taille": 2745212114,
             "genre": [
                 "Science-Fiction"
             ],
             "image": "https://image.tmdb.org/t/p/w342/pEoqbqtLc4CcwDUDqxmEDSWpWTZ.jpg",
-            "fichier": null,
-            "nomFichier": null,
+            "fichier": "/Box_Films/Science-Fiction/Matrix/1999_Matrix_VO_VF_VOST_VOSTFR.mkv",
+            "nomFichier": "1999_Matrix_VO_VF_VOST_VOSTFR.mkv",
+            "imdbId": null,
             "tmdbId": 603,
             "tmdbUrl": "https://www.themoviedb.org/movie/603",
             "doublonExact": false,
             "doublonProbable": false,
             "groupeDoublon": null,
-            "dateAjout": null,
+            "dateAjout": "2026-11-22T19:57:14.507Z",
+            "technique": {
+                "largeur": 1920,
+                "hauteur": 796,
+                "resolution": "1920x796",
+                "ratioImage": 2.412,
+                "codecVideo": "h264",
+                "profilVideo": "High",
+                "pixelFormat": "yuv420p",
+                "bitsParComposante": 8,
+                "bitrateVideo": null,
+                "framerate": 23.976,
+                "espaceCouleur": "bt709",
+                "transfertCouleur": "bt709",
+                "primairesCouleur": "bt709",
+                "hdr": false,
+                "dureeFichier": 8177.856,
+                "bitrateGlobal": 2685507,
+                "formatConteneur": "matroska,webm",
+                "audio": [
+                    {
+                        "codec": "ac3",
+                        "profil": null,
+                        "canaux": 6,
+                        "disposition": "5.1(side)",
+                        "bitrate": 256000,
+                        "frequence": 48000,
+                        "langue": "fre"
+                    },
+                    {
+                        "codec": "ac3",
+                        "profil": null,
+                        "canaux": 6,
+                        "disposition": "5.1(side)",
+                        "bitrate": 256000,
+                        "frequence": 48000,
+                        "langue": "eng"
+                    },
+                    {
+                        "codec": "aac",
+                        "profil": "LC",
+                        "canaux": 2,
+                        "disposition": "stereo",
+                        "bitrate": null,
+                        "frequence": 48000,
+                        "langue": "fre"
+                    }
+                ],
+                "sousTitres": [
+                    {
+                        "codec": "subrip",
+                        "langue": null,
+                        "titre": "titre"
+                    },
+                    {
+                        "codec": "subrip",
+                        "langue": "fre",
+                        "titre": "complet"
+                    },
+                    {
+                        "codec": "subrip",
+                        "langue": "eng",
+                        "titre": "complet"
+                    }
+                ]
+            },
+            "fichierNormalise": "Matrix ( )_1999_VO_VF.mkv",
             "titreTmdb": "Matrix",
             "titreOriginal": "The Matrix",
-            "anneeTmdb": 1999,
+            "langueOriginale": "en",
+            "anneeTmdb": "1999",
+            "dureeTmdb": 136,
             "descriptionTmdb": "Programmeur anonyme dans un service administratif le jour, Thomas Anderson devient Neo la nuit venue. Sous ce pseudonyme, il est l'un des pirates les plus recherchés du cyber‐espace. À cheval entre deux mondes, Neo est assailli par d'étranges songes et des messages cryptés provenant d'un certain Morpheus. Celui‐ci l'exhorte à aller au‐delà des apparences et à trouver la réponse à la question qui hante constamment ses pensées : qu'est‐ce que la Matrice ? Nul ne le sait, et aucun homme n'est encore parvenu à en percer les défenses. Mais Morpheus est persuadé que Neo est l'Élu, le libérateur mythique de l'humanité annoncé selon la prophétie. Ensemble, ils se lancent dans une lutte sans retour contre la Matrice et ses terribles agents…",
             "collectionId": 2344,
             "collectionNom": "Matrix - Saga",
+            "collectionDescription": "La collection Matrix représente une histoire de science-fiction complexe intégrant de nombreux éléments philosophiques. Écrit et réalisé par les sœurs Wachowski et produit par Joel Silver.",
+            "collectionImage": "https://image.tmdb.org/t/p/w500/alQ1yfJR9cxAPOx0WsTYj37HawI.jpg",
+            "collectionTmdbUrl": "https://www.themoviedb.org/collection/2344",
             "type": "Film",
             "studio": null,
-            "ignoreInCollection": false,
-            "langueOriginale": "en"
-        },
-        {
-            "id": "tmdb_604",
-            "titre": "Matrix Reloaded",
-            "annee": 2003,
-            "langue": [
-                "TBD"
+            "languesAudio": [
+                "EN",
+                "FR"
             ],
-            "taille": 0,
-            "genre": [
-                "Science-Fiction"
-            ],
-            "image": "https://image.tmdb.org/t/p/w342/lF5HiiRmBlL3mc5SnO4QsdmlvOb.jpg",
-            "fichier": null,
-            "nomFichier": null,
-            "tmdbId": 604,
-            "tmdbUrl": "https://www.themoviedb.org/movie/604",
-            "doublonExact": false,
-            "doublonProbable": false,
-            "groupeDoublon": null,
-            "dateAjout": null,
-            "titreTmdb": "Matrix Reloaded",
-            "titreOriginal": "The Matrix Reloaded",
-            "anneeTmdb": 2003,
-            "descriptionTmdb": "Neo apprend à mieux contrôler ses dons naturels, alors même que Sion s'apprête à tomber sous l'assaut de l'Armée des Machines. D'ici quelques heures, 250 000 Sentinelles programmées pour anéantir notre espèce envahiront la dernière enclave humaine de la Terre. Mais Morpheus galvanise les citoyens de Sion en leur rappelant la Parole de l'Oracle : il est encore temps pour l’Élu d'arrêter la guerre contre les Machines. Tous les espoirs se reportent dès lors sur Neo. Au long de sa périlleuse plongée au sein de la Matrice et de sa propre destinée, ce dernier sera confronté à une résistance croissante, une vérité encore plus aveuglante, un choix encore plus douloureux que tout ce qu'il avait jamais imaginé.",
-            "collectionId": 2344,
-            "collectionNom": "Matrix - Saga",
-            "type": "Film",
-            "studio": null,
-            "ignoreInCollection": false,
-            "langueOriginale": "en"
+            "ignoreInCollection": false
         },
         {
             "id": "tmdb_605",
@@ -27671,6 +27584,99 @@
             "studio": null,
             "ignoreInCollection": false,
             "langueOriginale": "en"
+        },
+        {
+            "id": "matrix_revolutions_2003",
+            "titre": "Matrix Revolutions ( )",
+            "annee": 2003,
+            "langue": [
+                "VO",
+                "VF"
+            ],
+            "taille": 2603569854,
+            "genre": null,
+            "image": null,
+            "fichier": "/Box_Films/- Nouveaux/Matrix Revolutions (2003) MULTi 1080p BluRay x264-PopHD.mkv",
+            "nomFichier": "Matrix Revolutions (2003) MULTi 1080p BluRay x264-PopHD.mkv",
+            "imdbId": null,
+            "tmdbId": null,
+            "tmdbUrl": null,
+            "doublonExact": false,
+            "doublonProbable": false,
+            "groupeDoublon": null,
+            "dateAjout": "2026-11-23T08:58:10.274Z",
+            "technique": {
+                "largeur": 1920,
+                "hauteur": 800,
+                "resolution": "1920x800",
+                "ratioImage": 2.4,
+                "codecVideo": "h264",
+                "profilVideo": "High",
+                "pixelFormat": "yuv420p",
+                "bitsParComposante": 8,
+                "bitrateVideo": null,
+                "framerate": 23.976,
+                "espaceCouleur": "bt709",
+                "transfertCouleur": "bt709",
+                "primairesCouleur": "bt709",
+                "hdr": false,
+                "dureeFichier": 7755.946,
+                "bitrateGlobal": 2685495,
+                "formatConteneur": "matroska,webm",
+                "audio": [
+                    {
+                        "codec": "ac3",
+                        "profil": null,
+                        "canaux": 6,
+                        "disposition": "5.1(side)",
+                        "bitrate": 256000,
+                        "frequence": 48000,
+                        "langue": "fre"
+                    },
+                    {
+                        "codec": "ac3",
+                        "profil": null,
+                        "canaux": 6,
+                        "disposition": "5.1(side)",
+                        "bitrate": 256000,
+                        "frequence": 48000,
+                        "langue": "eng"
+                    },
+                    {
+                        "codec": "aac",
+                        "profil": "LC",
+                        "canaux": 2,
+                        "disposition": "stereo",
+                        "bitrate": null,
+                        "frequence": 48000,
+                        "langue": "fre"
+                    }
+                ],
+                "sousTitres": [
+                    {
+                        "codec": "subrip",
+                        "langue": null,
+                        "titre": "titre"
+                    },
+                    {
+                        "codec": "subrip",
+                        "langue": "fre",
+                        "titre": "compelt"
+                    },
+                    {
+                        "codec": "subrip",
+                        "langue": "eng",
+                        "titre": "complet"
+                    }
+                ],
+                "zoneUtile": {
+                    "largeurUtile": 1920,
+                    "hauteurUtile": 800,
+                    "x": 0,
+                    "y": 0
+                }
+            },
+            "fichierNormalise": "Matrix Revolutions ( )_2003_VO_VF.mkv"
         },
         {
             "id": "maverick_1994",
@@ -29561,7 +29567,7 @@
                 "Aventure"
             ],
             "image": "https://image.tmdb.org/t/p/w342/zdVxpaoQdpheQqWWd6b82eY9Pid.jpg",
-            "fichier": "/Box_Films/Aventure/Vaiana/2024_Vaiana 2_VF.mp4",
+            "fichier": "/Box_Films/Animation/Vaiana/2024_Vaiana 2_VF.mp4",
             "nomFichier": "2024_Vaiana 2_VF.mp4",
             "imdbId": null,
             "tmdbId": 1241982,
@@ -30372,6 +30378,149 @@
         },
         {
             "id": "no_time_to_die_2021",
+            "titre": "No Time to Die",
+            "annee": 2021,
+            "langue": [
+                "VF"
+            ],
+            "taille": 4833396437,
+            "genre": [
+                "Action"
+            ],
+            "image": "https://image.tmdb.org/t/p/w342/qseURFLjRBCqFCNCKmS2uwM9IOj.jpg",
+            "fichier": "/Box_Films/Action/James Bond 007/2021_Mourir peut attendre_VF.mkv",
+            "nomFichier": "2021_Mourir peut attendre_VF.mkv",
+            "imdbId": null,
+            "tmdbId": 370172,
+            "tmdbUrl": "https://www.themoviedb.org/movie/370172",
+            "doublonExact": false,
+            "doublonProbable": true,
+            "groupeDoublon": "no_time_to_die",
+            "dateAjout": "2026-11-22T19:57:15.247Z",
+            "technique": {
+                "largeur": 1248,
+                "hauteur": 520,
+                "resolution": "1248x520",
+                "ratioImage": 2.4,
+                "codecVideo": "h264",
+                "profilVideo": "High",
+                "pixelFormat": "yuv420p",
+                "bitsParComposante": 8,
+                "bitrateVideo": null,
+                "framerate": 23.976,
+                "espaceCouleur": "bt709",
+                "transfertCouleur": "bt709",
+                "primairesCouleur": "bt709",
+                "hdr": false,
+                "dureeFichier": 9803.808,
+                "bitrateGlobal": 3944097,
+                "formatConteneur": "matroska,webm",
+                "audio": [
+                    {
+                        "codec": "ac3",
+                        "profil": null,
+                        "canaux": 6,
+                        "disposition": "5.1(side)",
+                        "bitrate": 384000,
+                        "frequence": 48000,
+                        "langue": "fre"
+                    }
+                ],
+                "sousTitres": [
+                    {
+                        "codec": "subrip",
+                        "langue": "fre",
+                        "titre": "Forced"
+                    },
+                    {
+                        "codec": "subrip",
+                        "langue": "fre",
+                        "titre": "French"
+                    }
+                ]
+            },
+            "fichierNormalise": "No Time to Die_2021_VF.mkv",
+            "titreTmdb": "Mourir peut attendre",
+            "titreOriginal": "No Time to Die",
+            "langueOriginale": "en",
+            "anneeTmdb": "2021",
+            "dureeTmdb": 163,
+            "descriptionTmdb": "James Bond a quitté les services secrets et coule des jours heureux en Jamaïque. Mais sa tranquillité est de courte durée car son vieil ami Felix Leiter de la CIA débarque pour solliciter son aide : il s'agit de sauver un scientifique qui vient d'être kidnappé. Mais la mission se révèle bien plus dangereuse que prévu et Bond se retrouve aux trousses d'un mystérieux ennemi détenant de redoutables armes technologiques…",
+            "collectionId": 645,
+            "collectionNom": "James Bond 007 - Saga",
+            "collectionDescription": "James Bond, agent 007, autorisé à tuer, est le héros de la plus longue saga cinématographique de tous les temps, au succès sans égal. Armé de son Walther PPK, accompagné des plus jolies filles de la terre et opposé aux plus cyniques des méchants, il a poursuivi le mal aux quatre coins du monde, survécu à la guerre froide et à la chute du mur de Berlin.",
+            "collectionImage": "https://image.tmdb.org/t/p/w500/5KhvmlY1tvwrhDbfx2TvL8mYyFn.jpg",
+            "collectionTmdbUrl": "https://www.themoviedb.org/collection/645",
+            "type": "Film",
+            "studio": null,
+            "ignoreInCollection": false
+        },
+        {
+            "id": "no_time_to_die_2021",
+            "titre": "No Time To Die",
+            "annee": 2021,
+            "langue": [
+                "VOSTFR"
+            ],
+            "taille": 1720499159,
+            "genre": null,
+            "image": null,
+            "fichier": "/Box_Films/- Nouveaux/No.Time.To.Die.2021.1080p.VOSTFR.WEB.x264-STVFRV.mkv",
+            "nomFichier": "No.Time.To.Die.2021.1080p.VOSTFR.WEB.x264-STVFRV.mkv",
+            "imdbId": null,
+            "tmdbId": null,
+            "tmdbUrl": null,
+            "doublonExact": false,
+            "doublonProbable": false,
+            "groupeDoublon": null,
+            "dateAjout": "2026-11-23T08:58:11.326Z",
+            "technique": {
+                "largeur": 1920,
+                "hauteur": 800,
+                "resolution": "1920x800",
+                "ratioImage": 2.4,
+                "codecVideo": "h264",
+                "profilVideo": "High",
+                "pixelFormat": "yuv420p",
+                "bitsParComposante": 8,
+                "bitrateVideo": null,
+                "framerate": 23.976,
+                "espaceCouleur": null,
+                "transfertCouleur": null,
+                "primairesCouleur": null,
+                "hdr": false,
+                "dureeFichier": 9803.808,
+                "bitrateGlobal": 1403943,
+                "formatConteneur": "matroska,webm",
+                "audio": [
+                    {
+                        "codec": "ac3",
+                        "profil": null,
+                        "canaux": 6,
+                        "disposition": "5.1(side)",
+                        "bitrate": 320000,
+                        "frequence": 48000,
+                        "langue": "eng"
+                    }
+                ],
+                "sousTitres": [
+                    {
+                        "codec": "subrip",
+                        "langue": "fre",
+                        "titre": null
+                    }
+                ],
+                "zoneUtile": {
+                    "largeurUtile": 1920,
+                    "hauteurUtile": 800,
+                    "x": 0,
+                    "y": 0
+                }
+            },
+            "fichierNormalise": "No Time To Die_2021_VOSTFR.mkv"
+        },
+        {
+            "id": "no_time_to_die_2021",
             "titre": "No Time To Die",
             "annee": 2021,
             "langue": [
@@ -30388,8 +30537,8 @@
             "tmdbId": 370172,
             "tmdbUrl": "https://www.themoviedb.org/movie/370172",
             "doublonExact": false,
-            "doublonProbable": false,
-            "groupeDoublon": null,
+            "doublonProbable": true,
+            "groupeDoublon": "no_time_to_die",
             "dateAjout": "2026-11-06T19:39:20.782Z",
             "titreTmdb": "Mourir peut attendre",
             "anneeTmdb": "2021",
@@ -30844,45 +30993,33 @@
             "fichierNormalise": "2016_Insaisissables 2_VOSTFR.avi"
         },
         {
-            "id": "now_you_see_me_now_you_dont_lctl_2025",
-            "titre": "Now You See Me Now You Dont LCTL",
+            "id": "now_you_see_me_now_you_dont_2025",
+            "titre": "Now You See Me Now You Dont",
             "annee": 2025,
             "langue": [
                 "VO",
                 "VF",
-                "VOSTFR",
-                "VOST"
+                "VOSTFR"
             ],
-            "taille": 1140377869,
+            "taille": 6497977488,
             "genre": [
                 "Action"
             ],
             "image": "https://image.tmdb.org/t/p/w342/rfjuf6kNLVnH8qOk6UZJBHQHKlF.jpg",
-            "fichier": "/Box_Films/Action/Insaisissables/2025_Insaisissables 3_VO_VF_VOST_VOSTFR.mkv",
-            "nomFichier": "2025_Insaisissables 3_VO_VF_VOST_VOSTFR.mkv",
+            "fichier": "/Box_Films/Action/Insaisissables/2025_Insaisissables 3_VO_VF_VOSTFR.mkv",
+            "nomFichier": "2025_Insaisissables 3_VO_VF_VOSTFR.mkv",
             "imdbId": null,
             "tmdbId": 425274,
             "tmdbUrl": "https://www.themoviedb.org/movie/425274",
             "doublonExact": false,
             "doublonProbable": false,
             "groupeDoublon": null,
-            "dateAjout": "2026-11-06T19:39:20.782Z",
-            "titreTmdb": "Insaisissables 3",
-            "anneeTmdb": "2025",
-            "dureeTmdb": 112,
-            "descriptionTmdb": "Les Cavaliers sont de retour pour le braquage le plus impressionnant jamais imaginé ! Accompagnés d'un groupe de jeunes magiciens qui espèrent suivre leur trace, ils vont devoir repousser les limites de l'illusion pour orchestrer leur tour le plus spectaculaire : dérober le joyau le plus précieux du monde des mains d'une redoutable organisation criminelle…",
-            "collectionId": 382685,
-            "collectionNom": "Insaisissables - Saga",
-            "collectionDescription": "Insaisissables est un thriller américain de 2013 réalisé par Louis Leterrier. Le film met en vedette un groupe composé de Jesse Eisenberg, Mark Ruffalo, Woody Harrelson, Mélanie Laurent, Isla Fisher, Dave Franco, Michael Caine et Morgan Freeman.  L'intrigue suit un agent du FBI et un détective d'Interpol traquants une équipe d'illusionnistes qui se livrent à des braquages de banques pendant leurs performances et récompensent leur public avec l'argent. Une suite a été publiée le 10 juin 2016 et s'intitulait Insaisissables 2. Un troisième volet est prévu.",
-            "collectionImage": "https://image.tmdb.org/t/p/w500/JAzLUXjXJEGp9IKR7jEY4L2VSL.jpg",
-            "collectionTmdbUrl": "https://www.themoviedb.org/collection/382685",
-            "type": "Film",
-            "studio": null,
+            "dateAjout": "2026-11-22T10:39:42.990Z",
             "technique": {
-                "largeur": 720,
-                "hauteur": 480,
-                "resolution": "720x480",
-                "ratioImage": 1.5,
+                "largeur": 1918,
+                "hauteur": 800,
+                "resolution": "1918x800",
+                "ratioImage": 2.397,
                 "codecVideo": "h264",
                 "profilVideo": "High",
                 "pixelFormat": "yuv420p",
@@ -30893,25 +31030,25 @@
                 "transfertCouleur": "bt709",
                 "primairesCouleur": "bt709",
                 "hdr": false,
-                "dureeFichier": 6756.373,
-                "bitrateGlobal": 1350284,
+                "dureeFichier": 6756.352,
+                "bitrateGlobal": 7694066,
                 "formatConteneur": "matroska,webm",
                 "audio": [
                     {
-                        "codec": "aac",
-                        "profil": "LC",
-                        "canaux": 2,
-                        "disposition": "stereo",
-                        "bitrate": null,
+                        "codec": "ac3",
+                        "profil": null,
+                        "canaux": 6,
+                        "disposition": "5.1(side)",
+                        "bitrate": 384000,
                         "frequence": 48000,
                         "langue": "fre"
                     },
                     {
-                        "codec": "aac",
-                        "profil": "LC",
-                        "canaux": 2,
-                        "disposition": "stereo",
-                        "bitrate": null,
+                        "codec": "eac3",
+                        "profil": "Dolby Digital Plus + Dolby Atmos",
+                        "canaux": 6,
+                        "disposition": "5.1(side)",
+                        "bitrate": 768000,
                         "frequence": 48000,
                         "langue": "eng"
                     }
@@ -30926,27 +31063,28 @@
                         "codec": "subrip",
                         "langue": "fre",
                         "titre": "Français (France)"
-                    },
-                    {
-                        "codec": "subrip",
-                        "langue": "eng",
-                        "titre": "VO : Full"
-                    },
-                    {
-                        "codec": "subrip",
-                        "langue": "eng",
-                        "titre": "VO : Full SDH"
                     }
                 ]
             },
-            "ignoreInCollection": false,
+            "fichierNormalise": "Now You See Me Now You Dont_2025_VO_VF.mkv",
+            "titreTmdb": "Insaisissables 3",
             "titreOriginal": "Now You See Me: Now You Don't",
             "langueOriginale": "en",
+            "anneeTmdb": "2025",
+            "dureeTmdb": 112,
+            "descriptionTmdb": "Les Cavaliers sont de retour pour le braquage le plus impressionnant jamais imaginé ! Accompagnés d'un groupe de jeunes magiciens qui espèrent suivre leur trace, ils vont devoir repousser les limites de l'illusion pour orchestrer leur tour le plus spectaculaire : dérober le joyau le plus précieux du monde des mains d'une redoutable organisation criminelle…",
+            "collectionId": 382685,
+            "collectionNom": "Insaisissables - Saga",
+            "collectionDescription": "Insaisissables est un thriller américain de 2013 réalisé par Louis Leterrier. Le film met en vedette un groupe composé de Jesse Eisenberg, Mark Ruffalo, Woody Harrelson, Mélanie Laurent, Isla Fisher, Dave Franco, Michael Caine et Morgan Freeman.  L'intrigue suit un agent du FBI et un détective d'Interpol traquants une équipe d'illusionnistes qui se livrent à des braquages de banques pendant leurs performances et récompensent leur public avec l'argent. Une suite a été publiée le 10 juin 2016 et s'intitulait Insaisissables 2. Un troisième volet est prévu.",
+            "collectionImage": "https://image.tmdb.org/t/p/w500/JAzLUXjXJEGp9IKR7jEY4L2VSL.jpg",
+            "collectionTmdbUrl": "https://www.themoviedb.org/collection/382685",
+            "type": "Film",
+            "studio": null,
             "languesAudio": [
                 "EN",
                 "FR"
             ],
-            "fichierNormalise": "2025_Insaisissables 3_VO_VF_VOST_VOSTFR.mkv"
+            "ignoreInCollection": false
         },
         {
             "id": "tmdb_700",
@@ -32750,6 +32888,102 @@
             "titreOriginal": "Push",
             "langueOriginale": "en",
             "fichierNormalise": "Push_2009_VF.avi"
+        },
+        {
+            "id": "quantum_of_solace_1080p_apekat_2008",
+            "titre": "Quantum of Solace (1080p apekat)",
+            "annee": 2008,
+            "langue": [
+                "VO",
+                "VOST"
+            ],
+            "taille": 2510789379,
+            "genre": [
+                "Action"
+            ],
+            "image": "https://image.tmdb.org/t/p/w342/QvphhhQiHanVakuQTiXsEMe4cE.jpg",
+            "fichier": "/Box_Films/Action/James Bond 007/2008_Quantum of Solace_VO_VOST.mkv",
+            "nomFichier": "2008_Quantum of Solace_VO_VOST.mkv",
+            "imdbId": null,
+            "tmdbId": 10764,
+            "tmdbUrl": "https://www.themoviedb.org/movie/10764",
+            "doublonExact": false,
+            "doublonProbable": false,
+            "groupeDoublon": null,
+            "dateAjout": "2026-11-22T10:39:44.374Z",
+            "technique": {
+                "largeur": 1920,
+                "hauteur": 800,
+                "resolution": "1920x800",
+                "ratioImage": 2.4,
+                "codecVideo": "hevc",
+                "profilVideo": "Main 10",
+                "pixelFormat": "yuv420p10le",
+                "bitsParComposante": null,
+                "bitrateVideo": null,
+                "framerate": 23.976,
+                "espaceCouleur": null,
+                "transfertCouleur": null,
+                "primairesCouleur": null,
+                "hdr": false,
+                "dureeFichier": 6374.377,
+                "bitrateGlobal": 3151102,
+                "formatConteneur": "matroska,webm",
+                "audio": [
+                    {
+                        "codec": "aac",
+                        "profil": "LC",
+                        "canaux": 6,
+                        "disposition": "5.1",
+                        "bitrate": null,
+                        "frequence": 48000,
+                        "langue": "eng"
+                    },
+                    {
+                        "codec": "aac",
+                        "profil": "LC",
+                        "canaux": 6,
+                        "disposition": "5.1",
+                        "bitrate": null,
+                        "frequence": 48000,
+                        "langue": "ger"
+                    }
+                ],
+                "sousTitres": [
+                    {
+                        "codec": "dvd_subtitle",
+                        "langue": "eng",
+                        "titre": null
+                    },
+                    {
+                        "codec": "dvd_subtitle",
+                        "langue": "ger",
+                        "titre": null
+                    },
+                    {
+                        "codec": "dvd_subtitle",
+                        "langue": "ger",
+                        "titre": null
+                    }
+                ]
+            },
+            "fichierNormalise": "Quantum of Solace (1080p apekat)_2008_TBD.mkv",
+            "titreTmdb": "Quantum of Solace",
+            "titreOriginal": "Quantum of Solace",
+            "langueOriginale": "en",
+            "anneeTmdb": "2008",
+            "dureeTmdb": 107,
+            "descriptionTmdb": "Même s’il lutte pour ne pas faire de sa dernière mission une affaire personnelle, James Bond est décidé à traquer ceux qui ont forcé Vesper à le trahir. En interrogeant Mr White, 007 et M apprennent que l’organisation à laquelle il appartient est bien plus complexe et dangereuse que tout ce qu’ils avaient imaginé… Bond croise alors la route de la belle et pugnace Camille, qui cherche à se venger elle aussi. Elle le conduit sur la piste de Dominic Greene, un homme d’affaires impitoyable et un des piliers de la mystérieuse organisation. Au cours d’une mission qui l’entraîne en Autriche, en Italie et en Amérique du Sud, Bond découvre que Greene manœuvre pour prendre le contrôle de l’une des ressources naturelles les plus importantes au monde en utilisant la puissance de l’organisation, et en manipulant la CIA et le gouvernement britannique…",
+            "collectionId": 645,
+            "collectionNom": "James Bond 007 - Saga",
+            "collectionDescription": "James Bond, agent 007, autorisé à tuer, est le héros de la plus longue saga cinématographique de tous les temps, au succès sans égal. Armé de son Walther PPK, accompagné des plus jolies filles de la terre et opposé aux plus cyniques des méchants, il a poursuivi le mal aux quatre coins du monde, survécu à la guerre froide et à la chute du mur de Berlin.",
+            "collectionImage": "https://image.tmdb.org/t/p/w500/5KhvmlY1tvwrhDbfx2TvL8mYyFn.jpg",
+            "collectionTmdbUrl": "https://www.themoviedb.org/collection/645",
+            "type": "Film",
+            "studio": null,
+            "languesAudio": [
+                "EN"
+            ]
         },
         {
             "id": "raiponce",
@@ -35672,6 +35906,94 @@
             "langueOriginale": "en"
         },
         {
+            "id": "tmdb_37724",
+            "titre": "Skyfall",
+            "annee": 2012,
+            "langue": [
+                "TBD"
+            ],
+            "taille": 0,
+            "genre": [
+                "Action"
+            ],
+            "image": "https://image.tmdb.org/t/p/w342/nNFECkwmrYoUQ17EnPTcSlRictV.jpg",
+            "fichier": null,
+            "nomFichier": null,
+            "tmdbId": 37724,
+            "tmdbUrl": "https://www.themoviedb.org/movie/37724",
+            "doublonExact": false,
+            "doublonProbable": false,
+            "groupeDoublon": null,
+            "dateAjout": null,
+            "titreTmdb": "Skyfall",
+            "titreOriginal": "Skyfall",
+            "anneeTmdb": 2012,
+            "descriptionTmdb": "Lorsque la dernière mission de Bond tourne mal, plusieurs agents infiltrés se retrouvent exposés dans le monde entier. Le MI6 est attaqué, et M est obligée de relocaliser l’Agence. Ces événements ébranlent son autorité, et elle est remise en cause par Mallory, le nouveau président de l’ISC, le comité chargé du renseignement et de la sécurité. Le MI6 est à présent sous le coup d’une double menace, intérieure et extérieure. Il ne reste à M qu’un seul allié de confiance vers qui se tourner: Bond. Plus que jamais, 007 va devoir agir dans l’ombre. Avec l’aide d’Ève, un agent de terrain, il se lance sur la piste du mystérieux Silva, dont il doit identifier coûte que coûte l’objectif secret et mortel.",
+            "collectionId": 645,
+            "collectionNom": "James Bond 007 - Saga",
+            "type": "Film",
+            "studio": null,
+            "ignoreInCollection": false
+        },
+        {
+            "id": "skyfall_2012",
+            "titre": "Skyfall",
+            "annee": 2012,
+            "langue": [
+                "TBD"
+            ],
+            "taille": 2148905797,
+            "genre": null,
+            "image": null,
+            "fichier": "/Box_Films/- Nouveaux/Skyfall.2012.1080p.BrRip.x264.YIFY.mp4",
+            "nomFichier": "Skyfall.2012.1080p.BrRip.x264.YIFY.mp4",
+            "imdbId": null,
+            "tmdbId": null,
+            "tmdbUrl": null,
+            "doublonExact": false,
+            "doublonProbable": false,
+            "groupeDoublon": null,
+            "dateAjout": "2026-11-23T08:58:13.036Z",
+            "technique": {
+                "largeur": 1920,
+                "hauteur": 800,
+                "resolution": "1920x800",
+                "ratioImage": 2.4,
+                "codecVideo": "h264",
+                "profilVideo": "High",
+                "pixelFormat": "yuv420p",
+                "bitsParComposante": 8,
+                "bitrateVideo": 1901454,
+                "framerate": 23.976,
+                "espaceCouleur": null,
+                "transfertCouleur": null,
+                "primairesCouleur": null,
+                "hdr": false,
+                "dureeFichier": 8590.037333,
+                "bitrateGlobal": 2001300,
+                "formatConteneur": "mov,mp4,m4a,3gp,3g2,mj2",
+                "audio": [
+                    {
+                        "codec": "aac",
+                        "profil": "LC",
+                        "canaux": 2,
+                        "disposition": "stereo",
+                        "bitrate": 95757,
+                        "frequence": 48000,
+                        "langue": "eng"
+                    }
+                ],
+                "sousTitres": [],
+                "zoneUtile": {
+                    "largeurUtile": 1904,
+                    "hauteurUtile": 800,
+                    "x": 10,
+                    "y": 0
+                }
+            },
+            "fichierNormalise": "Skyfall_2012_TBD.mp4"
+        },
+        {
             "id": "sleepless_2017",
             "titre": "Sleepless",
             "annee": 2017,
@@ -36750,8 +37072,8 @@
             "tmdbId": 188927,
             "tmdbUrl": "https://www.themoviedb.org/movie/188927",
             "doublonExact": false,
-            "doublonProbable": true,
-            "groupeDoublon": "star_trek",
+            "doublonProbable": false,
+            "groupeDoublon": null,
             "dateAjout": "2026-08-22T08:23:33.554Z",
             "titreTmdb": "Star Trek : Sans limites",
             "anneeTmdb": "2016",
@@ -36799,76 +37121,6 @@
             "ignoreInCollection": false,
             "langueOriginale": "en",
             "fichierNormalise": "2016_Star Trek Sans limites_VF.avi"
-        },
-        {
-            "id": "star_trek_beyond_2016",
-            "titre": "Star Trek",
-            "annee": 2016,
-            "langue": [
-                "VO"
-            ],
-            "taille": 1995545915,
-            "genre": [
-                "Science-Fiction"
-            ],
-            "image": "https://image.tmdb.org/t/p/w342/aerpiFz3XsTg6ICP2qSxRriKTPd.jpg",
-            "fichier": "/Box_Films/Science-Fiction/Star Trek/2016_Star Trek Sans limites_VO.mp4",
-            "nomFichier": "2016_Star Trek Sans limites_VO.mp4",
-            "imdbId": null,
-            "tmdbId": 188927,
-            "tmdbUrl": "https://www.themoviedb.org/movie/188927",
-            "doublonExact": false,
-            "doublonProbable": true,
-            "groupeDoublon": "star_trek",
-            "dateAjout": "2026-08-22T08:23:33.584Z",
-            "titreTmdb": "Star Trek : Sans limites",
-            "anneeTmdb": "2016",
-            "dureeTmdb": 123,
-            "descriptionTmdb": "L'équipage de l'USS Enterprise explore les confins de l'espace inconnu où ils rencontrent un nouvel ennemi impitoyable qui les met à l'épreuve, ainsi que tout ce que la Fédération représente.",
-            "collectionId": 115575,
-            "collectionNom": "Star Trek - Saga",
-            "collectionDescription": "Saga cinématographique Star Trek, troisième du nom.",
-            "collectionImage": "https://image.tmdb.org/t/p/w500/A8Y0BFIXpKv3AxbueUNnK6CdNCu.jpg",
-            "collectionTmdbUrl": "https://www.themoviedb.org/collection/115575",
-            "type": "Film",
-            "studio": null,
-            "technique": {
-                "largeur": 1920,
-                "hauteur": 800,
-                "resolution": "1920x800",
-                "ratioImage": 2.4,
-                "codecVideo": "h264",
-                "profilVideo": "High",
-                "pixelFormat": "yuv420p",
-                "bitsParComposante": 8,
-                "bitrateVideo": 2049300,
-                "framerate": 23.976,
-                "espaceCouleur": null,
-                "transfertCouleur": null,
-                "primairesCouleur": null,
-                "hdr": false,
-                "dureeFichier": 7342.176,
-                "bitrateGlobal": 2174337,
-                "formatConteneur": "mov,mp4,m4a,3gp,3g2,mj2",
-                "audio": [
-                    {
-                        "codec": "aac",
-                        "profil": "LC",
-                        "canaux": 2,
-                        "disposition": "stereo",
-                        "bitrate": 119715,
-                        "frequence": 48000,
-                        "langue": "und"
-                    }
-                ],
-                "sousTitres": []
-            },
-            "titreOriginal": "Star Trek Beyond",
-            "langueOriginale": "en",
-            "fichierNormalise": "2016_Star Trek Sans limites_TBD.mp4",
-            "languesAudio": [
-                "EN"
-            ]
         },
         {
             "id": "star_trek_2013",
@@ -36979,6 +37231,162 @@
                 "FR"
             ],
             "fichierOriginal": "Star Trek Into Darkness (2013) MULTi VF2 1080p BluRay x264-PopHD.mkv"
+        },
+        {
+            "id": "star_trek_beyond_2016",
+            "titre": "Star Trek Beyond ( )",
+            "annee": 2016,
+            "langue": [
+                "TBD"
+            ],
+            "taille": 3807492619,
+            "genre": null,
+            "image": null,
+            "fichier": "/Box_Films/- Nouveaux/Star Trek Beyond (2016).mkv",
+            "nomFichier": "Star Trek Beyond (2016).mkv",
+            "imdbId": null,
+            "tmdbId": null,
+            "tmdbUrl": null,
+            "doublonExact": false,
+            "doublonProbable": false,
+            "groupeDoublon": null,
+            "dateAjout": "2026-11-23T08:58:14.393Z",
+            "technique": {
+                "largeur": 1920,
+                "hauteur": 1080,
+                "resolution": "1920x1080",
+                "ratioImage": 1.778,
+                "codecVideo": "h264",
+                "profilVideo": "High",
+                "pixelFormat": "yuv420p",
+                "bitsParComposante": 8,
+                "bitrateVideo": null,
+                "framerate": 23.976,
+                "espaceCouleur": null,
+                "transfertCouleur": null,
+                "primairesCouleur": null,
+                "hdr": false,
+                "dureeFichier": 7342.176,
+                "bitrateGlobal": 4148625,
+                "formatConteneur": "matroska,webm",
+                "audio": [
+                    {
+                        "codec": "ac3",
+                        "profil": null,
+                        "canaux": 6,
+                        "disposition": "5.1(side)",
+                        "bitrate": 640000,
+                        "frequence": 48000,
+                        "langue": "fre"
+                    }
+                ],
+                "sousTitres": [
+                    {
+                        "codec": "subrip",
+                        "langue": "fre",
+                        "titre": "SRT Forcés"
+                    },
+                    {
+                        "codec": "subrip",
+                        "langue": "fre",
+                        "titre": "SRT Full"
+                    },
+                    {
+                        "codec": "hdmv_pgs_subtitle",
+                        "langue": "fre",
+                        "titre": "PGS Forcés"
+                    },
+                    {
+                        "codec": "hdmv_pgs_subtitle",
+                        "langue": "fre",
+                        "titre": "PGS Full"
+                    }
+                ],
+                "zoneUtile": {
+                    "largeurUtile": 1920,
+                    "hauteurUtile": 800,
+                    "x": 0,
+                    "y": 140
+                }
+            },
+            "fichierNormalise": "Star Trek Beyond ( )_2016_TBD.mkv"
+        },
+        {
+            "id": "star_trek_jyk_2016",
+            "titre": "Star Trek JYK",
+            "annee": 2016,
+            "langue": [
+                "VO",
+                "VOST"
+            ],
+            "taille": 3612231959,
+            "genre": [
+                "Science-Fiction"
+            ],
+            "image": "https://image.tmdb.org/t/p/w342/aerpiFz3XsTg6ICP2qSxRriKTPd.jpg",
+            "fichier": "/Box_Films/Science-Fiction/Star Trek/2016_Star Trek Sans limites_VO_VOST.mkv",
+            "nomFichier": "2016_Star Trek Sans limites_VO_VOST.mkv",
+            "imdbId": null,
+            "tmdbId": 188927,
+            "tmdbUrl": "https://www.themoviedb.org/movie/188927",
+            "doublonExact": false,
+            "doublonProbable": false,
+            "groupeDoublon": null,
+            "dateAjout": "2026-11-22T10:39:45.338Z",
+            "technique": {
+                "largeur": 1912,
+                "hauteur": 800,
+                "resolution": "1912x800",
+                "ratioImage": 2.39,
+                "codecVideo": "h264",
+                "profilVideo": "High",
+                "pixelFormat": "yuv420p",
+                "bitsParComposante": 8,
+                "bitrateVideo": null,
+                "framerate": 23.976,
+                "espaceCouleur": null,
+                "transfertCouleur": null,
+                "primairesCouleur": null,
+                "hdr": false,
+                "dureeFichier": 7341.459,
+                "bitrateGlobal": 3936255,
+                "formatConteneur": "matroska,webm",
+                "audio": [
+                    {
+                        "codec": "ac3",
+                        "profil": null,
+                        "canaux": 6,
+                        "disposition": "5.1(side)",
+                        "bitrate": 384000,
+                        "frequence": 48000,
+                        "langue": "eng"
+                    }
+                ],
+                "sousTitres": [
+                    {
+                        "codec": "subrip",
+                        "langue": "eng",
+                        "titre": null
+                    }
+                ]
+            },
+            "fichierNormalise": "Star Trek JYK_2016_TBD.mkv",
+            "titreTmdb": "Star Trek : Sans limites",
+            "titreOriginal": "Star Trek Beyond",
+            "langueOriginale": "en",
+            "anneeTmdb": "2016",
+            "dureeTmdb": 123,
+            "descriptionTmdb": "L'équipage de l'USS Enterprise explore les confins de l'espace inconnu où ils rencontrent un nouvel ennemi impitoyable qui les met à l'épreuve, ainsi que tout ce que la Fédération représente.",
+            "collectionId": 115575,
+            "collectionNom": "Star Trek - Saga",
+            "collectionDescription": "Saga cinématographique Star Trek, troisième du nom.",
+            "collectionImage": "https://image.tmdb.org/t/p/w500/A8Y0BFIXpKv3AxbueUNnK6CdNCu.jpg",
+            "collectionTmdbUrl": "https://www.themoviedb.org/collection/115575",
+            "type": "Film",
+            "studio": null,
+            "languesAudio": [
+                "EN"
+            ]
         },
         {
             "id": "starsky_and_hutch",
@@ -38997,6 +39405,164 @@
             ]
         },
         {
+            "id": "the_bad_guys_2_supply_2025",
+            "titre": "The Bad Guys 2 SUPPLY",
+            "annee": 2025,
+            "langue": [
+                "VF"
+            ],
+            "taille": 4405302357,
+            "genre": null,
+            "image": null,
+            "fichier": "/Box_Films/- Nouveaux/The.Bad.Guys.2.2025.FRENCH.720p.WEB.H264-SUPPLY.mkv",
+            "nomFichier": "The.Bad.Guys.2.2025.FRENCH.720p.WEB.H264-SUPPLY.mkv",
+            "imdbId": null,
+            "tmdbId": null,
+            "tmdbUrl": null,
+            "doublonExact": false,
+            "doublonProbable": true,
+            "groupeDoublon": "the_bad_guys_2_supply",
+            "dateAjout": "2026-11-23T08:58:15.476Z",
+            "technique": {
+                "largeur": 1248,
+                "hauteur": 520,
+                "resolution": "1248x520",
+                "ratioImage": 2.4,
+                "codecVideo": "h264",
+                "profilVideo": "High",
+                "pixelFormat": "yuv420p",
+                "bitsParComposante": 8,
+                "bitrateVideo": null,
+                "framerate": 23.976,
+                "espaceCouleur": "bt709",
+                "transfertCouleur": "bt709",
+                "primairesCouleur": "bt709",
+                "hdr": false,
+                "dureeFichier": 6231.968,
+                "bitrateGlobal": 5655102,
+                "formatConteneur": "matroska,webm",
+                "audio": [
+                    {
+                        "codec": "eac3",
+                        "profil": null,
+                        "canaux": 6,
+                        "disposition": "5.1(side)",
+                        "bitrate": 640000,
+                        "frequence": 48000,
+                        "langue": "fre"
+                    }
+                ],
+                "sousTitres": [
+                    {
+                        "codec": "subrip",
+                        "langue": "fre",
+                        "titre": "French (Canadien) Forced"
+                    },
+                    {
+                        "codec": "subrip",
+                        "langue": "fre",
+                        "titre": "French (Canadien)"
+                    },
+                    {
+                        "codec": "subrip",
+                        "langue": "eng",
+                        "titre": "English"
+                    }
+                ],
+                "zoneUtile": {
+                    "largeurUtile": 1248,
+                    "hauteurUtile": 512,
+                    "x": 0,
+                    "y": 4
+                }
+            },
+            "fichierNormalise": "The Bad Guys 2 SUPPLY_2025_VF.mkv"
+        },
+        {
+            "id": "the_bad_guys_2_supply_2025",
+            "titre": "The Bad Guys 2 SUPPLY",
+            "annee": 2025,
+            "langue": [
+                "VO",
+                "VF"
+            ],
+            "taille": 8429321124,
+            "genre": null,
+            "image": null,
+            "fichier": "/Box_Films/- Nouveaux/The.Bad.Guys.2.2025.MULTi.1080p.WEB.H264-SUPPLY.mkv",
+            "nomFichier": "The.Bad.Guys.2.2025.MULTi.1080p.WEB.H264-SUPPLY.mkv",
+            "imdbId": null,
+            "tmdbId": null,
+            "tmdbUrl": null,
+            "doublonExact": false,
+            "doublonProbable": true,
+            "groupeDoublon": "the_bad_guys_2_supply",
+            "dateAjout": "2026-11-23T08:58:17.288Z",
+            "technique": {
+                "largeur": 1920,
+                "hauteur": 800,
+                "resolution": "1920x800",
+                "ratioImage": 2.4,
+                "codecVideo": "h264",
+                "profilVideo": "High",
+                "pixelFormat": "yuv420p",
+                "bitsParComposante": 8,
+                "bitrateVideo": null,
+                "framerate": 23.976,
+                "espaceCouleur": "bt709",
+                "transfertCouleur": "bt709",
+                "primairesCouleur": "bt709",
+                "hdr": false,
+                "dureeFichier": 6231.968,
+                "bitrateGlobal": 10820750,
+                "formatConteneur": "matroska,webm",
+                "audio": [
+                    {
+                        "codec": "eac3",
+                        "profil": null,
+                        "canaux": 6,
+                        "disposition": "5.1(side)",
+                        "bitrate": 640000,
+                        "frequence": 48000,
+                        "langue": "fre"
+                    },
+                    {
+                        "codec": "eac3",
+                        "profil": "Dolby Digital Plus + Dolby Atmos",
+                        "canaux": 6,
+                        "disposition": "5.1(side)",
+                        "bitrate": 768000,
+                        "frequence": 48000,
+                        "langue": "eng"
+                    }
+                ],
+                "sousTitres": [
+                    {
+                        "codec": "subrip",
+                        "langue": "fre",
+                        "titre": "French (Canadien) Forced"
+                    },
+                    {
+                        "codec": "subrip",
+                        "langue": "fre",
+                        "titre": "French (Canadien)"
+                    },
+                    {
+                        "codec": "subrip",
+                        "langue": "eng",
+                        "titre": "English"
+                    }
+                ],
+                "zoneUtile": {
+                    "largeurUtile": 1920,
+                    "hauteurUtile": 800,
+                    "x": 0,
+                    "y": 0
+                }
+            },
+            "fichierNormalise": "The Bad Guys 2 SUPPLY_2025_VO_VF.mkv"
+        },
+        {
             "id": "bang_bang_club",
             "titre": "The Bang Bang Club",
             "annee": null,
@@ -39945,27 +40511,72 @@
             "fichierNormalise": "2023_The Marvels_TBD.mkv"
         },
         {
-            "id": "matrix_4_resurrections_2021",
+            "id": "the_matrix_4_resurrections_2021",
             "titre": "The Matrix 4 Resurrections",
             "annee": 2021,
             "langue": [
                 "VF"
             ],
-            "taille": 1472707394,
+            "taille": 4189649507,
             "genre": [
                 "Science-Fiction"
             ],
             "image": "https://image.tmdb.org/t/p/w342/kCF43aQ77ShTfKyY8vAJBVHN5j3.jpg",
-            "fichier": "/Box_Films/Science-Fiction/Matrix/2021_Matrix Resurrections_VF.avi",
-            "nomFichier": "2021_Matrix Resurrections_VF.avi",
+            "fichier": "/Box_Films/Science-Fiction/Matrix/2021_Matrix Resurrections_VF.mkv",
+            "nomFichier": "2021_Matrix Resurrections_VF.mkv",
             "imdbId": null,
             "tmdbId": 624860,
             "tmdbUrl": "https://www.themoviedb.org/movie/624860",
             "doublonExact": false,
             "doublonProbable": false,
             "groupeDoublon": null,
-            "dateAjout": "2026-08-22T08:23:33.537Z",
+            "dateAjout": "2026-11-22T10:39:46.055Z",
+            "technique": {
+                "largeur": 1280,
+                "hauteur": 544,
+                "resolution": "1280x544",
+                "ratioImage": 2.353,
+                "codecVideo": "h264",
+                "profilVideo": "Main",
+                "pixelFormat": "yuv420p",
+                "bitsParComposante": 8,
+                "bitrateVideo": null,
+                "framerate": 23.976,
+                "espaceCouleur": "bt709",
+                "transfertCouleur": "bt709",
+                "primairesCouleur": "bt709",
+                "hdr": false,
+                "dureeFichier": 8874.952,
+                "bitrateGlobal": 3776605,
+                "formatConteneur": "matroska,webm",
+                "audio": [
+                    {
+                        "codec": "eac3",
+                        "profil": null,
+                        "canaux": 6,
+                        "disposition": "5.1(side)",
+                        "bitrate": 384000,
+                        "frequence": 48000,
+                        "langue": "fre"
+                    }
+                ],
+                "sousTitres": [
+                    {
+                        "codec": "subrip",
+                        "langue": "fre",
+                        "titre": "Forced"
+                    },
+                    {
+                        "codec": "subrip",
+                        "langue": "fre",
+                        "titre": "French"
+                    }
+                ]
+            },
+            "fichierNormalise": "The Matrix 4 Resurrections_2021_VF.mkv",
             "titreTmdb": "Matrix Resurrections",
+            "titreOriginal": "The Matrix Resurrections",
+            "langueOriginale": "en",
             "anneeTmdb": "2021",
             "dureeTmdb": 148,
             "descriptionTmdb": "Dix-huit ans après les événements de Matrix Revolutions, Thomas A. Anderson (alias Neo) ne se souvient plus de rien et mène une vie d'apparence normale à San Francisco. Il se rend régulièrement chez un psychiatre à qui il raconte ses rêves étranges et qui lui prescrit des pilules bleues. Après la réapparition de visages familiers et en quête de réponses, Neo repart à la recherche du lapin blanc. Il rencontre un certain Morpheus, qui lui offre le choix entre rester dans la Matrice et prendre son envol.",
@@ -39976,41 +40587,7 @@
             "collectionTmdbUrl": "https://www.themoviedb.org/collection/2344",
             "type": "Film",
             "studio": null,
-            "ignoreInCollection": false,
-            "technique": {
-                "largeur": 720,
-                "hauteur": 304,
-                "resolution": "720x304",
-                "ratioImage": 2.368,
-                "codecVideo": "mpeg4",
-                "profilVideo": "Advanced Simple Profile",
-                "pixelFormat": "yuv420p",
-                "bitsParComposante": null,
-                "bitrateVideo": 1186834,
-                "framerate": 23.976,
-                "espaceCouleur": null,
-                "transfertCouleur": null,
-                "primairesCouleur": null,
-                "hdr": false,
-                "dureeFichier": 8874.858907,
-                "bitrateGlobal": 1327531,
-                "formatConteneur": "avi",
-                "audio": [
-                    {
-                        "codec": "mp3",
-                        "profil": null,
-                        "canaux": 2,
-                        "disposition": "stereo",
-                        "bitrate": 128000,
-                        "frequence": 48000,
-                        "langue": null
-                    }
-                ],
-                "sousTitres": []
-            },
-            "titreOriginal": "The Matrix Resurrections",
-            "langueOriginale": "en",
-            "fichierNormalise": "2021_Matrix Resurrections_VF.avi"
+            "ignoreInCollection": false
         },
         {
             "id": "november_man_s_v_2014",
@@ -41142,7 +41719,7 @@
                 "Aventure"
             ],
             "image": "https://image.tmdb.org/t/p/w342/pipDbSUyH0xABjlKJyPaPSJ1N1I.jpg",
-            "fichier": "/Box_Films/Aventure/Fée Clochette/2008_La Fée Clochette_VO.mp4",
+            "fichier": "/Box_Films/Animation/Fée Clochette/2008_La Fée Clochette_VO.mp4",
             "nomFichier": "2008_La Fée Clochette_VO.mp4",
             "imdbId": null,
             "tmdbId": 13179,
@@ -41213,8 +41790,8 @@
                 "Aventure"
             ],
             "image": "https://image.tmdb.org/t/p/w342/1aJsRTVbGfCVS397etGZ5AYOCuF.jpg",
-            "fichier": "/Box_Films/Aventure/Fée Clochette/Tinker.Bell.and.the.Legend.of.the.Neverbeast.2014.FRENCH.BDRip.x264.mkv",
-            "nomFichier": "Tinker.Bell.and.the.Legend.of.the.Neverbeast.2014.FRENCH.BDRip.x264.mkv",
+            "fichier": "/Box_Films/Animation/Fée Clochette/2014_Clochette et la créature légendaire_VF.mkv",
+            "nomFichier": "2014_Clochette et la créature légendaire_VF.mkv",
             "imdbId": null,
             "tmdbId": 297270,
             "tmdbUrl": "https://www.themoviedb.org/movie/297270",
@@ -41273,7 +41850,10 @@
             "langueOriginale": "en",
             "type": "Animation",
             "studio": "Disney",
-            "fichierNormalise": "2014_Clochette et la créature légendaire_VF.mkv"
+            "fichierNormalise": "2014_Clochette et la créature légendaire_VF.mkv",
+            "languesAudio": [
+                "FR"
+            ]
         },
         {
             "id": "tokyo_fast_and_tokyo_drift_2006",
@@ -41515,6 +42095,70 @@
             "langueOriginale": "en",
             "ignoreInCollection": false,
             "fichierNormalise": "2001_Lara Croft Tomb Raider_VF.mkv"
+        },
+        {
+            "id": "tomorrow_never_dies_hazmatt_1997",
+            "titre": "Tomorrow Never Dies HazMatt",
+            "annee": 1997,
+            "langue": [
+                "TBD"
+            ],
+            "taille": 3454284558,
+            "genre": null,
+            "image": null,
+            "fichier": "/Box_Films/- Nouveaux/Tomorrow.Never.Dies.1997.1080p.BluRay.10bit.x265-HazMatt.mkv",
+            "nomFichier": "Tomorrow.Never.Dies.1997.1080p.BluRay.10bit.x265-HazMatt.mkv",
+            "imdbId": null,
+            "tmdbId": null,
+            "tmdbUrl": null,
+            "doublonExact": false,
+            "doublonProbable": false,
+            "groupeDoublon": null,
+            "dateAjout": "2026-11-23T08:58:21.212Z",
+            "technique": {
+                "largeur": 1920,
+                "hauteur": 820,
+                "resolution": "1920x820",
+                "ratioImage": 2.341,
+                "codecVideo": "hevc",
+                "profilVideo": "Main 10",
+                "pixelFormat": "yuv420p10le",
+                "bitsParComposante": null,
+                "bitrateVideo": null,
+                "framerate": 23.976,
+                "espaceCouleur": "bt709",
+                "transfertCouleur": "bt709",
+                "primairesCouleur": "bt709",
+                "hdr": false,
+                "dureeFichier": 7160.541,
+                "bitrateGlobal": 3859244,
+                "formatConteneur": "matroska,webm",
+                "audio": [
+                    {
+                        "codec": "opus",
+                        "profil": null,
+                        "canaux": 6,
+                        "disposition": "5.1",
+                        "bitrate": null,
+                        "frequence": 48000,
+                        "langue": "eng"
+                    }
+                ],
+                "sousTitres": [
+                    {
+                        "codec": "hdmv_pgs_subtitle",
+                        "langue": "eng",
+                        "titre": null
+                    }
+                ],
+                "zoneUtile": {
+                    "largeurUtile": 1920,
+                    "hauteurUtile": 816,
+                    "x": 0,
+                    "y": 2
+                }
+            },
+            "fichierNormalise": "Tomorrow Never Dies HazMatt_1997_TBD.mkv"
         },
         {
             "id": "tonnerre_sous_les_tropiques_tropic_thunder",
@@ -65624,12 +66268,12 @@
     "stockage": [
         {
             "lecteur": "Y",
-            "espaceLibre": 410405220352,
+            "espaceLibre": 344213196800,
             "capaciteTotale": 2000396742656
         },
         {
             "lecteur": "Z",
-            "espaceLibre": 95476932608,
+            "espaceLibre": 109724528640,
             "capaciteTotale": 1000169533440
         }
     ]

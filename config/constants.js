@@ -1,7 +1,7 @@
 const FILTER_DOUBLONS_NB_FICHIERS = 3;
 const FILTER_AJOUTS = {
   collections: ["Récents", "À compléter", "Doublons"],
-  films: ["Nouveautés", "Récents", "Doublons"],
+  films: ["Nouveautés", "Récents", "Doublons", "À déplacer"],
   tools: ["Nouveautés", "Récents", "Doublons", "À corriger"],
   series: ["Nouveautés", "Récents", "À compléter"],
 };
@@ -159,7 +159,7 @@ function initFiltersSidebar(ecran) {
       // Si on est dans une collection active, on retire "Nouveautés" des ajouts valides
       validAjouts = isCollectionContext
         ? ["all", "Récents", "Doublons"]
-        : ["all", "Nouveautés", "Récents", "Doublons"];
+        : ["all", "Nouveautés", "Récents", "Doublons", "À déplacer"];
       tousLabel = "Tous les films";
       break;
     case "tools":

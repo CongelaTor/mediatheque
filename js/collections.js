@@ -1,5 +1,11 @@
 let currentCollectionFilter = "all";
 
+function openFilmsNouveautes() {
+  setActiveFilmsContext();
+  saveSidebarFiltersState("films", { ajouts: "Nouveautés" });
+  window.location.href = "films.html";
+}
+window.openFilmsNouveautes = openFilmsNouveautes;
 async function initCollectionsPage() {
   currentPage = "collections";
   setActiveCollectionContext();

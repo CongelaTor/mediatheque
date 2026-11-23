@@ -29,6 +29,7 @@ async function initFilmsPage() {
   currentType = state.type ?? "all";
   currentStudio = state.studio ?? "all";
   currentQuality = state.quality ?? "all";
+  currentAjouts = state.ajouts ?? "all";
   window.selectedCollectionId = isCollectionContextActive()
     ? sessionStorage.getItem("selectedCollectionId")
     : null;
@@ -138,6 +139,7 @@ function renderFilms() {
       if (!window.selectedCollectionId) {
         return (
           (currentAjouts === "Nouveautés" ||
+            currentAjouts === "À déplacer" ||
             currentStudio !== "all" ||
             !film.collectionId ||
             !film.collectionNom) &&
@@ -277,6 +279,15 @@ function filmMatchesAjouts(film) {
       Boolean(film.hasExactDuplicate) ||
       film.fileCount >= FILTER_DOUBLONS_NB_FICHIERS
     );
+  }
+  if (currentAjouts === "À déplacer") {
+    return film.groupFiles.some((file) => {
+      const normalizedPath = filmNormalization.getNormalizedFilmPath(file);
+      return (
+        file.fichier.replaceAll("\\", "/") !==
+        normalizedPath?.replaceAll("\\", "/")
+      );
+    });
   }
   return false;
 }

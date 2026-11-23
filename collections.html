@@ -20,6 +20,8 @@
                         <div class="sidebar-title">Statistiques</div>
                         <div class="sidebar-stat"><span id="sideCollections">0</span> Collections</div>
                         <div class="sidebar-stat"><span id="sideFilms">0</span> Films</div>
+                        <div class="sidebar-stat" style="cursor: pointer;" onclick="openFilmsNouveautes()">
+                            <span id="sideNouveautes">0</span> Nouveautés</div>
                         <div class="sidebar-section"></div>
 
                         <div class="sidebar-title">Espace disponible</div>
@@ -55,7 +57,7 @@
                             </div>
                             <input id="searchInput"
                                 class="search-input"
-                                type="text"
+                                type="search"
                                 autocomplete="off"
                                 placeholder="Filtrer..."
                                 oninput="handleSearch()">

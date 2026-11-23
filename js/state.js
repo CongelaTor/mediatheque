@@ -109,23 +109,25 @@ function loadSearchText() {
   return localStorage.getItem(key) ?? "";
 }
 
-function getSidebarFiltersStateKey() {
-  if (currentPage === "collections") {
+function getSidebarFiltersStateKey(page = currentPage) {
+  if (page === "collections") {
     return "filmsViewStateCollection"; // Partagé avec le mode collection des films
   }
-  if (currentPage === "films") {
+  if (page === "films") {
     return isCollectionContextActive()
       ? "filmsViewStateCollection"
       : "filmsViewStateHorsCollection";
   }
-  if (currentPage === "tools") {
+  if (page === "tools") {
     return "filmsViewStateHorsCollection";
   }
   return filmsViewStateKey;
 }
-
-function saveSidebarFiltersState() {
+function saveSidebarFiltersState(page = currentPage, changes = {}) {
+  const key = getSidebarFiltersStateKey(page);
+  const previousState = JSON.parse(localStorage.getItem(key) ?? "{}");
   const state = {
+    ...previousState,
     ajouts: currentAjouts,
     genre: currentGenre,
     type: currentType,
@@ -134,8 +136,9 @@ function saveSidebarFiltersState() {
     languages: [...document.querySelectorAll(".language-button.active")].map(
       (button) => button.dataset.language,
     ),
+    ...changes,
   };
-  localStorage.setItem(getSidebarFiltersStateKey(), JSON.stringify(state));
+  localStorage.setItem(key, JSON.stringify(state));
 }
 
 function saveToolsButtonsState() {
