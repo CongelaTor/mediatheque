@@ -5,7 +5,7 @@ async function loadCatalog() {
 
 async function reloadCatalog(type = "all") {
   let hasSubtitleFiles = false;
-  if (type === "films") {
+  if (type === "films" || type === "nouveaux") {
     const checkResponse = await fetch(
       "http://localhost:9876/check-nouveaux-films-files",
       {
@@ -27,9 +27,11 @@ async function reloadCatalog(type = "all") {
   document.getElementById("scanTitle").textContent =
     type === "films"
       ? "Scan des films en cours..."
-      : type === "series"
-        ? "Scan des séries en cours..."
-        : "Scan des disques en cours...";
+      : type === "nouveaux"
+        ? "Scan rapide des nouveaux en cours..."
+        : type === "series"
+          ? "Scan des séries en cours..."
+          : "Scan des disques en cours...";
   await new Promise((resolve) => setTimeout(resolve, 500));
   const scanLog = document.getElementById("scanLog");
   scanLog.textContent = hasSubtitleFiles
@@ -66,9 +68,11 @@ async function reloadCatalog(type = "all") {
   document.getElementById("scanTitle").textContent =
     type === "films"
       ? "Scan des films terminé"
-      : type === "series"
-        ? "Scan des séries terminé"
-        : "Scan des disques terminé";
+      : type === "nouveaux"
+        ? "Scan rapide des nouveaux terminé"
+        : type === "series"
+          ? "Scan des séries terminé"
+          : "Scan des disques terminé";
   await loadCatalog();
   updateStats();
   if (currentPage === "films" && typeof renderFilms === "function") {

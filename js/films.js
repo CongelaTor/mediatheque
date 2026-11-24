@@ -20,9 +20,6 @@ async function initFilmsPage() {
   //------------------------------
   document.getElementById("searchInput").value = loadSearchText();
   currentSearch = loadSearchText();
-  searchInput.addEventListener("focus", () => {
-    searchInput.select();
-  });
   document.addEventListener("click", (event) => {
     if (
       event.target.closest(
@@ -32,6 +29,12 @@ async function initFilmsPage() {
       document.getElementById("searchInput")?.blur();
     }
   });
+
+  const searchInput = document.getElementById("searchInput");
+  searchInput.addEventListener("focus", () => {
+    searchInput.select();
+  });
+
 
   //------------------------------
   // SET SIDE FILTERS
@@ -85,8 +88,6 @@ async function initFilmsPage() {
   const backToCollectionsButton = document.getElementById(
     "backToCollectionsButton",
   );
-  const searchInput = document.getElementById("searchInput");
-
   if (window.selectedCollectionId && backToCollectionsButton) {
     backToCollectionsButton.classList.remove("hidden");
     searchInput.classList.add("hidden");

@@ -63,8 +63,13 @@ const syncedCatalog = {
   films:
     scanType === "series"
       ? [...(existingCatalog.films || [])]
-      : (existingCatalog.films || []).filter((film) => !film.fichier),
-  series: scanType === "films" ? [...(existingCatalog.series || [])] : [],
+      : scanType === "nouveaux"
+        ? [...(existingCatalog.films || [])]
+        : (existingCatalog.films || []).filter((film) => !film.fichier),
+  series:
+    scanType === "films" || scanType === "nouveaux"
+      ? [...(existingCatalog.series || [])]
+      : [],
 };
 
 let totalVideos = 0;
@@ -76,15 +81,54 @@ let totalKeptEpisodes = 0;
 const scanSources = process.env.MEDIA_SCAN_SOURCES
   ? JSON.parse(process.env.MEDIA_SCAN_SOURCES)
   : config.sources;
-syncedCatalog.stockage = getStorageInfo(scanSources);
 // console.log("config.sources =", config.sources);
 console.log("scanSources =", scanSources);
 const sourcesToScan = scanSources.filter((source) => {
   if (scanType === "all") {
     return true;
   }
+  if (scanType === "nouveaux") {
+    return source.type === "film";
+  }
   return source.type === scanType.slice(0, -1);
 });
+
+// En mode "nouveaux", préserver les lecteurs existants non rescannés et ne mettre à jour que les lecteurs scannés
+// ==================================
+const computedStorage = getStorageInfo(scanSources);
+if (scanType === "nouveaux") {
+  const previousStorage = Array.isArray(existingCatalog.stockage)
+    ? [...existingCatalog.stockage]
+    : [];
+  const scannedDrives = new Set(
+    sourcesToScan
+      .map((source) => {
+        const firstPath = source.paths?.[0] || "";
+        const match = firstPath.match(/^([A-Za-z]:)/);
+        return match ? match[1].toUpperCase() : null;
+      })
+      .filter(Boolean),
+  );
+  const updatedStorage = previousStorage.map((entry) => {
+    const driveLetter = String(entry.lecteur || "").toUpperCase();
+    const freshEntry = computedStorage.find(
+      (item) => String(item.lecteur || "").toUpperCase() === driveLetter,
+    );
+    return freshEntry && scannedDrives.has(driveLetter) ? freshEntry : entry;
+  });
+  for (const freshEntry of computedStorage) {
+    const driveLetter = String(freshEntry.lecteur || "").toUpperCase();
+    const alreadyExists = updatedStorage.some(
+      (item) => String(item.lecteur || "").toUpperCase() === driveLetter,
+    );
+    if (!alreadyExists && scannedDrives.has(driveLetter)) {
+      updatedStorage.push(freshEntry);
+    }
+  }
+  syncedCatalog.stockage = updatedStorage;
+} else {
+  syncedCatalog.stockage = computedStorage;
+}
 
 // Parcours des disques
 for (const source of sourcesToScan) {
@@ -134,7 +178,7 @@ function logStat(label, value) {
   console.log(`${label.padEnd(29)} : ${value}`);
 }
 console.log("");
-if (scanType === "films") {
+if (scanType === "films" || scanType === "nouveaux") {
   logStat("Vidéos analysées", totalVideos);
   console.log("");
   logStat("Fichiers de film ajoutés", totalNewFilms);
@@ -278,7 +322,20 @@ function buildCatalogPath(fullPath) {
 
       if (normalizedFullPath.startsWith(`${normalizedSourcePath}/`)) {
         const rootName = normalizedSourcePath.split("/").pop();
-
+        const rootFilmPath =
+          source.rootFilmPath ||
+          scanSources.find(
+            (s) =>
+              s.rootFilmPath &&
+              normalizedFullPath.startsWith(
+                `${s.rootFilmPath.replaceAll("\\", "/")}/`,
+              ),
+          )?.rootFilmPath;
+        if (rootFilmPath) {
+          const normalizedRootFilmPath = rootFilmPath.replaceAll("\\", "/");
+          const effectiveRootName = normalizedRootFilmPath.split("/").pop();
+          return `/${effectiveRootName}${normalizedFullPath.substring(normalizedRootFilmPath.length)}`;
+        }
         if (buildCatalogPath.logCount < 3) {
           // console.log("rootName =", rootName);
           const catalogPath = `/${rootName}${normalizedFullPath.substring(normalizedSourcePath.length)}`;
@@ -614,11 +671,23 @@ function syncFilm(catalog, analyse, sourceFilePath) {
       taille: analyse.taille,
       technique: {
         ...existing.technique,
-        zoneUtile: analyse.zoneUtile,
+        zoneUtile: existing.technique?.zoneUtile ?? null,
       },
     };
     updatedFilm.fichierNormalise =
       existing.fichierNormalise || getNormalizedFilmFileName(updatedFilm);
+    // ==================================
+    // En mode "nouveaux", remplacer sur place plutôt que d'ajouter une entrée en double
+    // ==================================
+    if (scanType === "nouveaux") {
+      const existingIndex = catalog.films.findIndex(
+        (item) => item === existing,
+      );
+      if (existingIndex !== -1) {
+        catalog.films[existingIndex] = updatedFilm;
+        return "kept";
+      }
+    }
     catalog.films.push(updatedFilm);
     return "kept";
   }
