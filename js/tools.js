@@ -30,6 +30,18 @@ async function initToolsPage() {
     saveSearchText(currentSearch);
     renderTools();
   });
+  document.getElementById("searchInput").addEventListener("focus", (event) => {
+    event.target.select();
+  });
+  document.addEventListener("click", (event) => {
+    if (
+      event.target.closest(
+        ".nav-button, #topbarContainer a, #topbarContainer button",
+      )
+    ) {
+      document.getElementById("searchInput")?.blur();
+    }
+  });
 
   const state = loadSidebarFiltersState();
   const toolsState = loadToolsButtonsState();

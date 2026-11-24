@@ -71,26 +71,7 @@ function isCollectionContextActive() {
 }
 
 function getSearchTextKey() {
-  let key;
-  switch (currentPage) {
-    case "collections":
-      key = "searchCollections";
-      break;
-    case "films":
-      key = isCollectionContextActive()
-        ? "searchFilmsCollection"
-        : "searchFilmsHorsCollection";
-      break;
-    case "tools":
-      key = isCollectionContextActive()
-        ? "searchFilmsCollection"
-        : "searchFilmsHorsCollection";
-      break;
-    case "series":
-      key = "searchSeries";
-      break;
-  }
-  return key;
+  return "searchMedia";
 }
 
 function saveSearchText() {
@@ -123,6 +104,7 @@ function getSidebarFiltersStateKey(page = currentPage) {
   }
   return filmsViewStateKey;
 }
+
 function saveSidebarFiltersState(page = currentPage, changes = {}) {
   const key = getSidebarFiltersStateKey(page);
   const previousState = JSON.parse(localStorage.getItem(key) ?? "{}");

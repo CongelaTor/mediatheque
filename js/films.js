@@ -20,6 +20,18 @@ async function initFilmsPage() {
   //------------------------------
   document.getElementById("searchInput").value = loadSearchText();
   currentSearch = loadSearchText();
+  searchInput.addEventListener("focus", () => {
+    searchInput.select();
+  });
+  document.addEventListener("click", (event) => {
+    if (
+      event.target.closest(
+        ".nav-button, #topbarContainer a, #topbarContainer button",
+      )
+    ) {
+      document.getElementById("searchInput")?.blur();
+    }
+  });
 
   //------------------------------
   // SET SIDE FILTERS

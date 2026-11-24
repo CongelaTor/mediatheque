@@ -18,7 +18,15 @@ async function initSeriesPage() {
   //------------------------------
   document.getElementById("searchInput").value = loadSearchText();
   currentSearch = loadSearchText();
-
+  searchInput.addEventListener("focus", () => {
+    searchInput.select();
+  });
+  document.addEventListener("click", (event) => {
+    if (event.target.closest(".nav-button, #topbarContainer a, #topbarContainer button")) {
+      document.getElementById("searchInput")?.blur();
+    }
+  });
+  
   //------------------------------
   // SET SIDE FILTERS
   //------------------------------
@@ -242,7 +250,9 @@ function renderSeries() {
   grid.innerHTML = "";
   const series = catalog.series
     .filter((serie) => serieMatchesSeriesLanguages(serie))
-    .filter((serie) => currentAjouts !== "À compléter" || serie.hasMissingEpisodes)
+    .filter(
+      (serie) => currentAjouts !== "À compléter" || serie.hasMissingEpisodes,
+    )
     .filter((serie) => matchesSearch(serie.titre))
     .sort((a, b) => a.titre.localeCompare(b.titre, "fr"));
 
