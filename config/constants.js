@@ -13,10 +13,10 @@ const FILTER_GENRES = [
   "Comédie",
   "Comédie musicale",
   "Drame",
-  "Espionnage",
   "Guerre",
   "Policier",
   "Science-Fiction",
+  "Sport",
 ];
 const TMDB_IGNORE_GENRES = [
   "Animation",

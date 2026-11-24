@@ -1,6 +1,6 @@
 {
     "version": 1,
-    "dateDernierScan": "2026-11-23T18:41:28.217Z",
+    "dateDernierScan": "2026-11-24T05:10:39.707Z",
     "collections": [
         {
             "collectionId": 645,
@@ -1830,6 +1830,94 @@
             "titreOriginal": "Captain America: The Winter Soldier",
             "langueOriginale": "en",
             "fichierNormalise": "2014_Captain America Le Soldat de l'hiver_VF.mkv"
+        },
+        {
+            "id": "a_fish_called_wanda_5_1_bone_1988",
+            "titre": "A Fish Called Wanda 5 1 BONE",
+            "annee": 1988,
+            "langue": [
+                "VO",
+                "VOST"
+            ],
+            "taille": 1597107076,
+            "genre": [
+                "Comédie"
+            ],
+            "image": "https://image.tmdb.org/t/p/w342/2up5NsyWWF6H9w6m5MIMGAZpFAA.jpg",
+            "fichier": "/Box_Films/Comédie/Un poisson nommé Wanda_1988_VO_VOST.mkv",
+            "nomFichier": "Un poisson nommé Wanda_1988_VO_VOST.mkv",
+            "imdbId": null,
+            "tmdbId": 623,
+            "tmdbUrl": "https://www.themoviedb.org/movie/623",
+            "doublonExact": false,
+            "doublonProbable": false,
+            "groupeDoublon": null,
+            "dateAjout": "2026-11-24T05:10:35.488Z",
+            "technique": {
+                "largeur": 1920,
+                "hauteur": 1036,
+                "resolution": "1920x1036",
+                "ratioImage": 1.853,
+                "codecVideo": "hevc",
+                "profilVideo": "Main",
+                "pixelFormat": "yuv420p",
+                "bitsParComposante": null,
+                "bitrateVideo": null,
+                "framerate": 23.976,
+                "espaceCouleur": "bt709",
+                "transfertCouleur": "bt709",
+                "primairesCouleur": "bt709",
+                "hdr": false,
+                "dureeFichier": 6483.797,
+                "bitrateGlobal": 1970582,
+                "formatConteneur": "matroska,webm",
+                "audio": [
+                    {
+                        "codec": "aac",
+                        "profil": "LC",
+                        "canaux": 6,
+                        "disposition": "5.1",
+                        "bitrate": null,
+                        "frequence": 48000,
+                        "langue": "eng"
+                    }
+                ],
+                "sousTitres": [
+                    {
+                        "codec": "ass",
+                        "langue": "eng",
+                        "titre": null
+                    },
+                    {
+                        "codec": "ass",
+                        "langue": "eng",
+                        "titre": "SDH"
+                    }
+                ],
+                "zoneUtile": {
+                    "largeurUtile": 1920,
+                    "hauteurUtile": 1024,
+                    "x": 0,
+                    "y": 6
+                }
+            },
+            "fichierNormalise": "A Fish Called Wanda 5 1 BONE_1988_TBD.mkv",
+            "titreTmdb": "Un poisson nommé Wanda",
+            "titreOriginal": "A Fish Called Wanda",
+            "langueOriginale": "en",
+            "anneeTmdb": "1988",
+            "dureeTmdb": 108,
+            "descriptionTmdb": "Wanda, Ken, Otto et George viennent d'accomplir un joli hold up. Mais George, très vite dénoncé par Wanda et Otto, finit en prison. Or, lui seul connaît l'endroit où sont cachés les diamants qui constituent le butin. Wanda décide de séduire Archie Leach, un avocat très traditionnel, coincé et marié à une femme snob, afin qu'il fasse libérer George de prison...",
+            "collectionId": null,
+            "collectionNom": null,
+            "collectionDescription": null,
+            "collectionImage": null,
+            "collectionTmdbUrl": null,
+            "type": "Film",
+            "studio": null,
+            "languesAudio": [
+                "EN"
+            ]
         },
         {
             "id": "a_funny_thing_happened_on_the_way_to_thor_s_hammer_2011",
@@ -5150,10 +5238,10 @@
             ],
             "taille": 1768881147,
             "genre": [
-                "Drame"
+                "Comédie musicale"
             ],
             "image": "https://image.tmdb.org/t/p/w342/dB4L9yt9eFbVhx8tSuDUHoMeN4x.jpg",
-            "fichier": "/Box_Films/Drame/Battle of the Year_2013_VO_VF.mp4",
+            "fichier": "/Box_Films/Comédie musicale/Battle of the Year_2013_VO_VF.mp4",
             "nomFichier": "Battle of the Year_2013_VO_VF.mp4",
             "imdbId": null,
             "tmdbId": 109417,
@@ -7836,73 +7924,6 @@
             "fichierOriginal": "La.Chtite.Famille.2018.FRENCH.BDRip.XviD-Ox.avi"
         },
         {
-            "id": "le_cinquieme_element",
-            "titre": "cinquième element",
-            "annee": null,
-            "langue": [
-                "VF"
-            ],
-            "taille": 731961850,
-            "genre": [
-                "Science-Fiction"
-            ],
-            "image": "https://image.tmdb.org/t/p/w342/8nx8sttha1Zidt73SbNncVfSwqk.jpg",
-            "fichier": "/Box_Films/Science-Fiction/Le Cinquième Élément_1997_VF.avi",
-            "nomFichier": "Le Cinquième Élément_1997_VF.avi",
-            "imdbId": null,
-            "tmdbId": 18,
-            "tmdbUrl": "https://www.themoviedb.org/movie/18",
-            "doublonExact": false,
-            "doublonProbable": false,
-            "groupeDoublon": null,
-            "dateAjout": "2026-08-22T08:23:33.535Z",
-            "titreTmdb": "Le Cinquième Élément",
-            "anneeTmdb": "1997",
-            "dureeTmdb": 126,
-            "descriptionTmdb": "New York, XXIIIe siècle. Une boule de feu fonce sur la Terre. Pour l'arrêter il faut retrouver le Cinquième Élément, l'être suprême, qui, associé aux quatre éléments vitaux - l'air, l'eau, le feu et la terre - peut seul repousser Le Mal. Cornélius reçoit l'aide de Korben, taxi et ancien agent secret, et de Leeloo, extraterrestre qui a pris la forme d'une jeune femme aux cheveux oranges.",
-            "collectionId": null,
-            "collectionNom": null,
-            "type": "Film",
-            "studio": null,
-            "technique": {
-                "largeur": 720,
-                "hauteur": 288,
-                "resolution": "720x288",
-                "ratioImage": 2.5,
-                "codecVideo": "mpeg4",
-                "profilVideo": null,
-                "pixelFormat": "yuv420p",
-                "bitsParComposante": null,
-                "bitrateVideo": 695969,
-                "framerate": 25,
-                "espaceCouleur": null,
-                "transfertCouleur": null,
-                "primairesCouleur": null,
-                "hdr": false,
-                "dureeFichier": 7273.96,
-                "bitrateGlobal": 805021,
-                "formatConteneur": "avi",
-                "audio": [
-                    {
-                        "codec": "mp3",
-                        "profil": null,
-                        "canaux": 2,
-                        "disposition": "stereo",
-                        "bitrate": 96000,
-                        "frequence": 48000,
-                        "langue": null
-                    }
-                ],
-                "sousTitres": []
-            },
-            "titreOriginal": "The Fifth Element",
-            "langueOriginale": "en",
-            "fichierNormalise": "Le Cinquième Élément_1997_TBD.avi",
-            "languesAudio": [
-                "FR"
-            ]
-        },
-        {
             "id": "cirque_du_worlds_away_gaz_2012",
             "titre": "Cirque Du Worlds Away",
             "annee": 2012,
@@ -8134,10 +8155,10 @@
             ],
             "taille": 2833275816,
             "genre": [
-                "Biopic"
+                "Sport"
             ],
             "image": "https://image.tmdb.org/t/p/w342/8wbwNiKyostoqs0DLx0dqBhlDvy.jpg",
-            "fichier": "/Box_Films/Biopic/Coach Carter_2005_VO_VOST.mkv",
+            "fichier": "/Box_Films/Sport/Coach Carter_2005_VO_VOST.mkv",
             "nomFichier": "Coach Carter_2005_VO_VOST.mkv",
             "imdbId": null,
             "tmdbId": 7214,
@@ -8524,10 +8545,10 @@
             ],
             "taille": 732745728,
             "genre": [
-                "Drame"
+                "Policier"
             ],
             "image": "https://image.tmdb.org/t/p/w342/unfPEPr3nkdTpjySjH5IUHmuC5j.jpg",
-            "fichier": "/Box_Films/Drame/Confessions d'un homme dangereux_2002_TBD.avi",
+            "fichier": "/Box_Films/Policier/Confessions d'un homme dangereux_2002_TBD.avi",
             "nomFichier": "Confessions d'un homme dangereux_2002_TBD.avi",
             "imdbId": null,
             "tmdbId": 4912,
@@ -8647,70 +8668,6 @@
             "fichierNormalise": "Cops_2003_VF.avi"
         },
         {
-            "id": "coursier",
-            "titre": "Coursier",
-            "annee": null,
-            "langue": [
-                "VF"
-            ],
-            "taille": 733292544,
-            "genre": [
-                "Comédie"
-            ],
-            "image": "https://image.tmdb.org/t/p/w342/xhse79Bx2nkapzzIrPrPanrY0rU.jpg",
-            "fichier": "/Box_Films/Comédie/Coursier_2010_VF.avi",
-            "nomFichier": "Coursier_2010_VF.avi",
-            "imdbId": null,
-            "tmdbId": 40194,
-            "tmdbUrl": "https://www.themoviedb.org/movie/40194",
-            "doublonExact": false,
-            "doublonProbable": false,
-            "groupeDoublon": null,
-            "dateAjout": "2026-08-22T08:23:33.588Z",
-            "titreTmdb": "Coursier",
-            "anneeTmdb": "2010",
-            "dureeTmdb": 95,
-            "descriptionTmdb": "Sam est coursier. Il sillonne Paris, souvent au mépris des règles élémentaires du code de la route. Alors qu'il doit impérativement assister à un mariage pour tenter de sauver son couple avec Nadia, il n'a pas d'autre choix que d'accepter une course urgente pour son boss... Course qui va faire de cette journée, le pire cauchemar de sa vie.",
-            "collectionId": null,
-            "collectionNom": null,
-            "type": "Film",
-            "studio": null,
-            "technique": {
-                "largeur": 640,
-                "hauteur": 272,
-                "resolution": "640x272",
-                "ratioImage": 2.353,
-                "codecVideo": "mpeg4",
-                "profilVideo": "Advanced Simple Profile",
-                "pixelFormat": "yuv420p",
-                "bitsParComposante": null,
-                "bitrateVideo": 888992,
-                "framerate": 25,
-                "espaceCouleur": null,
-                "transfertCouleur": null,
-                "primairesCouleur": null,
-                "hdr": false,
-                "dureeFichier": 5687.328,
-                "bitrateGlobal": 1031475,
-                "formatConteneur": "avi",
-                "audio": [
-                    {
-                        "codec": "mp3",
-                        "profil": null,
-                        "canaux": 2,
-                        "disposition": "stereo",
-                        "bitrate": 129576,
-                        "frequence": 48000,
-                        "langue": null
-                    }
-                ],
-                "sousTitres": []
-            },
-            "titreOriginal": "Coursier",
-            "langueOriginale": "fr",
-            "fichierNormalise": "Coursier_2010_VF.avi"
-        },
-        {
             "id": "couvre_feu",
             "titre": "Couvre feu",
             "annee": null,
@@ -8779,18 +8736,16 @@
             "titre": "Coyote Ugly DDP5 1 GalaxyRG265",
             "annee": 2000,
             "langue": [
-                "TBD"
+                "VO",
+                "VOST"
             ],
             "taille": 2798962148,
             "genre": [
-                "Comédie",
-                "Drame",
-                "Musique",
-                "Romance"
+                "Comédie musicale"
             ],
             "image": "https://image.tmdb.org/t/p/w342/k62tzeWUu5zFtlJxCQZOP3MHdg4.jpg",
-            "fichier": "/Box_Films/Comédie musicale/Coyote Ugly DDP5 1 GalaxyRG265_2000_TBD.mkv",
-            "nomFichier": "Coyote Ugly DDP5 1 GalaxyRG265_2000_TBD.mkv",
+            "fichier": "/Box_Films/Comédie musicale/Coyote Girls_2000_VO_VOST.mkv",
+            "nomFichier": "Coyote Girls_2000_VO_VOST.mkv",
             "imdbId": null,
             "tmdbId": 6282,
             "tmdbUrl": "https://www.themoviedb.org/movie/6282",
@@ -8848,7 +8803,10 @@
             "collectionNom": null,
             "collectionDescription": null,
             "collectionImage": null,
-            "collectionTmdbUrl": null
+            "collectionTmdbUrl": null,
+            "languesSousTitres": [
+                "EN"
+            ]
         },
         {
             "id": "coyotte_girls",
@@ -9401,27 +9359,124 @@
             "fichierNormalise": "Dany Boon - Trop stylé_2011_TBD.avi"
         },
         {
-            "id": "daredevil",
-            "titre": "Daredevil",
-            "annee": null,
+            "id": "daredevil_krkn68_2003",
+            "titre": "Daredevil KRKN68",
+            "annee": 2003,
             "langue": [
-                "VF"
+                "VO",
+                "VF",
+                "VOSTFR",
+                "VOST"
             ],
-            "taille": 728690688,
+            "taille": 2019860779,
             "genre": [
                 "Science-Fiction"
             ],
             "image": "https://image.tmdb.org/t/p/w342/kupZzKFhFApvNjtBVB7JlQ6MjeI.jpg",
-            "fichier": "/Box_Films/Marvel/Daredevil_2003_VF.avi",
-            "nomFichier": "Daredevil_2003_VF.avi",
+            "fichier": "/Box_Films/Marvel/Daredevil_2003_VO_VF_VOST_VOSTFR.mkv",
+            "nomFichier": "Daredevil_2003_VO_VF_VOST_VOSTFR.mkv",
             "imdbId": null,
             "tmdbId": 9480,
             "tmdbUrl": "https://www.themoviedb.org/movie/9480",
             "doublonExact": false,
             "doublonProbable": false,
             "groupeDoublon": null,
-            "dateAjout": "2026-08-27T11:57:48.287Z",
+            "dateAjout": "2026-11-24T05:10:36.059Z",
+            "technique": {
+                "largeur": 720,
+                "hauteur": 304,
+                "resolution": "720x304",
+                "ratioImage": 2.368,
+                "codecVideo": "h264",
+                "profilVideo": "High",
+                "pixelFormat": "yuv420p",
+                "bitsParComposante": 8,
+                "bitrateVideo": null,
+                "framerate": 25,
+                "espaceCouleur": "smpte170m",
+                "transfertCouleur": "bt709",
+                "primairesCouleur": "smpte170m",
+                "hdr": false,
+                "dureeFichier": 5959.560001,
+                "bitrateGlobal": 2711422,
+                "formatConteneur": "matroska,webm",
+                "audio": [
+                    {
+                        "codec": "ac3",
+                        "profil": null,
+                        "canaux": 6,
+                        "disposition": "5.1(side)",
+                        "bitrate": 448000,
+                        "frequence": 48000,
+                        "langue": "en"
+                    },
+                    {
+                        "codec": "ac3",
+                        "profil": null,
+                        "canaux": 6,
+                        "disposition": "5.1(side)",
+                        "bitrate": 448000,
+                        "frequence": 48000,
+                        "langue": "fr"
+                    },
+                    {
+                        "codec": "ac3",
+                        "profil": null,
+                        "canaux": 6,
+                        "disposition": "5.1(side)",
+                        "bitrate": 448000,
+                        "frequence": 48000,
+                        "langue": "fr"
+                    }
+                ],
+                "sousTitres": [
+                    {
+                        "codec": "dvd_subtitle",
+                        "langue": "en",
+                        "titre": null
+                    },
+                    {
+                        "codec": "dvd_subtitle",
+                        "langue": "fr",
+                        "titre": null
+                    },
+                    {
+                        "codec": "dvd_subtitle",
+                        "langue": "nl",
+                        "titre": null
+                    },
+                    {
+                        "codec": "dvd_subtitle",
+                        "langue": "el",
+                        "titre": null
+                    },
+                    {
+                        "codec": "dvd_subtitle",
+                        "langue": "en",
+                        "titre": null
+                    },
+                    {
+                        "codec": "dvd_subtitle",
+                        "langue": "fr",
+                        "titre": null
+                    },
+                    {
+                        "codec": "dvd_subtitle",
+                        "langue": "fr",
+                        "titre": null
+                    }
+                ],
+                "zoneUtile": {
+                    "largeurUtile": 720,
+                    "hauteurUtile": 304,
+                    "x": 0,
+                    "y": 0
+                }
+            },
+            "fichierNormalise": "Daredevil KRKN68_2003_VO_VF.mkv",
             "titreTmdb": "Daredevil",
+            "titreOriginal": "Daredevil",
+            "langueOriginale": "en",
             "anneeTmdb": "2003",
             "dureeTmdb": 102,
             "descriptionTmdb": "Avocat le jour, super-héros la nuit, Matt Murdock possède une ouïe, un odorat, une force et une agilité incroyablement développés. Bien qu'il soit aveugle, son sens radar lui permet de se diriger et d'éviter le moindre obstacle. Inlassablement, cet être torturé arpente les rues de New York à la poursuite de criminels en tout genre qu'il ne peut punir au tribunal. Daredevil aura à affronter Kingpin, alias Le Caïd, qui dirige d'une main de fer la mafia new-yorkaise, ainsi que son homme de main Bullseye, alias Le Tireur.",
@@ -9432,41 +9487,8 @@
             "collectionTmdbUrl": null,
             "type": "Film",
             "studio": "Marvel",
-            "technique": {
-                "largeur": 576,
-                "hauteur": 240,
-                "resolution": "576x240",
-                "ratioImage": 2.4,
-                "codecVideo": "mpeg4",
-                "profilVideo": null,
-                "pixelFormat": "yuv420p",
-                "bitsParComposante": null,
-                "bitrateVideo": 841179,
-                "framerate": 25,
-                "espaceCouleur": null,
-                "transfertCouleur": null,
-                "primairesCouleur": null,
-                "hdr": false,
-                "dureeFichier": 5959.68,
-                "bitrateGlobal": 978160,
-                "formatConteneur": "avi",
-                "audio": [
-                    {
-                        "codec": "mp3",
-                        "profil": null,
-                        "canaux": 2,
-                        "disposition": "stereo",
-                        "bitrate": 124064,
-                        "frequence": 48000,
-                        "langue": null
-                    }
-                ],
-                "sousTitres": []
-            },
-            "titreOriginal": "Daredevil",
-            "langueOriginale": "en",
-            "fichierNormalise": "Daredevil_2003_TBD.avi",
-            "languesAudio": [
+            "languesSousTitres": [
+                "EN",
                 "FR"
             ]
         },
@@ -9564,73 +9586,6 @@
                 "FR"
             ],
             "fichierOriginal": "Dark.Phoenix.2019.MULTi.1080p.HDLight.x264.AC3.mkv"
-        },
-        {
-            "id": "dead_man_down_2013",
-            "titre": "Dead Man Down",
-            "annee": 2013,
-            "langue": [
-                "VO"
-            ],
-            "taille": 913589681,
-            "genre": [
-                "Drame"
-            ],
-            "image": "https://image.tmdb.org/t/p/w342/m50lzEE7VyScfawGDQIIMVRCQTC.jpg",
-            "fichier": "/Box_Films/Drame/Dead Man Down_2013_VO.mp4",
-            "nomFichier": "Dead Man Down_2013_VO.mp4",
-            "imdbId": null,
-            "tmdbId": 102362,
-            "tmdbUrl": "https://www.themoviedb.org/movie/102362",
-            "doublonExact": false,
-            "doublonProbable": false,
-            "groupeDoublon": null,
-            "dateAjout": "2026-08-22T08:23:33.571Z",
-            "titreTmdb": "Dead Man Down",
-            "anneeTmdb": "2013",
-            "dureeTmdb": 117,
-            "descriptionTmdb": "Veuf depuis peu, Victor intègre l'organisation criminelle responsable du meurtre de sa famille et devient le bras droit d'un parrain de la pègre new-yorkaise. Son plan prend une toute autre tournure lorsqu'il rencontre Beatrice, une mystérieuse beauté mutilée qui cherche à se venger de son boss et l’entraîne dans une spirale vengeresse sur fond de chantage et de punition.",
-            "collectionId": null,
-            "collectionNom": null,
-            "type": "Film",
-            "studio": null,
-            "technique": {
-                "largeur": 1280,
-                "hauteur": 536,
-                "resolution": "1280x536",
-                "ratioImage": 2.388,
-                "codecVideo": "h264",
-                "profilVideo": "High",
-                "pixelFormat": "yuv420p",
-                "bitsParComposante": 8,
-                "bitrateVideo": 934132,
-                "framerate": 23.976,
-                "espaceCouleur": "bt709",
-                "transfertCouleur": null,
-                "primairesCouleur": "bt709",
-                "hdr": false,
-                "dureeFichier": 7067.136,
-                "bitrateGlobal": 1034183,
-                "formatConteneur": "mov,mp4,m4a,3gp,3g2,mj2",
-                "audio": [
-                    {
-                        "codec": "aac",
-                        "profil": "LC",
-                        "canaux": 2,
-                        "disposition": "stereo",
-                        "bitrate": 95926,
-                        "frequence": 48000,
-                        "langue": "eng"
-                    }
-                ],
-                "sousTitres": []
-            },
-            "titreOriginal": "Dead Man Down",
-            "langueOriginale": "en",
-            "fichierNormalise": "Dead Man Down_2013_TBD.mp4",
-            "languesAudio": [
-                "EN"
-            ]
         },
         {
             "id": "deja_vu",
@@ -10345,10 +10300,10 @@
             ],
             "taille": 1773111797,
             "genre": [
-                "Drame"
+                "Sport"
             ],
             "image": "https://image.tmdb.org/t/p/w342/f5T2xpPwDtV0VW2iwpVgB1ETQnD.jpg",
-            "fichier": "/Box_Films/Drame/Le Pari_2014_TBD.mp4",
+            "fichier": "/Box_Films/Sport/Le Pari_2014_TBD.mp4",
             "nomFichier": "Le Pari_2014_TBD.mp4",
             "imdbId": null,
             "tmdbId": 200505,
@@ -12505,27 +12460,131 @@
             "fichierNormalise": "Fame_1980_VF.avi"
         },
         {
-            "id": "fantastic_four_rise_of_the_silver_surfer_2007",
-            "titre": "Fantastic Four Rise Of The Silver Surfer",
+            "id": "fantastic_four_obey_2005",
+            "titre": "Fantastic Four Obey",
+            "annee": 2005,
+            "langue": [
+                "VO"
+            ],
+            "taille": 3467273562,
+            "genre": [
+                "Science-Fiction"
+            ],
+            "image": "https://image.tmdb.org/t/p/w342/msISNqhfehAE3xBlIdwK5tBjiev.jpg",
+            "fichier": "/Box_Films/Marvel/Les 4 Fantastiques/2005_Les 4 Fantastiques_VO.mkv",
+            "nomFichier": "2005_Les 4 Fantastiques_VO.mkv",
+            "imdbId": null,
+            "tmdbId": 9738,
+            "tmdbUrl": "https://www.themoviedb.org/movie/9738",
+            "doublonExact": false,
+            "doublonProbable": false,
+            "groupeDoublon": null,
+            "dateAjout": "2026-11-23T19:09:38.407Z",
+            "technique": {
+                "largeur": 1916,
+                "hauteur": 816,
+                "resolution": "1916x816",
+                "ratioImage": 2.348,
+                "codecVideo": "h264",
+                "profilVideo": "Main",
+                "pixelFormat": "yuv420p",
+                "bitsParComposante": 8,
+                "bitrateVideo": null,
+                "framerate": 23.976,
+                "espaceCouleur": "bt709",
+                "transfertCouleur": "bt709",
+                "primairesCouleur": "bt709",
+                "hdr": false,
+                "dureeFichier": 6329.343,
+                "bitrateGlobal": 4382475,
+                "formatConteneur": "matroska,webm",
+                "audio": [
+                    {
+                        "codec": "aac",
+                        "profil": "LC",
+                        "canaux": 2,
+                        "disposition": "stereo",
+                        "bitrate": null,
+                        "frequence": 48000,
+                        "langue": "eng"
+                    }
+                ],
+                "sousTitres": []
+            },
+            "fichierNormalise": "Fantastic Four Obey_2005_TBD.mkv",
+            "titreTmdb": "Les 4 Fantastiques",
+            "titreOriginal": "Fantastic Four",
+            "langueOriginale": "en",
+            "anneeTmdb": "2005",
+            "dureeTmdb": 110,
+            "descriptionTmdb": "Reed Richards tente de persuader Victor Fatalis, un riche industriel originaire de Latverie, en Europe centrale, de financer une mission au cœur du cosmos pour arriver à percer les mystères de l'origine du monde. Le projet accepté, il embarque avec l'astronaute Ben Grimm, Sue Storm, son ancienne petite amie, et Johnny Storm, le frère de Sue, un pilote casse-cou. Mais une tempête cosmique fonce tout droit sur la station spatiale, répandant un nuage de particules radioactives. Les codes génétiques des astronautes en sont à tout jamais modifiés. De retour sur Terre, ils commencent à muter. La presse les considère comme des super-héros et les baptise « les 4 Fantastiques »...",
+            "collectionId": 9744,
+            "collectionNom": "Les 4 Fantastiques - Saga",
+            "collectionDescription": "Encore une très bonne adaptation des Comics Marvel au cinéma. Mr Fantastique, La Femme Invisible, La Torche Humaine et La Chose vont lutter contre les forces extra-terrestres qui menacent notre belle planète, tout un programme !",
+            "collectionImage": "https://image.tmdb.org/t/p/w500/elBBDmc8mVLtgmfsI6UMzOEAyIC.jpg",
+            "collectionTmdbUrl": "https://www.themoviedb.org/collection/9744",
+            "type": "Film",
+            "studio": "Marvel",
+            "languesAudio": [
+                "EN"
+            ]
+        },
+        {
+            "id": "fantastic_four_rise_of_the_silver_surfer_obey_2007",
+            "titre": "Fantastic Four Rise Of The Silver Surfer Obey",
             "annee": 2007,
             "langue": [
                 "VO"
             ],
-            "taille": 1494215052,
+            "taille": 2748059407,
             "genre": [
                 "Science-Fiction"
             ],
             "image": "https://image.tmdb.org/t/p/w342/9Ejo1jwcq4T3CtB2fbUd2qLZOS6.jpg",
-            "fichier": "/Box_Films/Marvel/Les 4 Fantastiques/2007_Les 4 Fantastiques et le Surfer d'argent_VO.mp4",
-            "nomFichier": "2007_Les 4 Fantastiques et le Surfer d'argent_VO.mp4",
+            "fichier": "/Box_Films/Science-Fiction/Les 4 Fantastiques/2007_Les 4 Fantastiques et le Surfer d'argent_VO.mkv",
+            "nomFichier": "2007_Les 4 Fantastiques et le Surfer d'argent_VO.mkv",
             "imdbId": null,
             "tmdbId": 1979,
             "tmdbUrl": "https://www.themoviedb.org/movie/1979",
             "doublonExact": false,
             "doublonProbable": false,
             "groupeDoublon": null,
-            "dateAjout": "2026-08-27T11:57:48.300Z",
+            "dateAjout": "2026-11-23T19:09:37.386Z",
+            "technique": {
+                "largeur": 1920,
+                "hauteur": 800,
+                "resolution": "1920x800",
+                "ratioImage": 2.4,
+                "codecVideo": "h264",
+                "profilVideo": "Main",
+                "pixelFormat": "yuv420p",
+                "bitsParComposante": 8,
+                "bitrateVideo": null,
+                "framerate": 23.976,
+                "espaceCouleur": "bt709",
+                "transfertCouleur": "bt709",
+                "primairesCouleur": "bt709",
+                "hdr": false,
+                "dureeFichier": 5510.526,
+                "bitrateGlobal": 3989542,
+                "formatConteneur": "matroska,webm",
+                "audio": [
+                    {
+                        "codec": "aac",
+                        "profil": "LC",
+                        "canaux": 2,
+                        "disposition": "stereo",
+                        "bitrate": null,
+                        "frequence": 48000,
+                        "langue": "eng"
+                    }
+                ],
+                "sousTitres": []
+            },
+            "fichierNormalise": "Fantastic Four Rise Of The Silver Surfer Obey_2007_TBD.mkv",
             "titreTmdb": "Les 4 Fantastiques et le Surfer d'argent",
+            "titreOriginal": "Fantastic Four: Rise of the Silver Surfer",
+            "langueOriginale": "en",
             "anneeTmdb": "2007",
             "dureeTmdb": 92,
             "descriptionTmdb": "Alors que le mariage de Mr. Fantastic et de la femme invisible s'annonce comme l'événement de l'année, un mystérieux surfer d'argent surgit de l'espace et provoque d'étranges phénomènes sur la Terre. Rapidement, les quatre fantastiques vont découvrir le dessein secret de cet être aux pouvoirs surprenants et la menace qu'il fait peser sur notre planète, mais ils vont aussi voir ressurgir leur ennemi juré… Face au danger, amis et ennemis vont devoir unir leurs forces comme jamais…",
@@ -12535,42 +12594,7 @@
             "collectionImage": "https://image.tmdb.org/t/p/w500/elBBDmc8mVLtgmfsI6UMzOEAyIC.jpg",
             "collectionTmdbUrl": "https://www.themoviedb.org/collection/9744",
             "type": "Film",
-            "studio": "Marvel",
-            "ignoreInCollection": false,
-            "technique": {
-                "largeur": 1920,
-                "hauteur": 800,
-                "resolution": "1920x800",
-                "ratioImage": 2.4,
-                "codecVideo": "h264",
-                "profilVideo": "High",
-                "pixelFormat": "yuv420p",
-                "bitsParComposante": 8,
-                "bitrateVideo": 2049220,
-                "framerate": 23.976,
-                "espaceCouleur": null,
-                "transfertCouleur": null,
-                "primairesCouleur": null,
-                "hdr": false,
-                "dureeFichier": 5510.505,
-                "bitrateGlobal": 2169260,
-                "formatConteneur": "mov,mp4,m4a,3gp,3g2,mj2",
-                "audio": [
-                    {
-                        "codec": "aac",
-                        "profil": "LC",
-                        "canaux": 2,
-                        "disposition": "stereo",
-                        "bitrate": 112462,
-                        "frequence": 48000,
-                        "langue": "und"
-                    }
-                ],
-                "sousTitres": []
-            },
-            "titreOriginal": "Fantastic Four: Rise of the Silver Surfer",
-            "langueOriginale": "en",
-            "fichierNormalise": "2007_Les 4 Fantastiques et le Surfer d'argent_TBD.mp4",
+            "studio": null,
             "languesAudio": [
                 "EN"
             ]
@@ -13313,15 +13337,18 @@
             "titre": "Forrest",
             "annee": null,
             "langue": [
-                "TBD"
+                "VO",
+                "VF",
+                "VOSTFR",
+                "VOST"
             ],
             "taille": 744534184,
             "genre": [
                 "Drame"
             ],
             "image": "https://image.tmdb.org/t/p/w342/zi6RNYK1vXjIvpSBgjatXRcFYh2.jpg",
-            "fichier": "/Box_Films/Drame/Forrest Gump_1994_TBD.mkv",
-            "nomFichier": "Forrest Gump_1994_TBD.mkv",
+            "fichier": "/Box_Films/Drame/Forrest Gump_1994_VO_VF_VOST_VOSTFR.mkv",
+            "nomFichier": "Forrest Gump_1994_VO_VF_VOST_VOSTFR.mkv",
             "imdbId": null,
             "tmdbId": 13,
             "tmdbUrl": "https://www.themoviedb.org/movie/13",
@@ -13400,7 +13427,11 @@
             },
             "titreOriginal": "Forrest Gump",
             "langueOriginale": "en",
-            "fichierNormalise": "Forrest Gump_1994_TBD.mkv"
+            "fichierNormalise": "Forrest Gump_1994_TBD.mkv",
+            "languesSousTitres": [
+                "EN",
+                "FR"
+            ]
         },
         {
             "id": "tmdb_664411",
@@ -15093,7 +15124,10 @@
             },
             "titreOriginal": "Go Fast",
             "langueOriginale": "fr",
-            "fichierNormalise": "Go Fast_2008_VF.avi"
+            "fichierNormalise": "Go Fast_2008_VF.avi",
+            "languesAudio": [
+                "FR"
+            ]
         },
         {
             "id": "go_for_it",
@@ -15390,7 +15424,7 @@
             ],
             "taille": 0,
             "genre": [
-                "Espionnage"
+                "Action"
             ],
             "image": "https://image.tmdb.org/t/p/w342/8hN3D6rsQ98jSlkeMc43kfQ9pox.jpg",
             "fichier": null,
@@ -15616,10 +15650,10 @@
             ],
             "taille": 1724776765,
             "genre": [
-                "Biopic"
+                "Sport"
             ],
             "image": "https://image.tmdb.org/t/p/w342/ozXWxrxC6LGI7LMKMCMjLzFzsyr.jpg",
-            "fichier": "/Box_Films/Biopic/Gran Turismo_2023_VO_VOST_VOSTFR.mkv",
+            "fichier": "/Box_Films/Sport/Gran Turismo_2023_VO_VOST_VOSTFR.mkv",
             "nomFichier": "Gran Turismo_2023_VO_VOST_VOSTFR.mkv",
             "imdbId": null,
             "tmdbId": 980489,
@@ -15898,10 +15932,10 @@
             ],
             "taille": 2132267782,
             "genre": [
-                "Drame"
+                "Sport"
             ],
             "image": "https://image.tmdb.org/t/p/w342/tyakQi7yU6KnyYq9yE0PaIlWzvw.jpg",
-            "fichier": "/Box_Films/Drame/Greater_2016_TBD.mp4",
+            "fichier": "/Box_Films/Sport/Greater_2016_TBD.mp4",
             "nomFichier": "Greater_2016_TBD.mp4",
             "imdbId": null,
             "tmdbId": 379441,
@@ -16968,12 +17002,11 @@
             ],
             "taille": 2060207022,
             "genre": [
-                "Drame",
-                "Histoire"
+                "Drame"
             ],
             "image": "https://image.tmdb.org/t/p/w342/A7sbYhUGBYSycTfhj2CV4mz7Fuk.jpg",
-            "fichier": "/Box_Films/Biopic/Hidden Figures_2016_TBD.mp4",
-            "nomFichier": "Hidden Figures_2016_TBD.mp4",
+            "fichier": "/Box_Films/Drame/Les Figures de l'ombre_2016_TBD.mp4",
+            "nomFichier": "Les Figures de l'ombre_2016_TBD.mp4",
             "imdbId": null,
             "tmdbId": 381284,
             "tmdbUrl": "https://www.themoviedb.org/movie/381284",
@@ -17255,15 +17288,15 @@
             "titre": "Home Run",
             "annee": 2013,
             "langue": [
-                "TBD"
+                "VO"
             ],
             "taille": 1765587789,
             "genre": [
-                "Drame"
+                "Sport"
             ],
             "image": "https://image.tmdb.org/t/p/w342/687pD1t23ptW7mxhA34ASLEaFrE.jpg",
-            "fichier": "/Box_Films/Drame/Home Run_2013_TBD.mp4",
-            "nomFichier": "Home Run_2013_TBD.mp4",
+            "fichier": "/Box_Films/Sport/Home Run_2013_VO.mp4",
+            "nomFichier": "Home Run_2013_VO.mp4",
             "imdbId": null,
             "tmdbId": 176124,
             "tmdbUrl": "https://www.themoviedb.org/movie/176124",
@@ -17312,7 +17345,10 @@
             },
             "titreOriginal": "Home Run",
             "langueOriginale": "en",
-            "fichierNormalise": "Home Run_2013_TBD.mp4"
+            "fichierNormalise": "Home Run_2013_TBD.mp4",
+            "languesAudio": [
+                "EN"
+            ]
         },
         {
             "id": "tmdb_10028",
@@ -18371,6 +18407,108 @@
             "fichierNormalise": "2004_Les Indestructibles_TBD.avi"
         },
         {
+            "id": "insaisissables",
+            "titre": "Insaisissables",
+            "annee": null,
+            "langue": [
+                "VO",
+                "VF",
+                "VOSTFR"
+            ],
+            "taille": 3461412428,
+            "genre": [
+                "Action"
+            ],
+            "image": "https://image.tmdb.org/t/p/w342/q8JJ7vKuV7IFE6TIbViuPokqIpr.jpg",
+            "fichier": "/Box_Films/Action/Insaisissables/2013_Insaisissables_VO_VF_VOSTFR.mkv",
+            "nomFichier": "2013_Insaisissables_VO_VF_VOSTFR.mkv",
+            "imdbId": null,
+            "tmdbId": 75656,
+            "tmdbUrl": "https://www.themoviedb.org/movie/75656",
+            "doublonExact": false,
+            "doublonProbable": false,
+            "groupeDoublon": null,
+            "dateAjout": "2026-11-23T21:35:04.902Z",
+            "technique": {
+                "largeur": 1920,
+                "hauteur": 800,
+                "resolution": "1920x800",
+                "ratioImage": 2.4,
+                "codecVideo": "h264",
+                "profilVideo": "High",
+                "pixelFormat": "yuv420p",
+                "bitsParComposante": 8,
+                "bitrateVideo": null,
+                "framerate": 23.976,
+                "espaceCouleur": "bt709",
+                "transfertCouleur": "bt709",
+                "primairesCouleur": "bt709",
+                "hdr": false,
+                "dureeFichier": 6921.6645,
+                "bitrateGlobal": 4000670,
+                "formatConteneur": "matroska,webm",
+                "audio": [
+                    {
+                        "codec": "ac3",
+                        "profil": null,
+                        "canaux": 6,
+                        "disposition": "5.1(side)",
+                        "bitrate": 640000,
+                        "frequence": 48000,
+                        "langue": "fre"
+                    },
+                    {
+                        "codec": "ac3",
+                        "profil": null,
+                        "canaux": 6,
+                        "disposition": "5.1(side)",
+                        "bitrate": 640000,
+                        "frequence": 48000,
+                        "langue": "eng"
+                    },
+                    {
+                        "codec": "aac",
+                        "profil": "LC",
+                        "canaux": 2,
+                        "disposition": "stereo",
+                        "bitrate": null,
+                        "frequence": 48000,
+                        "langue": "fre"
+                    }
+                ],
+                "sousTitres": [
+                    {
+                        "codec": "subrip",
+                        "langue": "fre",
+                        "titre": null
+                    },
+                    {
+                        "codec": "subrip",
+                        "langue": "fre",
+                        "titre": null
+                    }
+                ]
+            },
+            "fichierNormalise": "Insaisissables_TBD.mkv",
+            "titreTmdb": "Insaisissables",
+            "titreOriginal": "Now You See Me",
+            "langueOriginale": "en",
+            "anneeTmdb": "2013",
+            "dureeTmdb": 116,
+            "descriptionTmdb": "« Les Quatre Cavaliers », un groupe de brillants magiciens et illusionnistes, vient de donner deux spectacles de magie époustouflants: le premier en braquant une banque sur un autre continent, le deuxième en transférant la fortune d’un banquier véreux sur les comptes en banque du public. Deux agents spéciaux du FBI et d’Interpol sont déterminés à les arrêter avant qu’ils ne mettent à exécution leur promesse de réaliser des braquages encore plus audacieux. Ils font appel à Thaddeus, spécialiste reconnu pour expliquer les tours de magie les plus sophistiqués. Alors que la pression s’intensifie, et que le monde entier attend le spectaculaire tour final des Cavaliers, la course contre la montre commence.",
+            "collectionId": 382685,
+            "collectionNom": "Insaisissables - Saga",
+            "collectionDescription": "Insaisissables est un thriller américain de 2013 réalisé par Louis Leterrier. Le film met en vedette un groupe composé de Jesse Eisenberg, Mark Ruffalo, Woody Harrelson, Mélanie Laurent, Isla Fisher, Dave Franco, Michael Caine et Morgan Freeman.  L'intrigue suit un agent du FBI et un détective d'Interpol traquants une équipe d'illusionnistes qui se livrent à des braquages de banques pendant leurs performances et récompensent leur public avec l'argent. Une suite a été publiée le 10 juin 2016 et s'intitulait Insaisissables 2. Un troisième volet est prévu.",
+            "collectionImage": "https://image.tmdb.org/t/p/w500/JAzLUXjXJEGp9IKR7jEY4L2VSL.jpg",
+            "collectionTmdbUrl": "https://www.themoviedb.org/collection/382685",
+            "languesAudio": [
+                "EN",
+                "FR"
+            ],
+            "type": "Film",
+            "studio": null
+        },
+        {
             "id": "insaisissables_2_2016",
             "titre": "Insaisissables 2",
             "annee": 2016,
@@ -18379,8 +18517,7 @@
             ],
             "taille": 1463885918,
             "genre": [
-                "Crime",
-                "Thriller"
+                "Action"
             ],
             "image": "https://image.tmdb.org/t/p/w342/w7Q9BAqpbPHSeo6ZDYRpFGpGUxn.jpg",
             "fichier": "/Box_Films/Action/Insaisissables 2_2016_VF.avi",
@@ -18537,132 +18674,80 @@
             "fichierNormalise": "Intouchables_2011_VF.mkv"
         },
         {
-            "id": "invictus",
-            "titre": "Invictus",
-            "annee": null,
+            "id": "invictus_nerd_2009",
+            "titre": "Invictus NERD",
+            "annee": 2009,
             "langue": [
-                "TBD"
+                "VF"
             ],
-            "taille": 733992960,
+            "taille": 1469807362,
             "genre": [
-                "Biopic"
+                "Sport"
             ],
             "image": "https://image.tmdb.org/t/p/w342/4zpsqUf8XFzk4sYbGSXBap1bQKh.jpg",
-            "fichier": "/Box_Films/Biopic/Invictus_2009_TBD.avi",
-            "nomFichier": "Invictus_2009_TBD.avi",
+            "fichier": "/Box_Films/Sport/Invictus_2009_VF.avi",
+            "nomFichier": "Invictus_2009_VF.avi",
             "imdbId": null,
             "tmdbId": 22954,
             "tmdbUrl": "https://www.themoviedb.org/movie/22954",
             "doublonExact": false,
-            "doublonProbable": true,
-            "groupeDoublon": "invictus",
-            "dateAjout": "2026-08-22T18:10:23.639Z",
-            "titreTmdb": "Invictus",
-            "anneeTmdb": "2009",
-            "dureeTmdb": 132,
-            "descriptionTmdb": "En 1994, l'élection de Nelson Mandela consacre la fin de l'Apartheid, mais l'Afrique du Sud reste une nation profondément divisée sur le plan racial et économique. Pour unifier le pays et donner à chaque citoyen un motif de fierté, Mandela mise sur le sport, et fait cause commune avec le capitaine de la modeste équipe de rugby sud-africaine. Leur pari: se présenter à la coupe du monde de rugby de 1995...",
-            "collectionId": null,
-            "collectionNom": null,
-            "type": "Film",
-            "studio": null,
+            "doublonProbable": false,
+            "groupeDoublon": null,
+            "dateAjout": "2026-11-24T05:10:36.920Z",
             "technique": {
-                "largeur": 624,
-                "hauteur": 256,
-                "resolution": "624x256",
-                "ratioImage": 2.438,
+                "largeur": 640,
+                "hauteur": 272,
+                "resolution": "640x272",
+                "ratioImage": 2.353,
                 "codecVideo": "mpeg4",
                 "profilVideo": "Advanced Simple Profile",
                 "pixelFormat": "yuv420p",
                 "bitsParComposante": null,
-                "bitrateVideo": 1010929,
+                "bitrateVideo": 1009462,
                 "framerate": 23.976,
                 "espaceCouleur": null,
                 "transfertCouleur": null,
                 "primairesCouleur": null,
                 "hdr": false,
-                "dureeFichier": 4950.779167,
-                "bitrateGlobal": 1186064,
+                "dureeFichier": 8016.224558,
+                "bitrateGlobal": 1466832,
                 "formatConteneur": "avi",
                 "audio": [
                     {
-                        "codec": "mp3",
+                        "codec": "ac3",
                         "profil": null,
-                        "canaux": 2,
-                        "disposition": "stereo",
-                        "bitrate": 162384,
+                        "canaux": 6,
+                        "disposition": "5.1(side)",
+                        "bitrate": 448000,
                         "frequence": 48000,
                         "langue": null
                     }
                 ],
-                "sousTitres": []
+                "sousTitres": [],
+                "zoneUtile": {
+                    "largeurUtile": 640,
+                    "hauteurUtile": 272,
+                    "x": 0,
+                    "y": 0
+                }
             },
+            "fichierNormalise": "Invictus NERD_2009_VF.avi",
+            "titreTmdb": "Invictus",
             "titreOriginal": "Invictus",
             "langueOriginale": "en",
-            "fichierNormalise": "Invictus_2009_TBD.avi"
-        },
-        {
-            "id": "invictus",
-            "titre": "Invictus",
-            "annee": null,
-            "langue": [
-                "TBD"
-            ],
-            "taille": 734015488,
-            "genre": [
-                "Biopic"
-            ],
-            "image": "https://image.tmdb.org/t/p/w342/4zpsqUf8XFzk4sYbGSXBap1bQKh.jpg",
-            "fichier": "/Box_Films/Drame/Invictus.cd2.avi",
-            "nomFichier": "Invictus.cd2.avi",
-            "imdbId": null,
-            "tmdbId": 22954,
-            "tmdbUrl": "https://www.themoviedb.org/movie/22954",
-            "doublonExact": false,
-            "doublonProbable": true,
-            "groupeDoublon": "invictus",
-            "dateAjout": "2026-08-22T18:10:23.639Z",
-            "titreTmdb": "Invictus",
             "anneeTmdb": "2009",
             "dureeTmdb": 132,
             "descriptionTmdb": "En 1994, l'élection de Nelson Mandela consacre la fin de l'Apartheid, mais l'Afrique du Sud reste une nation profondément divisée sur le plan racial et économique. Pour unifier le pays et donner à chaque citoyen un motif de fierté, Mandela mise sur le sport, et fait cause commune avec le capitaine de la modeste équipe de rugby sud-africaine. Leur pari: se présenter à la coupe du monde de rugby de 1995...",
             "collectionId": null,
             "collectionNom": null,
+            "collectionDescription": null,
+            "collectionImage": null,
+            "collectionTmdbUrl": null,
             "type": "Film",
             "studio": null,
-            "technique": {
-                "largeur": 624,
-                "hauteur": 256,
-                "resolution": "624x256",
-                "ratioImage": 2.438,
-                "codecVideo": "mpeg4",
-                "profilVideo": "Advanced Simple Profile",
-                "pixelFormat": "yuv420p",
-                "bitsParComposante": null,
-                "bitrateVideo": 1756258,
-                "framerate": 23.976,
-                "espaceCouleur": null,
-                "transfertCouleur": null,
-                "primairesCouleur": null,
-                "hdr": false,
-                "dureeFichier": 3044.207833,
-                "bitrateGlobal": 1928949,
-                "formatConteneur": "avi",
-                "audio": [
-                    {
-                        "codec": "mp3",
-                        "profil": null,
-                        "canaux": 2,
-                        "disposition": "stereo",
-                        "bitrate": 160408,
-                        "frequence": 48000,
-                        "langue": null
-                    }
-                ],
-                "sousTitres": []
-            },
-            "titreOriginal": "Invictus",
-            "langueOriginale": "en",
-            "fichierNormalise": "Invictus_2009_TBD.avi"
+            "languesAudio": [
+                "FR"
+            ]
         },
         {
             "id": "ip_man_1_ghz_2008",
@@ -19543,7 +19628,7 @@
             ],
             "taille": 0,
             "genre": [
-                "Espionnage"
+                "Action"
             ],
             "image": "https://image.tmdb.org/t/p/w342/j8fcChPA88YlLdXMryDQwNPngPI.jpg",
             "fichier": null,
@@ -19574,7 +19659,7 @@
             ],
             "taille": 0,
             "genre": [
-                "Espionnage"
+                "Action"
             ],
             "image": "https://image.tmdb.org/t/p/w342/txWTVoO9VltSsEghOoxdn8y6UqK.jpg",
             "fichier": null,
@@ -19667,78 +19752,6 @@
             ],
             "fichierNormalise": "2002_Meurs un autre jour_VO.mp4",
             "fichierOriginal": "James.Bond.Die.Another.Day.2002.1080p.BRrip.x264.YIFY.mp4"
-        },
-        {
-            "id": "james_bond_the_world_is_not_enough_1999",
-            "titre": "James Bond The World Is Not Enough",
-            "annee": 1999,
-            "langue": [
-                "VO"
-            ],
-            "taille": 1982941409,
-            "genre": [
-                "Action"
-            ],
-            "image": "https://image.tmdb.org/t/p/w342/uoffFMywnkbxQ9Q9FSnyDfuXFEW.jpg",
-            "fichier": "/Box_Films/Action/James Bond 007/1999_Le monde ne suffit pas_VO.mp4",
-            "nomFichier": "1999_Le monde ne suffit pas_VO.mp4",
-            "imdbId": null,
-            "tmdbId": 36643,
-            "tmdbUrl": "https://www.themoviedb.org/movie/36643",
-            "doublonExact": false,
-            "doublonProbable": false,
-            "groupeDoublon": null,
-            "dateAjout": "2026-11-10T08:51:25.701Z",
-            "titreTmdb": "Le monde ne suffit pas",
-            "anneeTmdb": "1999",
-            "dureeTmdb": 128,
-            "descriptionTmdb": "Le magnat du pétrole Sir Robert King est assassiné dans l'enceinte même du bâtiment ultramoderne des services secrets britanniques. James Bond réussit à éliminer l'auteur de l'attentat, une tueuse professionnelle travaillant pour le terroriste international Renard. Craignant que ce dernier ne s'en prenne désormais à la fille de King, Elektra, 007 se charge de la protéger. En Azerbaïdjan, où King avait commencé à exploiter un nouveau gisement pétrolifère, l'agent secret retrouve Valentin Zukovski, un ex-agent du KGB devenu mafioso, qui va l'aider dans son enquête.",
-            "collectionId": 645,
-            "collectionNom": "James Bond 007 - Saga",
-            "collectionDescription": "James Bond, agent 007, autorisé à tuer, est le héros de la plus longue saga cinématographique de tous les temps, au succès sans égal. Armé de son Walther PPK, accompagné des plus jolies filles de la terre et opposé aux plus cyniques des méchants, il a poursuivi le mal aux quatre coins du monde, survécu à la guerre froide et à la chute du mur de Berlin.",
-            "collectionImage": "https://image.tmdb.org/t/p/w500/ammkAiFPUQhqrWAdzNZSXR8VMpy.jpg",
-            "collectionTmdbUrl": "https://www.themoviedb.org/collection/645",
-            "technique": {
-                "largeur": 1920,
-                "hauteur": 816,
-                "resolution": "1920x816",
-                "ratioImage": 2.353,
-                "codecVideo": "h264",
-                "profilVideo": "High",
-                "pixelFormat": "yuv420p",
-                "bitsParComposante": 8,
-                "bitrateVideo": 1960547,
-                "framerate": 23.976,
-                "espaceCouleur": null,
-                "transfertCouleur": null,
-                "primairesCouleur": null,
-                "hdr": false,
-                "dureeFichier": 7700.484458,
-                "bitrateGlobal": 2060069,
-                "formatConteneur": "mov,mp4,m4a,3gp,3g2,mj2",
-                "audio": [
-                    {
-                        "codec": "aac",
-                        "profil": "LC",
-                        "canaux": 2,
-                        "disposition": "stereo",
-                        "bitrate": 95989,
-                        "frequence": 48000,
-                        "langue": "eng"
-                    }
-                ],
-                "sousTitres": []
-            },
-            "ignoreInCollection": false,
-            "titreOriginal": "The World Is Not Enough",
-            "langueOriginale": "en",
-            "type": "Film",
-            "studio": null,
-            "fichierNormalise": "1999_Le monde ne suffit pas_TBD.mp4",
-            "languesAudio": [
-                "EN"
-            ],
-            "fichierOriginal": "James.Bond.The.World.Is.Not.Enough.1999.1080p.BRrip.x264.YIFY.mp4"
         },
         {
             "id": "jason_bourne_2016",
@@ -22745,15 +22758,18 @@
             "titre": "L'arme fatale 3",
             "annee": null,
             "langue": [
-                "TBD"
+                "VO",
+                "VF",
+                "VOSTFR",
+                "VOST"
             ],
             "taille": 741711630,
             "genre": [
                 "Action"
             ],
             "image": "https://image.tmdb.org/t/p/w342/zsrpmK8H9LokswJYJaUKLL6yHEB.jpg",
-            "fichier": "/Box_Films/Action/L'arme fatale/1992_L'Arme fatale 3_TBD.mkv",
-            "nomFichier": "1992_L'Arme fatale 3_TBD.mkv",
+            "fichier": "/Box_Films/Action/L'arme fatale/1992_L'Arme fatale 3_VO_VF_VOST_VOSTFR.mkv",
+            "nomFichier": "1992_L'Arme fatale 3_VO_VF_VOST_VOSTFR.mkv",
             "imdbId": null,
             "tmdbId": 943,
             "tmdbUrl": "https://www.themoviedb.org/movie/943",
@@ -22828,7 +22844,11 @@
             },
             "titreOriginal": "Lethal Weapon 3",
             "langueOriginale": "en",
-            "fichierNormalise": "1992_L'Arme fatale 3_TBD.mkv"
+            "fichierNormalise": "1992_L'Arme fatale 3_TBD.mkv",
+            "languesSousTitres": [
+                "EN",
+                "FR"
+            ]
         },
         {
             "id": "l_arme_fatale_i_1987",
@@ -24444,10 +24464,10 @@
             ],
             "taille": 726702080,
             "genre": [
-                "Drame"
+                "Policier"
             ],
             "image": "https://image.tmdb.org/t/p/w342/v4c6WMVqUlSJHMyjHNj72iTFGhm.jpg",
-            "fichier": "/Box_Films/Drame/Les Affranchis_1990_TBD.avi",
+            "fichier": "/Box_Films/Policier/Les Affranchis_1990_TBD.avi",
             "nomFichier": "Les Affranchis_1990_TBD.avi",
             "imdbId": null,
             "tmdbId": 769,
@@ -29565,10 +29585,10 @@
             ],
             "taille": 850299322,
             "genre": [
-                "Drame"
+                "Sport"
             ],
             "image": "https://image.tmdb.org/t/p/w342/1Cd8lw2kdUwX65xKIlh7ebOvNqu.jpg",
-            "fichier": "/Box_Films/Drame/Le Stratège_2011_TBD.mp4",
+            "fichier": "/Box_Films/Sport/Le Stratège_2011_TBD.mp4",
             "nomFichier": "Le Stratège_2011_TBD.mp4",
             "imdbId": null,
             "tmdbId": 60308,
@@ -29629,7 +29649,7 @@
             ],
             "taille": 0,
             "genre": [
-                "Espionnage"
+                "Action"
             ],
             "image": "https://image.tmdb.org/t/p/w342/vF11JtjH1PmEvsRo4djEWWmHXvi.jpg",
             "fichier": null,
@@ -30347,74 +30367,6 @@
             "langueOriginale": "fr"
         },
         {
-            "id": "now_you_see_me_1_tmb_2013",
-            "titre": "Now You See Me 1",
-            "annee": 2013,
-            "langue": [
-                "VF"
-            ],
-            "taille": 1467432962,
-            "genre": [
-                "Action"
-            ],
-            "image": "https://image.tmdb.org/t/p/w342/q8JJ7vKuV7IFE6TIbViuPokqIpr.jpg",
-            "fichier": "/Box_Films/Action/Insaisissables/2013_Insaisissables_VF.avi",
-            "nomFichier": "2013_Insaisissables_VF.avi",
-            "imdbId": null,
-            "tmdbId": 75656,
-            "tmdbUrl": "https://www.themoviedb.org/movie/75656",
-            "doublonExact": false,
-            "doublonProbable": false,
-            "groupeDoublon": null,
-            "dateAjout": "2026-08-22T08:23:33.547Z",
-            "titreTmdb": "Insaisissables",
-            "anneeTmdb": "2013",
-            "dureeTmdb": 116,
-            "descriptionTmdb": "« Les Quatre Cavaliers », un groupe de brillants magiciens et illusionnistes, vient de donner deux spectacles de magie époustouflants: le premier en braquant une banque sur un autre continent, le deuxième en transférant la fortune d’un banquier véreux sur les comptes en banque du public. Deux agents spéciaux du FBI et d’Interpol sont déterminés à les arrêter avant qu’ils ne mettent à exécution leur promesse de réaliser des braquages encore plus audacieux. Ils font appel à Thaddeus, spécialiste reconnu pour expliquer les tours de magie les plus sophistiqués. Alors que la pression s’intensifie, et que le monde entier attend le spectaculaire tour final des Cavaliers, la course contre la montre commence.",
-            "collectionId": 382685,
-            "collectionNom": "Insaisissables - Saga",
-            "collectionDescription": "Insaisissables est un thriller américain de 2013 réalisé par Louis Leterrier. Le film met en vedette un groupe composé de Jesse Eisenberg, Mark Ruffalo, Woody Harrelson, Mélanie Laurent, Isla Fisher, Dave Franco, Michael Caine et Morgan Freeman.  L'intrigue suit un agent du FBI et un détective d'Interpol traquants une équipe d'illusionnistes qui se livrent à des braquages de banques pendant leurs performances et récompensent leur public avec l'argent. Une suite a été publiée le 10 juin 2016 et s'intitulait Insaisissables 2. Un troisième volet est prévu.",
-            "collectionImage": "https://image.tmdb.org/t/p/w500/JAzLUXjXJEGp9IKR7jEY4L2VSL.jpg",
-            "collectionTmdbUrl": "https://www.themoviedb.org/collection/382685",
-            "type": "Film",
-            "studio": null,
-            "ignoreInCollection": false,
-            "technique": {
-                "largeur": 640,
-                "hauteur": 272,
-                "resolution": "640x272",
-                "ratioImage": 2.353,
-                "codecVideo": "mpeg4",
-                "profilVideo": "Advanced Simple Profile",
-                "pixelFormat": "yuv420p",
-                "bitsParComposante": null,
-                "bitrateVideo": 1558826,
-                "framerate": 23.976,
-                "espaceCouleur": null,
-                "transfertCouleur": null,
-                "primairesCouleur": null,
-                "hdr": false,
-                "dureeFichier": 6921.16425,
-                "bitrateGlobal": 1696168,
-                "formatConteneur": "avi",
-                "audio": [
-                    {
-                        "codec": "mp3",
-                        "profil": null,
-                        "canaux": 2,
-                        "disposition": "stereo",
-                        "bitrate": 128000,
-                        "frequence": 48000,
-                        "langue": null
-                    }
-                ],
-                "sousTitres": []
-            },
-            "titreOriginal": "Now You See Me",
-            "langueOriginale": "en",
-            "fichierNormalise": "2013_Insaisissables_VF.avi"
-        },
-        {
             "id": "now_you_see_me_2_2016",
             "titre": "Now You See Me 2",
             "annee": 2016,
@@ -30652,7 +30604,7 @@
             ],
             "taille": 0,
             "genre": [
-                "Espionnage"
+                "Action"
             ],
             "image": "https://image.tmdb.org/t/p/w342/85Cd9EWOQp3rNGRWeSrvGxFMWhW.jpg",
             "fichier": null,
@@ -30750,7 +30702,7 @@
             ],
             "taille": 0,
             "genre": [
-                "Espionnage"
+                "Action"
             ],
             "image": "https://image.tmdb.org/t/p/w342/ndTrIikus8KmeGnKdStGXvxsQS9.jpg",
             "fichier": null,
@@ -30849,7 +30801,7 @@
             ],
             "taille": 0,
             "genre": [
-                "Espionnage"
+                "Action"
             ],
             "image": "https://image.tmdb.org/t/p/w342/pTD6CXcAGFLMuJ69SUCbitOqy8s.jpg",
             "fichier": null,
@@ -31444,10 +31396,10 @@
             ],
             "taille": 728197314,
             "genre": [
-                "Biopic"
+                "Sport"
             ],
             "image": "https://image.tmdb.org/t/p/w342/riAJ0I6xcacXYPUAIU8Msukbp6W.jpg",
-            "fichier": "/Box_Films/Biopic/Pelé - Naissance d'une légende_2016_VF.avi",
+            "fichier": "/Box_Films/Sport/Pelé - Naissance d'une légende_2016_VF.avi",
             "nomFichier": "Pelé - Naissance d'une légende_2016_VF.avi",
             "imdbId": null,
             "tmdbId": 245913,
@@ -31511,7 +31463,7 @@
             ],
             "taille": 0,
             "genre": [
-                "Espionnage"
+                "Action"
             ],
             "image": "https://image.tmdb.org/t/p/w342/lUFz8piD5fSDqvXP6Byms4boNLP.jpg",
             "fichier": null,
@@ -32257,10 +32209,10 @@
             ],
             "taille": 730136576,
             "genre": [
-                "Drame"
+                "Policier"
             ],
             "image": "https://image.tmdb.org/t/p/w342/9VVlDMDhRO0fQUh8y6xwgyzMkb9.jpg",
-            "fichier": "/Box_Films/Drame/La Proie_2011_VF.avi",
+            "fichier": "/Box_Films/Policier/La Proie_2011_VF.avi",
             "nomFichier": "La Proie_2011_VF.avi",
             "imdbId": null,
             "tmdbId": 59118,
@@ -33406,7 +33358,7 @@
             ],
             "taille": 0,
             "genre": [
-                "Espionnage"
+                "Action"
             ],
             "image": "https://image.tmdb.org/t/p/w342/hEbE2BhShWEqdcUK0eTZ38IXzGv.jpg",
             "fichier": null,
@@ -38772,10 +38724,10 @@
             ],
             "taille": 728600576,
             "genre": [
-                "Drame"
+                "Guerre"
             ],
             "image": "https://image.tmdb.org/t/p/w342/xyBDhcgxyffS7uomHDLIuvNwvd9.jpg",
-            "fichier": "/Box_Films/Drame/Shots of War_2011_VF.avi",
+            "fichier": "/Box_Films/Guerre/Shots of War_2011_VF.avi",
             "nomFichier": "Shots of War_2011_VF.avi",
             "imdbId": null,
             "tmdbId": 60011,
@@ -39255,28 +39207,94 @@
             "ignoreInCollection": false
         },
         {
-            "id": "fifth_element_1997",
-            "titre": "The Fifth Element",
+            "id": "the_fifth_element_5_1_1997",
+            "titre": "The Fifth Element 5 1",
             "annee": 1997,
             "langue": [
                 "VO",
+                "VF",
+                "VOSTFR",
                 "VOST"
             ],
-            "taille": 1505811799,
+            "taille": 3679177302,
             "genre": [
                 "Science-Fiction"
             ],
             "image": "https://image.tmdb.org/t/p/w342/8nx8sttha1Zidt73SbNncVfSwqk.jpg",
-            "fichier": "/Box_Films/Science-Fiction/Le Cinquième Élément_1997_VO_VOST.mp4",
-            "nomFichier": "Le Cinquième Élément_1997_VO_VOST.mp4",
+            "fichier": "/Box_Films/Science-Fiction/Le Cinquième Élément_1997_VO_VF_VOST_VOSTFR.mkv",
+            "nomFichier": "Le Cinquième Élément_1997_VO_VF_VOST_VOSTFR.mkv",
             "imdbId": null,
             "tmdbId": 18,
             "tmdbUrl": "https://www.themoviedb.org/movie/18",
             "doublonExact": false,
             "doublonProbable": false,
             "groupeDoublon": null,
-            "dateAjout": "2026-08-22T08:23:33.560Z",
+            "dateAjout": "2026-11-23T21:35:06.222Z",
+            "technique": {
+                "largeur": 1920,
+                "hauteur": 804,
+                "resolution": "1920x804",
+                "ratioImage": 2.388,
+                "codecVideo": "h264",
+                "profilVideo": "High",
+                "pixelFormat": "yuv420p",
+                "bitsParComposante": 8,
+                "bitrateVideo": null,
+                "framerate": 23.976,
+                "espaceCouleur": "bt709",
+                "transfertCouleur": "bt709",
+                "primairesCouleur": "bt709",
+                "hdr": false,
+                "dureeFichier": 7553.546,
+                "bitrateGlobal": 3896635,
+                "formatConteneur": "matroska,webm",
+                "audio": [
+                    {
+                        "codec": "ac3",
+                        "profil": null,
+                        "canaux": 6,
+                        "disposition": "5.1(side)",
+                        "bitrate": 448000,
+                        "frequence": 48000,
+                        "langue": "fre"
+                    },
+                    {
+                        "codec": "ac3",
+                        "profil": null,
+                        "canaux": 6,
+                        "disposition": "5.1(side)",
+                        "bitrate": 448000,
+                        "frequence": 48000,
+                        "langue": "eng"
+                    }
+                ],
+                "sousTitres": [
+                    {
+                        "codec": "subrip",
+                        "langue": "fre",
+                        "titre": "FR Forced : SRT"
+                    },
+                    {
+                        "codec": "subrip",
+                        "langue": "fre",
+                        "titre": "FR Full : SRT"
+                    },
+                    {
+                        "codec": "subrip",
+                        "langue": "eng",
+                        "titre": "ENG Full : SRT"
+                    },
+                    {
+                        "codec": "subrip",
+                        "langue": "eng",
+                        "titre": "ENG SDH : SRT"
+                    }
+                ]
+            },
+            "fichierNormalise": "The Fifth Element 5 1_1997_VO_VF.mkv",
             "titreTmdb": "Le Cinquième Élément",
+            "titreOriginal": "Le Cinquième Élément",
+            "langueOriginale": "fr",
             "anneeTmdb": "1997",
             "dureeTmdb": 126,
             "descriptionTmdb": "New York, XXIIIe siècle. Une boule de feu fonce sur la Terre. Pour l'arrêter il faut retrouver le Cinquième Élément, l'être suprême, qui, associé aux quatre éléments vitaux - l'air, l'eau, le feu et la terre - peut seul repousser Le Mal. Cornélius reçoit l'aide de Korben, taxi et ancien agent secret, et de Leeloo, extraterrestre qui a pris la forme d'une jeune femme aux cheveux oranges.",
@@ -39287,46 +39305,10 @@
             "collectionTmdbUrl": null,
             "type": "Film",
             "studio": null,
-            "technique": {
-                "largeur": 1920,
-                "hauteur": 800,
-                "resolution": "1920x800",
-                "ratioImage": 2.4,
-                "codecVideo": "h264",
-                "profilVideo": "High",
-                "pixelFormat": "yuv420p",
-                "bitsParComposante": 8,
-                "bitrateVideo": 1528562,
-                "framerate": 23.976,
-                "espaceCouleur": null,
-                "transfertCouleur": null,
-                "primairesCouleur": null,
-                "hdr": false,
-                "dureeFichier": 7553.822766,
-                "bitrateGlobal": 1594754,
-                "formatConteneur": "mov,mp4,m4a,3gp,3g2,mj2",
-                "audio": [
-                    {
-                        "codec": "aac",
-                        "profil": "HE-AAC",
-                        "canaux": 6,
-                        "disposition": "5.1",
-                        "bitrate": 63903,
-                        "frequence": 22050,
-                        "langue": "und"
-                    }
-                ],
-                "sousTitres": []
-            },
-            "titreOriginal": "The Fifth Element",
-            "langueOriginale": "en",
-            "languesAudio": [
-                "EN"
-            ],
             "languesSousTitres": [
-                "EN"
-            ],
-            "fichierNormalise": "Le Cinquième Élément_1997_VO_VOST.mp4"
+                "EN",
+                "FR"
+            ]
         },
         {
             "id": "hitmans_bodyguard_2017",
@@ -40054,7 +40036,7 @@
                 "Drame"
             ],
             "image": "https://image.tmdb.org/t/p/w342/q57R5r0uElNqnyx6TnqdNF0aM4I.jpg",
-            "fichier": "/Box_Films/Drame/The Phenom_2016_TBD.mp4",
+            "fichier": "/Box_Films/- Nouveaux/The Phenom_2016_TBD.mp4",
             "nomFichier": "The Phenom_2016_TBD.mp4",
             "imdbId": null,
             "tmdbId": 390512,
@@ -40066,7 +40048,7 @@
             "titreTmdb": "The Phenom",
             "anneeTmdb": "2016",
             "dureeTmdb": 88,
-            "descriptionTmdb": "",
+            "descriptionTmdb": "A rookie pitcher undergoes psychotherapy to overcome the yips.",
             "collectionId": null,
             "collectionNom": null,
             "collectionDescription": null,
@@ -40692,6 +40674,83 @@
             "studio": "Disney",
             "ignoreInCollection": false,
             "langueOriginale": "ru"
+        },
+        {
+            "id": "the_world_is_not_enough_1999",
+            "titre": "The World Is Not Enough",
+            "annee": 1999,
+            "langue": [
+                "VO",
+                "VOST"
+            ],
+            "taille": 3940186911,
+            "genre": [
+                "Action"
+            ],
+            "image": "https://image.tmdb.org/t/p/w342/uoffFMywnkbxQ9Q9FSnyDfuXFEW.jpg",
+            "fichier": "/Box_Films/Action/James Bond 007/1999_Le monde ne suffit pas_VO_VOST.mkv",
+            "nomFichier": "1999_Le monde ne suffit pas_VO_VOST.mkv",
+            "imdbId": null,
+            "tmdbId": 36643,
+            "tmdbUrl": "https://www.themoviedb.org/movie/36643",
+            "doublonExact": false,
+            "doublonProbable": false,
+            "groupeDoublon": null,
+            "dateAjout": "2026-11-23T21:35:08.647Z",
+            "technique": {
+                "largeur": 1920,
+                "hauteur": 816,
+                "resolution": "1920x816",
+                "ratioImage": 2.353,
+                "codecVideo": "hevc",
+                "profilVideo": "Main 10",
+                "pixelFormat": "yuv420p10le",
+                "bitsParComposante": null,
+                "bitrateVideo": null,
+                "framerate": 23.976,
+                "espaceCouleur": "bt709",
+                "transfertCouleur": "bt709",
+                "primairesCouleur": "bt709",
+                "hdr": false,
+                "dureeFichier": 7700.421,
+                "bitrateGlobal": 4093476,
+                "formatConteneur": "matroska,webm",
+                "audio": [
+                    {
+                        "codec": "opus",
+                        "profil": null,
+                        "canaux": 6,
+                        "disposition": "5.1",
+                        "bitrate": null,
+                        "frequence": 48000,
+                        "langue": "eng"
+                    }
+                ],
+                "sousTitres": [
+                    {
+                        "codec": "hdmv_pgs_subtitle",
+                        "langue": "eng",
+                        "titre": null
+                    }
+                ]
+            },
+            "fichierNormalise": "The World Is Not Enough_1999_TBD.mkv",
+            "titreTmdb": "Le monde ne suffit pas",
+            "titreOriginal": "The World Is Not Enough",
+            "langueOriginale": "en",
+            "anneeTmdb": "1999",
+            "dureeTmdb": 128,
+            "descriptionTmdb": "Le magnat du pétrole Sir Robert King est assassiné dans l'enceinte même du bâtiment ultramoderne des services secrets britanniques. James Bond réussit à éliminer l'auteur de l'attentat, une tueuse professionnelle travaillant pour le terroriste international Renard. Craignant que ce dernier ne s'en prenne désormais à la fille de King, Elektra, 007 se charge de la protéger. En Azerbaïdjan, où King avait commencé à exploiter un nouveau gisement pétrolifère, l'agent secret retrouve Valentin Zukovski, un ex-agent du KGB devenu mafioso, qui va l'aider dans son enquête.",
+            "collectionId": 645,
+            "collectionNom": "James Bond 007 - Saga",
+            "collectionDescription": "James Bond, agent 007, autorisé à tuer, est le héros de la plus longue saga cinématographique de tous les temps, au succès sans égal. Armé de son Walther PPK, accompagné des plus jolies filles de la terre et opposé aux plus cyniques des méchants, il a poursuivi le mal aux quatre coins du monde, survécu à la guerre froide et à la chute du mur de Berlin.",
+            "collectionImage": "https://image.tmdb.org/t/p/w500/5KhvmlY1tvwrhDbfx2TvL8mYyFn.jpg",
+            "collectionTmdbUrl": "https://www.themoviedb.org/collection/645",
+            "type": "Film",
+            "studio": null,
+            "languesAudio": [
+                "EN"
+            ]
         },
         {
             "id": "the_yard_2_homecoming_2010",
@@ -42264,7 +42323,7 @@
             ],
             "taille": 0,
             "genre": [
-                "Espionnage"
+                "Action"
             ],
             "image": "https://image.tmdb.org/t/p/w342/xs8qSK7DuXY6SYLxx8dFEqhsbE6.jpg",
             "fichier": null,
@@ -42297,10 +42356,10 @@
             ],
             "taille": 2895263723,
             "genre": [
-                "Biopic"
+                "Policier"
             ],
             "image": "https://image.tmdb.org/t/p/w342/z9sxdWvYJDyZeKHhBSU8Kczw7yC.jpg",
-            "fichier": "/Box_Films/Biopic/Le Virtuose_2026_VO_VF_VOSTFR.mkv",
+            "fichier": "/Box_Films/Policier/Le Virtuose_2026_VO_VF_VOSTFR.mkv",
             "nomFichier": "Le Virtuose_2026_VO_VF_VOSTFR.mkv",
             "imdbId": null,
             "tmdbId": 1340206,
@@ -43407,7 +43466,7 @@
             ],
             "taille": 0,
             "genre": [
-                "Espionnage"
+                "Action"
             ],
             "image": "https://image.tmdb.org/t/p/w342/1WskKj2i2rsbYfnIXMHHvVk81Zn.jpg",
             "fichier": null,
@@ -55462,10 +55521,10 @@
         {
             "id": "lupin",
             "titre": "Lupin",
-            "image": null,
+            "image": "https://image.tmdb.org/t/p/w342/sOUWRai0215iUSMackrZx3Y1j05.jpg",
             "imdbId": null,
-            "tmdbId": null,
-            "tmdbUrl": null,
+            "tmdbId": 96677,
+            "tmdbUrl": "https://www.themoviedb.org/tv/96677",
             "dateAjout": "2026-11-10T11:00:40.902Z",
             "saisons": [
                 {
@@ -55531,7 +55590,8 @@
                             "doublonProbable": false,
                             "dateAjout": "2026-11-10T11:00:40.917Z"
                         }
-                    ]
+                    ],
+                    "hasMissingEpisodes": true
                 },
                 {
                     "numero": 2,
@@ -55596,9 +55656,14 @@
                             "doublonProbable": false,
                             "dateAjout": "2026-11-10T11:00:40.933Z"
                         }
-                    ]
+                    ],
+                    "hasMissingEpisodes": true
                 }
-            ]
+            ],
+            "titreTmdb": "Lupin",
+            "anneeTmdb": "2021",
+            "descriptionTmdb": "Inspiré par les aventures d'Arsène Lupin, le gentleman cambrioleur Assane Diop décide de venger son père d'une terrible injustice.",
+            "hasMissingEpisodes": true
         },
         {
             "id": "magnum_pi",
@@ -62163,7 +62228,8 @@
                             "doublonProbable": false,
                             "dateAjout": "2026-09-06T18:10:39.160Z"
                         }
-                    ]
+                    ],
+                    "hasMissingEpisodes": true
                 }
             ]
         },
@@ -65472,12 +65538,12 @@
     "stockage": [
         {
             "lecteur": "Y",
-            "espaceLibre": 298659889152,
+            "espaceLibre": 288759033856,
             "capaciteTotale": 2000396742656
         },
         {
             "lecteur": "Z",
-            "espaceLibre": 164155310080,
+            "espaceLibre": 164155285504,
             "capaciteTotale": 1000169533440
         }
     ]

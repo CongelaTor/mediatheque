@@ -397,6 +397,16 @@ function renderTmdbFilmResults(film, results) {
 }
 
 async function associateTmdbSerie(serie, result) {
+  let descriptionTmdb = result.description;
+  if (!descriptionTmdb && result.tmdbId) {
+    const enResponse = await fetch(
+      `https://api.themoviedb.org/3/tv/${result.tmdbId}?api_key=${appConstants.tmdbApiKey}&language=en-US`,
+    );
+    if (enResponse.ok) {
+      const enDetails = await enResponse.json();
+      descriptionTmdb = enDetails.overview || "";
+    }
+  }
   const response = await fetch("http://localhost:9876/associate-tmdb-serie", {
     method: "POST",
     headers: {
@@ -406,7 +416,7 @@ async function associateTmdbSerie(serie, result) {
       serieId: serie.id,
       titreTmdb: result.titre,
       anneeTmdb: result.annee,
-      descriptionTmdb: result.description,
+      descriptionTmdb: descriptionTmdb,
       tmdbId: result.tmdbId,
       tmdbUrl: result.tmdbUrl,
       image: result.image,
@@ -421,7 +431,7 @@ async function associateTmdbSerie(serie, result) {
   serie.image = result.image;
   serie.titreTmdb = result.titre;
   serie.anneeTmdb = result.annee;
-  serie.descriptionTmdb = result.description;
+  serie.descriptionTmdb = descriptionTmdb;
   closeTmdbModal();
   if (currentPage === "episodes" && typeof showSerieDetails === "function") {
     showSerieDetails(serie, currentSeason);
@@ -442,6 +452,21 @@ async function associateTmdbFilm(film, result) {
   );
 
   const details = await detailsResponse.json();
+
+  let descriptionTmdb =
+    (details.overview && details.overview.trim()) ||
+    (result.description && result.description.trim()) ||
+    "";
+
+  if (!descriptionTmdb) {
+    const enDetailsResponse = await fetch(
+      `https://api.themoviedb.org/3/movie/${result.tmdbId}?api_key=${appConstants.tmdbApiKey}&language=en-US`,
+    );
+    if (enDetailsResponse.ok) {
+      const enDetails = await enDetailsResponse.json();
+      descriptionTmdb = (enDetails.overview && enDetails.overview.trim()) || "";
+    }
+  }
 
   const genres = details.genres
     ? details.genres.map((genre) => genre.name)
@@ -465,7 +490,23 @@ async function associateTmdbFilm(film, result) {
     );
     if (collectionResponse.ok) {
       const collectionDetails = await collectionResponse.json();
-      collectionDescription = collectionDetails.overview || null;
+      let frCollectionDescription =
+        (collectionDetails.overview && collectionDetails.overview.trim()) || "";
+
+      if (!frCollectionDescription) {
+        const enCollectionResponse = await fetch(
+          `https://api.themoviedb.org/3/collection/${collectionId}?api_key=${appConstants.tmdbApiKey}&language=en-US`,
+        );
+        if (enCollectionResponse.ok) {
+          const enCollectionDetails = await enCollectionResponse.json();
+          frCollectionDescription =
+            (enCollectionDetails.overview &&
+              enCollectionDetails.overview.trim()) ||
+            "";
+        }
+      }
+
+      collectionDescription = frCollectionDescription || null;
       collectionImage = collectionDetails.poster_path
         ? `https://image.tmdb.org/t/p/w500${collectionDetails.poster_path}`
         : null;
@@ -504,7 +545,7 @@ async function associateTmdbFilm(film, result) {
       tmdbId: result.tmdbId,
       tmdbUrl: result.tmdbUrl,
       image: result.image,
-      descriptionTmdb: result.description,
+      descriptionTmdb: descriptionTmdb,
     }),
   });
 
@@ -529,7 +570,7 @@ async function associateTmdbFilm(film, result) {
   film.tmdbId = result.tmdbId;
   film.tmdbUrl = result.tmdbUrl;
   film.image = result.image;
-  film.descriptionTmdb = result.description;
+  film.descriptionTmdb = descriptionTmdb;
 
   sessionStorage.setItem("filmsScrollY", String(window.scrollY));
 
@@ -556,6 +597,7 @@ async function associateTmdbFilm(film, result) {
 function closeTmdbModal() {
   document.getElementById("tmdbModal").classList.add("hidden");
 }
+
 async function searchTmdbSerie(title) {
   const response = await fetch(
     `https://api.themoviedb.org/3/search/tv?api_key=${appConstants.tmdbApiKey}&language=fr-FR&query=${encodeURIComponent(title)}`,
@@ -566,16 +608,40 @@ async function searchTmdbSerie(title) {
     return [];
   }
 
-  return data.results.map((item) => ({
-    tmdbId: item.id,
-    titre: item.name,
-    annee: item.first_air_date ? item.first_air_date.substring(0, 4) : "",
-    description: item.overview,
-    image: item.poster_path
-      ? `https://image.tmdb.org/t/p/w342${item.poster_path}`
-      : null,
-    tmdbUrl: `https://www.themoviedb.org/tv/${item.id}`,
-  }));
+  // return data.results.map((item) => ({
+  //   tmdbId: item.id,
+  //   titre: item.name,
+  //   annee: item.first_air_date ? item.first_air_date.substring(0, 4) : "",
+  //   description: item.overview,
+  //   image: item.poster_path
+  //     ? `https://image.tmdb.org/t/p/w342${item.poster_path}`
+  //     : null,
+  //   tmdbUrl: `https://www.themoviedb.org/tv/${item.id}`,
+  // }));
+  return Promise.all(
+    data.results.map(async (item) => {
+      let description = item.overview;
+      if (!description) {
+        const enResponse = await fetch(
+          `https://api.themoviedb.org/3/tv/${item.id}?api_key=${appConstants.tmdbApiKey}&language=en-US`,
+        );
+        if (enResponse.ok) {
+          const enDetails = await enResponse.json();
+          description = enDetails.overview || "";
+        }
+      }
+      return {
+        tmdbId: item.id,
+        titre: item.name,
+        annee: item.first_air_date ? item.first_air_date.substring(0, 4) : "",
+        description: description,
+        image: item.poster_path
+          ? `https://image.tmdb.org/t/p/w342${item.poster_path}`
+          : null,
+        tmdbUrl: `https://www.themoviedb.org/tv/${item.id}`,
+      };
+    }),
+  );
 }
 
 async function getTmdbSeasonEpisodes(serie, seasonNumber) {
@@ -591,10 +657,30 @@ async function getTmdbSeasonEpisodes(serie, seasonNumber) {
     return new Map();
   }
   const episodes = new Map();
+  let enEpisodesByNumber = null;
   for (const item of data.episodes) {
+    let description = item.overview || "";
+    if (!description) {
+      if (!enEpisodesByNumber) {
+        const enResponse = await fetch(
+          `https://api.themoviedb.org/3/tv/${serie.tmdbId}/season/${seasonNumber}?api_key=${appConstants.tmdbApiKey}&language=en-US`,
+        );
+        enEpisodesByNumber = new Map();
+        if (enResponse.ok) {
+          const enData = await enResponse.json();
+          for (const enItem of enData.episodes || []) {
+            enEpisodesByNumber.set(
+              enItem.episode_number,
+              enItem.overview || "",
+            );
+          }
+        }
+      }
+      description = enEpisodesByNumber.get(item.episode_number) || "";
+    }
     episodes.set(item.episode_number, {
       titre: item.name || "",
-      description: item.overview || "",
+      description: description,
       image: item.still_path
         ? `https://image.tmdb.org/t/p/w300${item.still_path}`
         : null,
