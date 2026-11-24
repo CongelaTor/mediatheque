@@ -356,10 +356,12 @@ function scanDirectory(directory, extensions, results = []) {
     } else {
       const extension = path.extname(entry.name).toLowerCase();
       if (extensions.includes(extension)) {
+        const stats = fs.statSync(fullPath);
         results.push({
           fichier: fullPath,
           nom: entry.name,
-          taille: fs.statSync(fullPath).size,
+          taille: stats.size,
+          dateModification: stats.mtime.toISOString(),
         });
       }
     }
@@ -496,6 +498,7 @@ function analyzeVideoFile(fichier, source) {
     nomFichier: fichier.nom,
     fichier: buildCatalogPath(fichier.fichier),
     taille: fichier.taille,
+    dateModification: fichier.dateModification || null,
     image: findAssociatedImage(fichier.fichier),
   };
 }
@@ -669,6 +672,7 @@ function syncFilm(catalog, analyse, sourceFilePath) {
       fichier: analyse.fichier,
       nomFichier: analyse.nomFichier,
       taille: analyse.taille,
+      dateAjout: analyse.dateModification || existing.dateAjout,
       technique: {
         ...existing.technique,
         zoneUtile: existing.technique?.zoneUtile ?? null,
@@ -709,7 +713,7 @@ function syncFilm(catalog, analyse, sourceFilePath) {
     doublonExact: false,
     doublonProbable: false,
     groupeDoublon: null,
-    dateAjout: new Date().toISOString(),
+    dateAjout: analyse.dateModification || new Date().toISOString(),
     technique: technique,
   };
   newFilm.fichierNormalise = getNormalizedFilmFileName(newFilm);

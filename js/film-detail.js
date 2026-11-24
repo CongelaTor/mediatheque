@@ -350,7 +350,8 @@ function getTechnicalQualityClass(width) {
   return "film-technical-low";
 }
 
-function getFilmNormalizationClass(film) {
+// ==================================
+function getFilmNormalizationClass(film, relatedFilms = [film]) {
   const languages = Array.isArray(film.langue)
     ? film.langue
     : [film.langue || "TBD"];
@@ -366,23 +367,44 @@ function getFilmNormalizationClass(film) {
   const hasFrenchAudio = audioLanguages.includes("FR");
   const hasOriginalAudio = audioLanguages.some((language) => language !== "FR");
   const hasMatchingSubtitles =
-    languages.includes("VOST") === subtitleLanguages.includes("eng") &&
-    languages.includes("VOSTFR") === subtitleLanguages.includes("fre");
+    languages.includes("VOST") === subtitleLanguages.includes("EN") &&
+    languages.includes("VOSTFR") === subtitleLanguages.includes("FR");
   if (!hasMatchingSubtitles) {
     return "film-technical-low";
   }
-  if (
-    (film.langueOriginale === "fr" &&
-      languages.includes("VF") &&
-      hasFrenchAudio) ||
-    (languages.includes("VO") &&
-      languages.includes("VF") &&
-      hasFrenchAudio &&
-      hasOriginalAudio)
-  ) {
+  if (film.langueOriginale === "fr") {
+    return languages.includes("VF") && hasFrenchAudio
+      ? "film-technical-good"
+      : "film-technical-low";
+  }
+  const hasSingleFileVoAndVf =
+    languages.includes("VO") &&
+    languages.includes("VF") &&
+    hasFrenchAudio &&
+    hasOriginalAudio;
+  if (hasSingleFileVoAndVf) {
     return "film-technical-good";
   }
-  return "film-technical-medium";
+  const filesPool =
+    Array.isArray(relatedFilms) && relatedFilms.length > 0
+      ? relatedFilms
+      : [film];
+  const hasVoAcrossFiles = filesPool.some((item) => {
+    const itemLangs = Array.isArray(item.langue)
+      ? item.langue
+      : [item.langue || "TBD"];
+    return itemLangs.includes("VO");
+  });
+  const hasVfAcrossFiles = filesPool.some((item) => {
+    const itemLangs = Array.isArray(item.langue)
+      ? item.langue
+      : [item.langue || "TBD"];
+    return itemLangs.includes("VF");
+  });
+  if (hasVoAcrossFiles && hasVfAcrossFiles) {
+    return "film-technical-medium";
+  }
+  return "film-technical-low";
 }
 
 function updateFilmNormalizationClass(metadata, film) {
@@ -391,7 +413,13 @@ function updateFilmNormalizationClass(metadata, film) {
     "film-technical-medium",
     "film-technical-low",
   );
-  metadata.classList.add(getFilmNormalizationClass(film));
+  const relatedFilms =
+    typeof catalog !== "undefined" && Array.isArray(catalog?.films)
+      ? catalog.films.filter(
+          (item) => item.tmdbId && item.tmdbId === film.tmdbId,
+        )
+      : [film];
+  metadata.classList.add(getFilmNormalizationClass(film, relatedFilms));
 }
 function renderAudioLanguages(audioInfo, audioLanguages, metadata, film) {
   audioInfo.innerHTML = "";
