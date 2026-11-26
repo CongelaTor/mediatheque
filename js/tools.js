@@ -338,6 +338,27 @@ function selectToolsAjouts(ajouts) {
   if (activeButton) {
     activeButton.classList.add("active");
   }
+  if (ajouts === "Nouveautés") {
+    currentGenre = "all";
+    currentType = "all";
+    currentStudio = "all";
+
+    document.querySelectorAll(".sidebar-link[data-genre]").forEach((button) => {
+      button.classList.toggle("active", button.dataset.genre === "all");
+    });
+    document.querySelectorAll(".sidebar-link[data-type]").forEach((button) => {
+      button.classList.toggle("active", button.dataset.type === "all");
+    });
+    document
+      .querySelectorAll(".sidebar-link[data-studio]")
+      .forEach((button) => {
+        button.classList.toggle("active", button.dataset.studio === "all");
+      });
+
+    updateSidebarTitle("genreTitle", "GENRE", currentGenre);
+    updateSidebarTitle("typeTitle", "TYPE", currentType);
+    updateSidebarTitle("studioTitle", "STUDIO", currentStudio);
+  }
   saveToolsFiltersState();
   renderTools();
 }

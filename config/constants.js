@@ -183,6 +183,25 @@ function initFiltersSidebar(ecran) {
       "ajouts",
       tousLabel,
     );
+    renderSidebarFilters(
+      "genreFilters",
+      FILTER_GENRES,
+      "genre",
+      "Tous les genres",
+    );
+    renderSidebarFilters("typeFilters", FILTER_TYPES, "type", "Tous les types");
+    renderSidebarFilters(
+      "studioFilters",
+      FILTER_STUDIOS,
+      "studio",
+      "Tous les studios",
+    );
+    renderSidebarFilters(
+      "qualityFilters",
+      FILTER_QUALITIES,
+      "quality",
+      "Toutes les qualités",
+    );
   } else {
     renderAllSidebarFilters(tousLabel);
   }
@@ -314,6 +333,36 @@ function selectAjouts(ajouts) {
   if (activeButton) {
     activeButton.classList.add("active");
   }
+
+  if (ajouts === "Nouveautés") {
+    currentGenre = "all";
+    currentType = "all";
+    currentStudio = "all";
+    currentQuality = "all";
+
+    document.querySelectorAll(".sidebar-link[data-genre]").forEach((button) => {
+      button.classList.toggle("active", button.dataset.genre === "all");
+    });
+    document.querySelectorAll(".sidebar-link[data-type]").forEach((button) => {
+      button.classList.toggle("active", button.dataset.type === "all");
+    });
+    document
+      .querySelectorAll(".sidebar-link[data-studio]")
+      .forEach((button) => {
+        button.classList.toggle("active", button.dataset.studio === "all");
+      });
+    document
+      .querySelectorAll(".sidebar-link[data-quality]")
+      .forEach((button) => {
+        button.classList.toggle("active", button.dataset.quality === "all");
+      });
+
+    updateSidebarTitle("genreTitle", "GENRE", currentGenre);
+    updateSidebarTitle("typeTitle", "TYPE", currentType);
+    updateSidebarTitle("studioTitle", "STUDIO", currentStudio);
+    updateSidebarTitle("qualityTitle", "QUALITÉ", currentQuality);
+  }
+
   saveSidebarFiltersState();
 
   document.getElementById("ajoutsFilters")?.classList.add("hidden");
@@ -437,17 +486,26 @@ function matchesQuality(film) {
   if (currentQuality === "all") {
     return true;
   }
-  const width = film.technique?.largeur;
-  if (currentQuality === "Haute") {
-    return width >= 1800;
-  }
-  if (currentQuality === "Moyenne") {
-    return width >= 900 && width < 1800;
-  }
-  if (currentQuality === "Basse") {
-    return width < 900;
-  }
-  return true;
+  const files =
+    Array.isArray(film.groupFiles) && film.groupFiles.length > 0
+      ? film.groupFiles
+      : [film];
+  return files.some((item) => {
+    const width = item.technique?.largeur;
+    if (typeof width !== "number") {
+      return false;
+    }
+    if (currentQuality === "Haute") {
+      return width >= 1800;
+    }
+    if (currentQuality === "Moyenne") {
+      return width >= 900 && width < 1800;
+    }
+    if (currentQuality === "Basse") {
+      return width < 900;
+    }
+    return false;
+  });
 }
 
 function renderCurrentScreen() {

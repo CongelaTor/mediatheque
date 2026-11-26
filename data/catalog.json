@@ -1,6 +1,6 @@
 {
     "version": 1,
-    "dateDernierScan": "2026-11-24T19:02:44.700Z",
+    "dateDernierScan": "2026-11-26T12:27:20.375Z",
     "collections": [
         {
             "collectionId": 645,
@@ -12117,15 +12117,18 @@
             "titre": "Eternals 1",
             "annee": 2021,
             "langue": [
-                "TBD"
+                "VO",
+                "VF",
+                "VOSTFR",
+                "VOST"
             ],
             "taille": 5318751430,
             "genre": [
                 "Science-Fiction"
             ],
             "image": "https://image.tmdb.org/t/p/w342/vV7TrS7PNRZJHCxNmiYN1SU7s1w.jpg",
-            "fichier": "/Box_Films/Marvel/Les Éternels_2021_TBD.mkv",
-            "nomFichier": "Les Éternels_2021_TBD.mkv",
+            "fichier": "/Box_Films/Marvel/Les Éternels_2021_VO_VF_VOST_VOSTFR.mkv",
+            "nomFichier": "Les Éternels_2021_VO_VF_VOST_VOSTFR.mkv",
             "imdbId": null,
             "tmdbId": 524434,
             "tmdbUrl": "https://www.themoviedb.org/movie/524434",
@@ -12256,7 +12259,11 @@
             },
             "titreOriginal": "Eternals",
             "langueOriginale": "en",
-            "fichierNormalise": "Les Éternels_2021_TBD.mkv"
+            "fichierNormalise": "Les Éternels_2021_TBD.mkv",
+            "languesAudio": [
+                "EN",
+                "FR"
+            ]
         },
         {
             "id": "f9_fast_saga_2021",
@@ -24618,15 +24625,18 @@
             "titre": "Les 5 Légendes",
             "annee": null,
             "langue": [
-                "TBD"
+                "VO",
+                "VF",
+                "VOSTFR",
+                "VOST"
             ],
             "taille": 2840335014,
             "genre": [
                 "Action"
             ],
             "image": "https://image.tmdb.org/t/p/w342/g4YdtN10YPhmrcetJOl7ZrxNSaP.jpg",
-            "fichier": "/Box_Films/Animation/Les Cinq Légendes_2012_TBD.mkv",
-            "nomFichier": "Les Cinq Légendes_2012_TBD.mkv",
+            "fichier": "/Box_Films/Animation/Les Cinq Légendes_2012_VO_VF_VOST_VOSTFR.mkv",
+            "nomFichier": "Les Cinq Légendes_2012_VO_VF_VOST_VOSTFR.mkv",
             "imdbId": null,
             "tmdbId": 81188,
             "tmdbUrl": "https://www.themoviedb.org/movie/81188",
@@ -24720,7 +24730,11 @@
             },
             "titreOriginal": "Rise of the Guardians",
             "langueOriginale": "en",
-            "fichierNormalise": "Les Cinq Légendes_2012_TBD.mkv"
+            "fichierNormalise": "Les Cinq Légendes_2012_TBD.mkv",
+            "languesSousTitres": [
+                "EN",
+                "FR"
+            ]
         },
         {
             "id": "les_affranchis",
@@ -26923,7 +26937,10 @@
             },
             "titreOriginal": "Spider-Man 2",
             "langueOriginale": "en",
-            "fichierNormalise": "2004_Spider-Man 2_VF.avi"
+            "fichierNormalise": "2004_Spider-Man 2_VF.avi",
+            "languesAudio": [
+                "FR"
+            ]
         },
         {
             "id": "spider_man_across_the_spider_verse_2023",
@@ -32067,6 +32084,64 @@
             "fichierNormalise": "Petits meurtres à l'Anglaise_2010_VF.avi"
         },
         {
+            "id": "phenom",
+            "titre": "Phenom",
+            "annee": null,
+            "langue": [
+                "TBD"
+            ],
+            "taille": 1427664033,
+            "genre": null,
+            "image": null,
+            "fichier": "/Box_Films/- Nouveaux/The Phenom_2016_TBD.mp4",
+            "nomFichier": "The Phenom_2016_TBD.mp4",
+            "imdbId": null,
+            "tmdbId": null,
+            "tmdbUrl": null,
+            "doublonExact": false,
+            "doublonProbable": false,
+            "groupeDoublon": null,
+            "dateAjout": "2017-06-13T01:42:16.185Z",
+            "technique": {
+                "largeur": 1920,
+                "hauteur": 800,
+                "resolution": "1920x800",
+                "ratioImage": 2.4,
+                "codecVideo": "h264",
+                "profilVideo": "High",
+                "pixelFormat": "yuv420p",
+                "bitsParComposante": 8,
+                "bitrateVideo": 2048821,
+                "framerate": 23.976,
+                "espaceCouleur": null,
+                "transfertCouleur": null,
+                "primairesCouleur": null,
+                "hdr": false,
+                "dureeFichier": 5252.714,
+                "bitrateGlobal": 2174364,
+                "formatConteneur": "mov,mp4,m4a,3gp,3g2,mj2",
+                "audio": [
+                    {
+                        "codec": "aac",
+                        "profil": "LC",
+                        "canaux": 2,
+                        "disposition": "stereo",
+                        "bitrate": 118549,
+                        "frequence": 48000,
+                        "langue": "und"
+                    }
+                ],
+                "sousTitres": [],
+                "zoneUtile": {
+                    "largeurUtile": 1920,
+                    "hauteurUtile": 800,
+                    "x": 0,
+                    "y": 0
+                }
+            },
+            "fichierNormalise": "Phenom_TBD.mp4"
+        },
+        {
             "id": "la_planete_au_tresor_un_nouvel_univers_disney_n_78",
             "titre": "Planète au Trésor, un nouvel Univers",
             "annee": null,
@@ -32161,15 +32236,15 @@
             "titre": "Playing For Keeps",
             "annee": 2012,
             "langue": [
-                "TBD"
+                "VO"
             ],
             "taille": 1775705246,
             "genre": [
-                "Comédie"
+                "Sport"
             ],
             "image": "https://image.tmdb.org/t/p/w342/tdt84spK3YDrEvFyOMbnr7FAHck.jpg",
-            "fichier": "/Box_Films/Comédie/Love Coach_2012_TBD.mp4",
-            "nomFichier": "Love Coach_2012_TBD.mp4",
+            "fichier": "/Box_Films/Sport/Love Coach_2012_VO.mp4",
+            "nomFichier": "Love Coach_2012_VO.mp4",
             "imdbId": null,
             "tmdbId": 77875,
             "tmdbUrl": "https://www.themoviedb.org/movie/77875",
@@ -32222,7 +32297,10 @@
             },
             "titreOriginal": "Playing for Keeps",
             "langueOriginale": "en",
-            "fichierNormalise": "Love Coach_2012_TBD.mp4"
+            "fichierNormalise": "Love Coach_2012_TBD.mp4",
+            "languesAudio": [
+                "EN"
+            ]
         },
         {
             "id": "le_plus_beau_des_combats",
@@ -36469,6 +36547,168 @@
                 "EN"
             ],
             "fichierOriginal": "Speed.2.Cruise.Control.1997.1080p.BluRay.x264.YIFY.mp4"
+        },
+        {
+            "id": "spider_man_2",
+            "titre": "Spider Man 2",
+            "annee": null,
+            "langue": [
+                "VF"
+            ],
+            "taille": 1520112564,
+            "genre": null,
+            "image": null,
+            "fichier": "/Box_Films/- Nouveaux/Spider-Man 2 Truefrench DVDrip xvid.ac3-T911.avi",
+            "nomFichier": "Spider-Man 2 Truefrench DVDrip xvid.ac3-T911.avi",
+            "imdbId": null,
+            "tmdbId": null,
+            "tmdbUrl": null,
+            "doublonExact": false,
+            "doublonProbable": true,
+            "groupeDoublon": "spider_man_2",
+            "dateAjout": "2026-11-25T20:03:43.992Z",
+            "technique": {
+                "largeur": 368,
+                "hauteur": 208,
+                "resolution": "368x208",
+                "ratioImage": 1.769,
+                "codecVideo": "mpeg4",
+                "profilVideo": "Advanced Simple Profile",
+                "pixelFormat": "yuv420p",
+                "bitsParComposante": null,
+                "bitrateVideo": 1263062,
+                "framerate": 25,
+                "espaceCouleur": null,
+                "transfertCouleur": null,
+                "primairesCouleur": null,
+                "hdr": false,
+                "dureeFichier": 7334.84,
+                "bitrateGlobal": 1657963,
+                "formatConteneur": "avi",
+                "audio": [
+                    {
+                        "codec": "ac3",
+                        "profil": null,
+                        "canaux": 6,
+                        "disposition": "5.1(side)",
+                        "bitrate": 384000,
+                        "frequence": 48000,
+                        "langue": null
+                    }
+                ],
+                "sousTitres": [],
+                "zoneUtile": {
+                    "largeurUtile": 368,
+                    "hauteurUtile": 144,
+                    "x": 0,
+                    "y": 34
+                }
+            },
+            "fichierNormalise": "Spider Man 2_VF.avi"
+        },
+        {
+            "id": "spider_man_2_2004",
+            "titre": "Spider Man 2 ( )",
+            "annee": 2004,
+            "langue": [
+                "VO",
+                "VF"
+            ],
+            "taille": 3992385978,
+            "genre": null,
+            "image": null,
+            "fichier": "/Box_Films/- Nouveaux/Spider-Man 2 (2004) EXTENDED MULTi VFF-ENG AC3 HDLight 1080p x264-T911.mkv",
+            "nomFichier": "Spider-Man 2 (2004) EXTENDED MULTi VFF-ENG AC3 HDLight 1080p x264-T911.mkv",
+            "imdbId": null,
+            "tmdbId": null,
+            "tmdbUrl": null,
+            "doublonExact": false,
+            "doublonProbable": true,
+            "groupeDoublon": "spider_man_2",
+            "dateAjout": "2026-11-26T12:24:35.086Z",
+            "technique": {
+                "largeur": 1920,
+                "hauteur": 800,
+                "resolution": "1920x800",
+                "ratioImage": 2.4,
+                "codecVideo": "h264",
+                "profilVideo": "High",
+                "pixelFormat": "yuv420p",
+                "bitsParComposante": 8,
+                "bitrateVideo": null,
+                "framerate": 23.976,
+                "espaceCouleur": "bt709",
+                "transfertCouleur": "bt709",
+                "primairesCouleur": "bt709",
+                "hdr": false,
+                "dureeFichier": 8148.512,
+                "bitrateGlobal": 3919622,
+                "formatConteneur": "matroska,webm",
+                "audio": [
+                    {
+                        "codec": "ac3",
+                        "profil": null,
+                        "canaux": 6,
+                        "disposition": "5.1(side)",
+                        "bitrate": 448000,
+                        "frequence": 48000,
+                        "langue": "fre"
+                    },
+                    {
+                        "codec": "ac3",
+                        "profil": null,
+                        "canaux": 6,
+                        "disposition": "5.1(side)",
+                        "bitrate": 448000,
+                        "frequence": 48000,
+                        "langue": "eng"
+                    }
+                ],
+                "sousTitres": [
+                    {
+                        "codec": "subrip",
+                        "langue": "fre",
+                        "titre": "FR Forced"
+                    },
+                    {
+                        "codec": "subrip",
+                        "langue": "fre",
+                        "titre": "FR Full"
+                    },
+                    {
+                        "codec": "subrip",
+                        "langue": "eng",
+                        "titre": "ENG Full"
+                    },
+                    {
+                        "codec": "subrip",
+                        "langue": "eng",
+                        "titre": "ENG Full SDH"
+                    },
+                    {
+                        "codec": "hdmv_pgs_subtitle",
+                        "langue": "fre",
+                        "titre": "FR Full PGS"
+                    },
+                    {
+                        "codec": "hdmv_pgs_subtitle",
+                        "langue": "eng",
+                        "titre": "ENG Full PGS"
+                    },
+                    {
+                        "codec": "hdmv_pgs_subtitle",
+                        "langue": "eng",
+                        "titre": "ENG Full SDH PGS"
+                    }
+                ],
+                "zoneUtile": {
+                    "largeurUtile": 1920,
+                    "hauteurUtile": 800,
+                    "x": 0,
+                    "y": 0
+                }
+            },
+            "fichierNormalise": "Spider Man 2 ( )_2004_VO_VF.mkv"
         },
         {
             "id": "spider_man_new_generation_spider_man_into_the_spider_verse_2018",
@@ -45291,6 +45531,64 @@
             "studio": "Marvel",
             "ignoreInCollection": false,
             "fichierNormalise": "2011_X-Men Le Commencement_VO_VF.mkv"
+        },
+        {
+            "id": "x_men_last_stand_2006",
+            "titre": "X Men Last Stand",
+            "annee": 2006,
+            "langue": [
+                "TBD"
+            ],
+            "taille": 1404966808,
+            "genre": null,
+            "image": null,
+            "fichier": "/Box_Films/- Nouveaux/X-Men.The.Last.Stand.2006.1080p.BrRip.x264.YIFY.mp4",
+            "nomFichier": "X-Men.The.Last.Stand.2006.1080p.BrRip.x264.YIFY.mp4",
+            "imdbId": null,
+            "tmdbId": null,
+            "tmdbUrl": null,
+            "doublonExact": false,
+            "doublonProbable": false,
+            "groupeDoublon": null,
+            "dateAjout": "2026-11-25T04:42:43.984Z",
+            "technique": {
+                "largeur": 1920,
+                "hauteur": 800,
+                "resolution": "1920x800",
+                "ratioImage": 2.4,
+                "codecVideo": "h264",
+                "profilVideo": "High",
+                "pixelFormat": "yuv420p",
+                "bitsParComposante": 8,
+                "bitrateVideo": 1702224,
+                "framerate": 23.976,
+                "espaceCouleur": null,
+                "transfertCouleur": null,
+                "primairesCouleur": null,
+                "hdr": false,
+                "dureeFichier": 6245.376,
+                "bitrateGlobal": 1799688,
+                "formatConteneur": "mov,mp4,m4a,3gp,3g2,mj2",
+                "audio": [
+                    {
+                        "codec": "aac",
+                        "profil": "LC",
+                        "canaux": 2,
+                        "disposition": "stereo",
+                        "bitrate": 93966,
+                        "frequence": 32000,
+                        "langue": "und"
+                    }
+                ],
+                "sousTitres": [],
+                "zoneUtile": {
+                    "largeurUtile": 1920,
+                    "hauteurUtile": 800,
+                    "x": 0,
+                    "y": 0
+                }
+            },
+            "fichierNormalise": "X Men Last Stand_2006_TBD.mp4"
         },
         {
             "id": "x_men_origins",

@@ -148,6 +148,10 @@ async function initFilmDetailPage() {
 
   updateLanguageFilters(films);
   renderFilmFiles(films);
+  if (sessionStorage.getItem("reopenFilmSearchModal") === "1") {
+    sessionStorage.removeItem("reopenFilmSearchModal");
+    document.getElementById("filmSearchButton")?.click();
+  }
 }
 
 function showFilmMetadataChoices(field, label, choices, films) {

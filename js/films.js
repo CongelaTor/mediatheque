@@ -508,6 +508,7 @@ function renderFilmSearchButtons(container) {
         separator,
       );
       // window.open(`${site.url}${encodedSearchText}`, "_blank", "noopener");
+      sessionStorage.setItem("reopenFilmSearchModal", "1");
       window.location.href = `${site.url}${encodedSearchText}`;
       closeFilmSearchModal();
     };
