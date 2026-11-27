@@ -6,7 +6,13 @@ let applyToAll = false;
 
 async function initToolsPage() {
   currentPage = "tools";
-
+  const state = loadSidebarFiltersState();
+  currentAjouts = state.ajouts ?? "all";
+  currentGenre = state.genre ?? "all";
+  currentType = state.type ?? "all";
+  currentStudio = state.studio ?? "all";
+  currentLanguage = state.language ?? "all";
+  currentQuality = state.quality ?? "all";
   updateUserGreeting();
   await isMediaServerAvailable();
   await loadCatalog();
@@ -19,10 +25,9 @@ async function initToolsPage() {
     erreursCount > 1 ? " Erreurs" : " Erreur";
   initResumeButtons();
   updateResumeButtons();
-
-  initToolsFilters();
-  initToolsLanguageFilters();
-
+  initFiltersSidebar();
+  initLanguageFilters();
+  updateToolsSidebarHeight();
   document.getElementById("searchInput").value = loadSearchText();
   currentSearch = loadSearchText();
   document.getElementById("searchInput").addEventListener("input", (event) => {
@@ -43,23 +48,12 @@ async function initToolsPage() {
     }
   });
 
-  const state = loadSidebarFiltersState();
   const toolsState = loadToolsButtonsState();
-  currentAjouts =
-    currentAjouts === "À corriger" ? currentAjouts : (state.ajouts ?? "all");
-  currentGenre = state.genre ?? "all";
-  currentType = state.type ?? "all";
-  currentStudio = state.studio ?? "all";
-
-  updateSidebarTitle("ajoutsTitle", "SELECTION", currentAjouts);
-  updateSidebarTitle("genreTitle", "GENRE", currentGenre);
-  updateSidebarTitle("typeTitle", "TYPE", currentType);
-  updateSidebarTitle("studioTitle", "STUDIO", currentStudio);
-
   showType = toolsState.showType ?? true;
   showGenre = toolsState.showGenre ?? true;
   showStudio = toolsState.showStudio ?? true;
   showFile = toolsState.showFile ?? false;
+
   window.selectedCollectionId = isCollectionContextActive()
     ? sessionStorage.getItem("selectedCollectionId")
     : null;
@@ -115,48 +109,6 @@ async function initToolsPage() {
     renderTools();
   };
 
-  document.getElementById("ajoutsTitle").onclick = () => {
-    const filters = document.getElementById("ajoutsFilters");
-    filters.classList.toggle("hidden");
-
-    const state = loadSidebarState();
-    state.ajoutsExpanded = !filters.classList.contains("hidden");
-    saveSidebarState(state);
-  };
-  const genreTitle = document.getElementById("genreTitle");
-  if (genreTitle) {
-    genreTitle.onclick = () => {
-      const filters = document.getElementById("genreFilters");
-      filters.classList.toggle("hidden");
-
-      const state = loadSidebarState();
-      state.genreExpanded = !filters.classList.contains("hidden");
-      saveSidebarState(state);
-    };
-  }
-  const typeTitle = document.getElementById("typeTitle");
-  if (typeTitle) {
-    typeTitle.onclick = () => {
-      const filters = document.getElementById("typeFilters");
-      filters.classList.toggle("hidden");
-
-      const state = loadSidebarState();
-      state.typeExpanded = !filters.classList.contains("hidden");
-      saveSidebarState(state);
-    };
-  }
-  const studioTitle = document.getElementById("studioTitle");
-  if (studioTitle) {
-    studioTitle.onclick = () => {
-      const filters = document.getElementById("studioFilters");
-      filters.classList.toggle("hidden");
-
-      const state = loadSidebarState();
-      state.studioExpanded = !filters.classList.contains("hidden");
-      saveSidebarState(state);
-    };
-  }
-
   document
     .getElementById("showFileButton")
     .classList.toggle("active", showFile);
@@ -173,69 +125,6 @@ async function initToolsPage() {
     .getElementById("showStudioButton")
     .classList.toggle("active", showStudio);
   renderTools();
-}
-
-function initToolsFilters() {
-  const viewState = loadSidebarFiltersState();
-
-  currentAjouts = viewState.ajouts || "all";
-  currentGenre = viewState.genre || "all";
-  currentType = viewState.type || "all";
-  currentStudio = viewState.studio || "all";
-
-  console.log("initToolsPage");
-  console.log("currentAjouts = ", currentAjouts);
-  console.log("currentGenre = ", currentGenre);
-  console.log("currentType = ", currentType);
-  console.log("currentStudio = ", currentStudio);
-
-  renderAllSidebarFilters("Tous les films");
-
-  document.querySelectorAll(".sidebar-link[data-ajouts]").forEach((button) => {
-    button.onclick = () => selectToolsAjouts(button.dataset.ajouts);
-  });
-  document.querySelectorAll(".sidebar-link[data-genre]").forEach((button) => {
-    button.onclick = () => selectToolsGenre(button.dataset.genre);
-  });
-  document.querySelectorAll(".sidebar-link[data-type]").forEach((button) => {
-    button.onclick = () => selectToolsType(button.dataset.type);
-  });
-  document.querySelectorAll(".sidebar-link[data-studio]").forEach((button) => {
-    button.onclick = () => selectToolsStudio(button.dataset.studio);
-  });
-  document.querySelectorAll(".sidebar-link[data-quality]").forEach((button) => {
-    button.onclick = () => selectQuality(button.dataset.quality);
-  });
-
-  document
-    .querySelector(`.sidebar-link[data-ajouts="${currentAjouts}"]`)
-    ?.classList.add("active");
-
-  document
-    .querySelector(`.sidebar-link[data-genre="${currentGenre}"]`)
-    ?.classList.add("active");
-
-  document
-    .querySelector(`.sidebar-link[data-type="${currentType}"]`)
-    ?.classList.add("active");
-
-  document
-    .querySelector(`.sidebar-link[data-studio="${currentStudio}"]`)
-    ?.classList.add("active");
-
-  const filterState = loadSidebarState();
-  if (!filterState.ajoutsExpanded) {
-    document.getElementById("ajoutsFilters")?.classList.add("hidden");
-  }
-  if (!filterState.genreExpanded) {
-    document.getElementById("genreFilters")?.classList.add("hidden");
-  }
-  if (!filterState.typeExpanded) {
-    document.getElementById("typeFilters")?.classList.add("hidden");
-  }
-  if (!filterState.studioExpanded) {
-    document.getElementById("studioFilters")?.classList.add("hidden");
-  }
 }
 
 function initToolsLanguageFilters() {
@@ -261,16 +150,34 @@ function initToolsLanguageFilters() {
   });
 }
 
+function updateToolsSidebarHeight() {
+  requestAnimationFrame(() => {
+    const scrollbarHeight =
+      window.innerHeight - document.documentElement.clientHeight;
+    document.documentElement.style.setProperty(
+      "--horizontal-scrollbar-height",
+      `${scrollbarHeight}px`,
+    );
+  });
+}
+
 function hasMetadataError(fichier, category) {
+  if (!fichier || fichier.fichier === null) {
+    return false;
+  }
   const categoryValue = fichier[category];
   const valueCount = Array.isArray(categoryValue)
     ? categoryValue.length
     : categoryValue
       ? 1
       : 0;
-  return category === "type" || category === "genre"
-    ? valueCount !== 1
-    : category === "studio" && valueCount > 1;
+  if (category === "type" || category === "genre") {
+    return valueCount !== 1;
+  }
+  if (category === "studio") {
+    return fichier.type === "Animation" ? valueCount !== 1 : valueCount > 1;
+  }
+  return false;
 }
 
 function getMetadataErrorCount() {
@@ -325,87 +232,6 @@ function getSelectedLanguages() {
   return [...document.querySelectorAll(".language-button.active")].map(
     (button) => button.dataset.language,
   );
-}
-
-function selectToolsAjouts(ajouts) {
-  currentAjouts = ajouts;
-  document.querySelectorAll(".sidebar-link[data-ajouts]").forEach((button) => {
-    button.classList.remove("active");
-  });
-  const activeButton = document.querySelector(
-    `.sidebar-link[data-ajouts="${ajouts}"]`,
-  );
-  if (activeButton) {
-    activeButton.classList.add("active");
-  }
-  if (ajouts === "Nouveautés") {
-    currentGenre = "all";
-    currentType = "all";
-    currentStudio = "all";
-
-    document.querySelectorAll(".sidebar-link[data-genre]").forEach((button) => {
-      button.classList.toggle("active", button.dataset.genre === "all");
-    });
-    document.querySelectorAll(".sidebar-link[data-type]").forEach((button) => {
-      button.classList.toggle("active", button.dataset.type === "all");
-    });
-    document
-      .querySelectorAll(".sidebar-link[data-studio]")
-      .forEach((button) => {
-        button.classList.toggle("active", button.dataset.studio === "all");
-      });
-
-    updateSidebarTitle("genreTitle", "GENRE", currentGenre);
-    updateSidebarTitle("typeTitle", "TYPE", currentType);
-    updateSidebarTitle("studioTitle", "STUDIO", currentStudio);
-  }
-  saveToolsFiltersState();
-  renderTools();
-}
-
-function selectToolsGenre(genre) {
-  currentGenre = genre;
-  document.querySelectorAll(".sidebar-link[data-genre]").forEach((button) => {
-    button.classList.remove("active");
-  });
-  const activeButton = document.querySelector(
-    `.sidebar-link[data-genre="${genre}"]`,
-  );
-  if (activeButton) {
-    activeButton.classList.add("active");
-  }
-  saveToolsFiltersState();
-  renderTools();
-}
-
-function selectToolsType(type) {
-  currentType = type;
-  document.querySelectorAll(".sidebar-link[data-type]").forEach((button) => {
-    button.classList.remove("active");
-  });
-  const activeButton = document.querySelector(
-    `.sidebar-link[data-type="${type}"]`,
-  );
-  if (activeButton) {
-    activeButton.classList.add("active");
-  }
-  saveToolsFiltersState();
-  renderTools();
-}
-
-function selectToolsStudio(studio) {
-  currentStudio = studio;
-  document.querySelectorAll(".sidebar-link[data-studio]").forEach((button) => {
-    button.classList.remove("active");
-  });
-  const activeButton = document.querySelector(
-    `.sidebar-link[data-studio="${studio}"]`,
-  );
-  if (activeButton) {
-    activeButton.classList.add("active");
-  }
-  saveToolsFiltersState();
-  renderTools();
 }
 
 function filmMatchesAjouts(fichier) {
@@ -580,10 +406,13 @@ function findUnknownGenres() {
 function renderTools() {
   const container = document.getElementById("toolsContainer");
   let fichiers = catalog.films
+    .filter((fichier) => fichier.fichier !== null)
     .filter((fichier) => filmMatchesAjouts(fichier))
     .filter((fichier) => filmMatchesGenre(fichier))
     .filter((fichier) => filmMatchesType(fichier))
     .filter((fichier) => filmMatchesStudio(fichier))
+    .filter((fichier) => matchesLanguage(fichier))
+    .filter((fichier) => matchesQuality(fichier))
     .filter((fichier) => {
       const filtre = document
         .getElementById("searchInput")
@@ -602,9 +431,7 @@ function renderTools() {
 
   fichiers = fichiers.sort((a, b) => {
     const valeurA = showFile ? a.fichier : a.titreTmdb || a.titre;
-
     const valeurB = showFile ? b.fichier : b.titreTmdb || b.titre;
-
     return valeurA.localeCompare(valeurB, "fr");
   });
 

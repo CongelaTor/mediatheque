@@ -354,60 +354,38 @@ function getTechnicalQualityClass(width) {
   return "film-technical-low";
 }
 
-// ==================================
 function getFilmNormalizationClass(film, relatedFilms = [film]) {
   const languages = Array.isArray(film.langue)
     ? film.langue
-    : [film.langue || "TBD"];
-  const audioLanguages = Array.isArray(film.languesAudio)
-    ? film.languesAudio
-    : getTechnicalLanguages(film.technique?.audio);
-  const subtitleLanguages = Array.isArray(film.languesSousTitres)
-    ? film.languesSousTitres
-    : getTechnicalLanguages(film.technique?.sousTitres);
-  if (languages.includes("TBD")) {
-    return "film-technical-low";
-  }
-  const hasFrenchAudio = audioLanguages.includes("FR");
-  const hasOriginalAudio = audioLanguages.some((language) => language !== "FR");
-  const hasMatchingSubtitles =
-    languages.includes("VOST") === subtitleLanguages.includes("EN") &&
-    languages.includes("VOSTFR") === subtitleLanguages.includes("FR");
-  if (!hasMatchingSubtitles) {
-    return "film-technical-low";
-  }
+    : [film.langue || ""];
+
   if (film.langueOriginale === "fr") {
-    return languages.includes("VF") && hasFrenchAudio
+    return languages.includes("VF")
       ? "film-technical-good"
       : "film-technical-low";
   }
-  const hasSingleFileVoAndVf =
-    languages.includes("VO") &&
-    languages.includes("VF") &&
-    hasFrenchAudio &&
-    hasOriginalAudio;
-  if (hasSingleFileVoAndVf) {
+
+  if (languages.includes("VO") && languages.includes("VF")) {
     return "film-technical-good";
   }
-  const filesPool =
+
+  const files =
     Array.isArray(relatedFilms) && relatedFilms.length > 0
       ? relatedFilms
       : [film];
-  const hasVoAcrossFiles = filesPool.some((item) => {
-    const itemLangs = Array.isArray(item.langue)
-      ? item.langue
-      : [item.langue || "TBD"];
-    return itemLangs.includes("VO");
-  });
-  const hasVfAcrossFiles = filesPool.some((item) => {
-    const itemLangs = Array.isArray(item.langue)
-      ? item.langue
-      : [item.langue || "TBD"];
-    return itemLangs.includes("VF");
-  });
-  if (hasVoAcrossFiles && hasVfAcrossFiles) {
-    return "film-technical-medium";
+
+  if (files.length === 2) {
+    const hasVo = files.some((item) =>
+      (Array.isArray(item.langue) ? item.langue : []).includes("VO"),
+    );
+    const hasVf = files.some((item) =>
+      (Array.isArray(item.langue) ? item.langue : []).includes("VF"),
+    );
+    if (hasVo && hasVf) {
+      return "film-technical-medium";
+    }
   }
+
   return "film-technical-low";
 }
 

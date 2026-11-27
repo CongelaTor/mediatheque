@@ -8,6 +8,8 @@ let currentAjouts = "all";
 let currentGenre = "all";
 let currentType = "all";
 let currentStudio = "all";
+let currentLanguage = "all";
+let currentQuality = "all";
 
 let currentSearch = "";
 
@@ -90,23 +92,12 @@ function loadSearchText() {
   return localStorage.getItem(key) ?? "";
 }
 
-function getSidebarFiltersStateKey(page = currentPage) {
-  if (page === "collections") {
-    return "filmsViewStateCollection"; // Partagé avec le mode collection des films
-  }
-  if (page === "films") {
-    return isCollectionContextActive()
-      ? "filmsViewStateCollection"
-      : "filmsViewStateHorsCollection";
-  }
-  if (page === "tools") {
-    return "filmsViewStateHorsCollection";
-  }
+function getSidebarFiltersStateKey() {
   return filmsViewStateKey;
 }
 
 function saveSidebarFiltersState(page = currentPage, changes = {}) {
-  const key = getSidebarFiltersStateKey(page);
+  const key = getSidebarFiltersStateKey();
   const previousState = JSON.parse(localStorage.getItem(key) ?? "{}");
   const state = {
     ...previousState,
@@ -114,6 +105,7 @@ function saveSidebarFiltersState(page = currentPage, changes = {}) {
     genre: currentGenre,
     type: currentType,
     studio: currentStudio,
+    language: currentLanguage,
     quality: currentQuality,
     languages: [...document.querySelectorAll(".language-button.active")].map(
       (button) => button.dataset.language,
@@ -139,6 +131,8 @@ function saveToolsFiltersState() {
     state.genre = currentGenre;
     state.type = currentType;
     state.studio = currentStudio;
+    state.language = currentLanguage;
+    state.quality = currentQuality;
     localStorage.setItem(getSidebarFiltersStateKey(), JSON.stringify(state));
   }
 

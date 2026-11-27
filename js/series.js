@@ -41,11 +41,15 @@ async function initSeriesPage() {
   currentGenre = state.genre ?? "all";
   currentType = state.type ?? "all";
   currentStudio = state.studio ?? "all";
+  currentLanguage = state.language ?? "all";
+  currentQuality = state.quality ?? "all";
 
   updateSidebarTitle("ajoutsTitle", "SELECTION", currentAjouts);
   updateSidebarTitle("genreTitle", "GENRE", currentGenre);
   updateSidebarTitle("typeTitle", "TYPE", currentType);
   updateSidebarTitle("studioTitle", "STUDIO", currentStudio);
+  updateSidebarTitle("languageTitle", "LANGUE", currentLanguage);
+  updateSidebarTitle("qualityTitle", "QUALITÉ", currentQuality);
 
   //------------------------------
   // SET LANGUAGE FILTERS
@@ -260,6 +264,10 @@ function renderSeries() {
       (serie) => currentAjouts !== "À compléter" || serie.hasMissingEpisodes,
     )
     .filter((serie) => matchesSearch(serie.titre))
+    .filter((serie) => matchesGenre(serie))
+    .filter((serie) => matchesType(serie))
+    .filter((serie) => matchesStudio(serie))
+    .filter((serie) => matchesQuality(serie))
     .sort((a, b) => a.titre.localeCompare(b.titre, "fr"));
 
   setText(

@@ -24,11 +24,13 @@
                             <span id="sideNouveautes">0</span> Nouveautés</div>
                         <div class="sidebar-section"></div>
 
-                        <div class="sidebar-title">Espace disponible</div>
+                        <div class="sidebar-title" id="storageTitle">Espace disponible</div>
                         <div id="sidebarStorageStats"></div>
-                        <div class="sidebar-stat" style="cursor: pointer;" onclick="scanCollectionsTmdb()">Scan des collections</div>
-                        <div class="sidebar-stat" style="cursor: pointer;" onclick="reloadCatalog('films')">Scan des films</div>                
-                        <div class="sidebar-stat" style="cursor: pointer;" onclick="reloadCatalog('nouveaux')">Scan rapide</div>                
+                        <div id="storageActions">
+                            <div class="sidebar-stat" style="cursor: pointer;" onclick="scanCollectionsTmdb()">Scan des collections</div>
+                            <div class="sidebar-stat" style="cursor: pointer;" onclick="reloadCatalog('films')">Scan des films</div>                  
+                            <div class="sidebar-stat" style="cursor: pointer;" onclick="reloadCatalog('nouveaux')">Scan rapide</div>                  
+                        </div>
                         <div class="sidebar-section"></div>
 
                         <div class="sidebar-title" id="ajoutsTitle">Selection</div>
@@ -47,8 +49,13 @@
                         <div id="studioFilters"></div>
                         <div class="sidebar-section"></div>
                         
+                        <div class="sidebar-title" id="languageTitle">Langue</div>
+                        <div id="languageFilters"></div>
+                        <div class="sidebar-section"></div>
+
                         <div class="sidebar-title" id="qualityTitle">Qualité</div>
-                        <div id="qualityFilters"></div>                    </aside>
+                        <div id="qualityFilters"></div>                    
+                    </aside>
 
                     <section class="content">
                         <div class="content-header">

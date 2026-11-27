@@ -104,10 +104,15 @@ function formatFrenchDate(value) {
   });
 }
 
-function showToast(message, type = "success") {
+function showToast(message, type = "success", topPosition = null) {
   const toast = document.createElement("div");
   toast.className = `toast ${type}`;
   toast.textContent = message;
+
+  if (topPosition) {
+    toast.style.top = topPosition;
+    toast.style.bottom = "auto";
+  }
 
   document.body.appendChild(toast);
 

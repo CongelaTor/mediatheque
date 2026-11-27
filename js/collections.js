@@ -2,7 +2,7 @@ let currentCollectionFilter = "all";
 
 function openFilmsNouveautes() {
   setActiveFilmsContext();
-  saveSidebarFiltersState("films", { ajouts: "Nouveautés" });
+  saveSidebarFiltersState({ ajouts: "Nouveautés" });
   window.location.href = "films.html";
 }
 window.openFilmsNouveautes = openFilmsNouveautes;
@@ -27,7 +27,11 @@ async function initCollectionsPage() {
   document.getElementById("searchInput").value = loadSearchText();
   currentSearch = loadSearchText();
   document.addEventListener("click", (event) => {
-    if (event.target.closest(".nav-button, #topbarContainer a, #topbarContainer button")) {
+    if (
+      event.target.closest(
+        ".nav-button, #topbarContainer a, #topbarContainer button",
+      )
+    ) {
       document.getElementById("searchInput")?.blur();
     }
   });
@@ -51,6 +55,7 @@ async function initCollectionsPage() {
   updateSidebarTitle("genreTitle", "GENRE", currentGenre);
   updateSidebarTitle("typeTitle", "TYPE", currentType);
   updateSidebarTitle("studioTitle", "STUDIO", currentStudio);
+  updateSidebarTitle("languageTitle", "LANGUE", currentLanguage);
   updateSidebarTitle("qualityTitle", "QUALITÉ", currentQuality);
 
   //------------------------------

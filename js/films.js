@@ -35,16 +35,17 @@ async function initFilmsPage() {
     searchInput.select();
   });
 
-
   //------------------------------
   // SET SIDE FILTERS
   //------------------------------
   const state = loadSidebarFiltersState();
+  currentAjouts = state.ajouts ?? "all";
   currentGenre = state.genre ?? "all";
   currentType = state.type ?? "all";
   currentStudio = state.studio ?? "all";
+  currentLanguage = state.language ?? "all";
   currentQuality = state.quality ?? "all";
-  currentAjouts = state.ajouts ?? "all";
+  
   window.selectedCollectionId = isCollectionContextActive()
     ? sessionStorage.getItem("selectedCollectionId")
     : null;
@@ -68,6 +69,7 @@ async function initFilmsPage() {
   updateSidebarTitle("genreTitle", "GENRE", currentGenre);
   updateSidebarTitle("typeTitle", "TYPE", currentType);
   updateSidebarTitle("studioTitle", "STUDIO", currentStudio);
+  updateSidebarTitle("languageTitle", "LANGUE", currentLanguage);
   updateSidebarTitle("qualityTitle", "QUALITÉ", currentQuality);
 
   //------------------------------
@@ -161,12 +163,19 @@ function renderFilms() {
       }
       return String(film.collectionId) === window.selectedCollectionId;
     })
-    .filter((film) => filmMatchesAjouts(film))
-    .filter((film) => matchesGenre(film))
-    .filter((film) => matchesType(film))
-    .filter((film) => matchesStudio(film))
-    .filter((film) => matchesQuality(film))
-    .filter((film) => filmMatchesLanguage(film))
+    .filter((film) => {
+      if (window.selectedCollectionId && film.fileCount === 0) {
+        return true;
+      }
+      return (
+        filmMatchesAjouts(film) &&
+        matchesGenre(film) &&
+        matchesType(film) &&
+        matchesStudio(film) &&
+        matchesLanguage(film) &&
+        matchesQuality(film)
+      );
+    })
     .filter((film) =>
       matchesSearch(film.titreTmdb ? film.titreTmdb : film.titre),
     );
@@ -303,17 +312,6 @@ function filmMatchesAjouts(film) {
     });
   }
   return false;
-}
-
-function filmMatchesLanguage(film) {
-  const selectedLanguages = getSelectedLanguages();
-  if (selectedLanguages.length === 0) {
-    return true;
-  }
-  const filmLanguages = Array.isArray(film.langue)
-    ? film.langue
-    : [film.langue];
-  return filmLanguages.some((lang) => selectedLanguages.includes(lang));
 }
 
 function createFilmCard(film) {
@@ -488,6 +486,7 @@ function renderFilmSearchButtons(container) {
     button.className = "tmdb-search-token active";
     button.textContent = site.nom;
     button.onclick = () => {
+      showToast("Recherche en cours", "success", "55%");
       const activeTitleButton = document.querySelector(
         "#filmSearchTitleButtons button[data-title].active",
       );

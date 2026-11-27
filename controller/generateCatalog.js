@@ -3,6 +3,15 @@ const fs = require("fs");
 const path = require("path");
 const { execFileSync, spawnSync } = require("child_process");
 process.stdout._handle?.setBlocking?.(true);
+const scanStartTime = performance.now();
+let checkpointTime = scanStartTime;
+function logTiming(label) {
+  const now = performance.now();
+  console.log(
+    `[TEMPS] ${label} : ${((now - checkpointTime) / 1000).toFixed(3)} s | total ${((now - scanStartTime) / 1000).toFixed(3)} s`,
+  );
+  checkpointTime = now;
+}
 const mediathequeRoot = path.join(__dirname, "..");
 const { getNormalizedFilmFileName } = require(
   path.join(mediathequeRoot, "modules", "filmNormalization.js"),
@@ -96,6 +105,7 @@ const sourcesToScan = scanSources.filter((source) => {
 // En mode "nouveaux", préserver les lecteurs existants non rescannés et ne mettre à jour que les lecteurs scannés
 // ==================================
 const computedStorage = getStorageInfo(scanSources);
+logTiming("Calcul espace disque");
 if (scanType === "nouveaux") {
   const previousStorage = Array.isArray(existingCatalog.stockage)
     ? [...existingCatalog.stockage]
@@ -169,11 +179,17 @@ for (const source of sourcesToScan) {
   }
 }
 
+logTiming("Parcours et analyse des fichiers");
 removeEmptySeries(syncedCatalog);
+logTiming("Suppression séries vides");
 recomputeDuplicates(syncedCatalog);
+logTiming("Recalcul doublons");
 sortCatalog(syncedCatalog);
+logTiming("Tri du catalogue");
 syncedCatalog.dateDernierScan = new Date().toISOString();
 writeJson(jsonCatalogPath, syncedCatalog);
+logTiming("Sérialisation et écriture du catalogue");
+
 function logStat(label, value) {
   console.log(`${label.padEnd(29)} : ${value}`);
 }

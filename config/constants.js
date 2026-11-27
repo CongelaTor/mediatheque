@@ -1,3 +1,6 @@
+const SIDEBAR_HOVER_OPEN_DELAY_MS = 500;
+const SIDEBAR_HOVER_CLOSE_DELAY_MS = 120;
+
 const FILTER_DOUBLONS_NB_FICHIERS = 3;
 const FILTER_AJOUTS = {
   collections: ["Récents", "À compléter", "Doublons"],
@@ -32,8 +35,15 @@ const TMDB_IGNORE_GENRES = [
   "Thriller",
   "Western",
 ];
-const FILTER_STUDIOS = ["Disney", "Disney Classic", "Marvel", "Pixar"];
-
+const FILTER_STUDIOS = [
+  "Disney",
+  "Disney Classic",
+  "DreamWorks",
+  "Marvel",
+  "Pixar",
+  "Autres",
+];
+const FILTER_LANGUAGES = ["VO", "VF", "VOST", "VOSTFR", "TBD"];
 const FILTER_QUALITIES = ["Haute", "Moyenne", "Basse"];
 
 const TOOLS_FILTER_STATE_KEY = "toolsFilterState";
@@ -50,13 +60,14 @@ function saveFilterState(storageKey, state) {
 function loadSidebarState() {
   return loadFilterState("sidebarState", {
     ajoutsExpanded: false,
+    storageExpanded: false,
     genreExpanded: false,
     typeExpanded: false,
     studioExpanded: false,
+    languageExpanded: false,
     qualityExpanded: false,
   });
 }
-
 function saveSidebarState(state) {
   saveFilterState("sidebarState", state);
 }
@@ -113,6 +124,12 @@ function renderAllSidebarFilters(tousValue) {
     "studio",
     "Tous les studios",
   );
+  renderSidebarFilters(
+    "languageFilters",
+    FILTER_LANGUAGES,
+    "language",
+    "Toutes les langues",
+  );
   if (currentPage !== "series") {
     renderSidebarFilters(
       "qualityFilters",
@@ -129,6 +146,10 @@ function updateSidebarTitle(elementId, label, value) {
     return;
   }
   element.textContent = value === "all" ? label : `${label} (${value})`;
+  element.classList.toggle(
+    "sidebar-title-filtered",
+    value !== "all" && elementId !== "qualityTitle",
+  );
   if (elementId === "qualityTitle") {
     element.classList.remove(
       "film-technical-good",
@@ -139,6 +160,74 @@ function updateSidebarTitle(elementId, label, value) {
     if (value === "Moyenne") element.classList.add("film-technical-medium");
     if (value === "Basse") element.classList.add("film-technical-low");
   }
+}
+
+function setupHoverExpand(titleId, filtersId, expandedKey) {
+  const titleEl = document.getElementById(titleId);
+  const filtersEl = document.getElementById(filtersId);
+  if (!titleEl || !filtersEl) {
+    return;
+  }
+
+  let openTimer = null;
+  let closeTimer = null;
+
+  const cancelOpen = () => {
+    if (openTimer) {
+      clearTimeout(openTimer);
+      openTimer = null;
+    }
+  };
+
+  const cancelClose = () => {
+    if (closeTimer) {
+      clearTimeout(closeTimer);
+      closeTimer = null;
+    }
+  };
+
+  const scheduleClose = () => {
+    cancelClose();
+    closeTimer = setTimeout(() => {
+      filtersEl.classList.add("hidden");
+      const sidebarState = loadSidebarState();
+      sidebarState[expandedKey] = false;
+      saveSidebarState(sidebarState);
+    }, SIDEBAR_HOVER_CLOSE_DELAY_MS);
+  };
+
+  titleEl.addEventListener("mouseenter", () => {
+    cancelClose();
+    if (!filtersEl.classList.contains("hidden")) {
+      return;
+    }
+    cancelOpen();
+    openTimer = setTimeout(() => {
+      filtersEl.classList.remove("hidden");
+      const sidebarState = loadSidebarState();
+      sidebarState[expandedKey] = true;
+      saveSidebarState(sidebarState);
+    }, SIDEBAR_HOVER_OPEN_DELAY_MS);
+  });
+
+  titleEl.addEventListener("mouseleave", () => {
+    cancelOpen();
+    scheduleClose();
+  });
+
+  titleEl.addEventListener("click", () => {
+    cancelOpen();
+    cancelClose();
+  });
+
+  filtersEl.addEventListener("mouseenter", () => {
+    cancelOpen();
+    cancelClose();
+  });
+
+  filtersEl.addEventListener("mouseleave", () => {
+    scheduleClose();
+  });
 }
 
 function initFiltersSidebar(ecran) {
@@ -152,22 +241,25 @@ function initFiltersSidebar(ecran) {
 
   switch (currentPage) {
     case "collections":
-      validAjouts = ["all", "Récents", "À compléter", "Doublons"];
+      validAjouts = ["all", ...FILTER_AJOUTS.collections];
       tousLabel = "Toutes les collections";
       break;
     case "films":
       // Si on est dans une collection active, on retire "Nouveautés" des ajouts valides
       validAjouts = isCollectionContext
-        ? ["all", "Récents", "Doublons"]
-        : ["all", "Nouveautés", "Récents", "Doublons", "À déplacer"];
+        ? [
+            "all",
+            ...FILTER_AJOUTS.films.filter((item) => item !== "Nouveautés"),
+          ]
+        : ["all", ...FILTER_AJOUTS.films];
       tousLabel = "Tous les films";
       break;
     case "tools":
-      validAjouts = ["all", "Nouveautés", "Récents", "Doublons"];
+      validAjouts = ["all", ...FILTER_AJOUTS.tools];
       tousLabel = "Tous les films";
       break;
     case "series":
-      validAjouts = ["all", "Nouveautés", "Récents", "À compléter"];
+      validAjouts = ["all", ...FILTER_AJOUTS.series];
       tousLabel = "Toutes les séries";
       break;
   }
@@ -213,14 +305,16 @@ function initFiltersSidebar(ecran) {
   currentGenre = viewState.genre || "all";
   currentType = viewState.type || "all";
   currentStudio = viewState.studio || "all";
+  currentLanguage = viewState.language || "all";
   currentQuality = viewState.quality || "all";
 
-  console.log("currentPage =", currentPage);
-  console.log("currentAjouts = ", currentAjouts);
-  console.log("currentAjouts = ", currentAjouts);
-  console.log("currentGenre = ", currentGenre);
-  console.log("currentType = ", currentType);
-  console.log("currentStudio = ", currentStudio);
+  console.log("currentPage     =", currentPage);
+  console.log("currentAjouts   = ", currentAjouts);
+  console.log("currentGenre    = ", currentGenre);
+  console.log("currentType     = ", currentType);
+  console.log("currentStudio   = ", currentStudio);
+  console.log("currentLanguage = ", currentLanguage);
+  console.log("currentQuality  = ", currentQuality);
 
   document.querySelectorAll(".sidebar-link[data-ajouts]").forEach((button) => {
     button.onclick = () => selectAjouts(button.dataset.ajouts);
@@ -234,6 +328,11 @@ function initFiltersSidebar(ecran) {
   document.querySelectorAll(".sidebar-link[data-studio]").forEach((button) => {
     button.onclick = () => selectStudio(button.dataset.studio);
   });
+  document
+    .querySelectorAll(".sidebar-link[data-language]")
+    .forEach((button) => {
+      button.onclick = () => selectLanguage(button.dataset.language);
+    });
   document.querySelectorAll(".sidebar-link[data-quality]").forEach((button) => {
     button.onclick = () => selectQuality(button.dataset.quality);
   });
@@ -251,6 +350,9 @@ function initFiltersSidebar(ecran) {
     .querySelector(`.sidebar-link[data-studio="${currentStudio}"]`)
     ?.classList.add("active");
   document
+    .querySelector(`.sidebar-link[data-language="${currentLanguage}"]`)
+    ?.classList.add("active");
+  document
     .querySelector(`.sidebar-link[data-quality="${currentQuality}"]`)
     ?.classList.add("active");
 
@@ -259,17 +361,20 @@ function initFiltersSidebar(ecran) {
   if (!state.ajoutsExpanded) {
     document.getElementById("ajoutsFilters")?.classList.add("hidden");
   }
-
+  if (!state.storageExpanded) {
+    document.getElementById("storageActions")?.classList.add("hidden");
+  }
   if (!state.genreExpanded) {
     document.getElementById("genreFilters")?.classList.add("hidden");
   }
-
   if (!state.typeExpanded) {
     document.getElementById("typeFilters")?.classList.add("hidden");
   }
-
   if (!state.studioExpanded) {
     document.getElementById("studioFilters")?.classList.add("hidden");
+  }
+  if (!state.languageExpanded) {
+    document.getElementById("languageFilters")?.classList.add("hidden");
   }
   if (!state.qualityExpanded) {
     document.getElementById("qualityFilters")?.classList.add("hidden");
@@ -283,6 +388,17 @@ function initFiltersSidebar(ecran) {
     state.ajoutsExpanded = !filters.classList.contains("hidden");
     saveSidebarState(state);
   };
+
+  const storageTitle = document.getElementById("storageTitle");
+  if (storageTitle) {
+    storageTitle.onclick = () => {
+      const actions = document.getElementById("storageActions");
+      actions.classList.toggle("hidden");
+      const state = loadSidebarState();
+      state.storageExpanded = !actions.classList.contains("hidden");
+      saveSidebarState(state);
+    };
+  }
 
   document.getElementById("genreTitle").onclick = () => {
     const filters = document.getElementById("genreFilters");
@@ -310,6 +426,15 @@ function initFiltersSidebar(ecran) {
     saveSidebarState(state);
   };
 
+  const languageTitle = document.getElementById("languageTitle");
+  languageTitle.onclick = () => {
+    const filters = document.getElementById("languageFilters");
+    filters.classList.toggle("hidden");
+    const state = loadSidebarState();
+    state.languageExpanded = !filters.classList.contains("hidden");
+    saveSidebarState(state);
+  };
+
   const qualityTitle = document.getElementById("qualityTitle");
   if (qualityTitle) {
     qualityTitle.onclick = () => {
@@ -320,6 +445,14 @@ function initFiltersSidebar(ecran) {
       saveSidebarState(state);
     };
   }
+
+  setupHoverExpand("ajoutsTitle", "ajoutsFilters", "ajoutsExpanded");
+  setupHoverExpand("storageTitle", "storageActions", "storageExpanded");
+  setupHoverExpand("genreTitle", "genreFilters", "genreExpanded");
+  setupHoverExpand("typeTitle", "typeFilters", "typeExpanded");
+  setupHoverExpand("studioTitle", "studioFilters", "studioExpanded");
+  setupHoverExpand("languageTitle", "languageFilters", "languageExpanded");
+  setupHoverExpand("qualityTitle", "qualityFilters", "qualityExpanded");
 }
 
 function selectAjouts(ajouts) {
@@ -438,6 +571,27 @@ function selectStudio(studio) {
 
   renderCurrentScreen();
 }
+function selectLanguage(language) {
+  currentLanguage = language;
+  document
+    .querySelectorAll(".sidebar-link[data-language]")
+    .forEach((button) => {
+      button.classList.remove("active");
+    });
+  const activeButton = document.querySelector(
+    `.sidebar-link[data-language="${language}"]`,
+  );
+  if (activeButton) {
+    activeButton.classList.add("active");
+  }
+  saveSidebarFiltersState();
+  document.getElementById("languageFilters")?.classList.add("hidden");
+  const state = loadSidebarState();
+  state.languageExpanded = false;
+  saveSidebarState(state);
+  updateSidebarTitle("languageTitle", "LANGUES", currentLanguage);
+  renderCurrentScreen();
+}
 function selectQuality(quality) {
   currentQuality = quality;
   document.querySelectorAll(".sidebar-link[data-quality]").forEach((button) => {
@@ -481,7 +635,16 @@ function matchesStudio(film) {
   }
   return film.studio === currentStudio;
 }
-
+function matchesLanguage(film) {
+  if (currentLanguage === "all") {
+    return true;
+  }
+  const files = film.groupFiles?.length ? film.groupFiles : [film];
+  return files.some((file) => {
+    const languages = Array.isArray(file.langue) ? file.langue : [file.langue];
+    return languages.includes(currentLanguage);
+  });
+}
 function matchesQuality(film) {
   if (currentQuality === "all") {
     return true;
@@ -517,7 +680,7 @@ function renderCurrentScreen() {
       renderFilms();
       break;
     case "tools":
-      renderFilms();
+      renderTools();
       break;
     case "series":
       renderSeries();
