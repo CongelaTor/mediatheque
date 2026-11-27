@@ -7,15 +7,16 @@ const scanStartTime = performance.now();
 let checkpointTime = scanStartTime;
 function logTiming(label) {
   const now = performance.now();
-  console.log(
-    `[TEMPS] ${label} : ${((now - checkpointTime) / 1000).toFixed(3)} s | total ${((now - scanStartTime) / 1000).toFixed(3)} s`,
-  );
+  // console.log(
+  //   `[TEMPS] ${label} : ${((now - checkpointTime) / 1000).toFixed(3)} s | total ${((now - scanStartTime) / 1000).toFixed(3)} s`,
+  // );
   checkpointTime = now;
 }
 const mediathequeRoot = path.join(__dirname, "..");
 const { getNormalizedFilmFileName } = require(
   path.join(mediathequeRoot, "modules", "filmNormalization.js"),
 );
+logTiming("Initialisation et chargement filmNormalization");
 const mediaServerDir = "Z:\\01_mediaServer";
 const configPath = path.join(mediaServerDir, "config", "config.json");
 const ignoreWordsPath = path.join(mediaServerDir, "config", "ignoreWords.json");
@@ -24,11 +25,11 @@ const languageAliasesPath = path.join(
   "config",
   "languageAliases.json",
 );
-
 const jsonCatalogPath = path.join(mediathequeRoot, "data", "catalog.json");
 const calculChemins = require(
   path.join(mediaServerDir, "js", "calculChemins.js"),
 );
+logTiming("Chargement calculChemins");
 const mediaServerPaths = calculChemins.calculatePaths(
   {
     platform: process.platform === "linux" ? "linux" : "windows",
@@ -39,12 +40,15 @@ const mediaServerPaths = calculChemins.calculatePaths(
     fs,
   },
 );
-
+logTiming("calculatePaths");
 const config = readJson(configPath);
+logTiming("Lecture config");
 const ignoreWordsConfig = readJson(ignoreWordsPath);
+logTiming("Lecture ignoreWords");
 const languageAliases = readJson(languageAliasesPath);
+logTiming("Lecture languageAliases");
 const existingCatalog = readJson(jsonCatalogPath);
-
+logTiming("Lecture catalog");
 const targetDriveEntry = Object.entries(mediaServerPaths.driveMappings).find(
   ([, drive]) =>
     drive &&
@@ -53,18 +57,17 @@ const targetDriveEntry = Object.entries(mediaServerPaths.driveMappings).find(
 const targetFilmsRootName = targetDriveEntry
   ? `${targetDriveEntry[0]}_Films`
   : null;
-
 normalizeIgnoreWordsConfig(ignoreWordsConfig);
 writeJson(ignoreWordsPath, ignoreWordsConfig);
-
+logTiming("Normalisation et écriture ignoreWords");
 const existingFilmByPath = buildExistingFilmByPath(existingCatalog);
+logTiming("Index films par chemin");
 const existingFilmsByName = buildExistingFilmsByName(existingCatalog);
+logTiming("Index films par nom");
 const existingEpisodeByPath = buildExistingEpisodeByPath(existingCatalog);
+logTiming("Index épisodes par chemin");
 const existingSerieByKey = buildExistingSerieByKey(existingCatalog);
-
-// --------------------------------------
-//  conserver la partie du catalog qui n'est pas rescannée
-// --------------------------------------
+logTiming("Index séries");
 const syncedCatalog = {
   version: existingCatalog.version || 1,
   dateDernierScan: null,
@@ -80,18 +83,16 @@ const syncedCatalog = {
       ? [...(existingCatalog.series || [])]
       : [],
 };
-
 let totalVideos = 0;
 let totalNewFilms = 0;
 let totalNewEpisodes = 0;
 let totalKeptFilms = 0;
 let totalKeptEpisodes = 0;
-
 const scanSources = process.env.MEDIA_SCAN_SOURCES
   ? JSON.parse(process.env.MEDIA_SCAN_SOURCES)
   : config.sources;
 // console.log("config.sources =", config.sources);
-console.log("scanSources =", scanSources);
+// console.log("scanSources =", scanSources);
 const sourcesToScan = scanSources.filter((source) => {
   if (scanType === "all") {
     return true;
@@ -101,9 +102,9 @@ const sourcesToScan = scanSources.filter((source) => {
   }
   return source.type === scanType.slice(0, -1);
 });
-
 // En mode "nouveaux", préserver les lecteurs existants non rescannés et ne mettre à jour que les lecteurs scannés
 // ==================================
+logTiming("Préparation catalogue et sources");
 const computedStorage = getStorageInfo(scanSources);
 logTiming("Calcul espace disque");
 if (scanType === "nouveaux") {

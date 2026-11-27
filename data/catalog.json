@@ -1,6 +1,6 @@
 {
     "version": 1,
-    "dateDernierScan": "2026-11-26T12:27:20.375Z",
+    "dateDernierScan": "2026-11-27T21:28:30.141Z",
     "collections": [
         {
             "collectionId": 645,
@@ -22,6 +22,13 @@
             "collectionImage": "/8iLbX1Bc7r7fpbBe92ZMCKn1UZr.jpg",
             "collectionDescription": "Fast and Furious est une série de films d'action avec comme toile de fond les courses de rue illégales et des braquages.",
             "collectionFilmCount": 12
+        },
+        {
+            "collectionId": 556,
+            "collectionNom": "Spider-Man - Saga",
+            "collectionImage": "/mW2jg5bQjfY4oTzmdUNpqrY9GGB.jpg",
+            "collectionDescription": "Série de films réalisée par Sam Raimi et librement inspirée par les aventures du personnage de bande dessinée de Marvel, Spider-Man.",
+            "collectionFilmCount": 3
         },
         {
             "collectionId": 86311,
@@ -409,6 +416,13 @@
             "collectionFilmCount": 3
         },
         {
+            "collectionId": 382685,
+            "collectionNom": "Insaisissables - Saga",
+            "collectionImage": "/JAzLUXjXJEGp9IKR7jEY4L2VSL.jpg",
+            "collectionDescription": "Insaisissables est un thriller américain de 2013 réalisé par Louis Leterrier. Le film met en vedette un groupe composé de Jesse Eisenberg, Mark Ruffalo, Woody Harrelson, Mélanie Laurent, Isla Fisher, Dave Franco, Michael Caine et Morgan Freeman.  L'intrigue suit un agent du FBI et un détective d'Interpol traquants une équipe d'illusionnistes qui se livrent à des braquages de banques pendant leurs performances et récompensent leur public avec l'argent. Une suite a été publiée le 10 juin 2016 et s'intitulait Insaisissables 2. Un troisième volet est prévu.",
+            "collectionFilmCount": 4
+        },
+        {
             "collectionId": 70068,
             "collectionNom": "Ip Man - Saga",
             "collectionImage": "/yTxAElaa7j7o1GmpEWgmMSiGYFp.jpg",
@@ -633,13 +647,6 @@
             "collectionFilmCount": 3
         },
         {
-            "collectionId": 556,
-            "collectionNom": "Spider-Man - Saga",
-            "collectionImage": "/mW2jg5bQjfY4oTzmdUNpqrY9GGB.jpg",
-            "collectionDescription": "Série de films réalisée par Sam Raimi et librement inspirée par les aventures du personnage de bande dessinée de Marvel, Spider-Man.",
-            "collectionFilmCount": 3
-        },
-        {
             "collectionId": 573436,
             "collectionNom": "Spider-Man : New Generation - Saga",
             "collectionImage": "/6BiByOXRrMqB3yFVyuPFNZnJlPj.jpg",
@@ -680,13 +687,6 @@
             "collectionImage": "/pQDIFEwpXuMNegV4Ki1vklzJYBO.jpg",
             "collectionDescription": "La collection originale de Disney se déroule dans l'ancienne Polynésie et raconte l'histoire de Vaiana, la fille déterminée du chef d'un village côtier, choisie par l'océan lui-même pour réunir une relique mystique avec la déesse Te Fiti.",
             "collectionFilmCount": 3
-        },
-        {
-            "collectionId": 382685,
-            "collectionNom": "Insaisissables - Saga",
-            "collectionImage": "/JAzLUXjXJEGp9IKR7jEY4L2VSL.jpg",
-            "collectionDescription": "Insaisissables est un thriller américain de 2013 réalisé par Louis Leterrier. Le film met en vedette un groupe composé de Jesse Eisenberg, Mark Ruffalo, Woody Harrelson, Mélanie Laurent, Isla Fisher, Dave Franco, Michael Caine et Morgan Freeman.  L'intrigue suit un agent du FBI et un détective d'Interpol traquants une équipe d'illusionnistes qui se livrent à des braquages de banques pendant leurs performances et récompensent leur public avec l'argent. Une suite a été publiée le 10 juin 2016 et s'intitulait Insaisissables 2. Un troisième volet est prévu.",
-            "collectionFilmCount": 4
         },
         {
             "collectionId": 1413999,
@@ -960,6 +960,36 @@
             "languesAudio": [
                 "FR"
             ],
+            "ignoreInCollection": false
+        },
+        {
+            "id": "tmdb_13654",
+            "titre": "101 Dalmatiens 2 : Sur la Trace des Héros",
+            "annee": 2003,
+            "langue": [
+                "TBD"
+            ],
+            "taille": 0,
+            "genre": [
+                "Aventure"
+            ],
+            "image": "https://image.tmdb.org/t/p/w342/o02DhgYjczigl4QTGnSmfRqqFkd.jpg",
+            "fichier": null,
+            "nomFichier": null,
+            "tmdbId": 13654,
+            "tmdbUrl": "https://www.themoviedb.org/movie/13654",
+            "doublonExact": false,
+            "doublonProbable": false,
+            "groupeDoublon": null,
+            "dateAjout": null,
+            "titreTmdb": "101 Dalmatiens 2 : Sur la Trace des Héros",
+            "titreOriginal": "101 Dalmatians II: Patch's London Adventure",
+            "anneeTmdb": 2003,
+            "descriptionTmdb": "Patch, le chiot de Pongo et Perdita, a l’opportunité de rencontrer son idole, Ouragan. Lorsqu’ils apprennent qu’il sera remplacé, Ouragan et Patch se transforment en vrais héros. Et quand Cruella d’Enfer refait surface, c’est le travail d’équipe de Patch et d’Ouragan qui les sauvera.",
+            "collectionId": 100693,
+            "collectionNom": "Les 101 Dalmatiens (Animation) - Saga",
+            "type": "Animation",
+            "studio": null,
             "ignoreInCollection": false
         },
         {
@@ -1315,6 +1345,125 @@
             "fichierOriginal": "02 2.Fast.2.Furious.MULTi.VF2.1080p.Bluray.HDLight.AC3.x265-Zone80.mkv"
         },
         {
+            "id": "2002_spider_man",
+            "titre": "2002 Spider Man",
+            "annee": null,
+            "langue": [
+                "VO"
+            ],
+            "taille": 3566048784,
+            "genre": [
+                "Science-Fiction"
+            ],
+            "image": "https://image.tmdb.org/t/p/w342/pNz1NREgddPdlzytlR8mW4B26fW.jpg",
+            "fichier": "/Box_Films/Marvel/Spider-Man/2002_Spider-Man_VO_VF_VOST_VOSTFR.mkv",
+            "nomFichier": "2002_Spider-Man_VO_VF_VOST_VOSTFR.mkv",
+            "imdbId": null,
+            "tmdbId": 557,
+            "tmdbUrl": "https://www.themoviedb.org/movie/557",
+            "doublonExact": false,
+            "doublonProbable": false,
+            "groupeDoublon": null,
+            "dateAjout": "2026-11-26T13:09:54.088Z",
+            "technique": {
+                "largeur": 1920,
+                "hauteur": 1040,
+                "resolution": "1920x1040",
+                "ratioImage": 1.846,
+                "codecVideo": "h264",
+                "profilVideo": "High",
+                "pixelFormat": "yuv420p",
+                "bitsParComposante": 8,
+                "bitrateVideo": null,
+                "framerate": 23.976,
+                "espaceCouleur": "bt709",
+                "transfertCouleur": "bt709",
+                "primairesCouleur": "bt709",
+                "hdr": false,
+                "dureeFichier": 7272.256,
+                "bitrateGlobal": 3922907,
+                "formatConteneur": "matroska,webm",
+                "audio": [
+                    {
+                        "codec": "ac3",
+                        "profil": null,
+                        "canaux": 6,
+                        "disposition": "5.1(side)",
+                        "bitrate": 448000,
+                        "frequence": 48000,
+                        "langue": "fre"
+                    },
+                    {
+                        "codec": "ac3",
+                        "profil": null,
+                        "canaux": 6,
+                        "disposition": "5.1(side)",
+                        "bitrate": 448000,
+                        "frequence": 48000,
+                        "langue": "eng"
+                    }
+                ],
+                "sousTitres": [
+                    {
+                        "codec": "subrip",
+                        "langue": "fre",
+                        "titre": "FR Forced"
+                    },
+                    {
+                        "codec": "subrip",
+                        "langue": "fre",
+                        "titre": "FR Full"
+                    },
+                    {
+                        "codec": "subrip",
+                        "langue": "eng",
+                        "titre": "ENG Full"
+                    },
+                    {
+                        "codec": "subrip",
+                        "langue": "eng",
+                        "titre": "ENG Full SDH"
+                    },
+                    {
+                        "codec": "hdmv_pgs_subtitle",
+                        "langue": "fre",
+                        "titre": "FR Full PGS"
+                    },
+                    {
+                        "codec": "hdmv_pgs_subtitle",
+                        "langue": "eng",
+                        "titre": "ENG Full PGS"
+                    },
+                    {
+                        "codec": "hdmv_pgs_subtitle",
+                        "langue": "eng",
+                        "titre": "ENG Full SDH PGS"
+                    }
+                ],
+                "zoneUtile": {
+                    "largeurUtile": 1920,
+                    "hauteurUtile": 1040,
+                    "x": 0,
+                    "y": 0
+                }
+            },
+            "fichierNormalise": "2002 Spider Man_VO.mkv",
+            "titreTmdb": "Spider-Man",
+            "titreOriginal": "Spider-Man",
+            "langueOriginale": "en",
+            "anneeTmdb": "2002",
+            "dureeTmdb": 121,
+            "descriptionTmdb": "Orphelin, Peter Parker est élevé par sa tante May et son oncle Ben dans le quartier Queens de New York. Tout en poursuivant ses études de biophysique à l'université, il trouve un emploi de photographe au journal Daily Bugle. Cependant, après avoir été mordu par une araignée radioactive, ce dernier est sujet à des transformations physiques : son agilité et sa force se sont accrues, et il se voit doter de pouvoirs surnaturels. Peter décide alors de participer à un combat de catch qu'il remporte avec une facilité déconcertante. Mais l'organisateur du spectacle, décrétant qu'il y a eu tricherie, refuse de lui remettre le prix de 3 000 dollars qui lui revient de droit. Au même moment, l'homme d'affaires mégalomane Norman Osborn expérimente sur lui-même de dangereuses solutions chimiques. Des mutations s'opèrent bientôt sur son corps et son esprit. Il se transforme alors en Bouffon Vert.",
+            "collectionId": 556,
+            "collectionNom": "Spider-Man - Saga",
+            "collectionDescription": "Série de films réalisée par Sam Raimi et librement inspirée par les aventures du personnage de bande dessinée de Marvel, Spider-Man.",
+            "collectionImage": "https://image.tmdb.org/t/p/w500/mW2jg5bQjfY4oTzmdUNpqrY9GGB.jpg",
+            "collectionTmdbUrl": "https://www.themoviedb.org/collection/556",
+            "ignoreInCollection": false,
+            "type": "Film",
+            "studio": null
+        },
+        {
             "id": "a_avengers_age_of_ultron_2015",
             "titre": "a Avengers Age Of Ultron",
             "annee": 2015,
@@ -1380,7 +1529,8 @@
             },
             "titreOriginal": "Avengers: Age of Ultron",
             "langueOriginale": "en",
-            "fichierNormalise": "2015_Avengers L'Ère d'Ultron_VF.avi"
+            "fichierNormalise": "2015_Avengers L'Ère d'Ultron_VF.avi",
+            "ignoreInCollection": false
         },
         {
             "id": "a_avengers_age_of_ultron_2015",
@@ -1456,101 +1606,6 @@
             "titreOriginal": "Avengers: Age of Ultron",
             "langueOriginale": "en",
             "fichierNormalise": "2015_Avengers L'Ère d'Ultron_VF.mkv"
-        },
-        {
-            "id": "a_black_panther_2018",
-            "titre": "a Black Panther",
-            "annee": 2018,
-            "langue": [
-                "VF"
-            ],
-            "taille": 3731661516,
-            "genre": [
-                "Science-Fiction"
-            ],
-            "image": "https://image.tmdb.org/t/p/w342/g94IcdzPswTYl1ISdgn2EwvaZtt.jpg",
-            "fichier": "/Box_Films/Marvel/Black Panther/2018_Black Panther_VF.mkv",
-            "nomFichier": "2018_Black Panther_VF.mkv",
-            "imdbId": null,
-            "tmdbId": 284054,
-            "tmdbUrl": "https://www.themoviedb.org/movie/284054",
-            "doublonExact": false,
-            "doublonProbable": false,
-            "groupeDoublon": null,
-            "dateAjout": "2018-05-05T08:31:45.819Z",
-            "titreTmdb": "Black Panther",
-            "anneeTmdb": "2018",
-            "dureeTmdb": 134,
-            "descriptionTmdb": "Après les événements qui se sont déroulés dans « Captain America : Civil War », T’Challa revient chez lui prendre sa place sur le trône du Wakanda, une nation africaine technologiquement très avancée. Mais lorsqu’un vieil ennemi resurgit, le courage de T’Challa est mis à rude épreuve, aussi bien en tant que souverain qu’en tant que Black Panther. Il se retrouve entraîné dans un conflit qui menace non seulement le destin du Wakanda, mais celui du monde entier…",
-            "collectionId": 529892,
-            "collectionNom": "Black Panther - Saga",
-            "collectionDescription": "Le Wakanda et sa métropole, dominée par des gratte-ciel modernes, est une nation africaine techniquement avancée qui est coupée du monde extérieur et se fait passer pour un pays pauvre du tiers-monde. Grâce à l'impact d'une météorite et à la source de matière première qui en résulte, le seul métal local, le vibranium, le pays africain peut se rendre invisible au reste du monde sous un immense dispositif de camouflage. Aussi, parce que la source de progrès pourrait faire des ravages entre de mauvaises mains, les premiers dirigeants du Wakanda ont opté pour l'isolement, qui perdure encore aujourd'hui.",
-            "collectionImage": "https://image.tmdb.org/t/p/w500/1bVrlIR6snwTglKtl5umYmGpnsb.jpg",
-            "collectionTmdbUrl": "https://www.themoviedb.org/collection/529892",
-            "type": "Film",
-            "studio": "Marvel",
-            "technique": {
-                "largeur": 1920,
-                "hauteur": 808,
-                "resolution": "1920x808",
-                "ratioImage": 2.376,
-                "codecVideo": "h264",
-                "profilVideo": "High",
-                "pixelFormat": "yuv420p",
-                "bitsParComposante": 8,
-                "bitrateVideo": null,
-                "framerate": 23.976,
-                "espaceCouleur": "bt709",
-                "transfertCouleur": "bt709",
-                "primairesCouleur": "bt709",
-                "hdr": false,
-                "dureeFichier": 8073.152,
-                "bitrateGlobal": 3697848,
-                "formatConteneur": "matroska,webm",
-                "audio": [
-                    {
-                        "codec": "ac3",
-                        "profil": null,
-                        "canaux": 6,
-                        "disposition": "5.1(side)",
-                        "bitrate": 448000,
-                        "frequence": 48000,
-                        "langue": "fre"
-                    },
-                    {
-                        "codec": "ac3",
-                        "profil": null,
-                        "canaux": 6,
-                        "disposition": "5.1(side)",
-                        "bitrate": 448000,
-                        "frequence": 48000,
-                        "langue": "eng"
-                    }
-                ],
-                "sousTitres": [
-                    {
-                        "codec": "subrip",
-                        "langue": "fre",
-                        "titre": "FR Forced"
-                    },
-                    {
-                        "codec": "subrip",
-                        "langue": "fre",
-                        "titre": "FULL FR"
-                    }
-                ],
-                "zoneUtile": null
-            },
-            "titreOriginal": "Black Panther",
-            "langueOriginale": "en",
-            "ignoreInCollection": false,
-            "fichierNormalise": "2018_Black Panther_VO_VF.mkv",
-            "languesSousTitres": [
-                "FR"
-            ],
-            "languesAudio": [
-                "FR"
-            ]
         },
         {
             "id": "a_captain_2019",
@@ -3083,6 +3138,100 @@
             "titre": "Aquaman",
             "annee": 2018,
             "langue": [
+                "VF"
+            ],
+            "taille": 3343065527,
+            "genre": [
+                "Science-Fiction"
+            ],
+            "image": "https://image.tmdb.org/t/p/w342/ghbBIweVDjTyx983GQmnCPGlE3U.jpg",
+            "fichier": "/Box_Films/- Nouveaux/Aquaman.2018.IMAX.MULTI.TRUEFRENCH.1080p.HDLight.x264.AC3-EXTREME.mkv",
+            "nomFichier": "Aquaman.2018.IMAX.MULTI.TRUEFRENCH.1080p.HDLight.x264.AC3-EXTREME.mkv",
+            "imdbId": null,
+            "tmdbId": 297802,
+            "tmdbUrl": "https://www.themoviedb.org/movie/297802",
+            "doublonExact": false,
+            "doublonProbable": true,
+            "groupeDoublon": "aquaman",
+            "dateAjout": "2026-11-27T18:33:39.173Z",
+            "technique": {
+                "largeur": 1920,
+                "hauteur": 1080,
+                "resolution": "1920x1080",
+                "ratioImage": 1.778,
+                "codecVideo": "h264",
+                "profilVideo": "High",
+                "pixelFormat": "yuv420p",
+                "bitsParComposante": 8,
+                "bitrateVideo": null,
+                "framerate": 23.976,
+                "espaceCouleur": null,
+                "transfertCouleur": null,
+                "primairesCouleur": null,
+                "hdr": false,
+                "dureeFichier": 8601.151,
+                "bitrateGlobal": 3109412,
+                "formatConteneur": "matroska,webm",
+                "audio": [
+                    {
+                        "codec": "ac3",
+                        "profil": null,
+                        "canaux": 6,
+                        "disposition": "5.1(side)",
+                        "bitrate": 384000,
+                        "frequence": 48000,
+                        "langue": "fre"
+                    },
+                    {
+                        "codec": "aac",
+                        "profil": "LC",
+                        "canaux": 6,
+                        "disposition": "5.1",
+                        "bitrate": null,
+                        "frequence": 48000,
+                        "langue": "eng"
+                    }
+                ],
+                "sousTitres": [
+                    {
+                        "codec": "subrip",
+                        "langue": "fre",
+                        "titre": "Forced"
+                    },
+                    {
+                        "codec": "subrip",
+                        "langue": "fre",
+                        "titre": "French"
+                    }
+                ],
+                "zoneUtile": {
+                    "largeurUtile": 1920,
+                    "hauteurUtile": 800,
+                    "x": 0,
+                    "y": 140
+                }
+            },
+            "fichierNormalise": "Aquaman_2018_VF.mkv",
+            "titreTmdb": "Aquaman",
+            "titreOriginal": "Aquaman",
+            "langueOriginale": "en",
+            "anneeTmdb": "2018",
+            "dureeTmdb": 143,
+            "descriptionTmdb": "Personnage légendaire depuis 70 ans, Aquaman est le Roi des Sept Mers, régnant à contrecœur sur Atlantis. Pris en étau entre les Terriens qui détruisent constamment la mer et les habitants d'Atlantis prêts à se révolter, Aquaman doit protéger la planète tout entière…",
+            "collectionId": 573693,
+            "collectionNom": "Aquaman - Saga",
+            "collectionDescription": "Série de films centrée sur le personnage d'Aquaman de DC Comics.",
+            "collectionImage": "https://image.tmdb.org/t/p/w500/2k754gEz4uL3j1GhjitTOJ6Rcbm.jpg",
+            "collectionTmdbUrl": "https://www.themoviedb.org/collection/573693",
+            "ignoreInCollection": false,
+            "type": "Film",
+            "studio": null
+        },
+        {
+            "id": "aquaman_2018",
+            "titre": "Aquaman",
+            "annee": 2018,
+            "langue": [
                 "VOSTFR"
             ],
             "taille": 2220597254,
@@ -3096,8 +3245,8 @@
             "tmdbId": 297802,
             "tmdbUrl": "https://www.themoviedb.org/movie/297802",
             "doublonExact": false,
-            "doublonProbable": false,
-            "groupeDoublon": null,
+            "doublonProbable": true,
+            "groupeDoublon": "aquaman",
             "dateAjout": "2017-02-06T04:25:18.213Z",
             "titreTmdb": "Aquaman",
             "anneeTmdb": "2018",
@@ -4402,7 +4551,8 @@
             "collectionImage": "https://image.tmdb.org/t/p/w500/qvWDDPlo2MT7YCU4NSVxCgStxqu.jpg",
             "collectionTmdbUrl": "https://www.themoviedb.org/collection/86311",
             "type": "Film",
-            "studio": "Marvel"
+            "studio": "Marvel",
+            "ignoreInCollection": false
         },
         {
             "id": "b_avengers_infinity_war_2018",
@@ -5839,6 +5989,145 @@
             "titreOriginal": "Big Hero 6",
             "langueOriginale": "en",
             "fichierNormalise": "Les Nouveaux Héros_2014_VF.avi"
+        },
+        {
+            "id": "black_panther_2018",
+            "titre": "Black Panther ( )",
+            "annee": 2018,
+            "langue": [
+                "VO",
+                "VF",
+                "VOSTFR",
+                "VOST"
+            ],
+            "taille": 4280649008,
+            "genre": [
+                "Science-Fiction"
+            ],
+            "image": "https://image.tmdb.org/t/p/w342/g94IcdzPswTYl1ISdgn2EwvaZtt.jpg",
+            "fichier": "/Box_Films/Marvel/Black Panther/2018_Black Panther_VO_VF_VOST_VOSTFR.mkv",
+            "nomFichier": "2018_Black Panther_VO_VF_VOST_VOSTFR.mkv",
+            "imdbId": null,
+            "tmdbId": 284054,
+            "tmdbUrl": "https://www.themoviedb.org/movie/284054",
+            "doublonExact": false,
+            "doublonProbable": false,
+            "groupeDoublon": null,
+            "dateAjout": "2026-11-27T20:59:14.171Z",
+            "technique": {
+                "largeur": 1920,
+                "hauteur": 804,
+                "resolution": "1920x804",
+                "ratioImage": 2.388,
+                "codecVideo": "h264",
+                "profilVideo": "High",
+                "pixelFormat": "yuv420p",
+                "bitsParComposante": 8,
+                "bitrateVideo": null,
+                "framerate": 23.976,
+                "espaceCouleur": "bt709",
+                "transfertCouleur": "bt709",
+                "primairesCouleur": "bt709",
+                "hdr": false,
+                "dureeFichier": 8073.148,
+                "bitrateGlobal": 4241863,
+                "formatConteneur": "matroska,webm",
+                "audio": [
+                    {
+                        "codec": "ac3",
+                        "profil": null,
+                        "canaux": 6,
+                        "disposition": "5.1(side)",
+                        "bitrate": 448000,
+                        "frequence": 48000,
+                        "langue": "fre"
+                    },
+                    {
+                        "codec": "ac3",
+                        "profil": null,
+                        "canaux": 6,
+                        "disposition": "5.1(side)",
+                        "bitrate": 448000,
+                        "frequence": 48000,
+                        "langue": "eng"
+                    },
+                    {
+                        "codec": "ac3",
+                        "profil": null,
+                        "canaux": 6,
+                        "disposition": "5.1(side)",
+                        "bitrate": 448000,
+                        "frequence": 48000,
+                        "langue": "fre"
+                    }
+                ],
+                "sousTitres": [
+                    {
+                        "codec": "subrip",
+                        "langue": "fre",
+                        "titre": "forced"
+                    },
+                    {
+                        "codec": "subrip",
+                        "langue": "fre",
+                        "titre": "forced colored"
+                    },
+                    {
+                        "codec": "subrip",
+                        "langue": "fre",
+                        "titre": "full"
+                    },
+                    {
+                        "codec": "subrip",
+                        "langue": "eng",
+                        "titre": "forced"
+                    },
+                    {
+                        "codec": "subrip",
+                        "langue": "eng",
+                        "titre": "full"
+                    },
+                    {
+                        "codec": "subrip",
+                        "langue": "eng",
+                        "titre": "SDH"
+                    },
+                    {
+                        "codec": "hdmv_pgs_subtitle",
+                        "langue": "fre",
+                        "titre": "commentary"
+                    },
+                    {
+                        "codec": "hdmv_pgs_subtitle",
+                        "langue": "eng",
+                        "titre": "commentary"
+                    }
+                ],
+                "zoneUtile": {
+                    "largeurUtile": 1920,
+                    "hauteurUtile": 800,
+                    "x": 0,
+                    "y": 2
+                }
+            },
+            "fichierNormalise": "Black Panther ( )_2018_VO_VF.mkv",
+            "type": "Film",
+            "studio": "Marvel",
+            "titreTmdb": "Black Panther",
+            "titreOriginal": "Black Panther",
+            "langueOriginale": "en",
+            "anneeTmdb": "2018",
+            "dureeTmdb": 134,
+            "descriptionTmdb": "Après les événements qui se sont déroulés dans « Captain America : Civil War », T’Challa revient chez lui prendre sa place sur le trône du Wakanda, une nation africaine technologiquement très avancée. Mais lorsqu’un vieil ennemi resurgit, le courage de T’Challa est mis à rude épreuve, aussi bien en tant que souverain qu’en tant que Black Panther. Il se retrouve entraîné dans un conflit qui menace non seulement le destin du Wakanda, mais celui du monde entier…",
+            "collectionId": 529892,
+            "collectionNom": "Black Panther - Saga",
+            "collectionDescription": "Le Wakanda et sa métropole, dominée par des gratte-ciel modernes, est une nation africaine techniquement avancée qui est coupée du monde extérieur et se fait passer pour un pays pauvre du tiers-monde. Grâce à l'impact d'une météorite et à la source de matière première qui en résulte, le seul métal local, le vibranium, le pays africain peut se rendre invisible au reste du monde sous un immense dispositif de camouflage. Aussi, parce que la source de progrès pourrait faire des ravages entre de mauvaises mains, les premiers dirigeants du Wakanda ont opté pour l'isolement, qui perdure encore aujourd'hui.",
+            "collectionImage": "https://image.tmdb.org/t/p/w500/1bVrlIR6snwTglKtl5umYmGpnsb.jpg",
+            "collectionTmdbUrl": "https://www.themoviedb.org/collection/529892",
+            "languesSousTitres": [
+                "EN",
+                "FR"
+            ]
         },
         {
             "id": "tmdb_1386618",
@@ -9460,121 +9749,87 @@
             "fichierNormalise": "Dany Boon - Trop stylé_2011_TBD.avi"
         },
         {
-            "id": "daredevil_krkn68_2003",
-            "titre": "Daredevil KRKN68",
-            "annee": 2003,
+            "id": "daredevil",
+            "titre": "Daredevil",
+            "annee": null,
             "langue": [
-                "VO",
-                "VF",
-                "VOSTFR",
-                "VOST"
+                "VO"
             ],
-            "taille": 2019860779,
+            "taille": 6035723296,
             "genre": [
-                "Science-Fiction"
+                "Fantastique",
+                "Action"
             ],
             "image": "https://image.tmdb.org/t/p/w342/kupZzKFhFApvNjtBVB7JlQ6MjeI.jpg",
-            "fichier": "/Box_Films/Marvel/Daredevil_2003_VO_VF_VOST_VOSTFR.mkv",
-            "nomFichier": "Daredevil_2003_VO_VF_VOST_VOSTFR.mkv",
+            "fichier": "/Box_Films/Marvel/Daredevil_2003_VO_VF_VOSTFR.mkv",
+            "nomFichier": "Daredevil_2003_VO_VF_VOSTFR.mkv",
             "imdbId": null,
             "tmdbId": 9480,
             "tmdbUrl": "https://www.themoviedb.org/movie/9480",
             "doublonExact": false,
             "doublonProbable": false,
             "groupeDoublon": null,
-            "dateAjout": "2026-11-23T23:28:13.311Z",
+            "dateAjout": "2026-11-27T07:18:56.797Z",
             "technique": {
-                "largeur": 720,
-                "hauteur": 304,
-                "resolution": "720x304",
-                "ratioImage": 2.368,
+                "largeur": 1920,
+                "hauteur": 816,
+                "resolution": "1920x816",
+                "ratioImage": 2.353,
                 "codecVideo": "h264",
                 "profilVideo": "High",
                 "pixelFormat": "yuv420p",
                 "bitsParComposante": 8,
                 "bitrateVideo": null,
-                "framerate": 25,
-                "espaceCouleur": "smpte170m",
+                "framerate": 23.976,
+                "espaceCouleur": "bt709",
                 "transfertCouleur": "bt709",
-                "primairesCouleur": "smpte170m",
+                "primairesCouleur": "bt709",
                 "hdr": false,
-                "dureeFichier": 5959.560001,
-                "bitrateGlobal": 2711422,
+                "dureeFichier": 7988.235,
+                "bitrateGlobal": 6044612,
                 "formatConteneur": "matroska,webm",
                 "audio": [
                     {
-                        "codec": "ac3",
-                        "profil": null,
+                        "codec": "dts",
+                        "profil": "DTS",
                         "canaux": 6,
                         "disposition": "5.1(side)",
-                        "bitrate": 448000,
+                        "bitrate": 768000,
                         "frequence": 48000,
-                        "langue": "en"
+                        "langue": "fre"
                     },
                     {
-                        "codec": "ac3",
-                        "profil": null,
+                        "codec": "dts",
+                        "profil": "DTS",
                         "canaux": 6,
                         "disposition": "5.1(side)",
-                        "bitrate": 448000,
+                        "bitrate": 1536000,
                         "frequence": 48000,
-                        "langue": "fr"
-                    },
-                    {
-                        "codec": "ac3",
-                        "profil": null,
-                        "canaux": 6,
-                        "disposition": "5.1(side)",
-                        "bitrate": 448000,
-                        "frequence": 48000,
-                        "langue": "fr"
+                        "langue": "eng"
                     }
                 ],
                 "sousTitres": [
                     {
-                        "codec": "dvd_subtitle",
-                        "langue": "en",
-                        "titre": null
+                        "codec": "subrip",
+                        "langue": "fre",
+                        "titre": "Français Forcés"
                     },
                     {
-                        "codec": "dvd_subtitle",
-                        "langue": "fr",
-                        "titre": null
-                    },
-                    {
-                        "codec": "dvd_subtitle",
-                        "langue": "nl",
-                        "titre": null
-                    },
-                    {
-                        "codec": "dvd_subtitle",
-                        "langue": "el",
-                        "titre": null
-                    },
-                    {
-                        "codec": "dvd_subtitle",
-                        "langue": "en",
-                        "titre": null
-                    },
-                    {
-                        "codec": "dvd_subtitle",
-                        "langue": "fr",
-                        "titre": null
-                    },
-                    {
-                        "codec": "dvd_subtitle",
-                        "langue": "fr",
-                        "titre": null
+                        "codec": "hdmv_pgs_subtitle",
+                        "langue": "fre",
+                        "titre": "Français Complets"
                     }
                 ],
                 "zoneUtile": {
-                    "largeurUtile": 720,
-                    "hauteurUtile": 304,
+                    "largeurUtile": 1920,
+                    "hauteurUtile": 816,
                     "x": 0,
                     "y": 0
                 }
             },
-            "fichierNormalise": "Daredevil KRKN68_2003_VO_VF.mkv",
+            "fichierNormalise": "Daredevil_VO.mkv",
+            "type": "Film",
+            "studio": null,
             "titreTmdb": "Daredevil",
             "titreOriginal": "Daredevil",
             "langueOriginale": "en",
@@ -9585,13 +9840,7 @@
             "collectionNom": null,
             "collectionDescription": null,
             "collectionImage": null,
-            "collectionTmdbUrl": null,
-            "type": "Film",
-            "studio": "Marvel",
-            "languesSousTitres": [
-                "EN",
-                "FR"
-            ]
+            "collectionTmdbUrl": null
         },
         {
             "id": "dark_phoenix_2019",
@@ -12671,7 +12920,8 @@
             "studio": "Marvel",
             "languesAudio": [
                 "EN"
-            ]
+            ],
+            "ignoreInCollection": false
         },
         {
             "id": "fantastic_four_rise_of_the_silver_surfer_obey_2007",
@@ -12742,7 +12992,8 @@
             "studio": null,
             "languesAudio": [
                 "EN"
-            ]
+            ],
+            "ignoreInCollection": false
         },
         {
             "id": "fast_and_2001",
@@ -13589,37 +13840,6 @@
             ]
         },
         {
-            "id": "tmdb_664411",
-            "titre": "Franck Dubosc - Fifty / Fifty",
-            "annee": 2020,
-            "langue": [
-                "TBD"
-            ],
-            "taille": 0,
-            "genre": [
-                "Comédie"
-            ],
-            "image": "https://image.tmdb.org/t/p/w342/lNpm1GaXrgBy1rAQcc32KeEPBFK.jpg",
-            "fichier": null,
-            "nomFichier": null,
-            "tmdbId": 664411,
-            "tmdbUrl": "https://www.themoviedb.org/movie/664411",
-            "doublonExact": false,
-            "doublonProbable": false,
-            "groupeDoublon": null,
-            "dateAjout": null,
-            "titreTmdb": "Franck Dubosc - Fifty / Fifty",
-            "titreOriginal": "Franck Dubosc - Fifty / Fifty",
-            "anneeTmdb": 2020,
-            "descriptionTmdb": "« A 50 balais, le plus dur c’est que t’es un vieux pour les jeunes, et t’es un jeune pour les vieux, t’es fifty fifty... Mi figue-mi raisin... Sec, pour le coup ».  A la fois éternel séducteur aux yeux couleur océan et jeune papa poule attendri par ses deux petits super-héros, Franck Dubosc nous livre un nouveau spectacle d’une sincérité totale et d’une drôlerie imparable!  « J’ai 50 ans et j’aime ça!!! » Vous aussi, vous allez adorer les « fifty balais and the dust » de Franck Dubosc.",
-            "collectionId": 1687362,
-            "collectionNom": "Franck Dubosc",
-            "type": "Spectacle",
-            "studio": null,
-            "ignoreInCollection": false,
-            "langueOriginale": "fr"
-        },
-        {
             "id": "tmdb_81609",
             "titre": "Franck Dubosc - Il était une fois...",
             "annee": 2009,
@@ -13643,37 +13863,6 @@
             "titreOriginal": "Franck Dubosc - Il était une fois...",
             "anneeTmdb": 2009,
             "descriptionTmdb": "De sa naissance à sa rencontre avec Véronique, en passant par ses premières amours, les années disco, ses premiers pas sur scène, Franck Dubosc revient sur sa vie et ses amours…",
-            "collectionId": 1687362,
-            "collectionNom": "Franck Dubosc",
-            "type": "Spectacle",
-            "studio": null,
-            "ignoreInCollection": false,
-            "langueOriginale": "fr"
-        },
-        {
-            "id": "tmdb_76888",
-            "titre": "Franck Dubosc - J'vous ai pas raconté ?",
-            "annee": 2001,
-            "langue": [
-                "TBD"
-            ],
-            "taille": 0,
-            "genre": [
-                "Comédie"
-            ],
-            "image": "https://image.tmdb.org/t/p/w342/4Q7efwY0ogjXjbHNEHfDToPlbIg.jpg",
-            "fichier": null,
-            "nomFichier": null,
-            "tmdbId": 76888,
-            "tmdbUrl": "https://www.themoviedb.org/movie/76888",
-            "doublonExact": false,
-            "doublonProbable": false,
-            "groupeDoublon": null,
-            "dateAjout": null,
-            "titreTmdb": "Franck Dubosc - J'vous ai pas raconté ?",
-            "titreOriginal": "Franck Dubosc - J'vous ai pas raconté ?",
-            "anneeTmdb": 2001,
-            "descriptionTmdb": "Des boums des années 70 aux fameux week-ends \"in\" en Normandie où il goûte aux joies du spiritisme, en passant par Bali où il sauve \"une top modèle livrée aux dents des requins\", il nous entraîne pendant plus d'1H30 dans des aventures à mourir de rire, jonglant entre mime et paodies !",
             "collectionId": 1687362,
             "collectionNom": "Franck Dubosc",
             "type": "Spectacle",
@@ -13736,6 +13925,68 @@
             "titreOriginal": "Franck Dubosc - Les Pour Toi Public 2",
             "anneeTmdb": 2006,
             "descriptionTmdb": "Après le succès de son premier DVD, Franck Dubosc, décide de remettre le couvert avec les Pour toi public 2, avec de nouveaux personnages qui vont vous faire mourir de rire.",
+            "collectionId": 1687362,
+            "collectionNom": "Franck Dubosc",
+            "type": "Spectacle",
+            "studio": null,
+            "ignoreInCollection": false,
+            "langueOriginale": "fr"
+        },
+        {
+            "id": "tmdb_664411",
+            "titre": "Franck Dubosc : Fifty / Fifty",
+            "annee": 2020,
+            "langue": [
+                "TBD"
+            ],
+            "taille": 0,
+            "genre": [
+                "Comédie"
+            ],
+            "image": "https://image.tmdb.org/t/p/w342/lNpm1GaXrgBy1rAQcc32KeEPBFK.jpg",
+            "fichier": null,
+            "nomFichier": null,
+            "tmdbId": 664411,
+            "tmdbUrl": "https://www.themoviedb.org/movie/664411",
+            "doublonExact": false,
+            "doublonProbable": false,
+            "groupeDoublon": null,
+            "dateAjout": null,
+            "titreTmdb": "Franck Dubosc : Fifty / Fifty",
+            "titreOriginal": "Franck Dubosc : Fifty / Fifty",
+            "anneeTmdb": 2020,
+            "descriptionTmdb": "« À 50 balais, le plus dur c’est que t’es un vieux pour les jeunes, et t’es un jeune pour les vieux, t’es fifty fifty... Mi figue-mi raisin... Sec, pour le coup ».  À la fois éternel séducteur aux yeux couleur océan et jeune papa poule attendri par ses deux petits super-héros, Franck Dubosc nous livre un nouveau spectacle d’une sincérité totale et d’une drôlerie imparable!  « J’ai 50 ans et j’aime ça !!! ». Vous aussi, vous allez adorer les « fifty balais and the dust » de Franck Dubosc.",
+            "collectionId": 1687362,
+            "collectionNom": "Franck Dubosc",
+            "type": "Spectacle",
+            "studio": null,
+            "ignoreInCollection": false,
+            "langueOriginale": "fr"
+        },
+        {
+            "id": "tmdb_76888",
+            "titre": "Franck Dubosc : J'vous ai pas raconté ?",
+            "annee": 2001,
+            "langue": [
+                "TBD"
+            ],
+            "taille": 0,
+            "genre": [
+                "Comédie"
+            ],
+            "image": "https://image.tmdb.org/t/p/w342/4Q7efwY0ogjXjbHNEHfDToPlbIg.jpg",
+            "fichier": null,
+            "nomFichier": null,
+            "tmdbId": 76888,
+            "tmdbUrl": "https://www.themoviedb.org/movie/76888",
+            "doublonExact": false,
+            "doublonProbable": false,
+            "groupeDoublon": null,
+            "dateAjout": null,
+            "titreTmdb": "Franck Dubosc : J'vous ai pas raconté ?",
+            "titreOriginal": "Franck Dubosc : J'vous ai pas raconté ?",
+            "anneeTmdb": 2001,
+            "descriptionTmdb": "Des boums des années 70 aux fameux week-ends \"in\" en Normandie où il goûte aux joies du spiritisme, en passant par Bali où il sauve \"une top modèle livrée aux dents des requins\", il nous entraîne pendant plus d'1H30 dans des aventures à mourir de rire, jonglant entre mime et paodies !",
             "collectionId": 1687362,
             "collectionNom": "Franck Dubosc",
             "type": "Spectacle",
@@ -14103,6 +14354,34 @@
             "studio": null,
             "ignoreInCollection": true,
             "langueOriginale": "en"
+        },
+        {
+            "id": "tmdb_10010",
+            "titre": "Frère des ours 2",
+            "annee": 2006,
+            "langue": [
+                "TBD"
+            ],
+            "taille": 0,
+            "genre": [],
+            "image": "https://image.tmdb.org/t/p/w342/fLhZlisFjjrB1KFHkV9pgpRjCm2.jpg",
+            "fichier": null,
+            "nomFichier": null,
+            "tmdbId": 10010,
+            "tmdbUrl": "https://www.themoviedb.org/movie/10010",
+            "doublonExact": false,
+            "doublonProbable": false,
+            "groupeDoublon": null,
+            "dateAjout": null,
+            "titreTmdb": "Frère des ours 2",
+            "titreOriginal": "Brother Bear 2",
+            "anneeTmdb": 2006,
+            "descriptionTmdb": "Kenai entreprend une aventure palpitante impossible avant sa transformation en ours par les Grands Esprits. Mais pendant son voyage, il est hanté par des rêves de sa vie antérieure. Il était ami avec Nita, la fille de l’aîné de la tribu quand il était humain. Aujourd’hui, Nita a besoin de Kenai et les deux embarquent dans un périple pour leur rappeler ce qui les unissait enfants.",
+            "collectionId": 96472,
+            "collectionNom": "Frère des ours - Saga",
+            "type": "Film",
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "from_paris_with_love",
@@ -18718,7 +18997,8 @@
                 "FR"
             ],
             "type": "Film",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "insaisissables_2_2016",
@@ -18786,7 +19066,8 @@
             "collectionNom": "Insaisissables - Saga",
             "collectionDescription": "Insaisissables est un thriller américain de 2013 réalisé par Louis Leterrier. Le film met en vedette un groupe composé de Jesse Eisenberg, Mark Ruffalo, Woody Harrelson, Mélanie Laurent, Isla Fisher, Dave Franco, Michael Caine et Morgan Freeman.  L'intrigue suit un agent du FBI et un détective d'Interpol traquants une équipe d'illusionnistes qui se livrent à des braquages de banques pendant leurs performances et récompensent leur public avec l'argent. Une suite a été publiée le 10 juin 2016 et s'intitulait Insaisissables 2. Un troisième volet est prévu.",
             "collectionImage": "https://image.tmdb.org/t/p/w500/JAzLUXjXJEGp9IKR7jEY4L2VSL.jpg",
-            "collectionTmdbUrl": "https://www.themoviedb.org/collection/382685"
+            "collectionTmdbUrl": "https://www.themoviedb.org/collection/382685",
+            "ignoreInCollection": false
         },
         {
             "id": "intouchables_2011",
@@ -20678,7 +20959,8 @@
             "fichierNormalise": "2003_Johnny English_TBD.mp4",
             "languesAudio": [
                 "EN"
-            ]
+            ],
+            "ignoreInCollection": false
         },
         {
             "id": "johnny",
@@ -23021,7 +23303,7 @@
                 "VOSTFR",
                 "VOST"
             ],
-            "taille": 741711630,
+            "taille": 3174251312,
             "genre": [
                 "Action"
             ],
@@ -23034,7 +23316,7 @@
             "doublonExact": false,
             "doublonProbable": false,
             "groupeDoublon": null,
-            "dateAjout": "2004-06-25T19:14:30.984Z",
+            "dateAjout": "2026-11-26T18:12:34.048Z",
             "titreTmdb": "L'Arme fatale 3",
             "anneeTmdb": "1992",
             "dureeTmdb": 118,
@@ -23216,7 +23498,8 @@
                 "FR"
             ],
             "type": "Film",
-            "studio": null
+            "studio": null,
+            "ignoreInCollection": false
         },
         {
             "id": "l_arme_fatale_ii_1989",
@@ -23316,7 +23599,8 @@
             "languesSousTitres": [
                 "EN",
                 "FR"
-            ]
+            ],
+            "ignoreInCollection": false
         },
         {
             "id": "l_arme_fatale_iv_tonyk_1998",
@@ -26734,215 +27018,6 @@
             "langueOriginale": "en"
         },
         {
-            "id": "spider_man_1",
-            "titre": "Man 1",
-            "annee": null,
-            "langue": [
-                "VF"
-            ],
-            "taille": 782186496,
-            "genre": [
-                "Science-Fiction"
-            ],
-            "image": "https://image.tmdb.org/t/p/w342/pNz1NREgddPdlzytlR8mW4B26fW.jpg",
-            "fichier": "/Box_Films/Marvel/Spider-Man/2002_Spider-Man_VF.avi",
-            "nomFichier": "2002_Spider-Man_VF.avi",
-            "imdbId": null,
-            "tmdbId": 557,
-            "tmdbUrl": "https://www.themoviedb.org/movie/557",
-            "doublonExact": false,
-            "doublonProbable": false,
-            "groupeDoublon": null,
-            "dateAjout": "2011-08-03T15:31:45.375Z",
-            "titreTmdb": "Spider-Man",
-            "anneeTmdb": "2002",
-            "dureeTmdb": 121,
-            "descriptionTmdb": "Orphelin, Peter Parker est élevé par sa tante May et son oncle Ben dans le quartier Queens de New York. Tout en poursuivant ses études de biophysique à l'université, il trouve un emploi de photographe au journal Daily Bugle. Cependant, après avoir été mordu par une araignée radioactive, ce dernier est sujet à des transformations physiques : son agilité et sa force se sont accrues, et il se voit doter de pouvoirs surnaturels. Peter décide alors de participer à un combat de catch qu'il remporte avec une facilité déconcertante. Mais l'organisateur du spectacle, décrétant qu'il y a eu tricherie, refuse de lui remettre le prix de 3 000 dollars qui lui revient de droit. Au même moment, l'homme d'affaires mégalomane Norman Osborn expérimente sur lui-même de dangereuses solutions chimiques. Des mutations s'opèrent bientôt sur son corps et son esprit. Il se transforme alors en Bouffon Vert.",
-            "collectionId": 556,
-            "collectionNom": "Spider-Man - Saga",
-            "collectionDescription": "Série de films réalisée par Sam Raimi et librement inspirée par les aventures du personnage de bande dessinée de Marvel, Spider-Man.",
-            "collectionImage": "https://image.tmdb.org/t/p/w500/mW2jg5bQjfY4oTzmdUNpqrY9GGB.jpg",
-            "collectionTmdbUrl": "https://www.themoviedb.org/collection/556",
-            "type": "Film",
-            "studio": "Marvel",
-            "ignoreInCollection": false,
-            "technique": {
-                "largeur": 544,
-                "hauteur": 320,
-                "resolution": "544x320",
-                "ratioImage": 1.7,
-                "codecVideo": "mpeg4",
-                "profilVideo": "Advanced Simple Profile",
-                "pixelFormat": "yuv420p",
-                "bitsParComposante": null,
-                "bitrateVideo": 775502,
-                "framerate": 25,
-                "espaceCouleur": null,
-                "transfertCouleur": null,
-                "primairesCouleur": null,
-                "hdr": false,
-                "dureeFichier": 6974.76,
-                "bitrateGlobal": 897162,
-                "formatConteneur": "avi",
-                "audio": [
-                    {
-                        "codec": "mp3",
-                        "profil": null,
-                        "canaux": 2,
-                        "disposition": "stereo",
-                        "bitrate": 112000,
-                        "frequence": 48000,
-                        "langue": null
-                    }
-                ],
-                "sousTitres": [],
-                "zoneUtile": null
-            },
-            "titreOriginal": "Spider-Man",
-            "langueOriginale": "en",
-            "fichierNormalise": "2002_Spider-Man_VF.avi"
-        },
-        {
-            "id": "spider_man_2",
-            "titre": "man 2",
-            "annee": null,
-            "langue": [
-                "TBD"
-            ],
-            "taille": 733001728,
-            "genre": [
-                "Science-Fiction"
-            ],
-            "image": "https://image.tmdb.org/t/p/w342/mxU2Czx4KT2fxRbRHpB1MNFXAGb.jpg",
-            "fichier": "/Box_Films/Marvel/Spider-Man/2004_Spider-Man 2_TBD.avi",
-            "nomFichier": "2004_Spider-Man 2_TBD.avi",
-            "imdbId": null,
-            "tmdbId": 558,
-            "tmdbUrl": "https://www.themoviedb.org/movie/558",
-            "doublonExact": false,
-            "doublonProbable": true,
-            "groupeDoublon": "man_2",
-            "dateAjout": "2011-11-05T23:22:24.141Z",
-            "titreTmdb": "Spider-Man 2",
-            "anneeTmdb": "2004",
-            "dureeTmdb": 128,
-            "descriptionTmdb": "2 ans après avoir choisi sa vie de super-héros, Peter Parker ne parvient plus à gérer sa double vie. Il perd son boulot, Mary-Jane sait qu'elle ne peut plus compter sur lui, et ses études prennent le même chemin. Il décide de raccrocher le costume de Spiderman. Son ami Harry lui présente un ami de son professeur de science, le bienveillant docteur Otto Octavius sur lequel il doit rédiger un mémoire. Celui-ci travaille sur la fusion qu'il croit pouvoir contrôler. Mais une démonstration de ses recherches tourne mal, et le docteur se voit doter de 4 membres mécaniques supplémentaires greffés sur sa colonne vertébrale et qui prennent le contrôle de son esprit…",
-            "collectionId": 556,
-            "collectionNom": "Spider-Man - Saga",
-            "collectionDescription": "Série de films réalisée par Sam Raimi et librement inspirée par les aventures du personnage de bande dessinée de Marvel, Spider-Man.",
-            "collectionImage": "https://image.tmdb.org/t/p/w500/mW2jg5bQjfY4oTzmdUNpqrY9GGB.jpg",
-            "collectionTmdbUrl": "https://www.themoviedb.org/collection/556",
-            "type": "Film",
-            "studio": "Marvel",
-            "technique": {
-                "largeur": 512,
-                "hauteur": 224,
-                "resolution": "512x224",
-                "ratioImage": 2.286,
-                "codecVideo": "mpeg4",
-                "profilVideo": null,
-                "pixelFormat": "yuv420p",
-                "bitsParComposante": null,
-                "bitrateVideo": 692984,
-                "framerate": 25,
-                "espaceCouleur": null,
-                "transfertCouleur": null,
-                "primairesCouleur": null,
-                "hdr": false,
-                "dureeFichier": 7342.36,
-                "bitrateGlobal": 798655,
-                "formatConteneur": "avi",
-                "audio": [
-                    {
-                        "codec": "mp3",
-                        "profil": null,
-                        "canaux": 2,
-                        "disposition": "stereo",
-                        "bitrate": 96000,
-                        "frequence": 48000,
-                        "langue": null
-                    }
-                ],
-                "sousTitres": [],
-                "zoneUtile": null
-            },
-            "titreOriginal": "Spider-Man 2",
-            "langueOriginale": "en",
-            "fichierNormalise": "2004_Spider-Man 2_TBD.avi"
-        },
-        {
-            "id": "spider_man_2",
-            "titre": "man 2",
-            "annee": null,
-            "langue": [
-                "VF"
-            ],
-            "taille": 737142784,
-            "genre": [
-                "Science-Fiction"
-            ],
-            "image": "https://image.tmdb.org/t/p/w342/mxU2Czx4KT2fxRbRHpB1MNFXAGb.jpg",
-            "fichier": "/Box_Films/Marvel/Spider-Man/2004_Spider-Man 2_VF.avi",
-            "nomFichier": "2004_Spider-Man 2_VF.avi",
-            "imdbId": null,
-            "tmdbId": 558,
-            "tmdbUrl": "https://www.themoviedb.org/movie/558",
-            "doublonExact": false,
-            "doublonProbable": true,
-            "groupeDoublon": "man_2",
-            "dateAjout": "2005-06-29T14:41:46.000Z",
-            "titreTmdb": "Spider-Man 2",
-            "anneeTmdb": "2004",
-            "dureeTmdb": 128,
-            "descriptionTmdb": "2 ans après avoir choisi sa vie de super-héros, Peter Parker ne parvient plus à gérer sa double vie. Il perd son boulot, Mary-Jane sait qu'elle ne peut plus compter sur lui, et ses études prennent le même chemin. Il décide de raccrocher le costume de Spiderman. Son ami Harry lui présente un ami de son professeur de science, le bienveillant docteur Otto Octavius sur lequel il doit rédiger un mémoire. Celui-ci travaille sur la fusion qu'il croit pouvoir contrôler. Mais une démonstration de ses recherches tourne mal, et le docteur se voit doter de 4 membres mécaniques supplémentaires greffés sur sa colonne vertébrale et qui prennent le contrôle de son esprit…",
-            "collectionId": 556,
-            "collectionNom": "Spider-Man - Saga",
-            "collectionDescription": "Série de films réalisée par Sam Raimi et librement inspirée par les aventures du personnage de bande dessinée de Marvel, Spider-Man.",
-            "collectionImage": "https://image.tmdb.org/t/p/w500/mW2jg5bQjfY4oTzmdUNpqrY9GGB.jpg",
-            "collectionTmdbUrl": "https://www.themoviedb.org/collection/556",
-            "type": "Film",
-            "studio": "Marvel",
-            "ignoreInCollection": false,
-            "technique": {
-                "largeur": 544,
-                "hauteur": 224,
-                "resolution": "544x224",
-                "ratioImage": 2.429,
-                "codecVideo": "mpeg4",
-                "profilVideo": null,
-                "pixelFormat": "yuv420p",
-                "bitsParComposante": null,
-                "bitrateVideo": 663758,
-                "framerate": 25,
-                "espaceCouleur": null,
-                "transfertCouleur": null,
-                "primairesCouleur": null,
-                "hdr": false,
-                "dureeFichier": 7335,
-                "bitrateGlobal": 803973,
-                "formatConteneur": "avi",
-                "audio": [
-                    {
-                        "codec": "mp3",
-                        "profil": null,
-                        "canaux": 2,
-                        "disposition": "stereo",
-                        "bitrate": 127344,
-                        "frequence": 48000,
-                        "langue": null
-                    }
-                ],
-                "sousTitres": [],
-                "zoneUtile": null
-            },
-            "titreOriginal": "Spider-Man 2",
-            "langueOriginale": "en",
-            "fichierNormalise": "2004_Spider-Man 2_VF.avi",
-            "languesAudio": [
-                "FR"
-            ]
-        },
-        {
             "id": "spider_man_across_the_spider_verse_2023",
             "titre": "Man Across The",
             "annee": 2023,
@@ -27524,6 +27599,36 @@
             "ignoreInCollection": false
         },
         {
+            "id": "tmdb_604",
+            "titre": "Matrix Reloaded",
+            "annee": 2003,
+            "langue": [
+                "TBD"
+            ],
+            "taille": 0,
+            "genre": [
+                "Science-Fiction"
+            ],
+            "image": "https://image.tmdb.org/t/p/w342/lF5HiiRmBlL3mc5SnO4QsdmlvOb.jpg",
+            "fichier": null,
+            "nomFichier": null,
+            "tmdbId": 604,
+            "tmdbUrl": "https://www.themoviedb.org/movie/604",
+            "doublonExact": false,
+            "doublonProbable": false,
+            "groupeDoublon": null,
+            "dateAjout": null,
+            "titreTmdb": "Matrix Reloaded",
+            "titreOriginal": "The Matrix Reloaded",
+            "anneeTmdb": 2003,
+            "descriptionTmdb": "Neo apprend à mieux contrôler ses dons naturels, alors même que Sion s'apprête à tomber sous l'assaut de l'Armée des Machines. D'ici quelques heures, 250 000 Sentinelles programmées pour anéantir notre espèce envahiront la dernière enclave humaine de la Terre. Mais Morpheus galvanise les citoyens de Sion en leur rappelant la Parole de l'Oracle : il est encore temps pour l’Élu d'arrêter la guerre contre les Machines. Tous les espoirs se reportent dès lors sur Neo. Au long de sa périlleuse plongée au sein de la Matrice et de sa propre destinée, ce dernier sera confronté à une résistance croissante, une vérité encore plus aveuglante, un choix encore plus douloureux que tout ce qu'il avait jamais imaginé.",
+            "collectionId": 2344,
+            "collectionNom": "Matrix - Saga",
+            "type": "Film",
+            "studio": null,
+            "ignoreInCollection": false
+        },
+        {
             "id": "matrix_revolutions_2003",
             "titre": "Matrix Revolutions ( )",
             "annee": 2003,
@@ -27630,7 +27735,8 @@
             "languesSousTitres": [
                 "EN",
                 "FR"
-            ]
+            ],
+            "ignoreInCollection": false
         },
         {
             "id": "maverick_1994",
@@ -28258,70 +28364,32 @@
             "langueOriginale": "en"
         },
         {
-            "id": "mickey_il_etait_une_fois_noel_disney_n_60",
-            "titre": "Mickey, il était une Fois Noël",
-            "annee": null,
+            "id": "tmdb_15400",
+            "titre": "Mickey, il était une fois Noël",
+            "annee": 1999,
             "langue": [
                 "TBD"
             ],
-            "taille": 722272836,
-            "genre": [
-                "Comédie"
-            ],
+            "taille": 0,
+            "genre": [],
             "image": "https://image.tmdb.org/t/p/w342/oQrLDfOqOjQjBk1MPX72u6cAcXd.jpg",
-            "fichier": "/Box_Films/Animation/Mickey's… Upon a Christmas Collection/1999_Mickey, il était une fois Noël_TBD.avi",
-            "nomFichier": "1999_Mickey, il était une fois Noël_TBD.avi",
-            "imdbId": null,
+            "fichier": null,
+            "nomFichier": null,
             "tmdbId": 15400,
             "tmdbUrl": "https://www.themoviedb.org/movie/15400",
             "doublonExact": false,
             "doublonProbable": false,
             "groupeDoublon": null,
-            "dateAjout": "2007-06-01T19:15:10.000Z",
+            "dateAjout": null,
             "titreTmdb": "Mickey, il était une fois Noël",
-            "anneeTmdb": "1999",
-            "dureeTmdb": 66,
+            "titreOriginal": "Mickey's Once Upon a Christmas",
+            "anneeTmdb": 1999,
             "descriptionTmdb": "Mickey, Minnie, Dingo, Donald, Daisy et Pluto se souviennent de 3 histoires de Noël. Pour Minnie et Mickey, le Noël où ils ont abandonné ce à quoi ils tenaient pour l'autre. Dingo et Max racontent une série hilarante d'événements jusqu'à la visite du véritable père Noël. Et Riri, Fifi et Loulou se souviennent de la fois où ils voulaient que ce soit Noël tous les jours, jusqu'à retenir la leçon.",
             "collectionId": 1727431,
             "collectionNom": "Mickey's… Upon a Christmas Collection",
-            "type": "Animation",
+            "type": "Film",
             "studio": null,
-            "ignoreInCollection": false,
-            "technique": {
-                "largeur": 720,
-                "hauteur": 400,
-                "resolution": "720x400",
-                "ratioImage": 1.8,
-                "codecVideo": "mpeg4",
-                "profilVideo": null,
-                "pixelFormat": "yuv420p",
-                "bitsParComposante": null,
-                "bitrateVideo": 1415172,
-                "framerate": 25,
-                "espaceCouleur": null,
-                "transfertCouleur": null,
-                "primairesCouleur": null,
-                "hdr": false,
-                "dureeFichier": 3790.92,
-                "bitrateGlobal": 1524216,
-                "formatConteneur": "avi",
-                "audio": [
-                    {
-                        "codec": "mp3",
-                        "profil": null,
-                        "canaux": 2,
-                        "disposition": "stereo",
-                        "bitrate": 96000,
-                        "frequence": 48000,
-                        "langue": null
-                    }
-                ],
-                "sousTitres": [],
-                "zoneUtile": null
-            },
-            "titreOriginal": "Mickey's Once Upon a Christmas",
-            "langueOriginale": "en",
-            "fichierNormalise": "1999_Mickey, il était une fois Noël_TBD.avi"
+            "ignoreInCollection": false
         },
         {
             "id": "mike_and_nick_and_nick_and_alice_2026",
@@ -31686,6 +31754,87 @@
             ]
         },
         {
+            "id": "paycheck_2003",
+            "titre": "Paycheck",
+            "annee": 2003,
+            "langue": [
+                "TBD"
+            ],
+            "taille": 3368818707,
+            "genre": [
+                "Action",
+                "Science-Fiction",
+                "Thriller"
+            ],
+            "image": "https://image.tmdb.org/t/p/w342/1uCDk42ayyjEtIsHIgR6yBy8DlM.jpg",
+            "fichier": "/Box_Films/- Nouveaux/Paycheck.2003.1080p.BluRay.10bit.x265-HazMatt.mkv",
+            "nomFichier": "Paycheck.2003.1080p.BluRay.10bit.x265-HazMatt.mkv",
+            "imdbId": null,
+            "tmdbId": 9620,
+            "tmdbUrl": "https://www.themoviedb.org/movie/9620",
+            "doublonExact": false,
+            "doublonProbable": false,
+            "groupeDoublon": null,
+            "dateAjout": "2026-11-27T20:31:03.930Z",
+            "technique": {
+                "largeur": 1920,
+                "hauteur": 818,
+                "resolution": "1920x818",
+                "ratioImage": 2.347,
+                "codecVideo": "hevc",
+                "profilVideo": "Main 10",
+                "pixelFormat": "yuv420p10le",
+                "bitsParComposante": null,
+                "bitrateVideo": null,
+                "framerate": 23.976,
+                "espaceCouleur": "bt709",
+                "transfertCouleur": "bt709",
+                "primairesCouleur": "bt709",
+                "hdr": false,
+                "dureeFichier": 7126.126,
+                "bitrateGlobal": 3781935,
+                "formatConteneur": "matroska,webm",
+                "audio": [
+                    {
+                        "codec": "opus",
+                        "profil": null,
+                        "canaux": 6,
+                        "disposition": "5.1",
+                        "bitrate": null,
+                        "frequence": 48000,
+                        "langue": "eng"
+                    }
+                ],
+                "sousTitres": [
+                    {
+                        "codec": "hdmv_pgs_subtitle",
+                        "langue": "eng",
+                        "titre": null
+                    }
+                ],
+                "zoneUtile": {
+                    "largeurUtile": 1920,
+                    "hauteurUtile": 816,
+                    "x": 0,
+                    "y": 2
+                }
+            },
+            "fichierNormalise": "Paycheck_2003_TBD.mkv",
+            "type": "Film",
+            "studio": null,
+            "titreTmdb": "Paycheck",
+            "titreOriginal": "Paycheck",
+            "langueOriginale": "en",
+            "anneeTmdb": "2003",
+            "dureeTmdb": 119,
+            "descriptionTmdb": "L'ingénieur Michael Jennings travaille sur des projets top-secrets, commandités par des sociétés de haute technologie. À l'issue de chaque mission, sa mémoire est \"effacée\" par contrat pour l'empêcher de divulguer la moindre information confidentielle. Puis un chèque substantiel lui est remis. Mais cette fois, l'enveloppe ne contient aucun argent, que des objets hétéroclites : à en croire l'employeur, Jennings aurai renoncé par avance à ses honoraires habituels. Celui-ci découvre que ces objets sont autant d'indices relatifs à son passé - un passé \"remis à zéro\" dont sa mémoire n'a gardé que d'infimes traces. Un seul espoir pour percer ce mystère : la femme avec qui il travaille et qu'il aime depuis trois ans : Rachel. Une course contre la montre s'engage. Jennings n'a que quelques heures pour recomposer le puzzle de sa vie et échapper à la vengeance de son implacable employeur.",
+            "collectionId": null,
+            "collectionNom": null,
+            "collectionDescription": null,
+            "collectionImage": null,
+            "collectionTmdbUrl": null
+        },
+        {
             "id": "paycheck_paglop",
             "titre": "Paycheck",
             "annee": null,
@@ -32091,13 +32240,15 @@
                 "TBD"
             ],
             "taille": 1427664033,
-            "genre": null,
-            "image": null,
+            "genre": [
+                "Drame"
+            ],
+            "image": "https://image.tmdb.org/t/p/w342/q57R5r0uElNqnyx6TnqdNF0aM4I.jpg",
             "fichier": "/Box_Films/- Nouveaux/The Phenom_2016_TBD.mp4",
             "nomFichier": "The Phenom_2016_TBD.mp4",
             "imdbId": null,
-            "tmdbId": null,
-            "tmdbUrl": null,
+            "tmdbId": 390512,
+            "tmdbUrl": "https://www.themoviedb.org/movie/390512",
             "doublonExact": false,
             "doublonProbable": false,
             "groupeDoublon": null,
@@ -32139,7 +32290,20 @@
                     "y": 0
                 }
             },
-            "fichierNormalise": "Phenom_TBD.mp4"
+            "fichierNormalise": "Phenom_TBD.mp4",
+            "type": "Film",
+            "studio": null,
+            "titreTmdb": "The Phenom",
+            "titreOriginal": "The Phenom",
+            "langueOriginale": "en",
+            "anneeTmdb": "2016",
+            "dureeTmdb": 88,
+            "descriptionTmdb": "A rookie pitcher undergoes psychotherapy to overcome the yips.",
+            "collectionId": null,
+            "collectionNom": null,
+            "collectionDescription": null,
+            "collectionImage": null,
+            "collectionTmdbUrl": null
         },
         {
             "id": "la_planete_au_tresor_un_nouvel_univers_disney_n_78",
@@ -33670,27 +33834,187 @@
             "fichierNormalise": "Remo sans arme et dangereux_1985_TBD.mp4"
         },
         {
-            "id": "retour_vers_le_futur_2",
-            "titre": "Retour vers futur 2",
+            "id": "retour_vers_le_futur",
+            "titre": "Retour vers le futur",
             "annee": null,
             "langue": [
                 "VF"
             ],
-            "taille": 735336448,
+            "taille": 3279461840,
             "genre": [
+                "Aventure",
+                "Comédie",
+                "Science-Fiction"
+            ],
+            "image": "https://image.tmdb.org/t/p/w342/iCgFtDUZxN8iUzNBCisjUrBmg2q.jpg",
+            "fichier": "/Box_Films/Science-Fiction/Retour vers le futur/1985_Retour vers le futur_VF.mkv",
+            "nomFichier": "1985_Retour vers le futur_VF.mkv",
+            "imdbId": null,
+            "tmdbId": 105,
+            "tmdbUrl": "https://www.themoviedb.org/movie/105",
+            "doublonExact": false,
+            "doublonProbable": false,
+            "groupeDoublon": null,
+            "dateAjout": "2026-11-26T22:09:14.860Z",
+            "technique": {
+                "largeur": 1920,
+                "hauteur": 1040,
+                "resolution": "1920x1040",
+                "ratioImage": 1.846,
+                "codecVideo": "h264",
+                "profilVideo": "High",
+                "pixelFormat": "yuv420p",
+                "bitsParComposante": 8,
+                "bitrateVideo": null,
+                "framerate": 23.976,
+                "espaceCouleur": "bt709",
+                "transfertCouleur": "bt709",
+                "primairesCouleur": "bt709",
+                "hdr": false,
+                "dureeFichier": 6965.963,
+                "bitrateGlobal": 3766269,
+                "formatConteneur": "matroska,webm",
+                "audio": [
+                    {
+                        "codec": "dts",
+                        "profil": "DTS",
+                        "canaux": 6,
+                        "disposition": "5.1(side)",
+                        "bitrate": 768000,
+                        "frequence": 48000,
+                        "langue": "fre"
+                    }
+                ],
+                "sousTitres": [
+                    {
+                        "codec": "subrip",
+                        "langue": "fre",
+                        "titre": null
+                    },
+                    {
+                        "codec": "subrip",
+                        "langue": "fre",
+                        "titre": null
+                    }
+                ],
+                "zoneUtile": {
+                    "largeurUtile": 1920,
+                    "hauteurUtile": 1040,
+                    "x": 0,
+                    "y": 0
+                }
+            },
+            "fichierNormalise": "Retour vers le futur_VF.mkv",
+            "type": "Film",
+            "studio": null,
+            "titreTmdb": "Retour vers le futur",
+            "titreOriginal": "Back to the Future",
+            "langueOriginale": "en",
+            "anneeTmdb": "1985",
+            "dureeTmdb": 116,
+            "descriptionTmdb": "En 1985, Marty, un adolescent comme les autres, mène une existence morne et ennuyeuse. Heureusement, il est épris de la jolie Jennifer et entretient une profonde amitié avec Doc, un savant fou qui prétend avoir inventé une machine à explorer le temps. Un jour, Doc invite Marty à l'essayer…",
+            "collectionId": 264,
+            "collectionNom": "Retour vers le futur - Saga",
+            "collectionDescription": "Retour vers le futur est une trilogie cinématographique écrite par Bob Gale et Robert Zemeckis, réalisée par ce dernier et dont les différents volets sont sortis respectivement en 1985, 1989 et 1990. Elle raconte les aventures d'un lycéen, Marty McFly (Michael J. Fox) et d'un scientifique, le Dr Emmett Brown (Christopher Lloyd) qui voyagent à travers le temps à l'aide d'une DeLorean DMC-12 modifiée à cet effet.",
+            "collectionImage": "https://image.tmdb.org/t/p/w500/nykumUbCw1o43fHGkRqj9hO2c2h.jpg",
+            "collectionTmdbUrl": "https://www.themoviedb.org/collection/264"
+        },
+        {
+            "id": "retour_vers_le_futur_ii",
+            "titre": "Retour vers le futur II",
+            "annee": null,
+            "langue": [
+                "VO"
+            ],
+            "taille": 2753620438,
+            "genre": [
+                "Aventure",
+                "Comédie",
                 "Science-Fiction"
             ],
             "image": "https://image.tmdb.org/t/p/w342/pvSf95zo0GZNp83QCtmK1GFLHtT.jpg",
-            "fichier": "/Box_Films/Science-Fiction/Retour vers le futur/1989_Retour vers le futur II_VF.avi",
-            "nomFichier": "1989_Retour vers le futur II_VF.avi",
+            "fichier": "/Box_Films/Science-Fiction/Retour vers le futur/1989_Retour vers le futur II_VO_VF_VOST_VOSTFR.mkv",
+            "nomFichier": "1989_Retour vers le futur II_VO_VF_VOST_VOSTFR.mkv",
             "imdbId": null,
             "tmdbId": 165,
             "tmdbUrl": "https://www.themoviedb.org/movie/165",
             "doublonExact": false,
             "doublonProbable": false,
             "groupeDoublon": null,
-            "dateAjout": "2004-01-18T06:37:26.359Z",
+            "dateAjout": "2026-11-26T22:57:10.056Z",
+            "technique": {
+                "largeur": 1920,
+                "hauteur": 1080,
+                "resolution": "1920x1080",
+                "ratioImage": 1.778,
+                "codecVideo": "h264",
+                "profilVideo": "High",
+                "pixelFormat": "yuv420p",
+                "bitsParComposante": 8,
+                "bitrateVideo": null,
+                "framerate": 23.976,
+                "espaceCouleur": null,
+                "transfertCouleur": null,
+                "primairesCouleur": null,
+                "hdr": false,
+                "dureeFichier": 6485.897,
+                "bitrateGlobal": 3396440,
+                "formatConteneur": "matroska,webm",
+                "audio": [
+                    {
+                        "codec": "ac3",
+                        "profil": null,
+                        "canaux": 6,
+                        "disposition": "5.1(side)",
+                        "bitrate": 448000,
+                        "frequence": 48000,
+                        "langue": "fre"
+                    },
+                    {
+                        "codec": "ac3",
+                        "profil": null,
+                        "canaux": 6,
+                        "disposition": "5.1(side)",
+                        "bitrate": 448000,
+                        "frequence": 48000,
+                        "langue": "eng"
+                    }
+                ],
+                "sousTitres": [
+                    {
+                        "codec": "subrip",
+                        "langue": "fre",
+                        "titre": "forcé"
+                    },
+                    {
+                        "codec": "subrip",
+                        "langue": "fre",
+                        "titre": "complet"
+                    },
+                    {
+                        "codec": "subrip",
+                        "langue": "eng",
+                        "titre": "complet"
+                    },
+                    {
+                        "codec": "subrip",
+                        "langue": "spa",
+                        "titre": "complet"
+                    }
+                ],
+                "zoneUtile": {
+                    "largeurUtile": 1920,
+                    "hauteurUtile": 1040,
+                    "x": 0,
+                    "y": 20
+                }
+            },
+            "fichierNormalise": "Retour vers le futur II_VO.mkv",
+            "type": "Film",
+            "studio": null,
             "titreTmdb": "Retour vers le futur II",
+            "titreOriginal": "Back to the Future Part II",
+            "langueOriginale": "en",
             "anneeTmdb": "1989",
             "dureeTmdb": 108,
             "descriptionTmdb": "En 1985, Marty McFly a retrouvé sa famille et sa petite amie après un voyage mouvementé dans le passé. Surgit alors Doc Brown, au volant de sa machine à explorer le temps. Il lui enjoint de le suivre dans le futur, en l'an 2015, pour secourir son fils tombé sous la coupe du sinistre Biff Tannen.",
@@ -33698,108 +34022,112 @@
             "collectionNom": "Retour vers le futur - Saga",
             "collectionDescription": "Retour vers le futur est une trilogie cinématographique écrite par Bob Gale et Robert Zemeckis, réalisée par ce dernier et dont les différents volets sont sortis respectivement en 1985, 1989 et 1990. Elle raconte les aventures d'un lycéen, Marty McFly (Michael J. Fox) et d'un scientifique, le Dr Emmett Brown (Christopher Lloyd) qui voyagent à travers le temps à l'aide d'une DeLorean DMC-12 modifiée à cet effet.",
             "collectionImage": "https://image.tmdb.org/t/p/w500/nykumUbCw1o43fHGkRqj9hO2c2h.jpg",
-            "collectionTmdbUrl": "https://www.themoviedb.org/collection/264",
-            "type": "Film",
-            "studio": null,
-            "ignoreInCollection": false,
-            "technique": {
-                "largeur": 544,
-                "hauteur": 304,
-                "resolution": "544x304",
-                "ratioImage": 1.789,
-                "codecVideo": "mpeg4",
-                "profilVideo": null,
-                "pixelFormat": "yuv420p",
-                "bitsParComposante": null,
-                "bitrateVideo": 854314,
-                "framerate": 25,
-                "espaceCouleur": null,
-                "transfertCouleur": null,
-                "primairesCouleur": null,
-                "hdr": false,
-                "dureeFichier": 5930,
-                "bitrateGlobal": 992022,
-                "formatConteneur": "avi",
-                "audio": [
-                    {
-                        "codec": "mp3",
-                        "profil": null,
-                        "canaux": 2,
-                        "disposition": "stereo",
-                        "bitrate": 128000,
-                        "frequence": 48000,
-                        "langue": null
-                    }
-                ],
-                "sousTitres": [],
-                "zoneUtile": null
-            },
-            "titreOriginal": "Back to the Future Part II",
-            "langueOriginale": "en",
-            "fichierNormalise": "1989_Retour vers le futur II_VF.avi",
-            "fichierOriginal": "Retour vers le futur 2 - VF.avi"
+            "collectionTmdbUrl": "https://www.themoviedb.org/collection/264"
         },
         {
-            "id": "tmdb_105",
-            "titre": "Retour vers le futur",
-            "annee": 1985,
-            "langue": [
-                "TBD"
-            ],
-            "taille": 0,
-            "genre": [
-                "Science-Fiction"
-            ],
-            "image": "https://image.tmdb.org/t/p/w342/iCgFtDUZxN8iUzNBCisjUrBmg2q.jpg",
-            "fichier": null,
-            "nomFichier": null,
-            "tmdbId": 105,
-            "tmdbUrl": "https://www.themoviedb.org/movie/105",
-            "doublonExact": false,
-            "doublonProbable": false,
-            "groupeDoublon": null,
-            "dateAjout": null,
-            "titreTmdb": "Retour vers le futur",
-            "titreOriginal": "Back to the Future",
-            "anneeTmdb": 1985,
-            "descriptionTmdb": "En 1985, Marty, un adolescent comme les autres, mène une existence morne et ennuyeuse. Heureusement, il est épris de la jolie Jennifer et entretient une profonde amitié avec Doc, un savant fou qui prétend avoir inventé une machine à explorer le temps. Un jour, Doc invite Marty à l'essayer…",
-            "collectionId": 264,
-            "collectionNom": "Retour vers le futur - Saga",
-            "type": "Film",
-            "studio": null,
-            "ignoreInCollection": false,
-            "langueOriginale": "en"
-        },
-        {
-            "id": "tmdb_196",
+            "id": "retour_vers_le_futur_iii",
             "titre": "Retour vers le futur III",
-            "annee": 1990,
+            "annee": null,
             "langue": [
-                "TBD"
+                "VO"
             ],
-            "taille": 0,
+            "taille": 3016340272,
             "genre": [
+                "Aventure",
+                "Comédie",
                 "Science-Fiction"
             ],
             "image": "https://image.tmdb.org/t/p/w342/xormrixo6PYdjyh31JWT2LCBmjO.jpg",
-            "fichier": null,
-            "nomFichier": null,
+            "fichier": "/Box_Films/Science-Fiction/Retour vers le futur/1990_Retour vers le futur III_VO_VF_VOST_VOSTFR.mkv",
+            "nomFichier": "1990_Retour vers le futur III_VO_VF_VOST_VOSTFR.mkv",
+            "imdbId": null,
             "tmdbId": 196,
             "tmdbUrl": "https://www.themoviedb.org/movie/196",
             "doublonExact": false,
             "doublonProbable": false,
             "groupeDoublon": null,
-            "dateAjout": null,
+            "dateAjout": "2026-11-27T00:17:01.302Z",
+            "technique": {
+                "largeur": 1920,
+                "hauteur": 1080,
+                "resolution": "1920x1080",
+                "ratioImage": 1.778,
+                "codecVideo": "h264",
+                "profilVideo": "High",
+                "pixelFormat": "yuv420p",
+                "bitsParComposante": 8,
+                "bitrateVideo": null,
+                "framerate": 23.976,
+                "espaceCouleur": null,
+                "transfertCouleur": null,
+                "primairesCouleur": null,
+                "hdr": false,
+                "dureeFichier": 7104.777,
+                "bitrateGlobal": 3396408,
+                "formatConteneur": "matroska,webm",
+                "audio": [
+                    {
+                        "codec": "ac3",
+                        "profil": null,
+                        "canaux": 6,
+                        "disposition": "5.1(side)",
+                        "bitrate": 448000,
+                        "frequence": 48000,
+                        "langue": "fre"
+                    },
+                    {
+                        "codec": "ac3",
+                        "profil": null,
+                        "canaux": 6,
+                        "disposition": "5.1(side)",
+                        "bitrate": 448000,
+                        "frequence": 48000,
+                        "langue": "eng"
+                    }
+                ],
+                "sousTitres": [
+                    {
+                        "codec": "subrip",
+                        "langue": "fre",
+                        "titre": "forcé"
+                    },
+                    {
+                        "codec": "subrip",
+                        "langue": "fre",
+                        "titre": "complet"
+                    },
+                    {
+                        "codec": "subrip",
+                        "langue": "eng",
+                        "titre": "complet"
+                    },
+                    {
+                        "codec": "subrip",
+                        "langue": "spa",
+                        "titre": "complet"
+                    }
+                ],
+                "zoneUtile": {
+                    "largeurUtile": 1920,
+                    "hauteurUtile": 1040,
+                    "x": 0,
+                    "y": 20
+                }
+            },
+            "fichierNormalise": "Retour vers le futur III_VO.mkv",
+            "type": "Film",
+            "studio": null,
             "titreTmdb": "Retour vers le futur III",
             "titreOriginal": "Back to the Future Part III",
-            "anneeTmdb": 1990,
+            "langueOriginale": "en",
+            "anneeTmdb": "1990",
+            "dureeTmdb": 118,
             "descriptionTmdb": "Ce troisième épisode propulse Marty sur une toute nouvelle mission… en l'an 1885, en plein Far West ! Il n'a que cinq jours pour sauver son ami Doc des griffes du terrible Buford \"Molosse\" Tannen et ainsi lui éviter la mort. Cependant, bon nombre d'embûches vont empêcher nos deux voyageurs de rentrer rapidement vers le futur : ils devront faire face à une panne de la DeLorean, leur très célèbre machine à remonter le temps, affronter une bande de hors-la-loi et croiser sur leur route une maîtresse d'école dont le charme ne laissera pas insensible ce bon vieux Doc…",
             "collectionId": 264,
             "collectionNom": "Retour vers le futur - Saga",
-            "type": "Film",
-            "studio": null,
-            "ignoreInCollection": false,
-            "langueOriginale": "en"
+            "collectionDescription": "Retour vers le futur est une trilogie cinématographique écrite par Bob Gale et Robert Zemeckis, réalisée par ce dernier et dont les différents volets sont sortis respectivement en 1985, 1989 et 1990. Elle raconte les aventures d'un lycéen, Marty McFly (Michael J. Fox) et d'un scientifique, le Dr Emmett Brown (Christopher Lloyd) qui voyagent à travers le temps à l'aide d'une DeLorean DMC-12 modifiée à cet effet.",
+            "collectionImage": "https://image.tmdb.org/t/p/w500/nykumUbCw1o43fHGkRqj9hO2c2h.jpg",
+            "collectionTmdbUrl": "https://www.themoviedb.org/collection/264"
         },
         {
             "id": "tmdb_699",
@@ -35960,7 +36288,8 @@
             "studio": null,
             "languesSousTitres": [
                 "EN"
-            ]
+            ],
+            "ignoreInCollection": false
         },
         {
             "id": "sleepless_2017",
@@ -36404,7 +36733,8 @@
             },
             "titreOriginal": "Speed",
             "langueOriginale": "en",
-            "fichierNormalise": "1994_Speed_TBD.mp4"
+            "fichierNormalise": "1994_Speed_TBD.mp4",
+            "ignoreInCollection": false
         },
         {
             "id": "speed",
@@ -36553,78 +36883,23 @@
             "titre": "Spider Man 2",
             "annee": null,
             "langue": [
-                "VF"
-            ],
-            "taille": 1520112564,
-            "genre": null,
-            "image": null,
-            "fichier": "/Box_Films/- Nouveaux/Spider-Man 2 Truefrench DVDrip xvid.ac3-T911.avi",
-            "nomFichier": "Spider-Man 2 Truefrench DVDrip xvid.ac3-T911.avi",
-            "imdbId": null,
-            "tmdbId": null,
-            "tmdbUrl": null,
-            "doublonExact": false,
-            "doublonProbable": true,
-            "groupeDoublon": "spider_man_2",
-            "dateAjout": "2026-11-25T20:03:43.992Z",
-            "technique": {
-                "largeur": 368,
-                "hauteur": 208,
-                "resolution": "368x208",
-                "ratioImage": 1.769,
-                "codecVideo": "mpeg4",
-                "profilVideo": "Advanced Simple Profile",
-                "pixelFormat": "yuv420p",
-                "bitsParComposante": null,
-                "bitrateVideo": 1263062,
-                "framerate": 25,
-                "espaceCouleur": null,
-                "transfertCouleur": null,
-                "primairesCouleur": null,
-                "hdr": false,
-                "dureeFichier": 7334.84,
-                "bitrateGlobal": 1657963,
-                "formatConteneur": "avi",
-                "audio": [
-                    {
-                        "codec": "ac3",
-                        "profil": null,
-                        "canaux": 6,
-                        "disposition": "5.1(side)",
-                        "bitrate": 384000,
-                        "frequence": 48000,
-                        "langue": null
-                    }
-                ],
-                "sousTitres": [],
-                "zoneUtile": {
-                    "largeurUtile": 368,
-                    "hauteurUtile": 144,
-                    "x": 0,
-                    "y": 34
-                }
-            },
-            "fichierNormalise": "Spider Man 2_VF.avi"
-        },
-        {
-            "id": "spider_man_2_2004",
-            "titre": "Spider Man 2 ( )",
-            "annee": 2004,
-            "langue": [
-                "VO",
-                "VF"
+                "VO"
             ],
             "taille": 3992385978,
-            "genre": null,
-            "image": null,
-            "fichier": "/Box_Films/- Nouveaux/Spider-Man 2 (2004) EXTENDED MULTi VFF-ENG AC3 HDLight 1080p x264-T911.mkv",
-            "nomFichier": "Spider-Man 2 (2004) EXTENDED MULTi VFF-ENG AC3 HDLight 1080p x264-T911.mkv",
+            "genre": [
+                "Action",
+                "Aventure",
+                "Science-Fiction"
+            ],
+            "image": "https://image.tmdb.org/t/p/w342/m8X5HdADsW5YdmVNjwTOArMOUoL.jpg",
+            "fichier": "/Box_Films/Marvel/Spider-Man/2004_Spider-Man 2_VO_VF_VOST_VOSTFR.mkv",
+            "nomFichier": "2004_Spider-Man 2_VO_VF_VOST_VOSTFR.mkv",
             "imdbId": null,
-            "tmdbId": null,
-            "tmdbUrl": null,
+            "tmdbId": 558,
+            "tmdbUrl": "https://www.themoviedb.org/movie/558",
             "doublonExact": false,
-            "doublonProbable": true,
-            "groupeDoublon": "spider_man_2",
+            "doublonProbable": false,
+            "groupeDoublon": null,
             "dateAjout": "2026-11-26T12:24:35.086Z",
             "technique": {
                 "largeur": 1920,
@@ -36708,7 +36983,20 @@
                     "y": 0
                 }
             },
-            "fichierNormalise": "Spider Man 2 ( )_2004_VO_VF.mkv"
+            "fichierNormalise": "Spider Man 2_VO.mkv",
+            "type": "Film",
+            "studio": null,
+            "titreTmdb": "Spider-Man 2",
+            "titreOriginal": "Spider-Man 2",
+            "langueOriginale": "en",
+            "anneeTmdb": "2004",
+            "dureeTmdb": 128,
+            "descriptionTmdb": "2 ans après avoir choisi sa vie de super-héros, Peter Parker ne parvient plus à gérer sa double vie. Il perd son boulot, Mary-Jane sait qu'elle ne peut plus compter sur lui, et ses études prennent le même chemin. Il décide de raccrocher le costume de Spiderman. Son ami Harry lui présente un ami de son professeur de science, le bienveillant docteur Otto Octavius sur lequel il doit rédiger un mémoire. Celui-ci travaille sur la fusion qu'il croit pouvoir contrôler. Mais une démonstration de ses recherches tourne mal, et le docteur se voit doter de 4 membres mécaniques supplémentaires greffés sur sa colonne vertébrale et qui prennent le contrôle de son esprit…",
+            "collectionId": 556,
+            "collectionNom": "Spider-Man - Saga",
+            "collectionDescription": "Série de films réalisée par Sam Raimi et librement inspirée par les aventures du personnage de bande dessinée de Marvel, Spider-Man.",
+            "collectionImage": "https://image.tmdb.org/t/p/w500/mW2jg5bQjfY4oTzmdUNpqrY9GGB.jpg",
+            "collectionTmdbUrl": "https://www.themoviedb.org/collection/556"
         },
         {
             "id": "spider_man_new_generation_spider_man_into_the_spider_verse_2018",
@@ -36776,7 +37064,8 @@
             "collectionNom": "Spider-Man : New Generation - Saga",
             "collectionDescription": "Une collection animée qui explore les différentes versions de Spider-Man dans de multiples univers en suivant les premiers pas de Miles Morales...",
             "collectionImage": "https://image.tmdb.org/t/p/w500/6BiByOXRrMqB3yFVyuPFNZnJlPj.jpg",
-            "collectionTmdbUrl": "https://www.themoviedb.org/collection/573436"
+            "collectionTmdbUrl": "https://www.themoviedb.org/collection/573436",
+            "ignoreInCollection": false
         },
         {
             "id": "spider_man_no_way_home_2021",
@@ -37274,7 +37563,8 @@
             "studio": null,
             "languesAudio": [
                 "FR"
-            ]
+            ],
+            "ignoreInCollection": false
         },
         {
             "id": "star_trek_jyk_2016",
@@ -37353,99 +37643,6 @@
             "languesAudio": [
                 "EN"
             ]
-        },
-        {
-            "id": "starsky_and_hutch",
-            "titre": "Starsky And Hutch",
-            "annee": null,
-            "langue": [
-                "TBD"
-            ],
-            "taille": 732735782,
-            "genre": [
-                "Policier"
-            ],
-            "image": "https://image.tmdb.org/t/p/w342/93Nb4bLC5AaPfuOAww4HISOGKYo.jpg",
-            "fichier": "/Box_Films/Policier/Starsky & Hutch_2004_TBD.mkv",
-            "nomFichier": "Starsky & Hutch_2004_TBD.mkv",
-            "imdbId": null,
-            "tmdbId": 9384,
-            "tmdbUrl": "https://www.themoviedb.org/movie/9384",
-            "doublonExact": false,
-            "doublonProbable": false,
-            "groupeDoublon": null,
-            "dateAjout": "2004-07-22T01:33:21.422Z",
-            "titreTmdb": "Starsky & Hutch",
-            "anneeTmdb": "2004",
-            "dureeTmdb": 100,
-            "descriptionTmdb": "À force d'acharnement à combattre le crime, le détective David Starsky a épuisé tous ses équipiers. Le détective Ken \" Hutch \" Hutchinson a lui aussi quelques problèmes. Même s'il est un bon flic, son côté trop cool et son attirance pour l'argent facile lui font parfois mordre la bande blanche. Pour le capitaine Dobey, leur supérieur, il n'y a qu'une solution possible : les associer. Contraints de faire équipe malgré eux, Starsky et Hutch découvrent un cadavre sur la côte de Bay City. Avec l'aide de l'informateur Huggy les bons tuyaux, les deux policiers se plongent dans une enquête qui va les conduire tout droit à un richissime homme d'affaires intouchable. Décidés à élucider le mystère de cette affaire dont le premier cadavre n'était qu'un échantillon, Starsky et Hutch vont associer leurs talents pour échapper aux pièges et s'en sortir avec autant d'humour que de dégâts…",
-            "collectionId": null,
-            "collectionNom": null,
-            "collectionDescription": null,
-            "collectionImage": null,
-            "collectionTmdbUrl": null,
-            "type": "Film",
-            "studio": null,
-            "technique": {
-                "largeur": 704,
-                "hauteur": 288,
-                "resolution": "704x288",
-                "ratioImage": 2.444,
-                "codecVideo": "rv40",
-                "profilVideo": null,
-                "pixelFormat": "yuv420p",
-                "bitsParComposante": null,
-                "bitrateVideo": null,
-                "framerate": 25,
-                "espaceCouleur": null,
-                "transfertCouleur": null,
-                "primairesCouleur": null,
-                "hdr": false,
-                "dureeFichier": 6035.026,
-                "bitrateGlobal": 971310,
-                "formatConteneur": "matroska,webm",
-                "audio": [
-                    {
-                        "codec": "vorbis",
-                        "profil": null,
-                        "canaux": 2,
-                        "disposition": "stereo",
-                        "bitrate": null,
-                        "frequence": 48000,
-                        "langue": "fre"
-                    },
-                    {
-                        "codec": "vorbis",
-                        "profil": null,
-                        "canaux": 2,
-                        "disposition": "stereo",
-                        "bitrate": null,
-                        "frequence": 48000,
-                        "langue": "eng"
-                    }
-                ],
-                "sousTitres": [
-                    {
-                        "codec": "subrip",
-                        "langue": "mis",
-                        "titre": null
-                    },
-                    {
-                        "codec": "dvd_subtitle",
-                        "langue": "fre",
-                        "titre": null
-                    },
-                    {
-                        "codec": "dvd_subtitle",
-                        "langue": "eng",
-                        "titre": null
-                    }
-                ],
-                "zoneUtile": null
-            },
-            "titreOriginal": "Starsky & Hutch",
-            "langueOriginale": "en",
-            "fichierNormalise": "Starsky & Hutch_2004_TBD.mkv"
         },
         {
             "id": "steppin_1",
@@ -39391,7 +39588,8 @@
             "languesAudio": [
                 "EN",
                 "FR"
-            ]
+            ],
+            "ignoreInCollection": false
         },
         {
             "id": "bang_bang_club",
@@ -40268,7 +40466,8 @@
             },
             "titreOriginal": "The Karate Kid",
             "langueOriginale": "en",
-            "fichierNormalise": "2010_The Karate Kid_TBD.avi"
+            "fichierNormalise": "2010_The Karate Kid_TBD.avi",
+            "ignoreInCollection": false
         },
         {
             "id": "karate_kid_2010",
@@ -41466,7 +41665,8 @@
             "studio": null,
             "languesAudio": [
                 "EN"
-            ]
+            ],
+            "ignoreInCollection": false
         },
         {
             "id": "the_yard_2_homecoming_2010",
@@ -44575,6 +44775,169 @@
             "langueOriginale": "zh"
         },
         {
+            "id": "wild_wild_west",
+            "titre": "Wild Wild West",
+            "annee": null,
+            "langue": [
+                "VO"
+            ],
+            "taille": 1584119272,
+            "genre": [
+                "Action",
+                "Aventure",
+                "Comédie",
+                "Science-Fiction",
+                "Western"
+            ],
+            "image": "https://image.tmdb.org/t/p/w342/1OhncZC6cC23SwU63IIi25Dp1fR.jpg",
+            "fichier": "/Box_Films/Action/Wild Wild West_1999_VO_VOST_VOSTFR.mkv",
+            "nomFichier": "Wild Wild West_1999_VO_VOST_VOSTFR.mkv",
+            "imdbId": null,
+            "tmdbId": 8487,
+            "tmdbUrl": "https://www.themoviedb.org/movie/8487",
+            "doublonExact": false,
+            "doublonProbable": false,
+            "groupeDoublon": null,
+            "dateAjout": "2026-11-26T18:34:24.046Z",
+            "technique": {
+                "largeur": 1920,
+                "hauteur": 1080,
+                "resolution": "1920x1080",
+                "ratioImage": 1.778,
+                "codecVideo": "hevc",
+                "profilVideo": "Main 10",
+                "pixelFormat": "yuv420p10le",
+                "bitsParComposante": null,
+                "bitrateVideo": null,
+                "framerate": 23.976,
+                "espaceCouleur": null,
+                "transfertCouleur": null,
+                "primairesCouleur": null,
+                "hdr": false,
+                "dureeFichier": 6360.116,
+                "bitrateGlobal": 1992566,
+                "formatConteneur": "matroska,webm",
+                "audio": [
+                    {
+                        "codec": "aac",
+                        "profil": "LC",
+                        "canaux": 6,
+                        "disposition": "5.1",
+                        "bitrate": null,
+                        "frequence": 48000,
+                        "langue": "eng"
+                    }
+                ],
+                "sousTitres": [
+                    {
+                        "codec": "hdmv_pgs_subtitle",
+                        "langue": "eng",
+                        "titre": "SDH"
+                    },
+                    {
+                        "codec": "dvd_subtitle",
+                        "langue": "fre",
+                        "titre": null
+                    },
+                    {
+                        "codec": "dvd_subtitle",
+                        "langue": "ger",
+                        "titre": null
+                    },
+                    {
+                        "codec": "dvd_subtitle",
+                        "langue": "jpn",
+                        "titre": null
+                    },
+                    {
+                        "codec": "dvd_subtitle",
+                        "langue": "por",
+                        "titre": null
+                    },
+                    {
+                        "codec": "dvd_subtitle",
+                        "langue": "spa",
+                        "titre": null
+                    },
+                    {
+                        "codec": "dvd_subtitle",
+                        "langue": "spa",
+                        "titre": null
+                    },
+                    {
+                        "codec": "subrip",
+                        "langue": "ara",
+                        "titre": null
+                    },
+                    {
+                        "codec": "subrip",
+                        "langue": "dan",
+                        "titre": null
+                    },
+                    {
+                        "codec": "subrip",
+                        "langue": "dut",
+                        "titre": null
+                    },
+                    {
+                        "codec": "subrip",
+                        "langue": "ind",
+                        "titre": null
+                    },
+                    {
+                        "codec": "subrip",
+                        "langue": "kor",
+                        "titre": null
+                    },
+                    {
+                        "codec": "subrip",
+                        "langue": "nor",
+                        "titre": null
+                    },
+                    {
+                        "codec": "subrip",
+                        "langue": "rum",
+                        "titre": null
+                    },
+                    {
+                        "codec": "subrip",
+                        "langue": "swe",
+                        "titre": null
+                    },
+                    {
+                        "codec": "subrip",
+                        "langue": "tha",
+                        "titre": null
+                    },
+                    {
+                        "codec": "subrip",
+                        "langue": "vie",
+                        "titre": null
+                    }
+                ],
+                "zoneUtile": {
+                    "largeurUtile": 1920,
+                    "hauteurUtile": 1072,
+                    "x": 0,
+                    "y": 4
+                }
+            },
+            "fichierNormalise": "Wild Wild West_VO.mkv",
+            "type": "Film",
+            "studio": null,
+            "titreTmdb": "Wild Wild West",
+            "titreOriginal": "Wild Wild West",
+            "langueOriginale": "en",
+            "anneeTmdb": "1999",
+            "dureeTmdb": 104,
+            "descriptionTmdb": "1869, pour neutraliser son plus puissant ennemi, le démoniaque et richissime Dr Arliss Loveless, le président des États-Unis désigne deux agents spéciaux, James West et Artemus Gordon, choisis pour leurs compétences exceptionnelles. Si James West est un champion de l'humour à froid, charmeur et rusé, Artemus, lui, prône la réflexion et passe son temps à inventer des gadgets sophistiqués. Quelque peu rivaux, les deux agents vont devoir unir leur talent pour capturer l'infâme Loveless. Rita Escobar, belle et mystérieuse artiste, se joint à eux.",
+            "collectionId": null,
+            "collectionNom": null,
+            "collectionDescription": null,
+            "collectionImage": null,
+            "collectionTmdbUrl": null
+        },
+        {
             "id": "tmdb_76170",
             "titre": "Wolverine : Le Combat de l'immortel",
             "annee": 2013,
@@ -45533,20 +45896,24 @@
             "fichierNormalise": "2011_X-Men Le Commencement_VO_VF.mkv"
         },
         {
-            "id": "x_men_last_stand_2006",
-            "titre": "X Men Last Stand",
-            "annee": 2006,
+            "id": "x_men_l_affrontement_final",
+            "titre": "X Men L'Affrontement final",
+            "annee": null,
             "langue": [
-                "TBD"
+                "VO"
             ],
             "taille": 1404966808,
-            "genre": null,
-            "image": null,
-            "fichier": "/Box_Films/- Nouveaux/X-Men.The.Last.Stand.2006.1080p.BrRip.x264.YIFY.mp4",
-            "nomFichier": "X-Men.The.Last.Stand.2006.1080p.BrRip.x264.YIFY.mp4",
+            "genre": [
+                "Aventure",
+                "Action",
+                "Science-Fiction"
+            ],
+            "image": "https://image.tmdb.org/t/p/w342/fY03tUMgys4vI7HGWxFtQbu0hA7.jpg",
+            "fichier": "/Box_Films/Marvel/X-Men/2006_X-Men L'Affrontement final_VO_VOST.mp4",
+            "nomFichier": "2006_X-Men L'Affrontement final_VO_VOST.mp4",
             "imdbId": null,
-            "tmdbId": null,
-            "tmdbUrl": null,
+            "tmdbId": 36668,
+            "tmdbUrl": "https://www.themoviedb.org/movie/36668",
             "doublonExact": false,
             "doublonProbable": false,
             "groupeDoublon": null,
@@ -45588,7 +45955,20 @@
                     "y": 0
                 }
             },
-            "fichierNormalise": "X Men Last Stand_2006_TBD.mp4"
+            "fichierNormalise": "X Men L'Affrontement final_VO.mp4",
+            "type": "Film",
+            "studio": null,
+            "titreTmdb": "X-Men : L'Affrontement final",
+            "titreOriginal": "X-Men: The Last Stand",
+            "langueOriginale": "en",
+            "anneeTmdb": "2006",
+            "dureeTmdb": 105,
+            "descriptionTmdb": "Dans le chapitre final de la trilogie X-Men, les mutants affrontent un choix historique et leur plus grand combat… Un \"traitement\" leur permet désormais d'échapper à ce qu'ils sont. Pour la première fois, ils ont le choix : conserver ce qui fait leur caractère unique mais leur vaut la défiance et la méfiance de l'humanité, ou bien abandonner leurs pouvoirs et devenir des humains à part entière. Les points de vue opposés des leaders des mutants, Charles Xavier, qui prêche la tolérance, et Magneto, qui croit à la survie des plus adaptés, sont plus que jamais incompatibles et vont déclencher la plus acharnée des batailles.",
+            "collectionId": 748,
+            "collectionNom": "X-Men - Saga",
+            "collectionDescription": "X-Men est une saga cinématographique de super-héros américaine.",
+            "collectionImage": "https://image.tmdb.org/t/p/w500/9Z4fKVUqAJ2WEP6pQFTtYPuoknd.jpg",
+            "collectionTmdbUrl": "https://www.themoviedb.org/collection/748"
         },
         {
             "id": "x_men_origins",
@@ -66364,12 +66744,12 @@
     "stockage": [
         {
             "lecteur": "Y",
-            "espaceLibre": 289256148992,
+            "espaceLibre": 218080284672,
             "capaciteTotale": 2000396742656
         },
         {
             "lecteur": "Z",
-            "espaceLibre": 164155228160,
+            "espaceLibre": 164155158528,
             "capaciteTotale": 1000169533440
         }
     ]
