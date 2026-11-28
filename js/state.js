@@ -96,7 +96,7 @@ function getSidebarFiltersStateKey() {
   return filmsViewStateKey;
 }
 
-function saveSidebarFiltersState(page = currentPage, changes = {}) {
+function saveSidebarFiltersState(changes = {}) {
   const key = getSidebarFiltersStateKey();
   const previousState = JSON.parse(localStorage.getItem(key) ?? "{}");
   const state = {
@@ -125,7 +125,7 @@ function saveToolsButtonsState() {
   localStorage.setItem(toolsButtonsStateKey, JSON.stringify(state));
 }
 function saveToolsFiltersState() {
-  if (currentAjouts !== "À corriger") {
+  if (currentAjouts !== "Erreurs") {
     const state = loadSidebarFiltersState();
     state.ajouts = currentAjouts;
     state.genre = currentGenre;

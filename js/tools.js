@@ -19,6 +19,17 @@ async function initToolsPage() {
   showUnknownGenres();
 
   updateStats();
+
+  const sideCollectionsEl = document.getElementById("sideCollections");
+  if (sideCollectionsEl) {
+    const sideCollectionsRow =
+      sideCollectionsEl.closest("div, li, a, button") || sideCollectionsEl;
+    sideCollectionsRow.style.cursor = "pointer";
+    sideCollectionsRow.onclick = () => {
+      selectAjouts("all");
+    };
+  }
+
   const erreursCount = getMetadataErrorCount();
   setText("sideErreurs", erreursCount);
   document.getElementById("sideErreurs").nextSibling.textContent =
@@ -27,6 +38,12 @@ async function initToolsPage() {
   updateResumeButtons();
   initFiltersSidebar();
   initLanguageFilters();
+  updateSidebarTitle("ajoutsTitle", "SELECTION", currentAjouts);
+  updateSidebarTitle("genreTitle", "GENRE", currentGenre);
+  updateSidebarTitle("typeTitle", "TYPE", currentType);
+  updateSidebarTitle("studioTitle", "STUDIO", currentStudio);
+  updateSidebarTitle("languageTitle", "LANGUE", currentLanguage);
+  updateSidebarTitle("qualityTitle", "QUALITÉ", currentQuality);
   updateToolsSidebarHeight();
   document.getElementById("searchInput").value = loadSearchText();
   currentSearch = loadSearchText();
@@ -150,6 +167,13 @@ function initToolsLanguageFilters() {
   });
 }
 
+function openFilmsNouveautes() {
+  setActiveFilmsContext();
+  saveSidebarFiltersState({ ajouts: "Nouveautés" });
+  window.location.href = "films.html";
+}
+window.openFilmsNouveautes = openFilmsNouveautes;
+
 function updateToolsSidebarHeight() {
   requestAnimationFrame(() => {
     const scrollbarHeight =
@@ -244,7 +268,7 @@ function filmMatchesAjouts(fichier) {
   if (currentAjouts === "Récents") {
     return true;
   }
-  if (currentAjouts === "À corriger") {
+  if (currentAjouts === "Erreurs") {
     return (
       (showType && hasMetadataError(fichier, "type")) ||
       (showGenre && hasMetadataError(fichier, "genre")) ||
@@ -429,11 +453,18 @@ function renderTools() {
       return titre.includes(filtre) || chemin.includes(filtre);
     });
 
-  fichiers = fichiers.sort((a, b) => {
-    const valeurA = showFile ? a.fichier : a.titreTmdb || a.titre;
-    const valeurB = showFile ? b.fichier : b.titreTmdb || b.titre;
-    return valeurA.localeCompare(valeurB, "fr");
-  });
+  if (currentAjouts === "Récents") {
+    fichiers = fichiers.sort(
+      (a, b) =>
+        new Date(b.dateAjout).getTime() - new Date(a.dateAjout).getTime(),
+    );
+  } else {
+    fichiers = fichiers.sort((a, b) => {
+      const valeurA = showFile ? a.fichier : a.titreTmdb || a.titre;
+      const valeurB = showFile ? b.fichier : b.titreTmdb || b.titre;
+      return valeurA.localeCompare(valeurB, "fr");
+    });
+  }
 
   displayedFiles = fichiers;
 
@@ -574,10 +605,7 @@ function renderTools() {
             if (!shouldActivate) {
               fichierToUpdate.genre = genres.filter((g) => g !== value);
             } else {
-              if (!genres.includes(value)) {
-                genres.push(value);
-              }
-              fichierToUpdate.genre = genres;
+              fichierToUpdate.genre = [value];
             }
           }
         }

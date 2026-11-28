@@ -19,8 +19,10 @@
                     <aside class="sidebar">
                         <div class="sidebar-title">Statistiques</div>
                         <div id="sideCollectionsRow" class="sidebar-stat"><span id="sideCollections">0</span> Collections</div>
-                        <div class="sidebar-stat"><span id="sideFilms">0</span> Films</div>
-                        <div class="sidebar-stat" style="display: none;"><span id="sideNouveautes">0</span> Nouveautés</div>
+                        <div class="sidebar-stat" style="cursor: pointer;" onclick="selectAjouts('all')">
+                            <span id="sideFilms">0</span> Films</div>
+                        <div class="sidebar-stat" style="cursor: pointer;" onclick="openFilmsNouveautes()">
+                            <span id="sideNouveautes">0</span> Nouveautés</div>
                         <div class="sidebar-section"></div>
 
                         <div class="sidebar-title" id="storageTitle">Espace disponible</div>
@@ -31,6 +33,30 @@
                             <div class="sidebar-stat" style="cursor: pointer;" onclick="reloadCatalog('nouveaux')">Scan rapide</div>                  
                         </div>
                         <div class="sidebar-section"></div>
+
+                        <div class="sidebar-title" id="ajoutsTitle">Selection</div> 
+                            <div id="ajoutsFilters"></div>
+                            <div class="sidebar-section"></div>
+
+                            <div class="sidebar-title" id="genreTitle">Genre</div>
+                            <div id="genreFilters"></div>
+                            <div class="sidebar-section"></div>
+
+                            <div class="sidebar-title" id="typeTitle">Type</div>
+                            <div id="typeFilters"></div>
+                            <div class="sidebar-section"></div>
+
+                            <div class="sidebar-title" id="studioTitle">Studio</div>
+                            <div id="studioFilters"></div>
+                            <div class="sidebar-section"></div>
+
+                            <div class="sidebar-title" id="languageTitle">Langue</div>
+                            <div id="languageFilters"></div>
+                            <div class="sidebar-section"></div>
+
+                            <div class="sidebar-title" id="qualityTitle">Qualité</div>
+                            <div id="qualityFilters"></div>
+                            <div class="sidebar-section"></div>
                     </aside>
 
                     <section class="content">

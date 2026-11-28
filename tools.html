@@ -21,7 +21,8 @@
                         <div class="sidebar-title">Statistiques</div>
                         <div class="sidebar-stat"><span id="sideCollections">0</span> Collections</div>
                         <div class="sidebar-stat"><span id="sideFilms">0</span> Films</div>
-                        <div class="sidebar-stat"><span id="sideNouveautes">0</span> Nouveautés</div>
+                        <div class="sidebar-stat" style="cursor: pointer;" onclick="openFilmsNouveautes()">
+                            <span id="sideNouveautes">0</span> Nouveautés</div>
                         <div class="sidebar-stat"><span id="sideNouveaux">0</span> Nouveaux</div>
                         <div class="sidebar-stat"><span id="sideErreurs">0</span> Erreurs</div>
                         <div class="sidebar-section"></div>
@@ -43,7 +44,7 @@
                                 onclick="selectAjouts('Nouveautés')">Nouveautés</button>
                             <button class="sidebar-link" data-ajouts="Récents"
                                 onclick="selectAjouts('Récents')">Récents</button>
-                            <button class="sidebar-link" data-ajouts="À corriger"
+                            <button class="sidebar-link" data-ajouts="Erreurs"
                                 onclick="selectAjouts('À corriger')">À corriger</button>
                             <button class="sidebar-link" data-ajouts="À déplacer"
                                 onclick="selectAjouts('À déplacer')">À déplacer</button>                        </div>

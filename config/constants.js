@@ -1,11 +1,12 @@
-const SIDEBAR_HOVER_OPEN_DELAY_MS = 500;
+const SIDEBAR_HOVER_OPEN_DELAY_MS = 150;
 const SIDEBAR_HOVER_CLOSE_DELAY_MS = 120;
 
 const FILTER_DOUBLONS_NB_FICHIERS = 3;
 const FILTER_AJOUTS = {
-  collections: ["Récents", "À compléter", "Doublons"],
+  collections: ["Nouveautés", "Récents", "À compléter", "Doublons"],
   films: ["Nouveautés", "Récents", "Doublons", "À déplacer"],
-  tools: ["Nouveautés", "Récents", "Doublons", "À corriger", "À déplacer"],
+  "film-detail": ["Nouveautés", "Récents", "Doublons", "À déplacer"],
+  tools: ["Nouveautés", "Récents", "Doublons", "Erreurs", "À déplacer"],
   series: ["Nouveautés", "Récents", "À compléter"],
 };
 const FILTER_TYPES = ["Animation", "Anime", "Film", "Spectacle"];
@@ -254,6 +255,10 @@ function initFiltersSidebar(ecran) {
         : ["all", ...FILTER_AJOUTS.films];
       tousLabel = "Tous les films";
       break;
+    case "film-detail":
+      validAjouts = ["all", ...FILTER_AJOUTS["film-detail"]];
+      tousLabel = "Tous les films";
+      break;
     case "tools":
       validAjouts = ["all", ...FILTER_AJOUTS.tools];
       tousLabel = "Tous les films";
@@ -264,39 +269,45 @@ function initFiltersSidebar(ecran) {
       break;
   }
 
-  // Si on est en contexte collection sur la page films, on s'assure aussi de filtrer l'affichage du rendu des boutons
-  if (isCollectionContext && currentPage === "films") {
-    const ajoutsFiltresRestants = FILTER_AJOUTS.films.filter(
-      (item) => item !== "Nouveautés",
-    );
-    renderSidebarFilters(
-      "ajoutsFilters",
-      ajoutsFiltresRestants,
-      "ajouts",
-      tousLabel,
-    );
-    renderSidebarFilters(
-      "genreFilters",
-      FILTER_GENRES,
-      "genre",
-      "Tous les genres",
-    );
-    renderSidebarFilters("typeFilters", FILTER_TYPES, "type", "Tous les types");
-    renderSidebarFilters(
-      "studioFilters",
-      FILTER_STUDIOS,
-      "studio",
-      "Tous les studios",
-    );
-    renderSidebarFilters(
-      "qualityFilters",
-      FILTER_QUALITIES,
-      "quality",
-      "Toutes les qualités",
-    );
-  } else {
-    renderAllSidebarFilters(tousLabel);
-  }
+  // // Si on est en contexte collection sur la page films, on s'assure aussi de filtrer l'affichage du rendu des boutons
+  // if (isCollectionContext && currentPage === "films") {
+  //   const ajoutsFiltresRestants = FILTER_AJOUTS.films.filter(
+  //     (item) => item !== "Nouveautés",
+  //   );
+  //   renderSidebarFilters(
+  //     "ajoutsFilters",
+  //     ajoutsFiltresRestants,
+  //     "ajouts",
+  //     tousLabel,
+  //   );
+  //   renderSidebarFilters(
+  //     "genreFilters",
+  //     FILTER_GENRES,
+  //     "genre",
+  //     "Tous les genres",
+  //   );
+  //   renderSidebarFilters("typeFilters", FILTER_TYPES, "type", "Tous les types");
+  //   renderSidebarFilters(
+  //     "studioFilters",
+  //     FILTER_STUDIOS,
+  //     "studio",
+  //     "Tous les studios",
+  //   );
+  //   renderSidebarFilters(
+  //     "languageFilters",
+  //     FILTER_LANGUAGES,
+  //     "language",
+  //     "Toutes les langues",
+  //   );
+  //   renderSidebarFilters(
+  //     "qualityFilters",
+  //     FILTER_QUALITIES,
+  //     "quality",
+  //     "Toutes les qualités",
+  //   );
+  // } else {
+  renderAllSidebarFilters(tousLabel);
+  // }
 
   currentAjouts = viewState.ajouts || "all";
   if (!validAjouts.includes(currentAjouts)) {
@@ -471,6 +482,7 @@ function selectAjouts(ajouts) {
     currentGenre = "all";
     currentType = "all";
     currentStudio = "all";
+    currentLanguage = "all";
     currentQuality = "all";
 
     document.querySelectorAll(".sidebar-link[data-genre]").forEach((button) => {
@@ -485,6 +497,11 @@ function selectAjouts(ajouts) {
         button.classList.toggle("active", button.dataset.studio === "all");
       });
     document
+      .querySelectorAll(".sidebar-link[data-language]")
+      .forEach((button) => {
+        button.classList.toggle("active", button.dataset.language === "all");
+      });
+    document
       .querySelectorAll(".sidebar-link[data-quality]")
       .forEach((button) => {
         button.classList.toggle("active", button.dataset.quality === "all");
@@ -493,6 +510,7 @@ function selectAjouts(ajouts) {
     updateSidebarTitle("genreTitle", "GENRE", currentGenre);
     updateSidebarTitle("typeTitle", "TYPE", currentType);
     updateSidebarTitle("studioTitle", "STUDIO", currentStudio);
+    updateSidebarTitle("languageTitle", "LANGUE", currentLanguage);
     updateSidebarTitle("qualityTitle", "QUALITÉ", currentQuality);
   }
 
@@ -612,7 +630,7 @@ function selectQuality(quality) {
   renderCurrentScreen();
 }
 function matchesGenre(film) {
-  if (currentGenre === "all") {
+  if (!currentGenre || currentGenre === "all") {
     return true;
   }
   if (!film.genre) {
@@ -624,19 +642,19 @@ function matchesGenre(film) {
   return film.genre === currentGenre;
 }
 function matchesType(film) {
-  if (currentType === "all") {
+  if (!currentType || currentType === "all") {
     return true;
   }
   return film.type === currentType;
 }
 function matchesStudio(film) {
-  if (currentStudio === "all") {
+  if (!currentStudio || currentStudio === "all") {
     return true;
   }
   return film.studio === currentStudio;
 }
 function matchesLanguage(film) {
-  if (currentLanguage === "all") {
+  if (!currentLanguage || currentLanguage === "all") {
     return true;
   }
   const files = film.groupFiles?.length ? film.groupFiles : [film];
@@ -646,7 +664,7 @@ function matchesLanguage(film) {
   });
 }
 function matchesQuality(film) {
-  if (currentQuality === "all") {
+  if (!currentQuality || currentQuality === "all") {
     return true;
   }
   const files =

@@ -1,6 +1,6 @@
 {
     "version": 1,
-    "dateDernierScan": "2026-11-27T21:28:30.141Z",
+    "dateDernierScan": "2026-11-28T17:25:09.481Z",
     "collections": [
         {
             "collectionId": 645,
@@ -1461,151 +1461,7 @@
             "collectionTmdbUrl": "https://www.themoviedb.org/collection/556",
             "ignoreInCollection": false,
             "type": "Film",
-            "studio": null
-        },
-        {
-            "id": "a_avengers_age_of_ultron_2015",
-            "titre": "a Avengers Age Of Ultron",
-            "annee": 2015,
-            "langue": [
-                "VF"
-            ],
-            "taille": 1468973065,
-            "genre": [
-                "Science-Fiction"
-            ],
-            "image": "https://image.tmdb.org/t/p/w342/A0tw88n1byyR2vodhJMlFPQGQgF.jpg",
-            "fichier": "/Box_Films/Marvel/Avengers/2015_Avengers L'Ère d'Ultron_VF.avi",
-            "nomFichier": "2015_Avengers L'Ère d'Ultron_VF.avi",
-            "imdbId": null,
-            "tmdbId": 99861,
-            "tmdbUrl": "https://www.themoviedb.org/movie/99861",
-            "doublonExact": false,
-            "doublonProbable": true,
-            "groupeDoublon": "a_avengers_age_of_ultron",
-            "dateAjout": "2021-07-30T16:09:28.588Z",
-            "titreTmdb": "Avengers : L'Ère d'Ultron",
-            "anneeTmdb": "2015",
-            "dureeTmdb": 143,
-            "descriptionTmdb": "Alors que Tony Stark tente de relancer un programme de maintien de la paix jusque-là suspendu, les choses tournent mal et les super-héros Iron Man, Captain America, Thor, Hulk, Black Widow et Hawkeye vont devoir à nouveau unir leurs forces pour combattre le plus puissant de leurs adversaires : le terrible Ultron, un être technologique terrifiant qui s’est juré d’éradiquer l’espèce humaine. Afin d’empêcher celui-ci d’accomplir ses sombres desseins, des alliances inattendues se scellent, les entraînant dans une incroyable aventure et une haletante course contre le temps…",
-            "collectionId": 86311,
-            "collectionNom": "Avengers - Saga",
-            "collectionDescription": "Une série de films de super-héros produite par Marvel Studios qui se base sur l'équipe de super-héros issue de l'univers de Marvel Comics. La série met en scène des super-héros unissant leurs forces pour aider l'organisation de maintien de la paix SHIELD dirigée par Nick Fury.",
-            "collectionImage": "https://image.tmdb.org/t/p/w500/qvWDDPlo2MT7YCU4NSVxCgStxqu.jpg",
-            "collectionTmdbUrl": "https://www.themoviedb.org/collection/86311",
-            "type": "Film",
-            "studio": "Marvel",
-            "technique": {
-                "largeur": 720,
-                "hauteur": 304,
-                "resolution": "720x304",
-                "ratioImage": 2.368,
-                "codecVideo": "mpeg4",
-                "profilVideo": "Advanced Simple Profile",
-                "pixelFormat": "yuv420p",
-                "bitsParComposante": null,
-                "bitrateVideo": 1247129,
-                "framerate": 23.976,
-                "espaceCouleur": null,
-                "transfertCouleur": null,
-                "primairesCouleur": null,
-                "hdr": false,
-                "dureeFichier": 8470.178512,
-                "bitrateGlobal": 1387430,
-                "formatConteneur": "avi",
-                "audio": [
-                    {
-                        "codec": "mp3",
-                        "profil": null,
-                        "canaux": 2,
-                        "disposition": "stereo",
-                        "bitrate": 127568,
-                        "frequence": 48000,
-                        "langue": null
-                    }
-                ],
-                "sousTitres": [],
-                "zoneUtile": null
-            },
-            "titreOriginal": "Avengers: Age of Ultron",
-            "langueOriginale": "en",
-            "fichierNormalise": "2015_Avengers L'Ère d'Ultron_VF.avi",
-            "ignoreInCollection": false
-        },
-        {
-            "id": "a_avengers_age_of_ultron_2015",
-            "titre": "a Avengers Age Of Ultron",
-            "annee": 2015,
-            "langue": [
-                "VF"
-            ],
-            "taille": 5912660447,
-            "genre": [
-                "Science-Fiction"
-            ],
-            "image": "https://image.tmdb.org/t/p/w342/A0tw88n1byyR2vodhJMlFPQGQgF.jpg",
-            "fichier": "/Box_Films/Marvel/Avengers/2015_Avengers L'Ère d'Ultron_VF.mkv",
-            "nomFichier": "2015_Avengers L'Ère d'Ultron_VF.mkv",
-            "imdbId": null,
-            "tmdbId": 99861,
-            "tmdbUrl": "https://www.themoviedb.org/movie/99861",
-            "doublonExact": false,
-            "doublonProbable": true,
-            "groupeDoublon": "a_avengers_age_of_ultron",
-            "dateAjout": "2021-07-30T16:23:28.577Z",
-            "titreTmdb": "Avengers : L'Ère d'Ultron",
-            "anneeTmdb": "2015",
-            "dureeTmdb": 143,
-            "descriptionTmdb": "Alors que Tony Stark tente de relancer un programme de maintien de la paix jusque-là suspendu, les choses tournent mal et les super-héros Iron Man, Captain America, Thor, Hulk, Black Widow et Hawkeye vont devoir à nouveau unir leurs forces pour combattre le plus puissant de leurs adversaires : le terrible Ultron, un être technologique terrifiant qui s’est juré d’éradiquer l’espèce humaine. Afin d’empêcher celui-ci d’accomplir ses sombres desseins, des alliances inattendues se scellent, les entraînant dans une incroyable aventure et une haletante course contre le temps…",
-            "collectionId": 86311,
-            "collectionNom": "Avengers - Saga",
-            "collectionDescription": "Une série de films de super-héros produite par Marvel Studios qui se base sur l'équipe de super-héros issue de l'univers de Marvel Comics. La série met en scène des super-héros unissant leurs forces pour aider l'organisation de maintien de la paix SHIELD dirigée par Nick Fury.",
-            "collectionImage": "https://image.tmdb.org/t/p/w500/qvWDDPlo2MT7YCU4NSVxCgStxqu.jpg",
-            "collectionTmdbUrl": "https://www.themoviedb.org/collection/86311",
-            "type": "Film",
-            "studio": "Marvel",
-            "ignoreInCollection": false,
-            "technique": {
-                "largeur": 1280,
-                "hauteur": 536,
-                "resolution": "1280x536",
-                "ratioImage": 2.388,
-                "codecVideo": "h264",
-                "profilVideo": "High",
-                "pixelFormat": "yuv420p",
-                "bitsParComposante": 8,
-                "bitrateVideo": null,
-                "framerate": 24,
-                "espaceCouleur": null,
-                "transfertCouleur": null,
-                "primairesCouleur": null,
-                "hdr": false,
-                "dureeFichier": 8470.25,
-                "bitrateGlobal": 5584402,
-                "formatConteneur": "matroska,webm",
-                "audio": [
-                    {
-                        "codec": "ac3",
-                        "profil": null,
-                        "canaux": 6,
-                        "disposition": "5.1(side)",
-                        "bitrate": 448000,
-                        "frequence": 48000,
-                        "langue": "fre"
-                    }
-                ],
-                "sousTitres": [
-                    {
-                        "codec": "subrip",
-                        "langue": "fre",
-                        "titre": null
-                    }
-                ],
-                "zoneUtile": null
-            },
-            "titreOriginal": "Avengers: Age of Ultron",
-            "langueOriginale": "en",
-            "fichierNormalise": "2015_Avengers L'Ère d'Ultron_VF.mkv"
+            "studio": "Marvel"
         },
         {
             "id": "a_captain_2019",
@@ -2472,7 +2328,7 @@
             "collectionId": null,
             "collectionNom": null,
             "type": "Animation",
-            "studio": null,
+            "studio": "Autres",
             "technique": {
                 "largeur": 1280,
                 "hauteur": 688,
@@ -2548,7 +2404,7 @@
             "collectionId": 454520,
             "collectionNom": "Albator - Saga",
             "type": "Animation",
-            "studio": "Marvel",
+            "studio": "Autres",
             "ignoreInCollection": true,
             "langueOriginale": "ja"
         },
@@ -2583,7 +2439,7 @@
             "collectionImage": "https://image.tmdb.org/t/p/w500/z0NsZNauyNM1ZKj3FCfJvZoSwSA.jpg",
             "collectionTmdbUrl": "https://www.themoviedb.org/collection/454520",
             "type": "Animation",
-            "studio": null,
+            "studio": "Autres",
             "ignoreInCollection": false,
             "technique": {
                 "largeur": 720,
@@ -2968,6 +2824,104 @@
             "fichierNormalise": "Angles d'attaque_2008_VF.avi"
         },
         {
+            "id": "ant_man_and_the_2018",
+            "titre": "Ant Man and the",
+            "annee": 2018,
+            "langue": [
+                "VO",
+                "VF",
+                "VOSTFR"
+            ],
+            "taille": 2752056701,
+            "genre": [
+                "Science-Fiction"
+            ],
+            "image": "https://image.tmdb.org/t/p/w342/r3Vapr4sdXOhHBThTNtfuijKe5V.jpg",
+            "fichier": "/Box_Films/Marvel/Ant-Man/2018_Ant-Man et la Guêpe_VO_VF_VOSTFR.mkv",
+            "nomFichier": "2018_Ant-Man et la Guêpe_VO_VF_VOSTFR.mkv",
+            "imdbId": null,
+            "tmdbId": 363088,
+            "tmdbUrl": "https://www.themoviedb.org/movie/363088",
+            "doublonExact": false,
+            "doublonProbable": false,
+            "groupeDoublon": null,
+            "dateAjout": "2026-11-28T06:58:31.233Z",
+            "technique": {
+                "largeur": 1920,
+                "hauteur": 808,
+                "resolution": "1920x808",
+                "ratioImage": 2.376,
+                "codecVideo": "h264",
+                "profilVideo": "High",
+                "pixelFormat": "yuv420p",
+                "bitsParComposante": 8,
+                "bitrateVideo": null,
+                "framerate": 23.976,
+                "espaceCouleur": null,
+                "transfertCouleur": null,
+                "primairesCouleur": null,
+                "hdr": false,
+                "dureeFichier": 7086.596,
+                "bitrateGlobal": 3106774,
+                "formatConteneur": "matroska,webm",
+                "audio": [
+                    {
+                        "codec": "ac3",
+                        "profil": null,
+                        "canaux": 6,
+                        "disposition": "5.1(side)",
+                        "bitrate": 384000,
+                        "frequence": 48000,
+                        "langue": "fre"
+                    },
+                    {
+                        "codec": "aac",
+                        "profil": "LC",
+                        "canaux": 6,
+                        "disposition": "5.1",
+                        "bitrate": null,
+                        "frequence": 48000,
+                        "langue": "eng"
+                    }
+                ],
+                "sousTitres": [
+                    {
+                        "codec": "subrip",
+                        "langue": "fre",
+                        "titre": "Forced"
+                    },
+                    {
+                        "codec": "subrip",
+                        "langue": "fre",
+                        "titre": null
+                    }
+                ],
+                "zoneUtile": {
+                    "largeurUtile": 1920,
+                    "hauteurUtile": 800,
+                    "x": 0,
+                    "y": 4
+                }
+            },
+            "fichierNormalise": "Ant Man and the_2018_VO_VF.mkv",
+            "type": "Film",
+            "studio": "Marvel",
+            "titreTmdb": "Ant-Man et la Guêpe",
+            "titreOriginal": "Ant-Man and the Wasp",
+            "langueOriginale": "en",
+            "anneeTmdb": "2018",
+            "dureeTmdb": 118,
+            "descriptionTmdb": "Après les événements survenus dans Captain America : Civil War, Scott Lang a bien du mal à concilier sa vie de super-héros et ses responsabilités de père. Mais ses réflexions sur les conséquences de ses choix tournent court lorsque Hope van Dyne et le Dr Hank Pym lui confient une nouvelle mission urgente... Scott va devoir renfiler son costume et apprendre à se battre aux côtés de La Guêpe afin de faire la lumière sur des secrets enfouis de longue date...",
+            "collectionId": 422834,
+            "collectionNom": "Ant-Man - Saga",
+            "collectionDescription": "Une série de films de super-héros basée sur le personnage de Marvel Comics Ant-Man, et faisant partie de la série Marvel Cinematic Universe (MCU). La série est centrée sur Scott Lang, un ancien détenu qui a volé un costume qui lui permet de changer de taille. Hank Pym, l'homme-fourmi original, a découvert les particules subatomiques qui rendent la transformation possible. Hank conseille Scott pour qu'il reprenne le pseudonyme de super-héros.",
+            "collectionImage": "https://image.tmdb.org/t/p/w500/3PTRzkZHsiIfnHdNFvJn0poyPvn.jpg",
+            "collectionTmdbUrl": "https://www.themoviedb.org/collection/422834",
+            "languesSousTitres": [
+                "FR"
+            ]
+        },
+        {
             "id": "ant_man_and_the_quantumania_ddlpz_2023",
             "titre": "Ant Man and the Quantumania DDLPZ",
             "annee": 2023,
@@ -3138,21 +3092,23 @@
             "titre": "Aquaman",
             "annee": 2018,
             "langue": [
-                "VF"
+                "VO",
+                "VF",
+                "VOSTFR"
             ],
             "taille": 3343065527,
             "genre": [
                 "Science-Fiction"
             ],
             "image": "https://image.tmdb.org/t/p/w342/ghbBIweVDjTyx983GQmnCPGlE3U.jpg",
-            "fichier": "/Box_Films/- Nouveaux/Aquaman.2018.IMAX.MULTI.TRUEFRENCH.1080p.HDLight.x264.AC3-EXTREME.mkv",
-            "nomFichier": "Aquaman.2018.IMAX.MULTI.TRUEFRENCH.1080p.HDLight.x264.AC3-EXTREME.mkv",
+            "fichier": "/Box_Films/Science-Fiction/Aquaman/2018_Aquaman_VO_VF_VOSTFR.mkv",
+            "nomFichier": "2018_Aquaman_VO_VF_VOSTFR.mkv",
             "imdbId": null,
             "tmdbId": 297802,
             "tmdbUrl": "https://www.themoviedb.org/movie/297802",
             "doublonExact": false,
-            "doublonProbable": true,
-            "groupeDoublon": "aquaman",
+            "doublonProbable": false,
+            "groupeDoublon": null,
             "dateAjout": "2026-11-27T18:33:39.173Z",
             "technique": {
                 "largeur": 1920,
@@ -3225,76 +3181,10 @@
             "collectionTmdbUrl": "https://www.themoviedb.org/collection/573693",
             "ignoreInCollection": false,
             "type": "Film",
-            "studio": null
-        },
-        {
-            "id": "aquaman_2018",
-            "titre": "Aquaman",
-            "annee": 2018,
-            "langue": [
-                "VOSTFR"
-            ],
-            "taille": 2220597254,
-            "genre": [
-                "Science-Fiction"
-            ],
-            "image": "https://image.tmdb.org/t/p/w342/ghbBIweVDjTyx983GQmnCPGlE3U.jpg",
-            "fichier": "/Box_Films/Marvel/Aquaman/2018_Aquaman_VOSTFR.avi",
-            "nomFichier": "2018_Aquaman_VOSTFR.avi",
-            "imdbId": null,
-            "tmdbId": 297802,
-            "tmdbUrl": "https://www.themoviedb.org/movie/297802",
-            "doublonExact": false,
-            "doublonProbable": true,
-            "groupeDoublon": "aquaman",
-            "dateAjout": "2017-02-06T04:25:18.213Z",
-            "titreTmdb": "Aquaman",
-            "anneeTmdb": "2018",
-            "dureeTmdb": 143,
-            "descriptionTmdb": "Personnage légendaire depuis 70 ans, Aquaman est le Roi des Sept Mers, régnant à contrecœur sur Atlantis. Pris en étau entre les Terriens qui détruisent constamment la mer et les habitants d'Atlantis prêts à se révolter, Aquaman doit protéger la planète tout entière…",
-            "collectionId": 573693,
-            "collectionNom": "Aquaman - Saga",
-            "collectionDescription": "Série de films centrée sur le personnage d'Aquaman de DC Comics.",
-            "collectionImage": "https://image.tmdb.org/t/p/w500/2k754gEz4uL3j1GhjitTOJ6Rcbm.jpg",
-            "collectionTmdbUrl": "https://www.themoviedb.org/collection/573693",
-            "type": "Film",
             "studio": "Marvel",
-            "ignoreInCollection": false,
-            "technique": {
-                "largeur": 720,
-                "hauteur": 400,
-                "resolution": "720x400",
-                "ratioImage": 1.8,
-                "codecVideo": "mpeg4",
-                "profilVideo": "Simple Profile",
-                "pixelFormat": "yuv420p",
-                "bitsParComposante": null,
-                "bitrateVideo": 1607279,
-                "framerate": 23.976,
-                "espaceCouleur": null,
-                "transfertCouleur": null,
-                "primairesCouleur": null,
-                "hdr": false,
-                "dureeFichier": 8601.134208,
-                "bitrateGlobal": 2065399,
-                "formatConteneur": "avi",
-                "audio": [
-                    {
-                        "codec": "ac3",
-                        "profil": null,
-                        "canaux": 6,
-                        "disposition": "5.1(side)",
-                        "bitrate": 448000,
-                        "frequence": 48000,
-                        "langue": null
-                    }
-                ],
-                "sousTitres": [],
-                "zoneUtile": null
-            },
-            "titreOriginal": "Aquaman",
-            "langueOriginale": "en",
-            "fichierNormalise": "2018_Aquaman_VOSTFR.avi"
+            "languesSousTitres": [
+                "FR"
+            ]
         },
         {
             "id": "aquaman_and_the_kingdom_2023",
@@ -3802,7 +3692,7 @@
             "collectionId": null,
             "collectionNom": null,
             "type": "Animation",
-            "studio": null,
+            "studio": "Pixar",
             "technique": {
                 "largeur": 1280,
                 "hauteur": 536,
@@ -4319,6 +4209,281 @@
             "langueOriginale": "en"
         },
         {
+            "id": "avengers_age_of_ultron_multi4_dav1nci_2015",
+            "titre": "Avengers Age of Ultron Multi4 dAV1nci",
+            "annee": 2015,
+            "langue": [
+                "VO",
+                "VF",
+                "VOSTFR",
+                "VOST"
+            ],
+            "taille": 4195945497,
+            "genre": [
+                "Science-Fiction"
+            ],
+            "image": "https://image.tmdb.org/t/p/w342/A0tw88n1byyR2vodhJMlFPQGQgF.jpg",
+            "fichier": "/Box_Films/Marvel/Avengers/2015_Avengers L'Ère d'Ultron_VO_VF_VOST_VOSTFR.mkv",
+            "nomFichier": "2015_Avengers L'Ère d'Ultron_VO_VF_VOST_VOSTFR.mkv",
+            "imdbId": null,
+            "tmdbId": 99861,
+            "tmdbUrl": "https://www.themoviedb.org/movie/99861",
+            "doublonExact": false,
+            "doublonProbable": false,
+            "groupeDoublon": null,
+            "dateAjout": "2026-11-28T09:30:05.992Z",
+            "technique": {
+                "largeur": 1920,
+                "hauteur": 802,
+                "resolution": "1920x802",
+                "ratioImage": 2.394,
+                "codecVideo": "av1",
+                "profilVideo": "Main",
+                "pixelFormat": "yuv420p10le",
+                "bitsParComposante": null,
+                "bitrateVideo": null,
+                "framerate": 23.976,
+                "espaceCouleur": "bt2020nc",
+                "transfertCouleur": "smpte2084",
+                "primairesCouleur": "bt2020",
+                "hdr": true,
+                "dureeFichier": 8478.768,
+                "bitrateGlobal": 3959014,
+                "formatConteneur": "matroska,webm",
+                "audio": [
+                    {
+                        "codec": "opus",
+                        "profil": null,
+                        "canaux": 8,
+                        "disposition": "7.1",
+                        "bitrate": null,
+                        "frequence": 48000,
+                        "langue": "eng"
+                    },
+                    {
+                        "codec": "opus",
+                        "profil": null,
+                        "canaux": 6,
+                        "disposition": "5.1",
+                        "bitrate": null,
+                        "frequence": 48000,
+                        "langue": "spa"
+                    },
+                    {
+                        "codec": "opus",
+                        "profil": null,
+                        "canaux": 6,
+                        "disposition": "5.1",
+                        "bitrate": null,
+                        "frequence": 48000,
+                        "langue": "fre"
+                    },
+                    {
+                        "codec": "opus",
+                        "profil": null,
+                        "canaux": 6,
+                        "disposition": "5.1",
+                        "bitrate": null,
+                        "frequence": 48000,
+                        "langue": "ger"
+                    }
+                ],
+                "sousTitres": [
+                    {
+                        "codec": "hdmv_pgs_subtitle",
+                        "langue": "eng",
+                        "titre": "English (SDH)"
+                    },
+                    {
+                        "codec": "hdmv_pgs_subtitle",
+                        "langue": "spa",
+                        "titre": "Spanish"
+                    },
+                    {
+                        "codec": "hdmv_pgs_subtitle",
+                        "langue": "fre",
+                        "titre": "French"
+                    },
+                    {
+                        "codec": "hdmv_pgs_subtitle",
+                        "langue": "ger",
+                        "titre": "German"
+                    }
+                ],
+                "zoneUtile": {
+                    "largeurUtile": 1920,
+                    "hauteurUtile": 800,
+                    "x": 0,
+                    "y": 2
+                }
+            },
+            "fichierNormalise": "Avengers Age of Ultron Multi4 dAV1nci_2015_TBD.mkv",
+            "type": "Film",
+            "studio": "Marvel",
+            "titreTmdb": "Avengers : L'Ère d'Ultron",
+            "titreOriginal": "Avengers: Age of Ultron",
+            "langueOriginale": "en",
+            "anneeTmdb": "2015",
+            "dureeTmdb": 143,
+            "descriptionTmdb": "Alors que Tony Stark tente de relancer un programme de maintien de la paix jusque-là suspendu, les choses tournent mal et les super-héros Iron Man, Captain America, Thor, Hulk, Black Widow et Hawkeye vont devoir à nouveau unir leurs forces pour combattre le plus puissant de leurs adversaires : le terrible Ultron, un être technologique terrifiant qui s’est juré d’éradiquer l’espèce humaine. Afin d’empêcher celui-ci d’accomplir ses sombres desseins, des alliances inattendues se scellent, les entraînant dans une incroyable aventure et une haletante course contre le temps…",
+            "collectionId": 86311,
+            "collectionNom": "Avengers - Saga",
+            "collectionDescription": "Une série de films de super-héros produite par Marvel Studios qui se base sur l'équipe de super-héros issue de l'univers de Marvel Comics. La série met en scène des super-héros unissant leurs forces pour aider l'organisation de maintien de la paix SHIELD dirigée par Nick Fury.",
+            "collectionImage": "https://image.tmdb.org/t/p/w500/qvWDDPlo2MT7YCU4NSVxCgStxqu.jpg",
+            "collectionTmdbUrl": "https://www.themoviedb.org/collection/86311",
+            "languesAudio": [
+                "EN",
+                "FR"
+            ],
+            "languesSousTitres": [
+                "EN",
+                "FR"
+            ]
+        },
+        {
+            "id": "avengers_engdame_encore_2026",
+            "titre": "Avengers Engdame Encore",
+            "annee": 2026,
+            "langue": [
+                "VO",
+                "VF",
+                "VOSTFR",
+                "VOST"
+            ],
+            "taille": 5486935724,
+            "genre": [
+                "Science-Fiction"
+            ],
+            "image": "https://image.tmdb.org/t/p/w342/qXekTarZKRrVfnBwhS6xevt6BGU.jpg",
+            "fichier": "/Box_Films/Marvel/Avengers/2019_Avengers Endgame_VO_VF_VOST_VOSTFR.mkv",
+            "nomFichier": "2019_Avengers Endgame_VO_VF_VOST_VOSTFR.mkv",
+            "imdbId": null,
+            "tmdbId": 299534,
+            "tmdbUrl": "https://www.themoviedb.org/movie/299534",
+            "doublonExact": false,
+            "doublonProbable": true,
+            "groupeDoublon": "avengers_engdame_encore",
+            "dateAjout": "2026-11-28T14:40:04.213Z",
+            "technique": {
+                "largeur": 1280,
+                "hauteur": 720,
+                "resolution": "1280x720",
+                "ratioImage": 1.778,
+                "codecVideo": "h264",
+                "profilVideo": "High",
+                "pixelFormat": "yuv420p",
+                "bitsParComposante": 8,
+                "bitrateVideo": null,
+                "framerate": 24,
+                "espaceCouleur": "bt709",
+                "transfertCouleur": "bt709",
+                "primairesCouleur": "bt709",
+                "hdr": false,
+                "dureeFichier": 11090.282,
+                "bitrateGlobal": 3958013,
+                "formatConteneur": "matroska,webm",
+                "audio": [
+                    {
+                        "codec": "aac",
+                        "profil": "LC",
+                        "canaux": 2,
+                        "disposition": "stereo",
+                        "bitrate": null,
+                        "frequence": 48000,
+                        "langue": "fre"
+                    },
+                    {
+                        "codec": "aac",
+                        "profil": "LC",
+                        "canaux": 2,
+                        "disposition": "stereo",
+                        "bitrate": null,
+                        "frequence": 48000,
+                        "langue": "fre"
+                    },
+                    {
+                        "codec": "aac",
+                        "profil": "LC",
+                        "canaux": 2,
+                        "disposition": "stereo",
+                        "bitrate": null,
+                        "frequence": 48000,
+                        "langue": "fre"
+                    },
+                    {
+                        "codec": "aac",
+                        "profil": "LC",
+                        "canaux": 2,
+                        "disposition": "stereo",
+                        "bitrate": null,
+                        "frequence": 48000,
+                        "langue": "eng"
+                    }
+                ],
+                "sousTitres": [
+                    {
+                        "codec": "subrip",
+                        "langue": "fre",
+                        "titre": "French (France) Forced"
+                    },
+                    {
+                        "codec": "subrip",
+                        "langue": "fre",
+                        "titre": "French (France)"
+                    },
+                    {
+                        "codec": "subrip",
+                        "langue": "fre",
+                        "titre": "French (France) SDH"
+                    },
+                    {
+                        "codec": "subrip",
+                        "langue": "fre",
+                        "titre": "French (Canadien) Forced"
+                    },
+                    {
+                        "codec": "subrip",
+                        "langue": "fre",
+                        "titre": "French (Canadien)"
+                    },
+                    {
+                        "codec": "subrip",
+                        "langue": "fre",
+                        "titre": "French (Canadien) SDH"
+                    },
+                    {
+                        "codec": "subrip",
+                        "langue": "eng",
+                        "titre": "SDH"
+                    }
+                ],
+                "zoneUtile": {
+                    "largeurUtile": 1280,
+                    "hauteurUtile": 720,
+                    "x": 0,
+                    "y": 0
+                }
+            },
+            "fichierNormalise": "Avengers Engdame Encore_2026_VO_VF.mkv",
+            "titreTmdb": "Avengers : Endgame",
+            "titreOriginal": "Avengers: Endgame",
+            "langueOriginale": "en",
+            "anneeTmdb": "2019",
+            "dureeTmdb": 181,
+            "descriptionTmdb": "Après leur défaite face au Titan Thanos qui dans le film précédent s'est approprié toutes les pierres du Gant de l'infini, les Avengers et les Gardiens de la Galaxie ayant survécu à son claquement de doigts qui a pulvérisé « la moitié de toute forme de vie dans l'Univers », Captain America, Thor, Bruce Banner, Natasha Romanoff, War Machine, Tony Stark, Nébula et Rocket, vont essayer de trouver une solution pour ramener leurs coéquipiers disparus et vaincre Thanos en se faisant aider par Ronin alias Clint Barton, Captain Marvel et Ant-Man.",
+            "collectionId": 86311,
+            "collectionNom": "Avengers - Saga",
+            "collectionDescription": "Une série de films de super-héros produite par Marvel Studios qui se base sur l'équipe de super-héros issue de l'univers de Marvel Comics. La série met en scène des super-héros unissant leurs forces pour aider l'organisation de maintien de la paix SHIELD dirigée par Nick Fury.",
+            "collectionImage": "https://image.tmdb.org/t/p/w500/qvWDDPlo2MT7YCU4NSVxCgStxqu.jpg",
+            "collectionTmdbUrl": "https://www.themoviedb.org/collection/86311",
+            "type": "Film",
+            "studio": "Marvel",
+            "languesSousTitres": [
+                "EN",
+                "FR"
+            ]
+        },
+        {
             "id": "tmdb_1003598",
             "titre": "Avengers: Secret Wars",
             "annee": 2027,
@@ -4787,15 +4952,17 @@
             "titre": "b SpiderMan Home Coming",
             "annee": 2017,
             "langue": [
-                "TBD"
+                "VO",
+                "VF",
+                "VOSTFR"
             ],
             "taille": 2727185064,
             "genre": [
                 "Science-Fiction"
             ],
             "image": "https://image.tmdb.org/t/p/w342/wFNNv1ZHglNdXJLYiEgpLY5sa9S.jpg",
-            "fichier": "/Box_Films/Marvel/Spider-Man (MCU)/2017_Spider-Man Homecoming_TBD.mkv",
-            "nomFichier": "2017_Spider-Man Homecoming_TBD.mkv",
+            "fichier": "/Box_Films/Marvel/Spider-Man (MCU)/2017_Spider-Man Homecoming_VO_VF_VOSTFR.mkv",
+            "nomFichier": "2017_Spider-Man Homecoming_VO_VF_VOSTFR.mkv",
             "imdbId": null,
             "tmdbId": 315635,
             "tmdbUrl": "https://www.themoviedb.org/movie/315635",
@@ -4878,7 +5045,10 @@
             },
             "titreOriginal": "Spider-Man: Homecoming",
             "langueOriginale": "en",
-            "fichierNormalise": "2017_Spider-Man Homecoming_TBD.mkv"
+            "fichierNormalise": "2017_Spider-Man Homecoming_TBD.mkv",
+            "languesSousTitres": [
+                "FR"
+            ]
         },
         {
             "id": "b_thor_the_dark_world_2013",
@@ -5045,7 +5215,7 @@
             "collectionId": 1719057,
             "collectionNom": "Ballerina Collection",
             "type": "Animation",
-            "studio": null,
+            "studio": "Autres",
             "ignoreInCollection": false,
             "technique": {
                 "largeur": 720,
@@ -5591,7 +5761,7 @@
             "collectionId": 97460,
             "collectionNom": "La Belle et le Clochard - Saga",
             "type": "Animation",
-            "studio": null,
+            "studio": "Disney Classic",
             "ignoreInCollection": false,
             "technique": {
                 "largeur": 720,
@@ -5657,7 +5827,7 @@
             "collectionId": 97460,
             "collectionNom": "La Belle et le Clochard - Saga",
             "type": "Animation",
-            "studio": null,
+            "studio": "Disney",
             "ignoreInCollection": false,
             "technique": {
                 "largeur": 608,
@@ -5953,7 +6123,7 @@
             "collectionId": null,
             "collectionNom": null,
             "type": "Animation",
-            "studio": null,
+            "studio": "Disney",
             "technique": {
                 "largeur": 720,
                 "hauteur": 304,
@@ -6161,27 +6331,100 @@
             "langueOriginale": "en"
         },
         {
-            "id": "black_panther_wakanda_forever_2021",
+            "id": "black_panther_wakanda_forever_2022",
             "titre": "Black Panther Wakanda Forever",
-            "annee": 2021,
+            "annee": 2022,
             "langue": [
-                "VF"
+                "VO",
+                "VF",
+                "VOSTFR"
             ],
-            "taille": 1187095371,
+            "taille": 5721587557,
             "genre": [
                 "Science-Fiction"
             ],
             "image": "https://image.tmdb.org/t/p/w342/rNTKgJdJ8tyfpiUug5ittECK8CS.jpg",
-            "fichier": "/Box_Films/Marvel/Black Panther/2022_Black Panther Wakanda Forever_VF.mp4",
-            "nomFichier": "2022_Black Panther Wakanda Forever_VF.mp4",
+            "fichier": "/Box_Films/Marvel/Black Panther/2022_Black Panther Wakanda Forever_VO_VF_VOSTFR.mkv",
+            "nomFichier": "2022_Black Panther Wakanda Forever_VO_VF_VOSTFR.mkv",
             "imdbId": null,
             "tmdbId": 505642,
             "tmdbUrl": "https://www.themoviedb.org/movie/505642",
             "doublonExact": false,
             "doublonProbable": false,
             "groupeDoublon": null,
-            "dateAjout": "2023-02-22T22:33:16.804Z",
+            "dateAjout": "2026-11-27T21:58:42.187Z",
+            "technique": {
+                "largeur": 1920,
+                "hauteur": 804,
+                "resolution": "1920x804",
+                "ratioImage": 2.388,
+                "codecVideo": "h264",
+                "profilVideo": "Main",
+                "pixelFormat": "yuv420p",
+                "bitsParComposante": 8,
+                "bitrateVideo": null,
+                "framerate": 23.976,
+                "espaceCouleur": null,
+                "transfertCouleur": null,
+                "primairesCouleur": null,
+                "hdr": false,
+                "dureeFichier": 9678.711,
+                "bitrateGlobal": 4729214,
+                "formatConteneur": "matroska,webm",
+                "audio": [
+                    {
+                        "codec": "aac",
+                        "profil": "LC",
+                        "canaux": 6,
+                        "disposition": "5.1",
+                        "bitrate": null,
+                        "frequence": 48000,
+                        "langue": "eng"
+                    },
+                    {
+                        "codec": "aac",
+                        "profil": "LC",
+                        "canaux": 6,
+                        "disposition": "5.1",
+                        "bitrate": null,
+                        "frequence": 48000,
+                        "langue": "fre"
+                    },
+                    {
+                        "codec": "aac",
+                        "profil": "LC",
+                        "canaux": 2,
+                        "disposition": "stereo",
+                        "bitrate": null,
+                        "frequence": 48000,
+                        "langue": "fre"
+                    }
+                ],
+                "sousTitres": [
+                    {
+                        "codec": "subrip",
+                        "langue": "fre",
+                        "titre": "FORCED VFF"
+                    },
+                    {
+                        "codec": "subrip",
+                        "langue": "fre",
+                        "titre": "FULL VFF"
+                    }
+                ],
+                "zoneUtile": {
+                    "largeurUtile": 1920,
+                    "hauteurUtile": 800,
+                    "x": 0,
+                    "y": 2
+                }
+            },
+            "fichierNormalise": "Black Panther Wakanda Forever_2022_VF.mkv",
+            "type": "Film",
+            "studio": "Marvel",
             "titreTmdb": "Black Panther : Wakanda Forever",
+            "titreOriginal": "Black Panther: Wakanda Forever",
+            "langueOriginale": "en",
             "anneeTmdb": "2022",
             "dureeTmdb": 161,
             "descriptionTmdb": "La Reine Ramonda, Shuri, M’Baku, Okoye et les Dora Milaje luttent pour protéger leur nation des ingérences d’autres puissances mondiales après la mort du roi T’Challa. Alors que le peuple s’efforce d’aller de l’avant, nos héros vont devoir s’unir et compter sur l’aide de la mercenaire Nakia et d’Everett Ross pour faire entrer le royaume du Wakanda dans une nouvelle ère. Mais une terrible menace surgit d’un royaume caché au plus profond des océans : Talokan.",
@@ -6190,55 +6433,9 @@
             "collectionDescription": "Le Wakanda et sa métropole, dominée par des gratte-ciel modernes, est une nation africaine techniquement avancée qui est coupée du monde extérieur et se fait passer pour un pays pauvre du tiers-monde. Grâce à l'impact d'une météorite et à la source de matière première qui en résulte, le seul métal local, le vibranium, le pays africain peut se rendre invisible au reste du monde sous un immense dispositif de camouflage. Aussi, parce que la source de progrès pourrait faire des ravages entre de mauvaises mains, les premiers dirigeants du Wakanda ont opté pour l'isolement, qui perdure encore aujourd'hui.",
             "collectionImage": "https://image.tmdb.org/t/p/w500/1bVrlIR6snwTglKtl5umYmGpnsb.jpg",
             "collectionTmdbUrl": "https://www.themoviedb.org/collection/529892",
-            "type": "Film",
-            "studio": "Marvel",
-            "ignoreInCollection": false,
-            "technique": {
-                "largeur": 720,
-                "hauteur": 302,
-                "resolution": "720x302",
-                "ratioImage": 2.384,
-                "codecVideo": "h264",
-                "profilVideo": "High",
-                "pixelFormat": "yuv420p",
-                "bitsParComposante": 8,
-                "bitrateVideo": 813937,
-                "framerate": 23.976,
-                "espaceCouleur": "bt709",
-                "transfertCouleur": "bt709",
-                "primairesCouleur": "bt709",
-                "hdr": false,
-                "dureeFichier": 9678.677,
-                "bitrateGlobal": 981204,
-                "formatConteneur": "mov,mp4,m4a,3gp,3g2,mj2",
-                "audio": [
-                    {
-                        "codec": "aac",
-                        "profil": "LC",
-                        "canaux": 2,
-                        "disposition": "stereo",
-                        "bitrate": 160483,
-                        "frequence": 48000,
-                        "langue": "fra"
-                    }
-                ],
-                "sousTitres": [
-                    {
-                        "codec": "mov_text",
-                        "langue": "fra",
-                        "titre": null
-                    },
-                    {
-                        "codec": "mov_text",
-                        "langue": "eng",
-                        "titre": null
-                    }
-                ],
-                "zoneUtile": null
-            },
-            "titreOriginal": "Black Panther: Wakanda Forever",
-            "langueOriginale": "en",
-            "fichierNormalise": "2022_Black Panther Wakanda Forever_VF.mp4"
+            "languesSousTitres": [
+                "FR"
+            ]
         },
         {
             "id": "black_widow_2021",
@@ -6637,79 +6834,6 @@
             "fichierNormalise": "Braquage à l'italienne_2003_VF.avi"
         },
         {
-            "id": "c_ant_man_and_the_2018",
-            "titre": "c Ant Man and the",
-            "annee": 2018,
-            "langue": [
-                "VF"
-            ],
-            "taille": 1487064478,
-            "genre": [
-                "Science-Fiction"
-            ],
-            "image": "https://image.tmdb.org/t/p/w342/r3Vapr4sdXOhHBThTNtfuijKe5V.jpg",
-            "fichier": "/Box_Films/Marvel/Ant-Man/2018_Ant-Man et la Guêpe_VF.avi",
-            "nomFichier": "2018_Ant-Man et la Guêpe_VF.avi",
-            "imdbId": null,
-            "tmdbId": 363088,
-            "tmdbUrl": "https://www.themoviedb.org/movie/363088",
-            "doublonExact": false,
-            "doublonProbable": false,
-            "groupeDoublon": null,
-            "dateAjout": "2018-10-06T17:20:31.031Z",
-            "titreTmdb": "Ant-Man et la Guêpe",
-            "anneeTmdb": "2018",
-            "dureeTmdb": 118,
-            "descriptionTmdb": "Après les événements survenus dans Captain America : Civil War, Scott Lang a bien du mal à concilier sa vie de super-héros et ses responsabilités de père. Mais ses réflexions sur les conséquences de ses choix tournent court lorsque Hope van Dyne et le Dr Hank Pym lui confient une nouvelle mission urgente... Scott va devoir renfiler son costume et apprendre à se battre aux côtés de La Guêpe afin de faire la lumière sur des secrets enfouis de longue date...",
-            "collectionId": 422834,
-            "collectionNom": "Ant-Man - Saga",
-            "collectionDescription": "Une série de films de super-héros basée sur le personnage de Marvel Comics Ant-Man, et faisant partie de la série Marvel Cinematic Universe (MCU). La série est centrée sur Scott Lang, un ancien détenu qui a volé un costume qui lui permet de changer de taille. Hank Pym, l'homme-fourmi original, a découvert les particules subatomiques qui rendent la transformation possible. Hank conseille Scott pour qu'il reprenne le pseudonyme de super-héros.",
-            "collectionImage": "https://image.tmdb.org/t/p/w500/kr6ljsWH6Bkk5BfmmmLj6z2NZMC.jpg",
-            "collectionTmdbUrl": "https://www.themoviedb.org/collection/422834",
-            "type": "Film",
-            "studio": "Marvel",
-            "ignoreInCollection": false,
-            "technique": {
-                "largeur": 720,
-                "hauteur": 304,
-                "resolution": "720x304",
-                "ratioImage": 2.368,
-                "codecVideo": "mpeg4",
-                "profilVideo": "Advanced Simple Profile",
-                "pixelFormat": "yuv420p",
-                "bitsParComposante": null,
-                "bitrateVideo": 1541990,
-                "framerate": 23.976,
-                "espaceCouleur": null,
-                "transfertCouleur": null,
-                "primairesCouleur": null,
-                "hdr": false,
-                "dureeFichier": 7086.532128,
-                "bitrateGlobal": 1678750,
-                "formatConteneur": "avi",
-                "audio": [
-                    {
-                        "codec": "mp3",
-                        "profil": null,
-                        "canaux": 2,
-                        "disposition": "stereo",
-                        "bitrate": 128000,
-                        "frequence": 48000,
-                        "langue": null
-                    }
-                ],
-                "sousTitres": [],
-                "zoneUtile": null
-            },
-            "titreOriginal": "Ant-Man and the Wasp",
-            "langueOriginale": "en",
-            "languesAudio": [
-                "FR"
-            ],
-            "fichierNormalise": "2018_Ant-Man et la Guêpe_VF.avi",
-            "fichierOriginal": "2018 c Ant.Man.and.the.Wasp.2018.FRENCH.BDRip.XviD-EXTREME.avi"
-        },
-        {
             "id": "c_spider_man_far_from_home_2019",
             "titre": "c Man Far From Home",
             "annee": 2019,
@@ -6794,15 +6918,16 @@
             "titre": "c Spiderman Far From Home",
             "annee": 2019,
             "langue": [
-                "TBD"
+                "VO",
+                "VOST"
             ],
             "taille": 1726218826,
             "genre": [
                 "Science-Fiction"
             ],
             "image": "https://image.tmdb.org/t/p/w342/9FkewgPxlMPjgKhFN7LaRJEqmCI.jpg",
-            "fichier": "/Box_Films/Marvel/Spider-Man (MCU)/2019_Spider-Man Far From Home_TBD.mkv",
-            "nomFichier": "2019_Spider-Man Far From Home_TBD.mkv",
+            "fichier": "/Box_Films/Marvel/Spider-Man (MCU)/2019_Spider-Man Far From Home_VO_VOST.mkv",
+            "nomFichier": "2019_Spider-Man Far From Home_VO_VOST.mkv",
             "imdbId": null,
             "tmdbId": 429617,
             "tmdbUrl": "https://www.themoviedb.org/movie/429617",
@@ -6905,7 +7030,10 @@
             },
             "titreOriginal": "Spider-Man: Far From Home",
             "langueOriginale": "en",
-            "fichierNormalise": "2019_Spider-Man Far From Home_TBD.mkv"
+            "fichierNormalise": "2019_Spider-Man Far From Home_TBD.mkv",
+            "languesSousTitres": [
+                "EN"
+            ]
         },
         {
             "id": "c_thor_ragnarok_2017",
@@ -7443,7 +7571,7 @@
             "collectionTmdbUrl": "https://www.themoviedb.org/collection/87118",
             "ignoreInCollection": false,
             "type": "Animation",
-            "studio": null,
+            "studio": "Pixar",
             "fichierNormalise": "2017_Cars 3_VF.avi"
         },
         {
@@ -7698,7 +7826,7 @@
             "collectionId": 55419,
             "collectionNom": "Cendrillon - Saga",
             "type": "Animation",
-            "studio": null,
+            "studio": "Disney Classic",
             "ignoreInCollection": false,
             "technique": {
                 "largeur": 576,
@@ -7793,7 +7921,7 @@
             "collectionId": 55419,
             "collectionNom": "Cendrillon - Saga",
             "type": "Animation",
-            "studio": null,
+            "studio": "Disney",
             "ignoreInCollection": false,
             "technique": {
                 "largeur": 640,
@@ -7859,7 +7987,7 @@
             "collectionId": 55419,
             "collectionNom": "Cendrillon - Saga",
             "type": "Animation",
-            "studio": null,
+            "studio": "Disney",
             "ignoreInCollection": false,
             "technique": {
                 "largeur": 704,
@@ -8479,7 +8607,7 @@
             "collectionId": 315595,
             "collectionNom": "Fée Clochette - Saga",
             "type": "Animation",
-            "studio": null,
+            "studio": "Disney",
             "ignoreInCollection": false,
             "technique": {
                 "largeur": 624,
@@ -8667,7 +8795,7 @@
             "collectionId": 1451578,
             "collectionNom": "Coco - Saga",
             "type": "Animation",
-            "studio": null,
+            "studio": "Pixar",
             "ignoreInCollection": false,
             "technique": {
                 "largeur": 1920,
@@ -9757,8 +9885,7 @@
             ],
             "taille": 6035723296,
             "genre": [
-                "Fantastique",
-                "Action"
+                "Science-Fiction"
             ],
             "image": "https://image.tmdb.org/t/p/w342/kupZzKFhFApvNjtBVB7JlQ6MjeI.jpg",
             "fichier": "/Box_Films/Marvel/Daredevil_2003_VO_VF_VOSTFR.mkv",
@@ -9829,7 +9956,7 @@
             },
             "fichierNormalise": "Daredevil_VO.mkv",
             "type": "Film",
-            "studio": null,
+            "studio": "Marvel",
             "titreTmdb": "Daredevil",
             "titreOriginal": "Daredevil",
             "langueOriginale": "en",
@@ -10097,7 +10224,7 @@
             "titreOriginal": "Despicable Me 3",
             "langueOriginale": "en",
             "type": "Animation",
-            "studio": null,
+            "studio": "DreamWorks",
             "fichierNormalise": "2017_Moi, moche et méchant 3_VF.avi"
         },
         {
@@ -10169,28 +10296,97 @@
             "fichierNormalise": "Détention secrète_2007_VF.avi"
         },
         {
-            "id": "die_hard_2_die_harder_bruce_willis_action_1990",
-            "titre": "Die Hard 2 Die Harder Bruce Willis Action",
+            "id": "die_hard_2_5_1_1990",
+            "titre": "Die Hard 2 5 1",
             "annee": 1990,
             "langue": [
                 "VO",
+                "VF",
+                "VOSTFR",
                 "VOST"
             ],
-            "taille": 2168278501,
+            "taille": 3605955461,
             "genre": [
                 "Action"
             ],
             "image": "https://image.tmdb.org/t/p/w342/1gphGfZKKnxEVJRLYT9VyyDaOaV.jpg",
-            "fichier": "/Box_Films/Action/Die Hard/1990_58 minutes pour vivre_VO_VOST.mp4",
-            "nomFichier": "1990_58 minutes pour vivre_VO_VOST.mp4",
+            "fichier": "/Box_Films/Action/Die Hard/1990_58 minutes pour vivre_VO_VF_VOST_VOSTFR.mkv",
+            "nomFichier": "1990_58 minutes pour vivre_VO_VF_VOST_VOSTFR.mkv",
             "imdbId": null,
             "tmdbId": 1573,
             "tmdbUrl": "https://www.themoviedb.org/movie/1573",
             "doublonExact": false,
             "doublonProbable": false,
             "groupeDoublon": null,
-            "dateAjout": "2026-11-06T07:35:39.533Z",
+            "dateAjout": "2026-11-27T22:34:19.171Z",
+            "technique": {
+                "largeur": 1920,
+                "hauteur": 812,
+                "resolution": "1920x812",
+                "ratioImage": 2.365,
+                "codecVideo": "h264",
+                "profilVideo": "High",
+                "pixelFormat": "yuv420p",
+                "bitsParComposante": 8,
+                "bitrateVideo": null,
+                "framerate": 23.976,
+                "espaceCouleur": "bt709",
+                "transfertCouleur": "bt709",
+                "primairesCouleur": "bt709",
+                "hdr": false,
+                "dureeFichier": 7401.408,
+                "bitrateGlobal": 3897588,
+                "formatConteneur": "matroska,webm",
+                "audio": [
+                    {
+                        "codec": "ac3",
+                        "profil": null,
+                        "canaux": 6,
+                        "disposition": "5.1(side)",
+                        "bitrate": 448000,
+                        "frequence": 48000,
+                        "langue": "fre"
+                    },
+                    {
+                        "codec": "ac3",
+                        "profil": null,
+                        "canaux": 6,
+                        "disposition": "5.1(side)",
+                        "bitrate": 448000,
+                        "frequence": 48000,
+                        "langue": "eng"
+                    }
+                ],
+                "sousTitres": [
+                    {
+                        "codec": "subrip",
+                        "langue": "fre",
+                        "titre": "FR Forced : SRT"
+                    },
+                    {
+                        "codec": "subrip",
+                        "langue": "fre",
+                        "titre": "FR Full : SRT"
+                    },
+                    {
+                        "codec": "subrip",
+                        "langue": "eng",
+                        "titre": "ENG Full : SRT"
+                    }
+                ],
+                "zoneUtile": {
+                    "largeurUtile": 1920,
+                    "hauteurUtile": 800,
+                    "x": 0,
+                    "y": 6
+                }
+            },
+            "fichierNormalise": "Die Hard 2 5 1_1990_VO_VF.mkv",
+            "type": "Film",
+            "studio": null,
             "titreTmdb": "58 minutes pour vivre",
+            "titreOriginal": "Die Hard 2",
+            "langueOriginale": "en",
             "anneeTmdb": "1990",
             "dureeTmdb": 123,
             "descriptionTmdb": "John McClane tente d'éviter le désastre alors que des agents secrets militaires dévoyés prennent le contrôle de l'Aéroport International de Dulles à Washington, D.C.",
@@ -10199,52 +10395,9 @@
             "collectionDescription": "Une série de films d'action centrés autour du personnage de John McClane, un détective de police de New York City qui se retrouve en lutte contre un groupe de terroristes dans chaque film.",
             "collectionImage": "https://image.tmdb.org/t/p/w500/bFZRGXeLLUjnp3F8zzwkvrvPHWD.jpg",
             "collectionTmdbUrl": "https://www.themoviedb.org/collection/1570",
-            "technique": {
-                "largeur": 1920,
-                "hauteur": 800,
-                "resolution": "1920x800",
-                "ratioImage": 2.4,
-                "codecVideo": "h264",
-                "profilVideo": "High",
-                "pixelFormat": "yuv420p",
-                "bitsParComposante": 8,
-                "bitrateVideo": 2210118,
-                "framerate": 23.976,
-                "espaceCouleur": "bt709",
-                "transfertCouleur": "bt709",
-                "primairesCouleur": "bt709",
-                "hdr": false,
-                "dureeFichier": 7402.026667,
-                "bitrateGlobal": 2343443,
-                "formatConteneur": "mov,mp4,m4a,3gp,3g2,mj2",
-                "audio": [
-                    {
-                        "codec": "aac",
-                        "profil": "LC",
-                        "canaux": 2,
-                        "disposition": "stereo",
-                        "bitrate": 127963,
-                        "frequence": 48000,
-                        "langue": "eng"
-                    }
-                ],
-                "sousTitres": [
-                    {
-                        "codec": "mov_text",
-                        "langue": "eng",
-                        "titre": null
-                    }
-                ],
-                "zoneUtile": null
-            },
-            "ignoreInCollection": false,
-            "titreOriginal": "Die Hard 2",
-            "langueOriginale": "en",
-            "type": "Film",
-            "studio": null,
-            "fichierNormalise": "1990_58 minutes pour vivre_TBD.mp4",
-            "languesAudio": [
-                "EN"
+            "languesSousTitres": [
+                "EN",
+                "FR"
             ]
         },
         {
@@ -10807,7 +10960,7 @@
             "collectionId": 759368,
             "collectionNom": "Dragons: Rescue Riders Collection",
             "type": "Animation",
-            "studio": null,
+            "studio": "DreamWorks",
             "ignoreInCollection": false,
             "technique": {
                 "largeur": 1920,
@@ -12181,7 +12334,7 @@
             "collectionId": 989657,
             "collectionNom": "Ernest & Célestine - Saga",
             "type": "Animation",
-            "studio": null,
+            "studio": "Autres",
             "ignoreInCollection": false,
             "technique": {
                 "largeur": 1920,
@@ -12357,7 +12510,7 @@
             "titreOriginal": "Ernest et Célestine : Le Voyage en Charabie",
             "langueOriginale": "fr",
             "type": "Animation",
-            "studio": null,
+            "studio": "Autres",
             "fichierNormalise": "2022_Ernest et Célestine Le Voyage en Charabie_VF.mkv",
             "ignoreInCollection": false
         },
@@ -12989,7 +13142,7 @@
             "collectionImage": "https://image.tmdb.org/t/p/w500/elBBDmc8mVLtgmfsI6UMzOEAyIC.jpg",
             "collectionTmdbUrl": "https://www.themoviedb.org/collection/9744",
             "type": "Film",
-            "studio": null,
+            "studio": "Marvel",
             "languesAudio": [
                 "EN"
             ],
@@ -15097,7 +15250,7 @@
             "collectionId": null,
             "collectionNom": null,
             "type": "Animation",
-            "studio": null,
+            "studio": "DreamWorks",
             "technique": {
                 "largeur": 624,
                 "hauteur": 336,
@@ -15478,7 +15631,7 @@
             "collectionId": 493668,
             "collectionNom": "Gnomeo & Juliet - Saga",
             "type": "Animation",
-            "studio": null,
+            "studio": "Disney",
             "ignoreInCollection": false,
             "technique": {
                 "largeur": 640,
@@ -16885,204 +17038,6 @@
             "fichierNormalise": "Hancock_2008_VO_VF.mkv"
         },
         {
-            "id": "harry_potter_1_a_l_ecole_des_sorciers",
-            "titre": "Harry Potter 1 A L'Ecole Sorciers",
-            "annee": null,
-            "langue": [
-                "TBD"
-            ],
-            "taille": 690638848,
-            "genre": [
-                "Science-Fiction"
-            ],
-            "image": "https://image.tmdb.org/t/p/w342/fbxQ44VRdM2PVzHSNajUseUteem.jpg",
-            "fichier": "/Box_Films/Science-Fiction/Harry Potter/2001_Harry Potter à l'école des sorciers_TBD.avi",
-            "nomFichier": "2001_Harry Potter à l'école des sorciers_TBD.avi",
-            "imdbId": null,
-            "tmdbId": 671,
-            "tmdbUrl": "https://www.themoviedb.org/movie/671",
-            "doublonExact": false,
-            "doublonProbable": false,
-            "groupeDoublon": null,
-            "dateAjout": "2009-01-26T21:39:16.000Z",
-            "titreTmdb": "Harry Potter à l'école des sorciers",
-            "anneeTmdb": "2001",
-            "dureeTmdb": 153,
-            "descriptionTmdb": "Orphelin, le jeune Harry Potter peut enfin quitter ses tyranniques oncle et tante Dursley lorsqu'un curieux messager lui révèle qu'il est un sorcier. À 11 ans, Harry va enfin pouvoir intégrer la légendaire école de sorcellerie de Poudlard, y trouver une famille digne de ce nom et des amis, développer ses dons, et préparer son glorieux avenir.",
-            "collectionId": 1241,
-            "collectionNom": "Harry Potter - Saga",
-            "type": "Film",
-            "studio": null,
-            "ignoreInCollection": false,
-            "technique": {
-                "largeur": 512,
-                "hauteur": 296,
-                "resolution": "512x296",
-                "ratioImage": 1.73,
-                "codecVideo": "mpeg4",
-                "profilVideo": null,
-                "pixelFormat": "yuv420p",
-                "bitsParComposante": null,
-                "bitrateVideo": 557070,
-                "framerate": 24.999,
-                "espaceCouleur": null,
-                "transfertCouleur": null,
-                "primairesCouleur": null,
-                "hdr": false,
-                "dureeFichier": 8767.339178,
-                "bitrateGlobal": 630192,
-                "formatConteneur": "avi",
-                "audio": [
-                    {
-                        "codec": "wmav2",
-                        "profil": null,
-                        "canaux": 2,
-                        "disposition": null,
-                        "bitrate": 64080,
-                        "frequence": 44100,
-                        "langue": null
-                    }
-                ],
-                "sousTitres": [],
-                "zoneUtile": null
-            },
-            "titreOriginal": "Harry Potter and the Philosopher's Stone",
-            "langueOriginale": "en",
-            "fichierNormalise": "2001_Harry Potter à l'école des sorciers_TBD.avi"
-        },
-        {
-            "id": "harry_potter_2_la_chambre_des_secrets",
-            "titre": "Harry Potter 2 chambre secrets",
-            "annee": null,
-            "langue": [
-                "TBD"
-            ],
-            "taille": 719388672,
-            "genre": [
-                "Science-Fiction"
-            ],
-            "image": "https://image.tmdb.org/t/p/w342/8KpHRokGpiaqEGpjYe0rpywtvUx.jpg",
-            "fichier": "/Box_Films/Science-Fiction/Harry Potter/2002_Harry Potter et la Chambre des secrets_TBD.avi",
-            "nomFichier": "2002_Harry Potter et la Chambre des secrets_TBD.avi",
-            "imdbId": null,
-            "tmdbId": 672,
-            "tmdbUrl": "https://www.themoviedb.org/movie/672",
-            "doublonExact": false,
-            "doublonProbable": false,
-            "groupeDoublon": null,
-            "dateAjout": "2009-01-26T21:44:02.000Z",
-            "titreTmdb": "Harry Potter et la Chambre des secrets",
-            "anneeTmdb": "2002",
-            "dureeTmdb": 161,
-            "descriptionTmdb": "Après de très mauvaises vacances passées chez ses odieux oncle et tante et son affreux cousin, Harry rejoint, non sans mal, l'École des Sorciers où, avec ses amis Ron et Hermione et l'aide ponctuelle de nouveaux venus, il parvient à élucider le mystère de la Chambre des secrets, malgré les pièges tendus par ses ennemis et sans le concours de Lockhart, un nouveau professeur fanfaron et lâche, chargé pourtant de vaincre les Forces du Mal.",
-            "collectionId": 1241,
-            "collectionNom": "Harry Potter - Saga",
-            "type": "Film",
-            "studio": null,
-            "ignoreInCollection": false,
-            "technique": {
-                "largeur": 512,
-                "hauteur": 224,
-                "resolution": "512x224",
-                "ratioImage": 2.286,
-                "codecVideo": "mpeg4",
-                "profilVideo": null,
-                "pixelFormat": "yuv420p",
-                "bitsParComposante": null,
-                "bitrateVideo": 474924,
-                "framerate": 23.976,
-                "espaceCouleur": null,
-                "transfertCouleur": null,
-                "primairesCouleur": null,
-                "hdr": false,
-                "dureeFichier": 9652.193861,
-                "bitrateGlobal": 596248,
-                "formatConteneur": "avi",
-                "audio": [
-                    {
-                        "codec": "mp3",
-                        "profil": null,
-                        "canaux": 2,
-                        "disposition": "stereo",
-                        "bitrate": 111992,
-                        "frequence": 44100,
-                        "langue": null
-                    }
-                ],
-                "sousTitres": [],
-                "zoneUtile": null
-            },
-            "titreOriginal": "Harry Potter and the Chamber of Secrets",
-            "langueOriginale": "en",
-            "fichierNormalise": "2002_Harry Potter et la Chambre des secrets_TBD.avi"
-        },
-        {
-            "id": "harry_potter_3_le_prisonnier_d_azkaban",
-            "titre": "Harry Potter 3 Prisonnier d'Azkaban",
-            "annee": null,
-            "langue": [
-                "TBD"
-            ],
-            "taille": 738480128,
-            "genre": [
-                "Science-Fiction"
-            ],
-            "image": "https://image.tmdb.org/t/p/w342/t4P2079IyK19njHDP2GwQrKdvzd.jpg",
-            "fichier": "/Box_Films/Science-Fiction/Harry Potter/2004_Harry Potter et le Prisonnier d'Azkaban_TBD.avi",
-            "nomFichier": "2004_Harry Potter et le Prisonnier d'Azkaban_TBD.avi",
-            "imdbId": null,
-            "tmdbId": 673,
-            "tmdbUrl": "https://www.themoviedb.org/movie/673",
-            "doublonExact": false,
-            "doublonProbable": false,
-            "groupeDoublon": null,
-            "dateAjout": "2009-01-26T21:44:04.000Z",
-            "titreTmdb": "Harry Potter et le Prisonnier d'Azkaban",
-            "anneeTmdb": "2004",
-            "dureeTmdb": 142,
-            "descriptionTmdb": "Sirius Black, un dangereux sorcier criminel, s’échappe de la sombre prison d’Azkaban avec un seul et unique but : retrouver Harry Potter, en troisième année à l’école de Poudlard. Selon la légende, Black aurait jadis livré les parents du jeune sorcier à leur assassin, Lord Voldemort, et serait maintenant déterminé à tuer Harry…",
-            "collectionId": 1241,
-            "collectionNom": "Harry Potter - Saga",
-            "type": "Film",
-            "studio": null,
-            "ignoreInCollection": false,
-            "technique": {
-                "largeur": 512,
-                "hauteur": 224,
-                "resolution": "512x224",
-                "ratioImage": 2.286,
-                "codecVideo": "mpeg4",
-                "profilVideo": null,
-                "pixelFormat": "yuv420p",
-                "bitsParComposante": null,
-                "bitrateVideo": 618425,
-                "framerate": 25,
-                "espaceCouleur": null,
-                "transfertCouleur": null,
-                "primairesCouleur": null,
-                "hdr": false,
-                "dureeFichier": 8158.52,
-                "bitrateGlobal": 724131,
-                "formatConteneur": "avi",
-                "audio": [
-                    {
-                        "codec": "mp3",
-                        "profil": null,
-                        "canaux": 2,
-                        "disposition": "stereo",
-                        "bitrate": 96000,
-                        "frequence": 48000,
-                        "langue": null
-                    }
-                ],
-                "sousTitres": [],
-                "zoneUtile": null
-            },
-            "titreOriginal": "Harry Potter and the Prisoner of Azkaban",
-            "langueOriginale": "en",
-            "fichierNormalise": "2004_Harry Potter et le Prisonnier d'Azkaban_TBD.avi"
-        },
-        {
             "id": "tmdb_675",
             "titre": "Harry Potter et l'Ordre du Phénix",
             "annee": 2007,
@@ -17394,7 +17349,7 @@
             "collectionId": 978459,
             "collectionNom": "Hercules (Disney) - Saga",
             "type": "Animation",
-            "studio": null,
+            "studio": "Disney Classic",
             "ignoreInCollection": false,
             "technique": {
                 "largeur": 1920,
@@ -18159,7 +18114,7 @@
             "collectionId": 89137,
             "collectionNom": "Dragons - Saga",
             "type": "Animation",
-            "studio": null,
+            "studio": "DreamWorks",
             "technique": {
                 "largeur": 1920,
                 "hauteur": 816,
@@ -18257,7 +18212,7 @@
             "collectionId": 89137,
             "collectionNom": "Dragons - Saga",
             "type": "Animation",
-            "studio": null,
+            "studio": "DreamWorks",
             "technique": {
                 "largeur": 1920,
                 "hauteur": 816,
@@ -18362,7 +18317,7 @@
             "collectionId": 89137,
             "collectionNom": "Dragons - Saga",
             "type": "Animation",
-            "studio": null,
+            "studio": "DreamWorks",
             "technique": {
                 "largeur": 1920,
                 "hauteur": 816,
@@ -18445,7 +18400,7 @@
             "collectionId": null,
             "collectionNom": null,
             "type": "Animation",
-            "studio": null,
+            "studio": "DreamWorks",
             "technique": {
                 "largeur": 1916,
                 "hauteur": 1076,
@@ -18823,7 +18778,7 @@
             "collectionImage": "https://image.tmdb.org/t/p/w500/aPgZIiQCnjfyBKK3b8A2vha8sp.jpg",
             "collectionTmdbUrl": "https://www.themoviedb.org/collection/468222",
             "type": "Animation",
-            "studio": null,
+            "studio": "Pixar",
             "languesAudio": [
                 "EN",
                 "FR"
@@ -20087,7 +20042,7 @@
             "collectionId": null,
             "collectionNom": null,
             "type": "Animation",
-            "studio": null,
+            "studio": "Autres",
             "technique": {
                 "largeur": 704,
                 "hauteur": 384,
@@ -22126,7 +22081,7 @@
             "collectionId": 338416,
             "collectionNom": "Kirikou - Saga",
             "type": "Animation",
-            "studio": null,
+            "studio": "Autres",
             "ignoreInCollection": false,
             "technique": {
                 "largeur": 640,
@@ -22223,7 +22178,7 @@
             "collectionId": 338416,
             "collectionNom": "Kirikou - Saga",
             "type": "Animation",
-            "studio": null,
+            "studio": "Autres",
             "ignoreInCollection": false,
             "technique": {
                 "largeur": 720,
@@ -22289,7 +22244,7 @@
             "collectionId": 77816,
             "collectionNom": "Kung Fu Panda - Saga",
             "type": "Animation",
-            "studio": null,
+            "studio": "DreamWorks",
             "technique": {
                 "largeur": 608,
                 "hauteur": 256,
@@ -22448,7 +22403,7 @@
             "collectionId": null,
             "collectionNom": null,
             "type": "Animation",
-            "studio": null,
+            "studio": "DreamWorks",
             "technique": {
                 "largeur": 640,
                 "hauteur": 352,
@@ -22544,7 +22499,7 @@
             "collectionId": 178117,
             "collectionNom": "Kuzco - Saga",
             "type": "Animation",
-            "studio": null,
+            "studio": "Disney",
             "ignoreInCollection": false,
             "technique": {
                 "largeur": 640,
@@ -22661,7 +22616,7 @@
             "collectionId": 8354,
             "collectionNom": "L'Âge de glace - Saga",
             "type": "Animation",
-            "studio": null,
+            "studio": "DreamWorks",
             "technique": {
                 "largeur": 720,
                 "hauteur": 384,
@@ -22863,7 +22818,7 @@
             "collectionId": 8354,
             "collectionNom": "L'Âge de glace - Saga",
             "type": "Animation",
-            "studio": null,
+            "studio": "DreamWorks",
             "ignoreInCollection": false,
             "technique": {
                 "largeur": 512,
@@ -22960,7 +22915,7 @@
             "collectionId": 8354,
             "collectionNom": "L'Âge de glace - Saga",
             "type": "Animation",
-            "studio": null,
+            "studio": "DreamWorks",
             "ignoreInCollection": false,
             "technique": {
                 "largeur": 624,
@@ -24087,78 +24042,6 @@
             "langueOriginale": "en"
         },
         {
-            "id": "la_verite_si_je_mens",
-            "titre": "La vérité si je mens",
-            "annee": null,
-            "langue": [
-                "VF"
-            ],
-            "taille": 733476864,
-            "genre": [
-                "Comédie"
-            ],
-            "image": "https://image.tmdb.org/t/p/w342/z1JRKYnac2SvvQsCbHaVM2E5x0v.jpg",
-            "fichier": "/Box_Films/Comédie/La Vérité si je mens !/1997_La Vérité si je mens !_VF.avi",
-            "nomFichier": "1997_La Vérité si je mens !_VF.avi",
-            "imdbId": null,
-            "tmdbId": 39385,
-            "tmdbUrl": "https://www.themoviedb.org/movie/39385",
-            "doublonExact": false,
-            "doublonProbable": false,
-            "groupeDoublon": null,
-            "dateAjout": "2026-11-22T04:41:48.297Z",
-            "technique": {
-                "largeur": 640,
-                "hauteur": 336,
-                "resolution": "640x336",
-                "ratioImage": 1.905,
-                "codecVideo": "mpeg4",
-                "profilVideo": null,
-                "pixelFormat": "yuv420p",
-                "bitsParComposante": null,
-                "bitrateVideo": 887709,
-                "framerate": 25,
-                "espaceCouleur": null,
-                "transfertCouleur": null,
-                "primairesCouleur": null,
-                "hdr": false,
-                "dureeFichier": 5797.92,
-                "bitrateGlobal": 1012055,
-                "formatConteneur": "avi",
-                "audio": [
-                    {
-                        "codec": "mp3",
-                        "profil": null,
-                        "canaux": 2,
-                        "disposition": "stereo",
-                        "bitrate": 112000,
-                        "frequence": 44100,
-                        "langue": null
-                    }
-                ],
-                "sousTitres": [],
-                "zoneUtile": null
-            },
-            "fichierNormalise": "La vérité si je mens_TBD.avi",
-            "titreTmdb": "La Vérité si je mens !",
-            "titreOriginal": "La Vérité si je mens !",
-            "langueOriginale": "fr",
-            "anneeTmdb": "1997",
-            "dureeTmdb": 100,
-            "descriptionTmdb": "Édouard Vuibert est au bout du rouleau. Victor Benzakem, entrepreneur prospère du quartier du Sentier, le prend sous son aile quand une bagarre l'oppose à deux joueurs de bonneteau. Le prenant pour un Juif, il décide de l'embaucher comme manutentionnaire. Eddie laisse le quiproquo s'installer sur ses origines et il va faire son chemin dans une communauté chaleureuse jusqu'à séduire Sandra, la fille de son patron. Mais au cours de la préparation du mariage, Eddie se démasque involontairement. Il n'est pas juif ! Il déchaine alors le scandale et la colère de la belle Sandra.",
-            "collectionId": 115840,
-            "collectionNom": "La Vérité si je mens ! - Saga",
-            "collectionDescription": "La Vérité si je mens ! est une série de films français qui a débuté à partir de 1997 en France. Elle montre les aventures d'Édouard « Eddie » Vuibert et de ses amis Juifs séfarades dans le monde du commerce de textile face à un commerçant rival, un patron de grandes surfaces sans scrupules ou un redoutable mafieux.",
-            "collectionImage": "https://image.tmdb.org/t/p/w500/cXPiFI9nu1wYIKVvjw8v2iltKkF.jpg",
-            "collectionTmdbUrl": "https://www.themoviedb.org/collection/115840",
-            "languesAudio": [
-                "FR"
-            ],
-            "ignoreInCollection": false,
-            "type": "Film",
-            "studio": null
-        },
-        {
             "id": "tmdb_31359",
             "titre": "La Vérité si je mens ! 2",
             "annee": 2001,
@@ -24733,7 +24616,7 @@
             "collectionId": null,
             "collectionNom": null,
             "type": "Animation",
-            "studio": null,
+            "studio": "Autres",
             "technique": {
                 "largeur": 640,
                 "hauteur": 352,
@@ -24798,7 +24681,7 @@
             "collectionId": 100693,
             "collectionNom": "Les 101 Dalmatiens (Animation) - Saga",
             "type": "Animation",
-            "studio": null,
+            "studio": "Disney Classic",
             "ignoreInCollection": false,
             "technique": {
                 "largeur": 512,
@@ -24935,7 +24818,7 @@
             "collectionId": null,
             "collectionNom": null,
             "type": "Animation",
-            "studio": null,
+            "studio": "DreamWorks",
             "technique": {
                 "largeur": 1920,
                 "hauteur": 1080,
@@ -25178,7 +25061,7 @@
             "collectionId": 1231053,
             "collectionNom": "Les Bad Guys - Saga",
             "type": "Animation",
-            "studio": null,
+            "studio": "DreamWorks",
             "ignoreInCollection": false,
             "technique": {
                 "largeur": 720,
@@ -25507,7 +25390,7 @@
             "collectionId": 468222,
             "collectionNom": "Les Indestructibles - Saga",
             "type": "Animation",
-            "studio": null,
+            "studio": "Pixar",
             "technique": {
                 "largeur": 720,
                 "hauteur": 400,
@@ -25997,7 +25880,7 @@
             "collectionId": 134897,
             "collectionNom": "Les Schtroumpfs - Saga",
             "type": "Animation",
-            "studio": null,
+            "studio": "Autres",
             "ignoreInCollection": false,
             "technique": {
                 "largeur": 640,
@@ -26254,7 +26137,7 @@
             "collectionId": 97461,
             "collectionNom": "Lilo et Stitch - Saga",
             "type": "Animation",
-            "studio": null,
+            "studio": "Disney",
             "ignoreInCollection": false,
             "technique": {
                 "largeur": 640,
@@ -26332,7 +26215,7 @@
             "collectionImage": "https://image.tmdb.org/t/p/w500/m27i1YY5N0f93mL8VV8Covf09Po.jpg",
             "collectionTmdbUrl": "https://www.themoviedb.org/collection/97461",
             "type": "Animation",
-            "studio": null,
+            "studio": "Disney",
             "ignoreInCollection": false,
             "technique": {
                 "largeur": 656,
@@ -26882,7 +26765,7 @@
             "collectionId": 14740,
             "collectionNom": "Madagascar - Saga",
             "type": "Animation",
-            "studio": null,
+            "studio": "DreamWorks",
             "ignoreInCollection": false,
             "technique": {
                 "largeur": 576,
@@ -26948,7 +26831,7 @@
             "collectionId": 14740,
             "collectionNom": "Madagascar - Saga",
             "type": "Animation",
-            "studio": null,
+            "studio": "DreamWorks",
             "ignoreInCollection": false,
             "technique": {
                 "largeur": 592,
@@ -27096,126 +26979,6 @@
             "titreOriginal": "Spider-Man: Across the Spider-Verse",
             "langueOriginale": "en",
             "fichierNormalise": "2023_Spider-Man Across the Spider-Verse_VF.mkv"
-        },
-        {
-            "id": "man_brand_new_day_2026",
-            "titre": "Man Brand New Day",
-            "annee": 2026,
-            "langue": [
-                "VO",
-                "VF",
-                "VOSTFR",
-                "VOST"
-            ],
-            "taille": 1725073810,
-            "genre": [
-                "Science-Fiction"
-            ],
-            "image": "https://image.tmdb.org/t/p/w342/6OEtkkzoyusZDm2uMJojlWZSLR9.jpg",
-            "fichier": "/Box_Films/Marvel/Spider-Man (MCU)/2026_Spider-Man Brand New Day_VO_VF_VOST_VOSTFR.mp4",
-            "nomFichier": "2026_Spider-Man Brand New Day_VO_VF_VOST_VOSTFR.mp4",
-            "imdbId": null,
-            "tmdbId": 969681,
-            "tmdbUrl": "https://www.themoviedb.org/movie/969681",
-            "doublonExact": false,
-            "doublonProbable": false,
-            "groupeDoublon": null,
-            "dateAjout": "2026-11-01T11:38:17.636Z",
-            "titreTmdb": "Spider-Man : Brand New Day",
-            "anneeTmdb": "2026",
-            "dureeTmdb": 150,
-            "descriptionTmdb": "Quatre ans se sont écoulés, Peter, désormais adulte, vit seul, s'est volontairement effacé de la vie et des souvenirs de ses proches. Luttant contre le crime dans un New York qui ne le reconnaît plus, il se consacre entièrement à la protection de la ville - un Spider-Man à plein temps - mais à mesure que les responsabilités s'intensifient, la pression provoque une transformation physique surprenante qui menace son existence, tandis qu'une étrange nouvelle vague de crimes donne naissance à l'une des menaces les plus redoutables qu'il ait jamais affrontées.",
-            "collectionId": 531241,
-            "collectionNom": "Spider-Man (MCU) - Saga",
-            "collectionDescription": "Cette saga nous dépeint la vie de Peter Parker, partagé entre se vie de lycéen lambda et ses aspirations de justicier, tout d'abord à l'échelle de son quartier et plus tard à une échelle planétaire au sein de la prestigieuse équipe des Avengers, chaperonné par Iron-Man, alias Tony Stark...",
-            "collectionImage": "https://image.tmdb.org/t/p/w500/3BVng0lmJyYIUqm5dxLS2eZ2625.jpg",
-            "collectionTmdbUrl": "https://www.themoviedb.org/collection/531241",
-            "technique": {
-                "largeur": 720,
-                "hauteur": 406,
-                "resolution": "720x406",
-                "ratioImage": 1.773,
-                "codecVideo": "h264",
-                "profilVideo": "High",
-                "pixelFormat": "yuv420p",
-                "bitsParComposante": 8,
-                "bitrateVideo": 1084981,
-                "framerate": 23.976,
-                "espaceCouleur": "bt709",
-                "transfertCouleur": "bt709",
-                "primairesCouleur": "bt709",
-                "hdr": false,
-                "dureeFichier": 8700.629,
-                "bitrateGlobal": 1586160,
-                "formatConteneur": "mov,mp4,m4a,3gp,3g2,mj2",
-                "audio": [
-                    {
-                        "codec": "aac",
-                        "profil": "LC",
-                        "canaux": 2,
-                        "disposition": "stereo",
-                        "bitrate": 163332,
-                        "frequence": 48000,
-                        "langue": "fra"
-                    },
-                    {
-                        "codec": "aac",
-                        "profil": "LC",
-                        "canaux": 2,
-                        "disposition": "stereo",
-                        "bitrate": 163025,
-                        "frequence": 48000,
-                        "langue": "fra"
-                    },
-                    {
-                        "codec": "aac",
-                        "profil": "LC",
-                        "canaux": 2,
-                        "disposition": "stereo",
-                        "bitrate": 162339,
-                        "frequence": 48000,
-                        "langue": "eng"
-                    }
-                ],
-                "sousTitres": [
-                    {
-                        "codec": "mov_text",
-                        "langue": "fra",
-                        "titre": null
-                    },
-                    {
-                        "codec": "mov_text",
-                        "langue": "fra",
-                        "titre": null
-                    },
-                    {
-                        "codec": "mov_text",
-                        "langue": "fra",
-                        "titre": null
-                    },
-                    {
-                        "codec": "mov_text",
-                        "langue": "eng",
-                        "titre": null
-                    }
-                ],
-                "zoneUtile": null
-            },
-            "ignoreInCollection": false,
-            "titreOriginal": "Spider-Man: Brand New Day",
-            "langueOriginale": "en",
-            "type": "Film",
-            "studio": "Marvel",
-            "fichierNormalise": "2026_Spider-Man Brand New Day_VO_VF.mp4",
-            "languesAudio": [
-                "EN",
-                "FR"
-            ],
-            "fichierOriginal": "Spider.Man.Brand.New.Day.2026.Multi.Vf2.WEBRIP.mp4",
-            "languesSousTitres": [
-                "EN",
-                "FR"
-            ]
         },
         {
             "id": "manipulation",
@@ -29560,7 +29323,7 @@
             "collectionId": 1241984,
             "collectionNom": "Vaiana - Saga",
             "type": "Animation",
-            "studio": null,
+            "studio": "Disney",
             "ignoreInCollection": false,
             "technique": {
                 "largeur": 720,
@@ -29664,7 +29427,7 @@
             "titreOriginal": "Moana 2",
             "langueOriginale": "en",
             "type": "Animation",
-            "studio": null,
+            "studio": "Disney",
             "fichierNormalise": "2024_Vaiana 2_VF.mp4"
         },
         {
@@ -29884,7 +29647,7 @@
             "collectionId": 137697,
             "collectionNom": "Le Monde de Nemo - Saga",
             "type": "Animation",
-            "studio": null,
+            "studio": "Pixar",
             "ignoreInCollection": false,
             "technique": {
                 "largeur": 576,
@@ -29950,7 +29713,7 @@
             "collectionId": 137697,
             "collectionNom": "Le Monde de Nemo - Saga",
             "type": "Animation",
-            "studio": null,
+            "studio": "Pixar",
             "technique": {
                 "largeur": 576,
                 "hauteur": 320,
@@ -30386,7 +30149,7 @@
             "collectionImage": null,
             "collectionTmdbUrl": null,
             "type": "Animation",
-            "studio": null,
+            "studio": "Disney",
             "technique": {
                 "largeur": 1280,
                 "hauteur": 720,
@@ -31150,75 +30913,6 @@
             "langueOriginale": "en"
         },
         {
-            "id": "open_season",
-            "titre": "Open Season",
-            "annee": null,
-            "langue": [
-                "VF"
-            ],
-            "taille": 730951680,
-            "genre": [
-                "Comédie"
-            ],
-            "image": "https://image.tmdb.org/t/p/w342/1MWYZNrBCCy82WW5XZR5zI6wDcS.jpg",
-            "fichier": "/Box_Films/Animation/Les Rebelles de la forêt/2006_Les Rebelles de la forêt_VF.avi",
-            "nomFichier": "2006_Les Rebelles de la forêt_VF.avi",
-            "imdbId": null,
-            "tmdbId": 7484,
-            "tmdbUrl": "https://www.themoviedb.org/movie/7484",
-            "doublonExact": false,
-            "doublonProbable": false,
-            "groupeDoublon": null,
-            "dateAjout": "2022-09-04T17:58:45.000Z",
-            "titreTmdb": "Les Rebelles de la forêt",
-            "anneeTmdb": "2006",
-            "dureeTmdb": 90,
-            "descriptionTmdb": "Boog, un énorme grizzly domestiqué n'ayant jamais connu la liberté, et Elliot un élan tout maigrichon, se retrouvent par hasard coincés dans la forêt au moment de l'ouverture de la chasse. Ils vont devoir faire appel aux autres animaux pour former une armée et combattre les chasseurs.",
-            "collectionId": 66761,
-            "collectionNom": "Les Rebelles de la forêt - Saga",
-            "collectionDescription": "Les Rebelles de le Forêt (Open Season) est un film comique américain d'animation par ordinateur de 2006, écrit par Steve Bencich et Ron J. Friedman, réalisé par Jill Culton et Roger Allers, et coréalisé par Anthony Stacchi.  Il a été suivi de trois suites vidéo directes: Les Rebelles de le Forêt 2 (2009), Les Rebelles de le Forêt 3 (2011) et Les Rebelles de le Forêt 4: Scared Silly (2016).",
-            "collectionImage": "https://image.tmdb.org/t/p/w500/yYs5rBE3dFteqcEKL1hBK47ZN6T.jpg",
-            "collectionTmdbUrl": "https://www.themoviedb.org/collection/66761",
-            "type": "Animation",
-            "studio": "Disney",
-            "ignoreInCollection": false,
-            "technique": {
-                "largeur": 592,
-                "hauteur": 320,
-                "resolution": "592x320",
-                "ratioImage": 1.85,
-                "codecVideo": "mpeg4",
-                "profilVideo": "Advanced Simple Profile",
-                "pixelFormat": "yuv420p",
-                "bitsParComposante": null,
-                "bitrateVideo": 985825,
-                "framerate": 23.976,
-                "espaceCouleur": null,
-                "transfertCouleur": null,
-                "primairesCouleur": null,
-                "hdr": false,
-                "dureeFichier": 5198.531865,
-                "bitrateGlobal": 1124858,
-                "formatConteneur": "avi",
-                "audio": [
-                    {
-                        "codec": "mp3",
-                        "profil": null,
-                        "canaux": 2,
-                        "disposition": "stereo",
-                        "bitrate": 126920,
-                        "frequence": 48000,
-                        "langue": null
-                    }
-                ],
-                "sousTitres": [],
-                "zoneUtile": null
-            },
-            "titreOriginal": "Open Season",
-            "langueOriginale": "en",
-            "fichierNormalise": "2006_Les Rebelles de la forêt_VF.avi"
-        },
-        {
             "id": "tmdb_660",
             "titre": "Opération Tonnerre",
             "annee": 1965,
@@ -31638,7 +31332,7 @@
             "collectionImage": null,
             "collectionTmdbUrl": null,
             "type": "Animation",
-            "studio": null,
+            "studio": "Autres",
             "technique": {
                 "largeur": 720,
                 "hauteur": 302,
@@ -31754,27 +31448,98 @@
             ]
         },
         {
-            "id": "paycheck_2003",
+            "id": "paycheck_paglop",
             "titre": "Paycheck",
-            "annee": 2003,
+            "annee": null,
             "langue": [
-                "TBD"
+                "VF"
             ],
-            "taille": 3368818707,
+            "taille": 728369152,
             "genre": [
-                "Action",
-                "Science-Fiction",
-                "Thriller"
+                "Action"
             ],
             "image": "https://image.tmdb.org/t/p/w342/1uCDk42ayyjEtIsHIgR6yBy8DlM.jpg",
-            "fichier": "/Box_Films/- Nouveaux/Paycheck.2003.1080p.BluRay.10bit.x265-HazMatt.mkv",
-            "nomFichier": "Paycheck.2003.1080p.BluRay.10bit.x265-HazMatt.mkv",
+            "fichier": "/Box_Films/Action/Paycheck_2003_VF.avi",
+            "nomFichier": "Paycheck_2003_VF.avi",
             "imdbId": null,
             "tmdbId": 9620,
             "tmdbUrl": "https://www.themoviedb.org/movie/9620",
             "doublonExact": false,
-            "doublonProbable": false,
-            "groupeDoublon": null,
+            "doublonProbable": true,
+            "groupeDoublon": "paycheck",
+            "dateAjout": "2013-07-18T22:41:58.703Z",
+            "titreTmdb": "Paycheck",
+            "anneeTmdb": "2003",
+            "dureeTmdb": 119,
+            "descriptionTmdb": "L'ingénieur Michael Jennings travaille sur des projets top-secrets, commandités par des sociétés de haute technologie. À l'issue de chaque mission, sa mémoire est \"effacée\" par contrat pour l'empêcher de divulguer la moindre information confidentielle. Puis un chèque substantiel lui est remis. Mais cette fois, l'enveloppe ne contient aucun argent, que des objets hétéroclites : à en croire l'employeur, Jennings aurai renoncé par avance à ses honoraires habituels. Celui-ci découvre que ces objets sont autant d'indices relatifs à son passé - un passé \"remis à zéro\" dont sa mémoire n'a gardé que d'infimes traces. Un seul espoir pour percer ce mystère : la femme avec qui il travaille et qu'il aime depuis trois ans : Rachel. Une course contre la montre s'engage. Jennings n'a que quelques heures pour recomposer le puzzle de sa vie et échapper à la vengeance de son implacable employeur.",
+            "collectionId": null,
+            "collectionNom": null,
+            "collectionDescription": null,
+            "collectionImage": null,
+            "collectionTmdbUrl": null,
+            "type": "Film",
+            "studio": null,
+            "technique": {
+                "largeur": 640,
+                "hauteur": 272,
+                "resolution": "640x272",
+                "ratioImage": 2.353,
+                "codecVideo": "mpeg4",
+                "profilVideo": "Advanced Simple Profile",
+                "pixelFormat": "yuv420p",
+                "bitsParComposante": null,
+                "bitrateVideo": 680378,
+                "framerate": 23.976,
+                "espaceCouleur": null,
+                "transfertCouleur": null,
+                "primairesCouleur": null,
+                "hdr": false,
+                "dureeFichier": 7125.838432,
+                "bitrateGlobal": 817721,
+                "formatConteneur": "avi",
+                "audio": [
+                    {
+                        "codec": "mp3",
+                        "profil": null,
+                        "canaux": 2,
+                        "disposition": "stereo",
+                        "bitrate": 128000,
+                        "frequence": 48000,
+                        "langue": null
+                    }
+                ],
+                "sousTitres": [],
+                "zoneUtile": null
+            },
+            "titreOriginal": "Paycheck",
+            "langueOriginale": "en",
+            "fichierNormalise": "Paycheck_2003_VF.avi",
+            "languesSousTitres": [],
+            "languesAudio": [
+                "FR"
+            ]
+        },
+        {
+            "id": "paycheck_2003",
+            "titre": "Paycheck",
+            "annee": 2003,
+            "langue": [
+                "VO",
+                "VOST"
+            ],
+            "taille": 3368818707,
+            "genre": [
+                "Action"
+            ],
+            "image": "https://image.tmdb.org/t/p/w342/1uCDk42ayyjEtIsHIgR6yBy8DlM.jpg",
+            "fichier": "/Box_Films/Action/Paycheck_2003_VO_VOST.mkv",
+            "nomFichier": "Paycheck_2003_VO_VOST.mkv",
+            "imdbId": null,
+            "tmdbId": 9620,
+            "tmdbUrl": "https://www.themoviedb.org/movie/9620",
+            "doublonExact": false,
+            "doublonProbable": true,
+            "groupeDoublon": "paycheck",
             "dateAjout": "2026-11-27T20:31:03.930Z",
             "technique": {
                 "largeur": 1920,
@@ -31832,75 +31597,10 @@
             "collectionNom": null,
             "collectionDescription": null,
             "collectionImage": null,
-            "collectionTmdbUrl": null
-        },
-        {
-            "id": "paycheck_paglop",
-            "titre": "Paycheck",
-            "annee": null,
-            "langue": [
-                "VF"
-            ],
-            "taille": 728369152,
-            "genre": [
-                "Action"
-            ],
-            "image": "https://image.tmdb.org/t/p/w342/1uCDk42ayyjEtIsHIgR6yBy8DlM.jpg",
-            "fichier": "/Box_Films/Action/Paycheck_2003_VF.avi",
-            "nomFichier": "Paycheck_2003_VF.avi",
-            "imdbId": null,
-            "tmdbId": 9620,
-            "tmdbUrl": "https://www.themoviedb.org/movie/9620",
-            "doublonExact": false,
-            "doublonProbable": false,
-            "groupeDoublon": null,
-            "dateAjout": "2013-07-18T22:41:58.703Z",
-            "titreTmdb": "Paycheck",
-            "anneeTmdb": "2003",
-            "dureeTmdb": 119,
-            "descriptionTmdb": "L'ingénieur Michael Jennings travaille sur des projets top-secrets, commandités par des sociétés de haute technologie. À l'issue de chaque mission, sa mémoire est \"effacée\" par contrat pour l'empêcher de divulguer la moindre information confidentielle. Puis un chèque substantiel lui est remis. Mais cette fois, l'enveloppe ne contient aucun argent, que des objets hétéroclites : à en croire l'employeur, Jennings aurai renoncé par avance à ses honoraires habituels. Celui-ci découvre que ces objets sont autant d'indices relatifs à son passé - un passé \"remis à zéro\" dont sa mémoire n'a gardé que d'infimes traces. Un seul espoir pour percer ce mystère : la femme avec qui il travaille et qu'il aime depuis trois ans : Rachel. Une course contre la montre s'engage. Jennings n'a que quelques heures pour recomposer le puzzle de sa vie et échapper à la vengeance de son implacable employeur.",
-            "collectionId": null,
-            "collectionNom": null,
-            "collectionDescription": null,
-            "collectionImage": null,
             "collectionTmdbUrl": null,
-            "type": "Film",
-            "studio": null,
-            "technique": {
-                "largeur": 640,
-                "hauteur": 272,
-                "resolution": "640x272",
-                "ratioImage": 2.353,
-                "codecVideo": "mpeg4",
-                "profilVideo": "Advanced Simple Profile",
-                "pixelFormat": "yuv420p",
-                "bitsParComposante": null,
-                "bitrateVideo": 680378,
-                "framerate": 23.976,
-                "espaceCouleur": null,
-                "transfertCouleur": null,
-                "primairesCouleur": null,
-                "hdr": false,
-                "dureeFichier": 7125.838432,
-                "bitrateGlobal": 817721,
-                "formatConteneur": "avi",
-                "audio": [
-                    {
-                        "codec": "mp3",
-                        "profil": null,
-                        "canaux": 2,
-                        "disposition": "stereo",
-                        "bitrate": 128000,
-                        "frequence": 48000,
-                        "langue": null
-                    }
-                ],
-                "sousTitres": [],
-                "zoneUtile": null
-            },
-            "titreOriginal": "Paycheck",
-            "langueOriginale": "en",
-            "fichierNormalise": "Paycheck_2003_VF.avi"
+            "languesSousTitres": [
+                "EN"
+            ]
         },
         {
             "id": "pele_2016",
@@ -32032,7 +31732,7 @@
             "collectionImage": "https://image.tmdb.org/t/p/w500/2rgdZjMVJUWXpZ6pBRLFL7crN5j.jpg",
             "collectionTmdbUrl": "https://www.themoviedb.org/collection/55422",
             "type": "Animation",
-            "studio": null,
+            "studio": "Disney Classic",
             "ignoreInCollection": false,
             "technique": {
                 "largeur": 640,
@@ -32237,15 +31937,15 @@
             "titre": "Phenom",
             "annee": null,
             "langue": [
-                "TBD"
+                "VO"
             ],
             "taille": 1427664033,
             "genre": [
-                "Drame"
+                "Sport"
             ],
             "image": "https://image.tmdb.org/t/p/w342/q57R5r0uElNqnyx6TnqdNF0aM4I.jpg",
-            "fichier": "/Box_Films/- Nouveaux/The Phenom_2016_TBD.mp4",
-            "nomFichier": "The Phenom_2016_TBD.mp4",
+            "fichier": "/Box_Films/Sport/The Phenom_2016_VO.mp4",
+            "nomFichier": "The Phenom_2016_VO.mp4",
             "imdbId": null,
             "tmdbId": 390512,
             "tmdbUrl": "https://www.themoviedb.org/movie/390512",
@@ -32303,7 +32003,10 @@
             "collectionNom": null,
             "collectionDescription": null,
             "collectionImage": null,
-            "collectionTmdbUrl": null
+            "collectionTmdbUrl": null,
+            "languesAudio": [
+                "EN"
+            ]
         },
         {
             "id": "la_planete_au_tresor_un_nouvel_univers_disney_n_78",
@@ -32333,7 +32036,7 @@
             "collectionId": null,
             "collectionNom": null,
             "type": "Animation",
-            "studio": null,
+            "studio": "Disney",
             "technique": {
                 "largeur": 592,
                 "hauteur": 352,
@@ -32562,7 +32265,7 @@
             "collectionImage": "https://image.tmdb.org/t/p/w500/1YPlD1sQjaGLRMEy4T7ko2aqlj9.jpg",
             "collectionTmdbUrl": "https://www.themoviedb.org/collection/136214",
             "type": "Animation",
-            "studio": null,
+            "studio": "Disney",
             "ignoreInCollection": false,
             "technique": {
                 "largeur": 640,
@@ -32631,7 +32334,7 @@
             "collectionImage": "https://image.tmdb.org/t/p/w500/1YPlD1sQjaGLRMEy4T7ko2aqlj9.jpg",
             "collectionTmdbUrl": "https://www.themoviedb.org/collection/136214",
             "type": "Animation",
-            "studio": null,
+            "studio": "Disney",
             "ignoreInCollection": false,
             "technique": {
                 "largeur": 640,
@@ -33131,7 +32834,7 @@
             "collectionImage": "https://image.tmdb.org/t/p/w500/wzeJHAFlJHmHWiYm4zQBtQcgA02.jpg",
             "collectionTmdbUrl": "https://www.themoviedb.org/collection/1268789",
             "type": "Animation",
-            "studio": null,
+            "studio": "Disney",
             "ignoreInCollection": false,
             "technique": {
                 "largeur": 608,
@@ -33302,7 +33005,7 @@
             "collectionImage": null,
             "collectionTmdbUrl": null,
             "type": "Animation",
-            "studio": null,
+            "studio": "Pixar",
             "technique": {
                 "largeur": 704,
                 "hauteur": 288,
@@ -33480,7 +33183,7 @@
             "collectionImage": null,
             "collectionTmdbUrl": null,
             "type": "Animation",
-            "studio": null,
+            "studio": "Pixar",
             "technique": {
                 "largeur": 1920,
                 "hauteur": 800,
@@ -33842,8 +33545,6 @@
             ],
             "taille": 3279461840,
             "genre": [
-                "Aventure",
-                "Comédie",
                 "Science-Fiction"
             ],
             "image": "https://image.tmdb.org/t/p/w342/iCgFtDUZxN8iUzNBCisjUrBmg2q.jpg",
@@ -33928,8 +33629,6 @@
             ],
             "taille": 2753620438,
             "genre": [
-                "Aventure",
-                "Comédie",
                 "Science-Fiction"
             ],
             "image": "https://image.tmdb.org/t/p/w342/pvSf95zo0GZNp83QCtmK1GFLHtT.jpg",
@@ -34033,8 +33732,6 @@
             ],
             "taille": 3016340272,
             "genre": [
-                "Aventure",
-                "Comédie",
                 "Science-Fiction"
             ],
             "image": "https://image.tmdb.org/t/p/w342/xormrixo6PYdjyh31JWT2LCBmjO.jpg",
@@ -34394,7 +34091,7 @@
             "collectionImage": null,
             "collectionTmdbUrl": null,
             "type": "Animation",
-            "studio": null,
+            "studio": "Disney Classic",
             "technique": {
                 "largeur": 512,
                 "hauteur": 384,
@@ -34462,7 +34159,7 @@
             "collectionImage": null,
             "collectionTmdbUrl": null,
             "type": "Animation",
-            "studio": null,
+            "studio": "DreamWorks",
             "technique": {
                 "largeur": 560,
                 "hauteur": 304,
@@ -34527,7 +34224,7 @@
             "collectionId": 94032,
             "collectionNom": "Le Roi lion - Saga",
             "type": "Animation",
-            "studio": null,
+            "studio": "Disney",
             "ignoreInCollection": false,
             "technique": {
                 "largeur": 512,
@@ -34593,7 +34290,7 @@
             "collectionId": 94032,
             "collectionNom": "Le Roi lion - Saga",
             "type": "Animation",
-            "studio": null,
+            "studio": "Disney",
             "ignoreInCollection": false,
             "technique": {
                 "largeur": 720,
@@ -34730,7 +34427,7 @@
             "collectionImage": "https://image.tmdb.org/t/p/w500/fk5VJKZxOAolnn2UGdOhcoxbJPP.jpg",
             "collectionTmdbUrl": "https://www.themoviedb.org/collection/100970",
             "type": "Animation",
-            "studio": null,
+            "studio": "Disney Classic",
             "ignoreInCollection": false,
             "technique": {
                 "largeur": 640,
@@ -35716,7 +35413,7 @@
             "collectionImage": null,
             "collectionTmdbUrl": null,
             "type": "Animation",
-            "studio": null,
+            "studio": "Autres",
             "technique": {
                 "largeur": 720,
                 "hauteur": 384,
@@ -35852,7 +35549,7 @@
             "collectionImage": null,
             "collectionTmdbUrl": null,
             "type": "Animation",
-            "studio": null,
+            "studio": "DreamWorks",
             "technique": {
                 "largeur": 576,
                 "hauteur": 304,
@@ -35955,7 +35652,7 @@
             "titreOriginal": "Sing 2",
             "langueOriginale": "en",
             "type": "Animation",
-            "studio": null,
+            "studio": "DreamWorks",
             "fichierNormalise": "2021_Tous en scène 2_VF.avi"
         },
         {
@@ -36887,8 +36584,6 @@
             ],
             "taille": 3992385978,
             "genre": [
-                "Action",
-                "Aventure",
                 "Science-Fiction"
             ],
             "image": "https://image.tmdb.org/t/p/w342/m8X5HdADsW5YdmVNjwTOArMOUoL.jpg",
@@ -36985,7 +36680,7 @@
             },
             "fichierNormalise": "Spider Man 2_VO.mkv",
             "type": "Film",
-            "studio": null,
+            "studio": "Marvel",
             "titreTmdb": "Spider-Man 2",
             "titreOriginal": "Spider-Man 2",
             "langueOriginale": "en",
@@ -36999,100 +36694,34 @@
             "collectionTmdbUrl": "https://www.themoviedb.org/collection/556"
         },
         {
-            "id": "spider_man_new_generation_spider_man_into_the_spider_verse_2018",
-            "titre": "Spider Man New Generation {Spider Man Into the Spider Verse}",
-            "annee": 2018,
+            "id": "spider_man_brand_new_day_5_1_2026",
+            "titre": "Spider Man Brand New Day 5 1",
+            "annee": 2026,
             "langue": [
-                "VF"
+                "VO",
+                "VF",
+                "VOSTFR",
+                "VOST"
             ],
-            "taille": 1241145361,
+            "taille": 9145724552,
             "genre": [
                 "Science-Fiction"
             ],
-            "image": "https://image.tmdb.org/t/p/w342/3bSWpsB2PqoTrJhW9cM6tJMDxIm.jpg",
-            "fichier": "/Box_Films/Marvel/Spider-Man New Generation/2018_Spider-Man New Generation_VF.mp4",
-            "nomFichier": "2018_Spider-Man New Generation_VF.mp4",
+            "image": "https://image.tmdb.org/t/p/w342/6OEtkkzoyusZDm2uMJojlWZSLR9.jpg",
+            "fichier": "/Box_Films/Marvel/Spider-Man (MCU)/2026_Spider-Man Brand New Day_VO_VF_VOST_VOSTFR.mkv",
+            "nomFichier": "2026_Spider-Man Brand New Day_VO_VF_VOST_VOSTFR.mkv",
             "imdbId": null,
-            "tmdbId": 324857,
-            "tmdbUrl": "https://www.themoviedb.org/movie/324857",
+            "tmdbId": 969681,
+            "tmdbUrl": "https://www.themoviedb.org/movie/969681",
             "doublonExact": false,
             "doublonProbable": false,
             "groupeDoublon": null,
-            "dateAjout": "2023-10-30T14:25:18.523Z",
+            "dateAjout": "2026-11-28T05:48:33.185Z",
             "technique": {
                 "largeur": 1920,
-                "hauteur": 808,
-                "resolution": "1920x808",
-                "ratioImage": 2.376,
-                "codecVideo": "h264",
-                "profilVideo": "High",
-                "pixelFormat": "yuv420p",
-                "bitsParComposante": 8,
-                "bitrateVideo": 1282225,
-                "framerate": 23.976,
-                "espaceCouleur": null,
-                "transfertCouleur": null,
-                "primairesCouleur": null,
-                "hdr": false,
-                "dureeFichier": 7010.112,
-                "bitrateGlobal": 1416405,
-                "formatConteneur": "mov,mp4,m4a,3gp,3g2,mj2",
-                "audio": [
-                    {
-                        "codec": "aac",
-                        "profil": "LC",
-                        "canaux": 2,
-                        "disposition": "stereo",
-                        "bitrate": 130174,
-                        "frequence": 48000,
-                        "langue": "fre"
-                    }
-                ],
-                "sousTitres": [],
-                "zoneUtile": null
-            },
-            "fichierNormalise": "Spider Man New Generation {Spider Man Into the Spider Verse}_2018_VF.mp4",
-            "type": "Film",
-            "studio": "Marvel",
-            "titreTmdb": "Spider-Man : New Generation",
-            "titreOriginal": "Spider-Man: Into the Spider-Verse",
-            "langueOriginale": "en",
-            "anneeTmdb": "2018",
-            "dureeTmdb": 117,
-            "descriptionTmdb": "Spider-Man : New Generation suit les aventures de Miles Morales, un adolescent afro-américain et portoricain qui vit à Brooklyn et s’efforce de s’intégrer dans son nouveau collège à Manhattan. Mais la vie de Miles se complique quand il se fait mordre par une araignée radioactive et se découvre des super-pouvoirs : il est désormais capable d’empoisonner ses adversaires, de se camoufler, de coller littéralement aux murs et aux plafonds ; son ouïe est démultipliée... Dans le même temps, le plus redoutable cerveau criminel de la ville, le Caïd, a mis au point un accélérateur de particules nucléaires capable d’ouvrir un portail sur d’autres univers. Son invention va provoquer l’arrivée de plusieurs autres versions de Spider-Man dans le monde de Miles, dont un Peter Parker plus âgé, Spider-Gwen, Spider-Man Noir, Spider-Cochon et Peni Parker, venue d’un dessin animé japonais.",
-            "collectionId": 573436,
-            "collectionNom": "Spider-Man : New Generation - Saga",
-            "collectionDescription": "Une collection animée qui explore les différentes versions de Spider-Man dans de multiples univers en suivant les premiers pas de Miles Morales...",
-            "collectionImage": "https://image.tmdb.org/t/p/w500/6BiByOXRrMqB3yFVyuPFNZnJlPj.jpg",
-            "collectionTmdbUrl": "https://www.themoviedb.org/collection/573436",
-            "ignoreInCollection": false
-        },
-        {
-            "id": "spider_man_no_way_home_2021",
-            "titre": "Spider Man No Way Home",
-            "annee": 2021,
-            "langue": [
-                "VF"
-            ],
-            "taille": 2396048642,
-            "genre": [
-                "Science-Fiction"
-            ],
-            "image": "https://image.tmdb.org/t/p/w342/jwfDFqzxBkXC5bERBZrCEfK9iii.jpg",
-            "fichier": "/Box_Films/Marvel/Spider-Man (MCU)/2021_Spider-Man No Way Home_VF.mkv",
-            "nomFichier": "2021_Spider-Man No Way Home_VF.mkv",
-            "imdbId": null,
-            "tmdbId": 634649,
-            "tmdbUrl": "https://www.themoviedb.org/movie/634649",
-            "doublonExact": false,
-            "doublonProbable": false,
-            "groupeDoublon": null,
-            "dateAjout": "2026-11-20T00:37:43.177Z",
-            "technique": {
-                "largeur": 1280,
-                "hauteur": 528,
-                "resolution": "1280x528",
-                "ratioImage": 2.424,
+                "hauteur": 800,
+                "resolution": "1920x800",
+                "ratioImage": 2.4,
                 "codecVideo": "h264",
                 "profilVideo": "High",
                 "pixelFormat": "yuv420p",
@@ -37103,10 +36732,28 @@
                 "transfertCouleur": "bt709",
                 "primairesCouleur": "bt709",
                 "hdr": false,
-                "dureeFichier": 9439.296,
-                "bitrateGlobal": 2030701,
+                "dureeFichier": 8700.64,
+                "bitrateGlobal": 8409243,
                 "formatConteneur": "matroska,webm",
                 "audio": [
+                    {
+                        "codec": "eac3",
+                        "profil": "Dolby Digital Plus + Dolby Atmos",
+                        "canaux": 6,
+                        "disposition": "5.1(side)",
+                        "bitrate": 768000,
+                        "frequence": 48000,
+                        "langue": "eng"
+                    },
+                    {
+                        "codec": "eac3",
+                        "profil": null,
+                        "canaux": 6,
+                        "disposition": "5.1(side)",
+                        "bitrate": 640000,
+                        "frequence": 48000,
+                        "langue": "fre"
+                    },
                     {
                         "codec": "eac3",
                         "profil": null,
@@ -37121,7 +36768,116 @@
                     {
                         "codec": "subrip",
                         "langue": "fre",
-                        "titre": "French [Forced]"
+                        "titre": "Forcés"
+                    },
+                    {
+                        "codec": "subrip",
+                        "langue": "fre",
+                        "titre": "Complets"
+                    },
+                    {
+                        "codec": "subrip",
+                        "langue": "fre",
+                        "titre": "Forcés VFQ"
+                    },
+                    {
+                        "codec": "subrip",
+                        "langue": "eng",
+                        "titre": "Complets"
+                    }
+                ],
+                "zoneUtile": {
+                    "largeurUtile": 1920,
+                    "hauteurUtile": 800,
+                    "x": 0,
+                    "y": 0
+                }
+            },
+            "fichierNormalise": "Spider Man Brand New Day 5 1_2026_VO_VF.mkv",
+            "type": "Film",
+            "studio": "Marvel",
+            "titreTmdb": "Spider-Man : Brand New Day",
+            "titreOriginal": "Spider-Man: Brand New Day",
+            "langueOriginale": "en",
+            "anneeTmdb": "2026",
+            "dureeTmdb": 150,
+            "descriptionTmdb": "Quatre ans se sont écoulés, Peter, désormais adulte, vit seul, s'est volontairement effacé de la vie et des souvenirs de ses proches. Luttant contre le crime dans un New York qui ne le reconnaît plus, il se consacre entièrement à la protection de la ville - un Spider-Man à plein temps - mais à mesure que les responsabilités s'intensifient, la pression provoque une transformation physique surprenante qui menace son existence, tandis qu'une étrange nouvelle vague de crimes donne naissance à l'une des menaces les plus redoutables qu'il ait jamais affrontées.",
+            "collectionId": 531241,
+            "collectionNom": "Spider-Man (MCU) - Saga",
+            "collectionDescription": "Cette saga nous dépeint la vie de Peter Parker, partagé entre se vie de lycéen lambda et ses aspirations de justicier, tout d'abord à l'échelle de son quartier et plus tard à une échelle planétaire au sein de la prestigieuse équipe des Avengers, chaperonné par Iron-Man, alias Tony Stark...",
+            "collectionImage": "https://image.tmdb.org/t/p/w500/3BVng0lmJyYIUqm5dxLS2eZ2625.jpg",
+            "collectionTmdbUrl": "https://www.themoviedb.org/collection/531241",
+            "languesSousTitres": [
+                "EN",
+                "FR"
+            ]
+        },
+        {
+            "id": "spider_man_into_the_spider_verse_2018",
+            "titre": "Spider Man Into the Spider Verse",
+            "annee": 2018,
+            "langue": [
+                "VO",
+                "VF",
+                "VOSTFR"
+            ],
+            "taille": 6205640183,
+            "genre": [
+                "Science-Fiction"
+            ],
+            "image": "https://image.tmdb.org/t/p/w342/3bSWpsB2PqoTrJhW9cM6tJMDxIm.jpg",
+            "fichier": "/Box_Films/Marvel/Spider-Man New Generation/2018_Spider-Man New Generation_VO_VF_VOSTFR.mkv",
+            "nomFichier": "2018_Spider-Man New Generation_VO_VF_VOSTFR.mkv",
+            "imdbId": null,
+            "tmdbId": 324857,
+            "tmdbUrl": "https://www.themoviedb.org/movie/324857",
+            "doublonExact": false,
+            "doublonProbable": false,
+            "groupeDoublon": null,
+            "dateAjout": "2026-11-28T00:47:27.464Z",
+            "technique": {
+                "largeur": 1920,
+                "hauteur": 808,
+                "resolution": "1920x808",
+                "ratioImage": 2.376,
+                "codecVideo": "h264",
+                "profilVideo": "High",
+                "pixelFormat": "yuv420p",
+                "bitsParComposante": 8,
+                "bitrateVideo": null,
+                "framerate": 23.976,
+                "espaceCouleur": null,
+                "transfertCouleur": null,
+                "primairesCouleur": null,
+                "hdr": false,
+                "dureeFichier": 7010.112,
+                "bitrateGlobal": 7081929,
+                "formatConteneur": "matroska,webm",
+                "audio": [
+                    {
+                        "codec": "ac3",
+                        "profil": null,
+                        "canaux": 6,
+                        "disposition": "5.1(side)",
+                        "bitrate": 384000,
+                        "frequence": 48000,
+                        "langue": "fre"
+                    },
+                    {
+                        "codec": "dts",
+                        "profil": "DTS",
+                        "canaux": 6,
+                        "disposition": "5.1(side)",
+                        "bitrate": 1536000,
+                        "frequence": 48000,
+                        "langue": "eng"
+                    }
+                ],
+                "sousTitres": [
+                    {
+                        "codec": "subrip",
+                        "langue": "fre",
+                        "titre": "Forced"
                     },
                     {
                         "codec": "subrip",
@@ -37129,9 +36885,114 @@
                         "titre": "French"
                     }
                 ],
-                "zoneUtile": null
+                "zoneUtile": {
+                    "largeurUtile": 1920,
+                    "hauteurUtile": 800,
+                    "x": 0,
+                    "y": 4
+                }
+            },
+            "fichierNormalise": "Spider Man Into the Spider Verse_2018_VO_VF.mkv",
+            "type": "Film",
+            "studio": "Marvel",
+            "titreTmdb": "Spider-Man : New Generation",
+            "titreOriginal": "Spider-Man: Into the Spider-Verse",
+            "langueOriginale": "en",
+            "anneeTmdb": "2018",
+            "dureeTmdb": 117,
+            "descriptionTmdb": "Spider-Man : New Generation suit les aventures de Miles Morales, un adolescent afro-américain et portoricain qui vit à Brooklyn et s’efforce de s’intégrer dans son nouveau collège à Manhattan. Mais la vie de Miles se complique quand il se fait mordre par une araignée radioactive et se découvre des super-pouvoirs : il est désormais capable d’empoisonner ses adversaires, de se camoufler, de coller littéralement aux murs et aux plafonds ; son ouïe est démultipliée... Dans le même temps, le plus redoutable cerveau criminel de la ville, le Caïd, a mis au point un accélérateur de particules nucléaires capable d’ouvrir un portail sur d’autres univers. Son invention va provoquer l’arrivée de plusieurs autres versions de Spider-Man dans le monde de Miles, dont un Peter Parker plus âgé, Spider-Gwen, Spider-Man Noir, Spider-Cochon et Peni Parker, venue d’un dessin animé japonais.",
+            "collectionId": 573436,
+            "collectionNom": "Spider-Man : New Generation - Saga",
+            "collectionDescription": "Une collection animée qui explore les différentes versions de Spider-Man dans de multiples univers en suivant les premiers pas de Miles Morales...",
+            "collectionImage": "https://image.tmdb.org/t/p/w500/6BiByOXRrMqB3yFVyuPFNZnJlPj.jpg",
+            "collectionTmdbUrl": "https://www.themoviedb.org/collection/573436",
+            "languesSousTitres": [
+                "FR"
+            ]
+        },
+        {
+            "id": "spider_man_no_way_home_2021",
+            "titre": "Spider Man No Way Home",
+            "annee": 2021,
+            "langue": [
+                "VO",
+                "VF",
+                "VOSTFR"
+            ],
+            "taille": 3456826586,
+            "genre": [
+                "Science-Fiction"
+            ],
+            "image": "https://image.tmdb.org/t/p/w342/jwfDFqzxBkXC5bERBZrCEfK9iii.jpg",
+            "fichier": "/Box_Films/Marvel/Spider-Man (MCU)/2021_Spider-Man No Way Home_VO_VF_VOSTFR.mkv",
+            "nomFichier": "2021_Spider-Man No Way Home_VO_VF_VOSTFR.mkv",
+            "imdbId": null,
+            "tmdbId": 634649,
+            "tmdbUrl": "https://www.themoviedb.org/movie/634649",
+            "doublonExact": false,
+            "doublonProbable": false,
+            "groupeDoublon": null,
+            "dateAjout": "2026-11-28T04:11:48.235Z",
+            "technique": {
+                "largeur": 1920,
+                "hauteur": 800,
+                "resolution": "1920x800",
+                "ratioImage": 2.4,
+                "codecVideo": "h264",
+                "profilVideo": "High",
+                "pixelFormat": "yuv420p",
+                "bitsParComposante": 8,
+                "bitrateVideo": null,
+                "framerate": 23.976,
+                "espaceCouleur": null,
+                "transfertCouleur": null,
+                "primairesCouleur": null,
+                "hdr": false,
+                "dureeFichier": 8890.912,
+                "bitrateGlobal": 3110435,
+                "formatConteneur": "matroska,webm",
+                "audio": [
+                    {
+                        "codec": "ac3",
+                        "profil": null,
+                        "canaux": 6,
+                        "disposition": "5.1(side)",
+                        "bitrate": 384000,
+                        "frequence": 48000,
+                        "langue": "fre"
+                    },
+                    {
+                        "codec": "aac",
+                        "profil": "LC",
+                        "canaux": 6,
+                        "disposition": "5.1",
+                        "bitrate": null,
+                        "frequence": 48000,
+                        "langue": "eng"
+                    }
+                ],
+                "sousTitres": [
+                    {
+                        "codec": "subrip",
+                        "langue": "fre",
+                        "titre": "Forced"
+                    },
+                    {
+                        "codec": "subrip",
+                        "langue": "fre",
+                        "titre": "French"
+                    }
+                ],
+                "zoneUtile": {
+                    "largeurUtile": 1920,
+                    "hauteurUtile": 800,
+                    "x": 0,
+                    "y": 0
+                }
             },
             "fichierNormalise": "Spider Man No Way Home_2021_VF.mkv",
+            "type": "Film",
+            "studio": "Marvel",
             "titreTmdb": "Spider-Man : No Way Home",
             "titreOriginal": "Spider-Man: No Way Home",
             "langueOriginale": "en",
@@ -37143,13 +37004,9 @@
             "collectionDescription": "Cette saga nous dépeint la vie de Peter Parker, partagé entre se vie de lycéen lambda et ses aspirations de justicier, tout d'abord à l'échelle de son quartier et plus tard à une échelle planétaire au sein de la prestigieuse équipe des Avengers, chaperonné par Iron-Man, alias Tony Stark...",
             "collectionImage": "https://image.tmdb.org/t/p/w500/3BVng0lmJyYIUqm5dxLS2eZ2625.jpg",
             "collectionTmdbUrl": "https://www.themoviedb.org/collection/531241",
-            "type": "Film",
-            "studio": "Marvel",
-            "languesAudio": [
+            "languesSousTitres": [
                 "FR"
-            ],
-            "fichierOriginal": "[ Torrent911.cc ] Spider-Man.No.Way.Home.2021.EXTENDED.FRENCH.720p.WEB.H264-EXTREME.mkv",
-            "ignoreInCollection": false
+            ]
         },
         {
             "id": "tmdb_911916",
@@ -37913,7 +37770,7 @@
             "collectionImage": null,
             "collectionTmdbUrl": null,
             "type": "Animation",
-            "studio": null,
+            "studio": "Autres",
             "technique": {
                 "largeur": 720,
                 "hauteur": 304,
@@ -39584,7 +39441,7 @@
             "collectionImage": "https://image.tmdb.org/t/p/w500/OADNVTiVWT9lcuOSapQ9KlTX1D.jpg",
             "collectionTmdbUrl": "https://www.themoviedb.org/collection/1231053",
             "type": "Animation",
-            "studio": null,
+            "studio": "DreamWorks",
             "languesAudio": [
                 "EN",
                 "FR"
@@ -41420,7 +41277,7 @@
             "collectionImage": "https://image.tmdb.org/t/p/w500/n6t01TAguqsz2HUiG7VRCOfM2wc.jpg",
             "collectionTmdbUrl": "https://www.themoviedb.org/collection/134897",
             "type": "Animation",
-            "studio": null,
+            "studio": "Autres",
             "ignoreInCollection": false,
             "technique": {
                 "largeur": 624,
@@ -41520,7 +41377,7 @@
             "collectionImage": "https://image.tmdb.org/t/p/w500/r2ONwf2TcKULpPAEpqfOAK2bgXi.jpg",
             "collectionTmdbUrl": "https://www.themoviedb.org/collection/374930",
             "type": "Animation",
-            "studio": null,
+            "studio": "Autres",
             "ignoreInCollection": false,
             "technique": {
                 "largeur": 720,
@@ -41744,15 +41601,15 @@
             "titre": "Thor Love and Thunder ( )",
             "annee": 2022,
             "langue": [
-                "TBD"
+                "VO"
             ],
             "taille": 2562016612,
             "genre": [
                 "Science-Fiction"
             ],
             "image": "https://image.tmdb.org/t/p/w342/kSMarEm3ESOOr11dzsep2RZ1ClD.jpg",
-            "fichier": "/Box_Films/Marvel/Thor/2022_Thor Love and Thunder_TBD.mp4",
-            "nomFichier": "2022_Thor Love and Thunder_TBD.mp4",
+            "fichier": "/Box_Films/Marvel/Thor/2022_Thor Love and Thunder_VO.mp4",
+            "nomFichier": "2022_Thor Love and Thunder_VO.mp4",
             "imdbId": null,
             "tmdbId": 616037,
             "tmdbUrl": "https://www.themoviedb.org/movie/616037",
@@ -41806,75 +41663,10 @@
             },
             "titreOriginal": "Thor: Love and Thunder",
             "langueOriginale": "en",
-            "fichierNormalise": "2022_Thor Love and Thunder_TBD.mp4"
-        },
-        {
-            "id": "thor_love_and_thunder_1_2022",
-            "titre": "Thor Love and Thunder 1",
-            "annee": 2022,
-            "langue": [
-                "TBD"
-            ],
-            "taille": 1506801526,
-            "genre": [
-                "Science-Fiction"
-            ],
-            "image": "https://image.tmdb.org/t/p/w342/kSMarEm3ESOOr11dzsep2RZ1ClD.jpg",
-            "fichier": "/Box_Films/Marvel/Thor/2022_Thor Love and Thunder_TBD.mkv",
-            "nomFichier": "2022_Thor Love and Thunder_TBD.mkv",
-            "imdbId": null,
-            "tmdbId": 616037,
-            "tmdbUrl": "https://www.themoviedb.org/movie/616037",
-            "doublonExact": false,
-            "doublonProbable": false,
-            "groupeDoublon": null,
-            "dateAjout": "2024-09-09T19:50:25.947Z",
-            "titreTmdb": "Thor : Love and Thunder",
-            "anneeTmdb": "2022",
-            "dureeTmdb": 118,
-            "descriptionTmdb": "Alors que Thor est en pleine introspection et en quête de sérénité, sa retraite est interrompue par un tueur galactique connu sous le nom de Gorr, qui s’est donné pour mission d’exterminer tous les dieux. Pour affronter cette menace, Thor demande l’aide de Valkyrie, de Korg et de son ex-petite amie Jane Foster, qui, à sa grande surprise, manie inexplicablement son puissant marteau, le Mjolnir. Ensemble, ils se lancent dans une dangereuse aventure cosmique pour comprendre les motivations qui poussent Gorr à la vengeance et l’arrêter avant qu’il ne soit trop tard.",
-            "collectionId": 131296,
-            "collectionNom": "Thor - Saga",
-            "collectionDescription": "Une série de films basée sur Thor, le personnage de bande dessinée publié par Marvel Comics.",
-            "collectionImage": "https://image.tmdb.org/t/p/w500/cClJllWY3gPmoBvdbhO9MG14Q7P.jpg",
-            "collectionTmdbUrl": "https://www.themoviedb.org/collection/131296",
-            "type": "Film",
-            "studio": "Marvel",
-            "technique": {
-                "largeur": 1920,
-                "hauteur": 804,
-                "resolution": "1920x804",
-                "ratioImage": 2.388,
-                "codecVideo": "h264",
-                "profilVideo": "High",
-                "pixelFormat": "yuv420p",
-                "bitsParComposante": 8,
-                "bitrateVideo": null,
-                "framerate": 23.976,
-                "espaceCouleur": "bt709",
-                "transfertCouleur": "bt709",
-                "primairesCouleur": "bt709",
-                "hdr": false,
-                "dureeFichier": 7123.936,
-                "bitrateGlobal": 1692100,
-                "formatConteneur": "matroska,webm",
-                "audio": [
-                    {
-                        "codec": "ac3",
-                        "profil": null,
-                        "canaux": 6,
-                        "disposition": "5.1(side)",
-                        "bitrate": 320000,
-                        "frequence": 48000,
-                        "langue": "eng"
-                    }
-                ],
-                "sousTitres": [],
-                "zoneUtile": null
-            },
-            "titreOriginal": "Thor: Love and Thunder",
-            "langueOriginale": "en",
-            "fichierNormalise": "2022_Thor Love and Thunder_TBD.mkv"
+            "fichierNormalise": "2022_Thor Love and Thunder_TBD.mp4",
+            "languesAudio": [
+                "EN"
+            ]
         },
         {
             "id": "tinker_bell_gaz_2008",
@@ -42922,75 +42714,6 @@
             "langueOriginale": "en"
         },
         {
-            "id": "transformers",
-            "titre": "Transformers",
-            "annee": null,
-            "langue": [
-                "TBD"
-            ],
-            "taille": 732000256,
-            "genre": [
-                "Science-Fiction"
-            ],
-            "image": "https://image.tmdb.org/t/p/w342/riwrxn8gSdvHqARVxSlwMaEJxT3.jpg",
-            "fichier": "/Box_Films/Science-Fiction/Transformers/2007_Transformers_TBD.avi",
-            "nomFichier": "2007_Transformers_TBD.avi",
-            "imdbId": null,
-            "tmdbId": 1858,
-            "tmdbUrl": "https://www.themoviedb.org/movie/1858",
-            "doublonExact": false,
-            "doublonProbable": false,
-            "groupeDoublon": null,
-            "dateAjout": "2007-09-23T22:52:42.000Z",
-            "titreTmdb": "Transformers",
-            "anneeTmdb": "2007",
-            "dureeTmdb": 144,
-            "descriptionTmdb": "Une guerre sans merci oppose depuis des temps immémoriaux deux races de robots extraterrestres : les Autobots et les cruels Decepticons. Son enjeu : la maîtrise de l'univers… Dans les premières années du 21ème siècle, le conflit s'étend à la Terre, et le jeune Sam Witwicky devient, à son insu, l'ultime espoir de l'humanité. Semblable à des milliers d'adolescents, Sam n'a connu que les soucis de son âge : le lycée, les amis, les voitures, les filles… Entraîné avec sa nouvelle copine, Mikaela, au cœur d'un mortel affrontement, il ne tardera pas à comprendre le sens de la devise de la famille Witwicky : « Sans sacrifice, point de victoire ! »",
-            "collectionId": 8650,
-            "collectionNom": "Transformers - Saga",
-            "collectionDescription": "Une guerre sans merci oppose depuis des temps immémoriaux deux races de robots extraterrestres : les Autobots et les cruels Decepticons. Son enjeu : la maîtrise de l'univers...",
-            "collectionImage": "https://image.tmdb.org/t/p/w500/aAeLLhwnlU5U4EjYWSGyEoxB9h2.jpg",
-            "collectionTmdbUrl": "https://www.themoviedb.org/collection/8650",
-            "type": "Film",
-            "studio": null,
-            "ignoreInCollection": false,
-            "technique": {
-                "largeur": 640,
-                "hauteur": 256,
-                "resolution": "640x256",
-                "ratioImage": 2.5,
-                "codecVideo": "mpeg4",
-                "profilVideo": "Advanced Simple Profile",
-                "pixelFormat": "yuv420p",
-                "bitsParComposante": null,
-                "bitrateVideo": 543024,
-                "framerate": 23.976,
-                "espaceCouleur": null,
-                "transfertCouleur": null,
-                "primairesCouleur": null,
-                "hdr": false,
-                "dureeFichier": 8606.973375,
-                "bitrateGlobal": 680378,
-                "formatConteneur": "avi",
-                "audio": [
-                    {
-                        "codec": "mp3",
-                        "profil": null,
-                        "canaux": 2,
-                        "disposition": "stereo",
-                        "bitrate": 128000,
-                        "frequence": 48000,
-                        "langue": null
-                    }
-                ],
-                "sousTitres": [],
-                "zoneUtile": null
-            },
-            "titreOriginal": "Transformers",
-            "langueOriginale": "en",
-            "fichierNormalise": "2007_Transformers_TBD.avi"
-        },
-        {
             "id": "tmdb_91314",
             "titre": "Transformers : L’Âge de l’extinction",
             "annee": 2014,
@@ -43450,7 +43173,7 @@
             "titreOriginal": "Turning Red",
             "langueOriginale": "en",
             "type": "Animation",
-            "studio": null,
+            "studio": "Pixar",
             "fichierNormalise": "Alerte rouge_2022_VF.mkv"
         },
         {
@@ -44060,75 +43783,6 @@
             "titreOriginal": "Valerian and the City of a Thousand Planets",
             "langueOriginale": "en",
             "fichierNormalise": "Valérian et la cité des mille planètes_2017_VF.avi"
-        },
-        {
-            "id": "la_verite_si_je_mens_3_2012",
-            "titre": "Verite Si Je Mens 3",
-            "annee": 2012,
-            "langue": [
-                "VF"
-            ],
-            "taille": 733908992,
-            "genre": [
-                "Comédie"
-            ],
-            "image": "https://image.tmdb.org/t/p/w342/i2U9VV2WWBXeA3Zc0jQFfYqnqB0.jpg",
-            "fichier": "/Box_Films/Comédie/La Vérité si je mens !/2012_La Vérité si je mens ! 3_VF.avi",
-            "nomFichier": "2012_La Vérité si je mens ! 3_VF.avi",
-            "imdbId": null,
-            "tmdbId": 86868,
-            "tmdbUrl": "https://www.themoviedb.org/movie/86868",
-            "doublonExact": false,
-            "doublonProbable": false,
-            "groupeDoublon": null,
-            "dateAjout": "2012-04-22T18:31:06.317Z",
-            "titreTmdb": "La Vérité si je mens ! 3",
-            "anneeTmdb": "2012",
-            "dureeTmdb": 119,
-            "descriptionTmdb": "Eddie, Dov, Yvan et les autres… Nos chaleureux amis ont migré du Sentier moribond à la banlieue florissante d’Aubervilliers… Là où les vieux entrepreneurs juifs ont laissé le terrain à de jeunes grossistes chinois courageux et dynamiques… La petite bande est toujours aussi soudée, solidaire que lors des épisodes précédents, et la vie suit son cours, au gré des petits évènements familiaux et des affaires. Dov semble toujours frivole, Eddie entreprenant, Yvan transi, Karine désinvolte, Sandra résolue, Chochana naïve, Serge irresponsable et mythomane. Quant à Patrick, il est amoureux et l’heureuse élue est loin d’être facile d’accès. Tout irait pour le mieux jusqu’à ce qu’un vent mauvais apporte son lot d’adversité compromettant sérieusement la cohésion du groupe. Succomberont-ils sous l’orage à la zizanie, ou bien, une fois de plus, à force d’entraide, de ruses et d’habileté, triompheront-ils de la crise avec panache ?",
-            "collectionId": 115840,
-            "collectionNom": "La Vérité si je mens ! - Saga",
-            "type": "Film",
-            "studio": null,
-            "ignoreInCollection": false,
-            "technique": {
-                "largeur": 624,
-                "hauteur": 336,
-                "resolution": "624x336",
-                "ratioImage": 1.857,
-                "codecVideo": "mpeg4",
-                "profilVideo": "Advanced Simple Profile",
-                "pixelFormat": "yuv420p",
-                "bitsParComposante": null,
-                "bitrateVideo": 735828,
-                "framerate": 25,
-                "espaceCouleur": null,
-                "transfertCouleur": null,
-                "primairesCouleur": null,
-                "hdr": false,
-                "dureeFichier": 6721.64,
-                "bitrateGlobal": 873488,
-                "formatConteneur": "avi",
-                "audio": [
-                    {
-                        "codec": "mp3",
-                        "profil": null,
-                        "canaux": 2,
-                        "disposition": "stereo",
-                        "bitrate": 128000,
-                        "frequence": 44100,
-                        "langue": null
-                    }
-                ],
-                "sousTitres": [],
-                "zoneUtile": null
-            },
-            "titreOriginal": "La Vérité si je mens ! 3",
-            "langueOriginale": "fr",
-            "languesAudio": [
-                "FR"
-            ],
-            "fichierNormalise": "2012_La Vérité si je mens ! 3_VF.avi"
         },
         {
             "id": "very_bad_dvdscr_ld_mzisys",
@@ -44783,11 +44437,7 @@
             ],
             "taille": 1584119272,
             "genre": [
-                "Action",
-                "Aventure",
-                "Comédie",
-                "Science-Fiction",
-                "Western"
+                "Action"
             ],
             "image": "https://image.tmdb.org/t/p/w342/1OhncZC6cC23SwU63IIi25Dp1fR.jpg",
             "fichier": "/Box_Films/Action/Wild Wild West_1999_VO_VOST_VOSTFR.mkv",
@@ -45232,15 +44882,18 @@
             "titre": "X Men 2 ( )",
             "annee": 2003,
             "langue": [
-                "TBD"
+                "VO",
+                "VF",
+                "VOSTFR",
+                "VOST"
             ],
             "taille": 8530619087,
             "genre": [
                 "Science-Fiction"
             ],
             "image": "https://image.tmdb.org/t/p/w342/xQ9KsoaGNO9fyZiyE6rWfmXzQIL.jpg",
-            "fichier": "/Box_Films/Marvel/X-Men/2003_X-Men 2_TBD.mkv",
-            "nomFichier": "2003_X-Men 2_TBD.mkv",
+            "fichier": "/Box_Films/Marvel/X-Men/2003_X-Men 2_VO_VF_VOST_VOSTFR.mkv",
+            "nomFichier": "2003_X-Men 2_VO_VF_VOST_VOSTFR.mkv",
             "imdbId": null,
             "tmdbId": 36658,
             "tmdbUrl": "https://www.themoviedb.org/movie/36658",
@@ -45324,7 +44977,11 @@
             "type": "Film",
             "studio": "Marvel",
             "ignoreInCollection": false,
-            "fichierNormalise": "2003_X-Men 2_TBD.mkv"
+            "fichierNormalise": "2003_X-Men 2_TBD.mkv",
+            "languesSousTitres": [
+                "EN",
+                "FR"
+            ]
         },
         {
             "id": "x_men_3",
@@ -45513,126 +45170,63 @@
             "fichierOriginal": "X-Men Apocalypse 2016 MULTi 1080p BluRay x264-ZT.mkv"
         },
         {
-            "id": "x_men_days_of_future_past_2014",
-            "titre": "X Men Days of Future Past",
+            "id": "x_men_days_of_future_past_the_rouge_2014",
+            "titre": "X Men Days of Future Past ( ) The Rouge",
             "annee": 2014,
             "langue": [
-                "VF"
+                "VO",
+                "VF",
+                "VOSTFR",
+                "VOST"
             ],
-            "taille": 1042455963,
+            "taille": 3373430218,
             "genre": [
                 "Science-Fiction"
             ],
             "image": "https://image.tmdb.org/t/p/w342/zGSi4NG7SfyILp3SOfBgVo4VoWG.jpg",
-            "fichier": "/Box_Films/Marvel/X-Men/2014_X-Men Days of Future Past_VF.mp4",
-            "nomFichier": "2014_X-Men Days of Future Past_VF.mp4",
+            "fichier": "/Box_Films/Marvel/X-Men/2014_X-Men Days of Future Past_VO_VF_VOST_VOSTFR.mkv",
+            "nomFichier": "2014_X-Men Days of Future Past_VO_VF_VOST_VOSTFR.mkv",
             "imdbId": null,
             "tmdbId": 127585,
             "tmdbUrl": "https://www.themoviedb.org/movie/127585",
             "doublonExact": false,
             "doublonProbable": false,
             "groupeDoublon": null,
-            "dateAjout": "2026-11-10T00:06:03.273Z",
-            "titreTmdb": "X-Men : Days of Future Past",
-            "anneeTmdb": "2014",
-            "dureeTmdb": 131,
-            "descriptionTmdb": "Dans un futur proche, les mutants et les humains ont été décimés par les Sentinelles, des robots biologiques capables de copier les pouvoirs des mutants. Seuls quelques mutants, dont Kitty Pride, Iceman, Storm et Bishop, résistent encore. Le Professeur X et Magneto décident d’envoyer Logan dans le passé afin d’empêcher le meurtre de Bolivar Trask, un scientifique américain responsable du programme d’armement dont la mort déclenchera le programme des Sentinelles. Wolverine arrive donc en 1973 afin de convaincre Charles Xavier et Erik Lehnsherr de stopper Mystique dans sa mission, une tâche qu’ils devront accomplir avec l’aide de Beast et de Quicksilver.",
-            "collectionId": 748,
-            "collectionNom": "X-Men - Saga",
-            "collectionDescription": "X-Men est une saga cinématographique de super-héros américaine.",
-            "collectionImage": "https://image.tmdb.org/t/p/w500/9Z4fKVUqAJ2WEP6pQFTtYPuoknd.jpg",
-            "collectionTmdbUrl": "https://www.themoviedb.org/collection/748",
+            "dateAjout": "2026-11-28T01:38:35.178Z",
             "technique": {
-                "largeur": 640,
-                "hauteur": 272,
-                "resolution": "640x272",
-                "ratioImage": 2.353,
+                "largeur": 1920,
+                "hauteur": 800,
+                "resolution": "1920x800",
+                "ratioImage": 2.4,
                 "codecVideo": "h264",
-                "profilVideo": "High",
+                "profilVideo": "Main",
                 "pixelFormat": "yuv420p",
                 "bitsParComposante": 8,
-                "bitrateVideo": 967031,
-                "framerate": 25,
+                "bitrateVideo": null,
+                "framerate": 23.976,
                 "espaceCouleur": null,
                 "transfertCouleur": null,
                 "primairesCouleur": null,
                 "hdr": false,
-                "dureeFichier": 7572.061,
-                "bitrateGlobal": 1101370,
-                "formatConteneur": "mov,mp4,m4a,3gp,3g2,mj2",
+                "dureeFichier": 8925.708,
+                "bitrateGlobal": 3023563,
+                "formatConteneur": "matroska,webm",
                 "audio": [
                     {
                         "codec": "aac",
                         "profil": "LC",
-                        "canaux": 2,
-                        "disposition": "stereo",
-                        "bitrate": 127848,
-                        "frequence": 44100,
-                        "langue": "fra"
-                    }
-                ],
-                "sousTitres": [],
-                "zoneUtile": null
-            },
-            "ignoreInCollection": false,
-            "titreOriginal": "X-Men: Days of Future Past",
-            "langueOriginale": "en",
-            "type": "Film",
-            "studio": "Marvel",
-            "fichierNormalise": "2014_X-Men Days of Future Past_VF.mp4",
-            "languesAudio": [
-                "FR"
-            ],
-            "fichierOriginal": "X-Men.Days.of.Future.Past.2014.TRUEFRENCH.DVDRiP-T911.mp4"
-        },
-        {
-            "id": "x_men_days_of_future_past_av1_5_1_dust_2014",
-            "titre": "X Men Days Of Future Past av1 5 1 Dust",
-            "annee": 2014,
-            "langue": [
-                "VO",
-                "VOSTFR",
-                "VOST"
-            ],
-            "taille": 4556516961,
-            "genre": [
-                "Science-Fiction"
-            ],
-            "image": "https://image.tmdb.org/t/p/w342/zGSi4NG7SfyILp3SOfBgVo4VoWG.jpg",
-            "fichier": "/Box_Films/Marvel/X-Men/2014_X-Men Days of Future Past_VO_VOST_VOSTFR.mkv",
-            "nomFichier": "2014_X-Men Days of Future Past_VO_VOST_VOSTFR.mkv",
-            "imdbId": null,
-            "tmdbId": 127585,
-            "tmdbUrl": "https://www.themoviedb.org/movie/127585",
-            "doublonExact": false,
-            "doublonProbable": false,
-            "groupeDoublon": null,
-            "dateAjout": "2026-11-17T15:12:13.603Z",
-            "technique": {
-                "largeur": 3840,
-                "hauteur": 2160,
-                "resolution": "3840x2160",
-                "ratioImage": 1.778,
-                "codecVideo": "av1",
-                "profilVideo": "Main",
-                "pixelFormat": "yuv420p10le",
-                "bitsParComposante": null,
-                "bitrateVideo": null,
-                "framerate": 23.976,
-                "espaceCouleur": "bt2020nc",
-                "transfertCouleur": "smpte2084",
-                "primairesCouleur": "bt2020",
-                "hdr": true,
-                "dureeFichier": 7895.263,
-                "bitrateGlobal": 4616962,
-                "formatConteneur": "matroska,webm",
-                "audio": [
-                    {
-                        "codec": "eac3",
-                        "profil": null,
                         "canaux": 6,
-                        "disposition": "5.1(side)",
-                        "bitrate": 768000,
+                        "disposition": "5.1",
+                        "bitrate": null,
+                        "frequence": 48000,
+                        "langue": "fre"
+                    },
+                    {
+                        "codec": "aac",
+                        "profil": "LC",
+                        "canaux": 6,
+                        "disposition": "5.1",
+                        "bitrate": null,
                         "frequence": 48000,
                         "langue": "eng"
                     }
@@ -45640,142 +45234,45 @@
                 "sousTitres": [
                     {
                         "codec": "hdmv_pgs_subtitle",
-                        "langue": "dan",
-                        "titre": null
+                        "langue": "fre",
+                        "titre": "FR Full : PGS"
                     },
                     {
                         "codec": "hdmv_pgs_subtitle",
-                        "langue": "dan",
-                        "titre": "COMMENTARY"
-                    },
-                    {
-                        "codec": "hdmv_pgs_subtitle",
-                        "langue": "dut",
-                        "titre": null
-                    },
-                    {
-                        "codec": "hdmv_pgs_subtitle",
-                        "langue": "dut",
-                        "titre": "COMMENTARY"
+                        "langue": "eng",
+                        "titre": "ENG Forced : PGS"
                     },
                     {
                         "codec": "subrip",
+                        "langue": "fre",
+                        "titre": "FR Full : SRT"
+                    },
+                    {
+                        "codec": "hdmv_pgs_subtitle",
                         "langue": "eng",
-                        "titre": "FORCED"
+                        "titre": "ENG Full : PGS"
                     },
                     {
                         "codec": "subrip",
-                        "langue": "eng",
-                        "titre": null
+                        "langue": "srp",
+                        "titre": "SRB Full : SRT"
                     },
                     {
                         "codec": "subrip",
-                        "langue": "eng",
-                        "titre": "SDH"
-                    },
-                    {
-                        "codec": "hdmv_pgs_subtitle",
-                        "langue": "eng",
-                        "titre": null
-                    },
-                    {
-                        "codec": "hdmv_pgs_subtitle",
-                        "langue": "eng",
-                        "titre": "FORCED"
-                    },
-                    {
-                        "codec": "hdmv_pgs_subtitle",
-                        "langue": "eng",
-                        "titre": "COMMENTARY"
-                    },
-                    {
-                        "codec": "hdmv_pgs_subtitle",
-                        "langue": "fin",
-                        "titre": null
-                    },
-                    {
-                        "codec": "hdmv_pgs_subtitle",
-                        "langue": "fin",
-                        "titre": "COMMENTARY"
-                    },
-                    {
-                        "codec": "hdmv_pgs_subtitle",
                         "langue": "fre",
-                        "titre": null
-                    },
-                    {
-                        "codec": "hdmv_pgs_subtitle",
-                        "langue": "fre",
-                        "titre": "FORCED"
-                    },
-                    {
-                        "codec": "hdmv_pgs_subtitle",
-                        "langue": "fre",
-                        "titre": "COMMENTARY"
-                    },
-                    {
-                        "codec": "hdmv_pgs_subtitle",
-                        "langue": "ger",
-                        "titre": null
-                    },
-                    {
-                        "codec": "hdmv_pgs_subtitle",
-                        "langue": "ger",
-                        "titre": "FORCED"
-                    },
-                    {
-                        "codec": "hdmv_pgs_subtitle",
-                        "langue": "ger",
-                        "titre": "COMMENTARY"
-                    },
-                    {
-                        "codec": "hdmv_pgs_subtitle",
-                        "langue": "ita",
-                        "titre": null
-                    },
-                    {
-                        "codec": "hdmv_pgs_subtitle",
-                        "langue": "ita",
-                        "titre": "FORCED"
-                    },
-                    {
-                        "codec": "hdmv_pgs_subtitle",
-                        "langue": "ita",
-                        "titre": "COMMENTARY"
-                    },
-                    {
-                        "codec": "hdmv_pgs_subtitle",
-                        "langue": "nor",
-                        "titre": null
-                    },
-                    {
-                        "codec": "hdmv_pgs_subtitle",
-                        "langue": "nor",
-                        "titre": "COMMENTARY"
-                    },
-                    {
-                        "codec": "hdmv_pgs_subtitle",
-                        "langue": "spa",
-                        "titre": null
-                    },
-                    {
-                        "codec": "hdmv_pgs_subtitle",
-                        "langue": "spa",
-                        "titre": "FORCED"
-                    },
-                    {
-                        "codec": "hdmv_pgs_subtitle",
-                        "langue": "swe",
-                        "titre": null
-                    },
-                    {
-                        "codec": "hdmv_pgs_subtitle",
-                        "langue": "swe",
-                        "titre": "COMMENTARY"
+                        "titre": "FR Forced : SRT"
                     }
                 ],
-                "zoneUtile": null
+                "zoneUtile": {
+                    "largeurUtile": 1920,
+                    "hauteurUtile": 800,
+                    "x": 0,
+                    "y": 0
+                }
             },
+            "fichierNormalise": "X Men Days of Future Past ( ) The Rouge_2014_VO_VF.mkv",
+            "type": "Film",
+            "studio": "Marvel",
             "titreTmdb": "X-Men : Days of Future Past",
             "titreOriginal": "X-Men: Days of Future Past",
             "langueOriginale": "en",
@@ -45787,13 +45284,10 @@
             "collectionDescription": "X-Men est une saga cinématographique de super-héros américaine.",
             "collectionImage": "https://image.tmdb.org/t/p/w500/9Z4fKVUqAJ2WEP6pQFTtYPuoknd.jpg",
             "collectionTmdbUrl": "https://www.themoviedb.org/collection/748",
-            "type": "Film",
-            "studio": "Marvel",
-            "fichierNormalise": "2014_X-Men Days of Future Past_TBD.mkv",
-            "languesAudio": [
-                "EN"
-            ],
-            "fichierOriginal": "X-Men.Days.Of.Future.Past.2014.bluray.hdr.2160p.av1.5.1.eac3-Dust.mkv"
+            "languesSousTitres": [
+                "EN",
+                "FR"
+            ]
         },
         {
             "id": "x_men_first_class_2011",
@@ -45900,12 +45394,11 @@
             "titre": "X Men L'Affrontement final",
             "annee": null,
             "langue": [
-                "VO"
+                "VO",
+                "VOST"
             ],
             "taille": 1404966808,
             "genre": [
-                "Aventure",
-                "Action",
                 "Science-Fiction"
             ],
             "image": "https://image.tmdb.org/t/p/w342/fY03tUMgys4vI7HGWxFtQbu0hA7.jpg",
@@ -45957,7 +45450,7 @@
             },
             "fichierNormalise": "X Men L'Affrontement final_VO.mp4",
             "type": "Film",
-            "studio": null,
+            "studio": "Marvel",
             "titreTmdb": "X-Men : L'Affrontement final",
             "titreOriginal": "X-Men: The Last Stand",
             "langueOriginale": "en",
@@ -45968,7 +45461,13 @@
             "collectionNom": "X-Men - Saga",
             "collectionDescription": "X-Men est une saga cinématographique de super-héros américaine.",
             "collectionImage": "https://image.tmdb.org/t/p/w500/9Z4fKVUqAJ2WEP6pQFTtYPuoknd.jpg",
-            "collectionTmdbUrl": "https://www.themoviedb.org/collection/748"
+            "collectionTmdbUrl": "https://www.themoviedb.org/collection/748",
+            "languesSousTitres": [
+                "EN"
+            ],
+            "languesAudio": [
+                "EN"
+            ]
         },
         {
             "id": "x_men_origins",
@@ -48583,7 +48082,8 @@
                             "doublonProbable": false,
                             "dateAjout": "2026-11-10T11:00:48.429Z"
                         }
-                    ]
+                    ],
+                    "hasMissingEpisodes": false
                 },
                 {
                     "numero": 2,
@@ -48780,7 +48280,8 @@
                             "doublonProbable": false,
                             "dateAjout": "2026-11-10T11:00:48.480Z"
                         }
-                    ]
+                    ],
+                    "hasMissingEpisodes": false
                 },
                 {
                     "numero": 3,
@@ -48977,7 +48478,8 @@
                             "doublonProbable": false,
                             "dateAjout": "2026-11-10T11:00:48.544Z"
                         }
-                    ]
+                    ],
+                    "hasMissingEpisodes": false
                 },
                 {
                     "numero": 4,
@@ -49198,7 +48700,8 @@
                             "doublonProbable": false,
                             "dateAjout": "2026-11-10T11:00:48.602Z"
                         }
-                    ]
+                    ],
+                    "hasMissingEpisodes": false
                 },
                 {
                     "numero": 5,
@@ -49419,7 +48922,8 @@
                             "doublonProbable": false,
                             "dateAjout": "2026-11-10T11:00:48.661Z"
                         }
-                    ]
+                    ],
+                    "hasMissingEpisodes": false
                 },
                 {
                     "numero": 6,
@@ -49640,7 +49144,8 @@
                             "doublonProbable": false,
                             "dateAjout": "2026-11-10T11:00:48.722Z"
                         }
-                    ]
+                    ],
+                    "hasMissingEpisodes": false
                 },
                 {
                     "numero": 7,
@@ -49801,7 +49306,8 @@
                             "doublonProbable": false,
                             "dateAjout": "2026-11-10T11:00:48.764Z"
                         }
-                    ]
+                    ],
+                    "hasMissingEpisodes": false
                 }
             ]
         },
@@ -50874,7 +50380,8 @@
                             "doublonProbable": false,
                             "dateAjout": "2026-09-06T18:10:38.690Z"
                         }
-                    ]
+                    ],
+                    "hasMissingEpisodes": false
                 },
                 {
                     "numero": 2,
@@ -50999,7 +50506,8 @@
                             "doublonProbable": false,
                             "dateAjout": "2026-09-06T18:10:38.695Z"
                         }
-                    ]
+                    ],
+                    "hasMissingEpisodes": false
                 }
             ]
         },
@@ -61392,7 +60900,8 @@
                             "doublonProbable": false,
                             "dateAjout": "2026-09-06T18:10:39.076Z"
                         }
-                    ]
+                    ],
+                    "hasMissingEpisodes": false
                 },
                 {
                     "numero": 2,
@@ -61553,7 +61062,8 @@
                             "doublonProbable": false,
                             "dateAjout": "2026-09-06T18:10:39.083Z"
                         }
-                    ]
+                    ],
+                    "hasMissingEpisodes": true
                 },
                 {
                     "numero": 3,
@@ -61786,7 +61296,8 @@
                             "doublonProbable": false,
                             "dateAjout": "2026-09-06T18:10:39.094Z"
                         }
-                    ]
+                    ],
+                    "hasMissingEpisodes": true
                 },
                 {
                     "numero": 4,
@@ -61947,7 +61458,8 @@
                             "doublonProbable": false,
                             "dateAjout": "2026-09-06T18:10:39.100Z"
                         }
-                    ]
+                    ],
+                    "hasMissingEpisodes": true
                 }
             ]
         },
@@ -63695,7 +63207,8 @@
                             "doublonProbable": false,
                             "dateAjout": "2026-09-06T18:10:39.169Z"
                         }
-                    ]
+                    ],
+                    "hasMissingEpisodes": false
                 },
                 {
                     "numero": 2,
@@ -63940,7 +63453,8 @@
                             "doublonProbable": false,
                             "dateAjout": "2026-09-06T18:10:39.178Z"
                         }
-                    ]
+                    ],
+                    "hasMissingEpisodes": false
                 },
                 {
                     "numero": 3,
@@ -64113,7 +63627,8 @@
                             "doublonProbable": false,
                             "dateAjout": "2026-09-06T18:10:39.185Z"
                         }
-                    ]
+                    ],
+                    "hasMissingEpisodes": false
                 },
                 {
                     "numero": 4,
@@ -64322,7 +63837,8 @@
                             "doublonProbable": false,
                             "dateAjout": "2026-09-06T18:10:39.194Z"
                         }
-                    ]
+                    ],
+                    "hasMissingEpisodes": true
                 }
             ]
         },
@@ -66744,12 +66260,12 @@
     "stockage": [
         {
             "lecteur": "Y",
-            "espaceLibre": 218080284672,
+            "espaceLibre": 200155369472,
             "capaciteTotale": 2000396742656
         },
         {
             "lecteur": "Z",
-            "espaceLibre": 164155158528,
+            "espaceLibre": 164155105280,
             "capaciteTotale": 1000169533440
         }
     ]

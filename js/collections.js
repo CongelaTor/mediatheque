@@ -2,7 +2,7 @@ let currentCollectionFilter = "all";
 
 function openFilmsNouveautes() {
   setActiveFilmsContext();
-  saveSidebarFiltersState({ ajouts: "Nouveautés" });
+saveSidebarFiltersState({ ajouts: "Nouveautés" });
   window.location.href = "films.html";
 }
 window.openFilmsNouveautes = openFilmsNouveautes;
@@ -16,7 +16,15 @@ async function initCollectionsPage() {
 
   initFiltersSidebar();
   initLanguageFilters();
-
+  const sideCollectionsEl = document.getElementById("sideCollections");
+  if (sideCollectionsEl) {
+    const sideCollectionsRow =
+      sideCollectionsEl.closest("div, li, a, button") || sideCollectionsEl;
+    sideCollectionsRow.style.cursor = "pointer";
+    sideCollectionsRow.onclick = () => {
+      selectAjouts("all");
+    };
+  }
   updateStats();
   initResumeButtons();
   updateResumeButtons();
@@ -213,6 +221,9 @@ function renderCollections() {
           );
         });
       }
+      if (currentAjouts === "Nouveautés") {
+        return collection.films.some((file) => isFilmNouveaute(file));
+      }
       return uniqueFilms.size >= 1;
     })
     .filter((collection) => {
@@ -225,6 +236,7 @@ function renderCollections() {
         matchesGenre(firstFilm) &&
         matchesType(firstFilm) &&
         matchesStudio(firstFilm) &&
+        matchesLanguage(firstFilm) &&
         matchesQuality(firstFilm)
       );
     })
@@ -265,7 +277,10 @@ function renderCollections() {
     "collectionsCount",
     `${collectionList.length} collection${collectionList.length > 1 ? "s" : ""}`,
   );
-  setText("collectionsFilmsCount", `${uniqueFilms.size} films`);
+  setText(
+    "collectionsFilmsCount",
+    `${uniqueFilms.size} film${uniqueFilms.size > 1 ? "s" : ""}`,
+  );
 
   for (const collection of collectionList) {
     const card = document.createElement("article");

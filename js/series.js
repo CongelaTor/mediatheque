@@ -259,7 +259,6 @@ function renderSeries() {
   const grid = document.getElementById("seriesGrid");
   grid.innerHTML = "";
   const series = catalog.series
-    .filter((serie) => serieMatchesSeriesLanguages(serie))
     .filter(
       (serie) => currentAjouts !== "À compléter" || serie.hasMissingEpisodes,
     )
@@ -267,6 +266,7 @@ function renderSeries() {
     .filter((serie) => matchesGenre(serie))
     .filter((serie) => matchesType(serie))
     .filter((serie) => matchesStudio(serie))
+    .filter((serie) => serieMatchesSeriesLanguages(serie))
     .filter((serie) => matchesQuality(serie))
     .sort((a, b) => a.titre.localeCompare(b.titre, "fr"));
 

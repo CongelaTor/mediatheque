@@ -309,10 +309,10 @@ function updateStats() {
     const statRow = sideErreursEl.closest(".sidebar-stat");
     if (statRow) {
       statRow.style.cursor = "pointer";
-      statRow.title = "Filtrer par À corriger";
+      statRow.title = "Filtrer par Erreurs";
       statRow.onclick = () => {
         const erreursButton = document.querySelector(
-          '.sidebar-link[data-ajouts="À corriger"]',
+          '.sidebar-link[data-ajouts="Erreurs"]',
         );
         if (erreursButton) {
           erreursButton.click();

@@ -27,6 +27,18 @@ async function initFilmDetailPage() {
 
   await loadCatalog();
   await loadFilmSearchConfig();
+  initFiltersSidebar();
+  const globalFilms = new Set();
+  for (const film of catalog.films) {
+    if (!film.fichier && !film.nomFichier) {
+      continue;
+    }
+    const key = film.tmdbId
+      ? `tmdb:${film.tmdbId}`
+      : `title:${film.titre}|${film.annee || ""}`;
+    globalFilms.add(key);
+  }
+  setText("sideFilms", globalFilms.size);
   updateStats();
   initResumeButtons();
   updateResumeButtons();
@@ -154,6 +166,13 @@ async function initFilmDetailPage() {
   }
 }
 
+function openFilmsNouveautes() {
+  setActiveFilmsContext();
+ saveSidebarFiltersState({ ajouts: "Nouveautés" });
+  window.location.href = "films.html";
+}
+window.openFilmsNouveautes = openFilmsNouveautes;
+
 function showFilmMetadataChoices(field, label, choices, films) {
   const choicesContainer = document.getElementById("filmMetadataChoices");
   if (!choicesContainer.hidden && choicesContainer.dataset.field === field) {
@@ -258,10 +277,18 @@ function updateLanguageFilters(films) {
 function renderFilmFiles(films) {
   const panel = document.getElementById("filmFilesPanel");
   panel.innerHTML = "";
-  const filteredFilms = [...films].sort(
-    (a, b) => (a.taille || 0) - (b.taille || 0),
-  );
-
+  const filteredFilms = [...films]
+    .filter((film) => {
+      const filmAsGroup = { ...film, groupFiles: [film] };
+      return (
+        matchesGenre(filmAsGroup) &&
+        matchesType(filmAsGroup) &&
+        matchesStudio(filmAsGroup) &&
+        matchesLanguage(filmAsGroup) &&
+        matchesQuality(filmAsGroup)
+      );
+    })
+    .sort((a, b) => (a.taille || 0) - (b.taille || 0));
   setText(
     "film",
     `${filteredFilms.length} fichier${filteredFilms.length > 1 ? "s" : ""}`,
@@ -955,17 +982,18 @@ function createFilmFileCard(film) {
     : Boolean(film.genre);
   const hasValidType = Boolean(film.type);
   const films = catalog.films.filter((item) => item.tmdbId === film.tmdbId);
-  const hasTypeError =
-    !FILTER_TYPES.includes(film.type) ||
-    new Set(films.map((item) => item.type).filter(Boolean)).size > 1;
-  const hasGenreError =
-    new Set(
-      films.flatMap((item) =>
-        Array.isArray(item.genre) ? item.genre : item.genre ? [item.genre] : [],
-      ),
-    ).size > 1;
-  const hasStudioError =
-    new Set(films.map((item) => item.studio).filter(Boolean)).size > 1;
+
+const hasTypeError =
+    Array.isArray(film.type) ||
+    !film.type ||
+    !FILTER_TYPES.includes(film.type);
+  const hasGenreError = Array.isArray(film.genre)
+    ? film.genre.length !== 1 || !FILTER_GENRES.includes(film.genre[0])
+    : !film.genre || !FILTER_GENRES.includes(film.genre);
+  const hasStudioError = Array.isArray(film.studio)
+    ? film.studio.length !== 1 || !FILTER_STUDIOS.includes(film.studio[0])
+    : !film.studio || !FILTER_STUDIOS.includes(film.studio);
+
   const hasMetadataError = hasTypeError || hasGenreError || hasStudioError;
   fileTypeButton.classList.toggle("metadata-error", hasTypeError);
   fileGenreButton.classList.toggle("metadata-error", hasGenreError);
